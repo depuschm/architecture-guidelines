@@ -71,6 +71,10 @@ CI runs the same checks on every push and pull request, and runs the link check 
 
 Some sites return `403` to bots even when the page exists. They are listed in [`lychee.toml`](lychee.toml) under `exclude`. Check those links by hand, and only add a domain to the list after confirming in a browser that the page works.
 
-## 5. Changing the skills
+## 5. Licensing of contributions
+
+By contributing, you agree that guideline content is licensed under [CC BY 4.0](LICENSE), and code and skills under [MIT](LICENSE-CODE), as described in the [README](README.md#license).
+
+## 6. Changing the skills
 
 Skills live in `skills/<name>/SKILL.md` ([Agent Skills format](https://agentskills.io/specification)). Keep the `name` field equal to the folder name. Keep `description` under 1024 characters and lead with what the skill does and when to use it. Skills must cite guideline files and their sources, and must not invent rules or links.

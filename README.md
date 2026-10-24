@@ -82,3 +82,10 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 1. **Reference first.** Link to an existing guideline before writing a new one.
 2. **Every rule has a source.** Each list item in `general/` and `specific/` must contain a link. CI enforces this with [`scripts/check_citations.py`](scripts/check_citations.py).
 3. **Links must work.** CI runs [lychee](https://lychee.cli.rs/) on every push and once a week.
+
+## License
+
+- **Guideline content and documentation** (`general/`, `specific/` and the Markdown files at the root) is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+- **Code and AI skills** (`scripts/`, `skills/`, `.claude/`, `.claude-plugin/`, `.github/` and config files) are licensed under the [MIT License](LICENSE-CODE).
+- The MADR template in [`skills/architecture-decision-record/template.md`](skills/architecture-decision-record/template.md) keeps its original license, MIT OR CC0-1.0.
+- Linked third-party sources keep their own licenses. This repository links to them and summarises them. It doesn't copy them.

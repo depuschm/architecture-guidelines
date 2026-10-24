@@ -4,5 +4,6 @@
   "version": "0.1.0",
   "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, .NET, Android, Flutter, React, Kubernetes and AWS), with skills for architecture reviews, ADRs, C4 diagrams and Unity architecture.",
   "repository": "https://github.com/depuschm/architecture-guidelines",
+  "license": "CC-BY-4.0 AND MIT",
   "keywords":["architecture", "design-review", "adr", "c4", "unity", "guidelines"]
 }

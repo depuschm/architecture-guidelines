@@ -1,0 +1,8 @@
+{
+  "name": "architecture-guidelines",
+  "displayName": "Architecture Guidelines",
+  "version": "0.1.0",
+  "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, .NET, Android, Flutter, React, Kubernetes and AWS), with skills for architecture reviews, ADRs, C4 diagrams and Unity architecture.",
+  "repository": "https://github.com/depuschm/architecture-guidelines",
+  "keywords":["architecture", "design-review", "adr", "c4", "unity", "guidelines"]
+}

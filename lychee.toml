@@ -1,0 +1,28 @@
+# Link checker configuration for lychee: https://lychee.cli.rs/
+# Run locally: lychee --config lychee.toml './**/*.md'
+
+max_concurrency = 8
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+
+# developer.android.com redirects through a sign-in check that only completes with cookies.
+cookie_jar = ".lychee-cookies.json"
+
+# 429 = rate limited (e.g. YouTube, GitHub); the page exists.
+accept = ["200..=299", "429"]
+
+exclude = [
+  # Sites that answer automated requests with 403 even though the pages exist.
+  # Check these by hand before adding or changing them (see CONTRIBUTING.md).
+  '^https://www\.cisa\.gov/',
+  '^https://doi\.org/10\.1145/',
+  '^https://dl\.acm\.org/',
+  # Template placeholders.
+  '^https://example\.com/',
+]
+
+exclude_path = [
+  '(^|/)specific/_template/',
+]

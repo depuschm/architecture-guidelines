@@ -1,0 +1,14 @@
+{
+  "name": "architecture-guidelines",
+  "description": "Architecture guidelines and the skills that apply them.",
+  "owner": {
+    "name": "depuschm"
+  },
+  "plugins": [
+    {
+      "name": "architecture-guidelines",
+      "source": ".",
+      "description": "Source-linked architecture guidelines with skills for architecture reviews, ADRs, C4 diagrams and Unity architecture."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# AWS
+
+Scope: workloads on Amazon Web Services.
+
+## Adopted references
+
+- [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html): **the baseline, used for every workload review.** Its [pillars](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) each have a detailed whitepaper:
+  - [Operational excellence](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html)
+  - [Security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
+  - [Reliability](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html)
+  - [Performance efficiency](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html)
+  - [Cost optimization](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html)
+  - [Sustainability](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html)
+- Well-Architected lenses for specific workloads, for example the [Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) and the [Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html).
+- [AWS Architecture Center](https://aws.amazon.com/architecture/): reference architectures and diagrams.
+- [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html).
+- [AWS Builders' Library](https://aws.amazon.com/builders-library/): how Amazon designs and operates its own services.
+- [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) (whitepaper).
+- [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html).
+
+## Key rules
+
+- **Review each workload against the Well-Architected Framework early in design and before go-live, and again after significant architecture changes.** ([AWS Well-Architected, The review process](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-review-process.html))
+- **Use a multi-account structure with AWS Organizations, separating workloads and environments into their own accounts.** ([Organizing your AWS environment](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html))
+- **Set organisation-wide guardrails with service control policies.** ([AWS Organizations, SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html))
+- **Apply least privilege, and use temporary credentials (federation and roles) instead of long-term access keys.** ([IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html))
+- **Design for Availability Zone failure, and understand AWS fault isolation boundaries.** ([AWS fault isolation boundaries](https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/abstract-and-introduction.html), [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/))
+- **Choose a disaster recovery strategy from your RTO and RPO: backup and restore, pilot light, warm standby, or multi-site active/active.** ([Disaster recovery of workloads on AWS](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html))
+- **Define all infrastructure as code.** With the CDK, follow its best practices for structuring apps, constructs and stacks. ([AWS CDK best practices](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html))
+- **In Lambda functions, separate the handler from the core logic, and reuse the execution environment for clients and connections.** ([AWS Lambda best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html), handler best practices for [C#](https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html) and [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html))
+- **Tag resources consistently for ownership, cost allocation and automation.** ([Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html))
+- **Contain the blast radius of failures with cell-based or shuffle-sharded designs where scale demands it.** Cells add complexity and cost, so reserve them for systems that are too big or too critical to fail. ([Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html), [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/))
+
+## Tutorials and further reading
+
+- [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/): hands-on labs, now mainly for cost optimisation (Cloud Intelligence Dashboards, CUR queries) and the Well-Architected Tool.
+- [Serverless Land](https://serverlessland.com/): serverless patterns and workshops.
+- [AWS Skill Builder](https://skillbuilder.aws/): official training.
+- [AWS multi-Region fundamentals](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/).

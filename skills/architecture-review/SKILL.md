@@ -1,0 +1,110 @@
+---
+name: architecture-review
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for Unity, .NET, Android, Flutter, React, Kubernetes and AWS). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+argument-hint: "[path | PR/branch | design doc]"
+---
+
+# Architecture review
+
+Review the target against this repository's guidelines. Each finding has to be traceable to a written rule and its source.
+
+## Locate the guidelines
+
+The guidelines root is `${CLAUDE_PLUGIN_ROOT}`. If that placeholder wasn't replaced with a path (the skill isn't running as a plugin), the root is two directories above this `SKILL.md` file. You need:
+
+- `<root>/general/README.md`: the index of general guidelines
+- `<root>/specific/<platform>/`: the platform guidelines
+
+## 1. Scope
+
+Work out what to review from the request (`$ARGUMENTS` if given):
+
+- **Whole repository or a directory**: map the structure first, then go deep where risk is highest.
+- **Pull request or branch**: review the diff (`git diff <base>...HEAD`), and judge it against the existing architecture.
+- **Design document**: review the proposal itself, and ask for the missing information you need.
+
+If the scope is unclear and the repository is large, ask once. Otherwise state your assumption and continue.
+
+## 2. Detect platforms
+
+| Platform | Signals | Guidelines |
+| --- | --- | --- |
+| Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep Unity work, use the `unity-architecture` skill |
+| .NET | `*.sln`, `*.slnx`, `*.csproj` (outside a Unity project) | `specific/dotnet/` |
+| Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |
+| Flutter | `pubspec.yaml` that depends on the `flutter` SDK | `specific/flutter/` |
+| React | `package.json` with a `react` dependency | `specific/react/` |
+| Kubernetes | YAML files with `apiVersion:` and `kind:`, `Chart.yaml`, `kustomization.yaml` | `specific/kubernetes/` |
+| AWS | `cdk.json`, CloudFormation/SAM templates with `AWS::` types, Terraform `provider "aws"` | `specific/aws/` |
+
+A repository can match several platforms. Unity projects contain generated `.csproj` files, so don't apply the ASP.NET Core rules to them.
+
+## 3. Load the relevant guidelines
+
+Always read `general/principles.md` and `general/architecture-styles.md`. Add the other general files that match what you find:
+
+| You find | Read |
+| --- | --- |
+| HTTP/gRPC endpoints, public SDKs, message schemas | `general/api-design.md` |
+| Databases, migrations, events between services | `general/data.md` |
+| Deployment config, retries/timeouts, monitoring | `general/operations-reliability.md` |
+| Auth, secrets, user data, dependencies | `general/security.md` |
+| Tests, CI pipelines | `general/testing-delivery.md` |
+| LLM or ML calls, agents | `general/ai-systems.md` |
+| Complex business logic | `general/domain-driven-design.md` |
+| ADRs and architecture docs (or their absence) | `general/decisions.md`, `general/documentation.md` |
+| Quality requirements, SLOs | `general/quality-attributes.md` |
+
+Then read the platform folders. Where a platform file adopts an external checklist (for example the Android or Flutter recommendation pages), use that checklist. Fetch it if you have web access.
+
+## 4. Gather evidence
+
+Map before you judge:
+
+- Top-level structure and the module/package/assembly boundaries (`.asmdef`, `ProjectReference`, Gradle modules, workspace packages, import paths).
+- **Dependency direction**: which modules reference which. Look for cycles, and for domain code that depends on UI, framework or infrastructure code.
+- Entry points, configuration and secret handling, external integrations.
+- Tests: whether they exist, what kinds, and whether CI runs them.
+- Architecture documentation: ADRs, diagrams, README.
+
+In large repositories, sample representative files instead of reading everything. Record file paths and line numbers as you go.
+
+## 5. Evaluate
+
+- Report only findings that map to a rule in the loaded guideline files. Quote the rule title as written.
+- Copy source links **exactly** from the guideline file. Never invent a rule or a URL.
+- Keep evidence (what the code does) separate from judgement (why it matters).
+- Note what's done well, briefly. It tells the team what to keep.
+- Put observations that no guideline covers in a separate section, marked as opinion.
+
+Severity:
+
+- **High**: likely to cause incidents, security exposure or data loss, or it blocks planned change.
+- **Medium**: raises the cost of change, or erodes a boundary.
+- **Low**: inconsistency or hygiene.
+
+## 6. Report
+
+Use this structure:
+
+```markdown
+## Architecture review: <scope>
+
+**Platforms:** <detected> · **Guidelines applied:** <list of guideline files>
+
+### Summary
+<2–4 sentences: overall shape, top risks, strengths>
+
+### Findings
+| # | Severity | Finding | Evidence | Guideline | Source |
+| --- | --- | --- | --- | --- | --- |
+| 1 | High | <what is wrong and why it matters> | `path/to/file.cs:42` | `general/data.md`: "Give each service or module exclusive ownership of its data" | [microservices.io, Database per service](https://microservices.io/patterns/data/database-per-service.html) |
+
+### Recommendations
+1. <Concrete next step, linked to finding numbers. For decisions with real trade-offs, suggest an ADR (see the `architecture-decision-record` skill).>
+
+### Not covered by the guidelines
+- <Observation (opinion, no source)> → candidate for a new guideline
+```
+
+Don't change code during a review unless the user asks.

@@ -18,7 +18,7 @@ The Flutter team publishes an official architecture guide. **Follow it as-is.**
 - **Make repositories the source of truth for app data, with services that wrap external APIs.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
 - **Use unidirectional data flow and immutable data models.** ([Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations))
 - **Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers.** ([Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command), [Result pattern](https://docs.flutter.dev/app-architecture/design-patterns/result))
-- **Pick one state management approach for the app and use it consistently.** ([Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options))
+- **Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state.** ([Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options), [Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app))
 - **Cover logic with unit tests, widgets with widget tests, and critical flows with integration tests.** ([Flutter, Testing overview](https://docs.flutter.dev/testing/overview))
 
 ## Tutorials and further reading

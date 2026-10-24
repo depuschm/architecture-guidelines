@@ -14,11 +14,11 @@ Folders, assemblies, packages and version control.
 
 - **Agree on one folder structure and naming convention, write it down, and keep your own assets separate from third-party assets.** ([Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project))
 - **Know Unity's reserved folder names (`Editor`, `Resources`, `StreamingAssets`, `Plugins`, …) and use them only for their purpose.** ([Unity Manual, Special folder names](https://docs.unity3d.com/Manual/SpecialFolders.html))
-- **Apply the C# naming and style conventions from Unity's style guide consistently, and enforce them in code review.** ([Unity, Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity), [C# style guide e-book](https://unity.com/resources/create-code-c-sharp-style-guide-e-book))
+- **Agree on a team C# style guide, starting from Unity's example and adapting it. Apply it consistently, and enforce formatting with an EditorConfig file.** ([C# style guide e-book (Unity 6 edition)](https://unity.com/resources/c-sharp-style-guide-unity-6), [Unity, Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity))
 
 ### Assemblies and packages
 
-- **Split code into assemblies with Assembly Definition files once the project grows.** Only changed assemblies recompile, and references between assemblies have to be declared, which makes dependency direction explicit. ([Unity Manual, Introduction to assemblies](https://docs.unity3d.com/Manual/assembly-definitions-intro.html), [Assembly definitions](https://docs.unity3d.com/Manual/assembly-definition-files.html))
+- **Split code into assemblies with Assembly Definition files once the project grows.** This cuts recompilation time. A custom assembly can only use the assemblies it references, and cyclic references aren't allowed, which makes dependency direction explicit. ([Unity Manual, Introduction to assemblies](https://docs.unity3d.com/Manual/assembly-definitions-intro.html), [Referencing assemblies](https://docs.unity3d.com/Manual/assembly-definitions-referencing.html))
 - **Mirror the architecture in assemblies, for example `Game.Core` (no engine-specific dependencies where practical), `Game.Gameplay`, `Game.UI`, `Game.Editor` and `*.Tests`, so that wrong-way references fail to compile.** ([Unity Manual, Assembly definitions](https://docs.unity3d.com/Manual/assembly-definition-files.html), [general: point dependencies inwards](../../general/architecture-styles.md))
 - **Move systems that several projects share into custom UPM packages that follow the standard package layout.** ([Unity Manual, Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html), [Package layout](https://docs.unity3d.com/Manual/cus-layout.html))
 
@@ -30,4 +30,4 @@ Folders, assemblies, packages and version control.
 
 ### Iteration speed
 
-- **Consider turning off domain and scene reload on entering Play Mode for faster iteration.** If you do, reset static state yourself, because static fields keep their values between play sessions. ([Unity Manual, Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html), [Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html))
+- **Enter Play mode without domain reload for faster iteration.** This is the default and Unity's recommendation from Unity 6.6. In 6.0–6.5, choose *Reload Scene only*. Reset static state yourself, because static fields and static event subscribers keep their values between Play mode sessions. ([Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html), [Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html))

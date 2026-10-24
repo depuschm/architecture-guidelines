@@ -52,7 +52,7 @@ Collect evidence with these checks, then evaluate it against the rules.
 | Events | Compare `+=` subscriptions in `OnEnable`/`Awake`/`Start` with the matching `-=` in `OnDisable`/`OnDestroy` |
 | Content loading | Grep `Resources.Load`. Compare Addressables `LoadAssetAsync`/`InstantiateAsync` calls with `Release`/`ReleaseInstance` calls |
 | Per-frame code | Look for allocations (`new List`, LINQ, string concatenation, `GetComponent`) inside `Update`, `FixedUpdate` and `LateUpdate` |
-| Play Mode options | If `m_EnterPlayModeOptionsEnabled: 1` is set in `EditorSettings.asset`, check that static state is reset, for example with `[RuntimeInitializeOnLoadMethod]` |
+| Play Mode options | If domain reload is off (the default from Unity 6.6; in older versions, `m_EnterPlayModeOptionsEnabled: 1` in `EditorSettings.asset`), check that static fields and static event subscriptions are reset, for example with `[RuntimeInitializeOnLoadMethod]` |
 | Tests | Find test assemblies (asmdefs that reference the test runner or NUnit) and count `[Test]` and `[UnityTest]`. Check whether CI runs them |
 
 Treat grep hits as leads, not verdicts. Read the code before reporting a finding.

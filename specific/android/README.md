@@ -18,7 +18,7 @@ Google's official architecture guidance is comprehensive. **Follow it as-is.** T
 - **Keep a single source of truth for each data type, and use unidirectional data flow: state flows down, events flow up.** ([Guide to app architecture](https://developer.android.com/topic/architecture))
 - **Expose UI state from ViewModels as observable streams, and keep UI elements free of business logic.** ([UI layer](https://developer.android.com/topic/architecture/ui-layer), [ViewModel overview](https://developer.android.com/topic/libraries/architecture/viewmodel))
 - **Access data only through repositories in the data layer.** ([Data layer](https://developer.android.com/topic/architecture/data-layer))
-- **Build offline-first where possible, with the local database as the source of truth.** ([Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first))
+- **Build offline-first where possible, with the local database as the source of truth.** ([Guide to app architecture](https://developer.android.com/topic/architecture), [Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first))
 - **Use dependency injection (Hilt).** ([Dependency injection in Android](https://developer.android.com/training/dependency-injection), [Hilt](https://developer.android.com/training/dependency-injection/hilt-android))
 - **Follow the coroutine best practices: inject dispatchers, make suspend functions main-safe, and don't expose mutable state.** ([Best practices for coroutines](https://developer.android.com/kotlin/coroutines/coroutines-best-practices))
 - **Modularise by feature and layer as the app and team grow.** ([Modularization guide](https://developer.android.com/topic/modularization))

@@ -37,7 +37,7 @@ scripts/            Repository checks (citation rule)
 
 | Platform | Main adopted guide |
 | --- | --- |
-| [Unity](specific/unity/README.md) | [Unity e-books and Unity Learn design patterns course](https://unity.com/how-to/advanced-programming-and-code-architecture) |
+| [Unity](specific/unity/README.md) | [Unity best practice guides and e-books](https://docs.unity3d.com/Manual/best-practice-guides.html) |
 | [.NET / ASP.NET Core](specific/dotnet/README.md) | [.NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) |
 | [Android](specific/android/README.md) | [Guide to app architecture](https://developer.android.com/topic/architecture) |
 | [Flutter](specific/flutter/README.md) | [Flutter app architecture guide](https://docs.flutter.dev/app-architecture) |

@@ -4,8 +4,8 @@ How to structure gameplay and application code so it stays changeable as the pro
 
 ## Adopted references
 
-- [Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook) and the [Design patterns course (Unity 6)](https://learn.unity.com/course/design-patterns-unity-6): **the baseline for patterns in Unity C#.**
-- [Create modular game architecture with ScriptableObjects](https://unity.com/resources/create-modular-game-architecture-with-scriptable-objects-ebook): **the baseline for ScriptableObject-based architecture.**
+- [Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook) and its [demo project](https://github.com/Unity-Technologies/game-programming-patterns-demo): **the baseline for patterns in Unity C#.**
+- [Create modular game architecture with ScriptableObjects (Unity 6 edition)](https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6): **the baseline for ScriptableObject-based architecture.**
 - [How to architect code as your project scales](https://unity.com/how-to/how-architect-code-your-project-scales) (Unity).
 - [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) (Robert Nystrom).
 
@@ -27,7 +27,7 @@ How to structure gameplay and application code so it stays changeable as the pro
 ### Dependencies and communication
 
 - **Decouple systems with events.** Use C# events or UnityEvents for local wiring, and ScriptableObject event channels between scenes and systems. ([Unity Learn, Observer pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/create-modular-and-maintainable-code-with-the-observer-pattern), [Unity, ScriptableObject event channels](https://unity.com/how-to/scriptableobjects-event-channels-game-code), [Unity Manual, UnityEvents](https://docs.unity3d.com/Manual/unity-events.html))
-- **Make dependencies explicit through serialized references, constructor or method injection, or a DI container (for example VContainer), rather than singletons and scene-wide `Find` lookups everywhere.** ([Unity, Architect your code with ScriptableObjects](https://unity.com/how-to/architect-game-code-scriptable-objects), [VContainer](https://vcontainer.hadashikick.jp/), [general: make dependencies explicit](../../general/principles.md))
+- **Make dependencies explicit through serialized references, constructor or method injection, or a DI container (for example VContainer), rather than singletons and scene-wide `Find` lookups everywhere.** ([Unity, Architect your code with ScriptableObjects](https://unity.com/how-to/architect-game-code-scriptable-objects), [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html), [VContainer](https://vcontainer.hadashikick.jp/), [general: make dependencies explicit](../../general/principles.md))
 - **Don't rely on the order in which Unity calls the same event function (`Awake`, `Start`, …) on different objects.** Initialise in explicit phases or set Script Execution Order deliberately. ([Unity Manual, Order of execution for event functions](https://docs.unity3d.com/Manual/execution-order.html))
 
 ### Async and scale

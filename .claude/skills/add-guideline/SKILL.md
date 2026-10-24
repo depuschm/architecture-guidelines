@@ -24,7 +24,7 @@ Search for authoritative sources, in this order: official vendor documentation, 
 
 For each URL you add:
 
-1. Fetch it and confirm it loads (HTTP 200 after redirects). Watch for soft 404s, where the site redirects to its home page or shows a "not found" page with status 200.
+1. Fetch it and confirm it loads (HTTP 200 after redirects). Watch for soft 404s: the site redirects to its home page or to a "deprecated" or "no longer available" page, or it shows a "not found" page with status 200. Compare the final URL with the one you requested.
 2. Confirm the page actually supports the statement you attach to it. Quote it to yourself before writing the rule.
 3. If the URL permanently redirects, use the final, canonical URL.
 4. Link to the most specific page, not a site's home page.

@@ -60,7 +60,9 @@ Always read `general/principles.md` and `general/architecture-styles.md`. Add th
 | HTTP/gRPC endpoints, public SDKs, message schemas | `general/api-design.md` |
 | Databases, migrations, events between services | `general/data.md` |
 | Deployment config, retries/timeouts, monitoring | `general/operations-reliability.md` |
-| Auth, secrets, user data, dependencies | `general/security.md` |
+| Auth, secrets, user data, dependencies | `general/security.md`, and `general/authentication.md` for sign-in and sessions |
+| Versioning, tags, release pipelines, changelogs | `general/releases.md` |
+| Repository layout, monorepo tooling, CODEOWNERS, branch rules | `general/repositories.md` |
 | Tests, CI pipelines | `general/testing-delivery.md` |
 | LLM or ML calls, agents | `general/ai-systems.md` |
 | Complex business logic | `general/domain-driven-design.md` |

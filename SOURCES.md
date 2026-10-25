@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-67 sources.
+73 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -20,6 +20,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 10 | [NIST, SP 800-63B-4, Authentication and Authenticator Management](https://pages.nist.gov/800-63-4/sp800-63b.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -49,11 +50,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Google SRE books](https://sre.google/books/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Kubernetes, Security checklist](https://kubernetes.io/docs/concepts/security/security-checklist/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 9 | [Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 9 | [MADR: Markdown Architectural Decision Records](https://adr.github.io/madr/) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 9 | [Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 9 | [Next.js, How to think about data security in Next.js](https://nextjs.org/docs/app/guides/data-security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 9 | [NIST SP 800-63B-4, Passwords](https://pages.nist.gov/800-63-4/sp800-63b.html#password) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Node.js, Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Node.js, Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Now in Android (reference app)](https://github.com/android/nowinandroid) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -65,9 +68,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 9 | [OWASP Top 10](https://top10.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 9 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) | [general/ai-systems](general/ai-systems.md), [general/security](general/security.md) | 2026-10-24 |
+| 9 | [OWASP, ASVS 5.0, V6 Authentication](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x15-V6-Authentication.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 9 | [OWASP, ASVS 5.0, V7 Session Management](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x16-V7-Session-Management.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [OWASP, Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [PyPA, Python Packaging User Guide](https://packaging.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 9 | [RFC 9700, section 2: Best Practices](https://www.rfc-editor.org/rfc/rfc9700#section-2) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 9 | [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -81,7 +87,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-801 sources.
+888 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -123,6 +129,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Docker, Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 8 | [Docker, Pin base image versions](https://docs.docker.com/build/building/best-practices/#pin-base-image-versions) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 8 | [DORA metrics guide](https://dora.dev/guides/dora-metrics/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 8 | [DORA, Capabilities: Trunk-based development](https://dora.dev/capabilities/trunk-based-development/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [Effective Dart](https://dart.dev/effective-dart) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 8 | [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) | [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Epic Games, Data Validation in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-validation-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
@@ -144,6 +151,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Fowler, CQRS](https://martinfowler.com/bliki/CQRS.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [Fowler, Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 8 | [Fowler, Monolith First](https://martinfowler.com/bliki/MonolithFirst.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
+| 8 | [Fowler, Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [Fowler, Strangler Fig](https://martinfowler.com/bliki/StranglerFigApplication.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [Fowler, Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Fowler, What do you mean by "Event-Driven"?](https://martinfowler.com/articles/201701-event-driven.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -180,6 +188,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [HashiCorp, State: remote storage](https://developer.hashicorp.com/terraform/language/state/remote) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Version constraints](https://developer.hashicorp.com/terraform/language/expressions/version-constraints) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [Hodgson, Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 8 | [IETF, RFC 10017: OAuth 2.0 for Browser-Based Applications](https://www.rfc-editor.org/rfc/rfc10017) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Kleppmann, Designing Data-Intensive Applications (book)](https://dataintensive.net/) | [general/data](general/data.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Kubernetes, Configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Good practices for Secrets](https://kubernetes.io/docs/concepts/security/secrets-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -209,6 +218,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Next.js, How to use environment variables in Next.js](https://nextjs.org/docs/app/guides/environment-variables) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [Next.js, Server Actions and Mutations: Security](https://nextjs.org/docs/app/guides/server-actions#security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [NIST Secure Software Development Framework (SP 800-218)](https://csrc.nist.gov/pubs/sp/800/218/final) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [NIST SP 800-63B-4, AAL2 requirements](https://pages.nist.gov/800-63-4/sp800-63b.html#aal2req) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [NIST SP 800-63B-4, Account recovery](https://pages.nist.gov/800-63-4/sp800-63b.html#recovery) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [NIST SP 800-63B-4, Password verifiers](https://pages.nist.gov/800-63-4/sp800-63b.html#passwordver) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Node.js, Node.js Releases (release phases and LTS)](https://nodejs.org/en/about/previous-releases) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 8 | [Node.js, Process: Warning: Using 'uncaughtException' correctly](https://nodejs.org/api/process.html#warning-using-uncaughtexception-correctly) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 8 | [Node.js, Security Best Practices: Supply chain attacks](https://nodejs.org/learn/getting-started/security-best-practices#supply-chain-attacks) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -216,19 +228,32 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Nuxt, Rendering modes: hybrid rendering](https://nuxt.com/docs/4.x/guide/concepts/rendering#hybrid-rendering) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Nuxt, Runtime config](https://nuxt.com/docs/4.x/guide/going-further/runtime-config) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Nuxt, State management: best practices](https://nuxt.com/docs/4.x/getting-started/state-management#best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [OpenID Connect Core 1.0, Claim stability and uniqueness](https://openid.net/specs/openid-connect-core-1_0.html#ClaimStability) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OpenID Foundation, OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [OWASP API Security Top 10](https://api-security.owasp.org/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 8 | [OWASP Authentication Cheat Sheet, Secure federated account linking](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#secure-federated-account-linking) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OWASP Docker Security, Rule #1: Do not expose the Docker daemon socket](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-1-do-not-expose-the-docker-daemon-socket-even-to-the-containers) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 8 | [OWASP Docker Security, Rule #2: Set a user](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-2-set-a-user) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 8 | [OWASP Docker Security, Rule #9: Integrate container scanning into CI/CD](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-9-integrate-container-scanning-tools-into-your-cicd-pipeline) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [OWASP Multifactor Authentication Cheat Sheet, Quick recommendations](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#quick-recommendations) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [OWASP Session Management Cheat Sheet, Cookies](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#cookies) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OWASP Session Management Cheat Sheet, Renew the session ID after any privilege level change](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#renew-the-session-id-after-any-privilege-level-change) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OWASP Session Management Cheat Sheet, Session expiration](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#session-expiration) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OWASP Session Management Cheat Sheet, The localStorage API](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#the-localstorage-api) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [OWASP, ASVS 5.0, V10 OAuth and OIDC](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x19-V10-OAuth-and-OIDC.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OWASP, Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [OWASP, Multifactor Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OWASP, Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OWASP, Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Pinia, Introduction](https://pinia.vuejs.org/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [PyPA, Writing your pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python Developer's Guide, Status of Python versions](https://devguide.python.org/versions/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -243,9 +268,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 8 | [RFC 10017, section 6.1: Backend for Frontend (BFF)](https://www.rfc-editor.org/rfc/rfc10017#section-6.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 8 | [Semantic Versioning](https://semver.org/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 8 | [Semantic Versioning](https://semver.org/) | [general/api-design](general/api-design.md), [general/releases](general/releases.md) | 2026-10-24 |
+| 8 | [Semantic Versioning 2.0.0, Specification](https://semver.org/#semantic-versioning-specification-semver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 8 | [Software Engineering at Google, chapter 16: The One-Version Rule](https://abseil.io/resources/swe-book/html/ch16.html#the_quotation_markone_versionquotation) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [Svelte, $effect: when not to use $effect](https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -291,6 +320,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Vue.js, State management: Pinia](https://vuejs.org/guide/scaling-up/state-management.html#pinia) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Using Vue with TypeScript](https://vuejs.org/guide/typescript/overview.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3](https://www.w3.org/TR/webauthn-3/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [web.dev, Baseline](https://web.dev/baseline) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, Learn Performance](https://web.dev/learn/performance) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, Mitigate cross-site scripting (XSS) with a strict Content Security Policy (CSP)](https://web.dev/articles/strict-csp) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -354,6 +384,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Clemson, Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 7 | [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Dart, customizing static analysis](https://dart.dev/tools/analysis) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Deque, axe-core rule descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -423,6 +454,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Game Accessibility Guidelines, Basic](https://gameaccessibilityguidelines.com/basic/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Game Accessibility Guidelines, Why and how](https://gameaccessibilityguidelines.com/why-and-how/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Git LFS](https://git-lfs.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [GitHub Docs, About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [GitHub Docs, About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [GitHub Docs, About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) | [general/releases](general/releases.md), [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [GitHub Docs, Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, CodeQL query help for GitHub Actions](https://codeql.github.com/codeql-query-help/actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Configuring OpenID Connect in cloud providers](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -456,7 +491,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google Cloud, Best practices for Terraform operations](https://docs.cloud.google.com/docs/terraform/best-practices/operations) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for Terraform root modules](https://docs.cloud.google.com/docs/terraform/best-practices/root-modules) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for Terraform security](https://docs.cloud.google.com/docs/terraform/best-practices/security) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [Google Engineering Practices, Small CLs](https://google.github.io/eng-practices/review/developer/small-cls.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [Google Engineering Practices, Speed of code reviews](https://google.github.io/eng-practices/review/reviewer/speed.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [Google for Developers, Passkeys developer guide](https://developers.google.com/identity/passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [Google, Site Reliability Engineering, chapter 8: Release Engineering](https://sre.google/sre-book/release-engineering/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Gregory, Game Engine Architecture (book)](https://www.gameenginebook.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -473,6 +512,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [HashiCorp, Tests (Terraform configuration language)](https://developer.hashicorp.com/terraform/language/tests) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Helm chart best practices](https://helm.sh/docs/chart_best_practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [IAM Access Analyzer, policy validation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
+| 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745) | [general/releases](general/releases.md) | 2026-10-25 |
+| 7 | [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Kubernetes tutorials](https://kubernetes.io/docs/tutorials/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Configure liveness, readiness and startup probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -483,6 +524,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Martin, The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Martin, The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [MDN Learn, Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [MDN, Set-Cookie header: Cookie prefixes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#cookie_prefixes) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [MDN, Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -515,6 +557,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [NIST SP 800-190, Application Container Security Guide](https://csrc.nist.gov/pubs/sp/800/190/final) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [NIST SP 800-207, Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [NIST SP 800-63B-4, Rate limiting (throttling)](https://pages.nist.gov/800-63-4/sp800-63b.html#throttle) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Node.js Best Practices, 1.1 Structure your solution by business components](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js Best Practices, 8.6 Shutdown smartly and gracefully](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/graceful-shutdown.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js, Command-line API: --unhandled-rejections](https://nodejs.org/api/cli.html#--unhandled-rejectionsmode) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -526,11 +569,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Nuxt, Data fetching: minimize payload size](https://nuxt.com/docs/4.x/getting-started/data-fetching#minimize-payload-size) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Nuxt, Nuxt and hydration (best practices)](https://nuxt.com/docs/4.x/guide/best-practices/hydration) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Nuxt, Nuxt performance (best practices)](https://nuxt.com/docs/4.x/guide/best-practices/performance) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Nx, Enforce Module Boundaries rule](https://nx.dev/docs/kb/enforce-module-boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [OpenGitOps principles](https://opengitops.dev/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [OpenTofu, Language documentation](https://opentofu.org/docs/language/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [OWASP Authentication Cheat Sheet, Authentication responses](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Authentication Cheat Sheet, Implement proper password strength controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Authentication Cheat Sheet, Login throttling](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login-throttling) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Authentication Cheat Sheet, Require re-authentication for sensitive features](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#require-re-authentication-for-sensitive-features) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Docker Security, Rule #12: Utilize Docker Secrets](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-12-utilize-docker-secrets-for-sensitive-data-management) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Docker Security, Rule #13: Enhance supply chain security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-13-enhance-supply-chain-security) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Docker Security, Rule #3: Limit capabilities](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-3-limit-capabilities-grant-only-specific-capabilities-needed-by-a-container) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -538,7 +586,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP Docker Security, Rule #8: Set filesystem and volumes to read-only](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-8-set-filesystem-and-volumes-to-read-only) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Microservices Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [OWASP Multifactor Authentication Cheat Sheet, Passkeys](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Multifactor Authentication Cheat Sheet, Primary phishing-resistant control](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#general-mitigation-primary-phishing-resistant-control) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Passkey Security Cheat Sheet, Account recovery and bootstrap](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html#account-recovery-and-bootstrap) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Passkey Security Cheat Sheet, Use a maintained library](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html#use-a-maintained-library) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Secure Product Design Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [OWASP Session Management Cheat Sheet, Built-in session management implementations](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#built-in-session-management-implementations) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Session Management Cheat Sheet, Logout button](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#logout-button) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP, Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP, OAuth 2.0 Protocol Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP, Passkey Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Pact](https://docs.pact.io/) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Pact, can-i-deploy](https://docs.pact.io/pact_broker/can_i_deploy) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules](https://doi.org/10.1145/361598.361623) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -548,6 +605,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Pinia, Why should I use Pinia?](https://pinia.vuejs.org/introduction.html#Why-should-I-use-Pinia-) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs](https://pip.pypa.io/en/stable/topics/secure-installs/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs: Hash-checking mode](https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Potvin and Levenberg, Why Google Stores Billions of Lines of Code in a Single Repository (CACM, 2016)](https://research.google/pubs/why-google-stores-billions-of-lines-of-code-in-a-single-repository/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Production best practices checklist](https://learnkube.com/production-best-practices) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Protocol Buffers, dos and don'ts](https://protobuf.dev/best-practices/dos-donts/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Pydantic, Settings Management](https://pydantic.dev/docs/validation/latest/concepts/pydantic_settings/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -567,6 +625,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [react.dev, Reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Sharing state between components](https://react.dev/learn/sharing-state-between-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [Release It!, 2nd edition](https://pragprog.com/titles/mnee2/release-it-second-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 7 | [RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)](https://www.rfc-editor.org/rfc/rfc10017#section-7.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Richards and Ford, Fundamentals of Software Architecture (book)](https://fundamentalsofsoftwarearchitecture.com/) | [general/quality-attributes](general/quality-attributes.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Robinson, Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
@@ -574,10 +633,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Sculley et al., Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Sebastian Markbåge (Next.js blog), How to Think About Security in Next.js](https://nextjs.org/blog/security-nextjs-server-components-actions) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [SEI, ATAM: Method for Architecture Evaluation](https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
+| 7 | [Semantic Versioning FAQ, How should I handle deprecating functionality?](https://semver.org/#how-should-i-handle-deprecating-functionality) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Shopify Engineering, Deconstructing the Monolith](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Sigstore, Signing containers](https://docs.sigstore.dev/cosign/signing/signing_with_containers/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Skelton and Pais, Team Topologies (book)](https://teamtopologies.com/book) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [SLSA supply-chain framework](https://slsa.dev/) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [Software Engineering at Google, chapter 16: Monorepos](https://abseil.io/resources/swe-book/html/ch16.html#monorepos) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [Software Engineering at Google, chapter 21: Dependency Management](https://abseil.io/resources/swe-book/html/ch21.html) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Svelte CLI, sv check](https://svelte.dev/docs/cli/sv-check) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, Best practices: $props](https://svelte.dev/docs/svelte/best-practices#$props) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -670,14 +732,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 6 | [buf breaking, rules and categories](https://buf.build/docs/breaking/rules/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [CalVer, Calendar Versioning](https://calver.org/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [CalVer, When to use CalVer?](https://calver.org/#when-to-use-calver) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [CodeQL, Sensitive server cookie exposed to the client (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-client-exposed-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 6 | [commitlint, Guide: CI setup](https://commitlint.js.org/guides/ci-setup) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
-| 6 | [dependency-cruiser, rules reference: group matching](https://github.com/sverweij/dependency-cruiser/blob/main/doc/rules-reference.md#group-matching) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [dependency-cruiser, rules reference: group matching](https://github.com/sverweij/dependency-cruiser/blob/main/doc/rules-reference.md#group-matching) | [general/repositories](general/repositories.md), [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Deque, @axe-core/playwright](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Deque, axe-core](https://github.com/dequelabs/axe-core) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Designing robust and predictable APIs with idempotency](https://stripe.com/blog/idempotency) | [general/api-design](general/api-design.md) | 2026-10-24 |
@@ -725,6 +792,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Gaffer On Games (Fiedler), Floating Point Determinism](https://gafferongames.com/post/floating_point_determinism/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Gaffer On Games (Fiedler), What every programmer needs to know about game networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Git LFS wiki, File Locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [GitHub Docs, Managing a merge queue](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/resources/github-actions-untrusted-input/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 4: New vulnerability patterns and mitigation strategies](https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, About large files on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -743,6 +811,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitHub, Reuse workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Secure use reference: Using CODEOWNERS to monitor changes](https://docs.github.com/en/actions/reference/security/secure-use#using-codeowners-to-monitor-changes) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Tutorials for GitHub Actions](https://docs.github.com/en/actions/tutorials) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Branch rules](https://docs.gitlab.com/user/project/repository/branches/branch_rules/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Code Owners](https://docs.gitlab.com/user/project/codeowners/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Merge trains](https://docs.gitlab.com/ci/pipelines/merge_trains/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Godot class reference, FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -760,7 +831,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [HashiCorp, terraform validate command reference](https://developer.hashicorp.com/terraform/cli/commands/validate) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [IETF, RFC 8594: The Sunset HTTP Header Field](https://www.rfc-editor.org/rfc/rfc8594) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Import Linter, forbidden contracts](https://import-linter.readthedocs.io/en/stable/contract_types/forbidden/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Import Linter, independence contracts](https://import-linter.readthedocs.io/en/stable/contract_types/independence/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md), [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Konsist, architecture assertions](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert) | [general/testing-delivery](general/testing-delivery.md), [specific/android](specific/android/README.md) | 2026-10-25 |
@@ -781,6 +854,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [monorepo.tools, What is a monorepo?](https://monorepo.tools/#what-is-a-monorepo) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Mozilla, eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Next.js, Server Actions and Mutations: Sequential dispatch on the client](https://nextjs.org/docs/app/guides/server-actions#sequential-dispatch-on-the-client) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 1.2 Layer your components, keep the web layer within its boundaries](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/createlayers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -796,7 +870,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Node.js Best Practices, 7.1 Don't block the event loop](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/performance/block-loop.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 8.2 Bootstrap using node command, avoid npm start](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/bootstrap-using-node.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [npm Docs, npm audit](https://docs.npmjs.com/cli/v12/commands/npm-audit/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [npm Docs, npm Unpublish Policy](https://docs.npmjs.com/policies/unpublish/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Nuxt, nuxt typecheck command](https://nuxt.com/docs/4.x/api/commands/typecheck) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 6 | [Nx, Enforce module boundaries](https://nx.dev/docs/features/enforce-module-boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [Nx, monorepo.tools: Monorepo Explained](https://monorepo.tools/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [Nx, Run only tasks affected by a PR](https://nx.dev/docs/features/ci-features/affected) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Nystrom, Command](https://gameprogrammingpatterns.com/command.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Nystrom, Component](https://gameprogrammingpatterns.com/component.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Data Locality](https://gameprogrammingpatterns.com/data-locality.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -806,34 +884,45 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Nystrom, Type Object](https://gameprogrammingpatterns.com/type-object.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [oasdiff, breaking changes (OpenAPI)](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard](https://scorecard.dev/) | [general/security](general/security.md) | 2026-10-24 |
+| 6 | [OpenSSF Scorecard, Branch-Protection check](https://github.com/ossf/scorecard/blob/main/docs/checks.md#branch-protection) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks](https://github.com/ossf/scorecard/blob/main/docs/checks.md) | [general/security](general/security.md), [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks: Dangerous-Workflow](https://github.com/ossf/scorecard/blob/main/docs/checks.md#dangerous-workflow) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks: Pinned-Dependencies](https://github.com/ossf/scorecard/blob/main/docs/checks.md#pinned-dependencies) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks: Token-Permissions](https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [OpenSSF Scorecard, Code-Review check](https://github.com/ossf/scorecard/blob/main/docs/checks.md#code-review) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 6 | [OWASP Multifactor Authentication Cheat Sheet, Resetting MFA](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP, Django Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [OWASP, Third Party JavaScript Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
+| 6 | [passkeys.dev, Bootstrapping an account on the web](https://passkeys.dev/docs/use-cases/bootstrapping/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 6 | [passkeys.dev, What are passkeys?](https://passkeys.dev/docs/intro/what-are-passkeys/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [Patterns.dev](https://www.patterns.dev/) | [general/reading-list](general/reading-list.md), [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Patterns.dev, Vue patterns](https://www.patterns.dev/vue/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Flask API and Service Layer](https://www.cosmicpython.com/book/chapter_04_service_layer) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Repository and Unit of Work Patterns with Django](https://www.cosmicpython.com/book/appendix_django) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [pip-tools, pip-compile](https://pip-tools.pypa.io/en/stable/reference/pip-compile/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [pnpm, Workspace](https://pnpm.io/workspaces) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 6 | [PyPA, Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [PyPA, pip-audit](https://github.com/pypa/pip-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Pyright, Configuration](https://github.com/microsoft/pyright/blob/main/docs/configuration.md) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Python docs, The Python Tutorial](https://docs.python.org/3/tutorial/index.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Python, PEP 387: Backwards Compatibility Policy, Making incompatible changes](https://peps.python.org/pep-0387/#making-incompatible-changes) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Python, PEP 8: Style Guide for Python Code](https://peps.python.org/pep-0008/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [react.dev, purity lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/purity) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [react.dev, set-state-in-effect lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Refactoring.Guru: design patterns](https://refactoring.guru/design-patterns) | [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 6 | [Reproducible Builds, Definitions](https://reproducible-builds.org/docs/definition/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Ruff, asyncio-dangling-task (RUF006)](https://docs.astral.sh/ruff/rules/asyncio-dangling-task/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, Rules: flake8-async (ASYNC)](https://docs.astral.sh/ruff/rules/#flake8-async-async) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, Rules: flake8-bandit (S)](https://docs.astral.sh/ruff/rules/#flake8-bandit-s) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, The Ruff Formatter](https://docs.astral.sh/ruff/formatter/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, The Ruff Linter: Exit codes](https://docs.astral.sh/ruff/linter/#exit-codes) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, The Ruff Linter: Rule selection](https://docs.astral.sh/ruff/linter/#rule-selection) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Semantic Versioning FAQ, How do I know when to release 1.0.0?](https://semver.org/#how-do-i-know-when-to-release-100) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [Semantic Versioning FAQ, What do I do if I accidentally release a backward incompatible change as a minor version?](https://semver.org/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -854,6 +943,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Thoughtworks Radar, Inverse Conway Maneuver](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Tom Looman, Unreal Engine C++ Complete Guide](https://tomlooman.com/unreal-engine-cpp-guide/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Trivy, Container image](https://trivy.dev/docs/latest/target/container_image/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Trunk Based Development, Branch for release](https://trunkbaseddevelopment.com/branch-for-release/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [Turborepo, Crafting your repository](https://turborepo.dev/docs/crafting-your-repository) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [Turborepo, Structuring a repository](https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [TypeScript Handbook, The Basics: Erased types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -885,16 +977,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [ZAP, Baseline scan](https://www.zaproxy.org/docs/docker/baseline-scan/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [zizmor, Audit rules](https://docs.zizmor.sh/audits/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 
 ## Further reading (1–5)
 
-113 sources.
+133 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
+| 5 | [action-semantic-pull-request (GitHub Action)](https://github.com/amannn/action-semantic-pull-request) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Anthropic skills repository](https://github.com/anthropics/skills) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 5 | [Anton Babenko, Terraform Best Practices](https://www.terraform-best-practices.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 5 | [API Extractor, The API report](https://api-extractor.com/pages/overview/demo_api_report/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Astral, Ruff](https://docs.astral.sh/ruff/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [AWS Config, CloudFormation stack drift detection rule](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -904,9 +999,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [AWS Resilience Hub, scheduled assessments](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Cedric Neukirchen, Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 5 | [Changesets, Automating Changesets: Blocking](https://changesets.dev/guide/automating#blocking) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [Changesets, Why Changesets](https://changesets.dev/guide/why) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Checkov, Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
+| 5 | [CodeQL, Failure to use secure cookies (Java)](https://codeql.github.com/codeql-query-help/java/java-insecure-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [CodeQL, Failure to use secure cookies (Python)](https://codeql.github.com/codeql-query-help/python/py-insecure-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [CodeQL, Use of a broken or weak cryptographic hashing algorithm on sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-weak-sensitive-data-hashing/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [CodeQL, Use of password hash with insufficient computational effort (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-insufficient-password-hash/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [Dan Kestranek (tranek), GASDocumentation](https://github.com/tranek/GASDocumentation) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [Dart linter rule, prefer_final_fields](https://dart.dev/tools/linter-rules/prefer_final_fields) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
@@ -930,12 +1031,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [gdtoolkit, README (gdformat and CI usage)](https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 5 | [gdUnit4, Command line tool](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 5 | [gdUnit4, Continuous integration](https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/ci/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [GitHub Docs, Automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 3: How to trust your building blocks](https://securitylab.github.com/resources/github-actions-building-blocks/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 5 | [GitHub, creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 5 | [GitHub, Dependabot supported ecosystems: Terraform](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories#terraform) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [GitHub, Secure use reference: Monitoring the actions in your workflows (Dependabot alerts)](https://docs.github.com/en/actions/reference/security/secure-use#monitoring-the-actions-in-your-workflows) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 5 | [GitLab Docs, Improving monorepo performance](https://docs.gitlab.com/user/project/repository/monorepos/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3002: last user should not be root](https://github.com/hadolint/hadolint/wiki/DL3002) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3006: always tag the version of an image explicitly](https://github.com/hadolint/hadolint/wiki/DL3006) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -955,6 +1059,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [MDN, Progressive enhancement (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
+| 5 | [monorepo.tools, The polyrepo tax](https://monorepo.tools/#polyrepo-concept) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [mypy, Type hints cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Nuxt ESLint, ESLint module](https://eslint.nuxt.com/packages/module) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -978,11 +1083,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Ruff, suspicious-eval-usage (S307)](https://docs.astral.sh/ruff/rules/suspicious-eval-usage/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Ruff, suspicious-pickle-usage (S301)](https://docs.astral.sh/ruff/rules/suspicious-pickle-usage/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Ruff, unsafe-yaml-load (S506)](https://docs.astral.sh/ruff/rules/unsafe-yaml-load/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 5 | [semantic-release](https://semantic-release.org/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [Syncpack, lint command](https://syncpack.dev/command/lint/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 5 | [Trivy CLI reference, trivy image](https://trivy.dev/docs/latest/references/configuration/cli/trivy_image/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Trivy, Terraform scanning coverage](https://trivy.dev/docs/latest/coverage/iac/terraform/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 5 | [Turborepo, run reference: --affected](https://turborepo.dev/docs/reference/run#--affected) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Unity ECS samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity Manual, Package layout](https://docs.unity3d.com/Manual/cus-layout.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -991,6 +1099,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [VContainer](https://vcontainer.hadashikick.jp/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Welcome to DDD](https://github.com/ddd-crew/welcome-to-ddd) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 5 | [ZAP, Cookie No HttpOnly Flag (10010)](https://www.zaproxy.org/docs/alerts/10010/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [ZAP, Cookie without SameSite Attribute (10054)](https://www.zaproxy.org/docs/alerts/10054/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [ZAP, Cookie Without Secure Flag (10011)](https://www.zaproxy.org/docs/alerts/10011/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [zizmor, Audit rules: secrets-inherit](https://docs.zizmor.sh/audits/#secrets-inherit) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 4 | [adr-tools](https://github.com/npryce/adr-tools) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 4 | [AWS Skill Builder](https://skillbuilder.aws/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -1004,5 +1115,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [GUT, Export test results](https://gut.readthedocs.io/en/latest/Export-Test-Results.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 4 | [Sherif, README](https://github.com/QuiiBz/sherif/blob/main/README.md) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 4 | [Turborepo, boundaries (experimental)](https://turborepo.dev/docs/reference/boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Unity Chop Chop (Open Project 1)](https://github.com/UnityTechnologies/open-project-1) | [specific/unity](specific/unity/README.md) | 2026-10-24 |

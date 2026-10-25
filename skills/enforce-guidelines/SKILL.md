@@ -23,7 +23,7 @@ The guidelines root is `${CLAUDE_PLUGIN_ROOT}`. If that placeholder wasn't repla
 
 ## 2. Plan
 
-1. For each detected platform, plus `general/security.md` and `general/testing-delivery.md`, read the **How to enforce** section. Collect each tool with the rule IDs it checks, and look up each rule's score in `RULES.md`.
+1. For each detected platform, plus the general files that apply (`general/security.md`, `general/testing-delivery.md`, and `general/authentication.md`, `general/releases.md` or `general/repositories.md` when the project signs users in, publishes releases or is a monorepo), read the **How to enforce** section. Collect each tool with the rule IDs it checks, and look up each rule's score in `RULES.md`.
 2. Choose the set to add:
    - Prefer, in this order: checks built into a tool the project already uses (for example `docker build --check`, a compiler's strict mode), extra rules for a linter it already runs, then new tools.
    - Where the guidelines list alternatives for the same rules (for example kube-linter or Polaris, Trivy or Docker Scout), pick one and say why.

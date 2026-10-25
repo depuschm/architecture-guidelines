@@ -24,6 +24,9 @@ If you only read three external sources, read these:
 - [Data](data.md): ownership, consistency, distributed transactions, schema evolution.
 - [Operations and reliability](operations-reliability.md): cloud frameworks, SRE, resilience, observability.
 - [Security](security.md): threat modelling, secure design, supply chain.
+- [Authentication and sessions](authentication.md): identity providers, OAuth 2.0 and OpenID Connect, sessions, passwords, MFA and passkeys.
 - [Testing and delivery](testing-delivery.md): test strategy, architecture tests, continuous delivery.
+- [Versioning and releases](releases.md): semantic versioning, immutable releases, release automation, deprecation.
+- [Repositories and monorepos](repositories.md): monorepo or polyrepo, module boundaries, code ownership, branch protection.
 - [AI systems](ai-systems.md): LLM and agent-based systems.
 - [Reading list](reading-list.md): books and complete tutorials.

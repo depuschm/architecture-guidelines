@@ -51,7 +51,10 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | [Data](general/data.md) | Data ownership, consistency, sagas, outbox, schema evolution |
 | [Operations & reliability](general/operations-reliability.md) | Twelve-factor, Well-Architected, SLOs, resilience, observability |
 | [Security](general/security.md) | Threat modelling, least privilege, secrets, supply chain |
+| [Authentication & sessions](general/authentication.md) | Identity providers, OAuth 2.0 and OpenID Connect, sessions, passwords, MFA, passkeys, recovery |
 | [Testing & delivery](general/testing-delivery.md) | Test strategy, architecture tests, contract tests, CD, DORA |
+| [Versioning & releases](general/releases.md) | SemVer, immutable releases, release automation, changelogs, deprecation |
+| [Repositories & monorepos](general/repositories.md) | Monorepo or polyrepo, module boundaries, code ownership, branch protection |
 | [AI systems](general/ai-systems.md) | LLM and agent architectures, evals, LLM security |
 | [Reading list](general/reading-list.md) | Books and complete tutorials |
 

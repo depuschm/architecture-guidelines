@@ -123,4 +123,4 @@ By contributing, you agree that guideline content is licensed under [CC BY 4.0](
 
 ## 7. Changing the skills
 
-Skills live in `skills/<name>/SKILL.md` ([Agent Skills format](https://agentskills.io/specification)). Keep the `name` field equal to the folder name. Keep `description` under 1024 characters and lead with what the skill does and when to use it. Skills must cite guideline files and their sources, and must not invent rules or links.
+Skills live in `skills/<name>/SKILL.md` ([Agent Skills format](https://agentskills.io/specification)). Keep the `name` field equal to the folder name. Keep `description` under 1024 characters and lead with what the skill does and when to use it. Skills must cite guideline files and their sources, and must not invent rules or links. After changing a skill, run its evals (see [evals/README.md](evals/README.md)), and add a case when you add a skill.

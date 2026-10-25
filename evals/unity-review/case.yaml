@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: unity-review
+description: Reviewing a small Unity project with planted problems finds them and cites Unity rule IDs and sources.
+tags: [unity, review]
+context:
+  scaffold_script: fixture.sh

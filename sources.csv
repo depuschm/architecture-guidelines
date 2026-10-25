@@ -42,7 +42,6 @@ score,title,url,verified
 9,Thinking in React,https://react.dev/learn/thinking-in-react,2026-10-24
 9,Ultimate guide to profiling Unity games (Unity e-book),https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6,2026-10-24
 9,"Unity Manual, Best practice guides",https://docs.unity3d.com/Manual/best-practice-guides.html,2026-10-24
-9,"Unity Test Framework, introduction",https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html,2026-10-24
 9,"Vocke, The Practical Test Pyramid",https://martinfowler.com/articles/practical-test-pyramid.html,2026-10-24
 9,Zalando RESTful API Guidelines,https://opensource.zalando.com/restful-api-guidelines/,2026-10-24
 8,.NET Microservices: Architecture for Containerized .NET Applications,https://learn.microsoft.com/en-us/dotnet/architecture/microservices/,2026-10-24
@@ -55,7 +54,6 @@ score,title,url,verified
 8,"Android, UI layer",https://developer.android.com/topic/architecture/ui-layer,2026-10-24
 8,arc42 documentation,https://docs.arc42.org/home/,2026-10-24
 8,arc42 Quality Model,https://quality.arc42.org/,2026-10-24
-8,AWS Architecture Center,https://aws.amazon.com/architecture/,2026-10-24
 8,"AWS Builders' Library, Making retries safe with idempotent APIs",https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/,2026-10-24
 8,"AWS Builders' Library, Timeouts, retries and backoff with jitter",https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/,2026-10-24
 8,"AWS Well-Architected, Reliability pillar",https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html,2026-10-24
@@ -145,6 +143,7 @@ score,title,url,verified
 8,"Unity Manual, Order of execution for event functions",https://docs.unity3d.com/Manual/execution-order.html,2026-10-24
 8,"Unity Manual, ScriptableObject",https://docs.unity3d.com/Manual/class-ScriptableObject.html,2026-10-24
 8,Unity Test Framework course,https://docs.unity3d.com/Manual/test-framework/course/overview.html,2026-10-24
+8,"Unity Test Framework, introduction",https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html,2026-10-24
 8,"Unity, Best practices for organizing your Unity project",https://unity.com/how-to/organizing-your-project,2026-10-24
 8,"Vernon, Effective Aggregate Design",https://www.dddcommunity.org/library/vernon_2011/,2026-10-24
 7,"Addressables, Release assets from memory",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html,2026-10-24
@@ -154,6 +153,7 @@ score,title,url,verified
 7,Android architecture samples,https://github.com/android/architecture-samples,2026-10-24
 7,"Android, Architecting your Compose UI",https://developer.android.com/develop/ui/compose/architecture,2026-10-24
 7,"Android, Build an offline-first app",https://developer.android.com/topic/architecture/data-layer/offline-first,2026-10-24
+7,"Android, Common modularization patterns",https://developer.android.com/topic/modularization/patterns,2026-10-24
 7,"Android, Dependency injection",https://developer.android.com/training/dependency-injection,2026-10-24
 7,"Android, Domain layer",https://developer.android.com/topic/architecture/domain-layer,2026-10-24
 7,"Android, Fundamentals of testing",https://developer.android.com/training/testing/fundamentals,2026-10-24
@@ -167,6 +167,7 @@ score,title,url,verified
 7,ArchUnit user guide,https://www.archunit.org/userguide/html/000_Index.html,2026-10-25
 7,Aspire (.NET),https://aspire.dev/,2026-10-24
 7,AsyncAPI Specification,https://www.asyncapi.com/docs/reference/specification/latest,2026-10-24
+7,AWS Architecture Center,https://aws.amazon.com/architecture/,2026-10-24
 7,"AWS Builders' Library, Avoiding fallback in distributed systems",https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/,2026-10-24
 7,"AWS Builders' Library, Using load shedding to avoid overload",https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/,2026-10-24
 7,AWS CDK best practices,https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html,2026-10-24
@@ -246,7 +247,6 @@ score,title,url,verified
 7,"Microsoft, C# compiler options for errors and warnings",https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings,2026-10-25
 7,"Microsoft, CA1849: call async methods when in an async method",https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849,2026-10-25
 7,"Microsoft, DI scope validation",https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview#scope-validation,2026-10-25
-7,"Microsoft, dotnet format",https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format,2026-10-25
 7,"Microsoft, EF Core performance",https://learn.microsoft.com/en-us/ef/core/performance/,2026-10-24
 7,"Microsoft, Handle errors in ASP.NET Core",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling,2026-10-24
 7,"Microsoft, Health checks",https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks,2026-10-24
@@ -314,7 +314,6 @@ score,title,url,verified
 7,"Unity, Separate game data and logic with ScriptableObjects",https://unity.com/how-to/separate-game-data-logic-scriptable-objects,2026-10-24
 7,Using domain analysis to model microservices,https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis,2026-10-24
 7,"web.dev, Web Vitals",https://web.dev/articles/vitals,2026-10-24
-6,"Android, Common modularization patterns",https://developer.android.com/topic/modularization/patterns,2026-10-24
 6,Architecting Cloud Native .NET Applications for Azure,https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/,2026-10-24
 6,Architecture decision record,https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record,2026-10-24
 6,Architecture decision record examples and templates,https://github.com/joelparkerhenderson/architecture-decision-record,2026-10-24
@@ -460,6 +459,7 @@ score,title,url,verified
 5,"Kyverno policy, require probes",https://kyverno.io/policies/best-practices/require-probes/require-probes/,2026-10-25
 5,"Kyverno policy, require requests and limits",https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/,2026-10-25
 5,"Microsoft, Customize builds by folder (Directory.Build.props)",https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory,2026-10-25
+5,"Microsoft, dotnet format",https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format,2026-10-25
 5,OPA Gatekeeper policy library,https://open-policy-agent.github.io/gatekeeper-library/website/,2026-10-25
 5,"Polaris, efficiency checks",https://polaris.docs.fairwinds.com/checks/efficiency/,2026-10-25
 5,"Polaris, infrastructure as code (CI)",https://polaris.docs.fairwinds.com/infrastructure-as-code/,2026-10-25

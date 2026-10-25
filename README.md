@@ -84,6 +84,8 @@ The [`skills/`](skills) folder uses the [Agent Skills](https://agentskills.io/sp
 | [`c4-diagram`](skills/c4-diagram/SKILL.md) | Produce [C4](https://c4model.com/) context/container/component diagrams as code |
 | [`unity-architecture`](skills/unity-architecture/SKILL.md) | Design or review the architecture of a Unity project |
 
+The skills are tested with [evals](evals/README.md) that compare runs with and without the plugin. In the latest full run, every case passed 3 of 3 runs with the plugin. The plugin raised the score by +1.00 on ADRs, +0.75 on guideline questions and +0.50 on Unity reviews, mainly through rule IDs and source links that plain Claude doesn't produce.
+
 Maintainers also get two project skills: [`add-guideline`](.claude/skills/add-guideline/SKILL.md) adds guidelines the reference-first way, and [`reverify-sources`](.claude/skills/reverify-sources/SKILL.md) re-checks stale or retired sources.
 
 ### Install in Claude Code

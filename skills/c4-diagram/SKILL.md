@@ -1,6 +1,6 @@
 ---
 name: c4-diagram
-description: Create or update C4 model architecture diagrams (system context, container, component) as code, either Mermaid (renders on GitHub) or Structurizr DSL, derived from the codebase and the user's description. Use when the user asks for an architecture diagram, system overview, C4 diagram, container diagram or context diagram, or wants existing architecture documented visually.
+description: Draw or update C4 model architecture diagrams (system context, container, component) as code in Mermaid or Structurizr DSL, following the C4 notation rules (title, element types with technology, labelled and directed relationships, legend) and the Architecture Guidelines' documentation rules. Use whenever the user asks for any architecture diagram, system overview, C4, context, container or component diagram, whether from a description or from the codebase, or wants existing architecture documented visually.
 argument-hint: "[context | container | component <container>] [mermaid | structurizr]"
 ---
 

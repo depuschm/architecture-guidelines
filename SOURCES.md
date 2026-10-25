@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-46 sources.
+45 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -54,7 +54,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Thinking in React](https://react.dev/learn/thinking-in-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 9 | [Ultimate guide to profiling Unity games (Unity e-book)](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 9 | [Unity Manual, Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
-| 9 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 9 | [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 
@@ -74,7 +73,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Android, UI layer](https://developer.android.com/topic/architecture/ui-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
-| 8 | [AWS Architecture Center](https://aws.amazon.com/architecture/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Timeouts, retries and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [AWS Well-Architected, Reliability pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -164,6 +162,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Manual, Order of execution for event functions](https://docs.unity3d.com/Manual/execution-order.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 8 | [Unity Manual, ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 8 | [Unity Test Framework course](https://docs.unity3d.com/Manual/test-framework/course/overview.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
+| 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
@@ -173,6 +172,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Android architecture samples](https://github.com/android/architecture-samples) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Architecting your Compose UI](https://developer.android.com/develop/ui/compose/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 7 | [Android, Common modularization patterns](https://developer.android.com/topic/modularization/patterns) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Dependency injection](https://developer.android.com/training/dependency-injection) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Domain layer](https://developer.android.com/topic/architecture/domain-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Fundamentals of testing](https://developer.android.com/training/testing/fundamentals) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -186,6 +186,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [ArchUnit user guide](https://www.archunit.org/userguide/html/000_Index.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Aspire (.NET)](https://aspire.dev/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [AsyncAPI Specification](https://www.asyncapi.com/docs/reference/specification/latest) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 7 | [AWS Architecture Center](https://aws.amazon.com/architecture/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Builders' Library, Avoiding fallback in distributed systems](https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [AWS Builders' Library, Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [AWS CDK best practices](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -265,7 +266,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft, C# compiler options for errors and warnings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, CA1849: call async methods when in an async method](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, DI scope validation](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview#scope-validation) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
-| 7 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 7 | [Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -333,7 +333,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [web.dev, Web Vitals](https://web.dev/articles/vitals) | [specific/react](specific/react/README.md) | 2026-10-24 |
-| 6 | [Android, Common modularization patterns](https://developer.android.com/topic/modularization/patterns) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -447,7 +446,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-64 sources.
+65 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -486,6 +485,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, efficiency checks](https://polaris.docs.fairwinds.com/checks/efficiency/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, infrastructure as code (CI)](https://polaris.docs.fairwinds.com/infrastructure-as-code/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |

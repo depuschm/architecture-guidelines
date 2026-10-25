@@ -23,8 +23,8 @@ How to structure gameplay and application code so it stays changeable as the pro
 
 ### Data and ScriptableObjects
 
-- `8` `UNITY-CODE-5` **Put designer-tunable, shared data in ScriptableObject assets, not hard-coded values or copies on every prefab.** ([Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects), [Unity Manual, ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html))
 - `8` `UNITY-CODE-6` **Don't use ScriptableObjects as save-game storage.** Changes made at runtime persist in the Editor but not in a built player, so use a separate persistence mechanism. ([Unity Manual, ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html))
+- `7` `UNITY-CODE-5` **Put designer-tunable, shared data in ScriptableObject assets, not hard-coded values or copies on every prefab.** ([Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects), [Unity Manual, ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html))
 - `4` `UNITY-CODE-7` **Use ScriptableObject-based enums when designers need to add values without code changes.** ([Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums))
 
 ### Dependencies and communication

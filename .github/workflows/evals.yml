@@ -1,0 +1,39 @@
+name: Skill evals
+
+# Runs the skills against real models, which costs API usage, so it only runs when started by hand.
+# Needs an ANTHROPIC_API_KEY repository secret.
+on:
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: Runs per case and arm
+        default: "3"
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Explain how to enable
+        if: env.ANTHROPIC_API_KEY == ''
+        run: echo "::notice::Add an ANTHROPIC_API_KEY repository secret to run the skill evals."
+      - uses: actions/setup-node@v7
+        if: env.ANTHROPIC_API_KEY != ''
+        with:
+          node-version: 22
+      - if: env.ANTHROPIC_API_KEY != ''
+        run: npm install -g @anthropic-ai/claude-code
+      - name: Run evals
+        if: env.ANTHROPIC_API_KEY != ''
+        run: >
+          claude plugin eval . --trust-plugin --scaffold --allow-tools Write
+          --runs ${{ inputs.runs }} --threshold 0.8
+          --model claude-sonnet-5-5 --judge-model claude-haiku-5-5
+          --no-publish --max-cost-usd 10 --json results.json
+      - uses: actions/upload-artifact@v7
+        if: always() && env.ANTHROPIC_API_KEY != ''
+        with:
+          name: eval-results
+          path: results.json

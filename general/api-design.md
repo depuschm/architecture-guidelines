@@ -27,7 +27,7 @@ Pick **one** style guide per organisation and follow it. Don't mix them.
 - `6` `API-7` **Return machine-readable errors in the Problem Details format.** ([RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457))
 - `6` `API-8` **With enough users, every observable behaviour will be depended on by someone, whether documented or not (Hyrum's law).** ([Hyrum's Law](https://www.hyrumslaw.com/))
 - `6` `API-9` **Verify compatibility between providers and consumers with consumer-driven contract tests.** ([Robinson, Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html), [Pact](https://docs.pact.io/))
-- `6` `API-10` **For gRPC and Protocol Buffers, follow the official dos and don'ts on field numbering and evolution.** ([Protocol Buffers, dos and don'ts](https://protobuf.dev/best-practices/dos-donts/), [gRPC guides](https://grpc.io/docs/guides/))
+- `5` `API-10` **For gRPC and Protocol Buffers, follow the official dos and don'ts on field numbering and evolution.** ([Protocol Buffers, dos and don'ts](https://protobuf.dev/best-practices/dos-donts/), [gRPC guides](https://grpc.io/docs/guides/))
 
 ## How to enforce
 

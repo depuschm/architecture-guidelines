@@ -59,4 +59,26 @@ Treat grep hits as leads, not verdicts. Read the code before reporting a finding
 
 ## 3. Report
 
-Use the report format from the `architecture-review` skill: a summary, then a findings table (severity, finding, evidence `path:line`, guideline, source), recommendations, and observations not covered by the guidelines. Mention what the project does well.
+Every finding must include the rule's **source link**, copied exactly from the guideline file. A finding without its source breaks this repository's core rule. Use this structure:
+
+```markdown
+## Unity architecture review: <project>
+
+**Unity version:** <from ProjectVersion.txt> · **Guidelines applied:** specific/unity/*, general/principles.md
+
+### Summary
+<2–4 sentences: overall shape, top risks, what the project does well>
+
+### Findings
+| # | Severity | Finding | Evidence | Rule | Source |
+| --- | --- | --- | --- | --- | --- |
+| 1 | High | <what is wrong and why it matters> | `Assets/Scripts/GameManager.cs:12` | `UNITY-PERF-3` (8): "Avoid managed allocations in per-frame code paths…" | [Unity Manual, Optimizing managed memory](https://docs.unity3d.com/Manual/performance-optimizing-code-managed-memory.html) |
+
+### Recommendations
+1. <Concrete next step, linked to finding numbers. Name a tool from the file's "How to enforce" section where one exists.>
+
+### Not covered by the guidelines
+- <Observation (opinion, no source)>
+```
+
+Severity starts from the rule's score: 9–10 usually High, 6–8 Medium, 1–5 Low, adjusted for the actual impact.

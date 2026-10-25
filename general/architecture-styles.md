@@ -18,8 +18,8 @@ How to choose and combine structural styles such as monoliths, microservices, la
 ### Monolith or microservices
 
 - `8` `STYLE-1` **Start with a well-structured monolith and split it once the boundaries are understood.** Most successful microservice systems started as monoliths that grew too big. ([Fowler, Monolith First](https://martinfowler.com/bliki/MonolithFirst.html))
-- `8` `STYLE-2` **Have rapid provisioning, basic monitoring and rapid deployment in place before adopting microservices.** ([Fowler, Microservice Prerequisites](https://martinfowler.com/bliki/MicroservicePrerequisites.html))
 - `8` `STYLE-3` **Organise services around business capabilities and let each service own its data.** ([Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html), [microservices.io, Database per service](https://microservices.io/patterns/data/database-per-service.html))
+- `7` `STYLE-2` **Have rapid provisioning, basic monitoring and rapid deployment in place before adopting microservices.** ([Fowler, Microservice Prerequisites](https://martinfowler.com/bliki/MicroservicePrerequisites.html))
 - `7` `STYLE-4` **Treat microservices as a premium you pay to manage complexity.** Don't pay it for systems that aren't complex enough to need it. ([Fowler, Microservice Premium](https://martinfowler.com/bliki/MicroservicePremium.html))
 - `6` `STYLE-5` **Consider a modular monolith: one deployable with strictly enforced module boundaries.** ([Shopify Engineering, Deconstructing the Monolith](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity), [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd))
 
@@ -36,7 +36,7 @@ How to choose and combine structural styles such as monoliths, microservices, la
 
 ### Evolving existing systems
 
-- `8` `STYLE-11` **Replace legacy systems incrementally behind a facade (Strangler Fig) rather than with a big-bang rewrite.** ([Fowler, Strangler Fig](https://martinfowler.com/bliki/StranglerFigApplication.html), [Azure, Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig))
+- `6` `STYLE-11` **Replace legacy systems incrementally behind a facade (Strangler Fig) rather than with a big-bang rewrite.** ([Fowler, Strangler Fig](https://martinfowler.com/bliki/StranglerFigApplication.html), [Azure, Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig))
 - `6` `STYLE-12` **Put an anti-corruption layer between your model and legacy or external models.** ([Azure, Anti-corruption Layer pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer))
 - `5` `STYLE-13` **When extracting services, start with a simple, loosely coupled capability and decouple by business capability, not by technical layer.** ([Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html))
 

@@ -20,8 +20,8 @@ Build systems that are observable, resilient to failure and cheap to operate.
 
 ### Reliability targets
 
-- `8` `OPS-1` **Define SLOs from user-facing SLIs, and use the error budget to balance reliability against release speed.** ([Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/), [Embracing Risk](https://sre.google/sre-book/embracing-risk/), [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/))
 - `8` `OPS-2` **Monitor the four golden signals for every user-facing service: latency, traffic, errors and saturation.** ([Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/))
+- `7` `OPS-1` **Define SLOs from user-facing SLIs, and use the error budget to balance reliability against release speed.** ([Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/), [Embracing Risk](https://sre.google/sre-book/embracing-risk/), [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/))
 
 ### Resilience
 
@@ -35,7 +35,7 @@ Build systems that are observable, resilient to failure and cheap to operate.
 ### Operability
 
 - `8` `OPS-9` **Keep config in the environment, treat backing services as attached resources, and run stateless processes.** ([Twelve-Factor App, III Config](https://12factor.net/config), [IV Backing services](https://12factor.net/backing-services), [VI Processes](https://12factor.net/processes))
-- `8` `OPS-10` **Expose health endpoints that load balancers and orchestrators can probe.** ([Azure, Health Endpoint Monitoring pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring))
+- `7` `OPS-10` **Expose health endpoints that load balancers and orchestrators can probe.** ([Azure, Health Endpoint Monitoring pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring))
 - `7` `OPS-11` **Instrument with OpenTelemetry and follow its semantic conventions, so telemetry is portable and correlated.** ([OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/), [Semantic conventions](https://opentelemetry.io/docs/specs/semconv/))
 - `7` `OPS-12` **Run blameless postmortems and track their action items.** ([Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/))
 

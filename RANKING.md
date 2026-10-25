@@ -66,6 +66,16 @@ Within a topic subsection, rules are sorted by score. Rules with the same score 
 - **Overview**: [SOURCES.md](SOURCES.md) lists every source in one place, grouped by level.
 - **Reviews**: the [`architecture-review`](skills/architecture-review/SKILL.md) skill uses rule scores as a severity hint. Breaking a 9–10 rule is usually *High*, 6–8 *Medium* and 1–5 *Low*, adjusted for the actual impact.
 
+## Calibration
+
+Scores are judgements, so they are checked with blind second opinions. On 2026-10-25, an independent reviewer scored a stratified sample of 50 rules and 50 sources against this file, without seeing the existing scores:
+
+- 90% of rule scores and 92% of source scores were within one point of each other.
+- Rules scored 8 were systematically about one point higher than the second opinion. All 53 rules at 8 were re-checked against the difference between 8 ("costly to reverse, for most projects") and 7 ("clear benefit at modest cost"). Twenty-two were lowered.
+- The few items two or more points apart were re-scored after reviewing both reasons.
+
+Repeat the exercise after large additions: sample entries across files and score bands, have someone score them blind, and re-check any band where the difference is systematic.
+
 ## Changing a score
 
 - **Sources**: edit the `score` column in [sources.csv](sources.csv).

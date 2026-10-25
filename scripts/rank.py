@@ -222,6 +222,7 @@ class Context:
         self.rule_records = []  # (id, file, score, title) in document order
         self.enforcement = []  # (rule id, tool name, file:line) from "How to enforce" sections
         self.next_number = {}
+        self.changed = False
 
     def allocate(self, prefix):
         number = self.next_number.get(prefix, 1)
@@ -539,6 +540,7 @@ def run(fix):
         result = process_file(path, ctx)
         if fix and result != original:
             path.write_text(result, encoding="utf-8")
+            ctx.changed = True
             print(f"updated {path.relative_to(ROOT)}")
 
     registry = sync_rules(ctx)
@@ -557,6 +559,7 @@ def run(fix):
         if stale not in expected:
             if fix:
                 stale.unlink()
+                ctx.changed = True
                 print(f"removed {stale.relative_to(ROOT)}")
             else:
                 ctx.problems.append(f"{stale.relative_to(ROOT)} has no matching guidelines (run rank.py fix)")
@@ -564,6 +567,7 @@ def run(fix):
         current = path.read_text(encoding="utf-8") if path.exists() else None
         if current != content:
             if fix:
+                ctx.changed = True
                 path.parent.mkdir(exist_ok=True)
                 path.write_text(content, encoding="utf-8")
                 print(f"updated {path.relative_to(ROOT)}")
@@ -577,7 +581,10 @@ def main():
         print(__doc__)
         return 2
     if sys.argv[1] == "fix":
-        run(fix=True)
+        # Sorting can change the order generated files list rules in, so repeat until stable.
+        for _ in range(3):
+            if not run(fix=True).changed:
+                break
     ctx = run(fix=False)
     for problem in dict.fromkeys(ctx.problems):
         print(problem)

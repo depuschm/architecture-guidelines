@@ -16,8 +16,8 @@ Scope: web front ends built with React, either on their own or inside a framewor
 ## Key rules
 
 - `9` `REACT-1` **Keep components and hooks pure. Side effects belong in event handlers or Effects.** ([react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure), [Rules of React](https://react.dev/reference/rules))
-- `8` `REACT-2` **Keep state minimal.** Don't store what you can derive during render, and avoid duplicated or contradictory state. ([react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure))
-- `8` `REACT-3` **Don't use Effects to transform data or handle user events.** ([react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect))
+- `7` `REACT-2` **Keep state minimal.** Don't store what you can derive during render, and avoid duplicated or contradictory state. ([react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure))
+- `7` `REACT-3` **Don't use Effects to transform data or handle user events.** ([react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect))
 - `7` `REACT-4` **Put state where it's used, and lift it only as far as the closest common parent.** ([react.dev, Sharing state between components](https://react.dev/learn/sharing-state-between-components), [Dodds, Colocation](https://kentcdodds.com/blog/colocation))
 - `7` `REACT-5` **Treat server state (fetched and cached data) separately from UI state, for example with TanStack Query.** ([TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview), [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react))
 - `7` `REACT-6` **Test the way users use the UI, not implementation details.** ([Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles))

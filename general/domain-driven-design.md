@@ -1,3 +1,4 @@
+<!-- rule-prefix: DDD -->
 # Domain-driven design
 
 Model complex business domains and find good boundaries for modules, services and teams.
@@ -14,12 +15,12 @@ Model complex business domains and find good boundaries for modules, services an
 
 ## Key rules
 
-- `8` **Build a ubiquitous language with domain experts and use it everywhere: in conversations, documents and code.** ([Fowler, Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html))
-- `8` **Split large domains into bounded contexts, each with its own model, and make the relationships between them explicit.** ([Fowler, Bounded Context](https://martinfowler.com/bliki/BoundedContext.html), [DDD Crew, Context Mapping](https://github.com/ddd-crew/context-mapping))
-- `7` **Spend modelling effort on the core domain; buy or simplify generic subdomains.** ([Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/))
-- `7` **Use aggregates as consistency boundaries.** Keep them small, reference other aggregates by identity, and use eventual consistency between them. ([Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/), [Fowler, DDD Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html))
-- `6` **Put behaviour next to the data it changes and avoid anemic domain models.** ([Fowler, Anemic Domain Model](https://martinfowler.com/bliki/AnemicDomainModel.html))
-- `6` **Model concepts that are defined by their attributes as immutable value objects.** ([Fowler, Value Object](https://martinfowler.com/bliki/ValueObject.html))
+- `8` `DDD-1` **Build a ubiquitous language with domain experts and use it everywhere: in conversations, documents and code.** ([Fowler, Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html))
+- `8` `DDD-2` **Split large domains into bounded contexts, each with its own model, and make the relationships between them explicit.** ([Fowler, Bounded Context](https://martinfowler.com/bliki/BoundedContext.html), [DDD Crew, Context Mapping](https://github.com/ddd-crew/context-mapping))
+- `7` `DDD-3` **Spend modelling effort on the core domain; buy or simplify generic subdomains.** ([Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/))
+- `7` `DDD-4` **Use aggregates as consistency boundaries.** Keep them small, reference other aggregates by identity, and use eventual consistency between them. ([Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/), [Fowler, DDD Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html))
+- `6` `DDD-5` **Put behaviour next to the data it changes and avoid anemic domain models.** ([Fowler, Anemic Domain Model](https://martinfowler.com/bliki/AnemicDomainModel.html))
+- `6` `DDD-6` **Model concepts that are defined by their attributes as immutable value objects.** ([Fowler, Value Object](https://martinfowler.com/bliki/ValueObject.html))
 
 ## Tutorials and further reading
 

@@ -1,0 +1,198 @@
+id,status,title
+ADR-1,active,Write an ADR for every architecturally significant decision.
+ADR-2,active,"Keep ADRs in the repository next to the code as numbered Markdown files, for example `docs/decisions/0001-use-postgresql.md`."
+ADR-3,active,"Record the options you considered and why you rejected them, not just the option you chose."
+ADR-4,active,Don't rewrite accepted decisions. Supersede them with a new ADR and link the two.
+ADR-5,active,"Say how compliance will be confirmed, for example with a design or code review, an architecture test such as ArchUnit, or a fitness function."
+ADR-6,active,Decentralise decisions with an advice process.
+AI-1,active,Treat model inputs and outputs as untrusted.
+AI-2,active,"Start with the simplest solution, such as a single model call with retrieval."
+AI-3,active,"Build evaluations early and run them on every change to prompts, models or tools."
+AI-4,active,"Use workflows (predefined code paths) for well-defined tasks, and agents only where the model must decide the steps itself."
+AI-5,active,"Design tools specifically for agents, and put as much effort into the agent interface as you would into a human one: clear, distinct names, focused scope and actionable error messages."
+AI-6,active,Treat context as a finite resource and curate what goes into it.
+AI-7,active,"Budget for the hidden technical debt of ML systems: data dependencies, feedback loops and glue code."
+AI-8,active,Don't be afraid to launch without machine learning.
+ANDROID-1,active,"Use a UI layer and a data layer, and add a domain layer only when logic is complex or reused."
+ANDROID-2,active,"Keep a single source of truth for each data type, and use unidirectional data flow: state flows down, events flow up."
+ANDROID-3,active,"Expose UI state from ViewModels as observable streams, and keep UI elements free of business logic."
+ANDROID-4,active,Access data only through repositories in the data layer.
+ANDROID-5,active,Use dependency injection (Hilt).
+ANDROID-6,active,"Follow the coroutine best practices: inject dispatchers, make suspend functions main-safe, and don't expose mutable state."
+ANDROID-7,active,"Build offline-first where possible, with the local database as the source of truth."
+ANDROID-8,active,Modularise by feature and layer as the app and team grow.
+API-1,active,"Make operations safe to retry, using idempotency keys where the method isn't naturally idempotent."
+API-2,active,Evolve APIs in backward-compatible ways.
+API-3,active,Use HTTP methods and status codes as their specification defines them.
+API-4,active,Design the API contract first and review it before implementing it.
+API-5,active,"Model HTTP APIs around resources and standard methods, not ad-hoc RPC verbs."
+API-6,active,Paginate list endpoints from day one.
+API-7,active,Return machine-readable errors in the Problem Details format.
+API-8,active,"With enough users, every observable behaviour will be depended on by someone, whether documented or not (Hyrum's law)."
+API-9,active,Verify compatibility between providers and consumers with consumer-driven contract tests.
+API-10,active,"For gRPC and Protocol Buffers, follow the official dos and don'ts on field numbering and evolution."
+AWS-1,active,"Apply least privilege, and use temporary credentials (federation and roles) instead of long-term access keys."
+AWS-2,active,"Use a multi-account structure with AWS Organizations, separating workloads and environments into their own accounts."
+AWS-3,active,"Design for Availability Zone failure, and understand AWS fault isolation boundaries."
+AWS-4,active,Define all infrastructure as code.
+AWS-5,active,"Review each workload against the Well-Architected Framework early in design and before go-live, and again after significant architecture changes."
+AWS-6,active,"Choose a disaster recovery strategy from your RTO and RPO: backup and restore, pilot light, warm standby, or multi-site active/active."
+AWS-7,active,Set organisation-wide guardrails with service control policies.
+AWS-8,active,"In Lambda functions, separate the handler from the core logic, and reuse the execution environment for clients and connections."
+AWS-9,active,"Tag resources consistently for ownership, cost allocation and automation."
+AWS-10,active,Contain the blast radius of failures with cell-based or shuffle-sharded designs where scale demands it.
+DATA-1,active,Give each service or module exclusive ownership of its data.
+DATA-2,active,"Evolve database schemas through small, versioned migrations kept in source control."
+DATA-3,active,"Keep data consistent across services with sagas, not distributed transactions."
+DATA-4,active,Publish events atomically with state changes using a transactional outbox.
+DATA-5,active,Choose the consistency level per use case and make eventual consistency visible in the design.
+DATA-6,active,"Choose storage technology per need, but count the operational cost of every extra datastore."
+DATA-7,active,"At organisational scale, treat analytical data as a product owned by domain teams (data mesh)."
+DDD-1,active,"Build a ubiquitous language with domain experts and use it everywhere: in conversations, documents and code."
+DDD-2,active,"Split large domains into bounded contexts, each with its own model, and make the relationships between them explicit."
+DDD-3,active,Spend modelling effort on the core domain; buy or simplify generic subdomains.
+DDD-4,active,Use aggregates as consistency boundaries.
+DDD-5,active,Put behaviour next to the data it changes and avoid anemic domain models.
+DDD-6,active,Model concepts that are defined by their attributes as immutable value objects.
+DOC-1,active,Start with a system context diagram and a container diagram.
+DOC-2,active,"Store, version and review documentation alongside the code."
+DOC-3,active,"Give every diagram a title, a key or legend, and labelled, directed relationships."
+DOC-4,active,Keep diagrams as text in the repository so they can be reviewed and diffed.
+DOC-5,active,"Use the C4 abstractions (person, software system, container, component) consistently, whatever the notation."
+DOC-6,active,"Don't mix tutorials, how-to guides, reference and explanation in one document."
+DOTNET-1,active,Keep secrets out of source.
+DOTNET-2,active,Go async all the way and never block on async code with `.Result` or `.Wait()`.
+DOTNET-3,active,Use the built-in DI container and follow its lifetime guidelines.
+DOTNET-4,active,"Add standard resilience (timeouts, retries, circuit breakers) to outgoing HTTP calls."
+DOTNET-5,active,Structure apps with Clean Architecture.
+DOTNET-6,active,"Return errors as ProblemDetails, and handle exceptions centrally."
+DOTNET-7,active,Expose health checks for load balancers and orchestrators.
+DOTNET-8,active,Instrument with OpenTelemetry.
+DOTNET-9,active,Enable nullable reference types in all projects.
+DOTNET-10,active,"Test the HTTP pipeline with in-memory integration tests (`WebApplicationFactory`), and enforce layering with architecture tests."
+DOTNET-11,active,Bind configuration to strongly typed classes with the options pattern.
+DOTNET-12,active,Follow the EF Core performance guidance for queries and change tracking.
+FLUTTER-1,active,"Separate the UI layer (views and view models) from the data layer (repositories and services), and add a domain layer of use cases only when needed."
+FLUTTER-2,active,"Make repositories the source of truth for app data, with services that wrap external APIs."
+FLUTTER-3,active,Use unidirectional data flow and immutable data models.
+FLUTTER-4,active,"Cover logic with unit tests, widgets with widget tests, and critical flows with integration tests."
+FLUTTER-5,active,"Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state."
+FLUTTER-6,active,"Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers."
+K8S-1,active,"Give every container CPU and memory requests and a memory limit. Set CPU limits only where needed, for example on sensitive workloads."
+K8S-2,active,"Configure readiness, liveness and startup probes for their distinct purposes."
+K8S-3,active,Handle `SIGTERM` and shut down gracefully within the termination grace period.
+K8S-4,active,"Run multiple replicas, spread them across nodes and zones, and protect them with PodDisruptionBudgets."
+K8S-5,active,"Deploy images by a specific version tag or by digest, never `:latest`."
+K8S-6,active,Scale stateless workloads horizontally with the HorizontalPodAutoscaler.
+K8S-7,active,Apply the recommended `app.kubernetes.io/*` labels.
+K8S-8,active,"Grant least-privilege RBAC, and give each workload its own service account."
+K8S-9,active,Enforce the Restricted Pod Security Standard for application namespaces.
+K8S-10,active,Start each namespace from a default-deny NetworkPolicy and allow only the traffic you need.
+K8S-11,active,"Encrypt Secrets at rest, restrict who can read them, and consider an external secret store."
+K8S-12,active,"Decide your tenancy model (namespaces, clusters) explicitly."
+K8S-13,active,"Keep all manifests declarative and in Git, and let an agent reconcile the cluster to them (GitOps)."
+OPS-1,active,"Define SLOs from user-facing SLIs, and use the error budget to balance reliability against release speed."
+OPS-2,active,"Monitor the four golden signals for every user-facing service: latency, traffic, errors and saturation."
+OPS-3,active,"Put a timeout on every remote call, and retry only with capped exponential backoff and jitter."
+OPS-4,active,"Design to prevent cascading failures, for example with load shedding and by avoiding retry storms."
+OPS-5,active,"Stop calling a failing dependency with a circuit breaker, and isolate resources with bulkheads."
+OPS-6,active,Avoid fallback paths that are rarely exercised.
+OPS-7,active,Buffer bursts of load with queues between producers and consumers.
+OPS-8,active,Verify resilience with controlled chaos experiments.
+OPS-9,active,"Keep config in the environment, treat backing services as attached resources, and run stateless processes."
+OPS-10,active,Expose health endpoints that load balancers and orchestrators can probe.
+OPS-11,active,"Instrument with OpenTelemetry and follow its semantic conventions, so telemetry is portable and correlated."
+OPS-12,active,Run blameless postmortems and track their action items.
+PRIN-1,active,Spend architecture effort on the decisions that are hard to change.
+PRIN-2,active,"Treat internal quality as a speed investment, not a cost."
+PRIN-3,active,Reduce irreversibility where you can.
+PRIN-4,active,Separate concerns and encapsulate decisions behind interfaces.
+PRIN-5,active,Gather together the things that change for the same reasons; separate those that change for different reasons.
+PRIN-6,active,Point dependencies at abstractions and make them explicit.
+PRIN-7,active,"Decompose by design decisions likely to change, not by processing steps."
+PRIN-8,active,Keep each piece of knowledge in one place (DRY).
+PRIN-9,active,"Don't build capabilities for presumed future needs (YAGNI), but do keep the code easy to change."
+PRIN-10,active,"Prefer the simplest design that passes the tests, reveals intention, has no duplication and has the fewest elements."
+PRIN-11,active,"Take on technical debt deliberately and prudently, and know when you're doing it."
+PRIN-12,active,Expect system structure to mirror communication structure (Conway's law).
+PRIN-13,active,Aim for an architecture where teams can test and deploy independently.
+PRIN-14,active,Shape teams to get the architecture you want (Inverse Conway Maneuver).
+PRIN-15,active,"Draw team boundaries to manage cognitive load, using clear team types and interaction modes."
+QA-1,active,"Write quality requirements as concrete, measurable scenarios, not adjectives."
+QA-2,active,Pick the few (three to five) quality goals that drive the design and make the trade-offs between them explicit.
+QA-3,active,Protect key characteristics with automated architectural fitness functions that run in the delivery pipeline.
+QA-4,active,"When the architecture is a key business asset, evaluate it with stakeholders against prioritised scenarios early, before committing."
+REACT-1,active,Keep components and hooks pure. Side effects belong in event handlers or Effects.
+REACT-2,active,Keep state minimal.
+REACT-3,active,Don't use Effects to transform data or handle user events.
+REACT-4,active,"Put state where it's used, and lift it only as far as the closest common parent."
+REACT-5,active,"Treat server state (fetched and cached data) separately from UI state, for example with TanStack Query."
+REACT-6,active,"Test the way users use the UI, not implementation details."
+REACT-7,active,"Start new apps with a framework, or with a build tool such as Vite when you have specific constraints."
+REACT-8,active,Try props and composition before reaching for context.
+REACT-9,active,Extract reusable stateful logic into custom hooks.
+REACT-10,active,"Organise larger apps by feature, not by file type."
+REACT-11,active,"Move non-view logic (domain, data access) out of components as the app grows."
+REACT-12,active,Track Core Web Vitals as the user-facing performance budget.
+SEC-1,active,"Deny by default, enforce least privilege, and check authorisation server-side on every request."
+SEC-2,active,Keep secrets out of code and repositories.
+SEC-3,active,Threat model early and revisit it as the design changes.
+SEC-4,active,"Log security-relevant events, and keep secrets and sensitive personal data out of logs by removing, masking, hashing or encrypting them."
+SEC-5,active,Secure service-to-service communication and identity in distributed systems.
+SEC-6,active,Ship secure defaults so customers don't have to harden the product themselves.
+SEC-7,active,Don't grant implicit trust based on network location. Authenticate and authorise every access (zero trust).
+SEC-8,active,Protect the software supply chain with build provenance and continuous dependency health checks.
+SEC-9,active,"Use STRIDE to enumerate threats per component, data flow and trust boundary."
+STYLE-1,active,Start with a well-structured monolith and split it once the boundaries are understood.
+STYLE-2,active,"Have rapid provisioning, basic monitoring and rapid deployment in place before adopting microservices."
+STYLE-3,active,Organise services around business capabilities and let each service own its data.
+STYLE-4,active,Treat microservices as a premium you pay to manage complexity.
+STYLE-5,active,Consider a modular monolith: one deployable with strictly enforced module boundaries.
+STYLE-6,active,"Keep the domain independent of UI, frameworks and databases, so that dependencies point inwards."
+STYLE-7,active,"Layer presentation, domain and data, but in larger systems make domain modules the top-level split."
+STYLE-8,active,Apply CQRS only to the specific parts of a system that need it.
+STYLE-9,active,"Use event sourcing where a full history of changes is a requirement, not as a default persistence model."
+STYLE-10,active,"Say which event-driven pattern you mean: event notification, event-carried state transfer, event sourcing or CQRS."
+STYLE-11,active,Replace legacy systems incrementally behind a facade (Strangler Fig) rather than with a big-bang rewrite.
+STYLE-12,active,Put an anti-corruption layer between your model and legacy or external models.
+STYLE-13,active,"When extracting services, start with a simple, loosely coupled capability and decouple by business capability, not by technical layer."
+TEST-1,active,"Write many fast unit tests, fewer integration tests and very few end-to-end tests."
+TEST-2,active,"Keep the software deployable at all times, and prioritise that over new features."
+TEST-3,active,Integrate small changes into the main branch at least daily.
+TEST-4,active,Enforce architecture rules such as layering and dependency direction with automated tests.
+TEST-5,active,"Test service boundaries with contract tests rather than relying on slow, brittle end-to-end integration suites."
+TEST-6,active,"Decouple deployment from release with feature toggles, and remove toggles once they've served their purpose."
+TEST-7,active,"Measure software delivery throughput and instability with the DORA metrics, and use them to improve, not to compare teams."
+UNITY-CODE-1,active,"Keep logic that doesn't need the engine in plain C# classes, with MonoBehaviours as thin adapters."
+UNITY-CODE-2,active,Separate UI from game logic with Model-View-Presenter (or MVC).
+UNITY-CODE-3,active,"Model complex behaviour, such as characters, AI and game flow, with the State pattern instead of growing `switch` statements."
+UNITY-CODE-4,active,"Wrap player and AI actions in commands when you need undo, replay, rebinding or queuing."
+UNITY-CODE-5,active,"Put designer-tunable, shared data in ScriptableObject assets, not hard-coded values or copies on every prefab."
+UNITY-CODE-6,active,Don't use ScriptableObjects as save-game storage.
+UNITY-CODE-7,active,Use ScriptableObject-based enums when designers need to add values without code changes.
+UNITY-CODE-8,active,"Make dependencies explicit through serialized references, constructor or method injection, or a DI container (for example VContainer), rather than singletons and scene-wide `Find` lookups everywhere."
+UNITY-CODE-9,active,"Don't rely on the order in which Unity calls the same event function (`Awake`, `Start`, …) on different objects."
+UNITY-CODE-10,active,Decouple systems with events.
+UNITY-CODE-11,active,"For asynchronous code, use `Awaitable` with async/await (Unity 2023.1+) or coroutines, and know which thread each continuation runs on."
+UNITY-CODE-12,active,"For multiplayer, choose the netcode stack with the Multiplayer Center and study Boss Room before designing your own architecture."
+UNITY-CODE-13,active,Choose the UI system (UI Toolkit or uGUI) per use case using Unity's comparison.
+UNITY-CODE-14,active,Choose the Entities package (DOTS/ECS) deliberately for large simulations.
+UNITY-PERF-1,active,"Profile early and on target devices, and measure before and after every optimisation."
+UNITY-PERF-2,active,Pair every Addressables load with a release.
+UNITY-PERF-3,active,Avoid managed allocations in per-frame code paths to prevent garbage-collector spikes.
+UNITY-PERF-4,active,Keep the `Resources` folder for prototypes and small bootstrap data. Load game content through Addressables (or AssetBundles).
+UNITY-PERF-5,active,"Pool objects that are created and destroyed often, such as projectiles, effects and UI list items, using `UnityEngine.Pool`."
+UNITY-STRUCT-1,active,"Agree on one folder structure and naming convention, write it down, and keep your own assets separate from third-party assets."
+UNITY-STRUCT-2,active,"Know Unity's reserved folder names (`Editor`, `Resources`, `StreamingAssets`, `Plugins`, …) and use them only for their purpose."
+UNITY-STRUCT-3,active,"Agree on a team C# style guide, starting from Unity's example and adapting it. Apply it consistently, and enforce formatting with an EditorConfig file."
+UNITY-STRUCT-4,active,Split code into assemblies with Assembly Definition files once the project grows.
+UNITY-STRUCT-5,active,"Mirror the architecture in assemblies, for example `Game.Core` (no engine-specific dependencies where practical), `Game.Gameplay`, `Game.UI`, `Game.Editor` and `*.Tests`, so that wrong-way references fail to compile."
+UNITY-STRUCT-6,active,Move systems that several projects share into custom UPM packages that follow the standard package layout.
+UNITY-STRUCT-7,active,"Keep `.meta` files visible and committed, and keep asset serialization on Force Text, so that assets diff and merge."
+UNITY-STRUCT-8,active,Start from the community Unity `.gitignore` so that generated folders such as `Library/` and `Temp/` are never committed.
+UNITY-STRUCT-9,active,Configure UnityYAMLMerge (Smart Merge) as the merge tool for scenes and prefabs.
+UNITY-STRUCT-10,active,Enter Play mode without domain reload for faster iteration.
+UNITY-TEST-1,active,"Design for testability: keep logic in plain C# classes behind thin MonoBehaviours, and inject dependencies."
+UNITY-TEST-2,active,"Run the tests from the command line in batch mode as part of the build, so CI runs them on every change."
+UNITY-TEST-3,active,"Write plain NUnit `[Test]` tests in Edit Mode for logic that doesn't need Play mode, and use `[UnityTest]` Play Mode tests for runtime behaviour that spans frames or needs a scene."
+UNITY-TEST-4,active,Put tests in their own test assemblies that reference the assemblies under test.

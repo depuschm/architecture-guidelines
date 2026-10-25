@@ -43,8 +43,9 @@ Every list item in `general/` and `specific/` needs at least one link. Keep rule
 
 Score every new source and rule from 1 to 10 using the criteria tables in [RANKING.md](../../../RANKING.md). Don't guess: name the criteria behind each score in your summary.
 
-- **Rules**: write the score at the start of the rule, for example `` `8` **Rule.** ``.
-- **Sources**: run `python3 scripts/rank.py fix`. It adds new links to `sources.csv` with an empty score. Fill in the `score` column (and tidy the `title` if the link text was generic), then run `fix` again. It copies the scores into the entries, sorts the lists and regenerates SOURCES.md.
+- **Rules**: write the score at the start of the rule, for example `` `8` **Rule.** ``. Don't write an ID: `fix` assigns the next free one for the file's prefix (`<!-- rule-prefix: … -->` on line 1).
+- **Sources**: run `python3 scripts/rank.py fix`. It adds new links to `sources.csv` with an empty score and today's `verified` date. Fill in the `score` column (and tidy the `title` if the link text was generic), then run `fix` again. It copies the scores into the entries, sorts the lists and regenerates SOURCES.md and RULES.md.
+- **Enforcement tools**: if a tool can check the rule automatically, add it under "How to enforce" with the rule IDs it checks. Link the tool's documentation of that specific check, and verify the tool is maintained.
 
 ## 6. Update the indexes (new files or platforms)
 

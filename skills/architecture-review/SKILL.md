@@ -71,7 +71,7 @@ In large repositories, sample representative files instead of reading everything
 
 ## 5. Evaluate
 
-- Report only findings that map to a rule in the loaded guideline files. Quote the rule title as written, with its score.
+- Report only findings that map to a rule in the loaded guideline files. Cite the rule by its ID (for example `DATA-1`), and give its score and title as written. `<root>/RULES.md` lists all IDs.
 - Rules and sources are sorted by score (1–10, see `<root>/RANKING.md`). Check the highest-scored rules first, and read the highest-scored adopted references first.
 - Copy source links **exactly** from the guideline file. Never invent a rule or a URL.
 - Keep evidence (what the code does) separate from judgement (why it matters).
@@ -99,10 +99,11 @@ Use this structure:
 ### Findings
 | # | Severity | Finding | Evidence | Guideline | Source |
 | --- | --- | --- | --- | --- | --- |
-| 1 | High | <what is wrong and why it matters> | `path/to/file.cs:42` | `general/data.md` (9): "Give each service or module exclusive ownership of its data" | [microservices.io, Database per service](https://microservices.io/patterns/data/database-per-service.html) |
+| 1 | High | <what is wrong and why it matters> | `path/to/file.cs:42` | `DATA-1` (9): "Give each service or module exclusive ownership of its data" | [microservices.io, Database per service](https://microservices.io/patterns/data/database-per-service.html) |
 
 ### Recommendations
 1. <Concrete next step, linked to finding numbers. For decisions with real trade-offs, suggest an ADR (see the `architecture-decision-record` skill).>
+2. <Where the guideline file's "How to enforce" section names a tool that checks a violated rule, recommend adding it, so the finding can't come back unnoticed.>
 
 ### Not covered by the guidelines
 - <Observation (opinion, no source)> → candidate for a new guideline

@@ -1,3 +1,4 @@
+<!-- rule-prefix: ADR -->
 # Decisions
 
 Record architecture decisions so the reasoning survives after the people who made them have moved on.
@@ -16,12 +17,12 @@ Record architecture decisions so the reasoning survives after the people who mad
 
 ## Key rules
 
-- `8` **Write an ADR for every architecturally significant decision.** It records context, decision, status and consequences, and it fits on a page or two. ([Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions))
-- `7` **Keep ADRs in the repository next to the code as numbered Markdown files, for example `docs/decisions/0001-use-postgresql.md`.** ([MADR](https://adr.github.io/madr/))
-- `7` **Record the options you considered and why you rejected them, not just the option you chose.** ([MADR template](https://adr.github.io/madr/))
-- `6` **Don't rewrite accepted decisions. Supersede them with a new ADR and link the two.** ([Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), [AWS, ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html))
-- `5` **Say how compliance will be confirmed, for example with a design or code review, an architecture test such as ArchUnit, or a fitness function.** ([MADR template, "Confirmation" section](https://adr.github.io/madr/), [Thoughtworks, Architectural fitness function](https://www.thoughtworks.com/radar/techniques/architectural-fitness-function))
-- `4` **Decentralise decisions with an advice process.** Anyone can decide after asking the people affected and those with expertise, and ADRs record the outcome. ([Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html))
+- `8` `ADR-1` **Write an ADR for every architecturally significant decision.** It records context, decision, status and consequences, and it fits on a page or two. ([Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions))
+- `7` `ADR-2` **Keep ADRs in the repository next to the code as numbered Markdown files, for example `docs/decisions/0001-use-postgresql.md`.** ([MADR](https://adr.github.io/madr/))
+- `7` `ADR-3` **Record the options you considered and why you rejected them, not just the option you chose.** ([MADR template](https://adr.github.io/madr/))
+- `6` `ADR-4` **Don't rewrite accepted decisions. Supersede them with a new ADR and link the two.** ([Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), [AWS, ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html))
+- `5` `ADR-5` **Say how compliance will be confirmed, for example with a design or code review, an architecture test such as ArchUnit, or a fitness function.** ([MADR template, "Confirmation" section](https://adr.github.io/madr/), [Thoughtworks, Architectural fitness function](https://www.thoughtworks.com/radar/techniques/architectural-fitness-function))
+- `4` `ADR-6` **Decentralise decisions with an advice process.** Anyone can decide after asking the people affected and those with expertise, and ADRs record the outcome. ([Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html))
 
 ## Tutorials and further reading
 

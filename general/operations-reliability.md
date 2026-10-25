@@ -1,3 +1,4 @@
+<!-- rule-prefix: OPS -->
 # Operations and reliability
 
 Build systems that are observable, resilient to failure and cheap to operate.
@@ -19,24 +20,24 @@ Build systems that are observable, resilient to failure and cheap to operate.
 
 ### Reliability targets
 
-- `8` **Define SLOs from user-facing SLIs, and use the error budget to balance reliability against release speed.** ([Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/), [Embracing Risk](https://sre.google/sre-book/embracing-risk/), [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/))
-- `8` **Monitor the four golden signals for every user-facing service: latency, traffic, errors and saturation.** ([Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/))
+- `8` `OPS-1` **Define SLOs from user-facing SLIs, and use the error budget to balance reliability against release speed.** ([Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/), [Embracing Risk](https://sre.google/sre-book/embracing-risk/), [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/))
+- `8` `OPS-2` **Monitor the four golden signals for every user-facing service: latency, traffic, errors and saturation.** ([Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/))
 
 ### Resilience
 
-- `9` **Put a timeout on every remote call, and retry only with capped exponential backoff and jitter.** ([AWS Builders' Library, Timeouts, retries and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/), [Azure, Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry))
-- `8` **Design to prevent cascading failures, for example with load shedding and by avoiding retry storms.** ([Google SRE book, Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/), [AWS Builders' Library, Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/))
-- `7` **Stop calling a failing dependency with a circuit breaker, and isolate resources with bulkheads.** ([Fowler, Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html), [Azure, Bulkhead pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead))
-- `6` **Avoid fallback paths that are rarely exercised.** Prefer designs that keep working the same way during failure (static stability). ([AWS Builders' Library, Avoiding fallback in distributed systems](https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/), [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/))
-- `5` **Buffer bursts of load with queues between producers and consumers.** ([Azure, Queue-Based Load Leveling pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling))
-- `4` **Verify resilience with controlled chaos experiments.** ([Principles of Chaos Engineering](https://principlesofchaos.org/))
+- `9` `OPS-3` **Put a timeout on every remote call, and retry only with capped exponential backoff and jitter.** ([AWS Builders' Library, Timeouts, retries and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/), [Azure, Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry))
+- `8` `OPS-4` **Design to prevent cascading failures, for example with load shedding and by avoiding retry storms.** ([Google SRE book, Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/), [AWS Builders' Library, Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/))
+- `7` `OPS-5` **Stop calling a failing dependency with a circuit breaker, and isolate resources with bulkheads.** ([Fowler, Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html), [Azure, Bulkhead pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead))
+- `6` `OPS-6` **Avoid fallback paths that are rarely exercised.** Prefer designs that keep working the same way during failure (static stability). ([AWS Builders' Library, Avoiding fallback in distributed systems](https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/), [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/))
+- `5` `OPS-7` **Buffer bursts of load with queues between producers and consumers.** ([Azure, Queue-Based Load Leveling pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling))
+- `4` `OPS-8` **Verify resilience with controlled chaos experiments.** ([Principles of Chaos Engineering](https://principlesofchaos.org/))
 
 ### Operability
 
-- `8` **Keep config in the environment, treat backing services as attached resources, and run stateless processes.** ([Twelve-Factor App, III Config](https://12factor.net/config), [IV Backing services](https://12factor.net/backing-services), [VI Processes](https://12factor.net/processes))
-- `8` **Expose health endpoints that load balancers and orchestrators can probe.** ([Azure, Health Endpoint Monitoring pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring))
-- `7` **Instrument with OpenTelemetry and follow its semantic conventions, so telemetry is portable and correlated.** ([OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/), [Semantic conventions](https://opentelemetry.io/docs/specs/semconv/))
-- `7` **Run blameless postmortems and track their action items.** ([Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/))
+- `8` `OPS-9` **Keep config in the environment, treat backing services as attached resources, and run stateless processes.** ([Twelve-Factor App, III Config](https://12factor.net/config), [IV Backing services](https://12factor.net/backing-services), [VI Processes](https://12factor.net/processes))
+- `8` `OPS-10` **Expose health endpoints that load balancers and orchestrators can probe.** ([Azure, Health Endpoint Monitoring pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring))
+- `7` `OPS-11` **Instrument with OpenTelemetry and follow its semantic conventions, so telemetry is portable and correlated.** ([OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/), [Semantic conventions](https://opentelemetry.io/docs/specs/semconv/))
+- `7` `OPS-12` **Run blameless postmortems and track their action items.** ([Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/))
 
 ## Tutorials and further reading
 

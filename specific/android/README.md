@@ -1,3 +1,4 @@
+<!-- rule-prefix: ANDROID -->
 # Android
 
 Scope: native Android apps in Kotlin, including Jetpack Compose.
@@ -16,14 +17,14 @@ Google's official architecture guidance is comprehensive. **Follow it as-is.** T
 
 ## Key rules
 
-- `9` **Use a UI layer and a data layer, and add a domain layer only when logic is complex or reused.** ([Guide to app architecture](https://developer.android.com/topic/architecture), [Domain layer](https://developer.android.com/topic/architecture/domain-layer))
-- `9` **Keep a single source of truth for each data type, and use unidirectional data flow: state flows down, events flow up.** ([Guide to app architecture](https://developer.android.com/topic/architecture))
-- `9` **Expose UI state from ViewModels as observable streams, and keep UI elements free of business logic.** ([UI layer](https://developer.android.com/topic/architecture/ui-layer), [ViewModel overview](https://developer.android.com/topic/libraries/architecture/viewmodel))
-- `8` **Access data only through repositories in the data layer.** ([Data layer](https://developer.android.com/topic/architecture/data-layer))
-- `8` **Use dependency injection (Hilt).** ([Dependency injection in Android](https://developer.android.com/training/dependency-injection), [Hilt](https://developer.android.com/training/dependency-injection/hilt-android))
-- `7` **Follow the coroutine best practices: inject dispatchers, make suspend functions main-safe, and don't expose mutable state.** ([Best practices for coroutines](https://developer.android.com/kotlin/coroutines/coroutines-best-practices))
-- `6` **Build offline-first where possible, with the local database as the source of truth.** ([Guide to app architecture](https://developer.android.com/topic/architecture), [Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first))
-- `5` **Modularise by feature and layer as the app and team grow.** ([Modularization guide](https://developer.android.com/topic/modularization))
+- `9` `ANDROID-1` **Use a UI layer and a data layer, and add a domain layer only when logic is complex or reused.** ([Guide to app architecture](https://developer.android.com/topic/architecture), [Domain layer](https://developer.android.com/topic/architecture/domain-layer))
+- `9` `ANDROID-2` **Keep a single source of truth for each data type, and use unidirectional data flow: state flows down, events flow up.** ([Guide to app architecture](https://developer.android.com/topic/architecture))
+- `9` `ANDROID-3` **Expose UI state from ViewModels as observable streams, and keep UI elements free of business logic.** ([UI layer](https://developer.android.com/topic/architecture/ui-layer), [ViewModel overview](https://developer.android.com/topic/libraries/architecture/viewmodel))
+- `8` `ANDROID-4` **Access data only through repositories in the data layer.** ([Data layer](https://developer.android.com/topic/architecture/data-layer))
+- `8` `ANDROID-5` **Use dependency injection (Hilt).** ([Dependency injection in Android](https://developer.android.com/training/dependency-injection), [Hilt](https://developer.android.com/training/dependency-injection/hilt-android))
+- `7` `ANDROID-6` **Follow the coroutine best practices: inject dispatchers, make suspend functions main-safe, and don't expose mutable state.** ([Best practices for coroutines](https://developer.android.com/kotlin/coroutines/coroutines-best-practices))
+- `6` `ANDROID-7` **Build offline-first where possible, with the local database as the source of truth.** ([Guide to app architecture](https://developer.android.com/topic/architecture), [Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first))
+- `5` `ANDROID-8` **Modularise by feature and layer as the app and team grow.** ([Modularization guide](https://developer.android.com/topic/modularization))
 
 ## Tutorials and further reading
 

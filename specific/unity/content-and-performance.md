@@ -1,3 +1,4 @@
+<!-- rule-prefix: UNITY-PERF -->
 # Unity: content and performance
 
 Asset loading, memory management and profiling.
@@ -13,8 +14,8 @@ Asset loading, memory management and profiling.
 
 ## Key rules
 
-- `9` **Profile early and on target devices, and measure before and after every optimisation.** ([Unity, Ultimate guide to profiling](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6), [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html))
-- `8` **Pair every Addressables load with a release.** Addressables uses reference counting, and unreleased handles keep assets in memory. ([Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html))
-- `8` **Avoid managed allocations in per-frame code paths to prevent garbage-collector spikes.** ([Unity Manual, Optimizing managed memory](https://docs.unity3d.com/Manual/performance-optimizing-code-managed-memory.html))
-- `7` **Keep the `Resources` folder for prototypes and small bootstrap data. Load game content through Addressables (or AssetBundles).** ([Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html), [Addressables overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html))
-- `7` **Pool objects that are created and destroyed often, such as projectiles, effects and UI list items, using `UnityEngine.Pool`.** ([Unity Scripting API, ObjectPool](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html), [Unity Learn, Object pooling](https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-object-pooling-to-boost-performance-of-c-scripts-in-unity))
+- `9` `UNITY-PERF-1` **Profile early and on target devices, and measure before and after every optimisation.** ([Unity, Ultimate guide to profiling](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6), [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html))
+- `8` `UNITY-PERF-2` **Pair every Addressables load with a release.** Addressables uses reference counting, and unreleased handles keep assets in memory. ([Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html))
+- `8` `UNITY-PERF-3` **Avoid managed allocations in per-frame code paths to prevent garbage-collector spikes.** ([Unity Manual, Optimizing managed memory](https://docs.unity3d.com/Manual/performance-optimizing-code-managed-memory.html))
+- `7` `UNITY-PERF-4` **Keep the `Resources` folder for prototypes and small bootstrap data. Load game content through Addressables (or AssetBundles).** ([Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html), [Addressables overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html))
+- `7` `UNITY-PERF-5` **Pool objects that are created and destroyed often, such as projectiles, effects and UI list items, using `UnityEngine.Pool`.** ([Unity Scripting API, ObjectPool](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html), [Unity Learn, Object pooling](https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-object-pooling-to-boost-performance-of-c-scripts-in-unity))

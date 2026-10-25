@@ -1,3 +1,4 @@
+<!-- rule-prefix: REACT -->
 # React
 
 Scope: web front ends built with React, either on their own or inside a framework.
@@ -14,18 +15,18 @@ Scope: web front ends built with React, either on their own or inside a framewor
 
 ## Key rules
 
-- `9` **Keep components and hooks pure. Side effects belong in event handlers or Effects.** ([react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure), [Rules of React](https://react.dev/reference/rules))
-- `8` **Keep state minimal.** Don't store what you can derive during render, and avoid duplicated or contradictory state. ([react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure))
-- `8` **Don't use Effects to transform data or handle user events.** ([react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect))
-- `7` **Put state where it's used, and lift it only as far as the closest common parent.** ([react.dev, Sharing state between components](https://react.dev/learn/sharing-state-between-components), [Dodds, Colocation](https://kentcdodds.com/blog/colocation))
-- `7` **Treat server state (fetched and cached data) separately from UI state, for example with TanStack Query.** ([TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview), [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react))
-- `7` **Test the way users use the UI, not implementation details.** ([Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles))
-- `6` **Start new apps with a framework, or with a build tool such as Vite when you have specific constraints.** ([react.dev, Creating a React App](https://react.dev/learn/creating-a-react-app))
-- `6` **Try props and composition before reaching for context.** ([react.dev, Passing data deeply with context](https://react.dev/learn/passing-data-deeply-with-context))
-- `6` **Extract reusable stateful logic into custom hooks.** ([react.dev, Reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks))
-- `6` **Organise larger apps by feature, not by file type.** ([Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md), [Feature-Sliced Design](https://feature-sliced.design/))
-- `6` **Move non-view logic (domain, data access) out of components as the app grows.** ([Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html))
-- `6` **Track Core Web Vitals as the user-facing performance budget.** ([web.dev, Web Vitals](https://web.dev/articles/vitals))
+- `9` `REACT-1` **Keep components and hooks pure. Side effects belong in event handlers or Effects.** ([react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure), [Rules of React](https://react.dev/reference/rules))
+- `8` `REACT-2` **Keep state minimal.** Don't store what you can derive during render, and avoid duplicated or contradictory state. ([react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure))
+- `8` `REACT-3` **Don't use Effects to transform data or handle user events.** ([react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect))
+- `7` `REACT-4` **Put state where it's used, and lift it only as far as the closest common parent.** ([react.dev, Sharing state between components](https://react.dev/learn/sharing-state-between-components), [Dodds, Colocation](https://kentcdodds.com/blog/colocation))
+- `7` `REACT-5` **Treat server state (fetched and cached data) separately from UI state, for example with TanStack Query.** ([TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview), [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react))
+- `7` `REACT-6` **Test the way users use the UI, not implementation details.** ([Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles))
+- `6` `REACT-7` **Start new apps with a framework, or with a build tool such as Vite when you have specific constraints.** ([react.dev, Creating a React App](https://react.dev/learn/creating-a-react-app))
+- `6` `REACT-8` **Try props and composition before reaching for context.** ([react.dev, Passing data deeply with context](https://react.dev/learn/passing-data-deeply-with-context))
+- `6` `REACT-9` **Extract reusable stateful logic into custom hooks.** ([react.dev, Reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks))
+- `6` `REACT-10` **Organise larger apps by feature, not by file type.** ([Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md), [Feature-Sliced Design](https://feature-sliced.design/))
+- `6` `REACT-11` **Move non-view logic (domain, data access) out of components as the app grows.** ([Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html))
+- `6` `REACT-12` **Track Core Web Vitals as the user-facing performance budget.** ([web.dev, Web Vitals](https://web.dev/articles/vitals))
 
 ## Tutorials and further reading
 

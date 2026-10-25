@@ -12,7 +12,9 @@ Every source and every rule has a **score from 1 to 10**, and lists are sorted b
 | 6–8 | Recommended | Recommended |
 | 1–5 | Further reading | Conditional |
 
-[RANKING.md](RANKING.md) explains the criteria, and [SOURCES.md](SOURCES.md) lists all ~400 sources in one place, ranked.
+[RANKING.md](RANKING.md) explains the criteria, and [SOURCES.md](SOURCES.md) lists all ~400 sources in one place, ranked, with the date each was last verified.
+
+Every rule also has a **stable ID**, such as `SEC-3` or `UNITY-STRUCT-2`, so reviews, ADRs and pull requests can cite it. [RULES.md](RULES.md) lists all rules by ID. Where a tool can check a rule automatically, the guideline file names it under **How to enforce**.
 
 ## Structure
 
@@ -23,9 +25,11 @@ specific/_template  Starting point for a new platform folder
 skills/             AI skills (Agent Skills format) that apply these guidelines
 RANKING.md          How sources and rules are scored from 1 to 10
 SOURCES.md          Every linked source, ranked (generated from sources.csv)
-sources.csv         The score of every source
+RULES.md            Every rule by ID (generated)
+sources.csv         Score and last-verified date of every source
+rules.csv           Registry of rule IDs, including retired ones (never reused)
 .claude-plugin/     Makes this repo installable as a Claude Code plugin and marketplace
-scripts/            Repository checks (citations, scores) and tooling
+scripts/            Repository checks (citations, scores, IDs, source freshness) and tooling
 ```
 
 ## General guidelines
@@ -71,7 +75,7 @@ The [`skills/`](skills) folder uses the [Agent Skills](https://agentskills.io/sp
 | [`c4-diagram`](skills/c4-diagram/SKILL.md) | Produce [C4](https://c4model.com/) context/container/component diagrams as code |
 | [`unity-architecture`](skills/unity-architecture/SKILL.md) | Design or review the architecture of a Unity project |
 
-Maintainers also get a project skill, [`add-guideline`](.claude/skills/add-guideline/SKILL.md), which walks through adding guidelines the reference-first way.
+Maintainers also get two project skills: [`add-guideline`](.claude/skills/add-guideline/SKILL.md) adds guidelines the reference-first way, and [`reverify-sources`](.claude/skills/reverify-sources/SKILL.md) re-checks stale or retired sources.
 
 ### Install in Claude Code
 
@@ -82,7 +86,9 @@ claude plugin marketplace add depuschm/architecture-guidelines
 claude plugin install architecture-guidelines@architecture-guidelines
 ```
 
-The skills then run as `/architecture-guidelines:architecture-review` and so on. Claude also loads them on its own when a request matches. To try the plugin from a local clone without installing it, run `claude --plugin-dir ./architecture-guidelines`.
+The skills then run as `/architecture-guidelines:architecture-review` and so on. Claude also loads them on its own when a request matches.
+
+The plugin has no fixed version, so every commit to `main` is a new release. To receive updates automatically, open `/plugin`, go to **Marketplaces**, select `architecture-guidelines` and choose **Enable auto-update**. Otherwise, update by hand with `claude plugin update architecture-guidelines@architecture-guidelines`. To try the plugin from a local clone without installing it, run `claude --plugin-dir ./architecture-guidelines`.
 
 ### Use with other agents
 
@@ -94,8 +100,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 
 1. **Reference first.** Link to an existing guideline before writing a new one.
 2. **Every rule has a source.** Each list item in `general/` and `specific/` must contain a link. CI enforces this with [`scripts/check_citations.py`](scripts/check_citations.py).
-3. **Every entry has a score.** Score sources in `sources.csv` and rules inline, following [RANKING.md](RANKING.md). Then run `python3 scripts/rank.py fix` to sort the lists and update SOURCES.md.
-4. **Links must work.** CI runs [lychee](https://lychee.cli.rs/) on every push and once a week.
+3. **Every entry has a score.** Score sources in `sources.csv` and rules inline, following [RANKING.md](RANKING.md). Then run `python3 scripts/rank.py fix`, which also gives new rules their ID, sorts the lists and updates SOURCES.md and RULES.md.
+4. **Links must work and stay current.** CI runs [lychee](https://lychee.cli.rs/) and [`scripts/verify_sources.py`](scripts/verify_sources.py) on every push and once a week. The script also catches retired pages, and the job summary lists sources not verified in the last year.
 
 ## License
 

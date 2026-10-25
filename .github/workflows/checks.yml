@@ -28,6 +28,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  sources:
+    name: Sources are alive and fresh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Detect broken and retired sources
+        run: python3 scripts/verify_sources.py
+      - name: Report sources not verified in the last year
+        if: always()
+        run: |
+          {
+            echo '## Sources not verified in the last 365 days'
+            echo '```'
+            python3 scripts/verify_sources.py --stale
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
   plugin:
     name: Plugin manifests are valid
     runs-on: ubuntu-latest

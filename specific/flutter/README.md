@@ -1,3 +1,4 @@
+<!-- rule-prefix: FLUTTER -->
 # Flutter
 
 Scope: cross-platform apps built with Flutter and Dart.
@@ -16,12 +17,12 @@ The Flutter team publishes an official architecture guide. **Follow it as-is.**
 
 ## Key rules
 
-- `9` **Separate the UI layer (views and view models) from the data layer (repositories and services), and add a domain layer of use cases only when needed.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
-- `8` **Make repositories the source of truth for app data, with services that wrap external APIs.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
-- `8` **Use unidirectional data flow and immutable data models.** ([Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations))
-- `7` **Cover logic with unit tests, widgets with widget tests, and critical flows with integration tests.** ([Flutter, Testing overview](https://docs.flutter.dev/testing/overview))
-- `6` **Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state.** ([Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options), [Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app))
-- `5` **Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers.** ([Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command), [Result pattern](https://docs.flutter.dev/app-architecture/design-patterns/result))
+- `9` `FLUTTER-1` **Separate the UI layer (views and view models) from the data layer (repositories and services), and add a domain layer of use cases only when needed.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
+- `8` `FLUTTER-2` **Make repositories the source of truth for app data, with services that wrap external APIs.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
+- `8` `FLUTTER-3` **Use unidirectional data flow and immutable data models.** ([Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations))
+- `7` `FLUTTER-4` **Cover logic with unit tests, widgets with widget tests, and critical flows with integration tests.** ([Flutter, Testing overview](https://docs.flutter.dev/testing/overview))
+- `6` `FLUTTER-5` **Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state.** ([Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options), [Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app))
+- `5` `FLUTTER-6` **Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers.** ([Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command), [Result pattern](https://docs.flutter.dev/app-architecture/design-patterns/result))
 
 ## Tutorials and further reading
 

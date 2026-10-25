@@ -1,3 +1,4 @@
+<!-- rule-prefix: DOTNET -->
 # .NET / ASP.NET Core
 
 Scope: back-end services, web APIs, web apps and worker services on modern .NET.
@@ -18,18 +19,18 @@ Scope: back-end services, web APIs, web apps and worker services on modern .NET.
 
 ## Key rules
 
-- `10` **Keep secrets out of source.** Use the Secret Manager in development and a vault in production. ([Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets))
-- `9` **Go async all the way and never block on async code with `.Result` or `.Wait()`.** ([Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices), [Fowler, Async guidance](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md))
-- `8` **Use the built-in DI container and follow its lifetime guidelines.** For example, don't resolve scoped services from singletons. ([Microsoft, Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection), [Dependency injection guidelines](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/guidelines))
-- `8` **Add standard resilience (timeouts, retries, circuit breakers) to outgoing HTTP calls.** ([Microsoft, Build resilient HTTP apps](https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience))
-- `7` **Structure apps with Clean Architecture.** The application core defines interfaces, infrastructure implements them, and the core never references infrastructure. ([Microsoft, Common web application architectures](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures))
-- `7` **Return errors as ProblemDetails, and handle exceptions centrally.** ([Microsoft, Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling))
-- `7` **Expose health checks for load balancers and orchestrators.** ([Microsoft, Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks))
-- `7` **Instrument with OpenTelemetry.** ([Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel))
-- `7` **Enable nullable reference types in all projects.** ([Microsoft, Nullable reference types](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/null-safety/nullable-reference-types))
-- `7` **Test the HTTP pipeline with in-memory integration tests (`WebApplicationFactory`), and enforce layering with architecture tests.** ([Microsoft, Integration tests](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests), [ArchUnitNET](https://github.com/TNG/ArchUnitNET))
-- `6` **Bind configuration to strongly typed classes with the options pattern.** ([Microsoft, Options pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options))
-- `6` **Follow the EF Core performance guidance for queries and change tracking.** ([Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/))
+- `10` `DOTNET-1` **Keep secrets out of source.** Use the Secret Manager in development and a vault in production. ([Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets))
+- `9` `DOTNET-2` **Go async all the way and never block on async code with `.Result` or `.Wait()`.** ([Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices), [Fowler, Async guidance](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md))
+- `8` `DOTNET-3` **Use the built-in DI container and follow its lifetime guidelines.** For example, don't resolve scoped services from singletons. ([Microsoft, Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection), [Dependency injection guidelines](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/guidelines))
+- `8` `DOTNET-4` **Add standard resilience (timeouts, retries, circuit breakers) to outgoing HTTP calls.** ([Microsoft, Build resilient HTTP apps](https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience))
+- `7` `DOTNET-5` **Structure apps with Clean Architecture.** The application core defines interfaces, infrastructure implements them, and the core never references infrastructure. ([Microsoft, Common web application architectures](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures))
+- `7` `DOTNET-6` **Return errors as ProblemDetails, and handle exceptions centrally.** ([Microsoft, Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling))
+- `7` `DOTNET-7` **Expose health checks for load balancers and orchestrators.** ([Microsoft, Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks))
+- `7` `DOTNET-8` **Instrument with OpenTelemetry.** ([Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel))
+- `7` `DOTNET-9` **Enable nullable reference types in all projects.** ([Microsoft, Nullable reference types](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/null-safety/nullable-reference-types))
+- `7` `DOTNET-10` **Test the HTTP pipeline with in-memory integration tests (`WebApplicationFactory`), and enforce layering with architecture tests.** ([Microsoft, Integration tests](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests), [ArchUnitNET](https://github.com/TNG/ArchUnitNET))
+- `6` `DOTNET-11` **Bind configuration to strongly typed classes with the options pattern.** ([Microsoft, Options pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options))
+- `6` `DOTNET-12` **Follow the EF Core performance guidance for queries and change tracking.** ([Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/))
 
 ## Tutorials and further reading
 

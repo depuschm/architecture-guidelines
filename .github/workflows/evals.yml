@@ -8,6 +8,12 @@ on:
       runs:
         description: Runs per case and arm
         default: "3"
+      model:
+        description: Model that runs the cases (alias or full model ID)
+        default: sonnet
+      judge_model:
+        description: Model that grades the llm checks
+        default: haiku
 
 jobs:
   evals:
@@ -30,7 +36,7 @@ jobs:
         run: >
           claude plugin eval . --trust-plugin --scaffold --allow-tools Write
           --runs ${{ inputs.runs }} --threshold 0.8
-          --model claude-sonnet-5-5 --judge-model claude-haiku-5-5
+          --model ${{ inputs.model }} --judge-model ${{ inputs.judge_model }}
           --no-publish --max-cost-usd 10 --json results.json
       - uses: actions/upload-artifact@v7
         if: always() && env.ANTHROPIC_API_KEY != ''

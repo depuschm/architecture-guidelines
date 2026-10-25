@@ -45,6 +45,37 @@ jobs:
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
+  stale:
+    name: No source left unverified for a year
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: python3 scripts/verify_sources.py --stale --strict
+
+  report:
+    name: Open an issue when the weekly check fails
+    needs: [links, sources, stale]
+    if: failure() && github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="Weekly source check failed"
+          existing=$(gh issue list -R "$GITHUB_REPOSITORY" --label freshness --state open --search "\"$title\" in:title" --json number -q '.[0].number')
+          body="The scheduled check found broken, retired or stale sources: $RUN_URL
+
+          Fix them with the reverify-sources skill, or see CONTRIBUTING.md (Scores, IDs and freshness)."
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" -R "$GITHUB_REPOSITORY" --body "Failed again: $RUN_URL"
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$title" --label freshness --body "$body"
+          fi
+
   plugin:
     name: Plugin manifests are valid
     runs-on: ubuntu-latest

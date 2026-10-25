@@ -111,6 +111,16 @@ lychee --config lychee.toml './**/*.md'                # links resolve (https://
 claude plugin validate .                               # plugin and marketplace manifests are valid
 ```
 
+To preview the website, install the generator once and build or serve it:
+
+```bash
+pip install -r requirements.txt
+python3 scripts/build_site.py            # builds build/site/ in strict mode, like CI
+python3 scripts/build_site.py --serve    # live preview at http://localhost:8000
+```
+
+The script stages the Markdown and generates the navigation from the indexes, so a new file or platform appears on the site once it's linked from its index. Links to files that aren't on the site, such as CSV files and scripts, point to GitHub.
+
 CI runs the same checks on every push and pull request, and weekly to catch link rot and retired pages. `verify_sources.py` catches pages that still answer HTTP 200 but redirect to a home, 404 or "deprecated" page, which a plain link checker misses.
 
 ### Sites that block automated link checks

@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Keeps the actions used in CI current (they're pinned to major versions).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  # Keeps the website generator (requirements.txt) current.
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly

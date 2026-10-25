@@ -2,6 +2,8 @@
 
 Best practices for designing software architectures, plus AI skills that apply them.
 
+**Read it as a website:** [depuschm.github.io/architecture-guidelines](https://depuschm.github.io/architecture-guidelines/), with search, dark mode and a link to every rule.
+
 The repo is **reference-first**. If a good guideline already exists (an official platform guide, a standard, a well-known book or tutorial), we link to it and adopt it. We only write our own short rules where nothing suitable exists, where sources disagree, or where a choice has to be made. Every rule we write links to a source.
 
 Every source and every rule has a **score from 1 to 10**, and lists are sorted by it, so the most important entries come first. The score bands are:
@@ -32,6 +34,7 @@ sources.csv         Score and last-verified date of every source
 rules.csv           Registry of rule IDs, including retired ones (never reused)
 .claude-plugin/     Makes this repo installable as a Claude Code plugin and marketplace
 scripts/            Repository checks (citations, scores, IDs, source freshness) and tooling
+zensical.toml       Website configuration, built by scripts/build_site.py
 ```
 
 ## General guidelines
@@ -113,6 +116,17 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 2. **Every rule has a source.** Each list item in `general/` and `specific/` must contain a link. CI enforces this with [`scripts/check_citations.py`](scripts/check_citations.py).
 3. **Every entry has a score.** Score sources in `sources.csv` and rules inline, following [RANKING.md](RANKING.md). Then run `python3 scripts/rank.py fix`, which also gives new rules their ID, sorts the lists and updates SOURCES.md and RULES.md.
 4. **Links must work and stay current.** CI runs [lychee](https://lychee.cli.rs/) and [`scripts/verify_sources.py`](scripts/verify_sources.py) on every push and once a week. The script also catches retired pages, and the job summary lists sources not verified in the last year.
+
+### Automation
+
+| What runs | When | Where |
+| --- | --- | --- |
+| Citation, score and rule ID checks, and plugin validation | Every push and pull request | [`checks.yml`](.github/workflows/checks.yml) |
+| Link check and retired-page detection | Every push and pull request, and weekly | [`checks.yml`](.github/workflows/checks.yml) |
+| Sources not verified for a year fail the weekly run, and a failed weekly run opens (or updates) an issue | Weekly | [`checks.yml`](.github/workflows/checks.yml) |
+| Website build in strict mode (broken links fail it), deployed to GitHub Pages | Pull requests build it, pushes to `main` deploy it | [`site.yml`](.github/workflows/site.yml) |
+| Update pull requests for GitHub Actions and the site generator | Weekly | [`dependabot.yml`](.github/dependabot.yml) |
+| Skill evals against real models | When started by hand (needs an `ANTHROPIC_API_KEY` secret) | [`evals.yml`](.github/workflows/evals.yml) |
 
 Issue templates cover suggesting a source, disputing a score, reporting an outdated source and requesting a platform. The decisions behind how this repository works are recorded in [docs/decisions](docs/decisions/README.md).
 

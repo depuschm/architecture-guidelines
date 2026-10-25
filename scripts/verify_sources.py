@@ -20,6 +20,7 @@ import datetime
 import http.cookiejar
 import re
 import sys
+import time
 import tomllib
 import urllib.error
 import urllib.parse
@@ -62,7 +63,10 @@ def fetch(url, attempts=2):
                 body = response.read(300_000).decode("utf-8", errors="replace")
                 return response.status, response.geturl(), body
         except urllib.error.HTTPError as error:
-            return error.code, error.geturl() or url, ""
+            last = (error.code, error.geturl() or url, "")
+            if error.code not in (502, 503, 504):  # gateway errors are often temporary: retry them
+                return last
+            time.sleep(5)
         except Exception as error:  # timeouts, DNS, TLS
             last = (0, url, str(error))
     return last

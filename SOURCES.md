@@ -88,7 +88,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-986 sources.
+985 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -325,7 +325,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Vue.js, Computed properties: best practices](https://vuejs.org/guide/essentials/computed.html#best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Introduction: which API style to choose](https://vuejs.org/guide/introduction.html#which-to-choose) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Performance: choosing the right architecture](https://vuejs.org/guide/best-practices/performance.html#choosing-the-right-architecture) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
-| 8 | [Vue.js, Performance: code splitting](https://vuejs.org/guide/best-practices/performance.html#code-splitting) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Props: one-way data flow](https://vuejs.org/guide/components/props.html#one-way-data-flow) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Security](https://vuejs.org/guide/best-practices/security.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Security: Rule No.1, never use non-trusted templates](https://vuejs.org/guide/best-practices/security.html#rule-no-1-never-use-non-trusted-templates) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -484,7 +483,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GitHub Docs, About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) | [general/releases](general/releases.md), [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [GitHub Docs, Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
-| 7 | [GitHub, CodeQL query help for GitHub Actions](https://codeql.github.com/codeql-query-help/actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Configuring OpenID Connect in cloud providers](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Dependency caching (cache security)](https://docs.github.com/en/actions/concepts/workflows-and-actions/dependency-caching) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Deployment environments](https://docs.github.com/en/actions/concepts/workflows-and-actions/deployment-environments) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -763,7 +761,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Vercel, Config and Secret environment variables: environment variables policy](https://vercel.com/docs/environment-variables/sensitive-environment-variables#environment-variables-policy) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Configuring regions for Vercel Functions](https://vercel.com/docs/functions/configuring-functions/region) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Deployment Protection: Standard Protection](https://vercel.com/docs/deployment-protection#standard-protection) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
-| 7 | [Vercel, Edge Runtime](https://vercel.com/docs/functions/runtimes/edge) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Environment variables: environments](https://vercel.com/docs/environment-variables#environments) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Fluid compute: isolation boundaries and global state](https://vercel.com/docs/fluid-compute#isolation-boundaries-and-global-state) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Performing an Instant Rollback on a Deployment](https://vercel.com/docs/instant-rollback) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -775,6 +772,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Vue.js, <script setup>](https://vuejs.org/api/sfc-script-setup.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js, Component v-model](https://vuejs.org/guide/components/v-model.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js, Performance](https://vuejs.org/guide/best-practices/performance.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Performance: code splitting](https://vuejs.org/guide/best-practices/performance.html#code-splitting) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js, Security: potential dangers](https://vuejs.org/guide/best-practices/security.html#potential-dangers) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js, Server-side rendering: hydration mismatch](https://vuejs.org/guide/scaling-up/ssr.html#hydration-mismatch) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js, Server-side rendering: why SSR?](https://vuejs.org/guide/scaling-up/ssr.html#why-ssr) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -878,6 +876,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 4: New vulnerability patterns and mitigation strategies](https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, About large files on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [GitHub, artifact attestations](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, CodeQL query help for GitHub Actions](https://codeql.github.com/codeql-query-help/actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, CodeQL query help: Checkout of untrusted code in a privileged context](https://codeql.github.com/codeql-query-help/actions/actions-untrusted-checkout-critical/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, CodeQL query help: Code injection (actions/code-injection/critical)](https://codeql.github.com/codeql-query-help/actions/actions-code-injection-critical/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, CodeQL query help: Unpinned tag for a non-immutable Action or reusable workflow](https://codeql.github.com/codeql-query-help/actions/actions-unpinned-tag/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -1081,7 +1080,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-145 sources.
+146 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1208,6 +1207,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [uv, Commands: uv audit](https://docs.astral.sh/uv/reference/cli/#uv-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [VContainer](https://vcontainer.hadashikick.jp/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 5 | [Vercel, Edge Runtime](https://vercel.com/docs/functions/runtimes/edge) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Welcome to DDD](https://github.com/ddd-crew/welcome-to-ddd) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 5 | [ZAP, Cookie No HttpOnly Flag (10010)](https://www.zaproxy.org/docs/alerts/10010/) | [general/authentication](general/authentication.md) | 2026-10-25 |

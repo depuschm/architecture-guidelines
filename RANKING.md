@@ -74,6 +74,12 @@ Scores are judgements, so they are checked with blind second opinions. On 2026-1
 - Rules scored 8 were systematically about one point higher than the second opinion. All 53 rules at 8 were re-checked against the difference between 8 ("costly to reverse, for most projects") and 7 ("clear benefit at modest cost"). Twenty-two were lowered.
 - The few items two or more points apart were re-scored after reviewing both reasons.
 
+A second round on 2026-10-25 covered the rules and sources added later that day: 62 rules from the new files (game development, Godot, Unreal, web, Next.js, Node.js, Python, Vue, Svelte, Docker, PostgreSQL, hosting, Terraform, GitHub Actions, authentication, releases and repositories) and 40 of their sources:
+
+- 98% of rule scores (42 of 62 exactly) and 92% of source scores were within one point. Rules showed no systematic difference, which suggests the first round's correction of the 8s held.
+- One rule and three sources were two points apart and were re-scored: a rule that pays off mainly for large teams, an official page that now recommends against what it documents, a page that is mostly a list of links, and a single section scored like a whole guide.
+- All five sampled sources scored 8 came back as 7. Five is too few to act on, so check new sources at 8 against "official documentation for one feature" (7) before scoring them, and include more of them in the next round.
+
 Repeat the exercise after large additions: sample entries across files and score bands, have someone score them blind, and re-check any band where the difference is systematic.
 
 ## Changing a score

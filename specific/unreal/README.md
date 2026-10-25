@@ -48,8 +48,8 @@ Epic doesn't publish a single architecture guide. These official pages are the b
 
 ### Quality
 
-- `7` `UNREAL-13` **Turn content rules, such as naming conventions and size or performance budgets, into Data Validation rules, and run the `DataValidation` commandlet in CI.** ([Data Validation](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-validation-in-unreal-engine))
 - `7` `UNREAL-14` **Write automated tests with the Automation Test Framework, use Low-Level Tests for pure unit tests, and run both from the command line in CI.** ([Automation Test Framework](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine), [Run Automation Tests](https://dev.epicgames.com/documentation/en-us/unreal-engine/run-automation-tests-in-unreal-engine), [Low-Level Tests](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine))
+- `6` `UNREAL-13` **Turn content rules, such as naming conventions and size or performance budgets, into Data Validation rules, and run the `DataValidation` commandlet in CI.** ([Data Validation](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-validation-in-unreal-engine))
 
 ## How to enforce
 

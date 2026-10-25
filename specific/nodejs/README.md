@@ -9,7 +9,7 @@ Scope: server-side services that run on Node.js and are written in TypeScript, s
 
 - `9` [Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) (Node.js): how Node.js runs many clients on a few threads, and how to keep each callback and task small. Read it before designing a service.
 - `9` [Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) (Node.js): Node.js-specific threats, such as HTTP denial of service, malicious dependencies and prototype pollution, with mitigations for each.
-- `8` [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) (Yoni Goldberg and contributors): the largest community collection, covering project structure, error handling, testing, production, security and Docker. Use it as a checklist; it isn't an official source.
+- `7` [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) (Yoni Goldberg and contributors): the largest community collection, covering project structure, error handling, testing, production, security and Docker. Use it as a checklist; it isn't an official source.
 
 ## Key rules
 
@@ -30,7 +30,7 @@ Scope: server-side services that run on Node.js and are written in TypeScript, s
 
 Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
 
-- `8` [TypeScript `strict`](https://www.typescriptlang.org/tsconfig/#strict): with `strict` on, running `tsc --noEmit` in CI fails the build on type errors. Checks `NODE-8`.
+- `7` [TypeScript `strict`](https://www.typescriptlang.org/tsconfig/#strict): with `strict` on, running `tsc --noEmit` in CI fails the build on type errors. Checks `NODE-8`.
 - `7` [typescript-eslint `no-floating-promises`](https://typescript-eslint.io/rules/no-floating-promises/) and [`no-misused-promises`](https://typescript-eslint.io/rules/no-misused-promises/): type-aware lint rules, both in `recommended-type-checked`, that flag unhandled promises and promises passed where they aren't handled. Checks `NODE-2`.
 - `7` [npm ci](https://docs.npmjs.com/cli/v12/commands/npm-ci/) and [npm audit](https://docs.npmjs.com/cli/v12/commands/npm-audit/): `npm ci` fails when `package.json` and the lockfile disagree, and `npm audit --audit-level=<level>` fails on known vulnerabilities. Pair them with Dependabot ([general/security.md](../../general/security.md)). Partly checks `NODE-4`.
 - `6` [eslint-plugin-n `no-sync`](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md): flags calls to synchronous `*Sync` methods. Partly checks `NODE-1`.

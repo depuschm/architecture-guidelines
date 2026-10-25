@@ -8,14 +8,14 @@ Scope: workloads on Microsoft Azure, from a single subscription to an enterprise
 ## Adopted references
 
 - `10` [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/): **the baseline, used for every workload review.** Its [pillars](https://learn.microsoft.com/en-us/azure/well-architected/pillars) each have a design review checklist:
-  - `8` [Reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/checklist)
-  - `8` [Security](https://learn.microsoft.com/en-us/azure/well-architected/security/checklist)
+  - `7` [Reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/checklist)
+  - `7` [Security](https://learn.microsoft.com/en-us/azure/well-architected/security/checklist)
   - `7` [Operational Excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/checklist)
   - `7` [Cost Optimization](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/checklist)
   - `7` [Performance Efficiency](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/checklist)
 - `9` [What is an Azure landing zone?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) (Cloud Adoption Framework): **the baseline for the environment**: platform and workload landing zones, design areas such as [resource organization](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org) and governance, and [implementation options](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/implementation-options), including infrastructure-as-code accelerators.
-- `8` [Microsoft cloud security benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/overview): security controls for Azure with implementation guidance and Azure Policy mappings. Version 2 is in preview and supersedes version 1.
 - `8` [Using availability zones and regions](https://learn.microsoft.com/en-us/azure/well-architected/design-guides/regions-availability-zones) (Well-Architected Framework): how to choose between zonal, zone-redundant and multi-region deployments. Read it with the [reliability guides for Azure services](https://learn.microsoft.com/en-us/azure/reliability/overview-reliability-guidance), which describe each service's zone support and recovery options.
+- `7` [Microsoft cloud security benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/overview): security controls for Azure with implementation guidance and Azure Policy mappings. Version 2 is in preview and supersedes version 1.
 - `7` [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/): reference architectures, example workloads, architecture guides and technology decision guides.
 - `7` [Azure service guides](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/) (Well-Architected Framework): pillar-by-pillar recommendations for individual services, such as App Service, AKS and Azure SQL Database.
 - `7` [Bicep best practices](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices): parameters, naming, resource definitions, child resources and outputs.

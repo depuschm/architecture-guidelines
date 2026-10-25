@@ -10,11 +10,11 @@ Scope: any web front end, whatever the framework or build tool, with a focus on 
 - `10` [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) (W3C Recommendation): **the baseline for accessibility.** Testable success criteria at levels A, AA and AAA.
 - `9` [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) (W3C WAI): patterns for custom widgets such as tabs, menus, comboboxes and dialogs, with the roles, states and keyboard support each one needs.
 - `9` [Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) (OWASP): **the baseline for XSS defences**, including output encoding, HTML sanitization, safe sinks and the escape hatches in frameworks.
-- `8` [Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) (MDN): guides and references for accessible HTML, CSS, JavaScript and ARIA.
 - `8` [The most effective ways to improve Core Web Vitals](https://web.dev/articles/top-cwv) (web.dev): the highest-impact fixes for loading, responsiveness and layout stability, in priority order.
 - `8` [HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) (OWASP): which security headers to send, with recommended values.
 - `8` [Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) (OWASP): how to build, deploy and test a CSP.
-- `8` [Baseline](https://web.dev/baseline) (web.dev): which web platform features work across the core browsers, as Newly or Widely available.
+- `7` [Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) (MDN): guides and references for accessible HTML, CSS, JavaScript and ARIA.
+- `7` [Baseline](https://web.dev/baseline) (web.dev): which web platform features work across the core browsers, as Newly or Widely available.
 - `7` [Web Vitals](https://web.dev/articles/vitals) (web.dev): the Core Web Vitals (LCP, INP and CLS), their "good" thresholds and how to measure them.
 
 ## Key rules
@@ -58,7 +58,7 @@ Tools that check the key rules above automatically, in CI, the IDE or a commit h
 
 ## Tutorials and further reading
 
-- `8` [Learn Performance](https://web.dev/learn/performance) (web.dev): a course on web performance concepts and techniques, from resource loading to images, fonts and JavaScript.
+- `7` [Learn Performance](https://web.dev/learn/performance) (web.dev): a course on web performance concepts and techniques, from resource loading to images, fonts and JavaScript.
 - `7` [Learn Accessibility](https://web.dev/learn/accessibility) (web.dev): an evergreen course and reference on accessible design and development.
 - `7` [Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) (MDN Learn): a module on accessible HTML, CSS, JavaScript, WAI-ARIA and testing with assistive technology.
 - `6` [Learn Images](https://web.dev/learn/images) (web.dev): an in-depth course on image formats, compression and responsive images.

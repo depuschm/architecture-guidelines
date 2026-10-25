@@ -8,8 +8,8 @@ Scope: designing CI/CD and automation workflows on GitHub Actions, including reu
 ## Adopted references
 
 - `9` [Secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) (GitHub Docs): **the baseline for workflow security**: third-party actions, script injection, `GITHUB_TOKEN` permissions, OIDC, self-hosted runners and CODEOWNERS.
-- `8` [Securely using `pull_request_target`](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target) (GitHub Docs): when to use the privileged pull request trigger, and how to harden it.
-- `8` [OpenID Connect](https://docs.github.com/en/actions/concepts/security/openid-connect) (GitHub Docs): short-lived cloud credentials instead of stored secrets, with [setup guides per cloud provider](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers).
+- `7` [Securely using `pull_request_target`](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target) (GitHub Docs): when to use the privileged pull request trigger, and how to harden it.
+- `7` [OpenID Connect](https://docs.github.com/en/actions/concepts/security/openid-connect) (GitHub Docs): short-lived cloud credentials instead of stored secrets, with [setup guides per cloud provider](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers).
 - `7` [Reusing workflow configurations](https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations) (GitHub Docs): reusable workflows, composite actions and workflow templates, and when to use each.
 - `7` [Deployment environments](https://docs.github.com/en/actions/concepts/workflows-and-actions/deployment-environments) (GitHub Docs): approvals, branch restrictions and environment secrets for deployment jobs.
 

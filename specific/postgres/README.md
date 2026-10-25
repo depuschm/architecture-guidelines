@@ -8,9 +8,9 @@ Scope: designing and running PostgreSQL databases for applications, on the major
 ## Adopted references
 
 - `10` [PostgreSQL Documentation](https://www.postgresql.org/docs/current/) (PostgreSQL Global Development Group): **the baseline.** Read the manual for the version you run; the chapters on data definition, indexes, concurrency control, performance tips, routine maintenance, backup and restore, client authentication and database roles matter most for application work.
-- `8` [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) (PostgreSQL wiki): a short list of common mistakes in data types, SQL constructs, tools and authentication, with the rare cases where each is still the right choice.
 - `8` [Backup and Restore](https://www.postgresql.org/docs/current/backup.html) (PostgreSQL docs): SQL dumps, file system backups and continuous archiving with point-in-time recovery, and the trade-offs between them.
-- `8` [Versioning Policy](https://www.postgresql.org/support/versioning/) (PostgreSQL): how long each major version is supported, what minor releases contain, and the end-of-life date of every release.
+- `7` [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) (PostgreSQL wiki): a short list of common mistakes in data types, SQL constructs, tools and authentication, with the rare cases where each is still the right choice.
+- `7` [Versioning Policy](https://www.postgresql.org/support/versioning/) (PostgreSQL): how long each major version is supported, what minor releases contain, and the end-of-life date of every release.
 - `7` [Performance Tips](https://www.postgresql.org/docs/current/performance-tips.html) (PostgreSQL docs): reading query plans with `EXPLAIN`, planner statistics, and populating a database efficiently.
 - `7` [PgBouncer features](https://www.pgbouncer.org/features.html) (PgBouncer): the session, transaction and statement pooling modes and which PostgreSQL features each one supports.
 

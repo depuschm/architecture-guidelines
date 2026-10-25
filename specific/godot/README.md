@@ -11,8 +11,8 @@ The Godot documentation has an official best practices section. **Follow it as t
 
 - `10` [Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) (Godot docs): **the baseline.** Scene organization, scenes versus scripts, autoloads versus regular nodes, interfaces, notifications, data and logic preferences, project organization and version control.
 - `8` [GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) (Godot docs): formatting, naming conventions and code order.
-- `8` [Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html) (Godot docs): typed variables and functions, and the warnings that help you keep code typed.
-- `8` [Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) and [Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) (Godot docs): folder layout, file naming, and which files to commit or ignore.
+- `7` [Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html) (Godot docs): typed variables and functions, and the warnings that help you keep code typed.
+- `7` [Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) and [Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) (Godot docs): folder layout, file naming, and which files to commit or ignore.
 - `7` [General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) (Godot docs): how to measure performance, find the bottleneck and optimise it, including CPU versus GPU bottlenecks.
 
 ## Key rules

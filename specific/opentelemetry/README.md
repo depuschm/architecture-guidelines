@@ -9,9 +9,9 @@ Scope: instrumenting services for traces, metrics and logs with OpenTelemetry, a
 
 - `9` [OpenTelemetry documentation](https://opentelemetry.io/docs/): **the baseline**: concepts, signals, context propagation, instrumentation per language, zero-code instrumentation, sampling and the Collector.
 - `8` [Collector](https://opentelemetry.io/docs/collector/) (OpenTelemetry docs): when to use a Collector, its configuration, the agent and gateway deployment patterns, scaling and internal telemetry.
-- `8` [Collector configuration best practices](https://opentelemetry.io/docs/security/config-best-practices/) and [Collector hosting best practices](https://opentelemetry.io/docs/security/hosting-best-practices/) (OpenTelemetry docs): securing the Collector's configuration, network exposure, permissions and resource use.
 - `8` [Trace Context](https://www.w3.org/TR/trace-context/) (W3C Recommendation): the `traceparent` and `tracestate` HTTP headers that OpenTelemetry propagates by default.
 - `8` [Handling sensitive data](https://opentelemetry.io/docs/security/handling-sensitive-data/) (OpenTelemetry docs): data minimization, and removing, hashing or truncating sensitive attributes with Collector processors.
+- `7` [Collector configuration best practices](https://opentelemetry.io/docs/security/config-best-practices/) and [Collector hosting best practices](https://opentelemetry.io/docs/security/hosting-best-practices/) (OpenTelemetry docs): securing the Collector's configuration, network exposure, permissions and resource use.
 - `7` [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/): standard names for attributes, spans, metrics, events and resources, per area such as HTTP, databases and messaging.
 
 ## Key rules

@@ -8,7 +8,7 @@ Scope: building container images with Docker, running them securely, and running
 ## Adopted references
 
 - `10` [Building best practices](https://docs.docker.com/build/building/best-practices/) (Docker Docs): **the baseline for Dockerfiles**: multi-stage builds, base images, `.dockerignore`, ephemeral containers, pinning, rebuilding, and advice for each Dockerfile instruction.
-- `9` [Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) (OWASP): **the baseline for container security**: the daemon socket, users, capabilities, privilege escalation, read-only file systems, resource limits, scanning and supply chain.
+- `8` [Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) (OWASP): **the baseline for container security**: the daemon socket, users, capabilities, privilege escalation, read-only file systems, resource limits, scanning and supply chain.
 - `8` [Docker Compose](https://docs.docker.com/compose/) (Docker Docs): defining and running multi-container applications, including startup order, secrets, multiple Compose files and production use.
 - `7` [CIS Docker Benchmark](https://www.cisecurity.org/benchmark/docker): a consensus hardening benchmark for the Docker host, daemon and containers.
 - `7` [NIST SP 800-190, Application Container Security Guide](https://csrc.nist.gov/pubs/sp/800/190/final) (2017): the security concerns that containers bring, with recommendations for addressing them.
@@ -54,7 +54,7 @@ Tools that check the key rules above automatically, in CI, the IDE or a commit h
 
 ## Tutorials and further reading
 
-- `8` [Get started](https://docs.docker.com/get-started/) (Docker Docs): the official introduction to containers, images, registries, Dockerfiles, multi-stage builds and Compose.
+- `7` [Get started](https://docs.docker.com/get-started/) (Docker Docs): the official introduction to containers, images, registries, Dockerfiles, multi-stage builds and Compose.
 - `7` [Docker guides](https://docs.docker.com/guides/) (Docker Docs): language-specific guides, such as Node.js, Python, Go and .NET, that containerize an app, set up local development in containers and run tests.
 - `6` [Docker Hardened Images](https://docs.docker.com/dhi/) (Docker Docs): minimal, continuously patched base images with SBOMs and provenance. The core images are free under Apache 2.0.
 - `5` [Use Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) (Docker Docs): sync or rebuild services automatically while you edit code.

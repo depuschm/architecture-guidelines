@@ -78,7 +78,9 @@ A second round on 2026-10-25 covered the rules and sources added later that day:
 
 - 98% of rule scores (42 of 62 exactly) and 92% of source scores were within one point. Rules showed no systematic difference, which suggests the first round's correction of the 8s held.
 - One rule and three sources were two points apart and were re-scored: a rule that pays off mainly for large teams, an official page that now recommends against what it documents, a page that is mostly a list of links, and a single section scored like a whole guide.
-- All five sampled sources scored 8 came back as 7. Five is too few to act on, so check new sources at 8 against "official documentation for one feature" (7) before scoring them, and include more of them in the next round.
+- All five sampled sources scored 8 came back as 7. To follow this up, every source added that day with a score of 8 to 10 (252 sources) was re-checked against this table. 146 were lowered: 141 from 8 to 7, four from 9 to 8 or 7, and one from 8 to 6. Most were a single section of a page, or official documentation for one feature, option or command. Official guides covering a whole important sub-topic, standards, and defining articles kept their scores.
+
+When you score a source, two rules of thumb follow from this: a link to one section of a page usually scores at most 7, even when the page is an 8 or higher, and an 8 needs an official guide to a whole important sub-topic, not a page about one feature.
 
 Repeat the exercise after large additions: sample entries across files and score bands, have someone score them blind, and re-check any band where the difference is systematic.
 

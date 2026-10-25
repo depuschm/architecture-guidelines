@@ -59,5 +59,5 @@ Tools that check the key rules above automatically, in CI, the IDE or a commit h
 
 ## Tutorials and further reading
 
-- `8` [Svelte tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte): the official interactive tutorial in four parts: basic Svelte, advanced Svelte, basic SvelteKit and advanced SvelteKit.
+- `7` [Svelte tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte): the official interactive tutorial in four parts: basic Svelte, advanced Svelte, basic SvelteKit and advanced SvelteKit.
 - `6` [Testing](https://svelte.dev/docs/svelte/testing) (Svelte): unit and component tests with Vitest, component tests with Storybook, and end-to-end tests with Playwright.

@@ -7,8 +7,8 @@ Scope: deploying web apps and APIs to Vercel, Netlify and Cloudflare Workers (in
 
 ## Adopted references
 
-- `8` [Production checklist for launch](https://vercel.com/docs/production-checklist) (Vercel Docs): operational excellence, security, reliability, performance and cost checks to go through before launching on Vercel.
 - `8` [Workers Best Practices](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/) (Cloudflare Docs): configuration, secrets, background work, database connections, observability and code patterns for Workers.
+- `7` [Production checklist for launch](https://vercel.com/docs/production-checklist) (Vercel Docs): operational excellence, security, reliability, performance and cost checks to go through before launching on Vercel.
 - `7` [Caching overview](https://docs.netlify.com/build/caching/caching-overview/) (Netlify Docs): cache control headers, cache key variations, the durable cache, `stale-while-revalidate` and purging by site or cache tag on Netlify.
 - `7` [Functions overview](https://docs.netlify.com/build/functions/overview/) (Netlify Docs): how Netlify Functions run, with links to their configuration, background and scheduled functions, environment variables and logs.
 

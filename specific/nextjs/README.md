@@ -9,7 +9,7 @@ Scope: web apps built with Next.js and the App Router, following the current (Ne
 
 - `10` [Next.js Docs: App Router](https://nextjs.org/docs/app): **the baseline.** The Getting Started chapters cover project structure, Server and Client Components, fetching and mutating data, caching, revalidating and error handling.
 - `9` [How to think about data security in Next.js](https://nextjs.org/docs/app/guides/data-security): choosing a data-handling model, the Data Access Layer, Server Action security, tainting, and an audit checklist.
-- `8` [How to optimize your Next.js application for production](https://nextjs.org/docs/app/guides/production-checklist): the official production checklist for rendering, data fetching, UI, security, metadata and bundle size.
+- `7` [How to optimize your Next.js application for production](https://nextjs.org/docs/app/guides/production-checklist): the official production checklist for rendering, data fetching, UI, security, metadata and bundle size.
 - `7` [How to implement authentication in Next.js](https://nextjs.org/docs/app/guides/authentication): sessions, authorization in a Data Access Layer, and optional optimistic checks in Proxy.
 
 ## Key rules

@@ -43,7 +43,7 @@ jobs:
           MODEL: ${{ inputs.model }}
           JUDGE_MODEL: ${{ inputs.judge_model }}
         run: >
-          claude plugin eval . --trust-plugin --scaffold --allow-tools Write
+          claude plugin eval . --trust-plugin --scaffold --allow-tools Write Edit
           --runs "$RUNS" --threshold 0.8
           --model "$MODEL" --judge-model "$JUDGE_MODEL"
           --no-publish --max-cost-usd 10 --json results.json

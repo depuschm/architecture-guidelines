@@ -94,6 +94,7 @@ The [`skills/`](skills) folder uses the [Agent Skills](https://agentskills.io/sp
 | [`architecture-review`](skills/architecture-review/SKILL.md) | Review a codebase, design or PR against these guidelines. Each finding cites the rule and its source |
 | [`architecture-decision-record`](skills/architecture-decision-record/SKILL.md) | Write an ADR in [MADR](https://adr.github.io/madr/) format, or follow the project's existing ADR format |
 | [`c4-diagram`](skills/c4-diagram/SKILL.md) | Produce [C4](https://c4model.com/) context/container/component diagrams as code |
+| [`enforce-guidelines`](skills/enforce-guidelines/SKILL.md) | Set up the checks named under **How to enforce** in a project's CI, commit hooks or editor, each labelled with the rule IDs it enforces |
 | [`unity-architecture`](skills/unity-architecture/SKILL.md) | Design or review the architecture of a Unity project |
 
 The skills are tested with [evals](evals/README.md) that compare runs with and without the plugin. In the latest full run, every case passed 3 of 3 runs with the plugin. The plugin raised the score by +1.00 on ADRs, +0.75 on guideline questions and +0.50 on Unity reviews, mainly through rule IDs and source links that plain Claude doesn't produce.

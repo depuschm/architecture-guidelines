@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: nextjs-review
+description: Reviewing a small Next.js App Router app with planted problems finds them and cites Next.js rule IDs and sources.
+tags: [nextjs, web, review]
+context:
+  scaffold_script: fixture.sh

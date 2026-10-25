@@ -8,7 +8,7 @@ This repository is a curated, source-linked collection of software architecture 
 - When you apply or cite a guideline, use the rule's ID (for example `SEC-3`, listed in [RULES.md](RULES.md)) and include the rule's source link.
 - Every source and rule has a score from 1 to 10 ([RANKING.md](RANKING.md)), and lists are sorted by it. Read the highest-scored entries first. Use rule scores to weigh findings: 9–10 strongly recommended, 6–8 recommended, 1–5 conditional.
 - Don't invent rules or links. If no guideline covers a question, say so.
-- Skills in `skills/` show the intended workflows (architecture review, ADRs, C4 diagrams, Unity architecture).
+- Skills in `skills/` show the intended workflows (architecture review, enforcing guidelines in CI, ADRs, C4 diagrams, Unity architecture).
 
 ## Editing this repository
 

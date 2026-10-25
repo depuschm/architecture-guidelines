@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: enforce-node-docker
+description: Setting up automated checks for a Node.js service with a Dockerfile and a GitHub Actions workflow adds guideline-named tools to CI, labelled with rule IDs.
+tags: [enforce, docker, github-actions]
+context:
+  scaffold_script: fixture.sh

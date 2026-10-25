@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: godot-review
+description: Reviewing a small Godot 4 project with planted problems finds them and cites Godot and game development rule IDs.
+tags: [godot, gamedev, review]
+context:
+  scaffold_script: fixture.sh

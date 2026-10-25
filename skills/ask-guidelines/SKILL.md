@@ -1,6 +1,6 @@
 ---
 name: ask-guidelines
-description: Answer questions about what the Architecture Guidelines recommend, such as how to structure something, which rule applies, what the guidelines say about a topic, or which tool can check it. Answers cite the relevant rules by ID, score and source link. Covers general architecture (principles, styles, DDD, APIs, data, operations, security, testing, AI systems) and Unity, .NET, Android, Flutter, React, Kubernetes and AWS. Use for architecture advice or best-practice questions that don't need a full codebase review.
+description: Answer questions about what the Architecture Guidelines recommend, such as how to structure something, which rule applies, what the guidelines say about a topic, or which tool can check it. Answers cite the relevant rules by ID, score and source link. Covers general architecture (principles, styles, DDD, APIs, data, operations, security, testing, AI systems) and game development, Unity, Godot, React, Next.js, Node.js, .NET, Android, Flutter, Kubernetes, AWS, Terraform and GitHub Actions. Use for architecture advice or best-practice questions that don't need a full codebase review.
 argument-hint: "[question]"
 ---
 

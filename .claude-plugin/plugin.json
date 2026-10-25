@@ -1,15 +1,27 @@
 {
   "name": "architecture-guidelines",
   "displayName": "Architecture Guidelines",
-  "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, .NET, Android, Flutter, React, Kubernetes and AWS), with skills for architecture reviews, ADRs, C4 diagrams and Unity architecture.",
+  "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, Godot, Next.js, Node.js, .NET, Android, Kubernetes, Terraform and GitHub Actions), with skills for architecture reviews, ADRs, C4 diagrams and Unity architecture.",
+  "author": {
+    "name": "depuschm",
+    "url": "https://github.com/depuschm"
+  },
   "repository": "https://github.com/depuschm/architecture-guidelines",
+  "homepage": "https://depuschm.github.io/architecture-guidelines/",
   "license": "CC-BY-4.0 AND MIT",
   "keywords": [
     "architecture",
     "design-review",
     "adr",
     "c4",
+    "guidelines",
+    "gamedev",
     "unity",
-    "guidelines"
+    "godot",
+    "webdev",
+    "nextjs",
+    "nodejs",
+    "terraform",
+    "github-actions"
   ]
 }

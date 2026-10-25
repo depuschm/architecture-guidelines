@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for Unity, .NET, Android, Flutter, React, Kubernetes and AWS). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, React, Next.js, Node.js, .NET, Android, Flutter, Kubernetes, AWS, Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -29,13 +29,19 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 
 | Platform | Signals | Guidelines |
 | --- | --- | --- |
+| Game (any engine) | A Unity, Godot or other game project, or a custom game loop | `specific/gamedev/`, plus the engine's folder below |
 | Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep Unity work, use the `unity-architecture` skill |
+| Godot | `project.godot`, `.gd` and `.tscn` files | `specific/godot/` |
+| React | `package.json` with a `react` dependency | `specific/react/` |
+| Next.js | `next.config.js`, `next.config.mjs` or `next.config.ts`, or a `next` dependency in `package.json` | `specific/nextjs/`, plus `specific/react/` |
+| Node.js | `package.json` for a server: dependencies such as `express`, `fastify`, `@nestjs/core` or `hono`, or a `start` script that runs `node` | `specific/nodejs/` |
 | .NET | `*.sln`, `*.slnx`, `*.csproj` (outside a Unity project) | `specific/dotnet/` |
 | Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |
 | Flutter | `pubspec.yaml` that depends on the `flutter` SDK | `specific/flutter/` |
-| React | `package.json` with a `react` dependency | `specific/react/` |
 | Kubernetes | YAML files with `apiVersion:` and `kind:`, `Chart.yaml`, `kustomization.yaml` | `specific/kubernetes/` |
 | AWS | `cdk.json`, CloudFormation/SAM templates with `AWS::` types, Terraform `provider "aws"` | `specific/aws/` |
+| Terraform or OpenTofu | `*.tf` or `*.tofu` files, `.terraform.lock.hcl` | `specific/terraform/` |
+| GitHub Actions | `.github/workflows/*.yml`, `action.yml` | `specific/github-actions/` |
 
 A repository can match several platforms. Unity projects contain generated `.csproj` files, so don't apply the ASP.NET Core rules to them.
 

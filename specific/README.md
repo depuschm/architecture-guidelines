@@ -2,13 +2,30 @@
 
 One folder per platform or service. Each folder adopts the platform's official guidance where it exists, and adds short, sourced rules only where needed. The [general guidelines](../general/README.md) still apply.
 
+### Games
+
+- [Game development](gamedev/README.md): engine-independent game architecture (game loop, multiplayer, save data, frame budgets).
 - [Unity](unity/README.md): game and real-time 3D projects.
+- [Godot](godot/README.md): games built with Godot 4 and GDScript.
+
+### Web and back end
+
+- [React](react/README.md): web front ends.
+- [Next.js](nextjs/README.md): full-stack React apps with the App Router.
+- [Node.js](nodejs/README.md): back-end services in TypeScript.
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.
+
+### Mobile
+
 - [Android](android/README.md): native Android apps.
 - [Flutter](flutter/README.md): cross-platform apps.
-- [React](react/README.md): web front ends.
+
+### Infrastructure and automation
+
 - [Kubernetes](kubernetes/README.md): running workloads on Kubernetes.
 - [AWS](aws/README.md): workloads on Amazon Web Services.
+- [Terraform](terraform/README.md): infrastructure as code with Terraform or OpenTofu.
+- [GitHub Actions](github-actions/README.md): CI/CD and automation workflows.
 
 ## Adding a platform
 

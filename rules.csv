@@ -78,6 +78,47 @@ FLUTTER-3,active,Use unidirectional data flow and immutable data models.
 FLUTTER-4,active,"Cover logic with unit tests, widgets with widget tests, and critical flows with integration tests."
 FLUTTER-5,active,"Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state."
 FLUTTER-6,active,"Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers."
+GAMEDEV-1,active,"Advance the simulation in fixed time steps, decoupled from the render rate, and interpolate between the last two simulated states when rendering."
+GAMEDEV-2,active,"Build game entities by composing components, not through deep inheritance hierarchies."
+GAMEDEV-3,active,"Define entity types and tuning values as data that designers can change without recompiling, not as one subclass per type."
+GAMEDEV-4,active,"Adopt an entity component system (ECS) deliberately, when you need very large numbers of entities, and prefer an established framework to writing your own."
+GAMEDEV-5,active,"In competitive multiplayer games, make the server authoritative: clients send inputs, and the server runs the simulation and sends back the results."
+GAMEDEV-6,active,Hide latency with client-side prediction and server reconciliation.
+GAMEDEV-7,active,"Render other players slightly in the past, interpolating between buffered server updates, instead of snapping to each update as it arrives."
+GAMEDEV-8,active,"For hit detection in fast-paced shooters, use lag compensation: the server rewinds the world to the moment the shooter saw it and checks the hit there."
+GAMEDEV-9,active,"Choose deterministic lockstep, which sends only inputs, only if the simulation is bit-for-bit deterministic on every platform you ship to. Otherwise, synchronise state."
+GAMEDEV-10,active,"Version the save-data schema from the first release, and migrate older saves to the current version when loading them."
+GAMEDEV-11,active,"Keep the last good save until the new one is completely written, and store an integrity check so that a corrupt or partial save falls back to the previous one."
+GAMEDEV-12,active,"Set a frame-time budget for each target platform (33.3 ms at 30 fps, 16.7 ms at 60 fps), and measure against it with a profiler on the target hardware, before and after each optimisation."
+GAMEDEV-13,active,"Pool objects that are created and destroyed often, such as projectiles and particles, instead of allocating and freeing each one."
+GAMEDEV-14,active,Rearrange data for cache locality only where profiling shows that cache misses cost time.
+GHA-1,active,"Set the `GITHUB_TOKEN` to read-only at the top of each workflow, and grant write permissions only to the jobs that need them."
+GHA-2,active,"Pin third-party actions and reusable workflows to a full-length commit SHA, or lock them with a workflow dependency lockfile."
+GHA-3,active,"Never expand untrusted input, such as `${{ github.event.pull_request.title }}`, directly in a `run:` script. Pass it through an intermediate environment variable."
+GHA-4,active,"Use `pull_request` rather than `pull_request_target` unless fork pull requests need secrets or write access, and never execute pull request code in a `pull_request_target` or `workflow_run` workflow."
+GHA-5,active,"Authenticate to cloud providers with OpenID Connect instead of long-lived cloud secrets, and restrict the trust policy to specific repositories, branches or environments."
+GHA-6,active,"Avoid self-hosted runners in public repositories. Where you use them, prefer ephemeral just-in-time runners."
+GHA-7,active,Enable Dependabot version updates for the `github-actions` ecosystem.
+GHA-8,active,"Treat restored caches as untrusted input: never cache secrets, and write caches only from workflows with trusted triggers."
+GHA-9,active,Require approval from designated code owners for changes to `.github/workflows`.
+GHA-10,active,Pass secrets to reusable workflows by name instead of with `secrets: inherit`.
+GHA-11,active,"Deploy through environments with protection rules: required reviewers, allowed deployment branches, and secrets scoped to the environment."
+GHA-12,active,Share CI logic through reusable workflows (whole jobs) and composite actions (steps) instead of copying YAML between workflows and repositories.
+GHA-13,active,Use concurrency groups to cancel superseded runs on the same branch and to stop deployments to the same environment from running at once.
+GODOT-1,active,"Commit the `.import` files next to your assets and the `.uid` files next to your scripts and shaders, and ignore the `.godot/` folder."
+GODOT-2,active,"Use snake_case for file and folder names (C# scripts excepted), and keep third-party code in `addons/`."
+GODOT-3,active,"Design scenes to work on their own: keep what a scene needs inside it, and let the parent supply any outside dependency."
+GODOT-4,active,"Let parents call methods on and set properties of their children, and let children report what happened through signals."
+GODOT-5,active,"Use autoloads only for broad-scoped systems that manage their own data, such as a quest or dialogue system."
+GODOT-6,active,"Reference other nodes through `@export` properties or scene-unique names (`%Name`), not long hard-coded node paths."
+GODOT-7,active,"Make game-specific concepts scenes, and use named script classes for reusable tools shared across projects."
+GODOT-8,active,Use `RefCounted` or `Resource` classes instead of nodes for data and logic that don't need to be in the scene tree.
+GODOT-9,active,"Use static typing throughout, and set the `untyped_declaration` warning to Error so that untyped declarations stop a script from compiling."
+GODOT-10,active,"Follow the GDScript style guide, including its code order."
+GODOT-11,active,"Move objects and run game logic in `_physics_process`, and turn on physics interpolation so that motion stays smooth at any frame rate."
+GODOT-12,active,Model designer-edited game data as custom Resource classes saved as `.tres` files.
+GODOT-13,active,"Write saves and settings to `user://`, and don't decode objects (`allow_objects`) from files that players can edit or share."
+GODOT-14,active,"Write automated tests with GUT or gdUnit4, and run them headless in CI on every change."
 K8S-1,active,"Give every container CPU and memory requests and a memory limit. Set CPU limits only where needed, for example on sensitive workloads."
 K8S-2,active,"Configure readiness, liveness and startup probes for their distinct purposes."
 K8S-3,active,Handle `SIGTERM` and shut down gracefully within the termination grace period.
@@ -91,6 +132,29 @@ K8S-10,active,Start each namespace from a default-deny NetworkPolicy and allow o
 K8S-11,active,"Encrypt Secrets at rest, restrict who can read them, and consider an external secret store."
 K8S-12,active,"Decide your tenancy model (namespaces, clusters) explicitly."
 K8S-13,active,"Keep all manifests declarative and in Git, and let an agent reconcile the cluster to them (GitOps)."
+NEXTJS-1,active,"Treat every Server Action as a public endpoint: authenticate, authorize and validate its input inside the action."
+NEXTJS-2,active,Give an environment variable the `NEXT_PUBLIC_` prefix only if its value may be public.
+NEXTJS-3,active,Put data access in a server-only Data Access Layer that checks authorization and returns minimal data transfer objects (DTOs).
+NEXTJS-4,active,"Pass Client Components, and return from Server Actions, only the fields the UI renders."
+NEXTJS-5,active,Add `import 'server-only'` to modules that use secrets or the database.
+NEXTJS-6,active,"Keep `""use client""` boundaries small: mark the interactive components, not whole layouts or pages, and pass server-rendered content to them as `children` or props."
+NEXTJS-7,active,"Decide caching per data source, and invalidate the cache in every mutation that changes the data."
+NEXTJS-8,active,Read data in Server Components and change it with Server Actions.
+NEXTJS-9,active,"Avoid request waterfalls: start independent requests in parallel, and stream slow parts behind `<Suspense>` or `loading.js`."
+NEXTJS-10,active,"Return expected errors, such as failed validation, from Server Actions as values, and let `error.js` and `global-error.js` boundaries catch uncaught exceptions."
+NEXTJS-11,active,"Use `next/image`, `next/font` and `next/script` instead of plain `<img>` tags, font links and script tags."
+NODE-1,active,Don't block the event loop.
+NODE-2,active,"Await or return every promise, and don't pass async functions where the caller ignores the returned promise."
+NODE-3,active,"Validate all external input, such as request bodies, query strings and messages, at runtime with a schema library."
+NODE-4,active,"Commit the lockfile, install with `npm ci`, and check dependencies for known vulnerabilities in CI."
+NODE-5,active,Run only Active LTS or Maintenance LTS releases of Node.js in production.
+NODE-6,active,"Treat unknown errors as fatal: log them, shut down gracefully and let the platform restart the process."
+NODE-7,active,"Structure the service by business components, each with its own entry points, domain logic and data access, and keep web-framework objects out of the domain logic."
+NODE-8,active,"Keep TypeScript's `strict` option on, and type-check in CI with `tsc`."
+NODE-9,active,"Shut down gracefully on `SIGTERM`: fail the readiness check, stop accepting connections, finish in-flight requests, close resources, then exit."
+NODE-10,active,"Log structured JSON to stdout with a mature logger such as Pino, add request context with child loggers, and redact secrets."
+NODE-11,active,"Handle errors in one central handler that every entry point (HTTP routes, jobs, message consumers) calls, and throw only `Error` objects or subclasses of it."
+NODE-12,active,"Set HTTP server timeouts and connection limits, and put a reverse proxy in front of the service."
 OPS-1,active,"Define SLOs from user-facing SLIs, and use the error budget to balance reliability against release speed."
 OPS-2,active,"Monitor the four golden signals for every user-facing service: latency, traffic, errors and saturation."
 OPS-3,active,"Put a timeout on every remote call, and retry only with capped exponential backoff and jitter."
@@ -163,6 +227,20 @@ TEST-4,active,Enforce architecture rules such as layering and dependency directi
 TEST-5,active,"Test service boundaries with contract tests rather than relying on slow, brittle end-to-end integration suites."
 TEST-6,active,"Decouple deployment from release with feature toggles, and remove toggles once they've served their purpose."
 TEST-7,active,"Measure software delivery throughput and instability with the DORA metrics, and use them to improve, not to compare teams."
+TF-1,active,"Store state in a remote backend with locking and encryption at rest, restrict who can read it, and never commit state files."
+TF-2,active,"Give Terraform short-lived credentials, such as OIDC from the CI platform or HCP Terraform dynamic provider credentials, instead of static keys. Never put credentials in provider blocks or variables."
+TF-3,active,"Keep secrets out of state where the provider allows it, with ephemeral values and write-only arguments (Terraform 1.10 and 1.11 or later), and protect saved plan files like state."
+TF-4,active,"Split infrastructure into separate root modules, each with its own state, by environment, blast radius, rate of change and team ownership."
+TF-5,active,"Give each environment its own directory, with its own backend, that calls shared modules. Don't use CLI workspaces for environments that need separate credentials or access controls."
+TF-6,active,"Rename and move resources with `moved` blocks, and keep old `moved` blocks in shared modules."
+TF-7,active,Keep the module tree flat: compose child modules in the root module and pass their dependencies in as variables.
+TF-8,active,"Write modules that do one thing well at a higher level of abstraction, not thin wrappers around a single resource."
+TF-9,active,"Protect costly stateful resources, such as databases and storage, with `prevent_destroy`, sparingly."
+TF-10,active,"Pin versions: set `required_version`, constrain providers with `~>` in root modules but only by minimum in reusable modules, pin module versions, and commit `.terraform.lock.hcl`."
+TF-11,active,"Run Terraform from a pipeline: plan every change, save the plan with `-out`, and apply exactly that plan after review."
+TF-12,active,"Run `terraform fmt -check`, `terraform validate` and TFLint on every change, and test reusable modules with `terraform test`."
+TF-13,active,Check plans against security and organisation policies as code before applying them.
+TF-14,active,"Detect drift on a schedule, for example with `terraform plan -detailed-exitcode` or HCP Terraform health assessments."
 UNITY-CODE-1,active,"Keep logic that doesn't need the engine in plain C# classes, with MonoBehaviours as thin adapters."
 UNITY-CODE-2,active,Separate UI from game logic with Model-View-Presenter (or MVC).
 UNITY-CODE-3,active,"Model complex behaviour, such as characters, AI and game flow, with the State pattern instead of growing `switch` statements."

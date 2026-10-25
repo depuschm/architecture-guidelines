@@ -7,15 +7,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-45 sources.
+52 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
+| 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -33,6 +36,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Fowler, Software Architecture Guide](https://martinfowler.com/architecture/) | [general](general/README.md), [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 9 | [GitHub, Secure use reference (GitHub Actions)](https://docs.github.com/en/actions/reference/security/secure-use) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 9 | [Google API Improvement Proposals (AIPs)](https://google.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Google SRE books](https://sre.google/books/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -41,6 +45,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 9 | [MADR: Markdown Architectural Decision Records](https://adr.github.io/madr/) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 9 | [Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 9 | [Next.js, How to think about data security in Next.js](https://nextjs.org/docs/app/guides/data-security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 9 | [Node.js, Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 9 | [Node.js, Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Now in Android (reference app)](https://github.com/android/nowinandroid) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 9 | [Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 9 | [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
@@ -59,7 +66,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-380 sources.
+549 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -108,12 +115,36 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Fowler, Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Fowler, What do you mean by "Event-Driven"?](https://martinfowler.com/articles/201701-event-driven.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [Fowler, Yagni](https://martinfowler.com/bliki/Yagni.html) | [general/principles](general/principles.md) | 2026-10-24 |
-| 8 | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | [general/reading-list](general/reading-list.md), [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 8 | [Gaffer On Games (Fiedler), Fix Your Timestep!](https://gafferongames.com/post/fix_your_timestep/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 8 | [Gambetta, Fast-Paced Multiplayer: Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 8 | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | [general/reading-list](general/reading-list.md), [specific/gamedev](specific/gamedev/README.md), [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 8 | [GitHub, OpenID Connect (GitHub Actions)](https://docs.github.com/en/actions/concepts/security/openid-connect) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [GitHub, Script injections](https://docs.github.com/en/actions/concepts/security/script-injections) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [GitHub, Secure use reference: Hardening for self-hosted runners](https://docs.github.com/en/actions/reference/security/secure-use#hardening-for-self-hosted-runners) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [GitHub, Secure use reference: Using third-party actions](https://docs.github.com/en/actions/reference/security/secure-use#using-third-party-actions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [GitHub, Securely using pull_request_target](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [GitHub, Use GITHUB_TOKEN for authentication in workflows](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Autoloads versus regular nodes](https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 8 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [Google Cloud, Best practices for using Terraform: general style and structure](https://docs.cloud.google.com/docs/terraform/best-practices/general-style-structure) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [Google SRE book, Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Embracing Risk](https://sre.google/sre-book/embracing-risk/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, table of contents](https://sre.google/sre-book/table-of-contents/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [HashiCorp, HCP Terraform workspace best practices](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, Manage sensitive data in your configuration](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, Module composition](https://developer.hashicorp.com/terraform/language/modules/develop/composition) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, Module creation: recommended pattern](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, Refactor modules (moved blocks)](https://developer.hashicorp.com/terraform/language/modules/develop/refactoring) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, State: locking](https://developer.hashicorp.com/terraform/language/state/locking) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, State: remote storage](https://developer.hashicorp.com/terraform/language/state/remote) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [HashiCorp, Version constraints](https://developer.hashicorp.com/terraform/language/expressions/version-constraints) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [Hodgson, Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Kleppmann, Designing Data-Intensive Applications (book)](https://dataintensive.net/) | [general/data](general/data.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Kubernetes, Configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -135,7 +166,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Microsoft, Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Threat Modeling Tool threats (STRIDE)](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [Next.js, Caching (Cache Components)](https://nextjs.org/docs/app/getting-started/caching) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 8 | [Next.js, How to optimize your Next.js application for production (production checklist)](https://nextjs.org/docs/app/guides/production-checklist) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 8 | [Next.js, How to use environment variables in Next.js](https://nextjs.org/docs/app/guides/environment-variables) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 8 | [Next.js, Server Actions and Mutations: Security](https://nextjs.org/docs/app/guides/server-actions#security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [NIST Secure Software Development Framework (SP 800-218)](https://csrc.nist.gov/pubs/sp/800/218/final) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [Node.js, Node.js Releases (release phases and LTS)](https://nodejs.org/en/about/previous-releases) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 8 | [Node.js, Process: Warning: Using 'uncaughtException' correctly](https://nodejs.org/api/process.html#warning-using-uncaughtexception-correctly) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 8 | [Node.js, Security Best Practices: Supply chain attacks](https://nodejs.org/learn/getting-started/security-best-practices#supply-chain-attacks) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -155,6 +193,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Twelve-Factor App, III Config](https://12factor.net/config) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [TypeScript, TSConfig reference: strict](https://www.typescriptlang.org/tsconfig/#strict) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 8 | [Unity Addressables package manual](https://docs.unity3d.com/Packages/com.unity.addressables@latest/) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Unity Manual, Assembly definitions](https://docs.unity3d.com/Manual/assembly-definition-files.html) | [specific/unity/project-structure](specific/unity/project-structure.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Manual, Introduction to assemblies](https://docs.unity3d.com/Manual/assembly-definitions-intro.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -165,6 +204,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 8 | [Yoni Goldberg et al., Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [adr.github.io](https://adr.github.io/) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [Agent Skills](https://agentskills.io/specification) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
@@ -194,6 +234,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Lambda best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Organizations, SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Prescriptive Guidance, ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 7 | [AWS Prescriptive Guidance, Best practices for using the Terraform AWS Provider](https://docs.aws.amazon.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Security Hub, Foundational Security Best Practices standard](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -247,11 +288,58 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Fowler, Value Object](https://martinfowler.com/bliki/ValueObject.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Fowler, Who Needs an Architect?](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Framework Design Guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Gaffer On Games (Fiedler), Deterministic Lockstep](https://gafferongames.com/post/deterministic_lockstep/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Gaffer On Games (Fiedler), Introduction to Networked Physics](https://gafferongames.com/post/introduction_to_networked_physics/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Gaffer On Games (Fiedler), Snapshot Interpolation](https://gafferongames.com/post/snapshot_interpolation/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Gambetta, Client-Side Prediction and Server Reconciliation](https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Gambetta, Entity Interpolation](https://www.gabrielgambetta.com/entity-interpolation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Gambetta, Lag Compensation](https://www.gabrielgambetta.com/lag-compensation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, CodeQL query help for GitHub Actions](https://codeql.github.com/codeql-query-help/actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Configuring OpenID Connect in cloud providers](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Dependency caching (cache security)](https://docs.github.com/en/actions/concepts/workflows-and-actions/dependency-caching) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Deployment environments](https://docs.github.com/en/actions/concepts/workflows-and-actions/deployment-environments) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Deployments and environments reference](https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Keeping your actions up to date with Dependabot](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/auto-update-actions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Managing GitHub Actions settings for a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, OpenID Connect reference](https://docs.github.com/en/actions/reference/security/oidc) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 7 | [GitHub, Reusing workflow configurations](https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection) | [general/security](general/security.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 7 | [GitHub, Workflow dependency lockfiles (public preview)](https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [github/gitignore, Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Godot blog, UID changes coming to Godot 4.4](https://godotengine.org/article/uid-changes-coming-to-godot-4-4/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Command line tutorial](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) | [specific/gamedev](specific/gamedev/README.md), [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Godot interfaces](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Saving games](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Scene unique nodes](https://docs.godotengine.org/en/stable/tutorials/scripting/scene_unique_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Step by step](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Using physics interpolation](https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Using signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, When and how to avoid using nodes for everything](https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, When to use scenes versus scripts](https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Google API Linter](https://linter.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for Terraform operations](https://docs.cloud.google.com/docs/terraform/best-practices/operations) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for Terraform root modules](https://docs.cloud.google.com/docs/terraform/best-practices/root-modules) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for Terraform security](https://docs.cloud.google.com/docs/terraform/best-practices/security) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [Gregory, Game Engine Architecture (book)](https://www.gameenginebook.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 7 | [HashiCorp, Creating modules](https://developer.hashicorp.com/terraform/language/modules/develop) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Dependency lock file](https://developer.hashicorp.com/terraform/language/files/dependency-lock) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Dynamic provider credentials in HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/dynamic-provider-credentials) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, lifecycle meta-argument reference](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Manage workspaces (Terraform CLI)](https://developer.hashicorp.com/terraform/cli/workspaces) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Running Terraform in automation](https://developer.hashicorp.com/terraform/tutorials/automation/automate-terraform) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Standard module structure](https://developer.hashicorp.com/terraform/language/modules/develop/structure) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, terraform fmt command reference](https://developer.hashicorp.com/terraform/cli/commands/fmt) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Terraform tutorials](https://developer.hashicorp.com/terraform/tutorials) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [HashiCorp, Tests (Terraform configuration language)](https://developer.hashicorp.com/terraform/language/tests) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Helm chart best practices](https://helm.sh/docs/chart_best_practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [IAM Access Analyzer, policy validation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [Kubernetes tutorials](https://kubernetes.io/docs/tutorials/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -259,9 +347,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Kubernetes, Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Images](https://kubernetes.io/docs/concepts/containers/images/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
-| 7 | [Kubernetes, Pod lifecycle: termination](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 7 | [Kubernetes, Pod lifecycle: termination](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) | [specific/kubernetes](specific/kubernetes/README.md), [specific/nodejs](specific/nodejs/README.md) | 2026-10-24 |
+| 7 | [Mario Casciaro and Luciano Mammino, Node.js Design Patterns (4th edition)](https://nodejsdesignpatterns.com/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Martin, The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Martin, The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) | [general/principles](general/principles.md) | 2026-10-24 |
+| 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, C# compiler options for errors and warnings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, CA1849: call async methods when in an async method](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
@@ -274,11 +364,34 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft, Options pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Model Context Protocol](https://modelcontextprotocol.io/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [NCSC secure design principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [Next.js, Error Handling](https://nextjs.org/docs/app/getting-started/error-handling) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, ESLint plugin (eslint-config-next)](https://nextjs.org/docs/app/api-reference/config/eslint) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Fetching Data: Parallel data fetching](https://nextjs.org/docs/app/getting-started/fetching-data#parallel-data-fetching) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Fetching Data: Streaming](https://nextjs.org/docs/app/getting-started/fetching-data#streaming) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Font Optimization](https://nextjs.org/docs/app/getting-started/fonts) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, How to implement authentication in Next.js](https://nextjs.org/docs/app/guides/authentication) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Image Optimization](https://nextjs.org/docs/app/getting-started/images) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Learn: App Router course (dashboard app)](https://nextjs.org/learn/dashboard-app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Revalidating](https://nextjs.org/docs/app/getting-started/revalidating) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Server and Client Components: Interleaving Server and Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components#interleaving-server-and-client-components) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Server and Client Components: Preventing environment poisoning (server-only)](https://nextjs.org/docs/app/getting-started/server-and-client-components#preventing-environment-poisoning) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, Server and Client Components: Reducing JS bundle size](https://nextjs.org/docs/app/getting-started/server-and-client-components#reducing-js-bundle-size) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 7 | [Next.js, The Server and Client Boundary](https://nextjs.org/docs/app/guides/server-and-client-boundary) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [NIST SP 800-207, Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [Node.js Best Practices, 1.1 Structure your solution by business components](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js Best Practices, 8.6 Shutdown smartly and gracefully](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/graceful-shutdown.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js, Command-line API: --unhandled-rejections](https://nodejs.org/api/cli.html#--unhandled-rejectionsmode) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js, HTTP: server.close()](https://nodejs.org/api/http.html#serverclosecallback) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js, Modules: TypeScript (type stripping)](https://nodejs.org/api/typescript.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js, Security Best Practices: Denial of Service of HTTP server](https://nodejs.org/learn/getting-started/security-best-practices#denial-of-service-of-http-server-cwe-400) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js, Security Best Practices: Prototype pollution attacks](https://nodejs.org/learn/getting-started/security-best-practices#prototype-pollution-attacks-cwe-1321) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [npm Docs, npm ci](https://docs.npmjs.com/cli/v12/commands/npm-ci/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [OpenGitOps principles](https://opengitops.dev/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [OpenTofu, Language documentation](https://opentofu.org/docs/language/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Microservices Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Secure Product Design Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
@@ -298,6 +411,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Sadalage/Fowler, Evolutionary Database Design](https://martinfowler.com/articles/evodb.html) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Sculley et al., Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 7 | [Sebastian Markbåge (Next.js blog), How to Think About Security in Next.js](https://nextjs.org/blog/security-nextjs-server-components-actions) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [SEI, ATAM: Method for Architecture Evaluation](https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [Shopify Engineering, Deconstructing the Monolith](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Skelton and Pais, Team Topologies (book)](https://teamtopologies.com/book) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -310,6 +424,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Trunk Based Development](https://trunkbaseddevelopment.com/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Twelve-Factor App, IV Backing services](https://12factor.net/backing-services) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Twelve-Factor App, VI Processes](https://12factor.net/processes) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [TypeScript Handbook, Modules: Choosing compiler options](https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [TypeScript, The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [typescript-eslint, no-floating-promises](https://typescript-eslint.io/rules/no-floating-promises/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [typescript-eslint, no-misused-promises](https://typescript-eslint.io/rules/no-misused-promises/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Unity Addressables, overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Boss Room multiplayer sample](https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Asynchronous programming with Awaitable](https://docs.unity3d.com/Manual/async-await-support.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -333,6 +451,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [web.dev, Web Vitals](https://web.dev/articles/vitals) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -350,15 +469,20 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [buf breaking, rules and categories](https://buf.build/docs/breaking/rules/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
+| 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
+| 6 | [dependency-cruiser, rules reference: group matching](https://github.com/sverweij/dependency-cruiser/blob/main/doc/rules-reference.md#group-matching) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Designing robust and predictable APIs with idempotency](https://stripe.com/blog/idempotency) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Diátaxis, The map](https://diataxis.fr/map/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Dodds, Colocation](https://kentcdodds.com/blog/colocation) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-n, no-sync](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-regexp, no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Offline-first support](https://docs.flutter.dev/app-architecture/design-patterns/offline-first) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -371,14 +495,38 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Fowler, Patterns of Enterprise Application Architecture (book)](https://martinfowler.com/books/eaa.html) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Fowler, Team Topologies](https://martinfowler.com/bliki/TeamTopologies.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Fowler, Test Double](https://martinfowler.com/bliki/TestDouble.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 6 | [Gaffer On Games (Fiedler), Floating Point Determinism](https://gafferongames.com/post/floating_point_determinism/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Gaffer On Games (Fiedler), What every programmer needs to know about game networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/resources/github-actions-untrusted-input/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 4: New vulnerability patterns and mitigation strategies](https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, artifact attestations](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, CodeQL query help: Checkout of untrusted code in a privileged context](https://codeql.github.com/codeql-query-help/actions/actions-untrusted-checkout-critical/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, CodeQL query help: Code injection (actions/code-injection/critical)](https://codeql.github.com/codeql-query-help/actions/actions-code-injection-critical/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, CodeQL query help: Unpinned tag for a non-immutable Action or reusable workflow](https://codeql.github.com/codeql-query-help/actions/actions-unpinned-tag/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, CodeQL query help: Workflow does not contain permissions](https://codeql.github.com/codeql-query-help/actions/actions-missing-workflow-permissions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, Concurrency (GitHub Actions)](https://docs.github.com/en/actions/concepts/workflows-and-actions/concurrency) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, Control the concurrency of workflows and jobs](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, Dependabot supported ecosystems: GitHub Actions](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories#github-actions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Dependabot version updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-version-updates) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, Dependency caching reference](https://docs.github.com/en/actions/reference/workflows-and-actions/dependency-caching) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, Reuse workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, Secure use reference: Using CODEOWNERS to monitor changes](https://docs.github.com/en/actions/reference/security/secure-use#using-codeowners-to-monitor-changes) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, Tutorials for GitHub Actions](https://docs.github.com/en/actions/tutorials) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [Godot class reference, FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 6 | [Godot class reference, Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [gRPC guides](https://grpc.io/docs/guides/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [HashiCorp, HCP Terraform policy enforcement overview](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [HashiCorp, Health assessments in HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/health) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [HashiCorp, terraform plan command reference](https://developer.hashicorp.com/terraform/cli/commands/plan) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [HashiCorp, terraform test command reference](https://developer.hashicorp.com/terraform/cli/commands/test) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [HashiCorp, terraform validate command reference](https://developer.hashicorp.com/terraform/cli/commands/validate) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
@@ -391,17 +539,41 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Kubernetes, Service accounts](https://kubernetes.io/docs/concepts/security/service-accounts/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kyverno policy library](https://kyverno.io/policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 6 | [Mertens, ECS FAQ](https://github.com/SanderMertens/ecs-faq) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Microsoft Learn, Automate your workflow with GitHub Actions (learning path)](https://learn.microsoft.com/en-us/training/paths/github-actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Microsoft, .NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Next.js, Server Actions and Mutations: Sequential dispatch on the client](https://nextjs.org/docs/app/guides/server-actions#sequential-dispatch-on-the-client) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 1.2 Layer your components, keep the web layer within its boundaries](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/createlayers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 2.11 Fail fast, validate arguments using a dedicated library](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/failfast.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 2.3 Distinguish catastrophic errors from operational errors](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/operationalvsprogrammererror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 2.4 Handle errors centrally](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/centralizedhandling.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 2.6 Exit the process gracefully when a stranger comes to town](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/shuttingtheprocess.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 2.7 Use a mature logger to increase errors visibility](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/usematurelogger.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 5.17 Use an LTS release of Node.js](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/production/LTSrelease.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 5.18 Log to stdout, avoid specifying log destination within the app](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/production/logrouting.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 5.19 Install your packages with npm ci](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/production/installpackageswithnpmci.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 6.10 Validate incoming JSON schemas](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/security/validation.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 7.1 Don't block the event loop](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/performance/block-loop.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Node.js Best Practices, 8.2 Bootstrap using node command, avoid npm start](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/bootstrap-using-node.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [npm Docs, npm audit](https://docs.npmjs.com/cli/v12/commands/npm-audit/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Command](https://gameprogrammingpatterns.com/command.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Nystrom, Component](https://gameprogrammingpatterns.com/component.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Nystrom, Data Locality](https://gameprogrammingpatterns.com/data-locality.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Nystrom, Game Loop](https://gameprogrammingpatterns.com/game-loop.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Nystrom, Object Pool](https://gameprogrammingpatterns.com/object-pool.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Nystrom, Type Object](https://gameprogrammingpatterns.com/type-object.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [oasdiff, breaking changes (OpenAPI)](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard](https://scorecard.dev/) | [general/security](general/security.md) | 2026-10-24 |
-| 6 | [OpenSSF Scorecard, checks](https://github.com/ossf/scorecard/blob/main/docs/checks.md) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [OpenSSF Scorecard, checks](https://github.com/ossf/scorecard/blob/main/docs/checks.md) | [general/security](general/security.md), [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [OpenSSF Scorecard, checks: Dangerous-Workflow](https://github.com/ossf/scorecard/blob/main/docs/checks.md#dangerous-workflow) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [OpenSSF Scorecard, checks: Pinned-Dependencies](https://github.com/ossf/scorecard/blob/main/docs/checks.md#pinned-dependencies) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [OpenSSF Scorecard, checks: Token-Permissions](https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Patterns.dev](https://www.patterns.dev/) | [general/reading-list](general/reading-list.md), [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -414,9 +586,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Testing in .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 6 | [TFLint, Terraform ruleset rules](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [The Architecture of Open Source Applications](https://aosabook.org/en/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [The Software Architect Elevator](https://architectelevator.com/book/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Thoughtworks Radar, Inverse Conway Maneuver](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) | [general/principles](general/principles.md) | 2026-10-24 |
+| 6 | [TypeScript Handbook, The Basics: Erased types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Learn, Command pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-the-command-pattern-for-flexible-and-extensible-game-systems) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -443,14 +617,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [zizmor, Audit rules](https://docs.zizmor.sh/audits/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 
 ## Further reading (1–5)
 
-65 sources.
+81 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 5 | [Anthropic skills repository](https://github.com/anthropics/skills) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 5 | [Anton Babenko, Terraform Best Practices](https://www.terraform-best-practices.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [AWS Config, CloudFormation stack drift detection rule](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS DevOps Blog, compliance with the AWS CDK and cdk-nag](https://aws.amazon.com/blogs/devops/manage-application-security-and-compliance-with-the-aws-cloud-development-kit-and-cdk-nag/) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -458,6 +635,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [AWS Lambda, Python handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Resilience Hub, scheduled assessments](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [Checkov, Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
 | 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
@@ -470,9 +648,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 5 | [GameCI, Unity Test Runner](https://game.ci/docs/github/test-runner/) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-25 |
+| 5 | [gdtoolkit, Linter (gdlint)](https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [gdtoolkit, README (gdformat and CI usage)](https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [gdUnit4, Command line tool](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [gdUnit4, Continuous integration](https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/ci/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 3: How to trust your building blocks](https://securitylab.github.com/resources/github-actions-building-blocks/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 5 | [GitHub, creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 5 | [GitHub, Dependabot supported ecosystems: Terraform](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories#terraform) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 5 | [GitHub, Secure use reference: Monitoring the actions in your workflows (Dependabot alerts)](https://docs.github.com/en/actions/reference/security/secure-use#monitoring-the-actions-in-your-workflows) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 5 | [Hipple, Unite 2017 sample project](https://github.com/roboryantron/Unite2017) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [Hipple, Unite 2017: Game Architecture with Scriptable Objects (talk video)](https://www.youtube.com/watch?v=raQ3iHhE_Kk) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [IAM Access Analyzer API, ValidatePolicy](https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ValidatePolicy.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -486,7 +672,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
+| 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Pino, Child loggers](https://github.com/pinojs/pino/blob/main/docs/child-loggers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 5 | [Pino, Redaction](https://github.com/pinojs/pino/blob/main/docs/redaction.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Polaris, efficiency checks](https://polaris.docs.fairwinds.com/checks/efficiency/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, infrastructure as code (CI)](https://polaris.docs.fairwinds.com/infrastructure-as-code/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, reliability checks](https://polaris.docs.fairwinds.com/checks/reliability/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
@@ -495,6 +684,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 5 | [Trivy, Terraform scanning coverage](https://trivy.dev/docs/latest/coverage/iac/terraform/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Unity ECS samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity Manual, Package layout](https://docs.unity3d.com/Manual/cus-layout.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -502,6 +692,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [VContainer](https://vcontainer.hadashikick.jp/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Welcome to DDD](https://github.com/ddd-crew/welcome-to-ddd) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 5 | [zizmor, Audit rules: secrets-inherit](https://docs.zizmor.sh/audits/#secrets-inherit) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 4 | [adr-tools](https://github.com/npryce/adr-tools) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 4 | [AWS Skill Builder](https://skillbuilder.aws/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 4 | [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -512,6 +703,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Gatekeeper library, container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, disallowed tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 4 | [GUT, Export test results](https://gut.readthedocs.io/en/latest/Export-Test-Results.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [Unity Chop Chop (Open Project 1)](https://github.com/UnityTechnologies/open-project-1) | [specific/unity](specific/unity/README.md) | 2026-10-24 |

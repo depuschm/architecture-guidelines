@@ -14,7 +14,7 @@ Every source and every rule has a **score from 1 to 10**, and lists are sorted b
 | 6–8 | Recommended | Recommended |
 | 1–5 | Further reading | Conditional |
 
-[RANKING.md](RANKING.md) explains the criteria, and [SOURCES.md](SOURCES.md) lists all ~400 sources in one place, ranked, with the date each was last verified.
+[RANKING.md](RANKING.md) explains the criteria, and [SOURCES.md](SOURCES.md) lists every source in one place, ranked, with the date each was last verified.
 
 Every rule also has a **stable ID**, such as `SEC-3` or `UNITY-STRUCT-2`, so reviews, ADRs and pull requests can cite it. [RULES.md](RULES.md) lists all rules by ID. Where a tool can check a rule automatically, the guideline file names it under **How to enforce**.
 
@@ -22,7 +22,7 @@ Every rule also has a **stable ID**, such as `SEC-3` or `UNITY-STRUCT-2`, so rev
 
 ```
 general/            Technology-independent guidelines (principles, styles, DDD, APIs, data, security, …)
-specific/<platform> One folder per platform/service (Unity, .NET, Android, Flutter, React, Kubernetes, AWS)
+specific/<platform> One folder per platform or service (games, web, mobile, infrastructure, automation)
 specific/_template  Starting point for a new platform folder
 skills/             AI skills (Agent Skills format) that apply these guidelines
 checklists/         One checklist per area, for pull requests and design reviews (generated)
@@ -57,15 +57,21 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 
 ## Specific guidelines
 
-| Platform | Main adopted guide |
-| --- | --- |
-| [Unity](specific/unity/README.md) | [Unity best practice guides and e-books](https://docs.unity3d.com/Manual/best-practice-guides.html) |
-| [.NET / ASP.NET Core](specific/dotnet/README.md) | [.NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) |
-| [Android](specific/android/README.md) | [Guide to app architecture](https://developer.android.com/topic/architecture) |
-| [Flutter](specific/flutter/README.md) | [Flutter app architecture guide](https://docs.flutter.dev/app-architecture) |
-| [React](specific/react/README.md) | [react.dev Learn](https://react.dev/learn) |
-| [Kubernetes](specific/kubernetes/README.md) | [Kubernetes configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) |
-| [AWS](specific/aws/README.md) | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Area | Platform | Main adopted guide |
+| --- | --- | --- |
+| Games | [Game development](specific/gamedev/README.md) | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) and [Fast-Paced Multiplayer](https://www.gabrielgambetta.com/client-server-game-architecture.html) |
+| Games | [Unity](specific/unity/README.md) | [Unity best practice guides and e-books](https://docs.unity3d.com/Manual/best-practice-guides.html) |
+| Games | [Godot](specific/godot/README.md) | [Godot best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) |
+| Web and back end | [React](specific/react/README.md) | [react.dev Learn](https://react.dev/learn) |
+| Web and back end | [Next.js](specific/nextjs/README.md) | [Next.js Docs: App Router](https://nextjs.org/docs/app) |
+| Web and back end | [Node.js](specific/nodejs/README.md) | [Don't Block the Event Loop](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) and [Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) |
+| Web and back end | [.NET / ASP.NET Core](specific/dotnet/README.md) | [.NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) |
+| Mobile | [Android](specific/android/README.md) | [Guide to app architecture](https://developer.android.com/topic/architecture) |
+| Mobile | [Flutter](specific/flutter/README.md) | [Flutter app architecture guide](https://docs.flutter.dev/app-architecture) |
+| Infrastructure | [Kubernetes](specific/kubernetes/README.md) | [Kubernetes configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) |
+| Infrastructure | [AWS](specific/aws/README.md) | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Infrastructure | [Terraform](specific/terraform/README.md) | [Terraform style guide](https://developer.hashicorp.com/terraform/language/style) |
+| Automation | [GitHub Actions](specific/github-actions/README.md) | [Secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) |
 
 To add a platform, copy [`specific/_template`](specific/_template/README.md) and follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -73,7 +79,7 @@ To add a platform, copy [`specific/_template`](specific/_template/README.md) and
 
 Every rule of an area in one list, grouped by level and sorted by score, with the tools that can check each rule automatically. Paste one into a pull request, design review or project kickoff:
 
-[General](checklists/general.md) · [Unity](checklists/unity.md) · [.NET](checklists/dotnet.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [React](checklists/react.md) · [Kubernetes](checklists/kubernetes.md) · [AWS](checklists/aws.md)
+[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Node.js](checklists/nodejs.md) · [.NET](checklists/dotnet.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Kubernetes](checklists/kubernetes.md) · [AWS](checklists/aws.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md)
 
 ## AI skills
 

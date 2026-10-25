@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Node.js, .NET, Android, Flutter, Kubernetes, AWS, Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Node.js, .NET, Android, Flutter, Docker, Kubernetes, AWS, Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -40,6 +40,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | .NET | `*.sln`, `*.slnx`, `*.csproj` (outside a Unity project) | `specific/dotnet/` |
 | Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |
 | Flutter | `pubspec.yaml` that depends on the `flutter` SDK | `specific/flutter/` |
+| Docker | `Dockerfile` or `Containerfile`, `compose.yaml` or `docker-compose.yml`, `.dockerignore` | `specific/docker/` |
 | Kubernetes | YAML files with `apiVersion:` and `kind:`, `Chart.yaml`, `kustomization.yaml` | `specific/kubernetes/` |
 | AWS | `cdk.json`, CloudFormation/SAM templates with `AWS::` types, Terraform `provider "aws"` | `specific/aws/` |
 | Terraform or OpenTofu | `*.tf` or `*.tofu` files, `.terraform.lock.hcl` | `specific/terraform/` |

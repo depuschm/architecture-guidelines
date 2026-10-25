@@ -1,7 +1,7 @@
 <!-- rule-prefix: K8S -->
 # Kubernetes
 
-Scope: designing and running application workloads on Kubernetes clusters.
+Scope: designing and running application workloads on Kubernetes clusters. For building the container images, see [Docker](../docker/README.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

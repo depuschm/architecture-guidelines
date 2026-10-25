@@ -24,6 +24,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 
 ### Infrastructure and automation
 
+- [Docker](docker/README.md): container images, container security and Docker Compose.
 - [Kubernetes](kubernetes/README.md): running workloads on Kubernetes.
 - [AWS](aws/README.md): workloads on Amazon Web Services.
 - [Terraform](terraform/README.md): infrastructure as code with Terraform or OpenTofu.

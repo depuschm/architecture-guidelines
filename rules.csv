@@ -60,6 +60,22 @@ DOC-3,active,"Give every diagram a title, a key or legend, and labelled, directe
 DOC-4,active,Keep diagrams as text in the repository so they can be reviewed and diffed.
 DOC-5,active,"Use the C4 abstractions (person, software system, container, component) consistently, whatever the notation."
 DOC-6,active,"Don't mix tutorials, how-to guides, reference and explanation in one document."
+DOCKER-1,active,Run the application as a non-root user: create a user in the Dockerfile and switch to it with `USER`.
+DOCKER-2,active,"Never pass secrets to a build through `ARG`, `ENV` or copied files. Use secret mounts or SSH mounts."
+DOCKER-3,active,"Pin base images to a specific version tag, or to a tag plus digest for reproducible builds, and let a bot such as Dependabot propose updates."
+DOCKER-4,active,"Use multi-stage builds so that the final image contains only what the application needs to run, on a small base image from a trusted source."
+DOCKER-5,active,"Rebuild images often, with `--pull` to fetch fresh base images, so that security fixes in the base image reach production."
+DOCKER-6,active,"Start the main process with the exec form, such as `ENTRYPOINT [""app""]`, so that it runs as PID 1 and receives `SIGTERM`."
+DOCKER-7,active,Order Dockerfile instructions from least to most often changed: copy the dependency manifests and install dependencies before copying the source code.
+DOCKER-8,active,Keep the build context small with a `.dockerignore` file.
+DOCKER-9,active,"Give each container one concern: run the web app, the database and the cache as separate containers."
+DOCKER-10,active,"Scan images for known vulnerabilities in CI, fail the build above an agreed severity, and keep scanning the images you have deployed."
+DOCKER-11,active,"Attach SBOM and provenance attestations to the images you publish, and sign them so that deployments can verify where an image came from."
+DOCKER-12,active,"Never mount the Docker socket into a container, and never expose the daemon over unauthenticated TCP."
+DOCKER-13,active,"Run containers with least privilege: never use `--privileged`, drop all capabilities and add back only those needed, set `no-new-privileges`, and use a read-only root file system where possible."
+DOCKER-14,active,"Give containers runtime secrets as Compose or orchestrator secrets, mounted as files, rather than as environment variables."
+DOCKER-15,active,"Make services wait for their dependencies to be ready, not only started: give the dependency a `healthcheck` and use `depends_on` with `condition: service_healthy`."
+DOCKER-16,active,"Keep one base `compose.yaml` and put environment-specific changes in extra files, such as `compose.override.yaml` for development and `compose.production.yaml` for production. In production, don't bind-mount application code."
 DOTNET-1,active,Keep secrets out of source.
 DOTNET-2,active,Go async all the way and never block on async code with `.Result` or `.Wait()`.
 DOTNET-3,active,Use the built-in DI container and follow its lifetime guidelines.

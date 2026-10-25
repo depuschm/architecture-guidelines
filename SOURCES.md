@@ -7,12 +7,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-57 sources.
+59 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -56,6 +57,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [OpenTelemetry documentation](https://opentelemetry.io/docs/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
+| 9 | [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 9 | [OWASP Top 10](https://top10.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 9 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) | [general/ai-systems](general/ai-systems.md), [general/security](general/security.md) | 2026-10-24 |
 | 9 | [OWASP, Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -71,7 +73,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-599 sources.
+639 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -103,7 +105,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Dependency injection guidelines](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/guidelines) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Disaster recovery of workloads on AWS](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [Diátaxis](https://diataxis.fr/) | [general/documentation](general/documentation.md) | 2026-10-24 |
-| 8 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 8 | [Docker Compose documentation](https://docs.docker.com/compose/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [Docker, Build secrets](https://docs.docker.com/build/building/secrets/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [Docker, Building best practices: choose the right base image](https://docs.docker.com/build/building/best-practices/#choose-the-right-base-image) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [Docker, Building best practices: USER](https://docs.docker.com/build/building/best-practices/#user) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [Docker, Get started](https://docs.docker.com/get-started/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [Docker, Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [Docker, Pin base image versions](https://docs.docker.com/build/building/best-practices/#pin-base-image-versions) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 8 | [DORA metrics guide](https://dora.dev/guides/dora-metrics/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Effective Dart](https://dart.dev/effective-dart) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 8 | [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) | [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -197,6 +205,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [OWASP API Security Top 10](https://api-security.owasp.org/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [OWASP Docker Security, Rule #1: Do not expose the Docker daemon socket](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-1-do-not-expose-the-docker-daemon-socket-even-to-the-containers) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [OWASP Docker Security, Rule #2: Set a user](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-2-set-a-user) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 8 | [OWASP Docker Security, Rule #9: Integrate container scanning into CI/CD](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-9-integrate-container-scanning-tools-into-your-cicd-pipeline) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 8 | [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OWASP, Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -284,6 +295,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [C# coding conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [C4 model, abstractions](https://c4model.com/abstractions) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 7 | [C4 model, notation](https://c4model.com/diagrams/notation) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 7 | [CIS Docker Benchmark](https://www.cisecurity.org/benchmark/docker) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [CISA Secure by Design](https://www.cisa.gov/securebydesign) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Clemson, Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
@@ -291,6 +303,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Dart, customizing static analysis](https://dart.dev/tools/analysis) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Deque, axe-core rule descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [Docker Engine security](https://docs.docker.com/engine/security/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker guides (language-specific)](https://docs.docker.com/guides/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Build attestations](https://docs.docker.com/build/metadata/attestations/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Build context: .dockerignore files](https://docs.docker.com/build/concepts/context/#dockerignore-files) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Building best practices: exclude with .dockerignore](https://docs.docker.com/build/building/best-practices/#exclude-with-dockerignore) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Checking your build configuration (build checks)](https://docs.docker.com/build/checks/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Control startup and shutdown order in Compose](https://docs.docker.com/compose/how-tos/startup-order/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Dockerfile reference: ENTRYPOINT](https://docs.docker.com/reference/dockerfile/#entrypoint) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Manage secrets securely in Docker Compose](https://docs.docker.com/compose/how-tos/use-secrets/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Optimize cache usage: order your layers](https://docs.docker.com/build/cache/optimize/#order-your-layers) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Rebuild your images often](https://docs.docker.com/build/building/best-practices/#rebuild-your-images-often) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker, Use Compose in production](https://docs.docker.com/compose/how-tos/production/#modify-your-compose-file-for-production) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 7 | [DORA, Loosely coupled teams](https://dora.dev/capabilities/loosely-coupled-teams/) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Emerging Patterns in Building GenAI Products](https://martinfowler.com/articles/gen-ai-patterns/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
@@ -418,6 +442,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Next.js, Server and Client Components: Reducing JS bundle size](https://nextjs.org/docs/app/getting-started/server-and-client-components#reducing-js-bundle-size) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [Next.js, The Server and Client Boundary](https://nextjs.org/docs/app/guides/server-and-client-boundary) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 7 | [NIST SP 800-190, Application Container Security Guide](https://csrc.nist.gov/pubs/sp/800/190/final) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [NIST SP 800-207, Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Node.js Best Practices, 1.1 Structure your solution by business components](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js Best Practices, 8.6 Shutdown smartly and gracefully](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/graceful-shutdown.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -432,6 +457,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [OpenTofu, Language documentation](https://opentofu.org/docs/language/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [OWASP Docker Security, Rule #12: Utilize Docker Secrets](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-12-utilize-docker-secrets-for-sensitive-data-management) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [OWASP Docker Security, Rule #13: Enhance supply chain security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-13-enhance-supply-chain-security) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [OWASP Docker Security, Rule #3: Limit capabilities](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-3-limit-capabilities-grant-only-specific-capabilities-needed-by-a-container) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [OWASP Docker Security, Rule #4: Prevent in-container privilege escalation](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-4-prevent-in-container-privilege-escalation) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [OWASP Docker Security, Rule #8: Set filesystem and volumes to read-only](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-8-set-filesystem-and-volumes-to-read-only) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Microservices Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Secure Product Design Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
@@ -454,6 +484,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Sebastian Markbåge (Next.js blog), How to Think About Security in Next.js](https://nextjs.org/blog/security-nextjs-server-components-actions) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [SEI, ATAM: Method for Architecture Evaluation](https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [Shopify Engineering, Deconstructing the Monolith](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
+| 7 | [Sigstore, Signing containers](https://docs.sigstore.dev/cosign/signing/signing_with_containers/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Skelton and Pais, Team Topologies (book)](https://teamtopologies.com/book) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [SLSA supply-chain framework](https://slsa.dev/) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -525,6 +556,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Deque, axe-core](https://github.com/dequelabs/axe-core) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Designing robust and predictable APIs with idempotency](https://stripe.com/blog/idempotency) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Diátaxis, The map](https://diataxis.fr/map/) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 6 | [Docker build checks, JSONArgsRecommended](https://docs.docker.com/reference/build-checks/json-args-recommended/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker build checks, SecretsUsedInArgOrEnv](https://docs.docker.com/reference/build-checks/secrets-used-in-arg-or-env/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker CLI reference, docker container run](https://docs.docker.com/reference/cli/docker/container/run/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker Hardened Images](https://docs.docker.com/dhi/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker Scout, Policy evaluation](https://docs.docker.com/scout/policy/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker, Decouple applications](https://docs.docker.com/build/building/best-practices/#decouple-applications) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker, Dockerfile reference: HEALTHCHECK](https://docs.docker.com/reference/dockerfile/#healthcheck) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 6 | [Docker, Merge Compose files](https://docs.docker.com/compose/how-tos/multiple-compose-files/merge/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Dodds, Colocation](https://kentcdodds.com/blog/colocation) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Epic Games, Blueprint Best Practices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
@@ -559,6 +598,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitHub, Concurrency (GitHub Actions)](https://docs.github.com/en/actions/concepts/workflows-and-actions/concurrency) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Control the concurrency of workflows and jobs](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, Dependabot supported ecosystems: Docker](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories#docker) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [GitHub, Dependabot supported ecosystems: GitHub Actions](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories#github-actions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Dependabot version updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-version-updates) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [GitHub, Dependency caching reference](https://docs.github.com/en/actions/reference/workflows-and-actions/dependency-caching) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -574,6 +614,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [gRPC guides](https://grpc.io/docs/guides/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [Hadolint, Dockerfile linter](https://github.com/hadolint/hadolint) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, HCP Terraform policy enforcement overview](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, Health assessments in HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/health) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, terraform plan command reference](https://developer.hashicorp.com/terraform/cli/commands/plan) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -647,6 +688,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [The Software Architect Elevator](https://architectelevator.com/book/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Thoughtworks Radar, Inverse Conway Maneuver](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Tom Looman, Unreal Engine C++ Complete Guide](https://tomlooman.com/unreal-engine-cpp-guide/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [Trivy, Container image](https://trivy.dev/docs/latest/target/container_image/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [TypeScript Handbook, The Basics: Erased types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -677,7 +719,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-86 sources.
+93 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -698,6 +740,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [Dart linter rule, prefer_final_fields](https://dart.dev/tools/linter-rules/prefer_final_fields) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [detekt, coroutines rules](https://detekt.dev/docs/rules/coroutines/) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 5 | [Development Containers specification](https://containers.dev/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 5 | [Docker, Use Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -717,6 +761,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [Hadolint, DL3002: last user should not be root](https://github.com/hadolint/hadolint/wiki/DL3002) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 5 | [Hadolint, DL3006: always tag the version of an image explicitly](https://github.com/hadolint/hadolint/wiki/DL3006) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 5 | [Hadolint, DL3007: don't use the latest tag](https://github.com/hadolint/hadolint/wiki/DL3007) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 5 | [Hadolint, DL3025: use JSON notation for CMD and ENTRYPOINT](https://github.com/hadolint/hadolint/wiki/DL3025) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Hipple, Unite 2017 sample project](https://github.com/roboryantron/Unite2017) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [Hipple, Unite 2017: Game Architecture with Scriptable Objects (talk video)](https://www.youtube.com/watch?v=raQ3iHhE_Kk) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [IAM Access Analyzer API, ValidatePolicy](https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ValidatePolicy.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -744,6 +792,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 5 | [Trivy CLI reference, trivy image](https://trivy.dev/docs/latest/references/configuration/cli/trivy_image/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Trivy, Terraform scanning coverage](https://trivy.dev/docs/latest/coverage/iac/terraform/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Unity ECS samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity Manual, Package layout](https://docs.unity3d.com/Manual/cus-layout.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |

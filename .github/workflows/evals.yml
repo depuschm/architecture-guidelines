@@ -15,30 +15,39 @@ on:
         description: Model that grades the llm checks
         default: haiku
 
+permissions:
+  contents: read
+
 jobs:
   evals:
     runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: Explain how to enable
         if: env.ANTHROPIC_API_KEY == ''
         run: echo "::notice::Add an ANTHROPIC_API_KEY repository secret to run the skill evals."
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         if: env.ANTHROPIC_API_KEY != ''
         with:
           node-version: 22
       - if: env.ANTHROPIC_API_KEY != ''
-        run: npm install -g @anthropic-ai/claude-code
+        run: npm install -g @anthropic-ai/claude-code # zizmor: ignore[adhoc-packages] the CLI is the tool under test, always latest
       - name: Run evals
         if: env.ANTHROPIC_API_KEY != ''
+        env:
+          RUNS: ${{ inputs.runs }}
+          MODEL: ${{ inputs.model }}
+          JUDGE_MODEL: ${{ inputs.judge_model }}
         run: >
           claude plugin eval . --trust-plugin --scaffold --allow-tools Write
-          --runs ${{ inputs.runs }} --threshold 0.8
-          --model ${{ inputs.model }} --judge-model ${{ inputs.judge_model }}
+          --runs "$RUNS" --threshold 0.8
+          --model "$MODEL" --judge-model "$JUDGE_MODEL"
           --no-publish --max-cost-usd 10 --json results.json
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always() && env.ANTHROPIC_API_KEY != ''
         with:
           name: eval-results

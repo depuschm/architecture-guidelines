@@ -128,6 +128,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 | What runs | When | Where |
 | --- | --- | --- |
 | Citation, score and rule ID checks, and plugin validation | Every push and pull request | [`checks.yml`](.github/workflows/checks.yml) |
+| Workflow security audit with [zizmor](https://docs.zizmor.sh/), so this repository follows its own [GitHub Actions rules](specific/github-actions/README.md) | Every push and pull request | [`checks.yml`](.github/workflows/checks.yml) |
 | Link check and retired-page detection | Every push and pull request, and weekly | [`checks.yml`](.github/workflows/checks.yml) |
 | Sources not verified for a year fail the weekly run, and a failed weekly run opens (or updates) an issue | Weekly | [`checks.yml`](.github/workflows/checks.yml) |
 | Website build in strict mode (broken links fail it), deployed to GitHub Pages | Pull requests build it, pushes to `main` deploy it | [`site.yml`](.github/workflows/site.yml) |

@@ -7,12 +7,17 @@ on:
     - cron: "17 6 * * 1" # weekly link-rot check, Mondays 06:17 UTC
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   citations:
     name: Every rule has a source and a score
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - run: python3 scripts/check_citations.py
       - run: python3 scripts/rank.py check
 
@@ -20,8 +25,10 @@ jobs:
     name: Links resolve
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: lycheeverse/lychee-action@v2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
           args: --config lychee.toml --no-progress './**/*.md'
           fail: true
@@ -32,7 +39,9 @@ jobs:
     name: Sources are alive and fresh
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: Detect broken and retired sources
         run: python3 scripts/verify_sources.py
       - name: Report sources not verified in the last year
@@ -50,7 +59,9 @@ jobs:
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - run: python3 scripts/verify_sources.py --stale --strict
 
   report:
@@ -76,13 +87,27 @@ jobs:
             gh issue create -R "$GITHUB_REPOSITORY" --title "$title" --label freshness --body "$body"
           fi
 
+  workflows:
+    name: Workflows follow the GitHub Actions rules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      # zizmor checks GHA-1 to GHA-4 and GHA-10 (specific/github-actions/README.md).
+      - uses: zizmorcore/zizmor-action@53290badfa369cb0bf7ad16342cb62c2fa47ac7b # v0.8.0
+        with:
+          advanced-security: false
+
   plugin:
     name: Plugin manifests are valid
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 22
-      - run: npm install -g @anthropic-ai/claude-code
+      - run: npm install -g @anthropic-ai/claude-code # zizmor: ignore[adhoc-packages] the CLI is the tool under test, always latest
       - run: claude plugin validate .

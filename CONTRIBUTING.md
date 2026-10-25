@@ -109,6 +109,7 @@ python3 scripts/verify_sources.py                      # no broken or retired so
 python3 scripts/verify_sources.py --stale              # sources not verified in the last year
 lychee --config lychee.toml './**/*.md'                # links resolve (https://lychee.cli.rs/)
 claude plugin validate .                               # plugin and marketplace manifests are valid
+zizmor .github/workflows                               # workflows follow GHA-1 to GHA-4 (https://docs.zizmor.sh/)
 ```
 
 To preview the website, install the generator once and build or serve it:

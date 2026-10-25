@@ -9,11 +9,12 @@ on:
 
 jobs:
   citations:
-    name: Every rule has a source
+    name: Every rule has a source and a score
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/check_citations.py
+      - run: python3 scripts/rank.py check
 
   links:
     name: Links resolve

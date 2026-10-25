@@ -1,0 +1,411 @@
+score,title,url
+10,"Android, Guide to app architecture",https://developer.android.com/topic/architecture
+10,AWS Well-Architected Framework,https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+10,Flutter app architecture,https://docs.flutter.dev/app-architecture
+10,Level up your code with design patterns and SOLID (Unity e-book),https://unity.com/resources/design-patterns-solid-ebook
+10,"Microsoft, .NET Architecture Guides",https://learn.microsoft.com/en-us/dotnet/architecture/
+10,OWASP Application Security Verification Standard (ASVS),https://owasp.org/www-project-application-security-verification-standard/
+10,react.dev: Learn React,https://react.dev/learn
+10,The C4 model,https://c4model.com/
+9,"Android, Recommendations for Android architecture",https://developer.android.com/topic/architecture/recommendations
+9,arc42,https://arc42.org/overview
+9,Architect Modern Web Applications with ASP.NET Core and Azure,https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/
+9,AWS Builders' Library,https://aws.amazon.com/builders-library/
+9,Azure Architecture Center: architecture styles,https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/
+9,Azure cloud design patterns,https://learn.microsoft.com/en-us/azure/architecture/patterns/
+9,Azure Well-Architected Framework,https://learn.microsoft.com/en-us/azure/well-architected/
+9,Building effective agents,https://www.anthropic.com/research/building-effective-agents
+9,"Create modular game architecture with ScriptableObjects (Unity e-book, Unity 6 edition)",https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
+9,DORA research program,https://dora.dev/
+9,"Evans, DDD Reference",https://www.domainlanguage.com/ddd/reference/
+9,"Flutter, Architecture recommendations",https://docs.flutter.dev/app-architecture/recommendations
+9,"Flutter, Guide to app architecture",https://docs.flutter.dev/app-architecture/guide
+9,"Fowler, Software Architecture Guide",https://martinfowler.com/architecture/
+9,Google API Improvement Proposals (AIPs),https://google.aip.dev/
+9,"Google SRE book, Service Level Objectives",https://sre.google/sre-book/service-level-objectives/
+9,Google SRE books,https://sre.google/books/
+9,IAM security best practices,https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
+9,"Kubernetes, Security checklist",https://kubernetes.io/docs/concepts/security/security-checklist/
+9,"Lewis and Fowler, Microservices",https://martinfowler.com/articles/microservices.html
+9,MADR: Markdown Architectural Decision Records,https://adr.github.io/madr/
+9,"Microsoft, ASP.NET Core best practices",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices
+9,Now in Android (reference app),https://github.com/android/nowinandroid
+9,"Nygard, Documenting Architecture Decisions",https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+9,OpenAPI Specification,https://spec.openapis.org/oas/latest.html
+9,OpenTelemetry documentation,https://opentelemetry.io/docs/
+9,OWASP Cheat Sheet Series,https://cheatsheetseries.owasp.org/
+9,OWASP Top 10,https://owasp.org/Top10/
+9,OWASP Top 10 for LLM Applications,https://genai.owasp.org/llm-top-10/
+9,"RFC 9110, HTTP Semantics",https://www.rfc-editor.org/rfc/rfc9110
+9,Rules of React,https://react.dev/reference/rules
+9,The Twelve-Factor App,https://12factor.net/
+9,Thinking in React,https://react.dev/learn/thinking-in-react
+9,Ultimate guide to profiling Unity games (Unity e-book),https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6
+9,"Unity Manual, Best practice guides",https://docs.unity3d.com/Manual/best-practice-guides.html
+9,"Unity Test Framework, introduction",https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html
+9,"Vocke, The Practical Test Pyramid",https://martinfowler.com/articles/practical-test-pyramid.html
+9,Zalando RESTful API Guidelines,https://opensource.zalando.com/restful-api-guidelines/
+8,.NET Microservices: Architecture for Containerized .NET Applications,https://learn.microsoft.com/en-us/dotnet/architecture/microservices/
+8,"AIP-121, Resource-oriented design",https://google.aip.dev/121
+8,"AIP-180, Backwards compatibility",https://google.aip.dev/180
+8,Android Basics with Compose (course),https://developer.android.com/courses/android-basics-compose/course
+8,"Android, Best practices for coroutines",https://developer.android.com/kotlin/coroutines/coroutines-best-practices
+8,"Android, Data layer",https://developer.android.com/topic/architecture/data-layer
+8,"Android, Guide to app modularization",https://developer.android.com/topic/modularization
+8,"Android, UI layer",https://developer.android.com/topic/architecture/ui-layer
+8,arc42 documentation,https://docs.arc42.org/home/
+8,arc42 Quality Model,https://quality.arc42.org/
+8,AWS Architecture Center,https://aws.amazon.com/architecture/
+8,"AWS Builders' Library, Making retries safe with idempotent APIs",https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/
+8,"AWS Builders' Library, Timeouts, retries and backoff with jitter",https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/
+8,"AWS Well-Architected, Reliability pillar",https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html
+8,"AWS Well-Architected, Security pillar",https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
+8,"AWS Well-Architected, the pillars of the framework",https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
+8,"AWS Well-Architected, The review process",https://docs.aws.amazon.com/wellarchitected/latest/framework/the-review-process.html
+8,Azure Well-Architected pillars,https://learn.microsoft.com/en-us/azure/well-architected/pillars
+8,"Azure, Retry pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+8,Azure: microservices architecture style,https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices
+8,"C4 model, diagrams",https://c4model.com/diagrams
+8,CIS Kubernetes Benchmark,https://www.cisecurity.org/benchmark/kubernetes
+8,"Cockburn, Hexagonal Architecture",https://alistair.cockburn.us/hexagonal-architecture
+8,Compass sample app,https://github.com/flutter/samples/tree/main/compass_app
+8,"Create a C# style guide (Unity e-book, Unity 6 edition)",https://unity.com/resources/c-sharp-style-guide-unity-6
+8,DDD Starter Modelling Process,https://github.com/ddd-crew/ddd-starter-modelling-process
+8,Dependency injection guidelines,https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/guidelines
+8,Disaster recovery of workloads on AWS,https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html
+8,Diátaxis,https://diataxis.fr/
+8,Dockerfile best practices,https://docs.docker.com/build/building/best-practices/
+8,DORA metrics guide,https://dora.dev/guides/dora-metrics/
+8,Effective Dart,https://dart.dev/effective-dart
+8,Enterprise Integration Patterns,https://www.enterpriseintegrationpatterns.com/
+8,eShop reference application,https://github.com/dotnet/eShop
+8,"Evans, Domain-Driven Design (book)",https://www.domainlanguage.com/ddd/
+8,"Fowler (David), ASP.NET Core async guidance",https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md
+8,"Fowler, Bounded Context",https://martinfowler.com/bliki/BoundedContext.html
+8,"Fowler, Circuit Breaker",https://martinfowler.com/bliki/CircuitBreaker.html
+8,"Fowler, Conway's Law",https://martinfowler.com/bliki/ConwaysLaw.html
+8,"Fowler, CQRS",https://martinfowler.com/bliki/CQRS.html
+8,"Fowler, Is High Quality Software Worth the Cost?",https://martinfowler.com/articles/is-quality-worth-cost.html
+8,"Fowler, Monolith First",https://martinfowler.com/bliki/MonolithFirst.html
+8,"Fowler, Strangler Fig",https://martinfowler.com/bliki/StranglerFigApplication.html
+8,"Fowler, Ubiquitous Language",https://martinfowler.com/bliki/UbiquitousLanguage.html
+8,"Fowler, What do you mean by ""Event-Driven""?",https://martinfowler.com/articles/201701-event-driven.html
+8,"Fowler, Yagni",https://martinfowler.com/bliki/Yagni.html
+8,Game Programming Patterns,https://gameprogrammingpatterns.com/contents.html
+8,Google Cloud Well-Architected Framework,https://docs.cloud.google.com/architecture/framework
+8,"Google SRE book, Addressing Cascading Failures",https://sre.google/sre-book/addressing-cascading-failures/
+8,"Google SRE book, Embracing Risk",https://sre.google/sre-book/embracing-risk/
+8,"Google SRE book, Monitoring Distributed Systems",https://sre.google/sre-book/monitoring-distributed-systems/
+8,"Google SRE book, table of contents",https://sre.google/sre-book/table-of-contents/
+8,"Hodgson, Feature Toggles",https://martinfowler.com/articles/feature-toggles.html
+8,"Kleppmann, Designing Data-Intensive Applications (book)",https://dataintensive.net/
+8,"Kubernetes, Configuration good practices",https://kubernetes.io/blog/2025/11/25/configuration-good-practices/
+8,"Kubernetes, Good practices for Secrets",https://kubernetes.io/docs/concepts/security/secrets-good-practices/
+8,"Kubernetes, Liveness, readiness and startup probes",https://kubernetes.io/docs/concepts/workloads/pods/probes/
+8,"Kubernetes, Pod Security Standards",https://kubernetes.io/docs/concepts/security/pod-security-standards/
+8,"Kubernetes, RBAC good practices",https://kubernetes.io/docs/concepts/security/rbac-good-practices/
+8,"Kubernetes, Resource management for pods and containers",https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+8,"Martin, The Clean Architecture",https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+8,Microservice Architecture pattern language,https://microservices.io/patterns/index.html
+8,microservices.io data management patterns,https://microservices.io/patterns/data/database-per-service.html
+8,"microservices.io, Saga",https://microservices.io/patterns/data/saga.html
+8,"microservices.io, Transactional outbox",https://microservices.io/patterns/data/transactional-outbox.html
+8,Microsoft REST API Guidelines,https://github.com/microsoft/api-guidelines
+8,"Microsoft, Architectural principles",https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles
+8,"Microsoft, Build resilient HTTP apps",https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience
+8,"Microsoft, Common web application architectures",https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+8,"Microsoft, Dependency injection in ASP.NET Core",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection
+8,"Microsoft, Safe storage of app secrets",https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets
+8,"Microsoft, Threat Modeling Tool threats (STRIDE)",https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats
+8,NIST Secure Software Development Framework (SP 800-218),https://csrc.nist.gov/pubs/sp/800/218/final
+8,Optimize performance for consoles and PCs (Unity e-book),https://unity.com/resources/console-pc-game-performance-optimization-unity-6
+8,"Optimize performance for mobile, XR and web games (Unity e-book)",https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6
+8,Organizing your AWS environment using multiple accounts,https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html
+8,OWASP API Security Top 10,https://owasp.org/API-Security/
+8,OWASP Authorization Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+8,OWASP Secrets Management Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
+8,OWASP Threat Modeling Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+8,"react.dev, Choosing the state structure",https://react.dev/learn/choosing-the-state-structure
+8,"react.dev, Keeping components pure",https://react.dev/learn/keeping-components-pure
+8,"react.dev, You might not need an Effect",https://react.dev/learn/you-might-not-need-an-effect
+8,"RFC 9457, Problem Details for HTTP APIs",https://www.rfc-editor.org/rfc/rfc9457
+8,Semantic Versioning,https://semver.org/
+8,Software Engineering at Google,https://abseil.io/resources/swe-book
+8,"SRE workbook, Implementing SLOs",https://sre.google/workbook/implementing-slos/
+8,Static stability using Availability Zones,https://aws.amazon.com/builders-library/static-stability-using-availability-zones/
+8,The System Design Primer,https://github.com/donnemartin/system-design-primer
+8,Threat Modeling Manifesto,https://www.threatmodelingmanifesto.org/
+8,"Twelve-Factor App, III Config",https://12factor.net/config
+8,Unity Addressables package manual,https://docs.unity3d.com/Packages/com.unity.addressables@latest/
+8,"Unity Manual, Assembly definitions",https://docs.unity3d.com/Manual/assembly-definition-files.html
+8,"Unity Manual, Introduction to assemblies",https://docs.unity3d.com/Manual/assembly-definitions-intro.html
+8,"Unity Manual, Optimizing managed memory",https://docs.unity3d.com/Manual/performance-optimizing-code-managed-memory.html
+8,"Unity Manual, Order of execution for event functions",https://docs.unity3d.com/Manual/execution-order.html
+8,"Unity Manual, ScriptableObject",https://docs.unity3d.com/Manual/class-ScriptableObject.html
+8,Unity Test Framework course,https://docs.unity3d.com/Manual/test-framework/course/overview.html
+8,"Unity, Best practices for organizing your Unity project",https://unity.com/how-to/organizing-your-project
+8,"Vernon, Effective Aggregate Design",https://www.dddcommunity.org/library/vernon_2011/
+7,"Addressables, Release assets from memory",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html
+7,adr.github.io,https://adr.github.io/
+7,Agent Skills,https://agentskills.io/specification
+7,"AIP-158, Pagination",https://google.aip.dev/158
+7,Android architecture samples,https://github.com/android/architecture-samples
+7,"Android, Architecting your Compose UI",https://developer.android.com/develop/ui/compose/architecture
+7,"Android, Build an offline-first app",https://developer.android.com/topic/architecture/data-layer/offline-first
+7,"Android, Dependency injection",https://developer.android.com/training/dependency-injection
+7,"Android, Domain layer",https://developer.android.com/topic/architecture/domain-layer
+7,"Android, Fundamentals of testing",https://developer.android.com/training/testing/fundamentals
+7,"Android, Hilt",https://developer.android.com/training/dependency-injection/hilt-android
+7,"Android, ViewModel overview",https://developer.android.com/topic/libraries/architecture/viewmodel
+7,"Anthropic, Demystifying evals for AI agents",https://www.anthropic.com/research/demystifying-evals-for-ai-agents
+7,"Anthropic, Effective context engineering for AI agents",https://www.anthropic.com/research/effective-context-engineering-for-ai-agents
+7,"Anthropic, Writing effective tools for agents",https://www.anthropic.com/research/writing-tools-for-agents
+7,"arc42, section 1: quality goals",https://docs.arc42.org/section-1/
+7,ArchUnit,https://www.archunit.org/
+7,Aspire (.NET),https://aspire.dev/
+7,AsyncAPI Specification,https://www.asyncapi.com/docs/reference/specification/latest
+7,"AWS Builders' Library, Avoiding fallback in distributed systems",https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/
+7,"AWS Builders' Library, Using load shedding to avoid overload",https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/
+7,AWS CDK best practices,https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html
+7,AWS fault isolation boundaries,https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/abstract-and-introduction.html
+7,AWS Lambda best practices,https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html
+7,"AWS Organizations, SCPs",https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html
+7,"AWS Prescriptive Guidance, ADR process",https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html
+7,AWS Prescriptive Guidance: cloud design patterns,https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html
+7,AWS Security Reference Architecture,https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html
+7,AWS Well-Architected Generative AI Lens,https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html
+7,"AWS Well-Architected, Cost optimization pillar",https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html
+7,"AWS Well-Architected, Operational excellence pillar",https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html
+7,"AWS Well-Architected, Performance efficiency pillar",https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html
+7,"Azure, Anti-corruption Layer pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
+7,"Azure, Bulkhead pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead
+7,"Azure, CQRS pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs
+7,"Azure, Event Sourcing pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+7,"Azure, Health Endpoint Monitoring pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring
+7,"Azure, Queue-Based Load Leveling pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling
+7,"Azure, Saga pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/saga
+7,"Azure, Strangler Fig pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
+7,Azure: RESTful web API design,https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design
+7,Building Microservices and Monolith to Microservices,https://samnewman.io/books/
+7,"Building Microservices, 2nd edition",https://samnewman.io/books/building_microservices_2nd_edition/
+7,Bulletproof React,https://github.com/alan2207/bulletproof-react
+7,C# coding conventions,https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+7,"C4 model, abstractions",https://c4model.com/abstractions
+7,"C4 model, notation",https://c4model.com/diagrams/notation
+7,CISA Secure by Design,https://www.cisa.gov/securebydesign
+7,"Clemson, Testing Strategies in a Microservice Architecture",https://martinfowler.com/articles/microservice-testing/
+7,Consistency models,https://jepsen.io/consistency
+7,Context Mapping,https://github.com/ddd-crew/context-mapping
+7,"Dehghani, How to break a Monolith into Microservices",https://martinfowler.com/articles/break-monolith-into-microservices.html
+7,Docs as Code,https://www.writethedocs.org/guide/docs-as-code/
+7,"DORA, Loosely coupled teams",https://dora.dev/capabilities/loosely-coupled-teams/
+7,Emerging Patterns in Building GenAI Products,https://martinfowler.com/articles/gen-ai-patterns/
+7,EventStorming,https://www.eventstorming.com/
+7,"Flutter app architecture, case study",https://docs.flutter.dev/app-architecture/case-study
+7,"Flutter app architecture, concepts",https://docs.flutter.dev/app-architecture/concepts
+7,"Flutter, Architecture design patterns",https://docs.flutter.dev/app-architecture/design-patterns
+7,"Flutter, Performance best practices",https://docs.flutter.dev/perf/best-practices
+7,"Flutter, Testing overview",https://docs.flutter.dev/testing/overview
+7,"Ford et al., Building Evolutionary Architectures (book)",https://evolutionaryarchitecture.com/
+7,"Fowler, Anemic Domain Model",https://martinfowler.com/bliki/AnemicDomainModel.html
+7,"Fowler, Beck Design Rules",https://martinfowler.com/bliki/BeckDesignRules.html
+7,"Fowler, Continuous Delivery",https://martinfowler.com/bliki/ContinuousDelivery.html
+7,"Fowler, DDD Aggregate",https://martinfowler.com/bliki/DDD_Aggregate.html
+7,"Fowler, Domain-Driven Design",https://martinfowler.com/bliki/DomainDrivenDesign.html
+7,"Fowler, Event Sourcing",https://martinfowler.com/eaaDev/EventSourcing.html
+7,"Fowler, Microservice Premium",https://martinfowler.com/bliki/MicroservicePremium.html
+7,"Fowler, Microservice Prerequisites",https://martinfowler.com/bliki/MicroservicePrerequisites.html
+7,"Fowler, Presentation Domain Data Layering",https://martinfowler.com/bliki/PresentationDomainDataLayering.html
+7,"Fowler, Technical Debt Quadrant",https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
+7,"Fowler, Value Object",https://martinfowler.com/bliki/ValueObject.html
+7,"Fowler, Who Needs an Architect?",https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
+7,Framework Design Guidelines,https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/
+7,"github/gitignore, Unity.gitignore",https://github.com/github/gitignore/blob/main/Unity.gitignore
+7,"Google SRE book, Postmortem Culture",https://sre.google/sre-book/postmortem-culture/
+7,"Harmel-Law, Scaling the Practice of Architecture, Conversationally",https://martinfowler.com/articles/scaling-architecture-conversationally.html
+7,Helm chart best practices,https://helm.sh/docs/chart_best_practices/
+7,Kubernetes tutorials,https://kubernetes.io/docs/tutorials/
+7,"Kubernetes, Configure liveness, readiness and startup probes",https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+7,"Kubernetes, Disruptions",https://kubernetes.io/docs/concepts/workloads/pods/disruptions/
+7,"Kubernetes, Images",https://kubernetes.io/docs/concepts/containers/images/
+7,"Kubernetes, Network policies",https://kubernetes.io/docs/concepts/services-networking/network-policies/
+7,"Kubernetes, Pod lifecycle: termination",https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+7,"Martin, The Principles of OOD",http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+7,"Martin, The Single Responsibility Principle",https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+7,"Microsoft, .NET observability with OpenTelemetry",https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel
+7,"Microsoft, EF Core performance",https://learn.microsoft.com/en-us/ef/core/performance/
+7,"Microsoft, Handle errors in ASP.NET Core",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling
+7,"Microsoft, Health checks",https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks
+7,"Microsoft, Integration tests",https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests
+7,"Microsoft, Nullable reference types",https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/null-safety/nullable-reference-types
+7,"Microsoft, Options pattern",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options
+7,Model Context Protocol,https://modelcontextprotocol.io/
+7,NCSC secure design principles,https://www.ncsc.gov.uk/collection/cyber-security-design-principles
+7,NIST AI Risk Management Framework,https://www.nist.gov/itl/ai-risk-management-framework
+7,"NIST SP 800-207, Zero Trust Architecture",https://csrc.nist.gov/pubs/sp/800/207/final
+7,OpenGitOps principles,https://opengitops.dev/
+7,OpenTelemetry semantic conventions,https://opentelemetry.io/docs/specs/semconv/
+7,"OpenTelemetry, Observability primer",https://opentelemetry.io/docs/concepts/observability-primer/
+7,OWASP Logging Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
+7,OWASP Microservices Security Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html
+7,OWASP Secure Product Design Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
+7,Pact,https://docs.pact.io/
+7,"Parnas, On the Criteria to Be Used in Decomposing Systems into Modules",https://doi.org/10.1145/361598.361623
+7,"Parnas, On the Criteria to Be Used in Decomposing Systems into Modules (open copy)",https://wstomv.win.tue.nl/edu/2ip30/references/criteria_for_modularization.pdf
+7,Production best practices checklist,https://learnkube.com/production-best-practices
+7,"Protocol Buffers, dos and don'ts",https://protobuf.dev/best-practices/dos-donts/
+7,"react.dev, Creating a React App",https://react.dev/learn/creating-a-react-app
+7,"react.dev, Passing data deeply with context",https://react.dev/learn/passing-data-deeply-with-context
+7,"react.dev, Reusing logic with custom hooks",https://react.dev/learn/reusing-logic-with-custom-hooks
+7,"react.dev, Sharing state between components",https://react.dev/learn/sharing-state-between-components
+7,"Release It!, 2nd edition",https://pragprog.com/titles/mnee2/release-it-second-edition/
+7,"Richards and Ford, Fundamentals of Software Architecture (book)",https://fundamentalsofsoftwarearchitecture.com/
+7,"Robinson, Consumer-Driven Contracts",https://martinfowler.com/articles/consumerDrivenContracts.html
+7,Rules of Machine Learning,https://developers.google.com/machine-learning/guides/rules-of-ml
+7,"Sadalage/Fowler, Evolutionary Database Design",https://martinfowler.com/articles/evodb.html
+7,"Sculley et al., Hidden Technical Debt in Machine Learning Systems",https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html
+7,"SEI, ATAM: Method for Architecture Evaluation",https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/
+7,"Shopify Engineering, Deconstructing the Monolith",https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity
+7,"Skelton and Pais, Team Topologies (book)",https://teamtopologies.com/book
+7,SLSA supply-chain framework,https://slsa.dev/
+7,"Software Engineering at Google, table of contents",https://abseil.io/resources/swe-book/html/toc.html
+7,Team Topologies key concepts,https://teamtopologies.com/key-concepts
+7,"Testing Library, Guiding principles",https://testing-library.com/docs/guiding-principles
+7,"The Pragmatic Programmer, 20th anniversary edition",https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
+7,"Thoughtworks, Architectural fitness function",https://www.thoughtworks.com/radar/techniques/architectural-fitness-function
+7,Trunk Based Development,https://trunkbaseddevelopment.com/
+7,"Twelve-Factor App, IV Backing services",https://12factor.net/backing-services
+7,"Twelve-Factor App, VI Processes",https://12factor.net/processes
+7,"Unity Addressables, overview",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html
+7,Unity Boss Room multiplayer sample,https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop
+7,"Unity Manual, Asynchronous programming with Awaitable",https://docs.unity3d.com/Manual/async-await-support.html
+7,"Unity Manual, Comparison of UI systems",https://docs.unity3d.com/Manual/UI-system-compare.html
+7,"Unity Manual, Configurable Enter Play Mode",https://docs.unity3d.com/Manual/configurable-enter-play-mode.html
+7,"Unity Manual, Domain reloading",https://docs.unity3d.com/Manual/domain-reloading.html
+7,"Unity Manual, Load resources at runtime",https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html
+7,"Unity Manual, Profiler",https://docs.unity3d.com/Manual/Profiler.html
+7,"Unity Manual, Referencing assemblies",https://docs.unity3d.com/Manual/assembly-definitions-referencing.html
+7,"Unity Manual, Special folder names",https://docs.unity3d.com/Manual/SpecialFolders.html
+7,"Unity Manual, Version control",https://docs.unity3d.com/Manual/VersionControl.html
+7,"Unity Scripting API, ObjectPool",https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html
+7,"Unity Test Framework, Edit Mode vs. Play Mode tests",https://docs.unity3d.com/Manual/test-framework/edit-mode-vs-play-mode-tests.html
+7,"Unity Test Framework, Run tests from the command line",https://docs.unity3d.com/Manual/test-framework/run-tests-from-command-line.html
+7,"Unity, Architect your code with ScriptableObjects",https://unity.com/how-to/architect-game-code-scriptable-objects
+7,"Unity, How to architect code as your project scales",https://unity.com/how-to/how-architect-code-your-project-scales
+7,"Unity, ScriptableObject event channels",https://unity.com/how-to/scriptableobjects-event-channels-game-code
+7,"Unity, Separate game data and logic with ScriptableObjects",https://unity.com/how-to/separate-game-data-logic-scriptable-objects
+7,Using domain analysis to model microservices,https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis
+7,"web.dev, Web Vitals",https://web.dev/articles/vitals
+6,"Android, Common modularization patterns",https://developer.android.com/topic/modularization/patterns
+6,Architecting Cloud Native .NET Applications for Azure,https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/
+6,Architecture decision record,https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record
+6,Architecture decision record examples and templates,https://github.com/joelparkerhenderson/architecture-decision-record
+6,Architecture decision records overview,https://docs.cloud.google.com/architecture/architecture-decision-records
+6,ArchUnitNET,https://github.com/TNG/ArchUnitNET
+6,AWS multi-Region fundamentals,https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/
+6,"AWS Prescriptive Guidance, ADR best practices",https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html
+6,"AWS Well-Architected, Serverless Applications Lens",https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html
+6,Azure Architecture Center: AI and machine learning,https://learn.microsoft.com/en-us/azure/architecture/ai-ml/
+6,Bounded Context Canvas,https://github.com/ddd-crew/bounded-context-canvas
+6,"Bulletproof React, project structure",https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md
+6,Clean Architecture template (Ardalis),https://github.com/ardalis/CleanArchitecture
+6,"Conway, original paper",https://www.melconway.com/Home/Conways_Law.html
+6,"Dehghani, Data Mesh Principles",https://martinfowler.com/articles/data-mesh-principles.html
+6,Designing robust and predictable APIs with idempotency,https://stripe.com/blog/idempotency
+6,"Diátaxis, The map",https://diataxis.fr/map/
+6,"Dodds, Application state management with React",https://kentcdodds.com/blog/application-state-management-with-react
+6,"Dodds, Colocation",https://kentcdodds.com/blog/colocation
+6,"Flutter, Command pattern",https://docs.flutter.dev/app-architecture/design-patterns/command
+6,"Flutter, Ephemeral vs. app state",https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app
+6,"Flutter, Offline-first support",https://docs.flutter.dev/app-architecture/design-patterns/offline-first
+6,"Flutter, Result pattern",https://docs.flutter.dev/app-architecture/design-patterns/result
+6,"Flutter, State management options",https://docs.flutter.dev/data-and-backend/state-mgmt/options
+6,"Ford and Richards, Software Architecture: The Hard Parts and other books",https://www.developertoarchitect.com/books.html
+6,"Fowler, Contract Test",https://martinfowler.com/bliki/ContractTest.html
+6,"Fowler, Design Stamina Hypothesis",https://martinfowler.com/bliki/DesignStaminaHypothesis.html
+6,"Fowler, Is Design Dead?",https://martinfowler.com/articles/designDead.html
+6,"Fowler, Patterns of Enterprise Application Architecture (book)",https://martinfowler.com/books/eaa.html
+6,"Fowler, Team Topologies",https://martinfowler.com/bliki/TeamTopologies.html
+6,"Fowler, Test Double",https://martinfowler.com/bliki/TestDouble.html
+6,Google Cloud API design guide,https://docs.cloud.google.com/apis/design
+6,"Google Testing Blog, Just Say No to More End-to-End Tests",https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
+6,GraphQL best practices,https://graphql.org/learn/best-practices/
+6,gRPC guides,https://grpc.io/docs/guides/
+6,Humble Object pattern,http://xunitpatterns.com/Humble%20Object.html
+6,Hyrum's Law,https://www.hyrumslaw.com/
+6,"Jackson, Micro Frontends",https://martinfowler.com/articles/micro-frontends.html
+6,"Kubernetes RBAC, service account permissions",https://kubernetes.io/docs/reference/access-authn-authz/rbac/#service-account-permissions
+6,"Kubernetes, Autoscaling workloads",https://kubernetes.io/docs/concepts/workloads/autoscaling/
+6,"Kubernetes, Multi-tenancy",https://kubernetes.io/docs/concepts/security/multi-tenancy/
+6,"Kubernetes, Service accounts",https://kubernetes.io/docs/concepts/security/service-accounts/
+6,"Kubernetes, Topology spread constraints",https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/
+6,Mermaid C4 diagrams,https://mermaid.js.org/syntax/c4.html
+6,Modular Monolith with DDD reference implementation,https://github.com/kgrzybek/modular-monolith-with-ddd
+6,Modularizing React Applications with Established UI Patterns,https://martinfowler.com/articles/modularizing-react-apps.html
+6,"Nystrom, Command",https://gameprogrammingpatterns.com/command.html
+6,"Nystrom, State",https://gameprogrammingpatterns.com/state.html
+6,OpenSSF Scorecard,https://scorecard.dev/
+6,"Palermo, Onion Architecture",https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+6,Patterns.dev,https://www.patterns.dev/
+6,Principles of Chaos Engineering,https://principlesofchaos.org/
+6,Reducing the scope of impact with cell-based architecture,https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html
+6,Refactoring.Guru: design patterns,https://refactoring.guru/design-patterns
+6,Server Components,https://react.dev/reference/rsc/server-components
+6,Structurizr,https://structurizr.com/
+6,TanStack Query overview,https://tanstack.com/query/latest/docs/framework/react/overview
+6,Testing in .NET,https://learn.microsoft.com/en-us/dotnet/core/testing/
+6,The Architecture of Open Source Applications,https://aosabook.org/en/
+6,The Software Architect Elevator,https://architectelevator.com/book/
+6,"Thoughtworks Radar, Inverse Conway Maneuver",https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver
+6,Unity Entities package manual,https://docs.unity3d.com/Packages/com.unity.entities@latest/
+6,Unity game programming patterns demo,https://github.com/Unity-Technologies/game-programming-patterns-demo
+6,"Unity Learn, Command pattern",https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-the-command-pattern-for-flexible-and-extensible-game-systems
+6,"Unity Learn, MVC and MVP patterns",https://learn.unity.com/course/design-patterns-unity-6/tutorial/build-a-modular-codebase-with-mvc-and-mvp-programming-patterns
+6,"Unity Learn, Object pooling",https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-object-pooling-to-boost-performance-of-c-scripts-in-unity
+6,"Unity Learn, Observer pattern",https://learn.unity.com/course/design-patterns-unity-6/tutorial/create-modular-and-maintainable-code-with-the-observer-pattern
+6,"Unity Learn, State pattern",https://learn.unity.com/course/design-patterns-unity-6/tutorial/develop-a-modular-flexible-codebase-with-the-state-programming-pattern
+6,"Unity Manual, Coroutines",https://docs.unity3d.com/Manual/Coroutines.html
+6,"Unity Manual, Creating custom packages",https://docs.unity3d.com/Manual/CustomPackages.html
+6,"Unity Manual, Editor settings",https://docs.unity3d.com/Manual/class-EditorManager.html
+6,"Unity Manual, Smart Merge",https://docs.unity3d.com/Manual/SmartMerge.html
+6,"Unity Manual, UnityEvents",https://docs.unity3d.com/Manual/unity-events.html
+6,"Unity Manual, Version control settings",https://docs.unity3d.com/Manual/class-VersionControlSettings.html
+6,Unity Multiplayer Center,https://docs.unity3d.com/Packages/com.unity.multiplayer.center@latest/
+6,Unity Netcode for GameObjects,https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@latest/
+6,Unity PaddleGameSO (ScriptableObjects demo),https://github.com/UnityTechnologies/PaddleGameSO
+6,"Unity, Advanced programming and code architecture",https://unity.com/how-to/advanced-programming-and-code-architecture
+6,"Unity, How to run automated tests with the Unity Test Framework",https://unity.com/how-to/automated-tests-unity-test-framework
+6,"Unity, Naming and code style tips",https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity
+6,"Unity, UI Toolkit for advanced Unity developers",https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html
+6,"Vogels, Eventually Consistent",https://www.allthingsdistributed.com/2008/12/eventually_consistent.html
+6,Workload isolation using shuffle-sharding,https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/
+5,Anthropic skills repository,https://github.com/anthropics/skills
+5,Awesome Software Architecture,https://github.com/mehdihadeli/awesome-software-architecture
+5,"AWS Lambda, C# handler best practices",https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html
+5,"AWS Lambda, Python handler best practices",https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html
+5,"AWS Well-Architected, Sustainability pillar",https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html
+5,Clean Architecture template (Jason Taylor),https://github.com/jasontaylordev/CleanArchitecture
+5,Domain-Driven Design Quickly (InfoQ e-book),https://www.infoq.com/minibooks/domain-driven-design-quickly/
+5,Feature-Sliced Design,https://feature-sliced.design/
+5,"Fowler, Polyglot Persistence",https://martinfowler.com/bliki/PolyglotPersistence.html
+5,"Fowler, Sacrificial Architecture",https://martinfowler.com/bliki/SacrificialArchitecture.html
+5,"GitHub, creating diagrams",https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams
+5,"Hipple, Unite 2017 sample project",https://github.com/roboryantron/Unite2017
+5,"Hipple, Unite 2017: Game Architecture with Scriptable Objects (talk video)",https://www.youtube.com/watch?v=raQ3iHhE_Kk
+5,"IETF draft, Idempotency-Key header",https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/
+5,"Kubernetes, Recommended labels",https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/
+5,"Roberts, Serverless Architectures",https://martinfowler.com/articles/serverless.html
+5,Serverless Land,https://serverlessland.com/
+5,Tagging best practices,https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html
+5,"Thoughtworks Radar, Lightweight Architecture Decision Records",https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records
+5,Unity ECS samples,https://github.com/Unity-Technologies/EntityComponentSystemSamples
+5,"Unity Manual, Package layout",https://docs.unity3d.com/Manual/cus-layout.html
+5,"Unity Scripting API, GameObject.Find",https://docs.unity3d.com/ScriptReference/GameObject.Find.html
+5,"Unity, ScriptableObject-based enums",https://unity.com/how-to/scriptableobject-based-enums
+5,VContainer,https://vcontainer.hadashikick.jp/
+5,Welcome to DDD,https://github.com/ddd-crew/welcome-to-ddd
+4,adr-tools,https://github.com/npryce/adr-tools
+4,AWS Skill Builder,https://skillbuilder.aws/
+4,AWS Well-Architected Labs,https://www.wellarchitectedlabs.com/
+4,docs-as-co.de,https://docs-as-co.de/
+4,Unity Chop Chop (Open Project 1),https://github.com/UnityTechnologies/open-project-1

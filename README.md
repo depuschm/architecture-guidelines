@@ -4,6 +4,16 @@ Best practices for designing software architectures, plus AI skills that apply t
 
 The repo is **reference-first**. If a good guideline already exists (an official platform guide, a standard, a well-known book or tutorial), we link to it and adopt it. We only write our own short rules where nothing suitable exists, where sources disagree, or where a choice has to be made. Every rule we write links to a source.
 
+Every source and every rule has a **score from 1 to 10**, and lists are sorted by it, so the most important entries come first. The score bands are:
+
+| Score | Sources | Rules |
+| --- | --- | --- |
+| 9–10 | Start here | Strongly recommended |
+| 6–8 | Recommended | Recommended |
+| 1–5 | Further reading | Conditional |
+
+[RANKING.md](RANKING.md) explains the criteria, and [SOURCES.md](SOURCES.md) lists all ~400 sources in one place, ranked.
+
 ## Structure
 
 ```
@@ -11,8 +21,11 @@ general/            Technology-independent guidelines (principles, styles, DDD, 
 specific/<platform> One folder per platform/service (Unity, .NET, Android, Flutter, React, Kubernetes, AWS)
 specific/_template  Starting point for a new platform folder
 skills/             AI skills (Agent Skills format) that apply these guidelines
+RANKING.md          How sources and rules are scored from 1 to 10
+SOURCES.md          Every linked source, ranked (generated from sources.csv)
+sources.csv         The score of every source
 .claude-plugin/     Makes this repo installable as a Claude Code plugin and marketplace
-scripts/            Repository checks (citation rule)
+scripts/            Repository checks (citations, scores) and tooling
 ```
 
 ## General guidelines
@@ -81,7 +94,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 
 1. **Reference first.** Link to an existing guideline before writing a new one.
 2. **Every rule has a source.** Each list item in `general/` and `specific/` must contain a link. CI enforces this with [`scripts/check_citations.py`](scripts/check_citations.py).
-3. **Links must work.** CI runs [lychee](https://lychee.cli.rs/) on every push and once a week.
+3. **Every entry has a score.** Score sources in `sources.csv` and rules inline, following [RANKING.md](RANKING.md). Then run `python3 scripts/rank.py fix` to sort the lists and update SOURCES.md.
+4. **Links must work.** CI runs [lychee](https://lychee.cli.rs/) on every push and once a week.
 
 ## License
 

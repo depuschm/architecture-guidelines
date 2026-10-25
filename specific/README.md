@@ -12,4 +12,4 @@ One folder per platform or service. Each folder adopts the platform's official g
 
 ## Adding a platform
 
-Copy [`_template/`](_template/README.md) to a new lower-case folder and follow [CONTRIBUTING.md](../CONTRIBUTING.md#3-adding-a-platform-folder).
+Copy [`_template/`](_template/README.md) to a new lower-case folder and follow [CONTRIBUTING.md](../CONTRIBUTING.md#4-adding-a-platform-folder).

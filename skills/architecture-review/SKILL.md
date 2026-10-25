@@ -71,17 +71,18 @@ In large repositories, sample representative files instead of reading everything
 
 ## 5. Evaluate
 
-- Report only findings that map to a rule in the loaded guideline files. Quote the rule title as written.
+- Report only findings that map to a rule in the loaded guideline files. Quote the rule title as written, with its score.
+- Rules and sources are sorted by score (1–10, see `<root>/RANKING.md`). Check the highest-scored rules first, and read the highest-scored adopted references first.
 - Copy source links **exactly** from the guideline file. Never invent a rule or a URL.
 - Keep evidence (what the code does) separate from judgement (why it matters).
 - Note what's done well, briefly. It tells the team what to keep.
 - Put observations that no guideline covers in a separate section, marked as opinion.
 
-Severity:
+Severity. Start from the rule's score, then adjust for the actual impact in this codebase:
 
-- **High**: likely to cause incidents, security exposure or data loss, or it blocks planned change.
-- **Medium**: raises the cost of change, or erodes a boundary.
-- **Low**: inconsistency or hygiene.
+- **High** (usually rules scored 9–10): likely to cause incidents, security exposure or data loss, or it blocks planned change.
+- **Medium** (usually 6–8): raises the cost of change, or erodes a boundary.
+- **Low** (usually 1–5): inconsistency or hygiene.
 
 ## 6. Report
 
@@ -98,7 +99,7 @@ Use this structure:
 ### Findings
 | # | Severity | Finding | Evidence | Guideline | Source |
 | --- | --- | --- | --- | --- | --- |
-| 1 | High | <what is wrong and why it matters> | `path/to/file.cs:42` | `general/data.md`: "Give each service or module exclusive ownership of its data" | [microservices.io, Database per service](https://microservices.io/patterns/data/database-per-service.html) |
+| 1 | High | <what is wrong and why it matters> | `path/to/file.cs:42` | `general/data.md` (9): "Give each service or module exclusive ownership of its data" | [microservices.io, Database per service](https://microservices.io/patterns/data/database-per-service.html) |
 
 ### Recommendations
 1. <Concrete next step, linked to finding numbers. For decisions with real trade-offs, suggest an ADR (see the `architecture-decision-record` skill).>

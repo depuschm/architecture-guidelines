@@ -34,21 +34,29 @@ Never add a URL from memory without fetching it.
 ## 4. Write it in the house format
 
 ```markdown
-- **Short imperative rule.** One sentence of explanation. ([Source title](https://…))
+- `8` **Short imperative rule.** One sentence of explanation. ([Source title](https://…))
 ```
 
 Every list item in `general/` and `specific/` needs at least one link. Keep rules to one or two sentences.
 
-## 5. Update the indexes (new files or platforms)
+## 5. Score it
+
+Score every new source and rule from 1 to 10 using the criteria tables in [RANKING.md](../../../RANKING.md). Don't guess: name the criteria behind each score in your summary.
+
+- **Rules**: write the score at the start of the rule, for example `` `8` **Rule.** ``.
+- **Sources**: run `python3 scripts/rank.py fix`. It adds new links to `sources.csv` with an empty score. Fill in the `score` column (and tidy the `title` if the link text was generic), then run `fix` again. It copies the scores into the entries, sorts the lists and regenerates SOURCES.md.
+
+## 6. Update the indexes (new files or platforms)
 
 - `README.md`: the general or specific table.
 - `general/README.md` or `specific/README.md`.
 - For a new platform: the detection table in `skills/architecture-review/SKILL.md`.
 
-## 6. Check
+## 7. Check
 
 ```bash
 python3 scripts/check_citations.py
+python3 scripts/rank.py check
 lychee --config lychee.toml './**/*.md'   # if lychee is installed
 ```
 

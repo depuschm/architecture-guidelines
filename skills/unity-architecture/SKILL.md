@@ -15,7 +15,7 @@ The guidelines root is `${CLAUDE_PLUGIN_ROOT}`. If that placeholder wasn't repla
 - `<root>/specific/unity/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md` and `testing.md`
 - `<root>/general/principles.md`
 
-Cite rules by file and rule title, with the source link copied exactly from the guideline file.
+Cite rules by file, rule title and score, with the source link copied exactly from the guideline file. Rules are sorted by score (1–10, see `<root>/RANKING.md`), so the most important ones come first in each section. Use the score as a severity hint.
 
 ## 1. Understand the project
 

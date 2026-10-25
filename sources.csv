@@ -121,6 +121,7 @@ score,title,url,verified
 8,"Fowler, Yagni",https://martinfowler.com/bliki/Yagni.html,2026-10-24
 8,"Gaffer On Games (Fiedler), Fix Your Timestep!",https://gafferongames.com/post/fix_your_timestep/,2026-10-25
 8,"Gambetta, Fast-Paced Multiplayer: Client-Server Game Architecture",https://www.gabrielgambetta.com/client-server-game-architecture.html,2026-10-25
+8,Game Accessibility Guidelines,https://gameaccessibilityguidelines.com/,2026-10-25
 8,Game Programming Patterns,https://gameprogrammingpatterns.com/contents.html,2026-10-24
 8,"GitHub, OpenID Connect (GitHub Actions)",https://docs.github.com/en/actions/concepts/security/openid-connect,2026-10-25
 8,"GitHub, Script injections",https://docs.github.com/en/actions/concepts/security/script-injections,2026-10-25
@@ -173,6 +174,7 @@ score,title,url,verified
 8,"Microsoft, Dependency injection in ASP.NET Core",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection,2026-10-24
 8,"Microsoft, Safe storage of app secrets",https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets,2026-10-24
 8,"Microsoft, Threat Modeling Tool threats (STRIDE)",https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats,2026-10-24
+8,"Microsoft, Xbox Accessibility Guidelines",https://learn.microsoft.com/en-us/xbox/accessibility/guidelines,2026-10-25
 8,"Next.js, Caching (Cache Components)",https://nextjs.org/docs/app/getting-started/caching,2026-10-25
 8,"Next.js, How to optimize your Next.js application for production (production checklist)",https://nextjs.org/docs/app/guides/production-checklist,2026-10-25
 8,"Next.js, How to use environment variables in Next.js",https://nextjs.org/docs/app/guides/environment-variables,2026-10-25
@@ -335,6 +337,9 @@ score,title,url,verified
 7,"Gambetta, Client-Side Prediction and Server Reconciliation",https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html,2026-10-25
 7,"Gambetta, Entity Interpolation",https://www.gabrielgambetta.com/entity-interpolation.html,2026-10-25
 7,"Gambetta, Lag Compensation",https://www.gabrielgambetta.com/lag-compensation.html,2026-10-25
+7,"Game Accessibility Guidelines, Basic",https://gameaccessibilityguidelines.com/basic/,2026-10-25
+7,"Game Accessibility Guidelines, Why and how",https://gameaccessibilityguidelines.com/why-and-how/,2026-10-25
+7,Git LFS,https://git-lfs.com/,2026-10-25
 7,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests",https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/,2026-10-25
 7,"GitHub, CodeQL query help for GitHub Actions",https://codeql.github.com/codeql-query-help/actions/,2026-10-25
 7,"GitHub, Configuring OpenID Connect in cloud providers",https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers,2026-10-25
@@ -501,12 +506,15 @@ score,title,url,verified
 7,"Unity, How to architect code as your project scales",https://unity.com/how-to/how-architect-code-your-project-scales,2026-10-24
 7,"Unity, ScriptableObject event channels",https://unity.com/how-to/scriptableobjects-event-channels-game-code,2026-10-24
 7,"Unity, Separate game data and logic with ScriptableObjects",https://unity.com/how-to/separate-game-data-logic-scriptable-objects,2026-10-24
+7,"Unreal Engine, One File Per Actor",https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine,2026-10-25
+7,"Unreal Engine, Using Perforce as source control",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine,2026-10-25
 7,Using domain analysis to model microservices,https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis,2026-10-24
 7,"web.dev, Browser-level image lazy loading for the web",https://web.dev/articles/browser-level-image-lazy-loading,2026-10-25
 7,"web.dev, How to choose your Baseline target",https://web.dev/articles/how-to-choose-your-baseline-target,2026-10-25
 7,"web.dev, Learn Accessibility",https://web.dev/learn/accessibility,2026-10-25
 7,"web.dev, Web Vitals",https://web.dev/articles/vitals,2026-10-24
 7,"web.dev, Why lab and field data can be different (and what to do about it)",https://web.dev/articles/lab-and-field-data-differences,2026-10-25
+6,"AbleGamers, Accessible Player Experiences (APX)",https://accessible.games/accessible-player-experiences/,2026-10-25
 6,"actionlint, Checks: Script injection by potentially untrusted inputs",https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs,2026-10-25
 6,"Andrey Sitnik, Size Limit",https://github.com/ai/size-limit,2026-10-25
 6,Architecting Cloud Native .NET Applications for Azure,https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/,2026-10-24
@@ -569,8 +577,10 @@ score,title,url,verified
 6,"Fowler, Test Double",https://martinfowler.com/bliki/TestDouble.html,2026-10-24
 6,"Gaffer On Games (Fiedler), Floating Point Determinism",https://gafferongames.com/post/floating_point_determinism/,2026-10-25
 6,"Gaffer On Games (Fiedler), What every programmer needs to know about game networking",https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/,2026-10-25
+6,"Git LFS wiki, File Locking",https://github.com/git-lfs/git-lfs/wiki/File-Locking,2026-10-25
 6,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input",https://securitylab.github.com/resources/github-actions-untrusted-input/,2026-10-25
 6,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 4: New vulnerability patterns and mitigation strategies",https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/,2026-10-25
+6,"GitHub, About large files on GitHub",https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github,2026-10-25
 6,"GitHub, artifact attestations",https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations,2026-10-25
 6,"GitHub, CodeQL query help: Checkout of untrusted code in a privileged context",https://codeql.github.com/codeql-query-help/actions/actions-untrusted-checkout-critical/,2026-10-25
 6,"GitHub, CodeQL query help: Code injection (actions/code-injection/critical)",https://codeql.github.com/codeql-query-help/actions/actions-code-injection-critical/,2026-10-25

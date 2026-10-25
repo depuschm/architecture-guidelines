@@ -108,6 +108,12 @@ GAMEDEV-11,active,"Keep the last good save until the new one is completely writt
 GAMEDEV-12,active,"Set a frame-time budget for each target platform (33.3 ms at 30 fps, 16.7 ms at 60 fps), and measure against it with a profiler on the target hardware, before and after each optimisation."
 GAMEDEV-13,active,"Pool objects that are created and destroyed often, such as projectiles and particles, instead of allocating and freeing each one."
 GAMEDEV-14,active,Rearrange data for cache locality only where profiling shows that cache misses cost time.
+GAMEDEV-15,active,"Pick version control that handles large binary assets before the project grows: Git with Git LFS, or a system built for binaries such as Perforce."
+GAMEDEV-16,active,"Lock binary assets that can't be merged, such as levels, textures, models and audio, before editing them: mark their types `lockable` in `.gitattributes` with Git LFS, or check them out exclusively in Perforce."
+GAMEDEV-17,active,"Plan accessibility at the design stage: review the Game Accessibility Guidelines before work starts, choose the ones that apply, and schedule early the ones that are costly to add later."
+GAMEDEV-18,active,"Address the four most common complaints first: control remapping, text size, colour blindness and subtitle presentation."
+GAMEDEV-19,active,"Don't convey essential information by colour alone or by sound alone, and give effects, speech and music separate volume controls."
+GAMEDEV-20,active,Use the Xbox Accessibility Guidelines as a test checklist for your game's accessibility features.
 GHA-1,active,"Set the `GITHUB_TOKEN` to read-only at the top of each workflow, and grant write permissions only to the jobs that need them."
 GHA-2,active,"Pin third-party actions and reusable workflows to a full-length commit SHA, or lock them with a workflow dependency lockfile."
 GHA-3,active,"Never expand untrusted input, such as `${{ github.event.pull_request.title }}`, directly in a `run:` script. Pass it through an intermediate environment variable."
@@ -304,6 +310,7 @@ UNREAL-11,active,"Profile early and often on the target hardware, with Unreal In
 UNREAL-12,active,"Register the content you load on demand, such as levels and data assets, as primary assets with the Asset Manager, and use asset bundles to control which secondary assets load with them."
 UNREAL-13,active,"Turn content rules, such as naming conventions and size or performance budgets, into Data Validation rules, and run the `DataValidation` commandlet in CI."
 UNREAL-14,active,"Write automated tests with the Automation Test Framework, use Low-Level Tests for pure unit tests, and run both from the command line in CI."
+UNREAL-15,active,"Keep One File Per Actor on (the default with World Partition), so that several people can change actors in the same level at once."
 WEB-1,active,Target WCAG 2.2 Level AA as the minimum for every page and component.
 WEB-2,active,"Use native HTML elements, such as `button`, `a`, `input` and `select`, before ARIA."
 WEB-3,active,"Run automated accessibility checks in CI, and also test by hand with a keyboard and a screen reader."

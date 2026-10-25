@@ -73,7 +73,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-639 sources.
+649 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -140,6 +140,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Fowler, Yagni](https://martinfowler.com/bliki/Yagni.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 8 | [Gaffer On Games (Fiedler), Fix Your Timestep!](https://gafferongames.com/post/fix_your_timestep/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 8 | [Gambetta, Fast-Paced Multiplayer: Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 8 | [Game Accessibility Guidelines](https://gameaccessibilityguidelines.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 8 | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | [general/reading-list](general/reading-list.md), [specific/gamedev](specific/gamedev/README.md), [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 8 | [GitHub, OpenID Connect (GitHub Actions)](https://docs.github.com/en/actions/concepts/security/openid-connect) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 8 | [GitHub, Script injections](https://docs.github.com/en/actions/concepts/security/script-injections) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -192,6 +193,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Microsoft, Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Threat Modeling Tool threats (STRIDE)](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [Microsoft, Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/xbox/accessibility/guidelines) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 8 | [Next.js, Caching (Cache Components)](https://nextjs.org/docs/app/getting-started/caching) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [Next.js, How to optimize your Next.js application for production (production checklist)](https://nextjs.org/docs/app/guides/production-checklist) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [Next.js, How to use environment variables in Next.js](https://nextjs.org/docs/app/guides/environment-variables) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
@@ -354,6 +356,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Gambetta, Client-Side Prediction and Server Reconciliation](https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Gambetta, Entity Interpolation](https://www.gabrielgambetta.com/entity-interpolation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Gambetta, Lag Compensation](https://www.gabrielgambetta.com/lag-compensation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Game Accessibility Guidelines, Basic](https://gameaccessibilityguidelines.com/basic/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Game Accessibility Guidelines, Why and how](https://gameaccessibilityguidelines.com/why-and-how/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Git LFS](https://git-lfs.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, CodeQL query help for GitHub Actions](https://codeql.github.com/codeql-query-help/actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Configuring OpenID Connect in cloud providers](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -520,12 +525,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, How to architect code as your project scales](https://unity.com/how-to/how-architect-code-your-project-scales) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 7 | [Unity, ScriptableObject event channels](https://unity.com/how-to/scriptableobjects-event-channels-game-code) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 7 | [Unreal Engine, One File Per Actor](https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Unreal Engine, Using Perforce as source control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [web.dev, Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, How to choose your Baseline target](https://web.dev/articles/how-to-choose-your-baseline-target) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Learn Accessibility](https://web.dev/learn/accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Web Vitals](https://web.dev/articles/vitals) | [specific/react](specific/react/README.md), [specific/web](specific/web/README.md) | 2026-10-24 |
 | 7 | [web.dev, Why lab and field data can be different (and what to do about it)](https://web.dev/articles/lab-and-field-data-differences) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [AbleGamers, Accessible Player Experiences (APX)](https://accessible.games/accessible-player-experiences/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -588,8 +596,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Fowler, Test Double](https://martinfowler.com/bliki/TestDouble.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [Gaffer On Games (Fiedler), Floating Point Determinism](https://gafferongames.com/post/floating_point_determinism/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Gaffer On Games (Fiedler), What every programmer needs to know about game networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Git LFS wiki, File Locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/resources/github-actions-untrusted-input/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 4: New vulnerability patterns and mitigation strategies](https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [GitHub, About large files on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [GitHub, artifact attestations](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [GitHub, CodeQL query help: Checkout of untrusted code in a privileged context](https://codeql.github.com/codeql-query-help/actions/actions-untrusted-checkout-critical/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, CodeQL query help: Code injection (actions/code-injection/critical)](https://codeql.github.com/codeql-query-help/actions/actions-code-injection-critical/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |

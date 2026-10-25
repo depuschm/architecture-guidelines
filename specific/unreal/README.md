@@ -42,6 +42,10 @@ Epic doesn't publish a single architecture guide. These official pages are the b
 - `8` `UNREAL-11` **Profile early and often on the target hardware, with Unreal Insights.** The editor is no substitute for the device. ([Introduction to Performance Profiling and Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine), [Unreal Insights](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine))
 - `6` `UNREAL-12` **Register the content you load on demand, such as levels and data assets, as primary assets with the Asset Manager, and use asset bundles to control which secondary assets load with them.** ([Asset Management](https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-management-in-unreal-engine))
 
+### Version control
+
+- `7` `UNREAL-15` **Keep One File Per Actor on (the default with World Partition), so that several people can change actors in the same level at once.** Actor changes are saved to separate files, so the level file doesn't have to be checked out and locked. See [game development: version control](../gamedev/README.md) for choosing Git LFS or Perforce. ([Unreal Engine, One File Per Actor](https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine))
+
 ### Quality
 
 - `7` `UNREAL-13` **Turn content rules, such as naming conventions and size or performance budgets, into Data Validation rules, and run the `DataValidation` commandlet in CI.** ([Data Validation](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-validation-in-unreal-engine))

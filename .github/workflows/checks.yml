@@ -12,7 +12,7 @@ jobs:
     name: Every rule has a source and a score
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: python3 scripts/check_citations.py
       - run: python3 scripts/rank.py check
 
@@ -20,7 +20,7 @@ jobs:
     name: Links resolve
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: lycheeverse/lychee-action@v2
         with:
           args: --config lychee.toml --no-progress './**/*.md'
@@ -32,7 +32,7 @@ jobs:
     name: Sources are alive and fresh
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Detect broken and retired sources
         run: python3 scripts/verify_sources.py
       - name: Report sources not verified in the last year
@@ -49,8 +49,8 @@ jobs:
     name: Plugin manifests are valid
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - run: npm install -g @anthropic-ai/claude-code

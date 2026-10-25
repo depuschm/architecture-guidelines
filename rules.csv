@@ -204,6 +204,21 @@ PRIN-12,active,Expect system structure to mirror communication structure (Conway
 PRIN-13,active,Aim for an architecture where teams can test and deploy independently.
 PRIN-14,active,Shape teams to get the architecture you want (Inverse Conway Maneuver).
 PRIN-15,active,"Draw team boundaries to manage cognitive load, using clear team types and interaction modes."
+PY-1,active,"Run a Python version that still receives fixes, and upgrade before its end-of-life date."
+PY-2,active,"Commit a lock file that pins every direct and transitive dependency, install exactly what it lists in CI and deployments, and audit it for known vulnerabilities in CI."
+PY-3,active,"Install each application's dependencies into its own virtual environment, not into the Python that the operating system manages, and treat the environment as disposable."
+PY-4,active,"Describe the project in `pyproject.toml`, use the src layout, and keep tests in a separate `tests/` directory."
+PY-5,active,"When the domain has real business logic, keep it in plain Python modules that import neither the web framework nor the ORM, and let views, routers, tasks and commands call it through a service layer."
+PY-6,active,"In FastAPI, split path operations into `APIRouter` modules by area, and provide shared resources such as database sessions, settings and the current user through dependencies (`Depends`)."
+PY-7,active,"Validate all external input at runtime where it enters the application, with Pydantic models (as FastAPI does for request bodies) or with Django forms or Django REST framework serializers, and use only the validated data."
+PY-8,active,"Annotate the code with type hints and run a type checker, such as mypy or Pyright, in CI, pinned with the other development dependencies."
+PY-9,active,"In `async` code, don't call blocking I/O or CPU-heavy functions directly: use async libraries, run blocking calls in a thread with `asyncio.to_thread()` (in Django, `sync_to_async()`), and run CPU-heavy work in an executor such as a process pool."
+PY-10,active,"Run concurrent tasks in an `asyncio.TaskGroup`, or keep a reference to every task you start with `asyncio.create_task()` until it finishes."
+PY-11,active,"Write async code only where a service waits on many I/O operations at once, such as long-lived connections or calls fanned out to other services. Otherwise keep it synchronous."
+PY-12,active,"In Django, never enable `DEBUG` in production, load `SECRET_KEY` and other secrets from the environment or a file, and run `manage.py check --deploy` against the production settings."
+PY-13,active,"Load configuration into one typed settings object, such as a `pydantic-settings` `BaseSettings` class, so that missing or malformed values raise a validation error when the settings load."
+PY-14,active,"Never pass untrusted data to `pickle`, `eval()`, `exec()` or `yaml.load()`, or into a shell command with `shell=True`."
+PY-15,active,"Lint and format with Ruff, and run `ruff check` and `ruff format --check` in CI and in a pre-commit hook."
 QA-1,active,"Write quality requirements as concrete, measurable scenarios, not adjectives."
 QA-2,active,Pick the few (three to five) quality goals that drive the design and make the trade-offs between them explicit.
 QA-3,active,Protect key characteristics with automated architectural fitness functions that run in the delivery pipeline.

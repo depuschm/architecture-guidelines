@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-61 sources.
+67 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -22,7 +22,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
+| 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -54,6 +57,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Node.js, Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Node.js, Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Now in Android (reference app)](https://github.com/android/nowinandroid) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 9 | [Nuxt, Documentation (Nuxt 4)](https://nuxt.com/docs/4.x/getting-started/introduction) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 9 | [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [OpenTelemetry documentation](https://opentelemetry.io/docs/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -65,17 +69,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [PyPA, Python Packaging User Guide](https://packaging.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 9 | [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Thinking in React](https://react.dev/learn/thinking-in-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 9 | [Ultimate guide to profiling Unity games (Unity e-book)](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 9 | [Unity Manual, Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 9 | [Vue.js, Style Guide](https://vuejs.org/style-guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [W3C WAI, ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 
 ## Recommended (6–8)
 
-713 sources.
+801 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -206,6 +212,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Node.js, Node.js Releases (release phases and LTS)](https://nodejs.org/en/about/previous-releases) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 8 | [Node.js, Process: Warning: Using 'uncaughtException' correctly](https://nodejs.org/api/process.html#warning-using-uncaughtexception-correctly) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 8 | [Node.js, Security Best Practices: Supply chain attacks](https://nodejs.org/learn/getting-started/security-best-practices#supply-chain-attacks) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 8 | [Nuxt, Data fetching: the need for useFetch and useAsyncData](https://nuxt.com/docs/4.x/getting-started/data-fetching#the-need-for-usefetch-and-useasyncdata) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Nuxt, Rendering modes: hybrid rendering](https://nuxt.com/docs/4.x/guide/concepts/rendering#hybrid-rendering) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Nuxt, Runtime config](https://nuxt.com/docs/4.x/guide/going-further/runtime-config) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Nuxt, State management: best practices](https://nuxt.com/docs/4.x/getting-started/state-management#best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -219,6 +229,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP, Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [Pinia, Introduction](https://pinia.vuejs.org/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [PyPA, Writing your pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python Developer's Guide, Status of Python versions](https://devguide.python.org/versions/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python docs, Developing with asyncio](https://docs.python.org/3/library/asyncio-dev.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -237,6 +248,21 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 8 | [Svelte, $effect: when not to use $effect](https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [Svelte, Best practices: avoid legacy features](https://svelte.dev/docs/svelte/best-practices#Avoid-legacy-features) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [Svelte, Interactive tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Environment variables](https://svelte.dev/docs/kit/environment-variables) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Form actions](https://svelte.dev/docs/kit/form-actions) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Hooks: handle](https://svelte.dev/docs/kit/hooks#handle) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Loading data: implications for authentication](https://svelte.dev/docs/kit/load#Implications-for-authentication) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Loading data: universal vs server, when to use which](https://svelte.dev/docs/kit/load#Universal-vs-server-When-to-use-which) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Page options](https://svelte.dev/docs/kit/page-options) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Performance](https://svelte.dev/docs/kit/performance) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Remote functions: query arguments](https://svelte.dev/docs/kit/remote-functions#query-Query-arguments) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, Server-only modules](https://svelte.dev/docs/kit/server-only-modules) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, State management](https://svelte.dev/docs/kit/state-management) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, State management: avoid shared state on the server](https://svelte.dev/docs/kit/state-management#Avoid-shared-state-on-the-server) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [SvelteKit, State management: no side-effects in load](https://svelte.dev/docs/kit/state-management#No-side-effects-in-load) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Twelve-Factor App, III Config](https://12factor.net/config) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -251,6 +277,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 8 | [Vite, Env variables and modes: env variables](https://vite.dev/guide/env-and-mode#env-variables) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue Router, Guide](https://router.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Composables: conventions and best practices](https://vuejs.org/guide/reusability/composables.html#conventions-and-best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Computed properties: best practices](https://vuejs.org/guide/essentials/computed.html#best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Introduction: which API style to choose](https://vuejs.org/guide/introduction.html#which-to-choose) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Performance: choosing the right architecture](https://vuejs.org/guide/best-practices/performance.html#choosing-the-right-architecture) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Performance: code splitting](https://vuejs.org/guide/best-practices/performance.html#code-splitting) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Props: one-way data flow](https://vuejs.org/guide/components/props.html#one-way-data-flow) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Security](https://vuejs.org/guide/best-practices/security.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Security: Rule No.1, never use non-trusted templates](https://vuejs.org/guide/best-practices/security.html#rule-no-1-never-use-non-trusted-templates) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Server-side rendering: cross-request state pollution](https://vuejs.org/guide/scaling-up/ssr.html#cross-request-state-pollution) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, State management: Pinia](https://vuejs.org/guide/scaling-up/state-management.html#pinia) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Vue.js, Using Vue with TypeScript](https://vuejs.org/guide/typescript/overview.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, Baseline](https://web.dev/baseline) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, Learn Performance](https://web.dev/learn/performance) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -348,6 +387,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Epic Games, Run Automation Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/run-automation-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Understanding the Unreal Engine Gameplay Ability System](https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Unreal Insights in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [eslint-plugin-vue, Available rules](https://eslint.vuejs.org/rules/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [EventStorming](https://www.eventstorming.com/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [FastAPI, Bigger Applications - Multiple Files](https://fastapi.tiangolo.com/tutorial/bigger-applications/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [FastAPI, Concurrency and async / await: Path operation functions](https://fastapi.tiangolo.com/async/#path-operation-functions) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -483,6 +523,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Node.js, Security Best Practices: Denial of Service of HTTP server](https://nodejs.org/learn/getting-started/security-best-practices#denial-of-service-of-http-server-cwe-400) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js, Security Best Practices: Prototype pollution attacks](https://nodejs.org/learn/getting-started/security-best-practices#prototype-pollution-attacks-cwe-1321) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [npm Docs, npm ci](https://docs.npmjs.com/cli/v12/commands/npm-ci/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Nuxt, Data fetching: minimize payload size](https://nuxt.com/docs/4.x/getting-started/data-fetching#minimize-payload-size) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Nuxt, Nuxt and hydration (best practices)](https://nuxt.com/docs/4.x/guide/best-practices/hydration) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Nuxt, Nuxt performance (best practices)](https://nuxt.com/docs/4.x/guide/best-practices/performance) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [OpenGitOps principles](https://opengitops.dev/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -502,6 +545,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules (open copy)](https://wstomv.win.tue.nl/edu/2ip30/references/criteria_for_modularization.pdf) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Percival and Gregory, Architecture Patterns with Python](https://www.cosmicpython.com/book/preface) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Percival and Gregory, Architecture Patterns with Python: Repository Pattern](https://www.cosmicpython.com/book/chapter_02_repository) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Pinia, Why should I use Pinia?](https://pinia.vuejs.org/introduction.html#Why-should-I-use-Pinia-) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs](https://pip.pypa.io/en/stable/topics/secure-installs/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs: Hash-checking mode](https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Production best practices checklist](https://learnkube.com/production-best-practices) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -535,6 +579,25 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Skelton and Pais, Team Topologies (book)](https://teamtopologies.com/book) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [SLSA supply-chain framework](https://slsa.dev/) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [Svelte CLI, sv check](https://svelte.dev/docs/cli/sv-check) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Svelte, Best practices: $props](https://svelte.dev/docs/svelte/best-practices#$props) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Svelte, Best practices: context](https://svelte.dev/docs/svelte/best-practices#Context) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Svelte, Compiler warnings](https://svelte.dev/docs/svelte/compiler-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Svelte, Context: replacing global state](https://svelte.dev/docs/svelte/context#Replacing-global-state) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Svelte, Stores: when to use stores](https://svelte.dev/docs/svelte/stores#When-to-use-stores) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Svelte, TypeScript](https://svelte.dev/docs/svelte/typescript) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Accessibility](https://svelte.dev/docs/kit/accessibility) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Accessibility: route announcements](https://svelte.dev/docs/kit/accessibility#Route-announcements) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Auth: integration points](https://svelte.dev/docs/kit/auth#Integration-points) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Form actions: progressive enhancement](https://svelte.dev/docs/kit/form-actions#Progressive-enhancement) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Form actions: validation errors](https://svelte.dev/docs/kit/form-actions#Anatomy-of-an-action-Validation-errors) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Loading data: making fetch requests](https://svelte.dev/docs/kit/load#Making-fetch-requests) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Migrating to SvelteKit v3](https://svelte.dev/docs/kit/migrating-to-sveltekit-3) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Page options: when not to prerender](https://svelte.dev/docs/kit/page-options#prerender-When-not-to-prerender) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Performance: preventing waterfalls](https://svelte.dev/docs/kit/performance#Navigation-Preventing-waterfalls) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Server-only modules: how it works](https://svelte.dev/docs/kit/server-only-modules#How-it-works) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, Server-only modules: your modules](https://svelte.dev/docs/kit/server-only-modules#Your-modules) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [SvelteKit, State management: component and page state is preserved](https://svelte.dev/docs/kit/state-management#Component-and-page-state-is-preserved) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Team Topologies key concepts](https://teamtopologies.com/key-concepts) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [The Pragmatic Programmer, 20th anniversary edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -571,6 +634,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unreal Engine, Using Perforce as source control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [uv, Structure and files: The lockfile](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Vue language tools, vue-tsc](https://github.com/vuejs/language-tools/blob/master/packages/tsc/README.md) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue Router, Lazy loading routes](https://router.vuejs.org/guide/advanced/lazy-loading.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js Style Guide, Use detailed prop definitions](https://vuejs.org/style-guide/rules-essential.html#use-detailed-prop-definitions) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, <script setup>](https://vuejs.org/api/sfc-script-setup.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Component v-model](https://vuejs.org/guide/components/v-model.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Performance](https://vuejs.org/guide/best-practices/performance.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Security: potential dangers](https://vuejs.org/guide/best-practices/security.html#potential-dangers) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Server-side rendering: hydration mismatch](https://vuejs.org/guide/scaling-up/ssr.html#hydration-mismatch) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Server-side rendering: why SSR?](https://vuejs.org/guide/scaling-up/ssr.html#why-ssr) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Testing: component testing](https://vuejs.org/guide/scaling-up/testing.html#component-testing) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Tutorial](https://vuejs.org/tutorial/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vue.js, Watchers](https://vuejs.org/guide/essentials/watchers.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [web.dev, Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, How to choose your Baseline target](https://web.dev/articles/how-to-choose-your-baseline-target) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Learn Accessibility](https://web.dev/learn/accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -626,6 +701,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-n, no-sync](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-regexp, no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-svelte, Available rules](https://sveltejs.github.io/eslint-plugin-svelte/rules/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-vue, vue/component-api-style](https://eslint.vuejs.org/rules/component-api-style.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-vue, vue/no-async-in-computed-properties](https://eslint.vuejs.org/rules/no-async-in-computed-properties.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-vue, vue/no-mutating-props](https://eslint.vuejs.org/rules/no-mutating-props.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-vue, vue/no-side-effects-in-computed-properties](https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Concurrency and async / await: In a hurry?](https://fastapi.tiangolo.com/async/#in-a-hurry) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Deployments Concepts](https://fastapi.tiangolo.com/deployment/concepts/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Request Body](https://fastapi.tiangolo.com/tutorial/body/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -716,6 +796,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Node.js Best Practices, 7.1 Don't block the event loop](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/performance/block-loop.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 8.2 Bootstrap using node command, avoid npm start](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/bootstrap-using-node.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [npm Docs, npm audit](https://docs.npmjs.com/cli/v12/commands/npm-audit/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Nuxt, nuxt typecheck command](https://nuxt.com/docs/4.x/api/commands/typecheck) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Command](https://gameprogrammingpatterns.com/command.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Nystrom, Component](https://gameprogrammingpatterns.com/component.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Data Locality](https://gameprogrammingpatterns.com/data-locality.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -733,6 +814,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [OWASP, Third Party JavaScript Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Patterns.dev](https://www.patterns.dev/) | [general/reading-list](general/reading-list.md), [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Patterns.dev, Vue patterns](https://www.patterns.dev/vue/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Flask API and Service Layer](https://www.cosmicpython.com/book/chapter_04_service_layer) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Repository and Unit of Work Patterns with Django](https://www.cosmicpython.com/book/appendix_django) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [pip-tools, pip-compile](https://pip-tools.pypa.io/en/stable/reference/pip-compile/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -755,6 +837,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 6 | [Svelte CLI, sv check: --compiler-warnings](https://svelte.dev/docs/cli/sv-check#Options-compiler-warnings-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [Svelte CLI, sv check: --fail-on-warnings](https://svelte.dev/docs/cli/sv-check#Options-fail-on-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [Svelte, svelte/compiler: CompileOptions](https://svelte.dev/docs/svelte/svelte-compiler#CompileOptions) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [Svelte, Testing](https://svelte.dev/docs/svelte/testing) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [SvelteKit, Accessibility: the lang attribute](https://svelte.dev/docs/kit/accessibility#The-lang-attribute) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [SvelteKit, Loading data: using parent data](https://svelte.dev/docs/kit/load#Using-parent-data) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [SvelteKit, Performance: hosting](https://svelte.dev/docs/kit/performance#Hosting) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [SvelteKit, Remote functions (experimental)](https://svelte.dev/docs/kit/remote-functions) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [SvelteKit, Zero-config deployments (adapter-auto)](https://svelte.dev/docs/kit/adapter-auto) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Testing in .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [TFLint, Terraform ruleset rules](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -786,6 +877,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [uv, Working on projects](https://docs.astral.sh/uv/guides/projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 6 | [Vue Test Utils, Guide](https://test-utils.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 6 | [Vue.js, Accessibility: skip link](https://vuejs.org/guide/best-practices/accessibility.html#skip-link) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 6 | [Vue.js, Composition API FAQ](https://vuejs.org/guide/extras/composition-api-faq.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Images](https://web.dev/learn/images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Responsive Design: Responsive images](https://web.dev/learn/design/responsive-images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -795,7 +889,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-107 sources.
+113 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -822,7 +916,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-svelte, svelte/no-unused-svelte-ignore](https://sveltejs.github.io/eslint-plugin-svelte/rules/no-unused-svelte-ignore/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-svelte, svelte/prefer-writable-derived](https://sveltejs.github.io/eslint-plugin-svelte/rules/prefer-writable-derived/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-svelte, svelte/valid-compile](https://sveltejs.github.io/eslint-plugin-svelte/rules/valid-compile/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-testing-library](https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library/) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-vue, vue/define-emits-declaration](https://eslint.vuejs.org/rules/define-emits-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-vue, vue/define-props-declaration](https://eslint.vuejs.org/rules/define-props-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -858,6 +957,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 5 | [mypy, Type hints cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 5 | [Nuxt ESLint, ESLint module](https://eslint.nuxt.com/packages/module) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Pino, Child loggers](https://github.com/pinojs/pino/blob/main/docs/child-loggers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Pino, Redaction](https://github.com/pinojs/pino/blob/main/docs/redaction.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |

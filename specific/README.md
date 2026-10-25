@@ -14,6 +14,8 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Web front end](web/README.md): framework-independent accessibility, performance, security and resilience.
 - [React](react/README.md): web front ends.
 - [Next.js](nextjs/README.md): full-stack React apps with the App Router.
+- [Vue](vue/README.md): Vue 3 apps, with Pinia, Vue Router and Nuxt.
+- [Svelte and SvelteKit](svelte/README.md): Svelte 5 and SvelteKit apps.
 - [Node.js](nodejs/README.md): back-end services in TypeScript.
 - [Python](python/README.md): Python applications and services, including FastAPI and Django.
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.

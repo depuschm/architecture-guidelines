@@ -32,6 +32,17 @@ Scope: back-end services, web APIs, web apps and worker services on modern .NET.
 - `6` `DOTNET-11` **Bind configuration to strongly typed classes with the options pattern.** ([Microsoft, Options pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options))
 - `6` `DOTNET-12` **Follow the EF Core performance guidance for queries and change tracking.** ([Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `7` [Built-in DI scope validation](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview#scope-validation): in the Development environment, the default service provider fails when scoped services are resolved from the root provider or injected into singletons. [Integration tests run in Development by default](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests), so they catch it. Checks `DOTNET-3`.
+- `7` [Nullable warnings as errors](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings): `<WarningsAsErrors>nullable</WarningsAsErrors>` makes nullability warnings fail the build. Set it for every project in [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory). Checks `DOTNET-9`.
+- `7` [CA1849](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849): flags blocking calls inside async methods when an async version exists. It's off by default; enable it, and [build with `-warnaserror`](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) to fail on it. Partly checks `DOTNET-2`.
+- `7` [GitHub secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection): blocks pushes that contain credentials. See [general/security.md](../../general/security.md) for more secret scanners. Checks `DOTNET-1`.
+- `6` [ArchUnitNET](https://archunitnet.readthedocs.io/en/latest/guide/): architecture tests, for example that the core namespace doesn't depend on infrastructure, or that modules are free of cycles. Checks `DOTNET-5` and `DOTNET-10`.
+- `6` [Microsoft.VisualStudio.Threading.Analyzers, VSTHRD002](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) and [VSTHRD103](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html): warn about synchronous waits on tasks, such as `.Wait()`, `.Result` and `.GetAwaiter().GetResult()`. Enable only these rules; others in the package assume Visual Studio extensions. Checks `DOTNET-2`.
+
 ## Tutorials and further reading
 
 - `7` [Aspire](https://aspire.dev/): tooling for building, running and observing distributed .NET apps locally and in the cloud.

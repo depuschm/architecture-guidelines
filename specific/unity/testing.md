@@ -17,3 +17,9 @@ Automated tests for Unity projects and the architecture that makes them possible
 - `8` `UNITY-TEST-2` **Run the tests from the command line in batch mode as part of the build, so CI runs them on every change.** ([Unity Test Framework, Run tests from the command line](https://docs.unity3d.com/Manual/test-framework/run-tests-from-command-line.html), [Unity, How to architect code as your project scales](https://unity.com/how-to/how-architect-code-your-project-scales))
 - `7` `UNITY-TEST-3` **Write plain NUnit `[Test]` tests in Edit Mode for logic that doesn't need Play mode, and use `[UnityTest]` Play Mode tests for runtime behaviour that spans frames or needs a scene.** ([Unity Test Framework, Edit Mode vs. Play Mode tests](https://docs.unity3d.com/Manual/test-framework/edit-mode-vs-play-mode-tests.html))
 - `7` `UNITY-TEST-4` **Put tests in their own test assemblies that reference the assemblies under test.** Test assemblies can't reference `Assembly-CSharp`, so code under test must live in a custom assembly. ([Unity Test Framework, Edit Mode vs. Play Mode tests](https://docs.unity3d.com/Manual/test-framework/edit-mode-vs-play-mode-tests.html), [Unity Manual, Assembly definitions](https://docs.unity3d.com/Manual/assembly-definition-files.html))
+
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `5` [GameCI Unity Test Runner](https://game.ci/docs/github/test-runner/): a GitHub Action that runs a Unity project's Edit Mode and Play Mode tests in CI. Checks `UNITY-TEST-2`.

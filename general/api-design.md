@@ -29,6 +29,16 @@ Pick **one** style guide per organisation and follow it. Don't mix them.
 - `6` `API-9` **Verify compatibility between providers and consumers with consumer-driven contract tests.** ([Robinson, Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html), [Pact](https://docs.pact.io/))
 - `6` `API-10` **For gRPC and Protocol Buffers, follow the official dos and don'ts on field numbering and evolution.** ([Protocol Buffers, dos and don'ts](https://protobuf.dev/best-practices/dos-donts/), [gRPC guides](https://grpc.io/docs/guides/))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `7` [buf breaking](https://buf.build/docs/breaking/): compares Protobuf schemas with a previous version in CI and reports breaking changes, including [deleted fields whose numbers weren't reserved](https://buf.build/docs/breaking/rules/). Checks `API-2` and `API-10`.
+- `7` [Google API Linter](https://linter.aip.dev/): lints Protobuf-defined APIs against the AIPs, for example [`page_size` on List methods](https://linter.aip.dev/158/request-page-size-field) and [Get support for every resource](https://linter.aip.dev/121/resource-must-support-get). Checks `API-6`, and partly `API-5`.
+- `7` [Pact can-i-deploy](https://docs.pact.io/pact_broker/can_i_deploy): blocks a deployment unless contract tests show the new version is compatible with the versions already deployed. Checks `API-9`.
+- `6` [oasdiff, breaking changes](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md): reports breaking changes between two OpenAPI versions, and fails CI with `--fail-on ERR`. Checks `API-2`.
+- `6` [Spectral OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md): lints OpenAPI documents in CI. The built-in ruleset checks basics, such as at least one 2xx or 3xx response per operation, and custom rulesets can encode your chosen style guide. Partly checks `API-3`.
+
 ## Tutorials and further reading
 
 - `6` [GraphQL best practices](https://graphql.org/learn/best-practices/).

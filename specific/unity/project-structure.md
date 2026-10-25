@@ -34,3 +34,11 @@ Folders, assemblies, packages and version control.
 ### Iteration speed
 
 - `5` `UNITY-STRUCT-10` **Enter Play mode without domain reload for faster iteration.** This is the default and Unity's recommendation from Unity 6.6. In 6.0–6.5, choose *Reload Scene only*. Reset static state yourself, because static fields and static event subscribers keep their values between Play mode sessions. ([Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html), [Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html))
+
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `7` [Unity compiler with assembly definitions](https://docs.unity3d.com/Manual/assembly-definitions-referencing.html): code can only use assemblies its assembly definition references, and cyclic references aren't allowed, so wrong-way dependencies fail to compile. Checks `UNITY-STRUCT-4` and `UNITY-STRUCT-5`.
+- `7` [dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format): checks code against `.editorconfig`, and with `--verify-no-changes` it fails CI when formatting differs. Without generated project files it can only check whitespace (`dotnet format whitespace --folder`). Checks `UNITY-STRUCT-3`.
+- `7` [Unity Project Auditor, domain reloading issues](https://docs.unity3d.com/Manual/project-auditor/domain-reloading-issues.html): a Roslyn analyzer that finds static fields that keep their value between Play mode runs. Turn on *Use Roslyn Analyzers* first, and [run it from the command line](https://docs.unity3d.com/Manual/project-auditor/run-from-command-line.html) in CI. Partly checks `UNITY-STRUCT-10`.

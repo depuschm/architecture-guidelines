@@ -60,7 +60,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-334 sources.
+365 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -181,6 +181,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Anthropic, Writing effective tools for agents](https://www.anthropic.com/research/writing-tools-for-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [arc42, section 1: quality goals](https://docs.arc42.org/section-1/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [ArchUnit](https://www.archunit.org/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [ArchUnit user guide](https://www.archunit.org/userguide/html/000_Index.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Aspire (.NET)](https://aspire.dev/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [AsyncAPI Specification](https://www.asyncapi.com/docs/reference/specification/latest) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [AWS Builders' Library, Avoiding fallback in distributed systems](https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -205,6 +206,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Azure, Saga pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/saga) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Azure, Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Azure: RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 7 | [buf breaking (Protobuf breaking-change detection)](https://buf.build/docs/breaking/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 7 | [Building Microservices and Monolith to Microservices](https://samnewman.io/books/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Building Microservices, 2nd edition](https://samnewman.io/books/building_microservices_2nd_edition/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Bulletproof React](https://github.com/alan2207/bulletproof-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -239,7 +241,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Fowler, Value Object](https://martinfowler.com/bliki/ValueObject.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Fowler, Who Needs an Architect?](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Framework Design Guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [GitHub, secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection) | [general/security](general/security.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [github/gitignore, Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Google API Linter](https://linter.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [Helm chart best practices](https://helm.sh/docs/chart_best_practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -252,6 +256,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Martin, The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Martin, The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Microsoft, C# compiler options for errors and warnings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 7 | [Microsoft, CA1849: call async methods when in an async method](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 7 | [Microsoft, DI scope validation](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview#scope-validation) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 7 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 7 | [Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -269,6 +277,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP Microservices Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Secure Product Design Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Pact](https://docs.pact.io/) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [Pact, can-i-deploy](https://docs.pact.io/pact_broker/can_i_deploy) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules](https://doi.org/10.1145/361598.361623) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules (open copy)](https://wstomv.win.tue.nl/edu/2ip30/references/criteria_for_modularization.pdf) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Production best practices checklist](https://learnkube.com/production-best-practices) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -301,11 +310,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Manual, Comparison of UI systems](https://docs.unity3d.com/Manual/UI-system-compare.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Unity Manual, Install and use an existing analyzer](https://docs.unity3d.com/Manual/install-existing-analyzer.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 7 | [Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Referencing assemblies](https://docs.unity3d.com/Manual/assembly-definitions-referencing.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Special folder names](https://docs.unity3d.com/Manual/SpecialFolders.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Version control](https://docs.unity3d.com/Manual/VersionControl.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Unity Project Auditor, Code view reference](https://docs.unity3d.com/Manual/project-auditor/code-view-reference.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 7 | [Unity Project Auditor, domain reloading issues](https://docs.unity3d.com/Manual/project-auditor/domain-reloading-issues.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 7 | [Unity Scripting API, ObjectPool](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Test Framework, Edit Mode vs. Play Mode tests](https://docs.unity3d.com/Manual/test-framework/edit-mode-vs-play-mode-tests.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 7 | [Unity Test Framework, Run tests from the command line](https://docs.unity3d.com/Manual/test-framework/run-tests-from-command-line.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
@@ -321,15 +333,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision records overview](https://docs.cloud.google.com/architecture/architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [ArchUnitNET](https://github.com/TNG/ArchUnitNET) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 6 | [ArchUnitNET guide](https://archunitnet.readthedocs.io/en/latest/guide/) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [AWS multi-Region fundamentals](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [AWS Prescriptive Guidance, ADR best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [AWS Well-Architected, Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Azure Architecture Center: AI and machine learning](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 6 | [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 6 | [buf breaking, rules and categories](https://buf.build/docs/breaking/rules/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
+| 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 6 | [Designing robust and predictable APIs with idempotency](https://stripe.com/blog/idempotency) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Diátaxis, The map](https://diataxis.fr/map/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -346,30 +362,41 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Fowler, Patterns of Enterprise Application Architecture (book)](https://martinfowler.com/books/eaa.html) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Fowler, Team Topologies](https://martinfowler.com/bliki/TeamTopologies.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Fowler, Test Double](https://martinfowler.com/bliki/TestDouble.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 6 | [GitHub, artifact attestations](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [GitHub, Dependabot version updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-version-updates) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [gRPC guides](https://grpc.io/docs/guides/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Konsist, architecture assertions](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 6 | [Kubernetes RBAC, service account permissions](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#service-account-permissions) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Autoscaling workloads](https://kubernetes.io/docs/concepts/workloads/autoscaling/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Multi-tenancy](https://kubernetes.io/docs/concepts/security/multi-tenancy/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Service accounts](https://kubernetes.io/docs/concepts/security/service-accounts/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 6 | [Microsoft, .NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Nystrom, Command](https://gameprogrammingpatterns.com/command.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [oasdiff, breaking changes (OpenAPI)](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard](https://scorecard.dev/) | [general/security](general/security.md) | 2026-10-24 |
+| 6 | [OpenSSF Scorecard, checks](https://github.com/ossf/scorecard/blob/main/docs/checks.md) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Patterns.dev](https://www.patterns.dev/) | [general/reading-list](general/reading-list.md), [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 6 | [Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Refactoring.Guru: design patterns](https://refactoring.guru/design-patterns) | [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Testing in .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -383,6 +410,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity Learn, Object pooling](https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-object-pooling-to-boost-performance-of-c-scripts-in-unity) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 6 | [Unity Learn, Observer pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/create-modular-and-maintainable-code-with-the-observer-pattern) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Learn, State pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/develop-a-modular-flexible-codebase-with-the-state-programming-pattern) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Unity Manual, Analyzer scope and diagnostics](https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Unity Manual, Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Editor settings](https://docs.unity3d.com/Manual/class-EditorManager.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -392,16 +420,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity Multiplayer Center](https://docs.unity3d.com/Packages/com.unity.multiplayer.center@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Netcode for GameObjects](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity PaddleGameSO (ScriptableObjects demo)](https://github.com/UnityTechnologies/PaddleGameSO) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
+| 6 | [Unity Performance Testing package](https://docs.unity3d.com/Packages/com.unity.test-framework.performance@latest/) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 6 | [Unity Project Auditor, run from the command line](https://docs.unity3d.com/Manual/project-auditor/run-from-command-line.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 6 | [Unity, Advanced programming and code architecture](https://unity.com/how-to/advanced-programming-and-code-architecture) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 6 | [Unity, How to run automated tests with the Unity Test Framework](https://unity.com/how-to/automated-tests-unity-test-framework) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Unity, Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity, UI Toolkit for advanced Unity developers](https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
+| 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 
 ## Further reading (1–5)
 
-30 sources.
+36 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -411,15 +442,20 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [AWS Lambda, Python handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
+| 5 | [GameCI, Unity Test Runner](https://game.ci/docs/github/test-runner/) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-25 |
 | 5 | [GitHub, creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Hipple, Unite 2017 sample project](https://github.com/roboryantron/Unite2017) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [Hipple, Unite 2017: Game Architecture with Scriptable Objects (talk video)](https://www.youtube.com/watch?v=raQ3iHhE_Kk) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [IETF draft, Idempotency-Key header](https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 5 | [Kubernetes, Recommended labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Roberts, Serverless Architectures](https://martinfowler.com/articles/serverless.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -429,6 +465,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [VContainer](https://vcontainer.hadashikick.jp/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Welcome to DDD](https://github.com/ddd-crew/welcome-to-ddd) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 4 | [adr-tools](https://github.com/npryce/adr-tools) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 4 | [AWS Skill Builder](https://skillbuilder.aws/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |

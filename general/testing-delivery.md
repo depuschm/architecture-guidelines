@@ -23,6 +23,17 @@ Test strategies that support the architecture, and delivery practices that keep 
 - `6` `TEST-6` **Decouple deployment from release with feature toggles, and remove toggles once they've served their purpose.** ([Hodgson, Feature Toggles](https://martinfowler.com/articles/feature-toggles.html))
 - `6` `TEST-7` **Measure software delivery throughput and instability with the DORA metrics, and use them to improve, not to compare teams.** ([DORA metrics guide](https://dora.dev/guides/dora-metrics/))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `7` [ArchUnit](https://www.archunit.org/userguide/html/000_Index.html) (Java): layer, dependency and cycle checks as unit tests. Checks `TEST-4`.
+- `7` [Pact can-i-deploy](https://docs.pact.io/pact_broker/can_i_deploy): blocks a deployment unless contract tests show it's compatible with what's deployed. Checks `TEST-5`.
+- `6` [ArchUnitNET](https://archunitnet.readthedocs.io/en/latest/guide/) (.NET): namespace dependency, layer and cycle rules as unit tests. Checks `TEST-4`.
+- `6` [Konsist](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert) (Kotlin): `assertArchitecture` verifies that layers depend only on the layers they're allowed to. Checks `TEST-4`.
+- `6` [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) (JavaScript and TypeScript): validates module dependencies against your rules, and fails CI on violations. Checks `TEST-4`.
+- `6` [Import Linter](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) (Python): layers contracts let higher layers depend on lower ones, but not the other way around. Checks `TEST-4`.
+
 ## Tutorials and further reading
 
 - `7` [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html).

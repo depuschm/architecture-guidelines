@@ -27,6 +27,17 @@ Design security in from the start rather than adding it at the end.
 - `7` `SEC-8` **Protect the software supply chain with build provenance and continuous dependency health checks.** ([SLSA](https://slsa.dev/), [OpenSSF Scorecard](https://scorecard.dev/))
 - `6` `SEC-9` **Use STRIDE to enumerate threats per component, data flow and trust boundary.** ([Microsoft, Threat Modeling Tool threats (STRIDE)](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats), [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `7` [GitHub secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection): blocks pushes that contain hardcoded credentials before they reach the repository. Checks `SEC-2`.
+- `6` [Gitleaks](https://github.com/gitleaks/gitleaks): detects passwords, API keys and tokens in git repositories and files, as a pre-commit hook or GitHub Action. Checks `SEC-2`.
+- `6` [OpenSSF Scorecard checks](https://github.com/ossf/scorecard/blob/main/docs/checks.md): run as a GitHub Action; they score dependency-update tooling, known vulnerabilities, and signed releases with SLSA provenance. Partly checks `SEC-8`.
+- `6` [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts) and [version updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-version-updates): alert on vulnerable dependencies and keep them up to date. Partly checks `SEC-8`.
+- `6` [GitHub artifact attestations](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations): signed build provenance for your artifacts, verifiable with `gh attestation verify`. Partly checks `SEC-8`.
+- `6` [CodeQL, clear-text logging of sensitive data](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) ([JavaScript](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/)): code-scanning queries that flag sensitive data written to logs. Partly checks `SEC-4`.
+
 ## Tutorials and further reading
 
 - `9` [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/): see also [AI systems](ai-systems.md).

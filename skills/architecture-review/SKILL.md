@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, Node.js, Python, .NET, Android, Flutter, Docker, Kubernetes, AWS, Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, Node.js, Python, .NET, PostgreSQL, Android, Flutter, Docker, Kubernetes, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -41,11 +41,13 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Node.js | `package.json` for a server: dependencies such as `express`, `fastify`, `@nestjs/core` or `hono`, or a `start` script that runs `node` | `specific/nodejs/` |
 | Python | `pyproject.toml`, `requirements*.txt`, `uv.lock`, `setup.py`, or Django's `manage.py` | `specific/python/` |
 | .NET | `*.sln`, `*.slnx`, `*.csproj` (outside a Unity project) | `specific/dotnet/` |
+| PostgreSQL | SQL migrations for PostgreSQL, `postgres://` or `postgresql://` connection strings, a PostgreSQL driver (`pg`, `psycopg`, `asyncpg`, `Npgsql`), or a `postgres` service in a Compose file | `specific/postgres/` |
 | Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |
 | Flutter | `pubspec.yaml` that depends on the `flutter` SDK | `specific/flutter/` |
 | Docker | `Dockerfile` or `Containerfile`, `compose.yaml` or `docker-compose.yml`, `.dockerignore` | `specific/docker/` |
 | Kubernetes | YAML files with `apiVersion:` and `kind:`, `Chart.yaml`, `kustomization.yaml` | `specific/kubernetes/` |
 | AWS | `cdk.json`, CloudFormation/SAM templates with `AWS::` types, Terraform `provider "aws"` | `specific/aws/` |
+| Serverless and edge hosting | `vercel.json`, `netlify.toml`, or `wrangler.toml`, `wrangler.json` or `wrangler.jsonc` | `specific/web-hosting/` |
 | Terraform or OpenTofu | `*.tf` or `*.tofu` files, `.terraform.lock.hcl` | `specific/terraform/` |
 | GitHub Actions | `.github/workflows/*.yml`, `action.yml` | `specific/github-actions/` |
 

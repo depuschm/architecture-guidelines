@@ -20,6 +20,10 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Python](python/README.md): Python applications and services, including FastAPI and Django.
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.
 
+### Data
+
+- [PostgreSQL](postgres/README.md): schema design, indexing, migrations, pooling, backups and access for PostgreSQL.
+
 ### Mobile
 
 - [Android](android/README.md): native Android apps.
@@ -30,6 +34,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Docker](docker/README.md): container images, container security and Docker Compose.
 - [Kubernetes](kubernetes/README.md): running workloads on Kubernetes.
 - [AWS](aws/README.md): workloads on Amazon Web Services.
+- [Serverless and edge hosting](web-hosting/README.md): deploying web apps and APIs to Vercel, Netlify and Cloudflare.
 - [Terraform](terraform/README.md): infrastructure as code with Terraform or OpenTofu.
 - [GitHub Actions](github-actions/README.md): CI/CD and automation workflows.
 

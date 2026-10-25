@@ -157,6 +157,19 @@ GODOT-11,active,"Move objects and run game logic in `_physics_process`, and turn
 GODOT-12,active,Model designer-edited game data as custom Resource classes saved as `.tres` files.
 GODOT-13,active,"Write saves and settings to `user://`, and don't decode objects (`allow_objects`) from files that players can edit or share."
 GODOT-14,active,"Write automated tests with GUT or gdUnit4, and run them headless in CI on every change."
+HOST-1,active,"Run code that queries a regional database or API in the same region as that backend, and keep edge execution for work that doesn't need it, such as redirects, rewrites, headers and geolocation."
+HOST-2,active,"Start new projects on each platform's recommended compute: the Node.js runtime on Vercel, and Workers with static assets on Cloudflare."
+HOST-3,active,"Keep each request well within the platform's duration, CPU, memory and payload limits, and move long or retryable work to background functions, queues or workflows."
+HOST-4,active,"Keep request and user data out of module-level variables and the local file system, and keep durable state in managed storage, such as a database, key-value store or blob store."
+HOST-5,active,"Connect to relational databases through connection pooling built for the platform: Hyperdrive on Cloudflare Workers, and on Vercel a pool created once per instance and registered with `attachDatabasePool`."
+HOST-6,active,"Set CDN caching deliberately on function responses: a shared-cache lifetime with `s-maxage` or `CDN-Cache-Control`, `stale-while-revalidate` where slightly stale content is acceptable, and `private` or `no-store` on per-user responses."
+HOST-7,active,"Tag cached responses with cache tags, and purge or invalidate them by tag when the underlying content changes."
+HOST-8,active,"Store credentials only as the platform's secret variables: Vercel Secret environment variables, Netlify variables marked as containing secret values, and Cloudflare secrets. Never put them in plain variables or in `vercel.json`, `netlify.toml` or Wrangler files."
+HOST-9,active,"Give production its own secrets and data stores, and don't let preview or development deployments use them."
+HOST-10,active,"Keep platform configuration in files in the repository, such as `vercel.json`, `netlify.toml` or the Wrangler configuration, and treat them as the source of truth instead of changing settings in the dashboard."
+HOST-11,active,"Keep preview deployments private: check that Vercel Deployment Protection or Netlify's private previews cover them, and put Cloudflare Access in front of Workers previews and Pages preview deployments, which are public by default."
+HOST-12,active,"Recover from a bad release by rolling back to the previous production deployment, and keep data and schema changes backward compatible so that the previous version still works."
+HOST-13,active,"Send logs and traces to an external observability service with a log drain or OpenTelemetry export, because the platforms keep runtime logs only for hours or days."
 K8S-1,active,"Give every container CPU and memory requests and a memory limit. Set CPU limits only where needed, for example on sensitive workloads."
 K8S-2,active,"Configure readiness, liveness and startup probes for their distinct purposes."
 K8S-3,active,Handle `SIGTERM` and shut down gracefully within the termination grace period.
@@ -205,6 +218,22 @@ OPS-9,active,"Keep config in the environment, treat backing services as attached
 OPS-10,active,Expose health endpoints that load balancers and orchestrators can probe.
 OPS-11,active,"Instrument with OpenTelemetry and follow its semantic conventions, so telemetry is portable and correlated."
 OPS-12,active,Run blameless postmortems and track their action items.
+PG-1,active,"Declare integrity rules as constraints in the database: a primary key on every table, `NOT NULL` on most columns, and foreign key, unique and check constraints where the data needs them."
+PG-2,active,"Store points in time as `timestamptz`, not `timestamp`."
+PG-3,active,"Generate keys with identity columns, such as `id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY`, instead of `serial`."
+PG-4,active,"Use `text` for strings, rather than `char(n)` or a `varchar(n)` with an arbitrary limit."
+PG-5,active,"Add indexes for the queries the application actually runs: find the costly ones with `pg_stat_statements`, check their plans with `EXPLAIN ANALYZE` on realistic data, and drop indexes that are never used."
+PG-6,active,Create and drop indexes on tables in use with `CREATE INDEX CONCURRENTLY` and `DROP INDEX CONCURRENTLY`.
+PG-7,active,"Set a short `lock_timeout` at the start of each migration, and retry the migration when it times out."
+PG-8,active,"Add foreign key and check constraints to existing tables as `NOT VALID`, then run `VALIDATE CONSTRAINT` in a separate transaction."
+PG-9,active,"Put a connection pooler such as PgBouncer between the database and large numbers of clients, such as many app instances or serverless functions, instead of raising `max_connections`."
+PG-10,active,"Keep transactions short, set `idle_in_transaction_session_timeout` to end abandoned ones, and leave autovacuum on."
+PG-11,active,"Test restores regularly, and check that the restored database works and contains the correct data."
+PG-12,active,"Back up production databases with continuous archiving, base backups plus archived WAL, so that you can restore to any point in time, not only to the last dump."
+PG-13,active,"Connect the application as a role that isn't a superuser and doesn't own the tables, and grant it only the privileges it needs; run migrations as a separate owner role."
+PG-14,active,"Use `scram-sha-256` password authentication over TLS, and have clients verify the server with `sslmode=verify-full`."
+PG-15,active,"When tenants share tables, isolate their rows with row security policies, and make sure the application role isn't the table owner or use `FORCE ROW LEVEL SECURITY`."
+PG-16,active,"Run a supported major version, apply each minor release soon after it ships, and upgrade to a newer major version before the current one reaches end of life."
 PRIN-1,active,Spend architecture effort on the decisions that are hard to change.
 PRIN-2,active,"Treat internal quality as a speed investment, not a cost."
 PRIN-3,active,Reduce irreversibility where you can.

@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-73 sources.
+74 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -22,6 +22,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 10 | [NIST, SP 800-63B-4, Authentication and Authenticator Management](https://pages.nist.gov/800-63-4/sp800-63b.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
+| 10 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -87,7 +88,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-888 sources.
+986 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -112,6 +113,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Azure: microservices architecture style](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [C4 model, diagrams](https://c4model.com/diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 8 | [Cloudflare, Workers Best Practices](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 8 | [Cloudflare, Workers Best Practices: Do not store request-scoped state in global scope](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/#do-not-store-request-scoped-state-in-global-scope) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 8 | [Cockburn, Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [Compass sample app](https://github.com/flutter/samples/tree/main/compass_app) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 8 | [Create a C# style guide (Unity e-book, Unity 6 edition)](https://unity.com/resources/c-sharp-style-guide-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -255,6 +258,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP, Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Pinia, Introduction](https://pinia.vuejs.org/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL wiki, Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, ALTER TABLE: Notes](https://www.postgresql.org/docs/current/sql-altertable.html#SQL-ALTERTABLE-NOTES) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, Backup and Restore](https://www.postgresql.org/docs/current/backup.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, Constraints](https://www.postgresql.org/docs/current/ddl-constraints.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, Continuous Archiving and Point-in-Time Recovery (PITR)](https://www.postgresql.org/docs/current/continuous-archiving.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, CREATE INDEX: Building Indexes Concurrently](https://www.postgresql.org/docs/current/sql-createindex.html#SQL-CREATEINDEX-CONCURRENTLY) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, Examining Index Usage](https://www.postgresql.org/docs/current/indexes-examine.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, Password Authentication](https://www.postgresql.org/docs/current/auth-password.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [PostgreSQL, Versioning Policy](https://www.postgresql.org/support/versioning/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 8 | [PyPA, Writing your pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python Developer's Guide, Status of Python versions](https://devguide.python.org/versions/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python docs, Developing with asyncio](https://docs.python.org/3/library/asyncio-dev.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -305,6 +317,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework course](https://docs.unity3d.com/Manual/test-framework/course/overview.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 8 | [Vercel, Production checklist for launch](https://vercel.com/docs/production-checklist) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Vite, Env variables and modes: env variables](https://vite.dev/guide/env-and-mode#env-variables) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue Router, Guide](https://router.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -382,6 +395,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [CIS Docker Benchmark](https://www.cisecurity.org/benchmark/docker) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [CISA Secure by Design](https://www.cisa.gov/securebydesign) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Clemson, Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [Cloudflare, Origin Cache Control](https://developers.cloudflare.com/cache/concepts/cache-control/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Placement](https://developers.cloudflare.com/workers/configuration/placement/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Previews: access control](https://developers.cloudflare.com/workers/previews/#access-control) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Previews: resources and isolation](https://developers.cloudflare.com/workers/previews/resources/#binding-reference) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Rollbacks](https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Secrets](https://developers.cloudflare.com/workers/configuration/secrets/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Workers Best Practices: Store secrets with wrangler secret, not in source](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/#store-secrets-with-wrangler-secret-not-in-source) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Workers Best Practices: Use Hyperdrive for external database connections](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/#use-hyperdrive-for-external-database-connections) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Workers Best Practices: Use Queues and Workflows for async and background work](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/#use-queues-and-workflows-for-async-and-background-work) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Workers Best Practices: Use Workers Static Assets for new projects](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/#use-workers-static-assets-for-new-projects) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Workers Cache](https://developers.cloudflare.com/workers/cache/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Cloudflare, Workers limits](https://developers.cloudflare.com/workers/platform/limits/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) | [general/releases](general/releases.md) | 2026-10-25 |
@@ -521,6 +546,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Kubernetes, Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Pod lifecycle: termination](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) | [specific/kubernetes](specific/kubernetes/README.md), [specific/nodejs](specific/nodejs/README.md) | 2026-10-24 |
 | 7 | [Mario Casciaro and Luciano Mammino, Node.js Design Patterns (4th edition)](https://nodejsdesignpatterns.com/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Markus Winand, Use The Index, Luke](https://use-the-index-luke.com/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [Martin, The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Martin, The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [MDN Learn, Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -541,6 +567,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [mypy, The mypy command line: --strict](https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [mypy, Using mypy with an existing codebase](https://mypy.readthedocs.io/en/stable/existing_code.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [NCSC secure design principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles) | [general/security](general/security.md) | 2026-10-24 |
+| 7 | [Netlify, Caching overview](https://docs.netlify.com/build/caching/caching-overview/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Caching overview: purge by cache tag](https://docs.netlify.com/build/caching/caching-overview/#purge-by-cache-tag) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Caching overview: supported cache control headers](https://docs.netlify.com/build/caching/caching-overview/#supported-cache-control-headers) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Configuration for functions: default values](https://docs.netlify.com/build/functions/configuration/#default-values) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Configuration for functions: when to set a region](https://docs.netlify.com/build/functions/configuration/#when-to-set-a-region) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Environment variables overview: value per deploy context](https://docs.netlify.com/build/environment-variables/overview/#value-per-deploy-context) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Functions overview](https://docs.netlify.com/build/functions/overview/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Manage deploys: rollbacks](https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview/#rollbacks) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Project visibility: private previews](https://docs.netlify.com/manage/security/secure-access-to-sites/project-visibility/#private-previews) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Netlify, Secrets Controller: environment variable secrets policy](https://docs.netlify.com/build/environment-variables/secrets-controller/#environment-variable-secrets-policy) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Next.js, Error Handling](https://nextjs.org/docs/app/getting-started/error-handling) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [Next.js, ESLint plugin (eslint-config-next)](https://nextjs.org/docs/app/api-reference/config/eslint) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 7 | [Next.js, Fetching Data: Parallel data fetching](https://nextjs.org/docs/app/getting-started/fetching-data#parallel-data-fetching) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
@@ -602,9 +638,35 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules (open copy)](https://wstomv.win.tue.nl/edu/2ip30/references/criteria_for_modularization.pdf) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Percival and Gregory, Architecture Patterns with Python](https://www.cosmicpython.com/book/preface) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Percival and Gregory, Architecture Patterns with Python: Repository Pattern](https://www.cosmicpython.com/book/chapter_02_repository) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [PgBouncer, Features](https://www.pgbouncer.org/features.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PgBouncer, SQL feature map for pooling modes](https://www.pgbouncer.org/features.html#sql-feature-map-for-pooling-modes) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [Pinia, Why should I use Pinia?](https://pinia.vuejs.org/introduction.html#Why-should-I-use-Pinia-) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs](https://pip.pypa.io/en/stable/topics/secure-installs/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs: Hash-checking mode](https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL wiki, Don't Do This: Don't use char(n)](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_char.28n.29) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL wiki, Don't Do This: Don't use serial](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_serial) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL wiki, Don't Do This: Don't use timestamp (without time zone)](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_timestamp_.28without_time_zone.29) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL wiki, Don't Do This: Don't use trust authentication over TCP/IP](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_trust_authentication_over_TCP.2FIP_.28host.2C_hostssl.29) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL wiki, Don't Do This: Don't use varchar(n) by default](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_varchar.28n.29_by_default) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Character Types](https://www.postgresql.org/docs/current/datatype-character.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Constraints: Foreign Keys](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Date/Time Types: Time Stamps](https://www.postgresql.org/docs/current/datatype-datetime.html#DATATYPE-DATETIME-INPUT-TIME-STAMPS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, DROP INDEX](https://www.postgresql.org/docs/current/sql-dropindex.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Explicit Locking: Table-Level Locks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-TABLES) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Identity Columns](https://www.postgresql.org/docs/current/ddl-identity-columns.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, idle_in_transaction_session_timeout](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-IDLE-IN-TRANSACTION-SESSION-TIMEOUT) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Indexes: Introduction](https://www.postgresql.org/docs/current/indexes-intro.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, libpq SSL Support](https://www.postgresql.org/docs/current/libpq-ssl.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, lock_timeout](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-LOCK-TIMEOUT) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Performance Tips](https://www.postgresql.org/docs/current/performance-tips.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, pg_stat_statements](https://www.postgresql.org/docs/current/pgstatstatements.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, pg_upgrade](https://www.postgresql.org/docs/current/pgupgrade.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, pg_verifybackup](https://www.postgresql.org/docs/current/app-pgverifybackup.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Privileges](https://www.postgresql.org/docs/current/ddl-priv.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Role Attributes](https://www.postgresql.org/docs/current/role-attributes.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Routine Vacuuming: Recovering Disk Space](https://www.postgresql.org/docs/current/routine-vacuuming.html#VACUUM-FOR-SPACE-RECOVERY) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Row Security Policies](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [PostgreSQL, Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [Potvin and Levenberg, Why Google Stores Billions of Lines of Code in a Single Repository (CACM, 2016)](https://research.google/pubs/why-google-stores-billions-of-lines-of-code-in-a-single-repository/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Production best practices checklist](https://learnkube.com/production-best-practices) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Protocol Buffers, dos and don'ts](https://protobuf.dev/best-practices/dos-donts/) | [general/api-design](general/api-design.md) | 2026-10-24 |
@@ -696,6 +758,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unreal Engine, Using Perforce as source control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [uv, Structure and files: The lockfile](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Vercel, Cache-Control headers](https://vercel.com/docs/caching/cache-control-headers) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Config and Secret environment variables](https://vercel.com/docs/environment-variables/sensitive-environment-variables) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Config and Secret environment variables: environment variables policy](https://vercel.com/docs/environment-variables/sensitive-environment-variables#environment-variables-policy) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Configuring regions for Vercel Functions](https://vercel.com/docs/functions/configuring-functions/region) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Deployment Protection: Standard Protection](https://vercel.com/docs/deployment-protection#standard-protection) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Edge Runtime](https://vercel.com/docs/functions/runtimes/edge) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Environment variables: environments](https://vercel.com/docs/environment-variables#environments) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Fluid compute: isolation boundaries and global state](https://vercel.com/docs/fluid-compute#isolation-boundaries-and-global-state) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Performing an Instant Rollback on a Deployment](https://vercel.com/docs/instant-rollback) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Purging Vercel CDN Cache: cache tags](https://vercel.com/docs/caching/cdn-cache/purge#cache-tags) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Vercel, Vercel Functions limits](https://vercel.com/docs/functions/limitations) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vue language tools, vue-tsc](https://github.com/vuejs/language-tools/blob/master/packages/tsc/README.md) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue Router, Lazy loading routes](https://router.vuejs.org/guide/advanced/lazy-loading.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js Style Guide, Use detailed prop definitions](https://vuejs.org/style-guide/rules-essential.html#use-detailed-prop-definitions) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -738,6 +811,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 6 | [Cloudflare Pages, Preview deployments](https://developers.cloudflare.com/pages/configuration/preview-deployments/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, Choose a data or storage product](https://developers.cloudflare.com/workers/platform/storage-options/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, Get started - CLI](https://developers.cloudflare.com/workers/get-started/guide/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, How Hyperdrive works](https://developers.cloudflare.com/hyperdrive/concepts/how-hyperdrive-works/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, OpenTelemetry export](https://developers.cloudflare.com/workers/observability/opentelemetry-export/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, Workers Cache: purging the cache](https://developers.cloudflare.com/workers/cache/#purging-the-cache) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, Workers Logs: limits](https://developers.cloudflare.com/workers/observability/logs/workers-logs/#limits) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Cloudflare, Wrangler configuration: source of truth](https://developers.cloudflare.com/workers/wrangler/configuration/#source-of-truth) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [CodeQL, Sensitive server cookie exposed to the client (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-client-exposed-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [commitlint, Guide: CI setup](https://commitlint.js.org/guides/ci-setup) | [general/releases](general/releases.md) | 2026-10-25 |
@@ -856,6 +937,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [monorepo.tools, What is a monorepo?](https://monorepo.tools/#what-is-a-monorepo) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Mozilla, eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Netlify, Background Functions overview](https://docs.netlify.com/build/functions/background-functions/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, Edge Functions overview: use cases](https://docs.netlify.com/build/edge-functions/overview/#use-cases) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, File-based configuration](https://docs.netlify.com/build/configure-builds/file-based-configuration/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, Function logs: log retention and limits](https://docs.netlify.com/build/functions/logs/#log-retention-and-limits) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, Functions overview: how functions work](https://docs.netlify.com/build/functions/overview/#how-functions-work) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, Get started with functions](https://docs.netlify.com/build/functions/get-started/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, Log Drains](https://docs.netlify.com/manage/monitoring/log-drains/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Netlify, Secrets Controller: secret scanning](https://docs.netlify.com/build/environment-variables/secrets-controller/#secret-scanning-overview) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Next.js, Server Actions and Mutations: Sequential dispatch on the client](https://nextjs.org/docs/app/guides/server-actions#sequential-dispatch-on-the-client) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 1.2 Layer your components, keep the web layer within its boundaries](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/createlayers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 2.11 Fail fast, validate arguments using a dedicated library](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/failfast.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -903,6 +992,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Repository and Unit of Work Patterns with Django](https://www.cosmicpython.com/book/appendix_django) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [pip-tools, pip-compile](https://pip-tools.pypa.io/en/stable/reference/pip-compile/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [pnpm, Workspace](https://pnpm.io/workspaces) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [PostgreSQL wiki, Number Of Database Connections](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 6 | [PostgreSQL, max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 6 | [PyPA, Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [PyPA, pip-audit](https://github.com/pypa/pip-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -925,6 +1017,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Semantic Versioning FAQ, What do I do if I accidentally release a backward incompatible change as a minor version?](https://semver.org/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 6 | [Squawk, Applying migrations safely](https://squawkhq.com/docs/safe_migrations) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 6 | [Squawk, Rules overview](https://squawkhq.com/docs/rules) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Svelte CLI, sv check: --compiler-warnings](https://svelte.dev/docs/cli/sv-check#Options-compiler-warnings-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [Svelte CLI, sv check: --fail-on-warnings](https://svelte.dev/docs/cli/sv-check#Options-fail-on-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -967,6 +1061,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity, UI Toolkit for advanced Unity developers](https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [uv, Locking and syncing: Checking the lockfile](https://docs.astral.sh/uv/concepts/projects/sync/#checking-the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [uv, Working on projects](https://docs.astral.sh/uv/guides/projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Vercel, @vercel/functions API reference: attachDatabasePool](https://vercel.com/docs/functions/functions-api-reference/vercel-functions-package#attachdatabasepool) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Vercel, Getting started with Vercel](https://vercel.com/docs/getting-started-with-vercel) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Vercel, Project configuration](https://vercel.com/docs/project-configuration) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Vercel, Runtime Logs: limits](https://vercel.com/docs/logs/runtime#limits) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Vercel, Working with Drains](https://vercel.com/docs/drains) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Vue Test Utils, Guide](https://test-utils.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -982,7 +1081,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-133 sources.
+145 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1015,6 +1114,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Development Containers specification](https://containers.dev/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Docker, Use Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 5 | [Egor Rogov (Postgres Professional), PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-svelte, svelte/no-unused-svelte-ignore](https://sveltejs.github.io/eslint-plugin-svelte/rules/no-unused-svelte-ignore/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -1064,6 +1164,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Nuxt ESLint, ESLint module](https://eslint.nuxt.com/packages/module) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [pgBackRest, Command Reference: check](https://pgbackrest.org/command.html#command-check) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [pgBackRest, Command Reference: verify](https://pgbackrest.org/command.html#command-verify) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Pino, Child loggers](https://github.com/pinojs/pino/blob/main/docs/child-loggers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Pino, Redaction](https://github.com/pinojs/pino/blob/main/docs/redaction.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Polaris, efficiency checks](https://polaris.docs.fairwinds.com/checks/efficiency/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
@@ -1085,6 +1187,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Ruff, unsafe-yaml-load (S506)](https://docs.astral.sh/ruff/rules/unsafe-yaml-load/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [semantic-release](https://semantic-release.org/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [Squawk, ban-char-field](https://squawkhq.com/docs/ban-char-field) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, ban-concurrent-index-creation-in-transaction](https://squawkhq.com/docs/ban-concurrent-index-creation-in-transaction) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, constraint-missing-not-valid](https://squawkhq.com/docs/constraint-missing-not-valid) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, prefer-identity](https://squawkhq.com/docs/prefer-identity) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, prefer-text-field](https://squawkhq.com/docs/prefer-text-field) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, prefer-timestamptz](https://squawkhq.com/docs/prefer-timestamptz) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, require-concurrent-index-creation](https://squawkhq.com/docs/require-concurrent-index-creation) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, require-concurrent-index-deletion](https://squawkhq.com/docs/require-concurrent-index-deletion) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Squawk, require-lock-timeout](https://squawkhq.com/docs/require-lock-timeout) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Syncpack, lint command](https://syncpack.dev/command/lint/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |

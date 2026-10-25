@@ -30,7 +30,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Platform | Signals | Guidelines |
 | --- | --- | --- |
 | Game (any engine) | A Unity, Godot, Unreal or other game project, or a custom game loop | `specific/gamedev/`, plus the engine's folder below |
-| Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep Unity work, use the `unity-architecture` skill |
+| Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep game work in Unity, Godot or Unreal, use the `game-architecture` skill |
 | Mobile game | A game that builds for iOS or Android: Android or iOS build settings in the engine project, an `AndroidManifest.xml` or Xcode project, or StoreKit or Play Billing code | `specific/mobile-games/`, plus `specific/gamedev/` and the engine's folder |
 | Godot | `project.godot`, `.gd` and `.tscn` files | `specific/godot/` |
 | Unreal Engine | A `.uproject` file, `*.Build.cs` and `*.Target.cs` files, `Config/DefaultEngine.ini` | `specific/unreal/` |

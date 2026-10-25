@@ -5,6 +5,12 @@ max_concurrency = 8
 max_retries = 3
 retry_wait_time = 5
 timeout = 30
+
+# Cache successful results for two days (CI restores .lycheecache between runs), so each
+# run only re-checks links that are new, due, or failed last time. Failures aren't cached.
+cache = true
+max_cache_age = "2d"
+cache_exclude_status = "400.."
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
 # developer.android.com redirects through a sign-in check that only completes with cookies.
@@ -34,4 +40,13 @@ exclude = [
 
 exclude_path = [
   '(^|/)specific/_template/',
+  # The generated website (scripts/build_site.py), when built locally.
+  '(^|/)build/',
 ]
+
+# Host settings go last: in TOML, every key after a [table] header belongs to that table.
+
+# github.com answers bursts of requests with HTTP 503, so go slowly there.
+[hosts."github.com"]
+concurrency = 2
+request_interval = "500ms"

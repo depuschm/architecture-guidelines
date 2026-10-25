@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-81 sources.
+82 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 9 | [Apple, App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 9 | [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 9 | [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -95,7 +96,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1242 sources.
+1351 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -103,6 +104,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [AIP-121, Resource-oriented design](https://google.aip.dev/121) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AIP-180, Backwards compatibility](https://google.aip.dev/180) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [Android Basics with Compose (course)](https://developer.android.com/courses/android-basics-compose/course) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 8 | [Android Developers, Android vitals](https://developer.android.com/google/play/vitals) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Android Developers, Android vitals: Bad behavior thresholds](https://developer.android.com/google/play/vitals#what_are_the_bad_behavior_thresholds) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Android Developers, Meet Google Play's target API level requirement](https://developer.android.com/google/play/requirements/target-sdk) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Android Developers, Play Billing: Detect and handle voided purchases](https://developer.android.com/google/play/billing/security#voided) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Android Developers, Play Billing: Fight fraud and abuse](https://developer.android.com/google/play/billing/security) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Android Developers, Play Billing: Move sensitive logic to your backend](https://developer.android.com/google/play/billing/security#sensitive) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Android Developers, Play Billing: Verify purchases before granting entitlements](https://developer.android.com/google/play/billing/security#verify) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [Android, Best practices for coroutines](https://developer.android.com/kotlin/coroutines/coroutines-best-practices) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, Data layer](https://developer.android.com/topic/architecture/data-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, Guide to app modularization](https://developer.android.com/topic/modularization) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -111,6 +119,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Apache Kafka, Design: availability and durability guarantees](https://kafka.apache.org/43/design/design/#availability-and-durability-guarantees) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 8 | [Apache Kafka, Design: message delivery semantics](https://kafka.apache.org/43/design/design/#message-delivery-semantics) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 8 | [Apache Kafka, Topic configs: min.insync.replicas](https://kafka.apache.org/43/configuration/topic-configs/#min.insync.replicas) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 8 | [Apple Developer Documentation, App Store Server API](https://developer.apple.com/documentation/appstoreserverapi) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple Developer Documentation, App Store Server Notifications](https://developer.apple.com/documentation/appstoreservernotifications) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple Developer, Upcoming requirements](https://developer.apple.com/news/upcoming-requirements/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple, App Review Guidelines: 1.3 Kids Category](https://developer.apple.com/app-store/review/guidelines/#kids-category) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple, App Review Guidelines: 2.5.2 Software requirements](https://developer.apple.com/app-store/review/guidelines/#2.5.2) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple, App Review Guidelines: 3.1.1 In-App Purchase](https://developer.apple.com/app-store/review/guidelines/#3.1.1) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple, App Review Guidelines: 5.1.2 Data Use and Sharing](https://developer.apple.com/app-store/review/guidelines/#5.1.2) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Apple, App Review Guidelines: 5.1.4 Kids](https://developer.apple.com/app-store/review/guidelines/#5.1.4) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -181,6 +197,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [GitHub, Secure use reference: Using third-party actions](https://docs.github.com/en/actions/reference/security/secure-use#using-third-party-actions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 8 | [GitHub, Securely using pull_request_target](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 8 | [GitHub, Use GITHUB_TOKEN for authentication in workflows](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, CI/CD components: Security best practices](https://docs.gitlab.com/ci/components/#cicd-component-security-best-practices) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, Deployment safety](https://docs.gitlab.com/ci/environments/deployment_safety/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, Pipeline security](https://docs.gitlab.com/ci/pipeline_security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, Pipeline security: Included configurations](https://docs.gitlab.com/ci/pipeline_security/#included-configurations) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, Pipeline security: Secrets storage](https://docs.gitlab.com/ci/pipeline_security/#secrets-storage) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, Security for self-managed runners](https://docs.gitlab.com/runner/security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [GitLab Docs, Security for self-managed runners: Security risks for different executors](https://docs.gitlab.com/runner/security/#security-risks-for-different-executors) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [Godot docs, Autoloads versus regular nodes](https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 8 | [Godot docs, Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -190,6 +213,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Godot docs, Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 8 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google Cloud, Best practices for using Terraform: general style and structure](https://docs.cloud.google.com/docs/terraform/best-practices/general-style-structure) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [Google Play Console Help, Device and Network Abuse policy](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Google Play Console Help, Google Play Families policies](https://support.google.com/googleplay/android-developer/answer/9893335?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Google Play Console Help, Payments policy](https://support.google.com/googleplay/android-developer/answer/9858738?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Google Play Console Help, Provide information for Google Play's Data safety section](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 8 | [Google Play, Developer Policy Center](https://play.google/developer-content-policy/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [Google SRE book, Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Embracing Risk](https://sre.google/sre-book/embracing-risk/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -255,7 +283,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OpenTelemetry, Handling sensitive data](https://opentelemetry.io/docs/security/handling-sensitive-data/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [OpenTelemetry, Sampling](https://opentelemetry.io/docs/concepts/sampling/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
-| 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
+| 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/mobile-games](specific/mobile-games/README.md), [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [OWASP API Security Top 10](https://api-security.owasp.org/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [OWASP Authentication Cheat Sheet, Secure federated account linking](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#secure-federated-account-linking) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -379,6 +407,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Agent Skills](https://agentskills.io/specification) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [AIP-158, Pagination](https://google.aip.dev/158) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Android architecture samples](https://github.com/android/architecture-samples) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 7 | [Android Developers, Google Play Billing Library version deprecation](https://developer.android.com/google/play/billing/deprecation-faq) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Optimize thermal and CPU performance with the Android Dynamic Performance Framework](https://developer.android.com/games/optimize/adpf) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Overview of the Play Integrity API](https://developer.android.com/google/play/integrity/overview) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Play Asset Delivery](https://developer.android.com/guide/playcore/asset-delivery) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Play Asset Delivery: Delivery modes](https://developer.android.com/guide/playcore/asset-delivery#delivery-modes) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Play Billing: Purchase lifecycle management and entitlement sync](https://developer.android.com/google/play/billing/backend#lifecycle-management) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Play Integrity API: Security considerations](https://developer.android.com/google/play/integrity/overview#security-considerations) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android, Architecting your Compose UI](https://developer.android.com/develop/ui/compose/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Common modularization patterns](https://developer.android.com/topic/modularization/patterns) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -412,6 +447,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Apache Kafka, Topic configs: cleanup.policy](https://kafka.apache.org/43/configuration/topic-configs/#cleanup.policy) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [Apache Kafka, Topic configs: retention.ms](https://kafka.apache.org/43/configuration/topic-configs/#retention.ms) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [Apache Kafka, Upgrading servers to 4.0](https://kafka.apache.org/43/getting-started/upgrade/#upgrading-servers-to-401-from-any-version-33x-through-39x) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [App Store Connect Help, Release a version update in phases](https://developer.apple.com/help/app-store-connect/update-your-app/release-a-version-update-in-phases) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Analyzing the performance of your shipping app](https://developer.apple.com/documentation/xcode/analyzing-the-performance-of-your-shipping-app) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Background Assets](https://developer.apple.com/documentation/backgroundassets) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Describing use of required reason API](https://developer.apple.com/documentation/bundleresources/describing-use-of-required-reason-api) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Establishing your app's integrity (App Attest)](https://developer.apple.com/documentation/devicecheck/establishing-your-app-s-integrity) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Privacy manifest files](https://developer.apple.com/documentation/bundleresources/privacy-manifest-files) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Simplifying your implementation by using the App Store Server Library](https://developer.apple.com/documentation/appstoreserverapi/simplifying-your-implementation-by-using-the-app-store-server-library) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, StoreKit Transaction (verify transactions)](https://developer.apple.com/documentation/storekit/transaction) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Transaction.finish()](https://developer.apple.com/documentation/storekit/transaction/finish%28%29) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer, App privacy details](https://developer.apple.com/app-store/app-privacy-details/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer, Third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple, App Review Guidelines: 2.3.6 Age rating](https://developer.apple.com/app-store/review/guidelines/#2.3.6) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple, App Review Guidelines: 4.7 Mini apps, mini games, streaming games](https://developer.apple.com/app-store/review/guidelines/#4.7) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [arc42, section 1: quality goals](https://docs.arc42.org/section-1/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [ArchUnit](https://www.archunit.org/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [ArchUnit user guide](https://www.archunit.org/userguide/html/000_Index.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
@@ -501,6 +549,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Epic Games, Automation Test Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Game Features and Modular Gameplay in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-features-and-modular-gameplay-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Lyra Sample Game in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/lyra-sample-game-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Performance Guidelines for Mobile Devices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/performance-guidelines-for-mobile-devices-in-unreal-engine) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Recommended Asset Naming Conventions in Unreal Engine projects](https://dev.epicgames.com/documentation/en-us/unreal-engine/recommended-asset-naming-conventions-in-unreal-engine-projects) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Run Automation Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/run-automation-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [Epic Games, Understanding the Unreal Engine Gameplay Ability System](https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
@@ -557,6 +606,43 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GitHub, secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection) | [general/security](general/security.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [GitHub, Workflow dependency lockfiles (public preview)](https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [github/gitignore, Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [GitLab Docs, Caching in GitLab CI/CD: How cache is different from artifacts](https://docs.gitlab.com/ci/caching/#how-cache-is-different-from-artifacts) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Caching in GitLab CI/CD: Use the same cache for all branches](https://docs.gitlab.com/ci/caching/#use-the-same-cache-for-all-branches) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD components](https://docs.gitlab.com/ci/components/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD job token](https://docs.gitlab.com/ci/jobs/ci_job_token/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD job token: Allow any project to access your project](https://docs.gitlab.com/ci/jobs/ci_job_token/#allow-any-project-to-access-your-project) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD job token: Control job token access to your project](https://docs.gitlab.com/ci/jobs/ci_job_token/#control-job-token-access-to-your-project) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD variables: CI/CD variable security](https://docs.gitlab.com/ci/variables/#cicd-variable-security) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD variables: Hide a CI/CD variable](https://docs.gitlab.com/ci/variables/#hide-a-cicd-variable) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD variables: Mask a CI/CD variable](https://docs.gitlab.com/ci/variables/#mask-a-cicd-variable) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD variables: Protect a CI/CD variable](https://docs.gitlab.com/ci/variables/#protect-a-cicd-variable) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD variables: Restrict pipeline variables](https://docs.gitlab.com/ci/variables/#restrict-pipeline-variables) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD YAML syntax reference: cache:unprotect](https://docs.gitlab.com/ci/yaml/#cacheunprotect) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, CI/CD YAML syntax reference: include:integrity](https://docs.gitlab.com/ci/yaml/#includeintegrity) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Configuring runners: Prevent runners from revealing sensitive information](https://docs.gitlab.com/ci/runners/configure_runners/#prevent-runners-from-revealing-sensitive-information) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Connect to cloud services](https://docs.gitlab.com/ci/cloud_services/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Connect to cloud services: Configure a conditional role with OIDC claims](https://docs.gitlab.com/ci/cloud_services/#configure-a-conditional-role-with-oidc-claims) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Deployment approvals](https://docs.gitlab.com/ci/environments/deployment_approvals/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Deployment safety: Ensure only one deployment job runs at a time](https://docs.gitlab.com/ci/environments/deployment_safety/#ensure-only-one-deployment-job-runs-at-a-time) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Deployment safety: Prevent outdated deployment jobs](https://docs.gitlab.com/ci/environments/deployment_safety/#prevent-outdated-deployment-jobs) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Deployment safety: Protect production secrets](https://docs.gitlab.com/ci/environments/deployment_safety/#protect-production-secrets) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Deprecated keywords: only / except](https://docs.gitlab.com/ci/yaml/deprecated_keywords/#only--except) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Make jobs start earlier with needs](https://docs.gitlab.com/ci/yaml/needs/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Merge request pipelines](https://docs.gitlab.com/ci/pipelines/merge_request_pipelines/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Merge request pipelines: Run pipelines in the parent project](https://docs.gitlab.com/ci/pipelines/merge_request_pipelines/#run-pipelines-in-the-parent-project) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Merged results pipelines](https://docs.gitlab.com/ci/pipelines/merged_results_pipelines/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, OIDC authentication using ID tokens: Use ID token claims in cloud trust policies](https://docs.gitlab.com/ci/secrets/id_token_authentication/#use-id-token-claims-in-cloud-trust-policies) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, OpenID Connect (OIDC) authentication using ID tokens](https://docs.gitlab.com/ci/secrets/id_token_authentication/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Pipeline security: Docker images](https://docs.gitlab.com/ci/pipeline_security/#docker-images) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Pipeline security: Pass parameters to CI/CD pipelines](https://docs.gitlab.com/ci/pipeline_security/#pass-parameters-to-cicd-pipelines) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Protected branches: Require Code Owner approval](https://docs.gitlab.com/user/project/repository/branches/protected/#require-code-owner-approval) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Protected environments](https://docs.gitlab.com/ci/environments/protected_environments/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Resource group](https://docs.gitlab.com/ci/resource_groups/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Security for self-managed runners: Reduce the security risk of using privileged containers](https://docs.gitlab.com/runner/security/#reduce-the-security-risk-of-using-privileged-containers) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Specify when jobs run with rules: Avoid duplicate pipelines](https://docs.gitlab.com/ci/jobs/job_rules/#avoid-duplicate-pipelines) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Troubleshooting CI/CD variables: Enable debug logging](https://docs.gitlab.com/ci/variables/variables_troubleshooting/#enable-debug-logging) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, Validate GitLab CI/CD configuration (CI Lint)](https://docs.gitlab.com/ci/yaml/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [GitLab Docs, workflow keyword: Switch between branch pipelines and merge request pipelines](https://docs.gitlab.com/ci/yaml/workflow/#switch-between-branch-pipelines-and-merge-request-pipelines) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 7 | [Godot blog, UID changes coming to Godot 4.4](https://godotengine.org/article/uid-changes-coming-to-godot-4-4/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Command line tutorial](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -580,6 +666,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google Engineering Practices, Small CLs](https://google.github.io/eng-practices/review/developer/small-cls.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Google Engineering Practices, Speed of code reviews](https://google.github.io/eng-practices/review/reviewer/speed.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Google for Developers, Passkeys developer guide](https://developers.google.com/identity/passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [Google Play Console Help, Content ratings](https://support.google.com/googleplay/android-developer/answer/9898843?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Google Play Console Help, Release app updates with staged rollouts](https://support.google.com/googleplay/android-developer/answer/6346149?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Google, Site Reliability Engineering, chapter 8: Release Engineering](https://sre.google/sre-book/release-engineering/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -956,6 +1044,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AbleGamers, Accessible Player Experiences (APX)](https://accessible.games/accessible-player-experiences/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Android Developers, Include native symbols in your release build](https://developer.android.com/build/include-native-symbols) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apache Kafka, Basic Kafka Operations: checking consumer position](https://kafka.apache.org/43/operations/basic-kafka-operations/#checking-consumer-position) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apache Kafka, Broker configs: group.share.delivery.count.limit](https://kafka.apache.org/43/configuration/broker-configs/#group.share.delivery.count.limit) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apache Kafka, Kafka Connect: error reporting](https://kafka.apache.org/43/kafka-connect/user-guide/#error-reporting-in-connect) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -966,6 +1055,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Apicurio Registry, Content rule reference (3.3)](https://www.apicur.io/registry/docs/apicurio-registry/3.3.x/getting-started/assembly-rule-reference.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apollo Server, Configuring CORS: Preventing CSRF](https://www.apollographql.com/docs/apollo-server/security/cors#preventing-cross-site-request-forgery-csrf) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Apollo, Safelisting with Persisted Queries: differences from automatic persisted queries](https://www.apollographql.com/docs/graphos/platform/security/persisted-queries#differences-from-automatic-persisted-queries) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [Apple Developer Documentation, Adding identifiable symbol names to a crash report](https://developer.apple.com/documentation/xcode/adding-identifiable-symbol-names-to-a-crash-report) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple Developer Documentation, ProcessInfo.ThermalState.serious](https://developer.apple.com/documentation/foundation/processinfo/thermalstate-swift.enum/serious) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple sample code, Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple, Meet the App Store Server Library (WWDC23)](https://developer.apple.com/videos/play/wwdc2023/10143/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -1032,6 +1125,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Epic Games, Running Gauntlet Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/running-gauntlet-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Epic Games, Static Code Analysis in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/static-code-analysis-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Using Google Play Asset Delivery in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-google-play-asset-delivery-in-unreal-engine) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [esbuild, Content types: TypeScript caveats](https://esbuild.github.io/content-types/#typescript-caveats) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-n, no-sync](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -1045,6 +1139,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [FastAPI, Deployments Concepts](https://fastapi.tiangolo.com/deployment/concepts/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Request Body](https://fastapi.tiangolo.com/tutorial/body/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Testing Dependencies with Overrides](https://fastapi.tiangolo.com/advanced/testing-dependencies/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Firebase Docs, Firebase Remote Config](https://firebase.google.com/docs/remote-config) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Offline-first support](https://docs.flutter.dev/app-architecture/design-patterns/offline-first) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -1081,14 +1176,26 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitHub, Secure use reference: Using CODEOWNERS to monitor changes](https://docs.github.com/en/actions/reference/security/secure-use#using-codeowners-to-monitor-changes) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Tutorials for GitHub Actions](https://docs.github.com/en/actions/tutorials) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitLab Docs, Branch rules](https://docs.gitlab.com/user/project/repository/branches/branch_rules/) | [general/repositories](general/repositories.md) | 2026-10-25 |
-| 6 | [GitLab Docs, Code Owners](https://docs.gitlab.com/user/project/codeowners/) | [general/repositories](general/repositories.md) | 2026-10-25 |
-| 6 | [GitLab Docs, Merge trains](https://docs.gitlab.com/ci/pipelines/merge_trains/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [GitLab Docs, CI/CD components: Avoid using global keywords](https://docs.gitlab.com/ci/components/#avoid-using-global-keywords) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, CI/CD components: Replace hardcoded values with inputs](https://docs.gitlab.com/ci/components/#replace-hardcoded-values-with-inputs) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, CI/CD inputs: posix_escape](https://docs.gitlab.com/ci/inputs/#posix_escape) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, CI/CD variables: Environment scope](https://docs.gitlab.com/ci/variables/#environment-scope) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Code Owners](https://docs.gitlab.com/user/project/codeowners/) | [general/repositories](general/repositories.md), [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Customize pipeline configuration: Prevent outdated deployment jobs](https://docs.gitlab.com/ci/pipelines/settings/#prevent-outdated-deployment-jobs) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Debugging CI/CD pipelines: Job may allow multiple pipelines to run for a single action warning](https://docs.gitlab.com/ci/debugging/#job-may-allow-multiple-pipelines-to-run-for-a-single-action-warning) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Merge trains](https://docs.gitlab.com/ci/pipelines/merge_trains/) | [general/repositories](general/repositories.md), [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Pipeline architecture](https://docs.gitlab.com/ci/pipelines/pipeline_architectures/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Pipeline efficiency](https://docs.gitlab.com/ci/pipelines/pipeline_efficiency/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Pipeline efficiency: Reuse configuration with CI/CD components](https://docs.gitlab.com/ci/pipelines/pipeline_efficiency/#reuse-configuration-with-cicd-components) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Tutorial: Create a complex pipeline](https://docs.gitlab.com/ci/quick_start/tutorial/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 6 | [GitLab Docs, Tutorial: Create and run your first GitLab CI/CD pipeline](https://docs.gitlab.com/ci/quick_start/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 6 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Godot class reference, FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot class reference, Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [Google Play Console Help, Use a pre-launch report to identify issues](https://support.google.com/googleplay/android-developer/answer/9842757?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
 | 6 | [GraphQL ESLint, no-deprecated](https://the-guild.dev/graphql/eslint/rules/no-deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -1305,10 +1412,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [typescript-eslint, no-unsafe-type-assertion](https://typescript-eslint.io/rules/no-unsafe-type-assertion/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Unity Manual, Adaptive Performance](https://docs.unity3d.com/Manual/adaptive-performance/adaptive-performance.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Unity Manual, Analyzer scope and diagnostics](https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Unity Manual, Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Editor settings](https://docs.unity3d.com/Manual/class-EditorManager.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 6 | [Unity Manual, Play Asset Delivery](https://docs.unity3d.com/Manual/play-asset-delivery.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Unity Manual, Smart Merge](https://docs.unity3d.com/Manual/SmartMerge.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, UnityEvents](https://docs.unity3d.com/Manual/unity-events.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Version control settings](https://docs.unity3d.com/Manual/class-VersionControlSettings.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -1317,6 +1426,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity PaddleGameSO (ScriptableObjects demo)](https://github.com/UnityTechnologies/PaddleGameSO) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 6 | [Unity Performance Testing package](https://docs.unity3d.com/Packages/com.unity.test-framework.performance@latest/) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Unity Project Auditor, run from the command line](https://docs.unity3d.com/Manual/project-auditor/run-from-command-line.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
+| 6 | [Unity Scripting API, Application.targetFrameRate](https://docs.unity3d.com/ScriptReference/Application-targetFrameRate.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Unity, Advanced programming and code architecture](https://unity.com/how-to/advanced-programming-and-code-architecture) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 6 | [Unity, How to run automated tests with the Unity Test Framework](https://unity.com/how-to/automated-tests-unity-test-framework) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Unity, Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -1344,11 +1454,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-162 sources.
+173 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 5 | [action-semantic-pull-request (GitHub Action)](https://github.com/amannn/action-semantic-pull-request) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [Android Developers, Android Games Dev Center](https://developer.android.com/games) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 5 | [Android Lint checks, ExpiredTargetSdkVersion](https://googlesamples.github.io/android-custom-lint-rules/checks/ExpiredTargetSdkVersion.md.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 5 | [Android Lint checks, OldTargetApi](https://googlesamples.github.io/android-custom-lint-rules/checks/OldTargetApi.md.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Anthropic skills repository](https://github.com/anthropics/skills) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 5 | [Anton Babenko, Terraform Best Practices](https://www.terraform-best-practices.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Apache Kafka, CreateTopicPolicy API](https://kafka.apache.org/43/javadoc/org/apache/kafka/server/policy/CreateTopicPolicy.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -1364,6 +1477,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Cedric Neukirchen, Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Changesets, Automating Changesets: Blocking](https://changesets.dev/guide/automating#blocking) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Changesets, Why Changesets](https://changesets.dev/guide/why) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [Checkov, gitlab_ci resource scans](https://www.checkov.io/5.Policy%20Index/gitlab_ci.html) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [Checkov, Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
@@ -1401,7 +1515,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [GitHub, creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 5 | [GitHub, Dependabot supported ecosystems: Terraform](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories#terraform) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [GitHub, Secure use reference: Monitoring the actions in your workflows (Dependabot alerts)](https://docs.github.com/en/actions/reference/security/secure-use#monitoring-the-actions-in-your-workflows) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 5 | [GitLab Docs, CI Lint API](https://docs.gitlab.com/api/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 5 | [GitLab Docs, glab ci lint](https://docs.gitlab.com/cli/ci/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, Improving monorepo performance](https://docs.gitlab.com/user/project/repository/monorepos/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
@@ -1436,10 +1553,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [pgBackRest, Command Reference: verify](https://pgbackrest.org/command.html#command-verify) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Pino, Child loggers](https://github.com/pinojs/pino/blob/main/docs/child-loggers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Pino, Redaction](https://github.com/pinojs/pino/blob/main/docs/redaction.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 5 | [Plumber, CI/CD security issues reference](https://getplumber.io/docs/cli/issues) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [Polaris, efficiency checks](https://polaris.docs.fairwinds.com/checks/efficiency/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, infrastructure as code (CI)](https://polaris.docs.fairwinds.com/infrastructure-as-code/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, reliability checks](https://polaris.docs.fairwinds.com/checks/reliability/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, security checks](https://polaris.docs.fairwinds.com/checks/security/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [poutine, CI Debug Enabled rule](https://boostsecurityio.github.io/poutine/rules/debug_enabled/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [publint, CLI](https://publint.dev/docs/cli) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [publint, EXPORTS_TYPES_INVALID_FORMAT](https://publint.dev/rules#exports_types_invalid_format) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [publint, EXPORTS_TYPES_SHOULD_BE_FIRST](https://publint.dev/rules#exports_types_should_be_first) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
@@ -1451,6 +1570,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [RabbitMQ, Policies: operator policies](https://www.rabbitmq.com/docs/policies#operator-policies) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 5 | [RabbitMQ, Quorum Queues: global QoS](https://www.rabbitmq.com/docs/quorum-queues#global-qos) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 5 | [RabbitMQ, rabbitmq-diagnostics: check_certificate_expiration](https://www.rabbitmq.com/docs/man/rabbitmq-diagnostics.8#check_certificate_expiration) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 5 | [Renovate Docs, Automated dependency updates for GitLab CI/CD](https://docs.renovatebot.com/modules/manager/gitlabci/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [Roberts, Serverless Architectures](https://martinfowler.com/articles/serverless.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 5 | [Ruff, blocking-http-call-in-async-function (ASYNC210)](https://docs.astral.sh/ruff/rules/blocking-http-call-in-async-function/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Ruff, blocking-open-call-in-async-function (ASYNC230)](https://docs.astral.sh/ruff/rules/blocking-open-call-in-async-function/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1505,6 +1625,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [GUT, Export test results](https://gut.readthedocs.io/en/latest/Export-Test-Results.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 4 | [poutine, injection rule (Rego source)](https://github.com/boostsecurityio/poutine/blob/main/opa/rego/rules/injection.rego) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 4 | [Sherif, README](https://github.com/QuiiBz/sherif/blob/main/README.md) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [Turborepo, boundaries (experimental)](https://turborepo.dev/docs/reference/boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |

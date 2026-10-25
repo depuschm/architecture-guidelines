@@ -8,6 +8,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Unity](unity/README.md): game and real-time 3D projects.
 - [Godot](godot/README.md): games built with Godot 4 and GDScript.
 - [Unreal Engine](unreal/README.md): Unreal Engine 5 games in C++ and Blueprint.
+- [Mobile games](mobile-games/README.md): shipping and running games on the App Store and Google Play, for any engine.
 
 ### Web and back end
 
@@ -43,6 +44,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Serverless and edge hosting](web-hosting/README.md): deploying web apps and APIs to Vercel, Netlify and Cloudflare.
 - [Terraform](terraform/README.md): infrastructure as code with Terraform or OpenTofu.
 - [GitHub Actions](github-actions/README.md): CI/CD and automation workflows.
+- [GitLab CI/CD](gitlab-ci/README.md): pipelines, runners and deployments on GitLab.
 
 ## Adding a platform
 

@@ -66,6 +66,7 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | Games | [Unity](specific/unity/README.md) | [Unity best practice guides and e-books](https://docs.unity3d.com/Manual/best-practice-guides.html) |
 | Games | [Godot](specific/godot/README.md) | [Godot best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) |
 | Games | [Unreal Engine](specific/unreal/README.md) | [Gameplay Framework](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) and [Epic C++ Coding Standard](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine) |
+| Games | [Mobile games](specific/mobile-games/README.md) | [Apple App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) and [Google Play Developer Policy Center](https://play.google/developer-content-policy/) |
 | Web and back end | [Web front end](specific/web/README.md) | [WCAG 2.2](https://www.w3.org/TR/WCAG22/), [OWASP XSS Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) and [Core Web Vitals](https://web.dev/articles/top-cwv) |
 | Web and back end | [React](specific/react/README.md) | [react.dev Learn](https://react.dev/learn) |
 | Web and back end | [Next.js](specific/nextjs/README.md) | [Next.js Docs: App Router](https://nextjs.org/docs/app) |
@@ -89,6 +90,7 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | Infrastructure | [Serverless and edge hosting](specific/web-hosting/README.md) | [Vercel production checklist](https://vercel.com/docs/production-checklist) and [Cloudflare Workers best practices](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/) |
 | Infrastructure | [Terraform](specific/terraform/README.md) | [Terraform style guide](https://developer.hashicorp.com/terraform/language/style) |
 | Automation | [GitHub Actions](specific/github-actions/README.md) | [Secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) |
+| Automation | [GitLab CI/CD](specific/gitlab-ci/README.md) | [GitLab pipeline security](https://docs.gitlab.com/ci/pipeline_security/) |
 
 To add a platform, copy [`specific/_template`](specific/_template/README.md) and follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -96,7 +98,7 @@ To add a platform, copy [`specific/_template`](specific/_template/README.md) and
 
 Every rule of an area in one list, grouped by level and sorted by score, with the tools that can check each rule automatically. Paste one into a pull request, design review or project kickoff:
 
-[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [Unreal](checklists/unreal.md) · [Web](checklists/web.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Vue](checklists/vue.md) · [Svelte](checklists/svelte.md) · [TypeScript](checklists/typescript.md) · [Node.js](checklists/nodejs.md) · [Python](checklists/python.md) · [.NET](checklists/dotnet.md) · [GraphQL](checklists/graphql.md) · [PostgreSQL](checklists/postgres.md) · [Redis](checklists/redis.md) · [Kafka](checklists/kafka.md) · [RabbitMQ](checklists/rabbitmq.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Docker](checklists/docker.md) · [Kubernetes](checklists/kubernetes.md) · [OpenTelemetry](checklists/opentelemetry.md) · [AWS](checklists/aws.md) · [Hosting](checklists/web-hosting.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md)
+[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [Unreal](checklists/unreal.md) · [Mobile games](checklists/mobile-games.md) · [Web](checklists/web.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Vue](checklists/vue.md) · [Svelte](checklists/svelte.md) · [TypeScript](checklists/typescript.md) · [Node.js](checklists/nodejs.md) · [Python](checklists/python.md) · [.NET](checklists/dotnet.md) · [GraphQL](checklists/graphql.md) · [PostgreSQL](checklists/postgres.md) · [Redis](checklists/redis.md) · [Kafka](checklists/kafka.md) · [RabbitMQ](checklists/rabbitmq.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Docker](checklists/docker.md) · [Kubernetes](checklists/kubernetes.md) · [OpenTelemetry](checklists/opentelemetry.md) · [AWS](checklists/aws.md) · [Hosting](checklists/web-hosting.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md) · [GitLab CI/CD](checklists/gitlab-ci.md)
 
 ## AI skills
 

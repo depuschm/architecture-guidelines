@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, mobile games, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform, GitHub Actions and GitLab CI/CD). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -31,6 +31,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | --- | --- | --- |
 | Game (any engine) | A Unity, Godot, Unreal or other game project, or a custom game loop | `specific/gamedev/`, plus the engine's folder below |
 | Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep Unity work, use the `unity-architecture` skill |
+| Mobile game | A game that builds for iOS or Android: Android or iOS build settings in the engine project, an `AndroidManifest.xml` or Xcode project, or StoreKit or Play Billing code | `specific/mobile-games/`, plus `specific/gamedev/` and the engine's folder |
 | Godot | `project.godot`, `.gd` and `.tscn` files | `specific/godot/` |
 | Unreal Engine | A `.uproject` file, `*.Build.cs` and `*.Target.cs` files, `Config/DefaultEngine.ini` | `specific/unreal/` |
 | Web front end | HTML, CSS or JavaScript served to browsers: `index.html`, a bundler config (`vite.config.*`, `webpack.config.*`), or a front-end framework | `specific/web/`, plus the framework's folder below |
@@ -56,6 +57,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Serverless and edge hosting | `vercel.json`, `netlify.toml`, or `wrangler.toml`, `wrangler.json` or `wrangler.jsonc` | `specific/web-hosting/` |
 | Terraform or OpenTofu | `*.tf` or `*.tofu` files, `.terraform.lock.hcl` | `specific/terraform/` |
 | GitHub Actions | `.github/workflows/*.yml`, `action.yml` | `specific/github-actions/` |
+| GitLab CI/CD | `.gitlab-ci.yml`, or CI/CD components in `templates/` | `specific/gitlab-ci/` |
 
 A repository can match several platforms. Unity projects contain generated `.csproj` files, so don't apply the ASP.NET Core rules to them.
 

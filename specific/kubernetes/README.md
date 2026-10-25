@@ -38,6 +38,16 @@ Scope: designing and running application workloads on Kubernetes clusters.
 
 - `6` `K8S-13` **Keep all manifests declarative and in Git, and let an agent reconcile the cluster to them (GitOps).** ([OpenGitOps principles](https://opengitops.dev/))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `8` [Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/): the built-in admission controller. Label a namespace `pod-security.kubernetes.io/enforce: restricted` and non-compliant pods are rejected. Checks `K8S-9`.
+- `6` [kube-linter checks](https://docs.kubelinter.io/#/generated/checks): lints manifests in CI. Its default checks cover the `latest` tag, missing CPU requests and memory limits, missing anti-affinity or topology spread, the default service account, pods without a NetworkPolicy, and access to Secrets; probe checks are opt-in. Checks `K8S-1` and `K8S-5`, and partly `K8S-2`, `K8S-4`, `K8S-8`, `K8S-10` and `K8S-11`.
+- `6` [Kyverno policy library](https://kyverno.io/policies/): admission policies that enforce rules inside the cluster, for example [requests and memory limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/), a [default-deny NetworkPolicy for every new namespace](https://kyverno.io/policies/best-practices/add-network-policy/add-network-policy/), a [PodDisruptionBudget per workload](https://kyverno.io/policies/other/require-pdb/require-pdb/), [probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) and the [`app.kubernetes.io/name` label](https://kyverno.io/policies/best-practices/require-labels/require-labels/). Checks `K8S-1` and `K8S-10`, and partly `K8S-2`, `K8S-4` and `K8S-7`.
+- `5` [Polaris checks](https://polaris.docs.fairwinds.com/checks/reliability/): an alternative to kube-linter, with reliability, [efficiency](https://polaris.docs.fairwinds.com/checks/efficiency/) and [security](https://polaris.docs.fairwinds.com/checks/security/) checks that [run in CI](https://polaris.docs.fairwinds.com/infrastructure-as-code/). It flags missing probes, the `latest` tag, missing PodDisruptionBudgets, and missing requests and memory limits (turn off `cpuLimitsMissing` to match `K8S-1`). Checks `K8S-1`, `K8S-2` and `K8S-5`, and partly `K8S-4` and `K8S-8`.
+- `5` [OPA Gatekeeper library](https://open-policy-agent.github.io/gatekeeper-library/website/): an alternative policy engine, with policies for [disallowed image tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/), [required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) and [container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/). Checks `K8S-5`, and partly `K8S-1` and `K8S-2`.
+
 ## Tutorials and further reading
 
 - `7` [Kubernetes tutorials](https://kubernetes.io/docs/tutorials/) (official).

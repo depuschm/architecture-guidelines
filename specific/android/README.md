@@ -26,6 +26,15 @@ Google's official architecture guidance is comprehensive. **Follow it as-is.** T
 - `6` `ANDROID-7` **Build offline-first where possible, with the local database as the source of truth.** ([Guide to app architecture](https://developer.android.com/topic/architecture), [Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first))
 - `5` `ANDROID-8` **Modularise by feature and layer as the app and team grow.** ([Modularization guide](https://developer.android.com/topic/modularization))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `6` [Konsist, architecture assertions](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert): Kotlin tests that check which layers may depend on which; set the direction to match the Android guide. Its [Android snippets](https://docs.konsist.lemonappdev.com/samples/starter-test-snippets/android-test-snippets) also check that ViewModel properties are `Flow`s and that repositories live in a repository package. Partly checks `ANDROID-1`, `ANDROID-3` and `ANDROID-4`.
+- `5` [detekt, coroutines rules](https://detekt.dev/docs/rules/coroutines/): `InjectDispatcher` flags hard-coded dispatchers, following the same Android best-practices page. Partly checks `ANDROID-6`.
+- `4` [Slack compose-lints](https://slackhq.github.io/compose-lints/rules/): Android Lint checks for Jetpack Compose. `ComposeViewModelForwarding` flags ViewModels passed down the UI tree, which breaks unidirectional data flow. Partly checks `ANDROID-2`.
+- `4` [Module Graph Assert](https://github.com/jraska/modules-graph-assert): a Gradle plugin that fails the build when a module depends on one it isn't allowed to. It guards the module structure but doesn't create it. Partly checks `ANDROID-8`.
+
 ## Tutorials and further reading
 
 - `8` [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course): Google's free course, which teaches the recommended architecture.

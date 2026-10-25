@@ -34,6 +34,16 @@ Scope: workloads on Amazon Web Services.
 - `6` `AWS-9` **Tag resources consistently for ownership, cost allocation and automation.** ([Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html))
 - `3` `AWS-10` **Contain the blast radius of failures with cell-based or shuffle-sharded designs where scale demands it.** Cells add complexity and cost, so reserve them for systems that are too big or too critical to fail. ([Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html), [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `7` [IAM Access Analyzer policy validation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html): validates IAM policies against policy grammar and AWS best practices, and [also validates service control policies](https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ValidatePolicy.html). Partly checks `AWS-1` and `AWS-7`.
+- `7` [Security Hub, AWS Foundational Security Best Practices](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html): continuous checks such as no full `*` administrative policies, access-key rotation, no root access keys, and multiple Availability Zones for Auto Scaling groups, load balancers, RDS and Lambda. The [Resource Tagging standard](https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html) finds untagged resources. Partly checks `AWS-1`, `AWS-3` and `AWS-9`.
+- `6` [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md): checks CDK apps before deployment, for example for wildcard IAM permissions or RDS without multi-AZ ([AWS blog](https://aws.amazon.com/blogs/devops/manage-application-security-and-compliance-with-the-aws-cloud-development-kit-and-cdk-nag/)). Partly checks `AWS-1`, `AWS-3` and `AWS-4`.
+- `6` [AWS Config, required-tags rule](https://docs.aws.amazon.com/config/latest/developerguide/required-tags.html): checks that resources carry the tags you specify, and [CloudFormation drift detection](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html) finds stacks changed outside infrastructure as code. Checks `AWS-9`, and partly `AWS-4`.
+- `6` [AWS Resilience Hub](https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html): assesses whether an application meets its RTO and RPO targets, including during an Availability Zone disruption, and can [assess daily](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html). Partly checks `AWS-6` and `AWS-3`.
+
 ## Tutorials and further reading
 
 - `6` [AWS multi-Region fundamentals](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/).

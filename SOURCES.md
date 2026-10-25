@@ -60,7 +60,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-365 sources.
+380 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -121,6 +121,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Kubernetes, Configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Good practices for Secrets](https://kubernetes.io/docs/concepts/security/secrets-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Liveness, readiness and startup probes](https://kubernetes.io/docs/concepts/workloads/pods/probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 8 | [Kubernetes, Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 8 | [Kubernetes, Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, RBAC good practices](https://kubernetes.io/docs/concepts/security/rbac-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Resource management for pods and containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -145,6 +146,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457) | [general/api-design](general/api-design.md) | 2026-10-24 |
@@ -192,6 +194,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Organizations, SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Prescriptive Guidance, ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 7 | [AWS Security Hub, Foundational Security Best Practices standard](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html) | [general/ai-systems](general/ai-systems.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected, Cost optimization pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -217,6 +220,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Clemson, Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 7 | [Dart, customizing static analysis](https://dart.dev/tools/analysis) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 7 | [DORA, Loosely coupled teams](https://dora.dev/capabilities/loosely-coupled-teams/) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -227,6 +231,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Flutter, Architecture design patterns](https://docs.flutter.dev/app-architecture/design-patterns) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter, Performance best practices](https://docs.flutter.dev/perf/best-practices) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter, Testing overview](https://docs.flutter.dev/testing/overview) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
+| 7 | [flutter_lints package](https://pub.dev/packages/flutter_lints) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Ford et al., Building Evolutionary Architectures (book)](https://evolutionaryarchitecture.com/) | [general/quality-attributes](general/quality-attributes.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Fowler, Anemic Domain Model](https://martinfowler.com/bliki/AnemicDomainModel.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Fowler, Beck Design Rules](https://martinfowler.com/bliki/BeckDesignRules.html) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -247,6 +252,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [Helm chart best practices](https://helm.sh/docs/chart_best_practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 7 | [IAM Access Analyzer, policy validation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [Kubernetes tutorials](https://kubernetes.io/docs/tutorials/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Configure liveness, readiness and startup probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -334,13 +340,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Architecture decision records overview](https://docs.cloud.google.com/architecture/architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [ArchUnitNET](https://github.com/TNG/ArchUnitNET) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [ArchUnitNET guide](https://archunitnet.readthedocs.io/en/latest/guide/) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 6 | [AWS Config, required-tags rule](https://docs.aws.amazon.com/config/latest/developerguide/required-tags.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS multi-Region fundamentals](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [AWS Prescriptive Guidance, ADR best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 6 | [AWS Resilience Hub, concepts](https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
+| 6 | [AWS Security Hub, Resource Tagging standard](https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS Well-Architected, Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Azure Architecture Center: AI and machine learning](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 6 | [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 6 | [buf breaking, rules and categories](https://buf.build/docs/breaking/rules/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -374,12 +384,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
-| 6 | [Konsist, architecture assertions](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
+| 6 | [Konsist, architecture assertions](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert) | [general/testing-delivery](general/testing-delivery.md), [specific/android](specific/android/README.md) | 2026-10-25 |
+| 6 | [kube-linter checks](https://docs.kubelinter.io/#/generated/checks) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 6 | [Kubernetes RBAC, service account permissions](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#service-account-permissions) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Autoscaling workloads](https://kubernetes.io/docs/concepts/workloads/autoscaling/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Multi-tenancy](https://kubernetes.io/docs/concepts/security/multi-tenancy/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Service accounts](https://kubernetes.io/docs/concepts/security/service-accounts/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 6 | [Kyverno policy library](https://kyverno.io/policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Microsoft, .NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
@@ -393,6 +406,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Patterns.dev](https://www.patterns.dev/) | [general/reading-list](general/reading-list.md), [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 6 | [react.dev, purity lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/purity) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 6 | [react.dev, set-state-in-effect lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Refactoring.Guru: design patterns](https://refactoring.guru/design-patterns) | [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -432,18 +447,26 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-36 sources.
+64 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 5 | [Anthropic skills repository](https://github.com/anthropics/skills) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 5 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 5 | [AWS Config, CloudFormation stack drift detection rule](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
+| 5 | [AWS DevOps Blog, compliance with the AWS CDK and cdk-nag](https://aws.amazon.com/blogs/devops/manage-application-security-and-compliance-with-the-aws-cloud-development-kit-and-cdk-nag/) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS Lambda, C# handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Lambda, Python handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [AWS Resilience Hub, scheduled assessments](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
+| 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
+| 5 | [Dart linter rule, prefer_final_fields](https://dart.dev/tools/linter-rules/prefer_final_fields) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
+| 5 | [detekt, coroutines rules](https://detekt.dev/docs/rules/coroutines/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-testing-library](https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -453,9 +476,21 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Hipple, Unite 2017 sample project](https://github.com/roboryantron/Unite2017) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 5 | [Hipple, Unite 2017: Game Architecture with Scriptable Objects (talk video)](https://www.youtube.com/watch?v=raQ3iHhE_Kk) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
+| 5 | [IAM Access Analyzer API, ValidatePolicy](https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ValidatePolicy.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [IETF draft, Idempotency-Key header](https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 5 | [Konsist, Android test snippets](https://docs.konsist.lemonappdev.com/samples/starter-test-snippets/android-test-snippets) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 5 | [Kubernetes, Recommended labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 5 | [Kyverno policy, add default-deny NetworkPolicy](https://kyverno.io/policies/best-practices/add-network-policy/add-network-policy/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Kyverno policy, require labels](https://kyverno.io/policies/best-practices/require-labels/require-labels/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Kyverno policy, require PodDisruptionBudget](https://kyverno.io/policies/other/require-pdb/require-pdb/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Polaris, efficiency checks](https://polaris.docs.fairwinds.com/checks/efficiency/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Polaris, infrastructure as code (CI)](https://polaris.docs.fairwinds.com/infrastructure-as-code/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Polaris, reliability checks](https://polaris.docs.fairwinds.com/checks/reliability/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Polaris, security checks](https://polaris.docs.fairwinds.com/checks/security/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Roberts, Serverless Architectures](https://martinfowler.com/articles/serverless.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -470,5 +505,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [adr-tools](https://github.com/npryce/adr-tools) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 4 | [AWS Skill Builder](https://skillbuilder.aws/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 4 | [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 4 | [bloc_lint, avoid_flutter_imports](https://bloclibrary.dev/lint-rules/avoid_flutter_imports/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
+| 4 | [bloc_lint, avoid_public_fields](https://bloclibrary.dev/lint-rules/avoid_public_fields/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
+| 4 | [DCM, avoid-banned-imports (commercial)](https://dcm.dev/docs/rules/common/avoid-banned-imports/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 4 | [docs-as-co.de](https://docs-as-co.de/) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 4 | [Gatekeeper library, container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 4 | [Gatekeeper library, disallowed tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [Unity Chop Chop (Open Project 1)](https://github.com/UnityTechnologies/open-project-1) | [specific/unity](specific/unity/README.md) | 2026-10-24 |

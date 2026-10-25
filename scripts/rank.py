@@ -448,7 +448,7 @@ def render_rules_md(records, registry, enforcement):
         out += [f"## [{display_path(file)}]({file})", "", "| ID | Score | Level | Rule | Checked by |", "| --- | --- | --- | --- | --- |"]
         for rule_id, rule_file, score, title in records:
             if rule_file == file:
-                tools = ", ".join(dict.fromkeys(tool for rid, tool, _ in enforcement if rid == rule_id))
+                tools = ", ".join(sorted({tool for rid, tool, _ in enforcement if rid == rule_id}, key=str.lower))
                 out.append(f"| `{rule_id}` | {score} | {level(score or 0, True)} | {title.replace('|', chr(92) + '|')} | {tools} |")
         out.append("")
     retired = sorted((rid for rid, entry in registry.items() if entry["status"] == "retired"), key=id_key)

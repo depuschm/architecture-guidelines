@@ -102,6 +102,7 @@ score,title,url,verified
 8,"Kubernetes, Configuration good practices",https://kubernetes.io/blog/2025/11/25/configuration-good-practices/,2026-10-24
 8,"Kubernetes, Good practices for Secrets",https://kubernetes.io/docs/concepts/security/secrets-good-practices/,2026-10-24
 8,"Kubernetes, Liveness, readiness and startup probes",https://kubernetes.io/docs/concepts/workloads/pods/probes/,2026-10-24
+8,"Kubernetes, Pod Security Admission",https://kubernetes.io/docs/concepts/security/pod-security-admission/,2026-10-25
 8,"Kubernetes, Pod Security Standards",https://kubernetes.io/docs/concepts/security/pod-security-standards/,2026-10-24
 8,"Kubernetes, RBAC good practices",https://kubernetes.io/docs/concepts/security/rbac-good-practices/,2026-10-24
 8,"Kubernetes, Resource management for pods and containers",https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/,2026-10-24
@@ -126,6 +127,7 @@ score,title,url,verified
 8,OWASP Secrets Management Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html,2026-10-24
 8,OWASP Threat Modeling Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html,2026-10-24
 8,"react.dev, Choosing the state structure",https://react.dev/learn/choosing-the-state-structure,2026-10-24
+8,"react.dev, eslint-plugin-react-hooks",https://react.dev/reference/eslint-plugin-react-hooks,2026-10-25
 8,"react.dev, Keeping components pure",https://react.dev/learn/keeping-components-pure,2026-10-24
 8,"react.dev, You might not need an Effect",https://react.dev/learn/you-might-not-need-an-effect,2026-10-24
 8,"RFC 9457, Problem Details for HTTP APIs",https://www.rfc-editor.org/rfc/rfc9457,2026-10-24
@@ -173,6 +175,7 @@ score,title,url,verified
 7,"AWS Organizations, SCPs",https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html,2026-10-24
 7,"AWS Prescriptive Guidance, ADR process",https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html,2026-10-24
 7,AWS Prescriptive Guidance: cloud design patterns,https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html,2026-10-24
+7,"AWS Security Hub, Foundational Security Best Practices standard",https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html,2026-10-25
 7,AWS Security Reference Architecture,https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html,2026-10-24
 7,AWS Well-Architected Generative AI Lens,https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html,2026-10-24
 7,"AWS Well-Architected, Cost optimization pillar",https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html,2026-10-24
@@ -198,6 +201,7 @@ score,title,url,verified
 7,"Clemson, Testing Strategies in a Microservice Architecture",https://martinfowler.com/articles/microservice-testing/,2026-10-24
 7,Consistency models,https://jepsen.io/consistency,2026-10-24
 7,Context Mapping,https://github.com/ddd-crew/context-mapping,2026-10-24
+7,"Dart, customizing static analysis",https://dart.dev/tools/analysis,2026-10-25
 7,"Dehghani, How to break a Monolith into Microservices",https://martinfowler.com/articles/break-monolith-into-microservices.html,2026-10-24
 7,Docs as Code,https://www.writethedocs.org/guide/docs-as-code/,2026-10-24
 7,"DORA, Loosely coupled teams",https://dora.dev/capabilities/loosely-coupled-teams/,2026-10-24
@@ -208,6 +212,7 @@ score,title,url,verified
 7,"Flutter, Architecture design patterns",https://docs.flutter.dev/app-architecture/design-patterns,2026-10-24
 7,"Flutter, Performance best practices",https://docs.flutter.dev/perf/best-practices,2026-10-24
 7,"Flutter, Testing overview",https://docs.flutter.dev/testing/overview,2026-10-24
+7,flutter_lints package,https://pub.dev/packages/flutter_lints,2026-10-25
 7,"Ford et al., Building Evolutionary Architectures (book)",https://evolutionaryarchitecture.com/,2026-10-24
 7,"Fowler, Anemic Domain Model",https://martinfowler.com/bliki/AnemicDomainModel.html,2026-10-24
 7,"Fowler, Beck Design Rules",https://martinfowler.com/bliki/BeckDesignRules.html,2026-10-24
@@ -228,6 +233,7 @@ score,title,url,verified
 7,"Google SRE book, Postmortem Culture",https://sre.google/sre-book/postmortem-culture/,2026-10-24
 7,"Harmel-Law, Scaling the Practice of Architecture, Conversationally",https://martinfowler.com/articles/scaling-architecture-conversationally.html,2026-10-24
 7,Helm chart best practices,https://helm.sh/docs/chart_best_practices/,2026-10-24
+7,"IAM Access Analyzer, policy validation",https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html,2026-10-25
 7,Kubernetes tutorials,https://kubernetes.io/docs/tutorials/,2026-10-24
 7,"Kubernetes, Configure liveness, readiness and startup probes",https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/,2026-10-24
 7,"Kubernetes, Disruptions",https://kubernetes.io/docs/concepts/workloads/pods/disruptions/,2026-10-24
@@ -315,13 +321,17 @@ score,title,url,verified
 6,Architecture decision records overview,https://docs.cloud.google.com/architecture/architecture-decision-records,2026-10-24
 6,ArchUnitNET,https://github.com/TNG/ArchUnitNET,2026-10-24
 6,ArchUnitNET guide,https://archunitnet.readthedocs.io/en/latest/guide/,2026-10-25
+6,"AWS Config, required-tags rule",https://docs.aws.amazon.com/config/latest/developerguide/required-tags.html,2026-10-25
 6,AWS multi-Region fundamentals,https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/,2026-10-24
 6,"AWS Prescriptive Guidance, ADR best practices",https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html,2026-10-24
+6,"AWS Resilience Hub, concepts",https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html,2026-10-25
+6,"AWS Security Hub, Resource Tagging standard",https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html,2026-10-25
 6,"AWS Well-Architected, Serverless Applications Lens",https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html,2026-10-24
 6,Azure Architecture Center: AI and machine learning,https://learn.microsoft.com/en-us/azure/architecture/ai-ml/,2026-10-24
 6,Bounded Context Canvas,https://github.com/ddd-crew/bounded-context-canvas,2026-10-24
 6,"buf breaking, rules and categories",https://buf.build/docs/breaking/rules/,2026-10-25
 6,"Bulletproof React, project structure",https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md,2026-10-24
+6,cdk-nag rules,https://github.com/cdklabs/cdk-nag/blob/main/RULES.md,2026-10-25
 6,Clean Architecture template (Ardalis),https://github.com/ardalis/CleanArchitecture,2026-10-24
 6,"CodeQL, clear-text logging of sensitive data (Python)",https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/,2026-10-25
 6,"Conway, original paper",https://www.melconway.com/Home/Conways_Law.html,2026-10-24
@@ -356,11 +366,14 @@ score,title,url,verified
 6,"Import Linter, layers contracts",https://import-linter.readthedocs.io/en/stable/contract_types/layers/,2026-10-25
 6,"Jackson, Micro Frontends",https://martinfowler.com/articles/micro-frontends.html,2026-10-24
 6,"Konsist, architecture assertions",https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert,2026-10-25
+6,kube-linter checks,https://docs.kubelinter.io/#/generated/checks,2026-10-25
 6,"Kubernetes RBAC, service account permissions",https://kubernetes.io/docs/reference/access-authn-authz/rbac/#service-account-permissions,2026-10-24
 6,"Kubernetes, Autoscaling workloads",https://kubernetes.io/docs/concepts/workloads/autoscaling/,2026-10-24
 6,"Kubernetes, Multi-tenancy",https://kubernetes.io/docs/concepts/security/multi-tenancy/,2026-10-24
 6,"Kubernetes, Service accounts",https://kubernetes.io/docs/concepts/security/service-accounts/,2026-10-24
 6,"Kubernetes, Topology spread constraints",https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/,2026-10-24
+6,Kyverno policy library,https://kyverno.io/policies/,2026-10-25
+6,"Lighthouse CI, configuration and assertions",https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md,2026-10-25
 6,Mermaid C4 diagrams,https://mermaid.js.org/syntax/c4.html,2026-10-24
 6,"Microsoft, .NET code analysis overview",https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview,2026-10-25
 6,"Microsoft.Unity.Analyzers, diagnostics",https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md,2026-10-25
@@ -374,6 +387,8 @@ score,title,url,verified
 6,"Palermo, Onion Architecture",https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/,2026-10-24
 6,Patterns.dev,https://www.patterns.dev/,2026-10-24
 6,Principles of Chaos Engineering,https://principlesofchaos.org/,2026-10-24
+6,"react.dev, purity lint",https://react.dev/reference/eslint-plugin-react-hooks/lints/purity,2026-10-25
+6,"react.dev, set-state-in-effect lint",https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect,2026-10-25
 6,Reducing the scope of impact with cell-based architecture,https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html,2026-10-24
 6,Refactoring.Guru: design patterns,https://refactoring.guru/design-patterns,2026-10-24
 6,Server Components,https://react.dev/reference/rsc/server-components,2026-10-24
@@ -412,12 +427,20 @@ score,title,url,verified
 6,Workload isolation using shuffle-sharding,https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/,2026-10-24
 5,Anthropic skills repository,https://github.com/anthropics/skills,2026-10-24
 5,Awesome Software Architecture,https://github.com/mehdihadeli/awesome-software-architecture,2026-10-24
+5,"AWS Config, CloudFormation stack drift detection rule",https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html,2026-10-25
+5,"AWS DevOps Blog, compliance with the AWS CDK and cdk-nag",https://aws.amazon.com/blogs/devops/manage-application-security-and-compliance-with-the-aws-cloud-development-kit-and-cdk-nag/,2026-10-25
 5,"AWS Lambda, C# handler best practices",https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html,2026-10-24
 5,"AWS Lambda, Python handler best practices",https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html,2026-10-24
+5,"AWS Resilience Hub, scheduled assessments",https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html,2026-10-25
 5,"AWS Well-Architected, Sustainability pillar",https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html,2026-10-24
 5,Clean Architecture template (Jason Taylor),https://github.com/jasontaylordev/CleanArchitecture,2026-10-24
 5,"CodeQL, clear-text logging of sensitive data (JavaScript)",https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/,2026-10-25
+5,"Dart diagnostic, must_be_immutable",https://dart.dev/tools/diagnostics/must_be_immutable,2026-10-25
+5,"Dart linter rule, prefer_final_fields",https://dart.dev/tools/linter-rules/prefer_final_fields,2026-10-25
+5,"detekt, coroutines rules",https://detekt.dev/docs/rules/coroutines/,2026-10-25
 5,Domain-Driven Design Quickly (InfoQ e-book),https://www.infoq.com/minibooks/domain-driven-design-quickly/,2026-10-24
+5,eslint-plugin-boundaries,https://www.jsboundaries.dev/docs/overview/,2026-10-25
+5,eslint-plugin-testing-library,https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library/,2026-10-25
 5,Feature-Sliced Design,https://feature-sliced.design/,2026-10-24
 5,"Fowler, Polyglot Persistence",https://martinfowler.com/bliki/PolyglotPersistence.html,2026-10-24
 5,"Fowler, Sacrificial Architecture",https://martinfowler.com/bliki/SacrificialArchitecture.html,2026-10-24
@@ -427,9 +450,21 @@ score,title,url,verified
 5,"Google API Linter, core::0158::request-page-size-field",https://linter.aip.dev/158/request-page-size-field,2026-10-25
 5,"Hipple, Unite 2017 sample project",https://github.com/roboryantron/Unite2017,2026-10-24
 5,"Hipple, Unite 2017: Game Architecture with Scriptable Objects (talk video)",https://www.youtube.com/watch?v=raQ3iHhE_Kk,2026-10-24
+5,"IAM Access Analyzer API, ValidatePolicy",https://docs.aws.amazon.com/access-analyzer/latest/APIReference/API_ValidatePolicy.html,2026-10-25
 5,"IETF draft, Idempotency-Key header",https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/,2026-10-24
+5,"Konsist, Android test snippets",https://docs.konsist.lemonappdev.com/samples/starter-test-snippets/android-test-snippets,2026-10-25
 5,"Kubernetes, Recommended labels",https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/,2026-10-24
+5,"Kyverno policy, add default-deny NetworkPolicy",https://kyverno.io/policies/best-practices/add-network-policy/add-network-policy/,2026-10-25
+5,"Kyverno policy, require labels",https://kyverno.io/policies/best-practices/require-labels/require-labels/,2026-10-25
+5,"Kyverno policy, require PodDisruptionBudget",https://kyverno.io/policies/other/require-pdb/require-pdb/,2026-10-25
+5,"Kyverno policy, require probes",https://kyverno.io/policies/best-practices/require-probes/require-probes/,2026-10-25
+5,"Kyverno policy, require requests and limits",https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/,2026-10-25
 5,"Microsoft, Customize builds by folder (Directory.Build.props)",https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory,2026-10-25
+5,OPA Gatekeeper policy library,https://open-policy-agent.github.io/gatekeeper-library/website/,2026-10-25
+5,"Polaris, efficiency checks",https://polaris.docs.fairwinds.com/checks/efficiency/,2026-10-25
+5,"Polaris, infrastructure as code (CI)",https://polaris.docs.fairwinds.com/infrastructure-as-code/,2026-10-25
+5,"Polaris, reliability checks",https://polaris.docs.fairwinds.com/checks/reliability/,2026-10-25
+5,"Polaris, security checks",https://polaris.docs.fairwinds.com/checks/security/,2026-10-25
 5,"Roberts, Serverless Architectures",https://martinfowler.com/articles/serverless.html,2026-10-24
 5,Serverless Land,https://serverlessland.com/,2026-10-24
 5,Tagging best practices,https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html,2026-10-24
@@ -444,5 +479,13 @@ score,title,url,verified
 4,adr-tools,https://github.com/npryce/adr-tools,2026-10-24
 4,AWS Skill Builder,https://skillbuilder.aws/,2026-10-24
 4,AWS Well-Architected Labs,https://www.wellarchitectedlabs.com/,2026-10-24
+4,"bloc_lint, avoid_flutter_imports",https://bloclibrary.dev/lint-rules/avoid_flutter_imports/,2026-10-25
+4,"bloc_lint, avoid_public_fields",https://bloclibrary.dev/lint-rules/avoid_public_fields/,2026-10-25
+4,"DCM, avoid-banned-imports (commercial)",https://dcm.dev/docs/rules/common/avoid-banned-imports/,2026-10-25
 4,docs-as-co.de,https://docs-as-co.de/,2026-10-24
+4,"Gatekeeper library, container requests",https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/,2026-10-25
+4,"Gatekeeper library, disallowed tags",https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/,2026-10-25
+4,"Gatekeeper library, required probes",https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/,2026-10-25
+4,Module Graph Assert (Gradle plugin),https://github.com/jraska/modules-graph-assert,2026-10-25
+4,Slack compose-lints rules,https://slackhq.github.io/compose-lints/rules/,2026-10-25
 4,Unity Chop Chop (Open Project 1),https://github.com/UnityTechnologies/open-project-1,2026-10-24

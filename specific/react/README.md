@@ -28,6 +28,15 @@ Scope: web front ends built with React, either on their own or inside a framewor
 - `6` `REACT-11` **Move non-view logic (domain, data access) out of components as the app grows.** ([Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html))
 - `6` `REACT-12` **Track Core Web Vitals as the user-facing performance budget.** ([web.dev, Web Vitals](https://web.dev/articles/vitals))
 
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `8` [eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks): the official lint rules, including the React Compiler checks. [`purity`](https://react.dev/reference/eslint-plugin-react-hooks/lints/purity) flags impure components and hooks, and [`set-state-in-effect`](https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect) flags data transformed or state derived in Effects. Checks `REACT-1` and `REACT-3`, and partly `REACT-2`.
+- `6` [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md): fails CI when lab metrics such as LCP, CLS and Total Blocking Time exceed your budget. Lab tests can't measure INP; [TBT is its lab proxy](https://web.dev/articles/vitals). Partly checks `REACT-12`.
+- `5` [eslint-plugin-testing-library](https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library/): flags tests that reach into DOM nodes or containers instead of using user-facing queries. Checks `REACT-6`.
+- `5` [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/): enforces which folders may import which, for example no imports across features, or from components into data access. Checks `REACT-10`, and partly `REACT-11`.
+
 ## Tutorials and further reading
 
 - `6` [Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) (Cam Jackson): when splitting a front end across teams is worth the cost.

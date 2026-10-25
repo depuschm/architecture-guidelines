@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-52 sources.
+57 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -16,12 +16,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
-| 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
+| 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 9 | [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -32,6 +33,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Building effective agents](https://www.anthropic.com/research/building-effective-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 9 | [Create modular game architecture with ScriptableObjects (Unity e-book, Unity 6 edition)](https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 9 | [DORA research program](https://dora.dev/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 9 | [Epic Games, Epic C++ Coding Standard for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 9 | [Epic Games, Gameplay Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 9 | [Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 9 | [Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -55,6 +58,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 9 | [OWASP Top 10](https://top10.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 9 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) | [general/ai-systems](general/ai-systems.md), [general/security](general/security.md) | 2026-10-24 |
+| 9 | [OWASP, Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -62,11 +66,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Ultimate guide to profiling Unity games (Unity e-book)](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 9 | [Unity Manual, Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 9 | [W3C WAI, ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 
 ## Recommended (6–8)
 
-549 sources.
+599 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -102,6 +107,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [DORA metrics guide](https://dora.dev/guides/dora-metrics/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Effective Dart](https://dart.dev/effective-dart) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 8 | [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) | [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 8 | [Epic Games, Data Validation in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-validation-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Exposing C++ to Blueprints Visual Scripting in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/exposing-cplusplus-to-blueprints-visual-scripting-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Game Mode and Game State in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-mode-and-game-state-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Networking Overview for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-overview-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Object Pointers in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/object-pointers-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Programming Subsystems in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/programming-subsystems-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Referencing Assets in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/referencing-assets-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Remote Procedure Calls in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/remote-procedure-calls-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Unreal Engine Modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 8 | [Epic Games, Unreal Object Handling in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-object-handling-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 8 | [eShop reference application](https://github.com/dotnet/eShop) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Evans, Domain-Driven Design (book)](https://www.domainlanguage.com/ddd/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Fowler (David), ASP.NET Core async guidance](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -155,6 +170,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Kubernetes, RBAC good practices](https://kubernetes.io/docs/concepts/security/rbac-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Resource management for pods and containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Martin, The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
+| 8 | [MDN, Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [MDN, ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [MDN, HTTP caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [Microservice Architecture pattern language](https://microservices.io/patterns/index.html) | [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [microservices.io data management patterns](https://microservices.io/patterns/data/database-per-service.html) | [general/architecture-styles](general/architecture-styles.md), [general/data](general/data.md) | 2026-10-24 |
 | 8 | [microservices.io, Saga](https://microservices.io/patterns/data/saga.html) | [general/data](general/data.md) | 2026-10-24 |
@@ -181,6 +199,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
+| 8 | [OWASP, Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [OWASP, DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [OWASP, HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -204,6 +225,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 8 | [W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [web.dev, Baseline](https://web.dev/baseline) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [web.dev, Learn Performance](https://web.dev/learn/performance) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [web.dev, Mitigate cross-site scripting (XSS) with a strict Content Security Policy (CSP)](https://web.dev/articles/strict-csp) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [web.dev, The most effective ways to improve Core Web Vitals](https://web.dev/articles/top-cwv) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [Yoni Goldberg et al., Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [adr.github.io](https://adr.github.io/) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -264,9 +290,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Dart, customizing static analysis](https://dart.dev/tools/analysis) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
+| 7 | [Deque, axe-core rule descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 7 | [DORA, Loosely coupled teams](https://dora.dev/capabilities/loosely-coupled-teams/) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Emerging Patterns in Building GenAI Products](https://martinfowler.com/articles/gen-ai-patterns/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 7 | [Epic Games, Asset Management in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-management-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Asynchronous Asset Loading in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/asynchronous-asset-loading-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Automation Test Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Game Features and Modular Gameplay in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-features-and-modular-gameplay-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Lyra Sample Game in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/lyra-sample-game-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Recommended Asset Naming Conventions in Unreal Engine projects](https://dev.epicgames.com/documentation/en-us/unreal-engine/recommended-asset-naming-conventions-in-unreal-engine-projects) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Run Automation Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/run-automation-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Understanding the Unreal Engine Gameplay Ability System](https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Epic Games, Unreal Insights in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 7 | [EventStorming](https://www.eventstorming.com/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Flutter app architecture, case study](https://docs.flutter.dev/app-architecture/case-study) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter app architecture, concepts](https://docs.flutter.dev/app-architecture/concepts) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -328,6 +364,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google Cloud, Best practices for Terraform root modules](https://docs.cloud.google.com/docs/terraform/best-practices/root-modules) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for Terraform security](https://docs.cloud.google.com/docs/terraform/best-practices/security) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Gregory, Game Engine Architecture (book)](https://www.gameenginebook.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [HashiCorp, Creating modules](https://developer.hashicorp.com/terraform/language/modules/develop) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -351,6 +389,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Mario Casciaro and Luciano Mammino, Node.js Design Patterns (4th edition)](https://nodejsdesignpatterns.com/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Martin, The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Martin, The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) | [general/principles](general/principles.md) | 2026-10-24 |
+| 7 | [MDN Learn, Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [MDN, Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, C# compiler options for errors and warnings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
@@ -450,8 +490,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, ScriptableObject event channels](https://unity.com/how-to/scriptableobjects-event-channels-game-code) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
-| 7 | [web.dev, Web Vitals](https://web.dev/articles/vitals) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 7 | [web.dev, Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [web.dev, How to choose your Baseline target](https://web.dev/articles/how-to-choose-your-baseline-target) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [web.dev, Learn Accessibility](https://web.dev/learn/accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [web.dev, Web Vitals](https://web.dev/articles/vitals) | [specific/react](specific/react/README.md), [specific/web](specific/web/README.md) | 2026-10-24 |
+| 7 | [web.dev, Why lab and field data can be different (and what to do about it)](https://web.dev/articles/lab-and-field-data-differences) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -476,11 +521,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 6 | [dependency-cruiser, rules reference: group matching](https://github.com/sverweij/dependency-cruiser/blob/main/doc/rules-reference.md#group-matching) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [Deque, @axe-core/playwright](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Deque, axe-core](https://github.com/dequelabs/axe-core) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Designing robust and predictable APIs with idempotency](https://stripe.com/blog/idempotency) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Diátaxis, The map](https://diataxis.fr/map/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Dodds, Colocation](https://kentcdodds.com/blog/colocation) | [specific/react](specific/react/README.md) | 2026-10-24 |
-| 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Blueprint Best Practices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md), [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Running Gauntlet Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/running-gauntlet-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Static Code Analysis in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/static-code-analysis-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-n, no-sync](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-regexp, no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -539,7 +591,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Kubernetes, Service accounts](https://kubernetes.io/docs/concepts/security/service-accounts/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kyverno policy library](https://kyverno.io/policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/react](specific/react/README.md) | 2026-10-25 |
+| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/react](specific/react/README.md), [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [MDN, HTTP Observatory (mdn-http-observatory)](https://github.com/mdn/mdn-http-observatory) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Mertens, ECS FAQ](https://github.com/SanderMertens/ecs-faq) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Microsoft Learn, Automate your workflow with GitHub Actions (learning path)](https://learn.microsoft.com/en-us/training/paths/github-actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -547,6 +601,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Mozilla, eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Next.js, Server Actions and Mutations: Sequential dispatch on the client](https://nextjs.org/docs/app/guides/server-actions#sequential-dispatch-on-the-client) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 1.2 Layer your components, keep the web layer within its boundaries](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/createlayers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 2.11 Fail fast, validate arguments using a dedicated library](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/failfast.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -574,6 +629,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [OpenSSF Scorecard, checks: Dangerous-Workflow](https://github.com/ossf/scorecard/blob/main/docs/checks.md#dangerous-workflow) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks: Pinned-Dependencies](https://github.com/ossf/scorecard/blob/main/docs/checks.md#pinned-dependencies) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks: Token-Permissions](https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [OWASP, Third Party JavaScript Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Patterns.dev](https://www.patterns.dev/) | [general/reading-list](general/reading-list.md), [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -590,14 +646,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [The Architecture of Open Source Applications](https://aosabook.org/en/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [The Software Architect Elevator](https://architectelevator.com/book/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Thoughtworks Radar, Inverse Conway Maneuver](https://www.thoughtworks.com/radar/techniques/inverse-conway-maneuver) | [general/principles](general/principles.md) | 2026-10-24 |
+| 6 | [Tom Looman, Unreal Engine C++ Complete Guide](https://tomlooman.com/unreal-engine-cpp-guide/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [TypeScript Handbook, The Basics: Erased types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
-| 6 | [Unity Learn, Command pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-the-command-pattern-for-flexible-and-extensible-game-systems) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
-| 6 | [Unity Learn, MVC and MVP patterns](https://learn.unity.com/course/design-patterns-unity-6/tutorial/build-a-modular-codebase-with-mvc-and-mvp-programming-patterns) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
-| 6 | [Unity Learn, Object pooling](https://learn.unity.com/course/design-patterns-unity-6/tutorial/use-object-pooling-to-boost-performance-of-c-scripts-in-unity) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
-| 6 | [Unity Learn, Observer pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/create-modular-and-maintainable-code-with-the-observer-pattern) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
-| 6 | [Unity Learn, State pattern](https://learn.unity.com/course/design-patterns-unity-6/tutorial/develop-a-modular-flexible-codebase-with-the-state-programming-pattern) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Analyzer scope and diagnostics](https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Unity Manual, Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -616,13 +668,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity, UI Toolkit for advanced Unity developers](https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 6 | [web.dev, Learn Images](https://web.dev/learn/images) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [web.dev, Learn Responsive Design: Responsive images](https://web.dev/learn/design/responsive-images) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [zizmor, Audit rules](https://docs.zizmor.sh/audits/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 
 ## Further reading (1–5)
 
-81 sources.
+86 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -635,14 +690,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [AWS Lambda, Python handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Resilience Hub, scheduled assessments](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [Cedric Neukirchen, Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Checkov, Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
+| 5 | [Dan Kestranek (tranek), GASDocumentation](https://github.com/tranek/GASDocumentation) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [Dart linter rule, prefer_final_fields](https://dart.dev/tools/linter-rules/prefer_final_fields) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [detekt, coroutines rules](https://detekt.dev/docs/rules/coroutines/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-testing-library](https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
@@ -670,6 +728,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Kyverno policy, require PodDisruptionBudget](https://kyverno.io/policies/other/require-pdb/require-pdb/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [MDN, Progressive enhancement (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -680,6 +739,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Polaris, infrastructure as code (CI)](https://polaris.docs.fairwinds.com/infrastructure-as-code/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, reliability checks](https://polaris.docs.fairwinds.com/checks/reliability/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, security checks](https://polaris.docs.fairwinds.com/checks/security/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [PVS-Studio, V1100: pointer to a UObject type in a class not derived from UObject](https://pvs-studio.com/en/docs/warnings/v1100/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Roberts, Serverless Architectures](https://martinfowler.com/articles/serverless.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |

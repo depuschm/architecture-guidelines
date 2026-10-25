@@ -62,6 +62,8 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | Games | [Game development](specific/gamedev/README.md) | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) and [Fast-Paced Multiplayer](https://www.gabrielgambetta.com/client-server-game-architecture.html) |
 | Games | [Unity](specific/unity/README.md) | [Unity best practice guides and e-books](https://docs.unity3d.com/Manual/best-practice-guides.html) |
 | Games | [Godot](specific/godot/README.md) | [Godot best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) |
+| Games | [Unreal Engine](specific/unreal/README.md) | [Gameplay Framework](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) and [Epic C++ Coding Standard](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine) |
+| Web and back end | [Web front end](specific/web/README.md) | [WCAG 2.2](https://www.w3.org/TR/WCAG22/), [OWASP XSS Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) and [Core Web Vitals](https://web.dev/articles/top-cwv) |
 | Web and back end | [React](specific/react/README.md) | [react.dev Learn](https://react.dev/learn) |
 | Web and back end | [Next.js](specific/nextjs/README.md) | [Next.js Docs: App Router](https://nextjs.org/docs/app) |
 | Web and back end | [Node.js](specific/nodejs/README.md) | [Don't Block the Event Loop](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) and [Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) |
@@ -79,7 +81,7 @@ To add a platform, copy [`specific/_template`](specific/_template/README.md) and
 
 Every rule of an area in one list, grouped by level and sorted by score, with the tools that can check each rule automatically. Paste one into a pull request, design review or project kickoff:
 
-[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Node.js](checklists/nodejs.md) · [.NET](checklists/dotnet.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Kubernetes](checklists/kubernetes.md) · [AWS](checklists/aws.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md)
+[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [Unreal](checklists/unreal.md) · [Web](checklists/web.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Node.js](checklists/nodejs.md) · [.NET](checklists/dotnet.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Kubernetes](checklists/kubernetes.md) · [AWS](checklists/aws.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md)
 
 ## AI skills
 

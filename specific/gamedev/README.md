@@ -1,7 +1,7 @@
 <!-- rule-prefix: GAMEDEV -->
 # Game development (engine-independent)
 
-Scope: architecture concerns that every game shares, whatever the engine: the game loop and time steps, core game patterns, entity-component systems, data-driven design, multiplayer networking, save data, and frame budgets. Engine-specific guidance is in [Unity](../unity/README.md) and [Godot](../godot/README.md), and the [general guidelines](../../general/README.md) still apply.
+Scope: architecture concerns that every game shares, whatever the engine: the game loop and time steps, core game patterns, entity-component systems, data-driven design, multiplayer networking, save data, and frame budgets. Engine-specific guidance is in [Unity](../unity/README.md), [Godot](../godot/README.md) and [Unreal Engine](../unreal/README.md), and the [general guidelines](../../general/README.md) still apply.
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

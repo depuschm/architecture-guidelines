@@ -7,9 +7,11 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Game development](gamedev/README.md): engine-independent game architecture (game loop, multiplayer, save data, frame budgets).
 - [Unity](unity/README.md): game and real-time 3D projects.
 - [Godot](godot/README.md): games built with Godot 4 and GDScript.
+- [Unreal Engine](unreal/README.md): Unreal Engine 5 games in C++ and Blueprint.
 
 ### Web and back end
 
+- [Web front end](web/README.md): framework-independent accessibility, performance, security and resilience.
 - [React](react/README.md): web front ends.
 - [Next.js](nextjs/README.md): full-stack React apps with the App Router.
 - [Node.js](nodejs/README.md): back-end services in TypeScript.

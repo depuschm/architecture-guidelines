@@ -122,7 +122,7 @@ python3 scripts/build_site.py --serve    # live preview at http://localhost:8000
 
 The script stages the Markdown and generates the navigation from the indexes, so a new file or platform appears on the site once it's linked from its index. Links to files that aren't on the site, such as CSV files and scripts, point to GitHub.
 
-CI runs the same checks on every push and pull request, and weekly to catch link rot and retired pages. `verify_sources.py` catches pages that still answer HTTP 200 but redirect to a home, 404 or "deprecated" page, which a plain link checker misses.
+CI runs the same checks on every push and pull request, and weekly to catch link rot and retired pages. `verify_sources.py` catches pages that still answer HTTP 200 but redirect to a home, 404 or "deprecated" page, or that serve an empty page marked `noindex`, which a plain link checker misses. A titled page marked `noindex` is reported as suspect: Unity Learn, for example, marks retired courses that way.
 
 ### Sites that block automated link checks
 

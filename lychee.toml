@@ -19,6 +19,9 @@ exclude = [
   '^https://www\.cisa\.gov/',
   '^https://doi\.org/10\.1145/',
   '^https://dl\.acm\.org/',
+  '^https://www\.w3\.org/',
+  # Answers scripted requests with HTTP 400, even for its home page (checked 2026-10-25).
+  '^https://developers\.meta\.com/',
   # Loads normally, but times out from GitHub-hosted runners (checked 2026-10-25).
   # scripts/verify_sources.py still checks it.
   '^https://www\.melconway\.com/',

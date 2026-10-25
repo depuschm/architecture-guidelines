@@ -4,8 +4,9 @@
 Usage:
   python3 scripts/verify_sources.py              Fetch every source. Fail on broken links and on pages that
                                                  look retired: redirected to a home, 404 or "deprecated" page,
-                                                 or titled "not found". These still answer HTTP 200, so a
-                                                 plain link checker misses them.
+                                                 titled "not found", or an untitled page marked noindex.
+                                                 These still answer HTTP 200, so a plain link checker
+                                                 misses them.
   python3 scripts/verify_sources.py --stale      List sources whose verified date is older than --max-age
                                                  days (default 365), oldest first. No network needed.
   Options: --max-age DAYS, --strict (with --stale: exit 1 if any source is stale), --verbose.
@@ -34,6 +35,7 @@ RETIRED_TITLE = re.compile(r"\b(404|page not found|not found|no longer available
 # Only the title is checked: many sites embed "no longer available" UI strings in every page's HTML.
 SUSPECT_TITLE = re.compile(r"\b(deprecated|archived|retired)\b", re.IGNORECASE)
 TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
+META = re.compile(r"<meta\b[^>]*>", re.IGNORECASE)
 
 
 def excluded_patterns():
@@ -89,6 +91,13 @@ def classify(url):
         return "retired", f'page title is "{title[:80]}"'
     if SUSPECT_TITLE.search(title):
         return "suspect", f'page title is "{title[:80]}" (check by hand)'
+    # Some sites (for example Epic's Unreal Engine docs) answer unknown pages with HTTP 200 and an
+    # empty page that tells search engines not to index it.
+    noindex = any("robots" in tag.lower() and "noindex" in tag.lower() for tag in META.findall(body))
+    if noindex and not title:
+        return "retired", "untitled page marked noindex (a soft 404)"
+    if noindex:
+        return "suspect", "page is marked noindex (check by hand)"
     return "ok", f"moved to {final}" if moved else ""
 
 

@@ -8,13 +8,13 @@ Build systems that are observable, resilient to failure and cheap to operate.
 ## Adopted references
 
 - `10` [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html): the review framework for AWS workloads. See also [specific/aws](../specific/aws/README.md).
+- `10` [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/): the review framework for Azure workloads.
+- `10` [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework): the review framework for Google Cloud workloads.
 - `9` [The Twelve-Factor App](https://12factor.net/): baseline rules for building deployable, scalable services.
-- `9` [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/): the review framework for Azure workloads.
 - `9` [Google SRE books](https://sre.google/books/) (free online): service level objectives, monitoring, incident response and postmortems.
 - `9` [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library): how Amazon builds and operates resilient distributed systems.
 - `9` [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/): resilience patterns such as Retry, Circuit Breaker, Bulkhead and Queue-Based Load Leveling.
 - `9` [OpenTelemetry documentation](https://opentelemetry.io/docs/): the vendor-neutral standard for traces, metrics and logs.
-- `8` [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework): the review framework for Google Cloud workloads.
 
 ## Key rules
 

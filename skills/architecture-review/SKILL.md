@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, mobile games, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform, GitHub Actions and GitLab CI/CD). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, mobile games, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, Azure, Google Cloud, serverless hosting (Vercel, Netlify, Cloudflare), Terraform, GitHub Actions and GitLab CI/CD). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -54,6 +54,8 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Kubernetes | YAML files with `apiVersion:` and `kind:`, `Chart.yaml`, `kustomization.yaml` | `specific/kubernetes/` |
 | OpenTelemetry | OpenTelemetry SDK packages (`@opentelemetry/*`, `opentelemetry-*`, `OpenTelemetry.*`), `OTEL_*` environment variables, or a Collector configuration with `receivers`, `exporters` and `service.pipelines` | `specific/opentelemetry/` |
 | AWS | `cdk.json`, CloudFormation/SAM templates with `AWS::` types, Terraform `provider "aws"` | `specific/aws/` |
+| Microsoft Azure | `*.bicep` files, `bicepconfig.json`, ARM templates (`azuredeploy.json`), or Terraform `provider "azurerm"` | `specific/azure/` |
+| Google Cloud | Terraform `provider "google"`, `cloudbuild.yaml`, `app.yaml`, or Google Cloud client libraries | `specific/gcp/` |
 | Serverless and edge hosting | `vercel.json`, `netlify.toml`, or `wrangler.toml`, `wrangler.json` or `wrangler.jsonc` | `specific/web-hosting/` |
 | Terraform or OpenTofu | `*.tf` or `*.tofu` files, `.terraform.lock.hcl` | `specific/terraform/` |
 | GitHub Actions | `.github/workflows/*.yml`, `action.yml` | `specific/github-actions/` |

@@ -41,6 +41,8 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Kubernetes](kubernetes/README.md): running workloads on Kubernetes.
 - [OpenTelemetry](opentelemetry/README.md): traces, metrics and logs with OpenTelemetry and the Collector.
 - [AWS](aws/README.md): workloads on Amazon Web Services.
+- [Microsoft Azure](azure/README.md): workloads on Azure.
+- [Google Cloud](gcp/README.md): workloads on Google Cloud.
 - [Serverless and edge hosting](web-hosting/README.md): deploying web apps and APIs to Vercel, Netlify and Cloudflare.
 - [Terraform](terraform/README.md): infrastructure as code with Terraform or OpenTofu.
 - [GitHub Actions](github-actions/README.md): CI/CD and automation workflows.

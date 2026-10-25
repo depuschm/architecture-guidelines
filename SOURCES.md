@@ -7,16 +7,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-82 sources.
+85 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 10 | [Apache Kafka, Documentation (4.3)](https://kafka.apache.org/43/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 10 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 10 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md), [specific/gcp](specific/gcp/README.md) | 2026-10-24 |
 | 10 | [GraphQL Foundation, Learn GraphQL](https://graphql.org/learn/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
@@ -39,7 +41,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 9 | [Azure Architecture Center: architecture styles](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/) | [general](general/README.md), [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) | [general](general/README.md), [general/architecture-styles](general/architecture-styles.md), [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
-| 9 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Building effective agents](https://www.anthropic.com/research/building-effective-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 9 | [Create modular game architecture with ScriptableObjects (Unity e-book, Unity 6 edition)](https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 9 | [Django, Deployment checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -52,6 +53,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Fowler, Software Architecture Guide](https://martinfowler.com/architecture/) | [general](general/README.md), [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [GitHub, Secure use reference (GitHub Actions)](https://docs.github.com/en/actions/reference/security/secure-use) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 9 | [Google API Improvement Proposals (AIPs)](https://google.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 9 | [Google Cloud, Enterprise foundations blueprint](https://docs.cloud.google.com/architecture/blueprints/security-foundations) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 9 | [Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Google SRE books](https://sre.google/books/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [GraphQL Foundation, GraphQL Specification (September 2025)](https://spec.graphql.org/September2025/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -61,6 +63,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 9 | [MADR: Markdown Architectural Decision Records](https://adr.github.io/madr/) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 9 | [Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 9 | [Microsoft, Cloud Adoption Framework: What is an Azure landing zone?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 9 | [Next.js, How to think about data security in Next.js](https://nextjs.org/docs/app/guides/data-security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 9 | [NIST SP 800-63B-4, Passwords](https://pages.nist.gov/800-63-4/sp800-63b.html#password) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Node.js, Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -96,7 +99,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1351 sources.
+1441 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -136,7 +139,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [AWS Well-Architected, Security pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [AWS Well-Architected, the pillars of the framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [AWS Well-Architected, The review process](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-review-process.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 8 | [Azure Well-Architected pillars](https://learn.microsoft.com/en-us/azure/well-architected/pillars) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
+| 8 | [Azure Well-Architected pillars](https://learn.microsoft.com/en-us/azure/well-architected/pillars) | [general/quality-attributes](general/quality-attributes.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 8 | [Azure, Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Azure: microservices architecture style](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [C4 model, diagrams](https://c4model.com/diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -211,8 +214,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 8 | [Godot docs, Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 8 | [Godot docs, Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 8 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [Google Cloud, Best practices for using service accounts securely](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 8 | [Google Cloud, Best practices for using Terraform: general style and structure](https://docs.cloud.google.com/docs/terraform/best-practices/general-style-structure) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [Google Cloud, Landing zone design in Google Cloud](https://docs.cloud.google.com/architecture/landing-zones) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 8 | [Google Cloud, Use IAM securely: least privilege](https://docs.cloud.google.com/iam/docs/using-iam-securely#least_privilege) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 8 | [Google Cloud, Well-Architected Framework: reliability pillar](https://docs.cloud.google.com/architecture/framework/reliability) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 8 | [Google Cloud, Well-Architected Framework: security, privacy and compliance pillar](https://docs.cloud.google.com/architecture/framework/security) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 8 | [Google Play Console Help, Device and Network Abuse policy](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [Google Play Console Help, Google Play Families policies](https://support.google.com/googleplay/android-developer/answer/9893335?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [Google Play Console Help, Payments policy](https://support.google.com/googleplay/android-developer/answer/9858738?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -254,9 +261,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Microsoft Azure Architecture Center, Caching guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [Microsoft, Architectural principles](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles) | [general/principles](general/principles.md) | 2026-10-24 |
+| 8 | [Microsoft, Azure Well-Architected Framework: design review checklist for Reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/checklist) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 8 | [Microsoft, Azure Well-Architected Framework: design review checklist for Security](https://learn.microsoft.com/en-us/azure/well-architected/security/checklist) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 8 | [Microsoft, Azure Well-Architected Framework: Using availability zones and regions](https://learn.microsoft.com/en-us/azure/well-architected/design-guides/regions-availability-zones) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 8 | [Microsoft, Build resilient HTTP apps](https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 8 | [Microsoft, Cloud Adoption Framework: subscription considerations and recommendations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions#organization-and-governance-recommendations) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 8 | [Microsoft, Common web application architectures](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 8 | [Microsoft, Microsoft cloud security benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 8 | [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Threat Modeling Tool threats (STRIDE)](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Microsoft, Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/xbox/accessibility/guidelines) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -660,9 +672,38 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, When to use scenes versus scripts](https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Google API Linter](https://linter.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for service accounts: create single-purpose service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#single-purpose) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for service accounts: don't grant access to service accounts at the project or folder level](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#project-folder-grants) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for service accounts: use service account keys only when there is no viable alternative](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#use-keys) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for Terraform operations](https://docs.cloud.google.com/docs/terraform/best-practices/operations) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for Terraform root modules](https://docs.cloud.google.com/docs/terraform/best-practices/root-modules) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for Terraform security](https://docs.cloud.google.com/docs/terraform/best-practices/security) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Best practices for Workload Identity Federation: attribute conditions for multi-tenant providers](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#multi-tenant-attribute-conditions) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Cloud Architecture Center](https://docs.cloud.google.com/architecture) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Cloud Audit Logs overview](https://docs.cloud.google.com/logging/docs/audit) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Compute Engine regions and zones](https://docs.cloud.google.com/compute/docs/regions-zones) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Configure Workload Identity Federation with deployment pipelines](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Decide a resource hierarchy for your Google Cloud landing zone](https://docs.cloud.google.com/architecture/landing-zones/decide-resource-hierarchy) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Enterprise foundations blueprint: deployment methodology](https://docs.cloud.google.com/architecture/blueprints/security-foundations/deployment-methodology) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Enterprise foundations blueprint: detective controls](https://docs.cloud.google.com/architecture/blueprints/security-foundations/detective-controls) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Enterprise foundations blueprint: organization structure](https://docs.cloud.google.com/architecture/blueprints/security-foundations/organization-structure) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Enterprise foundations blueprint: preventative controls](https://docs.cloud.google.com/architecture/blueprints/security-foundations/preventative-controls) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Google Cloud deployment archetypes](https://docs.cloud.google.com/architecture/deployment-archetypes) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Google Cloud infrastructure reliability guide](https://docs.cloud.google.com/architecture/infra-reliability-guide) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, IAM roles overview: basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#basic) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Manage Google Cloud security baseline constraints](https://docs.cloud.google.com/resource-manager/docs/manage-baseline-constraints) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Organization policy constraints reference](https://docs.cloud.google.com/organization-policy/reference/org-policy-constraints) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Organization Policy overview](https://docs.cloud.google.com/organization-policy/overview) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Overview of VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/overview) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Secret Manager best practices](https://docs.cloud.google.com/secret-manager/docs/best-practices) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, terraform-example-foundation (enterprise foundations blueprint in Terraform)](https://github.com/terraform-google-modules/terraform-example-foundation) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Well-Architected Framework: automate and manage change](https://docs.cloud.google.com/architecture/framework/operational-excellence/automate-and-manage-change) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Well-Architected Framework: build highly available systems through resource redundancy](https://docs.cloud.google.com/architecture/framework/reliability/build-highly-available-systems) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Well-Architected Framework: cost optimization pillar](https://docs.cloud.google.com/architecture/framework/cost-optimization) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Well-Architected Framework: operational excellence pillar](https://docs.cloud.google.com/architecture/framework/operational-excellence) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 7 | [Google Cloud, Well-Architected Framework: performance optimization pillar](https://docs.cloud.google.com/architecture/framework/performance-optimization) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 7 | [Google Engineering Practices, Small CLs](https://google.github.io/eng-practices/review/developer/small-cls.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Google Engineering Practices, Speed of code reviews](https://google.github.io/eng-practices/review/reviewer/speed.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Google for Developers, Passkeys developer guide](https://developers.google.com/identity/passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -722,16 +763,42 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [microservices.io, Idempotent Consumer](https://microservices.io/patterns/communication-style/idempotent-consumer.html) | [specific/kafka](specific/kafka/README.md), [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Caching guidance: high availability and scalability](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#implement-high-availability-and-scalability-and-improve-performance) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Caching guidance: keep the cache consistent on writes](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#keep-the-cache-consistent-on-writes) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Microsoft Entra Workload ID, Workload identity federation](https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Microsoft, Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Policy regulatory compliance details for the Microsoft cloud security benchmark](https://learn.microsoft.com/en-us/azure/governance/policy/samples/azure-security-benchmark) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Well-Architected Framework: Azure service guides](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Well-Architected Framework: design review checklist for Cost Optimization](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/checklist) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Well-Architected Framework: design review checklist for Operational Excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/checklist) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Well-Architected Framework: design review checklist for Performance Efficiency](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/checklist) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Well-Architected Framework: infrastructure as code](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/infrastructure-as-code-design) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Azure Well-Architected Framework: networking and connectivity, private endpoints](https://learn.microsoft.com/en-us/azure/well-architected/security/networking#private-endpoints) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Best practices for Azure RBAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Bicep best practices](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, C# compiler options for errors and warnings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, CA1849: call async methods when in an async method](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: Azure governance design area](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/governance) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: Azure governance recommendations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/governance#azure-governance-recommendations) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: Define your naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: Define your tagging strategy](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: management group recommendations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-management-groups#management-group-recommendations) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: platform landing zone implementation options](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/implementation-options) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Cloud Adoption Framework: resource organization design area](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, DI scope validation](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview#scope-validation) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Integration tests](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Microsoft, Managed identities for Azure resources](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, Nullable reference types](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/null-safety/nullable-reference-types) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Options pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Microsoft, Reliability guides for Azure services](https://learn.microsoft.com/en-us/azure/reliability/overview-reliability-guidance) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Safe deployment of Azure Policy assignments](https://learn.microsoft.com/en-us/azure/governance/policy/how-to/policy-safe-deployment-practices) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Secure your Azure Key Vault: data protection](https://learn.microsoft.com/en-us/azure/key-vault/general/secure-key-vault#data-protection) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Secure your Azure Key Vault: identity and access management](https://learn.microsoft.com/en-us/azure/key-vault/general/secure-key-vault#identity-and-access-management) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, What are Azure availability zones? Architectural guidance](https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview#availability-zone-architectural-guidance) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, What is a private endpoint?](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Model Context Protocol](https://modelcontextprotocol.io/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [mypy, The mypy command line: --strict](https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [mypy, Using mypy with an existing codebase](https://mypy.readthedocs.io/en/stable/existing_code.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1080,7 +1147,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [CalVer, When to use CalVer?](https://calver.org/#when-to-use-calver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
-| 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/redis](specific/redis/README.md), [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/azure](specific/azure/README.md), [specific/gcp](specific/gcp/README.md), [specific/redis](specific/redis/README.md), [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Cloudflare Pages, Preview deployments](https://developers.cloudflare.com/pages/configuration/preview-deployments/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Cloudflare, Choose a data or storage product](https://developers.cloudflare.com/workers/platform/storage-options/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -1195,6 +1262,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Godot class reference, Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [Google Cloud, Architecting disaster recovery for cloud infrastructure outages](https://docs.cloud.google.com/architecture/disaster-recovery) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Best practices for enabling VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/enable) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Cloud Logging aggregated sinks](https://docs.cloud.google.com/logging/docs/export/aggregated_sinks) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Create, edit, or delete budgets and budget alerts](https://docs.cloud.google.com/billing/docs/how-to/budgets) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Labels overview](https://docs.cloud.google.com/resource-manager/docs/labels-overview) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Overview of IAM role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Security Command Center Compliance Manager cloud control reference](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Terraform blueprints and modules for Google Cloud](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Cloud, Well-Architected Framework: foster a culture of cost awareness](https://docs.cloud.google.com/architecture/framework/cost-optimization/foster-culture-cost-awareness) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Play Console Help, Use a pre-launch report to identify issues](https://support.google.com/googleplay/android-developer/answer/9842757?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
@@ -1242,8 +1318,24 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [MDN, HTTP Observatory (mdn-http-observatory)](https://github.com/mdn/mdn-http-observatory) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Mertens, ECS FAQ](https://github.com/SanderMertens/ecs-faq) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 6 | [Microsoft Cost Management, Create and manage budgets](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft Learn, Automate your workflow with GitHub Actions (learning path)](https://learn.microsoft.com/en-us/training/paths/github-actions/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [Microsoft Learn, Build great solutions with the Microsoft Azure Well-Architected Framework (learning path)](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft Learn, Fundamentals of Bicep (learning path)](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, .NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Azure Policy built-in initiatives](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Azure Policy definitions for tagging resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-policies) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Azure Well-Architected Review (assessment)](https://learn.microsoft.com/en-us/assessments/azure-architecture-review/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Bicep best practices: outputs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices#outputs) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Comparing Terraform and Bicep](https://learn.microsoft.com/en-us/azure/developer/terraform/comparing-terraform-and-bicep) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Design a Log Analytics workspace architecture: design strategy](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design#design-strategy) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Enable diagnostic settings by category group using built-in policies](https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/diagnostic-settings-policy-built-in) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Introduction to Azure Advisor](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Monitor Azure resources with Azure Monitor: diagnostic settings](https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/monitor-azure-resource#diagnostic-settings-for-an-azure-resource) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Prevent authorization with Shared Key (Azure Storage)](https://learn.microsoft.com/en-us/azure/storage/common/shared-key-authorization-prevent) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Regulatory compliance in Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-regulatory-compliance-standards) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Use Azure Key Vault to pass a secret as a parameter during Bicep deployment](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/key-vault-parameter) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, Use Bicep linter](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/linter) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -1319,6 +1411,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 6 | [PSRule for Azure, rules reference](https://azure.github.io/PSRule.Rules.Azure/en/rules/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [publint, Rules](https://publint.dev/rules) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [PyPA, Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [PyPA, pip-audit](https://github.com/pypa/pip-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1454,7 +1547,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-173 sources.
+199 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1477,6 +1570,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Cedric Neukirchen, Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Changesets, Automating Changesets: Blocking](https://changesets.dev/guide/automating#blocking) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Changesets, Why Changesets](https://changesets.dev/guide/why) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [Checkov, Bicep resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/bicep.html) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 5 | [Checkov, gitlab_ci resource scans](https://www.checkov.io/5.Policy%20Index/gitlab_ci.html) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [Checkov, Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -1521,6 +1615,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 5 | [Google Cloud, Cloud Foundation Fabric (Terraform modules and FAST landing zone toolkit)](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Compliance Manager: Block Service Account Key Creation](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#block-service-account-key-creation) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Compliance Manager: Define Service Perimeters in VPC Service Controls](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#define-service-perimeter) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Compliance Manager: Enable Audit Logs for All Services](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#enable-audit-logs-for-allservices) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Compliance Manager: Restrict Legacy IAM Roles](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#restrict-legacy-iam-roles) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Compliance Manager: Restrict User Managed Service Account Keys](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#restrict-user-managed-service-account-keys) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Compliance Manager: Use Custom Service Accounts for Compute Engine Instances](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#define-non-default-service-account) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Overview of Security Health Analytics](https://docs.cloud.google.com/security-command-center/docs/concepts-security-health-analytics) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Cloud, Well-Architected Framework: sustainability pillar](https://docs.cloud.google.com/architecture/framework/sustainability) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google Skills, Professional Cloud Architect Certification learning path](https://www.skills.google/paths/12) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [GraphQL Yoga, CSRF Prevention](https://the-guild.dev/graphql/yoga-server/docs/features/csrf-prevention) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -1541,6 +1645,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Marc-André Giroux, Production Ready GraphQL](https://book.productionreadygraphql.com/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [MDN, Progressive enhancement (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Azure landing zone documentation (IaC accelerator)](https://azure.github.io/Azure-Landing-Zones/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Azure Policy built-in initiatives: monitoring](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives#monitoring) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Azure Policy built-in initiatives: resilience](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives#resilience) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Azure Well-Architected Framework: mission-critical workloads](https://learn.microsoft.com/en-us/azure/well-architected/mission-critical/mission-critical-overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Bicep linter rule: secure parameter default](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/linter-rule-secure-parameter-default) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Bicep linter: outputs-should-not-contain-secrets](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/linter#outputs-should-not-contain-secrets) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [Microsoft, Bicep linter: secure-parameter-default](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/linter#secure-parameter-default) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
 | 5 | [monorepo.tools, The polyrepo tax](https://monorepo.tools/#polyrepo-concept) | [general/repositories](general/repositories.md) | 2026-10-25 |
@@ -1559,6 +1670,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Polaris, reliability checks](https://polaris.docs.fairwinds.com/checks/reliability/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, security checks](https://polaris.docs.fairwinds.com/checks/security/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [poutine, CI Debug Enabled rule](https://boostsecurityio.github.io/poutine/rules/debug_enabled/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.AppService.AvailabilityZone](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.AppService.AvailabilityZone/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.AppService.ManagedIdentity](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.AppService.ManagedIdentity/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.Deployment.OutputSecretValue](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.Deployment.OutputSecretValue/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.KeyVault.Firewall](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.KeyVault.Firewall/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.KeyVault.PurgeProtect](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.KeyVault.PurgeProtect/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.KeyVault.RBAC](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.KeyVault.RBAC/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.Resource.UseTags](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.Resource.UseTags/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 5 | [PSRule for Azure, Azure.Storage.LocalAuth](https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.Storage.LocalAuth/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 5 | [publint, CLI](https://publint.dev/docs/cli) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [publint, EXPORTS_TYPES_INVALID_FORMAT](https://publint.dev/rules#exports_types_invalid_format) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [publint, EXPORTS_TYPES_SHOULD_BE_FIRST](https://publint.dev/rules#exports_types_should_be_first) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |

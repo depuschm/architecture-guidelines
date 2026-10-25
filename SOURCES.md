@@ -7,11 +7,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-79 sources.
+81 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 10 | [Apache Kafka, Documentation (4.3)](https://kafka.apache.org/43/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -24,6 +25,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [NIST, SP 800-63B-4, Authentication and Authenticator Management](https://pages.nist.gov/800-63-4/sp800-63b.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 10 | [RabbitMQ, Documentation (4.4)](https://www.rabbitmq.com/docs) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -93,7 +95,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1148 sources.
+1242 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -105,6 +107,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Android, Data layer](https://developer.android.com/topic/architecture/data-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, Guide to app modularization](https://developer.android.com/topic/modularization) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, UI layer](https://developer.android.com/topic/architecture/ui-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 8 | [Apache Kafka, Design](https://kafka.apache.org/43/design/design/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 8 | [Apache Kafka, Design: availability and durability guarantees](https://kafka.apache.org/43/design/design/#availability-and-durability-guarantees) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 8 | [Apache Kafka, Design: message delivery semantics](https://kafka.apache.org/43/design/design/#message-delivery-semantics) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 8 | [Apache Kafka, Topic configs: min.insync.replicas](https://kafka.apache.org/43/configuration/topic-configs/#min.insync.replicas) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -294,6 +300,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Python docs, subprocess: Security considerations](https://docs.python.org/3/library/subprocess.html#security-considerations) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python docs, typing: Support for type hints](https://docs.python.org/3/library/typing.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 8 | [Python docs, venv: Creation of virtual environments](https://docs.python.org/3/library/venv.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 8 | [RabbitMQ, Consumer Acknowledgements and Publisher Confirms](https://www.rabbitmq.com/docs/confirms) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 8 | [RabbitMQ, Consumer Acknowledgements: acknowledgement modes](https://www.rabbitmq.com/docs/confirms#acknowledgement-modes) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 8 | [RabbitMQ, Production Deployment Guidelines](https://www.rabbitmq.com/docs/production-checklist) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 8 | [RabbitMQ, Production Deployment Guidelines: users](https://www.rabbitmq.com/docs/production-checklist#users) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 8 | [RabbitMQ, Quorum Queues: use cases](https://www.rabbitmq.com/docs/quorum-queues#use-cases) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 8 | [RabbitMQ, Reliability Guide](https://www.rabbitmq.com/docs/reliability) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 8 | [react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -378,6 +390,28 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Anthropic, Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Anthropic, Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Anthropic, Writing effective tools for agents](https://www.anthropic.com/research/writing-tools-for-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 7 | [Apache Kafka, Authentication using SASL](https://kafka.apache.org/43/security/authentication-using-sasl/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Authorization and ACLs](https://kafka.apache.org/43/security/authorization-and-acls/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Basic Kafka Operations](https://kafka.apache.org/43/operations/basic-kafka-operations/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Basic Kafka Operations: adding and removing topics](https://kafka.apache.org/43/operations/basic-kafka-operations/#adding-and-removing-topics) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Basic Kafka Operations: modifying topics](https://kafka.apache.org/43/operations/basic-kafka-operations/#modifying-topics) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Broker configs: auto.create.topics.enable](https://kafka.apache.org/43/configuration/broker-configs/#auto.create.topics.enable) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Broker configs: default.replication.factor](https://kafka.apache.org/43/configuration/broker-configs/#default.replication.factor) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Design: load balancing](https://kafka.apache.org/43/design/design/#load-balancing) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Design: log compaction](https://kafka.apache.org/43/design/design/#log-compaction) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Design: the share consumer](https://kafka.apache.org/43/design/design/#the-share-consumer) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Design: using transactions](https://kafka.apache.org/43/design/design/#using-transactions) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Introduction](https://kafka.apache.org/43/getting-started/introduction/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, KafkaConsumer API (manual offset control)](https://kafka.apache.org/43/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, KafkaConsumer API: detecting consumer failures](https://kafka.apache.org/43/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html#failuredetection) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, KRaft: deploying considerations](https://kafka.apache.org/43/operations/kraft/#deploying-considerations) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Monitoring](https://kafka.apache.org/43/operations/monitoring/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Producer configs: acks](https://kafka.apache.org/43/configuration/producer-configs/#acks) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Producer configs: enable.idempotence](https://kafka.apache.org/43/configuration/producer-configs/#enable.idempotence) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Security overview](https://kafka.apache.org/43/security/security-overview/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Topic configs: cleanup.policy](https://kafka.apache.org/43/configuration/topic-configs/#cleanup.policy) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Topic configs: retention.ms](https://kafka.apache.org/43/configuration/topic-configs/#retention.ms) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Apache Kafka, Upgrading servers to 4.0](https://kafka.apache.org/43/getting-started/upgrade/#upgrading-servers-to-401-from-any-version-33x-through-39x) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [arc42, section 1: quality goals](https://docs.arc42.org/section-1/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [ArchUnit](https://www.archunit.org/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [ArchUnit user guide](https://www.archunit.org/userguide/html/000_Index.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
@@ -409,7 +443,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Azure, Saga pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/saga) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Azure, Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Azure: RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 7 | [buf breaking (Protobuf breaking-change detection)](https://buf.build/docs/breaking/) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 7 | [buf breaking (Protobuf breaking-change detection)](https://buf.build/docs/breaking/) | [general/api-design](general/api-design.md), [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [Building Microservices and Monolith to Microservices](https://samnewman.io/books/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Building Microservices, 2nd edition](https://samnewman.io/books/building_microservices_2nd_edition/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Bulletproof React](https://github.com/alan2207/bulletproof-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -431,6 +465,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Cloudflare, Workers Best Practices: Use Workers Static Assets for new projects](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/#use-workers-static-assets-for-new-projects) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Cloudflare, Workers Cache](https://developers.cloudflare.com/workers/cache/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Cloudflare, Workers limits](https://developers.cloudflare.com/workers/platform/limits/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 7 | [Confluent, Choose and Change the Partition Count in Kafka](https://docs.confluent.io/kafka/operations-tools/partition-determination.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Confluent, Schema Evolution and Compatibility for Schema Registry](https://docs.confluent.io/platform/current/schema-registry/fundamentals/schema-evolution.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 7 | [Confluent, Schema Registry Maven plugin: test-compatibility](https://docs.confluent.io/platform/current/schema-registry/develop/maven-plugin.html#schema-registry-test-compatibility) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) | [general/releases](general/releases.md) | 2026-10-25 |
@@ -594,6 +631,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [MDN, Set-Cookie header: Cookie prefixes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#cookie_prefixes) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [MDN, Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [microservices.io, Idempotent Consumer](https://microservices.io/patterns/communication-style/idempotent-consumer.html) | [specific/kafka](specific/kafka/README.md), [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Caching guidance: high availability and scalability](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#implement-high-availability-and-scalability-and-improve-performance) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Caching guidance: keep the cache consistent on writes](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#keep-the-cache-consistent-on-writes) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -745,6 +783,27 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Python docs, Coroutines and tasks: Task groups](https://docs.python.org/3/library/asyncio-task.html#task-groups) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Python typing docs, Static Typing with Python](https://typing.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Python, PEP 668: Marking Python base environments as externally managed](https://peps.python.org/pep-0668/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Access Control: default virtual host and user](https://www.rabbitmq.com/docs/access-control#default-state) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Channels](https://www.rabbitmq.com/docs/channels) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Classic Queues](https://www.rabbitmq.com/docs/classic-queues) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Connections: high connection churn](https://www.rabbitmq.com/docs/connections#high-connection-churn) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Consumer Acknowledgements: prefetch and throughput](https://www.rabbitmq.com/docs/confirms#channel-qos-prefetch-throughput) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Dead Letter Exchanges](https://www.rabbitmq.com/docs/dlx) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Monitoring](https://www.rabbitmq.com/docs/monitoring) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Monitoring with Prometheus-compatible tools](https://www.rabbitmq.com/docs/monitoring#with-prometheus) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Production Deployment Guidelines: anonymous login](https://www.rabbitmq.com/docs/production-checklist#anonymous-login) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Production Deployment Guidelines: connection management](https://www.rabbitmq.com/docs/production-checklist#apps-connection-management) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Production Deployment Guidelines: TLS](https://www.rabbitmq.com/docs/production-checklist#security-tls) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Publishers: data safety](https://www.rabbitmq.com/docs/publishers#data-safety) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Publishers: unroutable message handling](https://www.rabbitmq.com/docs/publishers#unroutable) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Quorum Queues](https://www.rabbitmq.com/docs/quorum-queues) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Quorum Queues: poison message handling](https://www.rabbitmq.com/docs/quorum-queues#poison-message-handling) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Quorum Queues: when not to use quorum queues](https://www.rabbitmq.com/docs/quorum-queues#when-not-to-use-quorum-queues) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Reliability Guide: data safety on the consumer side](https://www.rabbitmq.com/docs/reliability#consumer-side) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Streams and Superstreams](https://www.rabbitmq.com/docs/streams) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Streams: use cases](https://www.rabbitmq.com/docs/streams#use-cases) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, TLS Support: enabling TLS](https://www.rabbitmq.com/docs/ssl#enabling-tls) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [RabbitMQ, Tutorials](https://www.rabbitmq.com/tutorials) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [react.dev, Creating a React App](https://react.dev/learn/creating-a-react-app) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Passing data deeply with context](https://react.dev/learn/passing-data-deeply-with-context) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -897,6 +956,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AbleGamers, Accessible Player Experiences (APX)](https://accessible.games/accessible-player-experiences/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, Basic Kafka Operations: checking consumer position](https://kafka.apache.org/43/operations/basic-kafka-operations/#checking-consumer-position) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, Broker configs: group.share.delivery.count.limit](https://kafka.apache.org/43/configuration/broker-configs/#group.share.delivery.count.limit) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, Kafka Connect: error reporting](https://kafka.apache.org/43/kafka-connect/user-guide/#error-reporting-in-connect) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, Kafka Streams configs: errors.dead.letter.queue.topic.name](https://kafka.apache.org/43/configuration/kafka-streams-configs/#errors.dead.letter.queue.topic.name) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, KRaft: controllers](https://kafka.apache.org/43/operations/kraft/#controllers) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, Quick Start](https://kafka.apache.org/43/getting-started/quickstart/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apache Kafka, Upgrading: notable changes in 4.2.0](https://kafka.apache.org/43/getting-started/upgrade/#notable-changes-in-420) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Apicurio Registry, Content rule reference (3.3)](https://www.apicur.io/registry/docs/apicurio-registry/3.3.x/getting-started/assembly-rule-reference.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apollo Server, Configuring CORS: Preventing CSRF](https://www.apollographql.com/docs/apollo-server/security/cors#preventing-cross-site-request-forgery-csrf) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Apollo, Safelisting with Persisted Queries: differences from automatic persisted queries](https://www.apollographql.com/docs/graphos/platform/security/persisted-queries#differences-from-automatic-persisted-queries) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -933,6 +1000,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [CodeQL, Sensitive server cookie exposed to the client (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-client-exposed-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [commitlint, Guide: CI setup](https://commitlint.js.org/guides/ci-setup) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [Confluent Developer, Apache Kafka 101](https://developer.confluent.io/courses/apache-kafka/events/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent Developer, Dead Letter Stream](https://developer.confluent.io/patterns/event-processing/dead-letter-stream/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent Developer, Event Streaming Patterns](https://developer.confluent.io/patterns/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent Developer, Idempotent Reader](https://developer.confluent.io/patterns/event-processing/idempotent-reader/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent Developer, Partitioned Parallelism](https://developer.confluent.io/patterns/event-stream/partitioned-parallelism/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent, Error Handling Patterns in Kafka](https://www.confluent.io/blog/error-handling-patterns-in-kafka/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent, Schema Registry Best Practices](https://www.confluent.io/blog/best-practices-for-confluent-schema-registry/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 6 | [Confluent, Schema Registry Maven plugin: test-local-compatibility](https://docs.confluent.io/platform/current/schema-registry/develop/maven-plugin.html#schema-registry-test-local-compatibility) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
@@ -1144,6 +1219,27 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Python docs, The Python Tutorial](https://docs.python.org/3/tutorial/index.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Python, PEP 387: Backwards Compatibility Policy, Making incompatible changes](https://peps.python.org/pep-0387/#making-incompatible-changes) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Python, PEP 8: Style Guide for Python Code](https://peps.python.org/pep-0008/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ Cluster Operator, Prometheus alerting rules](https://github.com/rabbitmq/cluster-operator/blob/main/observability/prometheus/rules/rabbitmq/README.md) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Access Control: authentication mechanisms](https://www.rabbitmq.com/docs/access-control#available-mechanisms) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Alternate Exchanges](https://www.rabbitmq.com/docs/ae) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, AMQP 0-9-1 Model Explained](https://www.rabbitmq.com/tutorials/amqp-concepts) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Consumer Prefetch](https://www.rabbitmq.com/docs/consumer-prefetch) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Dead Letter Exchanges: delayed retries](https://www.rabbitmq.com/docs/dlx#delayed-retries) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Dead Letter Exchanges: how dead lettering is configured](https://www.rabbitmq.com/docs/dlx#how-dead-lettering-is-configured) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Memory and Disk Alarms](https://www.rabbitmq.com/docs/alarms) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Monitoring: queue metrics](https://www.rabbitmq.com/docs/monitoring#queue-metrics) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Policies: policies vs. optional arguments](https://www.rabbitmq.com/docs/policies#why) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Production Deployment Guidelines: inter-node and CLI tool authentication](https://www.rabbitmq.com/docs/production-checklist#inter-node-authentication) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Publishers: concurrency considerations](https://www.rabbitmq.com/docs/publishers#concurrency) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Queue Length Limit](https://www.rabbitmq.com/docs/maxlength) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Quorum Queues: at-least-once dead-lettering](https://www.rabbitmq.com/docs/quorum-queues#activating-at-least-once-dead-lettering) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Quorum Queues: delayed retry](https://www.rabbitmq.com/docs/quorum-queues#delayed-retry) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Release Information](https://www.rabbitmq.com/release-information) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Reliability Guide: ensuring that messages are routed](https://www.rabbitmq.com/docs/reliability#routing) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, TLS Support: peer verification](https://www.rabbitmq.com/docs/ssl#peer-verification) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Tutorial: Reliable Publishing with Publisher Confirms (Java)](https://www.rabbitmq.com/tutorials/tutorial-seven-java) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Upgrading: version upgradability](https://www.rabbitmq.com/docs/upgrade#rabbitmq-version-upgradability) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [RabbitMQ, Virtual Hosts: default queue type](https://www.rabbitmq.com/docs/vhosts#default-queue-type) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 6 | [react.dev, purity lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/purity) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [react.dev, set-state-in-effect lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [Redis (Ajeet Raina), Redis anti-patterns every developer should avoid](https://redis.io/tutorials/redis-anti-patterns-every-developer-should-avoid/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -1248,13 +1344,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-153 sources.
+162 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 5 | [action-semantic-pull-request (GitHub Action)](https://github.com/amannn/action-semantic-pull-request) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Anthropic skills repository](https://github.com/anthropics/skills) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 5 | [Anton Babenko, Terraform Best Practices](https://www.terraform-best-practices.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 5 | [Apache Kafka, CreateTopicPolicy API](https://kafka.apache.org/43/javadoc/org/apache/kafka/server/policy/CreateTopicPolicy.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [API Extractor, The API report](https://api-extractor.com/pages/overview/demo_api_report/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Astral, Ruff](https://docs.astral.sh/ruff/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -1274,6 +1371,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [CodeQL, Failure to use secure cookies (Python)](https://codeql.github.com/codeql-query-help/python/py-insecure-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [CodeQL, Use of a broken or weak cryptographic hashing algorithm on sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-weak-sensitive-data-hashing/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [CodeQL, Use of password hash with insufficient computational effort (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-insufficient-password-hash/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [Confluent, Schema Registry for Confluent Platform: license](https://docs.confluent.io/platform/current/schema-registry/index.html#cp-license) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [Dan Kestranek (tranek), GASDocumentation](https://github.com/tranek/GASDocumentation) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [Dart linter rule, prefer_final_fields](https://dart.dev/tools/linter-rules/prefer_final_fields) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
@@ -1348,6 +1446,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [PVS-Studio, V1100: pointer to a UObject type in a class not derived from UObject](https://pvs-studio.com/en/docs/warnings/v1100/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [PyCQA, Bandit](https://bandit.readthedocs.io/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [PyYAML, PyYAML Documentation](https://pyyaml.org/wiki/PyYAMLDocumentation) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 5 | [RabbitMQ Cluster Operator, HighConnectionChurn alert](https://github.com/rabbitmq/cluster-operator/blob/main/observability/prometheus/rules/rabbitmq/high-connection-churn.yml) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 5 | [RabbitMQ Cluster Operator, UnroutableMessages alert](https://github.com/rabbitmq/cluster-operator/blob/main/observability/prometheus/rules/rabbitmq/unroutable-messages.yml) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 5 | [RabbitMQ, Policies: operator policies](https://www.rabbitmq.com/docs/policies#operator-policies) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 5 | [RabbitMQ, Quorum Queues: global QoS](https://www.rabbitmq.com/docs/quorum-queues#global-qos) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 5 | [RabbitMQ, rabbitmq-diagnostics: check_certificate_expiration](https://www.rabbitmq.com/docs/man/rabbitmq-diagnostics.8#check_certificate_expiration) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 5 | [Roberts, Serverless Architectures](https://martinfowler.com/articles/serverless.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 5 | [Ruff, blocking-http-call-in-async-function (ASYNC210)](https://docs.astral.sh/ruff/rules/blocking-http-call-in-async-function/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Ruff, blocking-open-call-in-async-function (ASYNC230)](https://docs.astral.sh/ruff/rules/blocking-open-call-in-async-function/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1360,6 +1463,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Ruff, unsafe-yaml-load (S506)](https://docs.astral.sh/ruff/rules/unsafe-yaml-load/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [semantic-release](https://semantic-release.org/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [Spring for Apache Kafka, Non-blocking retries: how the pattern works](https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [Squawk, ban-char-field](https://squawkhq.com/docs/ban-char-field) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, ban-concurrent-index-creation-in-transaction](https://squawkhq.com/docs/ban-concurrent-index-creation-in-transaction) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, constraint-missing-not-valid](https://squawkhq.com/docs/constraint-missing-not-valid) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -1405,3 +1509,4 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [Turborepo, boundaries (experimental)](https://turborepo.dev/docs/reference/boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Unity Chop Chop (Open Project 1)](https://github.com/UnityTechnologies/open-project-1) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
+| 3 | [RabbitMQ, Lazy Queues (historical reference)](https://www.rabbitmq.com/docs/lazy-queues) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |

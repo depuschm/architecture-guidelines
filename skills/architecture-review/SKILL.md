@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -45,6 +45,8 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | GraphQL | `*.graphql` or `*.gql` schema files, a `graphql` dependency, or a GraphQL server library (for example Apollo Server, GraphQL Yoga, Strawberry, Hot Chocolate) | `specific/graphql/` |
 | PostgreSQL | SQL migrations for PostgreSQL, `postgres://` or `postgresql://` connection strings, a PostgreSQL driver (`pg`, `psycopg`, `asyncpg`, `Npgsql`), or a `postgres` service in a Compose file | `specific/postgres/` |
 | Redis or Valkey | `redis://` or `rediss://` URLs, a Redis client dependency (for example `redis`, `ioredis`, `StackExchange.Redis`, `go-redis`), or a `redis` or `valkey` service in a Compose file | `specific/redis/` |
+| Apache Kafka | A Kafka client dependency (for example `kafkajs`, `confluent-kafka`, `org.apache.kafka:kafka-clients`, `Confluent.Kafka`, `franz-go`), `bootstrap.servers` settings, or a `kafka` service in a Compose file | `specific/kafka/` |
+| RabbitMQ | An AMQP client (for example `amqplib`, `pika`, `RabbitMQ.Client`, `amqp091-go`, Spring AMQP), `amqp://` or `amqps://` URLs, `rabbitmq.conf`, or a `rabbitmq` service in a Compose file | `specific/rabbitmq/` |
 | Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |
 | Flutter | `pubspec.yaml` that depends on the `flutter` SDK | `specific/flutter/` |
 | Docker | `Dockerfile` or `Containerfile`, `compose.yaml` or `docker-compose.yml`, `.dockerignore` | `specific/docker/` |

@@ -22,10 +22,12 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.
 - [GraphQL](graphql/README.md): designing, securing and running GraphQL APIs.
 
-### Data
+### Data and messaging
 
 - [PostgreSQL](postgres/README.md): schema design, indexing, migrations, pooling, backups and access for PostgreSQL.
 - [Redis and caching](redis/README.md): caching patterns, keys and commands, security and persistence for Redis and Valkey.
+- [Apache Kafka](kafka/README.md): topics, producers, consumers, schemas and security for Kafka 4.x.
+- [RabbitMQ](rabbitmq/README.md): queue types, confirms and acknowledgements, failed messages and security for RabbitMQ 4.x.
 
 ### Mobile
 

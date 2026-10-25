@@ -22,7 +22,7 @@ Every rule also has a **stable ID**, such as `SEC-3` or `UNITY-STRUCT-2`, so rev
 
 ```
 general/            Technology-independent guidelines (principles, styles, DDD, APIs, data, security, …)
-specific/<platform> One folder per platform or service (games, web, data, mobile, infrastructure, automation)
+specific/<platform> One folder per platform or service (games, web, data, messaging, mobile, infrastructure, automation)
 specific/_template  Starting point for a new platform folder
 skills/             AI skills (Agent Skills format) that apply these guidelines
 checklists/         One checklist per area, for pull requests and design reviews (generated)
@@ -78,6 +78,8 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | Web and back end | [GraphQL](specific/graphql/README.md) | [Learn GraphQL](https://graphql.org/learn/) and [OWASP GraphQL Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html) |
 | Data | [PostgreSQL](specific/postgres/README.md) | [PostgreSQL documentation](https://www.postgresql.org/docs/current/) and [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) |
 | Data | [Redis and caching](specific/redis/README.md) | [Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) and [Azure caching guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching) |
+| Messaging | [Apache Kafka](specific/kafka/README.md) | [Apache Kafka documentation](https://kafka.apache.org/43/) |
+| Messaging | [RabbitMQ](specific/rabbitmq/README.md) | [RabbitMQ documentation](https://www.rabbitmq.com/docs) and [production checklist](https://www.rabbitmq.com/docs/production-checklist) |
 | Mobile | [Android](specific/android/README.md) | [Guide to app architecture](https://developer.android.com/topic/architecture) |
 | Mobile | [Flutter](specific/flutter/README.md) | [Flutter app architecture guide](https://docs.flutter.dev/app-architecture) |
 | Infrastructure | [Docker](specific/docker/README.md) | [Docker building best practices](https://docs.docker.com/build/building/best-practices/) and [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) |
@@ -94,7 +96,7 @@ To add a platform, copy [`specific/_template`](specific/_template/README.md) and
 
 Every rule of an area in one list, grouped by level and sorted by score, with the tools that can check each rule automatically. Paste one into a pull request, design review or project kickoff:
 
-[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [Unreal](checklists/unreal.md) · [Web](checklists/web.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Vue](checklists/vue.md) · [Svelte](checklists/svelte.md) · [TypeScript](checklists/typescript.md) · [Node.js](checklists/nodejs.md) · [Python](checklists/python.md) · [.NET](checklists/dotnet.md) · [GraphQL](checklists/graphql.md) · [PostgreSQL](checklists/postgres.md) · [Redis](checklists/redis.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Docker](checklists/docker.md) · [Kubernetes](checklists/kubernetes.md) · [OpenTelemetry](checklists/opentelemetry.md) · [AWS](checklists/aws.md) · [Hosting](checklists/web-hosting.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md)
+[General](checklists/general.md) · [Game development](checklists/gamedev.md) · [Unity](checklists/unity.md) · [Godot](checklists/godot.md) · [Unreal](checklists/unreal.md) · [Web](checklists/web.md) · [React](checklists/react.md) · [Next.js](checklists/nextjs.md) · [Vue](checklists/vue.md) · [Svelte](checklists/svelte.md) · [TypeScript](checklists/typescript.md) · [Node.js](checklists/nodejs.md) · [Python](checklists/python.md) · [.NET](checklists/dotnet.md) · [GraphQL](checklists/graphql.md) · [PostgreSQL](checklists/postgres.md) · [Redis](checklists/redis.md) · [Kafka](checklists/kafka.md) · [RabbitMQ](checklists/rabbitmq.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [Docker](checklists/docker.md) · [Kubernetes](checklists/kubernetes.md) · [OpenTelemetry](checklists/opentelemetry.md) · [AWS](checklists/aws.md) · [Hosting](checklists/web-hosting.md) · [Terraform](checklists/terraform.md) · [GitHub Actions](checklists/github-actions.md)
 
 ## AI skills
 

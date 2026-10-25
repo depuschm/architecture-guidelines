@@ -19,6 +19,9 @@ exclude = [
   '^https://www\.cisa\.gov/',
   '^https://doi\.org/10\.1145/',
   '^https://dl\.acm\.org/',
+  # Loads normally, but times out from GitHub-hosted runners (checked 2026-10-25).
+  # scripts/verify_sources.py still checks it.
+  '^https://www\.melconway\.com/',
   # Template placeholders.
   '^https://example\.com/',
 ]

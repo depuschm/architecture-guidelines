@@ -11,7 +11,7 @@ Build systems that are observable, resilient to failure and cheap to operate.
 - `9` [The Twelve-Factor App](https://12factor.net/): baseline rules for building deployable, scalable services.
 - `9` [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/): the review framework for Azure workloads.
 - `9` [Google SRE books](https://sre.google/books/) (free online): service level objectives, monitoring, incident response and postmortems.
-- `9` [AWS Builders' Library](https://aws.amazon.com/builders-library/): how Amazon builds and operates resilient distributed systems.
+- `9` [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library): how Amazon builds and operates resilient distributed systems.
 - `9` [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/): resilience patterns such as Retry, Circuit Breaker, Bulkhead and Queue-Based Load Leveling.
 - `9` [OpenTelemetry documentation](https://opentelemetry.io/docs/): the vendor-neutral standard for traces, metrics and logs.
 - `8` [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework): the review framework for Google Cloud workloads.
@@ -25,10 +25,10 @@ Build systems that are observable, resilient to failure and cheap to operate.
 
 ### Resilience
 
-- `9` `OPS-3` **Put a timeout on every remote call, and retry only with capped exponential backoff and jitter.** ([AWS Builders' Library, Timeouts, retries and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/), [Azure, Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry))
-- `8` `OPS-4` **Design to prevent cascading failures, for example with load shedding and by avoiding retry storms.** ([Google SRE book, Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/), [AWS Builders' Library, Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/))
+- `9` `OPS-3` **Put a timeout on every remote call, and retry only with capped exponential backoff and jitter.** ([AWS Builders' Library, Timeouts, retries and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter), [Azure, Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry))
+- `8` `OPS-4` **Design to prevent cascading failures, for example with load shedding and by avoiding retry storms.** ([Google SRE book, Addressing Cascading Failures](https://sre.google/sre-book/addressing-cascading-failures/), [AWS Builders' Library, Using load shedding to avoid overload](https://builder.aws.com/content/3Eun1EEyX6p2e3VYNyRLSJzLuMV/using-load-shedding-to-avoid-overload))
 - `7` `OPS-5` **Stop calling a failing dependency with a circuit breaker, and isolate resources with bulkheads.** ([Fowler, Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html), [Azure, Bulkhead pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead))
-- `6` `OPS-6` **Avoid fallback paths that are rarely exercised.** Prefer designs that keep working the same way during failure (static stability). ([AWS Builders' Library, Avoiding fallback in distributed systems](https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/), [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/))
+- `6` `OPS-6` **Avoid fallback paths that are rarely exercised.** Prefer designs that keep working the same way during failure (static stability). ([AWS Builders' Library, Avoiding fallback in distributed systems](https://builder.aws.com/content/3EuS9Sakq7L3VLQIF3qzfMfke1Y/avoiding-fallback-in-distributed-systems), [Static stability using Availability Zones](https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones))
 - `5` `OPS-7` **Buffer bursts of load with queues between producers and consumers.** ([Azure, Queue-Based Load Leveling pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling))
 - `4` `OPS-8` **Verify resilience with controlled chaos experiments.** ([Principles of Chaos Engineering](https://principlesofchaos.org/))
 

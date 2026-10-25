@@ -23,6 +23,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 ### Data
 
 - [PostgreSQL](postgres/README.md): schema design, indexing, migrations, pooling, backups and access for PostgreSQL.
+- [Redis and caching](redis/README.md): caching patterns, keys and commands, security and persistence for Redis and Valkey.
 
 ### Mobile
 
@@ -33,6 +34,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 
 - [Docker](docker/README.md): container images, container security and Docker Compose.
 - [Kubernetes](kubernetes/README.md): running workloads on Kubernetes.
+- [OpenTelemetry](opentelemetry/README.md): traces, metrics and logs with OpenTelemetry and the Collector.
 - [AWS](aws/README.md): workloads on Amazon Web Services.
 - [Serverless and edge hosting](web-hosting/README.md): deploying web apps and APIs to Vercel, Netlify and Cloudflare.
 - [Terraform](terraform/README.md): infrastructure as code with Terraform or OpenTofu.

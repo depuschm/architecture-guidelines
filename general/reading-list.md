@@ -8,7 +8,7 @@ Complete tutorials, guides and books, referenced as a whole. Topic files link to
 
 - `9` [Software Architecture Guide](https://martinfowler.com/architecture/) (Martin Fowler): a curated set of articles on architecture.
 - `9` [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/): styles, patterns, best practices and reference architectures.
-- `9` [AWS Builders' Library](https://aws.amazon.com/builders-library/): articles on how Amazon builds and runs distributed systems.
+- `9` [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library): articles on how Amazon builds and runs distributed systems.
 - `9` [Google SRE books](https://sre.google/books/): *Site Reliability Engineering*, *The Site Reliability Workbook* and *Building Secure and Reliable Systems*.
 - `8` [Software Engineering at Google](https://abseil.io/resources/swe-book): engineering practices at scale.
 - `8` [The System Design Primer](https://github.com/donnemartin/system-design-primer): a structured self-study course on large-scale system design.

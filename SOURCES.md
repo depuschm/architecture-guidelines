@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-74 sources.
+75 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 9 | [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
-| 9 | [AWS Builders' Library](https://aws.amazon.com/builders-library/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 9 | [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 9 | [Azure Architecture Center: architecture styles](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/) | [general](general/README.md), [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) | [general](general/README.md), [general/architecture-styles](general/architecture-styles.md), [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -64,7 +64,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Nuxt, Documentation (Nuxt 4)](https://nuxt.com/docs/4.x/getting-started/introduction) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [Nygard, Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 9 | [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 9 | [OpenTelemetry documentation](https://opentelemetry.io/docs/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 9 | [OpenTelemetry documentation](https://opentelemetry.io/docs/) | [general/operations-reliability](general/operations-reliability.md), [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-24 |
 | 9 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 9 | [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 9 | [OWASP Top 10](https://top10.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
@@ -73,6 +73,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [OWASP, ASVS 5.0, V7 Session Management](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x16-V7-Session-Management.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [OWASP, Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [PyPA, Python Packaging User Guide](https://packaging.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 9 | [Redis, Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [RFC 9700, section 2: Best Practices](https://www.rfc-editor.org/rfc/rfc9700#section-2) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -88,7 +89,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-985 sources.
+1058 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -102,8 +103,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Android, UI layer](https://developer.android.com/topic/architecture/ui-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
+| 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [AWS Builders' Library, Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 8 | [AWS Builders' Library, Timeouts, retries and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [AWS Builders' Library, Timeouts, retries and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
 | 8 | [AWS Well-Architected, Reliability pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [AWS Well-Architected, Security pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [AWS Well-Architected, the pillars of the framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -208,6 +210,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [microservices.io data management patterns](https://microservices.io/patterns/data/database-per-service.html) | [general/architecture-styles](general/architecture-styles.md), [general/data](general/data.md) | 2026-10-24 |
 | 8 | [microservices.io, Saga](https://microservices.io/patterns/data/saga.html) | [general/data](general/data.md) | 2026-10-24 |
 | 8 | [microservices.io, Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html) | [general/data](general/data.md) | 2026-10-24 |
+| 8 | [Microsoft Azure Architecture Center, Cache-Aside pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 8 | [Microsoft Azure Architecture Center, Caching guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [Microsoft, Architectural principles](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles) | [general/principles](general/principles.md) | 2026-10-24 |
 | 8 | [Microsoft, Build resilient HTTP apps](https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -233,6 +237,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Nuxt, State management: best practices](https://nuxt.com/docs/4.x/getting-started/state-management#best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [OpenID Connect Core 1.0, Claim stability and uniqueness](https://openid.net/specs/openid-connect-core-1_0.html#ClaimStability) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OpenID Foundation, OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [OpenTelemetry, Collector](https://opentelemetry.io/docs/collector/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 8 | [OpenTelemetry, Collector configuration best practices](https://opentelemetry.io/docs/security/config-best-practices/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 8 | [OpenTelemetry, Context propagation](https://opentelemetry.io/docs/concepts/context-propagation/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 8 | [OpenTelemetry, Handling sensitive data](https://opentelemetry.io/docs/security/handling-sensitive-data/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 8 | [OpenTelemetry, Sampling](https://opentelemetry.io/docs/concepts/sampling/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -280,6 +289,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 8 | [Redis, ACL](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 8 | [Redis, Key eviction](https://redis.io/docs/latest/develop/reference/eviction/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 8 | [Redis, Security: network security](https://redis.io/docs/latest/operate/oss_and_stack/management/security/#network-security) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [RFC 10017, section 6.1: Backend for Frontend (BFF)](https://www.rfc-editor.org/rfc/rfc10017#section-6.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [Semantic Versioning](https://semver.org/) | [general/api-design](general/api-design.md), [general/releases](general/releases.md) | 2026-10-24 |
@@ -288,7 +300,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Software Engineering at Google, chapter 16: The One-Version Rule](https://abseil.io/resources/swe-book/html/ch16.html#the_quotation_markone_versionquotation) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
-| 8 | [Static stability using Availability Zones](https://aws.amazon.com/builders-library/static-stability-using-availability-zones/) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 8 | [Static stability using Availability Zones](https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 8 | [Svelte, $effect: when not to use $effect](https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [Svelte, Best practices: avoid legacy features](https://svelte.dev/docs/svelte/best-practices#Avoid-legacy-features) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [Svelte, Interactive tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -317,6 +329,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework course](https://docs.unity3d.com/Manual/test-framework/course/overview.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 8 | [Valkey, Documentation by topic](https://valkey.io/topics/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [Vercel, Production checklist for launch](https://vercel.com/docs/production-checklist) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Vite, Env variables and modes: env variables](https://vite.dev/guide/env-and-mode#env-variables) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -332,6 +345,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Vue.js, State management: Pinia](https://vuejs.org/guide/scaling-up/state-management.html#pinia) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Using Vue with TypeScript](https://vuejs.org/guide/typescript/overview.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [W3C, Trace Context (Recommendation)](https://www.w3.org/TR/trace-context/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3](https://www.w3.org/TR/webauthn-3/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [web.dev, Baseline](https://web.dev/baseline) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, Learn Performance](https://web.dev/learn/performance) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -360,8 +374,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Aspire (.NET)](https://aspire.dev/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [AsyncAPI Specification](https://www.asyncapi.com/docs/reference/specification/latest) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [AWS Architecture Center](https://aws.amazon.com/architecture/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 7 | [AWS Builders' Library, Avoiding fallback in distributed systems](https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
-| 7 | [AWS Builders' Library, Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [AWS Builders' Library, Avoiding fallback in distributed systems](https://builder.aws.com/content/3EuS9Sakq7L3VLQIF3qzfMfke1Y/avoiding-fallback-in-distributed-systems) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
+| 7 | [AWS Builders' Library, Using load shedding to avoid overload](https://builder.aws.com/content/3Eun1EEyX6p2e3VYNyRLSJzLuMV/using-load-shedding-to-avoid-overload) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
 | 7 | [AWS CDK best practices](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS fault isolation boundaries](https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/abstract-and-introduction.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Lambda best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -375,6 +389,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Well-Architected, Cost optimization pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected, Operational excellence pillar](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected, Performance efficiency pillar](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 7 | [AWS, Caching best practices](https://aws.amazon.com/caching/best-practices/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Azure, Anti-corruption Layer pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Azure, Bulkhead pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Azure, CQRS pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -551,6 +566,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [MDN, Set-Cookie header: Cookie prefixes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#cookie_prefixes) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [MDN, Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [Microsoft Azure Architecture Center, Caching guidance: high availability and scalability](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#implement-high-availability-and-scalability-and-improve-performance) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Microsoft Azure Architecture Center, Caching guidance: keep the cache consistent on writes](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#keep-the-cache-consistent-on-writes) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, C# compiler options for errors and warnings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, CA1849: call async methods when in an async method](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
@@ -605,8 +622,25 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Nuxt, Nuxt performance (best practices)](https://nuxt.com/docs/4.x/guide/best-practices/performance) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Nx, Enforce Module Boundaries rule](https://nx.dev/docs/kb/enforce-module-boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [OpenGitOps principles](https://opengitops.dev/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
-| 7 | [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [OpenTelemetry Collector, Memory limiter processor: best practices](https://github.com/open-telemetry/opentelemetry-collector/blob/main/processor/memorylimiterprocessor/README.md#best-practices) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry Collector, Recommended processors](https://github.com/open-telemetry/opentelemetry-collector/blob/main/processor/README.md#recommended-processors) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) | [general/operations-reliability](general/operations-reliability.md), [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-24 |
+| 7 | [OpenTelemetry semantic conventions, Naming: recommendations for application developers](https://opentelemetry.io/docs/specs/semconv/general/naming/#recommendations-for-application-developers) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry semantic conventions, Service](https://opentelemetry.io/docs/specs/semconv/resource/service/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Collector configuration best practices: protect against denial of service attacks](https://opentelemetry.io/docs/security/config-best-practices/#protect-against-denial-of-service-attacks) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Collector configuration best practices: scrub sensitive data](https://opentelemetry.io/docs/security/config-best-practices/#scrub-sensitive-data) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Collector hosting best practices](https://opentelemetry.io/docs/security/hosting-best-practices/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Collector: when to use a collector](https://opentelemetry.io/docs/collector/#when-to-use-a-collector) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Context propagation: security best practices](https://opentelemetry.io/docs/concepts/context-propagation/#security-best-practices) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Gateway deployment pattern](https://opentelemetry.io/docs/collector/deploy/gateway/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Getting started](https://opentelemetry.io/docs/getting-started/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Instrumentation](https://opentelemetry.io/docs/concepts/instrumentation/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Logs: log appender / bridge](https://opentelemetry.io/docs/concepts/signals/logs/#log-appender--bridge) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Metrics: cardinality limits](https://opentelemetry.io/docs/concepts/signals/metrics/#cardinality-limits) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 7 | [OpenTelemetry, Observability primer](https://opentelemetry.io/docs/concepts/observability-primer/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [OpenTelemetry, OpenTelemetry Demo docs](https://opentelemetry.io/docs/demo/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Resources: SDK-provided default attributes (service.name)](https://opentelemetry.io/docs/concepts/resources/#semantic-attributes-with-sdk-provided-default-value) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 7 | [OpenTelemetry, Zero-code instrumentation](https://opentelemetry.io/docs/concepts/instrumentation/zero-code/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, Language documentation](https://opentofu.org/docs/language/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Authentication responses](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -684,6 +718,26 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [react.dev, Passing data deeply with context](https://react.dev/learn/passing-data-deeply-with-context) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Sharing state between components](https://react.dev/learn/sharing-state-between-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 7 | [Redis, ACL: command categories](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/#command-categories) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Client-side caching reference](https://redis.io/docs/latest/develop/reference/client-side-caching/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Diagnosing latency issues: latency generated by slow commands](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/latency/#latency-generated-by-slow-commands) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, High availability with Sentinel: fundamental things to know](https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/#fundamental-things-to-know-about-sentinel-before-deploying) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Key eviction: eviction policies](https://redis.io/docs/latest/develop/reference/eviction/#eviction-policies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Key eviction: maxmemory](https://redis.io/docs/latest/develop/reference/eviction/#maxmem) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Keys and values: content of keys](https://redis.io/docs/latest/develop/using-commands/keyspace/#content-of-keys) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Keys and values: hashtags](https://redis.io/docs/latest/develop/using-commands/keyspace/#hashtags) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Keys and values: KEYS](https://redis.io/docs/latest/develop/using-commands/keyspace/#keys) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Persistence: backing up Redis data](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/#backing-up-redis-data) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Persistence: what should I use](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/#ok-so-what-should-i-use) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Pub/sub: delivery semantics](https://redis.io/docs/latest/develop/pubsub/#delivery-semantics) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Redis cluster specification: hash tags](https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/#hash-tags) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Redis data types](https://redis.io/docs/latest/develop/data-types/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Redis replication](https://redis.io/docs/latest/operate/oss_and_stack/management/replication/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Replication: safety when the master has persistence turned off](https://redis.io/docs/latest/operate/oss_and_stack/management/replication/#safety-of-replication-when-master-has-persistence-turned-off) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Security: authentication](https://redis.io/docs/latest/operate/oss_and_stack/management/security/#authentication) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, Security: protected mode](https://redis.io/docs/latest/operate/oss_and_stack/management/security/#protected-mode) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Redis, TLS](https://redis.io/docs/latest/operate/oss_and_stack/management/security/encryption/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Release It!, 2nd edition](https://pragprog.com/titles/mnee2/release-it-second-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)](https://www.rfc-editor.org/rfc/rfc10017#section-7.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Richards and Ford, Fundamentals of Software Architecture (book)](https://fundamentalsofsoftwarearchitecture.com/) | [general/quality-attributes](general/quality-attributes.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -756,6 +810,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unreal Engine, Using Perforce as source control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [uv, Structure and files: The lockfile](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Valkey, Security](https://valkey.io/topics/security/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Vercel, Cache-Control headers](https://vercel.com/docs/caching/cache-control-headers) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Config and Secret environment variables](https://vercel.com/docs/environment-variables/sensitive-environment-variables) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Config and Secret environment variables: environment variables policy](https://vercel.com/docs/environment-variables/sensitive-environment-variables#environment-variables-policy) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -807,7 +862,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [CalVer, When to use CalVer?](https://calver.org/#when-to-use-calver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
-| 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/redis](specific/redis/README.md), [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Cloudflare Pages, Preview deployments](https://developers.cloudflare.com/pages/configuration/preview-deployments/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Cloudflare, Choose a data or storage product](https://developers.cloudflare.com/workers/platform/storage-options/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -978,6 +1033,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [OpenSSF Scorecard, checks: Pinned-Dependencies](https://github.com/ossf/scorecard/blob/main/docs/checks.md#pinned-dependencies) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, checks: Token-Permissions](https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard, Code-Review check](https://github.com/ossf/scorecard/blob/main/docs/checks.md#code-review) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [OpenTelemetry Collector Contrib, Tail sampling processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/tailsamplingprocessor/README.md) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry Collector, Exporter helper (queuing, batching, retries)](https://github.com/open-telemetry/opentelemetry-collector/blob/main/exporter/exporterhelper/README.md) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry semantic conventions, HTTP metrics](https://opentelemetry.io/docs/specs/semconv/http/http-metrics/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry semantic conventions, Messaging spans: context propagation](https://opentelemetry.io/docs/specs/semconv/messaging/messaging-spans/#context-propagation) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry specification, Logging: log correlation](https://opentelemetry.io/docs/specs/otel/logs/#log-correlation) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry specification, Tracing API: span](https://opentelemetry.io/docs/specs/otel/trace/api/#span) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry Weaver, Live check](https://github.com/open-telemetry/weaver/blob/main/crates/weaver_live_check/README.md) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry, Deploy the Collector](https://opentelemetry.io/docs/collector/deploy/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OpenTelemetry, Training (certifications and courses)](https://opentelemetry.io/training/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Resetting MFA](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP, Django Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1003,6 +1067,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Python, PEP 8: Style Guide for Python Code](https://peps.python.org/pep-0008/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [react.dev, purity lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/purity) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [react.dev, set-state-in-effect lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 6 | [Redis (Ajeet Raina), Redis anti-patterns every developer should avoid](https://redis.io/tutorials/redis-anti-patterns-every-developer-should-avoid/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis (Ajeet Raina), Redis anti-patterns: running ephemeral Redis as a primary database](https://redis.io/tutorials/redis-anti-patterns-every-developer-should-avoid/#9-running-ephemeral-redis-as-a-primary-database) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, ACL: dangerous command category](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/#dangerous) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, ACL: key permissions](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/#key-permissions) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, Diagnosing latency issues: latency generated by expires](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/latency/#latency-generated-by-expires) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, Redis as an in-memory data structure store quick start](https://redis.io/docs/latest/develop/get-started/data-store/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, Redis CLI: scan for big keys and memory usage](https://redis.io/docs/latest/develop/tools/cli/#scan-for-big-keys-and-memory-usage) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, Redis cluster specification: write safety](https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/#write-safety) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, Redis pipelining](https://redis.io/docs/latest/develop/using-commands/pipelining/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 6 | [Redis, SLOWLOG command](https://redis.io/docs/latest/commands/slowlog/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 6 | [Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Refactoring.Guru: design patterns](https://refactoring.guru/design-patterns) | [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [Reproducible Builds, Definitions](https://reproducible-builds.org/docs/definition/) | [general/releases](general/releases.md) | 2026-10-25 |
@@ -1073,14 +1147,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [web.dev, Learn Images](https://web.dev/learn/images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Responsive Design: Responsive images](https://web.dev/learn/design/responsive-images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
-| 6 | [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 6 | [Workload isolation using shuffle-sharding](https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [ZAP, Baseline scan](https://www.zaproxy.org/docs/docker/baseline-scan/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [zizmor, Audit rules](https://docs.zizmor.sh/audits/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 
 ## Further reading (1–5)
 
-146 sources.
+148 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1163,6 +1237,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Nuxt ESLint, ESLint module](https://eslint.nuxt.com/packages/module) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [OpenTelemetry, Collector configuration: validate command](https://opentelemetry.io/docs/collector/configuration/#location) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 5 | [pgBackRest, Command Reference: check](https://pgbackrest.org/command.html#command-check) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [pgBackRest, Command Reference: verify](https://pgbackrest.org/command.html#command-verify) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Pino, Child loggers](https://github.com/pinojs/pino/blob/main/docs/child-loggers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -1206,6 +1281,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [uv, Commands: uv audit](https://docs.astral.sh/uv/reference/cli/#uv-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 5 | [Vattani, Chierichetti and Lowenstein, Optimal Probabilistic Cache Stampede Prevention (VLDB 2015)](https://www.vldb.org/pvldb/vol8/p886-vattani.pdf) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 5 | [VContainer](https://vcontainer.hadashikick.jp/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Vercel, Edge Runtime](https://vercel.com/docs/functions/runtimes/edge) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |

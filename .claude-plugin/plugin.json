@@ -1,7 +1,7 @@
 {
   "name": "architecture-guidelines",
   "displayName": "Architecture Guidelines",
-  "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, Godot, Unreal, web, Next.js, Vue, Svelte, Node.js, Python, .NET, PostgreSQL, Redis, Android, Docker, Kubernetes, OpenTelemetry, Terraform and GitHub Actions), with skills for architecture reviews, enforcing the rules in CI, ADRs, C4 diagrams and Unity architecture.",
+  "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, Godot, Unreal, web, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Android, Docker, Kubernetes, OpenTelemetry, Terraform and GitHub Actions), with skills for architecture reviews, enforcing the rules in CI, ADRs, C4 diagrams and Unity architecture.",
   "author": {
     "name": "depuschm",
     "url": "https://github.com/depuschm"
@@ -23,8 +23,10 @@
     "nextjs",
     "vue",
     "svelte",
+    "typescript",
     "nodejs",
     "python",
+    "graphql",
     "postgres",
     "redis",
     "docker",

@@ -4,6 +4,7 @@ score,title,url,verified
 10,Dockerfile best practices,https://docs.docker.com/build/building/best-practices/,2026-10-24
 10,Flutter app architecture,https://docs.flutter.dev/app-architecture,2026-10-24
 10,"Godot docs, Best practices",https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html,2026-10-25
+10,"GraphQL Foundation, Learn GraphQL",https://graphql.org/learn/,2026-10-25
 10,"HashiCorp, Terraform style guide",https://developer.hashicorp.com/terraform/language/style,2026-10-25
 10,Level up your code with design patterns and SOLID (Unity e-book),https://unity.com/resources/design-patterns-solid-ebook,2026-10-24
 10,"Microsoft, .NET Architecture Guides",https://learn.microsoft.com/en-us/dotnet/architecture/,2026-10-24
@@ -38,6 +39,7 @@ score,title,url,verified
 9,Google API Improvement Proposals (AIPs),https://google.aip.dev/,2026-10-24
 9,"Google SRE book, Service Level Objectives",https://sre.google/sre-book/service-level-objectives/,2026-10-24
 9,Google SRE books,https://sre.google/books/,2026-10-24
+9,"GraphQL Foundation, GraphQL Specification (September 2025)",https://spec.graphql.org/September2025/,2026-10-25
 9,IAM security best practices,https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html,2026-10-24
 9,"IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security",https://www.rfc-editor.org/rfc/rfc9700,2026-10-25
 9,"Kubernetes, Security checklist",https://kubernetes.io/docs/concepts/security/security-checklist/,2026-10-24
@@ -68,6 +70,8 @@ score,title,url,verified
 9,"Svelte, Best practices",https://svelte.dev/docs/svelte/best-practices,2026-10-25
 9,The Twelve-Factor App,https://12factor.net/,2026-10-24
 9,Thinking in React,https://react.dev/learn/thinking-in-react,2026-10-24
+9,"TypeScript, The TypeScript Handbook",https://www.typescriptlang.org/docs/handbook/intro.html,2026-10-25
+9,"TypeScript, TSConfig Reference",https://www.typescriptlang.org/tsconfig/,2026-10-25
 9,Ultimate guide to profiling Unity games (Unity e-book),https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6,2026-10-24
 9,"Unity Manual, Best practice guides",https://docs.unity3d.com/Manual/best-practice-guides.html,2026-10-24
 9,"Vocke, The Practical Test Pyramid",https://martinfowler.com/articles/practical-test-pyramid.html,2026-10-24
@@ -165,6 +169,8 @@ score,title,url,verified
 8,"Google SRE book, Embracing Risk",https://sre.google/sre-book/embracing-risk/,2026-10-24
 8,"Google SRE book, Monitoring Distributed Systems",https://sre.google/sre-book/monitoring-distributed-systems/,2026-10-24
 8,"Google SRE book, table of contents",https://sre.google/sre-book/table-of-contents/,2026-10-24
+8,"GraphQL Foundation, Authorization",https://graphql.org/learn/authorization/,2026-10-25
+8,"GraphQL Foundation, Security: Demand control",https://graphql.org/learn/security/#demand-control,2026-10-25
 8,"HashiCorp, HCP Terraform workspace best practices",https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices,2026-10-25
 8,"HashiCorp, Manage sensitive data in your configuration",https://developer.hashicorp.com/terraform/language/manage-sensitive-data,2026-10-25
 8,"HashiCorp, Module composition",https://developer.hashicorp.com/terraform/language/modules/develop/composition,2026-10-25
@@ -243,6 +249,9 @@ score,title,url,verified
 8,"OWASP, Authentication Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html,2026-10-25
 8,"OWASP, Content Security Policy Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html,2026-10-25
 8,"OWASP, DOM based XSS Prevention Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html,2026-10-25
+8,"OWASP, GraphQL Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html,2026-10-25
+8,"OWASP, GraphQL Cheat Sheet: Access control",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#access-control,2026-10-25
+8,"OWASP, GraphQL Cheat Sheet: DoS prevention",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#dos-prevention,2026-10-25
 8,"OWASP, HTTP Headers Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html,2026-10-25
 8,"OWASP, Multifactor Authentication Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html,2026-10-25
 8,"OWASP, Password Storage Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html,2026-10-25
@@ -300,6 +309,7 @@ score,title,url,verified
 8,The System Design Primer,https://github.com/donnemartin/system-design-primer,2026-10-24
 8,Threat Modeling Manifesto,https://www.threatmodelingmanifesto.org/,2026-10-24
 8,"Twelve-Factor App, III Config",https://12factor.net/config,2026-10-24
+8,"TypeScript Handbook, Modules",https://www.typescriptlang.org/docs/handbook/modules/introduction.html,2026-10-25
 8,"TypeScript, TSConfig reference: strict",https://www.typescriptlang.org/tsconfig/#strict,2026-10-25
 8,Unity Addressables package manual,https://docs.unity3d.com/Packages/com.unity.addressables@latest/,2026-10-24
 8,"Unity Manual, Assembly definitions",https://docs.unity3d.com/Manual/assembly-definition-files.html,2026-10-24
@@ -405,6 +415,7 @@ score,title,url,verified
 7,Consistency models,https://jepsen.io/consistency,2026-10-24
 7,Context Mapping,https://github.com/ddd-crew/context-mapping,2026-10-24
 7,Conventional Commits 1.0.0,https://www.conventionalcommits.org/en/v1.0.0/,2026-10-25
+7,"Dan Vanderkam, Effective TypeScript (2nd edition)",https://effectivetypescript.com/,2026-10-25
 7,"Dart, customizing static analysis",https://dart.dev/tools/analysis,2026-10-25
 7,"Dehghani, How to break a Monolith into Microservices",https://martinfowler.com/articles/break-monolith-into-microservices.html,2026-10-24
 7,"Deque, axe-core rule descriptions",https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md,2026-10-25
@@ -517,6 +528,23 @@ score,title,url,verified
 7,"Google, Site Reliability Engineering, chapter 8: Release Engineering",https://sre.google/sre-book/release-engineering/,2026-10-25
 7,"GOV.UK Service Manual, Building a robust frontend using progressive enhancement",https://www.gov.uk/service-manual/technology/using-progressive-enhancement,2026-10-25
 7,"GOV.UK Service Manual, Understanding WCAG 2.2",https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag,2026-10-25
+7,"GraphQL Foundation, DataLoader README",https://github.com/graphql/dataloader/blob/main/README.md,2026-10-25
+7,"GraphQL Foundation, Error Handling",https://graphql.org/learn/error-handling/,2026-10-25
+7,"GraphQL Foundation, GraphQL federation: Is GraphQL federation right for you?",https://graphql.org/learn/federation/#is-graphql-federation-right-for-you,2026-10-25
+7,"GraphQL Foundation, GraphQL over HTTP (working draft)",https://http-spec.graphql.org/draft/,2026-10-25
+7,"GraphQL Foundation, GraphQL over HTTP: GET",https://http-spec.graphql.org/draft/#sec-GET,2026-10-25
+7,"GraphQL Foundation, GraphQL Specification: @deprecated",https://spec.graphql.org/September2025/#sec--deprecated,2026-10-25
+7,"GraphQL Foundation, GraphQL Specification: Normal and Serial Execution",https://spec.graphql.org/September2025/#sec-Normal-and-Serial-Execution,2026-10-25
+7,"GraphQL Foundation, Pagination",https://graphql.org/learn/pagination/,2026-10-25
+7,"GraphQL Foundation, Performance: The N+1 problem",https://graphql.org/learn/performance/#the-n1-problem,2026-10-25
+7,"GraphQL Foundation, Schema Change Management",https://graphql.org/learn/governance-versioning/,2026-10-25
+7,"GraphQL Foundation, Schema Change Management: Identify breaking changes",https://graphql.org/learn/governance-versioning/#identify-breaking-changes,2026-10-25
+7,"GraphQL Foundation, Schema Design: Nullability",https://graphql.org/learn/schema-design/#nullability,2026-10-25
+7,"GraphQL Foundation, Schema Design: Versioning",https://graphql.org/learn/schema-design/#versioning,2026-10-25
+7,"GraphQL Foundation, Security: Error messages",https://graphql.org/learn/security/#error-messages,2026-10-25
+7,"GraphQL Foundation, Security: Trusted documents",https://graphql.org/learn/security/#trusted-documents,2026-10-25
+7,"GraphQL Foundation, Thinking in Graphs",https://graphql.org/learn/thinking-in-graphs/,2026-10-25
+7,"GraphQL Inspector, Diff and Validate GraphQL Schemas",https://the-guild.dev/graphql/inspector/docs/commands/diff,2026-10-25
 7,"Gregory, Game Engine Architecture (book)",https://www.gameenginebook.com/,2026-10-25
 7,"Harmel-Law, Scaling the Practice of Architecture, Conversationally",https://martinfowler.com/articles/scaling-architecture-conversationally.html,2026-10-24
 7,"HashiCorp, Creating modules",https://developer.hashicorp.com/terraform/language/modules/develop,2026-10-25
@@ -595,6 +623,7 @@ score,title,url,verified
 7,"Node.js, Command-line API: --unhandled-rejections",https://nodejs.org/api/cli.html#--unhandled-rejectionsmode,2026-10-25
 7,"Node.js, HTTP: server.close()",https://nodejs.org/api/http.html#serverclosecallback,2026-10-25
 7,"Node.js, Modules: TypeScript (type stripping)",https://nodejs.org/api/typescript.html,2026-10-25
+7,"Node.js, Modules: TypeScript: Type stripping",https://nodejs.org/api/typescript.html#type-stripping,2026-10-25
 7,"Node.js, Security Best Practices: Denial of Service of HTTP server",https://nodejs.org/learn/getting-started/security-best-practices#denial-of-service-of-http-server-cwe-400,2026-10-25
 7,"Node.js, Security Best Practices: Prototype pollution attacks",https://nodejs.org/learn/getting-started/security-best-practices#prototype-pollution-attacks-cwe-1321,2026-10-25
 7,"npm Docs, npm ci",https://docs.npmjs.com/cli/v12/commands/npm-ci/,2026-10-25
@@ -643,6 +672,8 @@ score,title,url,verified
 7,"OWASP Session Management Cheat Sheet, Built-in session management implementations",https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#built-in-session-management-implementations,2026-10-25
 7,"OWASP Session Management Cheat Sheet, Logout button",https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#logout-button,2026-10-25
 7,"OWASP, Forgot Password Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html,2026-10-25
+7,"OWASP, GraphQL Cheat Sheet: Query limiting (depth and amount)",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#query-limiting-depth-amount,2026-10-25
+7,"OWASP, GraphQL Cheat Sheet: Secure configurations",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#secure-configurations,2026-10-25
 7,"OWASP, OAuth 2.0 Protocol Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html,2026-10-25
 7,"OWASP, Passkey Security Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html,2026-10-25
 7,Pact,https://docs.pact.io/,2026-10-24
@@ -719,6 +750,7 @@ score,title,url,verified
 7,"Redis, Security: authentication",https://redis.io/docs/latest/operate/oss_and_stack/management/security/#authentication,2026-10-25
 7,"Redis, Security: protected mode",https://redis.io/docs/latest/operate/oss_and_stack/management/security/#protected-mode,2026-10-25
 7,"Redis, TLS",https://redis.io/docs/latest/operate/oss_and_stack/management/security/encryption/,2026-10-25
+7,"Relay, GraphQL Cursor Connections Specification",https://relay.dev/graphql/connections.htm,2026-10-25
 7,"Release It!, 2nd edition",https://pragprog.com/titles/mnee2/release-it-second-edition/,2026-10-24
 7,"RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)",https://www.rfc-editor.org/rfc/rfc10017#section-7.1,2026-10-25
 7,"Richards and Ford, Fundamentals of Software Architecture (book)",https://fundamentalsofsoftwarearchitecture.com/,2026-10-24
@@ -762,10 +794,33 @@ score,title,url,verified
 7,Trunk Based Development,https://trunkbaseddevelopment.com/,2026-10-24
 7,"Twelve-Factor App, IV Backing services",https://12factor.net/backing-services,2026-10-24
 7,"Twelve-Factor App, VI Processes",https://12factor.net/processes,2026-10-24
+7,"TypeScript Handbook, Choosing compiler options: I'm writing a library",https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-a-library,2026-10-25
+7,"TypeScript Handbook, Choosing compiler options: I'm writing an app",https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-an-app,2026-10-25
+7,"TypeScript Handbook, Modules reference: package.json ""exports""",https://www.typescriptlang.org/docs/handbook/modules/reference.html#packagejson-exports,2026-10-25
 7,"TypeScript Handbook, Modules: Choosing compiler options",https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html,2026-10-25
-7,"TypeScript, The TypeScript Handbook",https://www.typescriptlang.org/docs/handbook/intro.html,2026-10-25
+7,"TypeScript Handbook, Modules: Theory",https://www.typescriptlang.org/docs/handbook/modules/theory.html,2026-10-25
+7,"TypeScript Handbook, Narrowing: Discriminated unions",https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions,2026-10-25
+7,"TypeScript Handbook, Narrowing: Exhaustiveness checking",https://www.typescriptlang.org/docs/handbook/2/narrowing.html#exhaustiveness-checking,2026-10-25
+7,"TypeScript team, Announcing TypeScript 6.0: Breaking changes and deprecations",https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/#breaking-changes-and-deprecations-in-typescript-60,2026-10-25
+7,"TypeScript team, Announcing TypeScript 7.0",https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/,2026-10-25
+7,"TypeScript team, Announcing TypeScript 7.0: new behaviors from 6.0",https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#updates-since-5x-and-new-behaviors-from-60,2026-10-25
+7,"TypeScript, Declaration Files",https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html,2026-10-25
+7,"TypeScript, Declaration Files: Do's and Don'ts: any",https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html#any,2026-10-25
+7,"TypeScript, Project References",https://www.typescriptlang.org/docs/handbook/project-references.html,2026-10-25
+7,"TypeScript, tsc CLI Options",https://www.typescriptlang.org/docs/handbook/compiler-options.html,2026-10-25
+7,"TypeScript, TSConfig reference: erasableSyntaxOnly",https://www.typescriptlang.org/tsconfig/#erasableSyntaxOnly,2026-10-25
+7,"TypeScript, TSConfig reference: exactOptionalPropertyTypes",https://www.typescriptlang.org/tsconfig/#exactOptionalPropertyTypes,2026-10-25
+7,"TypeScript, TSConfig reference: isolatedModules",https://www.typescriptlang.org/tsconfig/#isolatedModules,2026-10-25
+7,"TypeScript, TSConfig reference: module",https://www.typescriptlang.org/tsconfig/#module,2026-10-25
+7,"TypeScript, TSConfig reference: noUncheckedIndexedAccess",https://www.typescriptlang.org/tsconfig/#noUncheckedIndexedAccess,2026-10-25
+7,"TypeScript, TSConfig reference: verbatimModuleSyntax",https://www.typescriptlang.org/tsconfig/#verbatimModuleSyntax,2026-10-25
+7,"TypeScript, TypeScript 5.5 release notes: Isolated declarations",https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html#isolated-declarations,2026-10-25
+7,"typescript-eslint, no-explicit-any",https://typescript-eslint.io/rules/no-explicit-any/,2026-10-25
 7,"typescript-eslint, no-floating-promises",https://typescript-eslint.io/rules/no-floating-promises/,2026-10-25
 7,"typescript-eslint, no-misused-promises",https://typescript-eslint.io/rules/no-misused-promises/,2026-10-25
+7,"typescript-eslint, no-unsafe-assignment",https://typescript-eslint.io/rules/no-unsafe-assignment/,2026-10-25
+7,"typescript-eslint, no-unsafe-member-access",https://typescript-eslint.io/rules/no-unsafe-member-access/,2026-10-25
+7,"typescript-eslint, switch-exhaustiveness-check",https://typescript-eslint.io/rules/switch-exhaustiveness-check/,2026-10-25
 7,"Unity Addressables, overview",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html,2026-10-24
 7,Unity Boss Room multiplayer sample,https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop,2026-10-24
 7,"Unity Manual, Asynchronous programming with Awaitable",https://docs.unity3d.com/Manual/async-await-support.html,2026-10-24
@@ -823,12 +878,15 @@ score,title,url,verified
 6,"AbleGamers, Accessible Player Experiences (APX)",https://accessible.games/accessible-player-experiences/,2026-10-25
 6,"actionlint, Checks: Script injection by potentially untrusted inputs",https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs,2026-10-25
 6,"Andrey Sitnik, Size Limit",https://github.com/ai/size-limit,2026-10-25
+6,"Apollo Server, Configuring CORS: Preventing CSRF",https://www.apollographql.com/docs/apollo-server/security/cors#preventing-cross-site-request-forgery-csrf,2026-10-25
+6,"Apollo, Safelisting with Persisted Queries: differences from automatic persisted queries",https://www.apollographql.com/docs/graphos/platform/security/persisted-queries#differences-from-automatic-persisted-queries,2026-10-25
 6,Architecting Cloud Native .NET Applications for Azure,https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/,2026-10-24
 6,Architecture decision record,https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record,2026-10-24
 6,Architecture decision record examples and templates,https://github.com/joelparkerhenderson/architecture-decision-record,2026-10-24
 6,Architecture decision records overview,https://docs.cloud.google.com/architecture/architecture-decision-records,2026-10-24
 6,ArchUnitNET,https://github.com/TNG/ArchUnitNET,2026-10-24
 6,ArchUnitNET guide,https://archunitnet.readthedocs.io/en/latest/guide/,2026-10-25
+6,"arethetypeswrong, CLI",https://github.com/arethetypeswrong/arethetypeswrong.github.io/blob/main/packages/cli/README.md,2026-10-25
 6,"AWS Config, required-tags rule",https://docs.aws.amazon.com/config/latest/developerguide/required-tags.html,2026-10-25
 6,AWS multi-Region fundamentals,https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/,2026-10-24
 6,"AWS Prescriptive Guidance, ADR best practices",https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html,2026-10-24
@@ -880,6 +938,7 @@ score,title,url,verified
 6,"Epic Games, Low-Level Tests in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine,2026-10-25
 6,"Epic Games, Running Gauntlet Tests in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/running-gauntlet-tests-in-unreal-engine,2026-10-25
 6,"Epic Games, Static Code Analysis in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/static-code-analysis-in-unreal-engine,2026-10-25
+6,"esbuild, Content types: TypeScript caveats",https://esbuild.github.io/content-types/#typescript-caveats,2026-10-25
 6,"ESLint, @eslint/css use-baseline rule",https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md,2026-10-25
 6,"eslint-plugin-n, no-sync",https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md,2026-10-25
 6,"eslint-plugin-regexp, no-super-linear-backtracking",https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html,2026-10-25
@@ -938,6 +997,22 @@ score,title,url,verified
 6,Google Cloud API design guide,https://docs.cloud.google.com/apis/design,2026-10-24
 6,"Google Testing Blog, Just Say No to More End-to-End Tests",https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html,2026-10-24
 6,GraphQL best practices,https://graphql.org/learn/best-practices/,2026-10-24
+6,"GraphQL ESLint, no-deprecated",https://the-guild.dev/graphql/eslint/rules/no-deprecated,2026-10-25
+6,"GraphQL ESLint, relay-arguments",https://the-guild.dev/graphql/eslint/rules/relay-arguments,2026-10-25
+6,"GraphQL ESLint, relay-connection-types",https://the-guild.dev/graphql/eslint/rules/relay-connection-types,2026-10-25
+6,"GraphQL ESLint, relay-page-info",https://the-guild.dev/graphql/eslint/rules/relay-page-info,2026-10-25
+6,"GraphQL ESLint, require-deprecation-date",https://the-guild.dev/graphql/eslint/rules/require-deprecation-date,2026-10-25
+6,"GraphQL ESLint, require-deprecation-reason",https://the-guild.dev/graphql/eslint/rules/require-deprecation-reason,2026-10-25
+6,"GraphQL ESLint, Rules overview",https://the-guild.dev/graphql/eslint/rules,2026-10-25
+6,"GraphQL Foundation, GraphQL over HTTP: Exercise caution",https://http-spec.graphql.org/draft/#sec-Exercise-caution,2026-10-25
+6,"GraphQL Foundation, Introspection: Introspection in production",https://graphql.org/learn/introspection/#introspection-in-production,2026-10-25
+6,"GraphQL Foundation, Naming Conventions and Design Standards: nullability patterns",https://graphql.org/learn/naming-design/#design-nullability-patterns-thoughtfully,2026-10-25
+6,"GraphQL Foundation, Naming Conventions and Design Standards: payload types",https://graphql.org/learn/naming-design/#wrap-mutation-results-in-payload-types,2026-10-25
+6,"GraphQL Foundation, Review and validate schema changes",https://graphql.org/learn/schema-review/,2026-10-25
+6,"GraphQL Foundation, Security: Introspection",https://graphql.org/learn/security/#introspection,2026-10-25
+6,"GraphQL Yoga, Error Masking",https://the-guild.dev/graphql/yoga-server/docs/features/error-masking,2026-10-25
+6,"GraphQL Yoga, Persisted Operations",https://the-guild.dev/graphql/yoga-server/docs/features/persisted-operations,2026-10-25
+6,"GraphQL Yoga, Preparing for Production",https://the-guild.dev/graphql/yoga-server/docs/prepare-for-production,2026-10-25
 6,gRPC guides,https://grpc.io/docs/guides/,2026-10-24
 6,"Hadolint, Dockerfile linter",https://github.com/hadolint/hadolint,2026-10-25
 6,"HashiCorp, HCP Terraform policy enforcement overview",https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement,2026-10-25
@@ -961,6 +1036,7 @@ score,title,url,verified
 6,"Kubernetes, Topology spread constraints",https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/,2026-10-24
 6,Kyverno policy library,https://kyverno.io/policies/,2026-10-25
 6,"Lighthouse CI, configuration and assertions",https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md,2026-10-25
+6,"Matt Pocock, Total TypeScript Essentials",https://www.totaltypescript.com/books/total-typescript-essentials,2026-10-25
 6,"MDN, Accessibility tooling and assistive technology",https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling,2026-10-25
 6,"MDN, HTTP Observatory (mdn-http-observatory)",https://github.com/mdn/mdn-http-observatory,2026-10-25
 6,Mermaid C4 diagrams,https://mermaid.js.org/syntax/c4.html,2026-10-24
@@ -1026,6 +1102,8 @@ score,title,url,verified
 6,"OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service,2026-10-25
 6,"OWASP Multifactor Authentication Cheat Sheet, Resetting MFA",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa,2026-10-25
 6,"OWASP, Django Security Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html,2026-10-25
+6,"OWASP, GraphQL Cheat Sheet: Introspection and GraphiQL",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#introspection-graphiql,2026-10-25
+6,"OWASP, GraphQL Cheat Sheet: Server-side batching and caching",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#server-side-batching-and-caching,2026-10-25
 6,"OWASP, Third Party JavaScript Management Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html,2026-10-25
 6,"Palermo, Onion Architecture",https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/,2026-10-24
 6,"passkeys.dev, Bootstrapping an account on the web",https://passkeys.dev/docs/use-cases/bootstrapping/,2026-10-25
@@ -1040,6 +1118,7 @@ score,title,url,verified
 6,"PostgreSQL, Explicit Locking: Deadlocks",https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS,2026-10-25
 6,"PostgreSQL, max_connections",https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS,2026-10-25
 6,Principles of Chaos Engineering,https://principlesofchaos.org/,2026-10-24
+6,"publint, Rules",https://publint.dev/rules,2026-10-25
 6,"PyPA, Packaging Python Projects",https://packaging.python.org/en/latest/tutorials/packaging-projects/,2026-10-25
 6,"PyPA, pip-audit",https://github.com/pypa/pip-audit,2026-10-25
 6,"Pyright, Configuration",https://github.com/microsoft/pyright/blob/main/docs/configuration.md,2026-10-25
@@ -1070,6 +1149,7 @@ score,title,url,verified
 6,"Semantic Versioning FAQ, How do I know when to release 1.0.0?",https://semver.org/#how-do-i-know-when-to-release-100,2026-10-25
 6,"Semantic Versioning FAQ, What do I do if I accidentally release a backward incompatible change as a minor version?",https://semver.org/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version,2026-10-25
 6,Server Components,https://react.dev/reference/rsc/server-components,2026-10-24
+6,"Shopify, Tutorial: Designing a GraphQL API",https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md,2026-10-25
 6,"Spectral, OpenAPI rules",https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md,2026-10-25
 6,"Squawk, Applying migrations safely",https://squawkhq.com/docs/safe_migrations,2026-10-25
 6,"Squawk, Rules overview",https://squawkhq.com/docs/rules,2026-10-25
@@ -1094,7 +1174,20 @@ score,title,url,verified
 6,"Trunk Based Development, Branch for release",https://trunkbaseddevelopment.com/branch-for-release/,2026-10-25
 6,"Turborepo, Crafting your repository",https://turborepo.dev/docs/crafting-your-repository,2026-10-25
 6,"Turborepo, Structuring a repository",https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository,2026-10-25
+6,"TypeScript Handbook, Everyday Types: any",https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any,2026-10-25
+6,"TypeScript Handbook, Everyday Types: Type assertions",https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions,2026-10-25
+6,"TypeScript Handbook, More on Functions: unknown",https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown,2026-10-25
+6,"TypeScript Handbook, Narrowing: Using type predicates",https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates,2026-10-25
 6,"TypeScript Handbook, The Basics: Erased types",https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types,2026-10-25
+6,"TypeScript team, Announcing TypeScript 5.9: Minimal and updated tsc --init",https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/#minimal-and-updated-tsc---init,2026-10-25
+6,"TypeScript team, Announcing TypeScript 7.0: project reference builder parallelization",https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#project-reference-builder-parallelization,2026-10-25
+6,"TypeScript team, Announcing TypeScript 7.0: running side by side with TypeScript 6.0",https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#running-side-by-side-with-typescript-60,2026-10-25
+6,"TypeScript wiki, Performance",https://github.com/microsoft/TypeScript/wiki/Performance,2026-10-25
+6,"TypeScript, Declaration Files: Do's and Don'ts",https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html,2026-10-25
+6,"TypeScript, Declaration Files: Publishing",https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html,2026-10-25
+6,"TypeScript, TypeScript 4.7 release notes: package.json exports, imports and self-referencing",https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#packagejson-exports-imports-and-self-referencing,2026-10-25
+6,"typescript-eslint, Dependency Versions",https://typescript-eslint.io/users/dependency-versions/,2026-10-25
+6,"typescript-eslint, no-unsafe-type-assertion",https://typescript-eslint.io/rules/no-unsafe-type-assertion/,2026-10-25
 6,Unity Entities package manual,https://docs.unity3d.com/Packages/com.unity.entities@latest/,2026-10-24
 6,Unity game programming patterns demo,https://github.com/Unity-Technologies/game-programming-patterns-demo,2026-10-24
 6,"Unity Manual, Analyzer scope and diagnostics",https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html,2026-10-25
@@ -1120,6 +1213,7 @@ score,title,url,verified
 6,"Vercel, Project configuration",https://vercel.com/docs/project-configuration,2026-10-25
 6,"Vercel, Runtime Logs: limits",https://vercel.com/docs/logs/runtime#limits,2026-10-25
 6,"Vercel, Working with Drains",https://vercel.com/docs/drains,2026-10-25
+6,"Vite, Features: Transpile only",https://vite.dev/guide/features#transpile-only,2026-10-25
 6,"Vogels, Eventually Consistent",https://www.allthingsdistributed.com/2008/12/eventually_consistent.html,2026-10-24
 6,"VSTHRD002, avoid problematic synchronous waits",https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html,2026-10-25
 6,"Vue Test Utils, Guide",https://test-utils.vuejs.org/guide/,2026-10-25
@@ -1187,6 +1281,7 @@ score,title,url,verified
 5,"Google API Linter, core::0121::resource-must-support-get",https://linter.aip.dev/121/resource-must-support-get,2026-10-25
 5,"Google API Linter, core::0158::request-page-size-field",https://linter.aip.dev/158/request-page-size-field,2026-10-25
 5,"Google, Release Please",https://github.com/googleapis/release-please,2026-10-25
+5,"GraphQL Yoga, CSRF Prevention",https://the-guild.dev/graphql/yoga-server/docs/features/csrf-prevention,2026-10-25
 5,"GUT, Command line",https://gut.readthedocs.io/en/latest/Command-Line.html,2026-10-25
 5,"Hadolint, DL3002: last user should not be root",https://github.com/hadolint/hadolint/wiki/DL3002,2026-10-25
 5,"Hadolint, DL3006: always tag the version of an image explicitly",https://github.com/hadolint/hadolint/wiki/DL3006,2026-10-25
@@ -1203,6 +1298,7 @@ score,title,url,verified
 5,"Kyverno policy, require PodDisruptionBudget",https://kyverno.io/policies/other/require-pdb/require-pdb/,2026-10-25
 5,"Kyverno policy, require probes",https://kyverno.io/policies/best-practices/require-probes/require-probes/,2026-10-25
 5,"Kyverno policy, require requests and limits",https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/,2026-10-25
+5,"Marc-André Giroux, Production Ready GraphQL",https://book.productionreadygraphql.com/,2026-10-25
 5,"MDN, Progressive enhancement (glossary)",https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement,2026-10-25
 5,"Microsoft, Customize builds by folder (Directory.Build.props)",https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory,2026-10-25
 5,"Microsoft, dotnet format",https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format,2026-10-25
@@ -1220,6 +1316,9 @@ score,title,url,verified
 5,"Polaris, infrastructure as code (CI)",https://polaris.docs.fairwinds.com/infrastructure-as-code/,2026-10-25
 5,"Polaris, reliability checks",https://polaris.docs.fairwinds.com/checks/reliability/,2026-10-25
 5,"Polaris, security checks",https://polaris.docs.fairwinds.com/checks/security/,2026-10-25
+5,"publint, CLI",https://publint.dev/docs/cli,2026-10-25
+5,"publint, EXPORTS_TYPES_INVALID_FORMAT",https://publint.dev/rules#exports_types_invalid_format,2026-10-25
+5,"publint, EXPORTS_TYPES_SHOULD_BE_FIRST",https://publint.dev/rules#exports_types_should_be_first,2026-10-25
 5,"PVS-Studio, V1100: pointer to a UObject type in a class not derived from UObject",https://pvs-studio.com/en/docs/warnings/v1100/,2026-10-25
 5,"PyCQA, Bandit",https://bandit.readthedocs.io/en/latest/,2026-10-25
 5,"PyYAML, PyYAML Documentation",https://pyyaml.org/wiki/PyYAMLDocumentation,2026-10-25

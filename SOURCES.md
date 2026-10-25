@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-75 sources.
+79 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 10 | [GraphQL Foundation, Learn GraphQL](https://graphql.org/learn/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -50,6 +51,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Google API Improvement Proposals (AIPs)](https://google.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Google SRE books](https://sre.google/books/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 9 | [GraphQL Foundation, GraphQL Specification (September 2025)](https://spec.graphql.org/September2025/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 9 | [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Kubernetes, Security checklist](https://kubernetes.io/docs/concepts/security/security-checklist/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -80,6 +82,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Thinking in React](https://react.dev/learn/thinking-in-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 9 | [TypeScript, The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | [specific/nodejs](specific/nodejs/README.md), [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 9 | [TypeScript, TSConfig Reference](https://www.typescriptlang.org/tsconfig/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 9 | [Ultimate guide to profiling Unity games (Unity e-book)](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 9 | [Unity Manual, Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -89,7 +93,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1058 sources.
+1148 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -184,6 +188,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Google SRE book, Embracing Risk](https://sre.google/sre-book/embracing-risk/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, table of contents](https://sre.google/sre-book/table-of-contents/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [GraphQL Foundation, Authorization](https://graphql.org/learn/authorization/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 8 | [GraphQL Foundation, Security: Demand control](https://graphql.org/learn/security/#demand-control) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, HCP Terraform workspace best practices](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Manage sensitive data in your configuration](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Module composition](https://developer.hashicorp.com/terraform/language/modules/develop/composition) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -262,6 +268,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP, Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [OWASP, GraphQL Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 8 | [OWASP, GraphQL Cheat Sheet: Access control](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#access-control) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 8 | [OWASP, GraphQL Cheat Sheet: DoS prevention](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#dos-prevention) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 8 | [OWASP, HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, Multifactor Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -319,7 +328,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Twelve-Factor App, III Config](https://12factor.net/config) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
-| 8 | [TypeScript, TSConfig reference: strict](https://www.typescriptlang.org/tsconfig/#strict) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 8 | [TypeScript Handbook, Modules](https://www.typescriptlang.org/docs/handbook/modules/introduction.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 8 | [TypeScript, TSConfig reference: strict](https://www.typescriptlang.org/tsconfig/#strict) | [specific/nodejs](specific/nodejs/README.md), [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 8 | [Unity Addressables package manual](https://docs.unity3d.com/Packages/com.unity.addressables@latest/) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Unity Manual, Assembly definitions](https://docs.unity3d.com/Manual/assembly-definition-files.html) | [specific/unity/project-structure](specific/unity/project-structure.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Manual, Introduction to assemblies](https://docs.unity3d.com/Manual/assembly-definitions-intro.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -424,6 +434,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 7 | [Dan Vanderkam, Effective TypeScript (2nd edition)](https://effectivetypescript.com/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [Dart, customizing static analysis](https://dart.dev/tools/analysis) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Deque, axe-core rule descriptions](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -536,6 +547,23 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google, Site Reliability Engineering, chapter 8: Release Engineering](https://sre.google/sre-book/release-engineering/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, DataLoader README](https://github.com/graphql/dataloader/blob/main/README.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Error Handling](https://graphql.org/learn/error-handling/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, GraphQL federation: Is GraphQL federation right for you?](https://graphql.org/learn/federation/#is-graphql-federation-right-for-you) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, GraphQL over HTTP (working draft)](https://http-spec.graphql.org/draft/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, GraphQL over HTTP: GET](https://http-spec.graphql.org/draft/#sec-GET) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, GraphQL Specification: @deprecated](https://spec.graphql.org/September2025/#sec--deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, GraphQL Specification: Normal and Serial Execution](https://spec.graphql.org/September2025/#sec-Normal-and-Serial-Execution) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Pagination](https://graphql.org/learn/pagination/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Performance: The N+1 problem](https://graphql.org/learn/performance/#the-n1-problem) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Schema Change Management](https://graphql.org/learn/governance-versioning/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Schema Change Management: Identify breaking changes](https://graphql.org/learn/governance-versioning/#identify-breaking-changes) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Schema Design: Nullability](https://graphql.org/learn/schema-design/#nullability) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Schema Design: Versioning](https://graphql.org/learn/schema-design/#versioning) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Security: Error messages](https://graphql.org/learn/security/#error-messages) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Security: Trusted documents](https://graphql.org/learn/security/#trusted-documents) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Foundation, Thinking in Graphs](https://graphql.org/learn/thinking-in-graphs/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [GraphQL Inspector, Diff and Validate GraphQL Schemas](https://the-guild.dev/graphql/inspector/docs/commands/diff) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [Gregory, Game Engine Architecture (book)](https://www.gameenginebook.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [HashiCorp, Creating modules](https://developer.hashicorp.com/terraform/language/modules/develop) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -614,6 +642,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Node.js, Command-line API: --unhandled-rejections](https://nodejs.org/api/cli.html#--unhandled-rejectionsmode) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js, HTTP: server.close()](https://nodejs.org/api/http.html#serverclosecallback) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js, Modules: TypeScript (type stripping)](https://nodejs.org/api/typescript.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [Node.js, Modules: TypeScript: Type stripping](https://nodejs.org/api/typescript.html#type-stripping) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [Node.js, Security Best Practices: Denial of Service of HTTP server](https://nodejs.org/learn/getting-started/security-best-practices#denial-of-service-of-http-server-cwe-400) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Node.js, Security Best Practices: Prototype pollution attacks](https://nodejs.org/learn/getting-started/security-best-practices#prototype-pollution-attacks-cwe-1321) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [npm Docs, npm ci](https://docs.npmjs.com/cli/v12/commands/npm-ci/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -662,6 +691,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP Session Management Cheat Sheet, Built-in session management implementations](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#built-in-session-management-implementations) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Session Management Cheat Sheet, Logout button](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#logout-button) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP, Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP, GraphQL Cheat Sheet: Query limiting (depth and amount)](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#query-limiting-depth-amount) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 7 | [OWASP, GraphQL Cheat Sheet: Secure configurations](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#secure-configurations) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [OWASP, OAuth 2.0 Protocol Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP, Passkey Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Pact](https://docs.pact.io/) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -738,6 +769,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Redis, Security: authentication](https://redis.io/docs/latest/operate/oss_and_stack/management/security/#authentication) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Redis, Security: protected mode](https://redis.io/docs/latest/operate/oss_and_stack/management/security/#protected-mode) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Redis, TLS](https://redis.io/docs/latest/operate/oss_and_stack/management/security/encryption/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Relay, GraphQL Cursor Connections Specification](https://relay.dev/graphql/connections.htm) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [Release It!, 2nd edition](https://pragprog.com/titles/mnee2/release-it-second-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)](https://www.rfc-editor.org/rfc/rfc10017#section-7.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Richards and Ford, Fundamentals of Software Architecture (book)](https://fundamentalsofsoftwarearchitecture.com/) | [general/quality-attributes](general/quality-attributes.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -781,10 +813,33 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Trunk Based Development](https://trunkbaseddevelopment.com/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Twelve-Factor App, IV Backing services](https://12factor.net/backing-services) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Twelve-Factor App, VI Processes](https://12factor.net/processes) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
-| 7 | [TypeScript Handbook, Modules: Choosing compiler options](https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
-| 7 | [TypeScript, The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Choosing compiler options: I'm writing a library](https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-a-library) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Choosing compiler options: I'm writing an app](https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-an-app) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Modules reference: package.json "exports"](https://www.typescriptlang.org/docs/handbook/modules/reference.html#packagejson-exports) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Modules: Choosing compiler options](https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html) | [specific/nodejs](specific/nodejs/README.md), [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Modules: Theory](https://www.typescriptlang.org/docs/handbook/modules/theory.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Narrowing: Discriminated unions](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript Handbook, Narrowing: Exhaustiveness checking](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#exhaustiveness-checking) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript team, Announcing TypeScript 6.0: Breaking changes and deprecations](https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/#breaking-changes-and-deprecations-in-typescript-60) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript team, Announcing TypeScript 7.0](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript team, Announcing TypeScript 7.0: new behaviors from 6.0](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#updates-since-5x-and-new-behaviors-from-60) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, Declaration Files: Do's and Don'ts: any](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html#any) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, Project References](https://www.typescriptlang.org/docs/handbook/project-references.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, tsc CLI Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TSConfig reference: erasableSyntaxOnly](https://www.typescriptlang.org/tsconfig/#erasableSyntaxOnly) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TSConfig reference: exactOptionalPropertyTypes](https://www.typescriptlang.org/tsconfig/#exactOptionalPropertyTypes) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TSConfig reference: isolatedModules](https://www.typescriptlang.org/tsconfig/#isolatedModules) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TSConfig reference: module](https://www.typescriptlang.org/tsconfig/#module) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TSConfig reference: noUncheckedIndexedAccess](https://www.typescriptlang.org/tsconfig/#noUncheckedIndexedAccess) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TSConfig reference: verbatimModuleSyntax](https://www.typescriptlang.org/tsconfig/#verbatimModuleSyntax) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [TypeScript, TypeScript 5.5 release notes: Isolated declarations](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html#isolated-declarations) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [typescript-eslint, no-explicit-any](https://typescript-eslint.io/rules/no-explicit-any/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [typescript-eslint, no-floating-promises](https://typescript-eslint.io/rules/no-floating-promises/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [typescript-eslint, no-misused-promises](https://typescript-eslint.io/rules/no-misused-promises/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 7 | [typescript-eslint, no-unsafe-assignment](https://typescript-eslint.io/rules/no-unsafe-assignment/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [typescript-eslint, no-unsafe-member-access](https://typescript-eslint.io/rules/no-unsafe-member-access/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 7 | [typescript-eslint, switch-exhaustiveness-check](https://typescript-eslint.io/rules/switch-exhaustiveness-check/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [Unity Addressables, overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Boss Room multiplayer sample](https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Asynchronous programming with Awaitable](https://docs.unity3d.com/Manual/async-await-support.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -842,12 +897,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AbleGamers, Accessible Player Experiences (APX)](https://accessible.games/accessible-player-experiences/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Apollo Server, Configuring CORS: Preventing CSRF](https://www.apollographql.com/docs/apollo-server/security/cors#preventing-cross-site-request-forgery-csrf) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [Apollo, Safelisting with Persisted Queries: differences from automatic persisted queries](https://www.apollographql.com/docs/graphos/platform/security/persisted-queries#differences-from-automatic-persisted-queries) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision records overview](https://docs.cloud.google.com/architecture/architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [ArchUnitNET](https://github.com/TNG/ArchUnitNET) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [ArchUnitNET guide](https://archunitnet.readthedocs.io/en/latest/guide/) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 6 | [arethetypeswrong, CLI](https://github.com/arethetypeswrong/arethetypeswrong.github.io/blob/main/packages/cli/README.md) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [AWS Config, required-tags rule](https://docs.aws.amazon.com/config/latest/developerguide/required-tags.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS multi-Region fundamentals](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [AWS Prescriptive Guidance, ADR best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -899,6 +957,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Epic Games, Running Gauntlet Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/running-gauntlet-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Epic Games, Static Code Analysis in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/static-code-analysis-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 6 | [esbuild, Content types: TypeScript caveats](https://esbuild.github.io/content-types/#typescript-caveats) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-n, no-sync](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-regexp, no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -956,7 +1015,23 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
-| 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
+| 6 | [GraphQL ESLint, no-deprecated](https://the-guild.dev/graphql/eslint/rules/no-deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL ESLint, relay-arguments](https://the-guild.dev/graphql/eslint/rules/relay-arguments) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL ESLint, relay-connection-types](https://the-guild.dev/graphql/eslint/rules/relay-connection-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL ESLint, relay-page-info](https://the-guild.dev/graphql/eslint/rules/relay-page-info) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL ESLint, require-deprecation-date](https://the-guild.dev/graphql/eslint/rules/require-deprecation-date) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL ESLint, require-deprecation-reason](https://the-guild.dev/graphql/eslint/rules/require-deprecation-reason) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL ESLint, Rules overview](https://the-guild.dev/graphql/eslint/rules) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Foundation, GraphQL over HTTP: Exercise caution](https://http-spec.graphql.org/draft/#sec-Exercise-caution) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Foundation, Introspection: Introspection in production](https://graphql.org/learn/introspection/#introspection-in-production) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Foundation, Naming Conventions and Design Standards: nullability patterns](https://graphql.org/learn/naming-design/#design-nullability-patterns-thoughtfully) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Foundation, Naming Conventions and Design Standards: payload types](https://graphql.org/learn/naming-design/#wrap-mutation-results-in-payload-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Foundation, Review and validate schema changes](https://graphql.org/learn/schema-review/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Foundation, Security: Introspection](https://graphql.org/learn/security/#introspection) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Yoga, Error Masking](https://the-guild.dev/graphql/yoga-server/docs/features/error-masking) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Yoga, Persisted Operations](https://the-guild.dev/graphql/yoga-server/docs/features/persisted-operations) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Yoga, Preparing for Production](https://the-guild.dev/graphql/yoga-server/docs/prepare-for-production) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [gRPC guides](https://grpc.io/docs/guides/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Hadolint, Dockerfile linter](https://github.com/hadolint/hadolint) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, HCP Terraform policy enforcement overview](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -980,6 +1055,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kyverno policy library](https://kyverno.io/policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/react](specific/react/README.md), [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Matt Pocock, Total TypeScript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [MDN, HTTP Observatory (mdn-http-observatory)](https://github.com/mdn/mdn-http-observatory) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -1045,6 +1121,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Resetting MFA](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP, Django Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [OWASP, GraphQL Cheat Sheet: Introspection and GraphiQL](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#introspection-graphiql) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [OWASP, GraphQL Cheat Sheet: Server-side batching and caching](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#server-side-batching-and-caching) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [OWASP, Third Party JavaScript Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [passkeys.dev, Bootstrapping an account on the web](https://passkeys.dev/docs/use-cases/bootstrapping/) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1059,6 +1137,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 6 | [publint, Rules](https://publint.dev/rules) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [PyPA, Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [PyPA, pip-audit](https://github.com/pypa/pip-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Pyright, Configuration](https://github.com/microsoft/pyright/blob/main/docs/configuration.md) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1089,6 +1168,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Semantic Versioning FAQ, How do I know when to release 1.0.0?](https://semver.org/#how-do-i-know-when-to-release-100) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Semantic Versioning FAQ, What do I do if I accidentally release a backward incompatible change as a minor version?](https://semver.org/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Shopify, Tutorial: Designing a GraphQL API](https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Squawk, Applying migrations safely](https://squawkhq.com/docs/safe_migrations) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Squawk, Rules overview](https://squawkhq.com/docs/rules) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -1113,7 +1193,20 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Trunk Based Development, Branch for release](https://trunkbaseddevelopment.com/branch-for-release/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Turborepo, Crafting your repository](https://turborepo.dev/docs/crafting-your-repository) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Turborepo, Structuring a repository](https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository) | [general/repositories](general/repositories.md) | 2026-10-25 |
-| 6 | [TypeScript Handbook, The Basics: Erased types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [TypeScript Handbook, Everyday Types: any](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript Handbook, Everyday Types: Type assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript Handbook, More on Functions: unknown](https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript Handbook, Narrowing: Using type predicates](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript Handbook, The Basics: Erased types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#erased-types) | [specific/nodejs](specific/nodejs/README.md), [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript team, Announcing TypeScript 5.9: Minimal and updated tsc --init](https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/#minimal-and-updated-tsc---init) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript team, Announcing TypeScript 7.0: project reference builder parallelization](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#project-reference-builder-parallelization) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript team, Announcing TypeScript 7.0: running side by side with TypeScript 6.0](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#running-side-by-side-with-typescript-60) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript wiki, Performance](https://github.com/microsoft/TypeScript/wiki/Performance) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript, Declaration Files: Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript, Declaration Files: Publishing](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [TypeScript, TypeScript 4.7 release notes: package.json exports, imports and self-referencing](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#packagejson-exports-imports-and-self-referencing) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [typescript-eslint, Dependency Versions](https://typescript-eslint.io/users/dependency-versions/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [typescript-eslint, no-unsafe-type-assertion](https://typescript-eslint.io/rules/no-unsafe-type-assertion/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Analyzer scope and diagnostics](https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
@@ -1139,6 +1232,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Vercel, Project configuration](https://vercel.com/docs/project-configuration) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vercel, Runtime Logs: limits](https://vercel.com/docs/logs/runtime#limits) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vercel, Working with Drains](https://vercel.com/docs/drains) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
+| 6 | [Vite, Features: Transpile only](https://vite.dev/guide/features#transpile-only) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Vue Test Utils, Guide](https://test-utils.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -1154,7 +1248,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-148 sources.
+153 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1213,6 +1307,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [GraphQL Yoga, CSRF Prevention](https://the-guild.dev/graphql/yoga-server/docs/features/csrf-prevention) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3002: last user should not be root](https://github.com/hadolint/hadolint/wiki/DL3002) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3006: always tag the version of an image explicitly](https://github.com/hadolint/hadolint/wiki/DL3006) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -1229,6 +1324,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Kyverno policy, require PodDisruptionBudget](https://kyverno.io/policies/other/require-pdb/require-pdb/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Marc-André Giroux, Production Ready GraphQL](https://book.productionreadygraphql.com/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [MDN, Progressive enhancement (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Customize builds by folder (Directory.Build.props)](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Microsoft, dotnet format](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
@@ -1246,6 +1342,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Polaris, infrastructure as code (CI)](https://polaris.docs.fairwinds.com/infrastructure-as-code/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, reliability checks](https://polaris.docs.fairwinds.com/checks/reliability/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Polaris, security checks](https://polaris.docs.fairwinds.com/checks/security/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [publint, CLI](https://publint.dev/docs/cli) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 5 | [publint, EXPORTS_TYPES_INVALID_FORMAT](https://publint.dev/rules#exports_types_invalid_format) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 5 | [publint, EXPORTS_TYPES_SHOULD_BE_FIRST](https://publint.dev/rules#exports_types_should_be_first) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [PVS-Studio, V1100: pointer to a UObject type in a class not derived from UObject](https://pvs-studio.com/en/docs/warnings/v1100/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [PyCQA, Bandit](https://bandit.readthedocs.io/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [PyYAML, PyYAML Documentation](https://pyyaml.org/wiki/PyYAMLDocumentation) | [specific/python](specific/python/README.md) | 2026-10-25 |

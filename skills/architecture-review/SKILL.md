@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, Node.js, Python, .NET, PostgreSQL, Redis, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, serverless hosting (Vercel, Netlify, Cloudflare), Terraform and GitHub Actions). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -38,9 +38,11 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Next.js | `next.config.js`, `next.config.mjs` or `next.config.ts`, or a `next` dependency in `package.json` | `specific/nextjs/`, plus `specific/react/` |
 | Vue | `*.vue` files, a `vue` dependency in `package.json`, or `nuxt.config.*` | `specific/vue/`, plus `specific/web/` |
 | Svelte | `*.svelte` files, `svelte.config.js`, or an `@sveltejs/kit` dependency | `specific/svelte/`, plus `specific/web/` |
+| TypeScript | `tsconfig.json`, or `*.ts` and `*.tsx` files | `specific/typescript/`, plus the platform's folder |
 | Node.js | `package.json` for a server: dependencies such as `express`, `fastify`, `@nestjs/core` or `hono`, or a `start` script that runs `node` | `specific/nodejs/` |
 | Python | `pyproject.toml`, `requirements*.txt`, `uv.lock`, `setup.py`, or Django's `manage.py` | `specific/python/` |
 | .NET | `*.sln`, `*.slnx`, `*.csproj` (outside a Unity project) | `specific/dotnet/` |
+| GraphQL | `*.graphql` or `*.gql` schema files, a `graphql` dependency, or a GraphQL server library (for example Apollo Server, GraphQL Yoga, Strawberry, Hot Chocolate) | `specific/graphql/` |
 | PostgreSQL | SQL migrations for PostgreSQL, `postgres://` or `postgresql://` connection strings, a PostgreSQL driver (`pg`, `psycopg`, `asyncpg`, `Npgsql`), or a `postgres` service in a Compose file | `specific/postgres/` |
 | Redis or Valkey | `redis://` or `rediss://` URLs, a Redis client dependency (for example `redis`, `ioredis`, `StackExchange.Redis`, `go-redis`), or a `redis` or `valkey` service in a Compose file | `specific/redis/` |
 | Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |

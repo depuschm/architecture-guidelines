@@ -16,9 +16,11 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Next.js](nextjs/README.md): full-stack React apps with the App Router.
 - [Vue](vue/README.md): Vue 3 apps, with Pinia, Vue Router and Nuxt.
 - [Svelte and SvelteKit](svelte/README.md): Svelte 5 and SvelteKit apps.
+- [TypeScript](typescript/README.md): compiler settings, modules and types for any TypeScript codebase.
 - [Node.js](nodejs/README.md): back-end services in TypeScript.
 - [Python](python/README.md): Python applications and services, including FastAPI and Django.
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.
+- [GraphQL](graphql/README.md): designing, securing and running GraphQL APIs.
 
 ### Data
 

@@ -1,0 +1,25 @@
+name: Dispute a score
+description: Propose a different score for a rule or a source.
+labels: [score]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Rule ID or source URL
+      description: For example `SEC-2`, or the URL as it appears in sources.csv.
+    validations:
+      required: true
+  - type: input
+    id: scores
+    attributes:
+      label: Current score → proposed score
+      placeholder: 7 → 9
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning
+      description: Argue from the criteria in [RANKING.md](https://github.com/depuschm/architecture-guidelines/blob/main/RANKING.md). For rules, that's impact if ignored, breadth, consensus and cost to fix later. For sources, it's authority, coverage, currency, access and actionability.
+    validations:
+      required: true

@@ -23,6 +23,8 @@ general/            Technology-independent guidelines (principles, styles, DDD, 
 specific/<platform> One folder per platform/service (Unity, .NET, Android, Flutter, React, Kubernetes, AWS)
 specific/_template  Starting point for a new platform folder
 skills/             AI skills (Agent Skills format) that apply these guidelines
+checklists/         One checklist per area, for pull requests and design reviews (generated)
+docs/decisions/     Architecture decision records for this repository
 RANKING.md          How sources and rules are scored from 1 to 10
 SOURCES.md          Every linked source, ranked (generated from sources.csv)
 RULES.md            Every rule by ID (generated)
@@ -64,12 +66,19 @@ scripts/            Repository checks (citations, scores, IDs, source freshness)
 
 To add a platform, copy [`specific/_template`](specific/_template/README.md) and follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Checklists
+
+Every rule of an area in one list, grouped by level and sorted by score, with the tools that can check each rule automatically. Paste one into a pull request, design review or project kickoff:
+
+[General](checklists/general.md) · [Unity](checklists/unity.md) · [.NET](checklists/dotnet.md) · [Android](checklists/android.md) · [Flutter](checklists/flutter.md) · [React](checklists/react.md) · [Kubernetes](checklists/kubernetes.md) · [AWS](checklists/aws.md)
+
 ## AI skills
 
 The [`skills/`](skills) folder uses the [Agent Skills](https://agentskills.io/specification) format (a folder with a `SKILL.md`), which Claude Code and other agent tools can load.
 
 | Skill | Use it to |
 | --- | --- |
+| [`ask-guidelines`](skills/ask-guidelines/SKILL.md) | Answer "what do our guidelines say about X?" with the relevant rules by ID, score and source |
 | [`architecture-review`](skills/architecture-review/SKILL.md) | Review a codebase, design or PR against these guidelines. Each finding cites the rule and its source |
 | [`architecture-decision-record`](skills/architecture-decision-record/SKILL.md) | Write an ADR in [MADR](https://adr.github.io/madr/) format, or follow the project's existing ADR format |
 | [`c4-diagram`](skills/c4-diagram/SKILL.md) | Produce [C4](https://c4model.com/) context/container/component diagrams as code |
@@ -102,6 +111,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 2. **Every rule has a source.** Each list item in `general/` and `specific/` must contain a link. CI enforces this with [`scripts/check_citations.py`](scripts/check_citations.py).
 3. **Every entry has a score.** Score sources in `sources.csv` and rules inline, following [RANKING.md](RANKING.md). Then run `python3 scripts/rank.py fix`, which also gives new rules their ID, sorts the lists and updates SOURCES.md and RULES.md.
 4. **Links must work and stay current.** CI runs [lychee](https://lychee.cli.rs/) and [`scripts/verify_sources.py`](scripts/verify_sources.py) on every push and once a week. The script also catches retired pages, and the job summary lists sources not verified in the last year.
+
+Issue templates cover suggesting a source, disputing a score, reporting an outdated source and requesting a platform. The decisions behind how this repository works are recorded in [docs/decisions](docs/decisions/README.md).
 
 ## License
 

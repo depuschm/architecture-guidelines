@@ -1,0 +1,20 @@
+name: Request a new platform
+description: Ask for guidelines for a platform or service that has no folder yet.
+labels: [platform]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform or service
+      placeholder: Godot, Unreal Engine, iOS, Terraform, …
+    validations:
+      required: true
+  - type: textarea
+    id: guides
+    attributes:
+      label: Official architecture guides you know of
+      description: Links to the vendor's own architecture or best-practice guidance, which we'd adopt as the baseline.
+  - type: textarea
+    id: needs
+    attributes:
+      label: What you need guidance on

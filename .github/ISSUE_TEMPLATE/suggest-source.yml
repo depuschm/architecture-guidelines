@@ -1,0 +1,40 @@
+name: Suggest a source or rule
+description: Propose an existing guide, standard or article to adopt, or a new rule backed by a source.
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is reference-first: we adopt existing authoritative guidance and only write short rules where nothing covers a point. See [CONTRIBUTING.md](https://github.com/depuschm/architecture-guidelines/blob/main/CONTRIBUTING.md).
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+      description: The most specific page that supports the suggestion.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where it belongs
+      description: Guideline file or platform, for example `general/security.md` or `specific/unity/`.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it covers, or the rule you propose
+      description: For a new rule, write it as one short imperative sentence and quote the passage in the source that supports it.
+    validations:
+      required: true
+  - type: dropdown
+    id: score
+    attributes:
+      label: Suggested score
+      description: See [RANKING.md](https://github.com/depuschm/architecture-guidelines/blob/main/RANKING.md) for the criteria.
+      options: ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "Not sure"]
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this source
+      description: Authority, coverage, currency, free access, actionability.

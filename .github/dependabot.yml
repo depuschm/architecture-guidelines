@@ -1,12 +1,21 @@
 version: 2
 updates:
-  # Keeps the actions used in CI current (they're pinned to major versions).
+  # Keeps the actions used in CI current. They're pinned to commit SHAs, and Dependabot updates
+  # the SHA together with its version comment.
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    # Wait a week after a release before proposing it, so a compromised release is more
+    # likely to be caught and pulled first.
+    cooldown:
+      default-days: 7
   # Keeps the website generator (requirements.txt) current.
   - package-ecosystem: pip
     directory: /
     schedule:
       interval: weekly
+    # Wait a week after a release before proposing it, so a compromised release is more
+    # likely to be caught and pulled first.
+    cooldown:
+      default-days: 7

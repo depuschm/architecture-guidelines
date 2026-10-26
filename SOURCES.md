@@ -95,7 +95,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1445 sources.
+1443 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -636,7 +636,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GraphQL Foundation, Security: Error messages](https://graphql.org/learn/security/#error-messages) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, Security: Trusted documents](https://graphql.org/learn/security/#trusted-documents) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, Thinking in Graphs](https://graphql.org/learn/thinking-in-graphs/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
-| 7 | [GraphQL Inspector, Diff and Validate GraphQL Schemas](https://the-guild.dev/graphql/inspector/docs/commands/diff) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [Gregory, Game Engine Architecture (book)](https://www.gameenginebook.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Harmel-Law, Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [HashiCorp, Creating modules](https://developer.hashicorp.com/terraform/language/modules/develop) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -1036,7 +1035,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [typescript-eslint, no-floating-promises](https://typescript-eslint.io/rules/no-floating-promises/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [typescript-eslint, no-misused-promises](https://typescript-eslint.io/rules/no-misused-promises/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [typescript-eslint, no-unsafe-assignment](https://typescript-eslint.io/rules/no-unsafe-assignment/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
-| 7 | [typescript-eslint, no-unsafe-member-access](https://typescript-eslint.io/rules/no-unsafe-member-access/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [typescript-eslint, switch-exhaustiveness-check](https://typescript-eslint.io/rules/switch-exhaustiveness-check/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [Unity Addressables, overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Boss Room multiplayer sample](https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -1275,7 +1273,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
 | 6 | [GraphQL ESLint, no-deprecated](https://the-guild.dev/graphql/eslint/rules/no-deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL ESLint, relay-arguments](https://the-guild.dev/graphql/eslint/rules/relay-arguments) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
-| 6 | [GraphQL ESLint, relay-connection-types](https://the-guild.dev/graphql/eslint/rules/relay-connection-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL ESLint, relay-page-info](https://the-guild.dev/graphql/eslint/rules/relay-page-info) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL ESLint, require-deprecation-date](https://the-guild.dev/graphql/eslint/rules/require-deprecation-date) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL ESLint, require-deprecation-reason](https://the-guild.dev/graphql/eslint/rules/require-deprecation-reason) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -1286,6 +1283,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GraphQL Foundation, Naming Conventions and Design Standards: payload types](https://graphql.org/learn/naming-design/#wrap-mutation-results-in-payload-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL Foundation, Review and validate schema changes](https://graphql.org/learn/schema-review/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL Foundation, Security: Introspection](https://graphql.org/learn/security/#introspection) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [GraphQL Inspector, Diff and Validate GraphQL Schemas](https://the-guild.dev/graphql/inspector/docs/commands/diff) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL Yoga, Error Masking](https://the-guild.dev/graphql/yoga-server/docs/features/error-masking) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL Yoga, Persisted Operations](https://the-guild.dev/graphql/yoga-server/docs/features/persisted-operations) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL Yoga, Preparing for Production](https://the-guild.dev/graphql/yoga-server/docs/prepare-for-production) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -1547,7 +1545,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-199 sources.
+201 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1626,6 +1624,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Google Cloud, Well-Architected Framework: sustainability pillar](https://docs.cloud.google.com/architecture/framework/sustainability) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 5 | [Google Skills, Professional Cloud Architect Certification learning path](https://www.skills.google/paths/12) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [GraphQL ESLint, relay-connection-types](https://the-guild.dev/graphql/eslint/rules/relay-connection-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [GraphQL Yoga, CSRF Prevention](https://the-guild.dev/graphql/yoga-server/docs/features/csrf-prevention) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3002: last user should not be root](https://github.com/hadolint/hadolint/wiki/DL3002) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -1718,6 +1717,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Trivy CLI reference, trivy image](https://trivy.dev/docs/latest/references/configuration/cli/trivy_image/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Trivy, Terraform scanning coverage](https://trivy.dev/docs/latest/coverage/iac/terraform/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Turborepo, run reference: --affected](https://turborepo.dev/docs/reference/run#--affected) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 5 | [typescript-eslint, no-unsafe-member-access](https://typescript-eslint.io/rules/no-unsafe-member-access/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [Unity ECS samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity Manual, Package layout](https://docs.unity3d.com/Manual/cus-layout.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |

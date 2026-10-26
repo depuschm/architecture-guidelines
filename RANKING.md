@@ -82,6 +82,12 @@ A second round on 2026-10-25 covered the rules and sources added later that day:
 
 When you score a source, two rules of thumb follow from this: a link to one section of a page usually scores at most 7, even when the page is an 8 or higher, and an 8 needs an official guide to a whole important sub-topic, not a page about one feature.
 
+A third round on 2026-10-26 covered the next batch of files (TypeScript, GraphQL, Redis, OpenTelemetry, Kafka, RabbitMQ, GitLab CI/CD, mobile games, Azure and Google Cloud): 56 of their 139 rules and 35 of their sources.
+
+- 96% of rule scores and 91% of source scores were within one point. Rules ran about 0.4 points high, most among the 9s: five of the eight sampled 9s came back as 8.
+- All 19 rules at 9 in these files were re-checked against "official sources mark it as strongly recommended or as a MUST, for nearly every project". Nine were lowered to 8: zone redundancy, infrastructure as code and workload identity for Azure and Google Cloud, and broker durability and authentication for Kafka and RabbitMQ. The 9s that platforms require or that prevent severe and common risks were kept.
+- Two rules and three tool pages that were two points apart were re-scored.
+
 Repeat the exercise after large additions: sample entries across files and score bands, have someone score them blind, and re-check any band where the difference is systematic.
 
 ## Changing a score

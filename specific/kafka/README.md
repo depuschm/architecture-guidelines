@@ -24,7 +24,7 @@ Scope: designing topics, producers and consumers for Apache Kafka 4.x, which run
 
 ### Producers and durability
 
-- `9` `KAFKA-5` **For data you can't afford to lose, use a replication factor of 3, `min.insync.replicas=2` and producer `acks=all`, and leave unclean leader election off.** `min.insync.replicas` defaults to 1, so an `acks=all` write can succeed when only one replica is in sync, and is lost if that replica then fails. ([Topic configs: min.insync.replicas](https://kafka.apache.org/43/configuration/topic-configs/#min.insync.replicas), [Design: availability and durability guarantees](https://kafka.apache.org/43/design/design/#availability-and-durability-guarantees))
+- `8` `KAFKA-5` **For data you can't afford to lose, use a replication factor of 3, `min.insync.replicas=2` and producer `acks=all`, and leave unclean leader election off.** `min.insync.replicas` defaults to 1, so an `acks=all` write can succeed when only one replica is in sync, and is lost if that replica then fails. ([Topic configs: min.insync.replicas](https://kafka.apache.org/43/configuration/topic-configs/#min.insync.replicas), [Design: availability and durability guarantees](https://kafka.apache.org/43/design/design/#availability-and-durability-guarantees))
 - `7` `KAFKA-6` **Keep producer idempotence on, and set `enable.idempotence=true` explicitly, so that conflicting settings fail when the producer is created instead of silently turning it off.** Idempotence, on by default, stops retries from writing duplicates; it needs `acks=all`, `retries` above 0 and at most 5 in-flight requests per connection. ([Producer configs: enable.idempotence](https://kafka.apache.org/43/configuration/producer-configs/#enable.idempotence), [acks](https://kafka.apache.org/43/configuration/producer-configs/#acks))
 
 ### Consumers
@@ -42,7 +42,7 @@ Scope: designing topics, producers and consumers for Apache Kafka 4.x, which run
 
 ### Security
 
-- `9` `KAFKA-14` **Authenticate every connection to the brokers with TLS client certificates or SASL over TLS, turn on the `StandardAuthorizer`, and give each application its own principal with only the ACLs it needs.** Kafka accepts unauthenticated, unencrypted clients unless you configure security, and SASL/PLAIN and SCRAM should only be used over TLS. Don't set `allow.everyone.if.no.acl.found=true`. ([Apache Kafka, Security overview](https://kafka.apache.org/43/security/security-overview/), [Authentication using SASL](https://kafka.apache.org/43/security/authentication-using-sasl/), [Authorization and ACLs](https://kafka.apache.org/43/security/authorization-and-acls/))
+- `8` `KAFKA-14` **Authenticate every connection to the brokers with TLS client certificates or SASL over TLS, turn on the `StandardAuthorizer`, and give each application its own principal with only the ACLs it needs.** Kafka accepts unauthenticated, unencrypted clients unless you configure security, and SASL/PLAIN and SCRAM should only be used over TLS. Don't set `allow.everyone.if.no.acl.found=true`. ([Apache Kafka, Security overview](https://kafka.apache.org/43/security/security-overview/), [Authentication using SASL](https://kafka.apache.org/43/security/authentication-using-sasl/), [Authorization and ACLs](https://kafka.apache.org/43/security/authorization-and-acls/))
 
 ### Operations
 

@@ -88,14 +88,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [TypeScript, TSConfig Reference](https://www.typescriptlang.org/tsconfig/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 9 | [Ultimate guide to profiling Unity games (Unity e-book)](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 9 | [Unity Manual, Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
-| 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md), [specific/web](specific/web/README.md) | 2026-10-24 |
 | 9 | [Vue.js, Style Guide](https://vuejs.org/style-guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [W3C WAI, ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 
 ## Recommended (6–8)
 
-1461 sources.
+1485 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -238,6 +238,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP, Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Pinia, Introduction](https://pinia.vuejs.org/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [Playwright, Best Practices](https://playwright.dev/docs/best-practices) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 8 | [PostgreSQL, Backup and Restore](https://www.postgresql.org/docs/current/backup.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 8 | [RabbitMQ, Consumer Acknowledgements and Publisher Confirms](https://www.rabbitmq.com/docs/confirms) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 8 | [RabbitMQ, Production Deployment Guidelines](https://www.rabbitmq.com/docs/production-checklist) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
@@ -481,6 +482,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Fowler, Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Fowler, DDD Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Fowler, Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 7 | [Fowler, Eradicating Non-Determinism in Tests](https://martinfowler.com/articles/nonDeterminism.html) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [Fowler, Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Fowler, Infrastructure as Code](https://martinfowler.com/bliki/InfrastructureAsCode.html) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-26 |
 | 7 | [Fowler, Microservice Premium](https://martinfowler.com/bliki/MicroservicePremium.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -858,6 +860,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Pinia, Why should I use Pinia?](https://pinia.vuejs.org/introduction.html#Why-should-I-use-Pinia-) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs](https://pip.pypa.io/en/stable/topics/secure-installs/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs: Hash-checking mode](https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Playwright, Isolation](https://playwright.dev/docs/browser-contexts) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 7 | [Playwright, Locators](https://playwright.dev/docs/locators) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 7 | [Playwright, Visual comparisons](https://playwright.dev/docs/test-snapshots) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [PostgreSQL wiki, Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [PostgreSQL wiki, Don't Do This: Don't use char(n)](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_char.28n.29) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [PostgreSQL wiki, Don't Do This: Don't use serial](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_serial) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -1017,6 +1022,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [SvelteKit, State management: component and page state is preserved](https://svelte.dev/docs/kit/state-management#Component-and-page-state-is-preserved) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [SvelteKit, State management: no side-effects in load](https://svelte.dev/docs/kit/state-management#No-side-effects-in-load) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Team Topologies key concepts](https://teamtopologies.com/key-concepts) | [general/principles](general/principles.md) | 2026-10-24 |
+| 7 | [Testing Library, About Queries: Priority](https://testing-library.com/docs/queries/about/#priority) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [The Pragmatic Programmer, 20th anniversary edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Thoughtworks, Architectural fitness function](https://www.thoughtworks.com/radar/techniques/architectural-fitness-function) | [general/decisions](general/decisions.md), [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
@@ -1092,6 +1098,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Vercel, Purging Vercel CDN Cache: cache tags](https://vercel.com/docs/caching/cdn-cache/purge#cache-tags) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vercel, Vercel Functions limits](https://vercel.com/docs/functions/limitations) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 7 | [Vite, Env variables and modes: env variables](https://vite.dev/guide/env-and-mode#env-variables) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [Vitest, Component Testing](https://vitest.dev/guide/browser/component-testing) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [Vue language tools, vue-tsc](https://github.com/vuejs/language-tools/blob/master/packages/tsc/README.md) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue Router, Lazy loading routes](https://router.vuejs.org/guide/advanced/lazy-loading.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Vue.js Style Guide, Use detailed prop definitions](https://vuejs.org/style-guide/rules-essential.html#use-detailed-prop-definitions) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -1201,6 +1208,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Docker, Merge Compose files](https://docs.docker.com/compose/how-tos/multiple-compose-files/merge/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [Dodds, Application state management with React](https://kentcdodds.com/blog/application-state-management-with-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Dodds, Colocation](https://kentcdodds.com/blog/colocation) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Dodds, Stop mocking fetch](https://kentcdodds.com/blog/stop-mocking-fetch) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Dodds, The Testing Trophy and Testing Classifications](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Epic Games, Blueprint Best Practices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md), [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
@@ -1286,6 +1295,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Google Cloud, Terraform blueprints and modules for Google Cloud](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Cloud, Well-Architected Framework: foster a culture of cost awareness](https://docs.cloud.google.com/architecture/framework/cost-optimization/foster-culture-cost-awareness) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Play Console Help, Use a pre-launch report to identify issues](https://support.google.com/googleplay/android-developer/answer/9842757?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Google Testing Blog, Flaky Tests at Google and How We Mitigate Them](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
 | 6 | [GraphQL ESLint, no-deprecated](https://the-guild.dev/graphql/eslint/rules/no-deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -1351,6 +1361,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Microsoft, Use Azure Key Vault to pass a secret as a parameter during Bicep deployment](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/key-vault-parameter) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Use Bicep linter](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/linter) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft.Unity.Analyzers, diagnostics](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/index.md) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 6 | [Mock Service Worker, listen(): onUnhandledFrame](https://mswjs.io/api/setup-server/listen#onunhandledframe) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [monorepo.tools, What is a monorepo?](https://monorepo.tools/#what-is-a-monorepo) | [general/repositories](general/repositories.md) | 2026-10-25 |
@@ -1421,6 +1432,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Flask API and Service Layer](https://www.cosmicpython.com/book/chapter_04_service_layer) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Repository and Unit of Work Patterns with Django](https://www.cosmicpython.com/book/appendix_django) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [pip-tools, pip-compile](https://pip-tools.pypa.io/en/stable/reference/pip-compile/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Playwright, Authentication: one account per parallel worker](https://playwright.dev/docs/auth#moderate-one-account-per-parallel-worker) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Playwright, Best Practices: Avoid testing third-party dependencies](https://playwright.dev/docs/best-practices#avoid-testing-third-party-dependencies) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Playwright, Best Practices: Use web first assertions](https://playwright.dev/docs/best-practices#use-web-first-assertions) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Playwright, page.waitForTimeout](https://playwright.dev/docs/api/class-page#page-wait-for-timeout) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Playwright, Retries](https://playwright.dev/docs/test-retries) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Playwright, testConfig.failOnFlakyTests](https://playwright.dev/docs/api/class-testconfig#test-config-fail-on-flaky-tests) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Playwright, Trace viewer: Tracing on CI](https://playwright.dev/docs/trace-viewer#tracing-on-ci) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [pnpm, Workspace](https://pnpm.io/workspaces) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [PostgreSQL wiki, Number Of Database Connections](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -1496,6 +1514,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [SvelteKit, Zero-config deployments (adapter-auto)](https://svelte.dev/docs/kit/adapter-auto) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Testing in .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 6 | [Testing Library, Async methods](https://testing-library.com/docs/dom-testing-library/api-async/) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [TFLint, Terraform ruleset rules](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [The Architecture of Open Source Applications](https://aosabook.org/en/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [The Software Architect Elevator](https://architectelevator.com/book/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -1548,6 +1567,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Vercel, Runtime Logs: limits](https://vercel.com/docs/logs/runtime#limits) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vercel, Working with Drains](https://vercel.com/docs/drains) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vite, Features: Transpile only](https://vite.dev/guide/features#transpile-only) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [Vitest, Component Testing: Why Browser Mode?](https://vitest.dev/guide/browser/component-testing#why-browser-mode) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Vitest, Mocking Requests](https://vitest.dev/guide/mocking/requests) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Vitest, sequence.shuffle](https://vitest.dev/config/sequence#sequence-shuffle) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Vue Test Utils, Guide](https://test-utils.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -1555,6 +1577,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Vue.js, Composition API FAQ](https://vuejs.org/guide/extras/composition-api-faq.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Images](https://web.dev/learn/images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Responsive Design: Responsive images](https://web.dev/learn/design/responsive-images) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [web.dev, Learn Testing](https://web.dev/learn/testing) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [web.dev, Learn Testing: Visual tests](https://web.dev/learn/testing/get-started/test-types#visual) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Workload isolation using shuffle-sharding](https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -1563,7 +1587,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-201 sources.
+206 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1606,10 +1630,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Egor Rogov (Postgres Professional), PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-playwright, no-raw-locators](https://github.com/mskelton/eslint-plugin-playwright/blob/main/docs/rules/no-raw-locators.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 5 | [eslint-plugin-playwright, no-wait-for-timeout](https://github.com/mskelton/eslint-plugin-playwright/blob/main/docs/rules/no-wait-for-timeout.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 5 | [eslint-plugin-playwright, prefer-web-first-assertions](https://github.com/mskelton/eslint-plugin-playwright/blob/main/docs/rules/prefer-web-first-assertions.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 5 | [eslint-plugin-svelte, svelte/no-unused-svelte-ignore](https://sveltejs.github.io/eslint-plugin-svelte/rules/no-unused-svelte-ignore/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-svelte, svelte/prefer-writable-derived](https://sveltejs.github.io/eslint-plugin-svelte/rules/prefer-writable-derived/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-svelte, svelte/valid-compile](https://sveltejs.github.io/eslint-plugin-svelte/rules/valid-compile/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-testing-library](https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library/) | [specific/react](specific/react/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-testing-library, no-container](https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-container.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 5 | [eslint-plugin-testing-library, no-node-access](https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-node-access.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 5 | [eslint-plugin-vue, vue/define-emits-declaration](https://eslint.vuejs.org/rules/define-emits-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-vue, vue/define-props-declaration](https://eslint.vuejs.org/rules/define-props-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |

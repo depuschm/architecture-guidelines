@@ -46,7 +46,7 @@ Scope: web apps built with Vue 3, the Composition API and Single-File Components
 
 ### Testing
 
-- `6` `VUE-15` **Run unit and component tests with Vitest, give each component its own component test, and in those tests interact with the component as a user would instead of mocking its child components.** ([Vue.js, Testing: component testing](https://vuejs.org/guide/scaling-up/testing.html#component-testing))
+- `6` `VUE-15` **Run unit and component tests with Vitest, give each component its own component test, and in those tests interact with the component as a user would instead of mocking its child components.** This applies `WEB-14` in [Web front end](../web/README.md). ([Vue.js, Testing: component testing](https://vuejs.org/guide/scaling-up/testing.html#component-testing))
 
 ## How to enforce
 

@@ -12,7 +12,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 
 ### Web and back end
 
-- [Web front end](web/README.md): framework-independent accessibility, performance, security and resilience.
+- [Web front end](web/README.md): framework-independent accessibility, performance, security, resilience and testing.
 - [React](react/README.md): web front ends.
 - [Next.js](nextjs/README.md): full-stack React apps with the App Router.
 - [Vue](vue/README.md): Vue 3 apps, with Pinia, Vue Router and Nuxt.

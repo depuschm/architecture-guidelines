@@ -391,7 +391,7 @@ REACT-2,active,Keep state minimal.
 REACT-3,active,Don't use Effects to transform data or handle user events.
 REACT-4,active,"Put state where it's used, and lift it only as far as the closest common parent."
 REACT-5,active,"Treat server state (fetched and cached data) separately from UI state, for example with TanStack Query."
-REACT-6,active,"Test the way users use the UI, not implementation details."
+REACT-6,active,"Test components with React Testing Library, which renders them into the DOM and queries them the way users find things."
 REACT-7,active,"Start new apps with a framework, or with a build tool such as Vite when you have specific constraints."
 REACT-8,active,Try props and composition before reaching for context.
 REACT-9,active,Extract reusable stateful logic into custom hooks.
@@ -587,3 +587,11 @@ WEB-10,active,"Add a strict, nonce- or hash-based Content Security Policy as a s
 WEB-11,active,"Load third-party scripts with Subresource Integrity, or serve your own reviewed copies."
 WEB-12,active,"Choose a Baseline target, such as Baseline Widely available, from your users' browser data, and set it once in Browserslist so that build and lint tools share it."
 WEB-13,active,"Build core user journeys with progressive enhancement: HTML that works on its own first, then CSS and JavaScript that enhance it, so that a script that fails to load doesn't stop users."
+WEB-14,active,"Find elements in tests the way users find them: by role and accessible name first, then by label or text, and by test ID only when nothing visible identifies the element."
+WEB-15,active,"Never wait for a fixed time in a test: use actions that wait automatically and assertions that retry until the page reaches the expected state, such as Playwright's `await expect(locator).toBeVisible()` or Testing Library's `findBy` queries."
+WEB-16,active,"Isolate every test: run it in a fresh browser context, let it build the state and data it needs instead of relying on earlier tests, and when tests change server-side state, give each parallel worker its own user account."
+WEB-17,active,"Run the end-to-end tests in CI on every pull request, in each browser engine you support, and keep a trace of every failure."
+WEB-18,active,"Treat a flaky test as a bug: quarantine it outside the blocking pipeline, file a bug for it, and fix it within a set time."
+WEB-19,active,"Test components in a real browser, for example with Vitest Browser Mode, and keep end-to-end tests to the few user journeys that carry the product's core value."
+WEB-20,active,"Mock HTTP at the network level, for example with Mock Service Worker, instead of mocking `fetch` or your API client modules, and make requests without a handler fail the test."
+WEB-21,active,"Keep visual comparison (screenshot) tests to a few stable pages and components, hide dynamic content such as dates, and create and compare the screenshots in the same environment, with the same operating system and browser versions."

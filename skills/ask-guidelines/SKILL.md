@@ -12,24 +12,24 @@ Answer the question from the guidelines, not from memory. Every recommendation y
 
 The guidelines root is `${CLAUDE_PLUGIN_ROOT}`. If that placeholder wasn't replaced with a path, the root is two directories above this `SKILL.md`. Useful entry points:
 
-- `<root>/RULES.md`: every rule with its ID, score, level and the tools that check it
+- `<root>/RULES.md`: every rule with its ID, score, level, main source and the tools that check it
 - `<root>/general/README.md` and `<root>/specific/README.md`: indexes of the guideline files
 - `<root>/checklists/<area>.md`: all rules for one area, sorted by level
 
 ## 1. Find the relevant rules
 
 1. Work out the platform (if any) and the topic, such as data ownership, secrets, testing or asset loading.
-2. Search `RULES.md` and the guideline files for the topic's terms, for example `grep -rn -i "secret" <root>/general <root>/specific`. Try synonyms if the first search finds nothing.
-3. Read the matching section of each guideline file, including its "Adopted references" and "How to enforce" entries, because the rule's sources and tools are there.
+2. Start with `RULES.md`: it lists every rule by ID and file in one place, with its main source. Search it for the topic's terms (for example `secret`), or read it if searching isn't available. Try synonyms if the first search finds nothing.
+3. Read the matching section of each guideline file, including its "Adopted references" and "How to enforce" entries, because the rule's sources and tools are there. Open the files by path from `RULES.md` or the indexes; you don't need to search the whole folder.
 
-Prefer the platform file over the general file when both apply. Mention the general rule too when it adds something.
+General rules state a principle, and platform rules give the platform's how-to and name the general rule they apply. When both apply, cite both: the platform rule for what to do, and the general rule for why.
 
 ## 2. Answer
 
 Lead with a direct answer in two or three sentences. Then list the supporting rules, highest score first:
 
 ```markdown
-- `DOTNET-1` (10, strongly recommended) **Keep secrets out of source.** Use the Secret Manager in development and a vault in production. Source: [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets)
+- `DOTNET-1` (9, strongly recommended) **Load secrets through configuration providers: user secrets (the Secret Manager) in development, and Azure Key Vault or another vault in production, never `appsettings.json` or source code.** Source: [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets)
 ```
 
 Then, where they exist:

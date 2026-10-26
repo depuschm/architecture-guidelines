@@ -52,9 +52,11 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | [Operations & reliability](general/operations-reliability.md) | Twelve-factor, Well-Architected, SLOs, resilience, observability |
 | [Security](general/security.md) | Threat modelling, least privilege, secrets, supply chain |
 | [Authentication & sessions](general/authentication.md) | Identity providers, OAuth 2.0 and OpenID Connect, sessions, passwords, MFA, passkeys, recovery |
+| [Privacy & personal data](general/privacy.md) | Data inventory, minimisation, defaults and consent, retention, erasure, DPIAs, breaches (GDPR) |
 | [Testing & delivery](general/testing-delivery.md) | Test strategy, architecture tests, contract tests, CD, DORA |
 | [Versioning & releases](general/releases.md) | SemVer, immutable releases, release automation, changelogs, deprecation |
 | [Repositories & monorepos](general/repositories.md) | Monorepo or polyrepo, module boundaries, code ownership, branch protection |
+| [Localization](general/localization.md) | Strings outside code, plurals, UTF-8, locale formats, time zones, layout for translation |
 | [AI systems](general/ai-systems.md) | LLM and agent architectures, evals, LLM security |
 | [Reading list](general/reading-list.md) | Books and complete tutorials |
 

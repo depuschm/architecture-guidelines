@@ -73,6 +73,8 @@ Always read `general/principles.md` and `general/architecture-styles.md`. Add th
 | Databases, migrations, events between services | `general/data.md` |
 | Deployment config, retries/timeouts, monitoring | `general/operations-reliability.md` |
 | Auth, secrets, user data, dependencies | `general/security.md`, and `general/authentication.md` for sign-in and sessions |
+| Personal data: accounts, profiles, analytics or advertising SDKs, consent, account deletion | `general/privacy.md` |
+| User-facing text, translations, dates, numbers, time zones | `general/localization.md` |
 | Versioning, tags, release pipelines, changelogs | `general/releases.md` |
 | Repository layout, monorepo tooling, CODEOWNERS, branch rules | `general/repositories.md` |
 | Tests, CI pipelines | `general/testing-delivery.md` |

@@ -1,7 +1,7 @@
 <!-- rule-prefix: UNITY-PERF -->
 # Unity: content and performance
 
-Asset loading, memory management and profiling.
+Asset loading, memory management, profiling and localization.
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 
@@ -14,11 +14,17 @@ Asset loading, memory management and profiling.
 
 ## Key rules
 
+### Loading, memory and profiling
+
 - `8` `UNITY-PERF-1` **Profile with the Unity Profiler connected to a build running on the target device, early and before and after every optimisation, not only in the Editor.** Frame-time budgets per platform are `GAMEDEV-12` in [game development](../gamedev/README.md). ([Unity, Ultimate guide to profiling](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6), [Unity Manual, Profiling your application](https://docs.unity3d.com/Manual/profiler-profiling-applications.html), [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html))
 - `8` `UNITY-PERF-2` **Pair every Addressables load with a release.** Addressables uses reference counting, and unreleased handles keep assets in memory. ([Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html))
 - `8` `UNITY-PERF-3` **Avoid managed allocations in per-frame code paths to prevent garbage-collector spikes.** ([Unity Manual, Optimizing managed memory](https://docs.unity3d.com/Manual/performance-optimizing-code-managed-memory.html))
 - `7` `UNITY-PERF-4` **Keep the `Resources` folder for prototypes and small bootstrap data. Load game content through Addressables (or AssetBundles).** ([Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html), [Addressables overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html))
 - `6` `UNITY-PERF-5` **Pool objects that are created and destroyed often, such as projectiles, effects and UI list items, using `UnityEngine.Pool`.** ([Unity Scripting API, ObjectPool](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html), [Unity e-book, Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook))
+
+### Localization
+
+- `7` `UNITY-PERF-6` **Localize with the Unity Localization package: keep text in String Tables, make entries that insert values or counts Smart Strings, which take named placeholders and choose plural forms by the CLDR rules, and swap language-specific textures, audio and other assets through Asset Tables.** This applies `I18N-1`, `I18N-2` and `I18N-3`. Check layouts with the package's pseudo-localization before translation starts (`I18N-14`). ([Unity, Localization package](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html), [String Tables](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/StringTables.html), [Smart Strings](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Smart/SmartStrings.html), [Plural Localization Formatter](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Smart/Plural-Formatter.html), [Asset Tables](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/AssetTables.html), [Pseudo-Localization](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Pseudo-Localization.html))
 
 ## How to enforce
 

@@ -1,7 +1,7 @@
 <!-- rule-prefix: SEC -->
 # Security
 
-Design security in from the start rather than adding it at the end.
+Design security in from the start rather than adding it at the end. Handling personal data lawfully, from collection to deletion, is in [Privacy and personal data](privacy.md), and sign-in in [Authentication and sessions](authentication.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

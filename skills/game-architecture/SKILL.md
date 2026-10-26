@@ -24,7 +24,7 @@ Then read the engine's guidelines:
 | Unreal Engine | a `.uproject` file | `<root>/specific/unreal/README.md` |
 | Custom engine or framework | a game loop in your own code, for example on SDL, raylib, MonoGame or Bevy | the game development file only |
 
-If the game ships on iOS or Android, also read `<root>/specific/mobile-games/README.md`.
+If the game ships on iOS or Android, also read `<root>/specific/mobile-games/README.md`. If it ships in more than one language, read `<root>/general/localization.md`, and if it collects player data, such as accounts, analytics or advertising SDKs, read `<root>/general/privacy.md`.
 
 Cite rules by ID (for example `GODOT-3` or `UNITY-STRUCT-1`), with their score and title, and copy the source link exactly from the guideline file. Rules are sorted by score (1–10, see `<root>/RANKING.md`), so the most important ones come first in each section. Use the score as a severity hint. Where a file's "How to enforce" section names a tool for a rule, recommend it alongside the fix.
 

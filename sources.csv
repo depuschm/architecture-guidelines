@@ -32,8 +32,10 @@ score,title,url,verified
 9,Building effective agents,https://www.anthropic.com/research/building-effective-agents,2026-10-24
 9,"Create modular game architecture with ScriptableObjects (Unity e-book, Unity 6 edition)",https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6,2026-10-24
 9,DORA research program,https://dora.dev/,2026-10-24
+9,"EDPB, Guidelines 4/2019 on Article 25 Data Protection by Design and by Default",https://www.edpb.europa.eu/documents/guideline/guidelines-42019-on-article-25-data-protection-by-design-and-by-default_en,2026-10-26
 9,"Epic Games, Epic C++ Coding Standard for Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine,2026-10-25
 9,"Epic Games, Gameplay Framework in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine,2026-10-25
+9,"EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)",https://eur-lex.europa.eu/eli/reg/2016/679/oj,2026-10-26
 9,"Evans, DDD Reference",https://www.domainlanguage.com/ddd/reference/,2026-10-24
 9,"Flutter, Architecture recommendations",https://docs.flutter.dev/app-architecture/recommendations,2026-10-24
 9,"Flutter, Guide to app architecture",https://docs.flutter.dev/app-architecture/guide,2026-10-24
@@ -49,6 +51,7 @@ score,title,url,verified
 9,"Kubernetes, Security checklist",https://kubernetes.io/docs/concepts/security/security-checklist/,2026-10-24
 9,"Lewis and Fowler, Microservices",https://martinfowler.com/articles/microservices.html,2026-10-24
 9,MADR: Markdown Architectural Decision Records,https://adr.github.io/madr/,2026-10-24
+9,"Microsoft Learn, Globalization documentation",https://learn.microsoft.com/en-us/globalization/,2026-10-26
 9,"Microsoft, ASP.NET Core best practices",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices,2026-10-24
 9,"Microsoft, Cloud Adoption Framework: What is an Azure landing zone?",https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/,2026-10-25
 9,"Next.js, How to think about data security in Next.js",https://nextjs.org/docs/app/guides/data-security,2026-10-25
@@ -75,6 +78,7 @@ score,title,url,verified
 9,"TypeScript, The TypeScript Handbook",https://www.typescriptlang.org/docs/handbook/intro.html,2026-10-25
 9,"TypeScript, TSConfig Reference",https://www.typescriptlang.org/tsconfig/,2026-10-25
 9,Ultimate guide to profiling Unity games (Unity e-book),https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6,2026-10-24
+9,"Unicode Consortium, Unicode CLDR Project",https://cldr.unicode.org/,2026-10-26
 9,"Unity Manual, Best practice guides",https://docs.unity3d.com/Manual/best-practice-guides.html,2026-10-24
 9,"Vocke, The Practical Test Pyramid",https://martinfowler.com/articles/practical-test-pyramid.html,2026-10-24
 9,"Vue.js, Style Guide",https://vuejs.org/style-guide/,2026-10-25
@@ -117,6 +121,8 @@ score,title,url,verified
 8,Docker Compose documentation,https://docs.docker.com/compose/,2026-10-25
 8,DORA metrics guide,https://dora.dev/guides/dora-metrics/,2026-10-24
 8,"DORA, Capabilities: Trunk-based development",https://dora.dev/capabilities/trunk-based-development/,2026-10-25
+8,"EDPB, Guidelines 05/2020 on consent under Regulation 2016/679",https://www.edpb.europa.eu/documents/guideline/guidelines-052020-on-consent-under-regulation-2016679_en,2026-10-26
+8,"EDPB, Guidelines 9/2022 on personal data breach notification under GDPR",https://www.edpb.europa.eu/documents/guideline/guidelines-92022-on-personal-data-breach-notification-under-gdpr_en,2026-10-26
 8,Effective Dart,https://dart.dev/effective-dart,2026-10-24
 8,Enterprise Integration Patterns,https://www.enterpriseintegrationpatterns.com/,2026-10-24
 8,"Epic Games, Exposing C++ to Blueprints Visual Scripting in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/exposing-cplusplus-to-blueprints-visual-scripting-in-unreal-engine,2026-10-25
@@ -124,6 +130,7 @@ score,title,url,verified
 8,"Epic Games, Unreal Engine Modules",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules,2026-10-25
 8,"Epic Games, Unreal Object Handling in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-object-handling-in-unreal-engine,2026-10-25
 8,eShop reference application,https://github.com/dotnet/eShop,2026-10-24
+8,"European Commission, Data protection: information for business and organisations",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en,2026-10-26
 8,"Evans, Domain-Driven Design (book)",https://www.domainlanguage.com/ddd/,2026-10-24
 8,"Fowler (David), ASP.NET Core async guidance",https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md,2026-10-24
 8,"Fowler, Bounded Context",https://martinfowler.com/bliki/BoundedContext.html,2026-10-24
@@ -163,6 +170,9 @@ score,title,url,verified
 8,"HashiCorp, Manage sensitive data in your configuration",https://developer.hashicorp.com/terraform/language/manage-sensitive-data,2026-10-25
 8,"HashiCorp, Module creation: recommended pattern",https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation,2026-10-25
 8,"Hodgson, Feature Toggles",https://martinfowler.com/articles/feature-toggles.html,2026-10-24
+8,"ICO, Age appropriate design: a code of practice for online services (Children's code)",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/,2026-10-26
+8,"ICO, UK GDPR guidance and resources",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/,2026-10-26
+8,"IETF, BCP 47: Tags for Identifying Languages and Matching of Language Tags",https://www.rfc-editor.org/info/bcp47/,2026-10-26
 8,"IETF, RFC 10017: OAuth 2.0 for Browser-Based Applications",https://www.rfc-editor.org/rfc/rfc10017,2026-10-25
 8,"Kleppmann, Designing Data-Intensive Applications (book)",https://dataintensive.net/,2026-10-24
 8,"Kubernetes, Configuration good practices",https://kubernetes.io/blog/2025/11/25/configuration-good-practices/,2026-10-24
@@ -179,6 +189,7 @@ score,title,url,verified
 8,"microservices.io, Saga",https://microservices.io/patterns/data/saga.html,2026-10-24
 8,"microservices.io, Transactional outbox",https://microservices.io/patterns/data/transactional-outbox.html,2026-10-24
 8,"Microsoft Azure Architecture Center, Caching guidance",https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching,2026-10-25
+8,"Microsoft Learn, Design software for international markets",https://learn.microsoft.com/en-us/globalization/methodology/international-design,2026-10-26
 8,Microsoft REST API Guidelines,https://github.com/microsoft/api-guidelines,2026-10-24
 8,"Microsoft, Architectural principles",https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles,2026-10-24
 8,"Microsoft, Azure Well-Architected Framework: Using availability zones and regions",https://learn.microsoft.com/en-us/azure/well-architected/design-guides/regions-availability-zones,2026-10-25
@@ -242,6 +253,7 @@ score,title,url,verified
 8,Threat Modeling Manifesto,https://www.threatmodelingmanifesto.org/,2026-10-24
 8,"Twelve-Factor App, III Config",https://12factor.net/config,2026-10-24
 8,"TypeScript Handbook, Modules",https://www.typescriptlang.org/docs/handbook/modules/introduction.html,2026-10-25
+8,"Unicode Consortium, ICU User Guide",https://unicode-org.github.io/icu/userguide/,2026-10-26
 8,Unity Addressables package manual,https://docs.unity3d.com/Packages/com.unity.addressables@latest/,2026-10-24
 8,"Unity Manual, Assembly definitions",https://docs.unity3d.com/Manual/assembly-definition-files.html,2026-10-24
 8,"Unity Manual, Introduction to assemblies",https://docs.unity3d.com/Manual/assembly-definitions-intro.html,2026-10-24
@@ -277,6 +289,7 @@ score,title,url,verified
 7,"Android Developers, Play Billing: Purchase lifecycle management and entitlement sync",https://developer.android.com/google/play/billing/backend#lifecycle-management,2026-10-25
 7,"Android Developers, Play Billing: Verify purchases before granting entitlements",https://developer.android.com/google/play/billing/security#verify,2026-10-25
 7,"Android Developers, Play Integrity API: Security considerations",https://developer.android.com/google/play/integrity/overview#security-considerations,2026-10-25
+7,"Android Studio, Improve your code with lint checks",https://developer.android.com/studio/write/lint,2026-10-26
 7,"Android, Architecting your Compose UI",https://developer.android.com/develop/ui/compose/architecture,2026-10-24
 7,"Android, Build an offline-first app",https://developer.android.com/topic/architecture/data-layer/offline-first,2026-10-24
 7,"Android, Common modularization patterns",https://developer.android.com/topic/modularization/patterns,2026-10-24
@@ -399,6 +412,7 @@ score,title,url,verified
 7,"Dart, customizing static analysis",https://dart.dev/tools/analysis,2026-10-25
 7,"Dehghani, How to break a Monolith into Microservices",https://martinfowler.com/articles/break-monolith-into-microservices.html,2026-10-24
 7,"Deque, axe-core rule descriptions",https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md,2026-10-25
+7,"DistriNet (KU Leuven), LINDDUN privacy threat modeling",https://linddun.org/,2026-10-26
 7,"Django, Asynchronous support: Async adapter functions",https://docs.djangoproject.com/en/stable/topics/async/#s-async-adapter-functions,2026-10-25
 7,"Django, Asynchronous support: Performance",https://docs.djangoproject.com/en/stable/topics/async/#s-performance,2026-10-25
 7,"Django, django-admin and manage.py: check --deploy",https://docs.djangoproject.com/en/stable/ref/django-admin/#cmdoption-check-deploy,2026-10-25
@@ -426,6 +440,8 @@ score,title,url,verified
 7,"Docker, Use Compose in production",https://docs.docker.com/compose/how-tos/production/#modify-your-compose-file-for-production,2026-10-25
 7,Docs as Code,https://www.writethedocs.org/guide/docs-as-code/,2026-10-24
 7,"DORA, Loosely coupled teams",https://dora.dev/capabilities/loosely-coupled-teams/,2026-10-24
+7,"EDPB, Guidelines 01/2025 on Pseudonymisation (version for public consultation)",https://www.edpb.europa.eu/documents/guideline/guidelines-012025-on-pseudonymisation_en,2026-10-26
+7,"EDPB, Guidelines 2/2023 on Technical Scope of Art. 5(3) of ePrivacy Directive",https://www.edpb.europa.eu/documents/guideline/guidelines-22023-on-technical-scope-of-art-53-of-eprivacy-directive_en,2026-10-26
 7,Emerging Patterns in Building GenAI Products,https://martinfowler.com/articles/gen-ai-patterns/,2026-10-24
 7,"Enterprise Integration Patterns, Idempotent Receiver",https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html,2026-10-26
 7,"Epic Games, Asset Management in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-management-in-unreal-engine,2026-10-25
@@ -445,6 +461,11 @@ score,title,url,verified
 7,"Epic Games, Understanding the Unreal Engine Gameplay Ability System",https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system,2026-10-25
 7,"Epic Games, Unreal Insights in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine,2026-10-25
 7,"eslint-plugin-vue, Available rules",https://eslint.vuejs.org/rules/,2026-10-25
+7,"European Commission, Dealing with requests from individuals",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en,2026-10-26
+7,"European Commission, Legal grounds for processing data",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en,2026-10-26
+7,"European Commission, Obligations under the GDPR",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/obligations_en,2026-10-26
+7,"European Commission, Principles of the GDPR: data minimisation",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#data-minimisation,2026-10-26
+7,"European Commission, Principles of the GDPR: purpose limitation",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#purpose-limitation,2026-10-26
 7,EventStorming,https://www.eventstorming.com/,2026-10-24
 7,"FastAPI, Bigger Applications - Multiple Files",https://fastapi.tiangolo.com/tutorial/bigger-applications/,2026-10-25
 7,"FastAPI, Concurrency and async / await: Path operation functions",https://fastapi.tiangolo.com/async/#path-operation-functions,2026-10-25
@@ -554,6 +575,7 @@ score,title,url,verified
 7,"Godot docs, Godot interfaces",https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html,2026-10-25
 7,"Godot docs, Godot notifications",https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html,2026-10-25
 7,"Godot docs, Import process",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html,2026-10-25
+7,"Godot docs, Internationalizing games",https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html,2026-10-26
 7,"Godot docs, Project organization",https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html,2026-10-25
 7,"Godot docs, Resources",https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html,2026-10-25
 7,"Godot docs, Saving games",https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html,2026-10-25
@@ -648,6 +670,17 @@ score,title,url,verified
 7,"HashiCorp, Version constraints",https://developer.hashicorp.com/terraform/language/expressions/version-constraints,2026-10-25
 7,Helm chart best practices,https://helm.sh/docs/chart_best_practices/,2026-10-24
 7,"IAM Access Analyzer, policy validation",https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html,2026-10-25
+7,"ICO, A brief guide to international transfers",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/a-brief-guide-to-international-transfers/,2026-10-26
+7,"ICO, Children's code: code standards",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/code-standards/,2026-10-26
+7,"ICO, Contracts between controllers and processors",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/contracts/,2026-10-26
+7,"ICO, Documentation (records of processing activities)",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/documentation/,2026-10-26
+7,"ICO, Principle (e): Storage limitation",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/,2026-10-26
+7,"ICO, Privacy in the product design lifecycle",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/designing-products-that-protect-privacy/privacy-in-the-product-design-lifecycle/,2026-10-26
+7,"ICO, Right to data portability",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-data-portability/,2026-10-26
+7,"ICO, Right to erasure",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-erasure/,2026-10-26
+7,"ICO, Storage and access technologies: how do we manage consent in practice?",https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/how-do-we-manage-consent-in-practice/,2026-10-26
+7,"ICO, When do we need to do a DPIA?",https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia/,2026-10-26
+7,"ICU User Guide, Formatting messages",https://unicode-org.github.io/icu/userguide/format_parse/messages/,2026-10-26
 7,"IETF, RFC 9745: The Deprecation HTTP Response Header Field",https://www.rfc-editor.org/rfc/rfc9745,2026-10-25
 7,Keep a Changelog 1.1.0,https://keepachangelog.com/en/1.1.0/,2026-10-25
 7,Kubernetes tutorials,https://kubernetes.io/docs/tutorials/,2026-10-24
@@ -663,6 +696,8 @@ score,title,url,verified
 7,"MDN Learn, Accessibility on the web",https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility,2026-10-25
 7,"MDN, Accessibility",https://developer.mozilla.org/en-US/docs/Web/Accessibility,2026-10-25
 7,"MDN, ARIA",https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA,2026-10-25
+7,"MDN, CSS logical properties and values",https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values,2026-10-26
+7,"MDN, Intl",https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl,2026-10-26
 7,"MDN, Set-Cookie header: Cookie prefixes",https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#cookie_prefixes,2026-10-25
 7,"MDN, Subresource Integrity",https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity,2026-10-25
 7,"Meta Horizon OS developer docs, Save Game Best Practices",https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/,2026-10-25
@@ -671,6 +706,18 @@ score,title,url,verified
 7,"Microsoft Azure Architecture Center, Caching guidance: high availability and scalability",https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#implement-high-availability-and-scalability-and-improve-performance,2026-10-25
 7,"Microsoft Azure Architecture Center, Caching guidance: keep the cache consistent on writes",https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#keep-the-cache-consistent-on-writes,2026-10-25
 7,"Microsoft Entra Workload ID, Workload identity federation",https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation,2026-10-25
+7,"Microsoft Learn, Contextual metadata",https://learn.microsoft.com/en-us/globalization/internationalization/contextual-metadata,2026-10-26
+7,"Microsoft Learn, Customize font selection with font fallback and font linking",https://learn.microsoft.com/en-us/globalization/fonts-layout/fonts,2026-10-26
+7,"Microsoft Learn, Design software for international markets: encoding",https://learn.microsoft.com/en-us/globalization/methodology/international-design#encoding,2026-10-26
+7,"Microsoft Learn, Design software for international markets: locale support",https://learn.microsoft.com/en-us/globalization/methodology/international-design#locale-support,2026-10-26
+7,"Microsoft Learn, Design software for international markets: user interface",https://learn.microsoft.com/en-us/globalization/methodology/international-design#user-interface,2026-10-26
+7,"Microsoft Learn, Design software for international markets: what makes a feature world ready",https://learn.microsoft.com/en-us/globalization/methodology/international-design#what-makes-a-feature-world-ready,2026-10-26
+7,"Microsoft Learn, Externalize localizable resources",https://learn.microsoft.com/en-us/globalization/internationalization/externalize-resources,2026-10-26
+7,"Microsoft Learn, Global product delivery: minimum baseline for localizability",https://learn.microsoft.com/en-us/globalization/methodology/global-product-delivery#baseline,2026-10-26
+7,"Microsoft Learn, Internationalization checklist",https://learn.microsoft.com/en-us/globalization/testing/internationalization-checklist,2026-10-26
+7,"Microsoft Learn, Message formatting",https://learn.microsoft.com/en-us/globalization/internationalization/message-formatting,2026-10-26
+7,"Microsoft Learn, Pluralization",https://learn.microsoft.com/en-us/globalization/internationalization/pluralization,2026-10-26
+7,"Microsoft Learn, Pseudolocalization",https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization,2026-10-26
 7,"Microsoft, .NET observability with OpenTelemetry",https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel,2026-10-24
 7,"Microsoft, Azure Architecture Center",https://learn.microsoft.com/en-us/azure/architecture/,2026-10-25
 7,"Microsoft, Azure Policy regulatory compliance details for the Microsoft cloud security benchmark",https://learn.microsoft.com/en-us/azure/governance/policy/samples/azure-security-benchmark,2026-10-25
@@ -712,6 +759,7 @@ score,title,url,verified
 7,"Microsoft, What is a private endpoint?",https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview,2026-10-25
 7,"MITRE, CWE-488: Exposure of Data Element to Wrong Session",https://cwe.mitre.org/data/definitions/488.html,2026-10-26
 7,Model Context Protocol,https://modelcontextprotocol.io/,2026-10-24
+7,"Mozilla, Localization best practices for developers",https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html,2026-10-26
 7,"mypy, The mypy command line: --strict",https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict,2026-10-25
 7,"mypy, Using mypy with an existing codebase",https://mypy.readthedocs.io/en/stable/existing_code.html,2026-10-25
 7,NCSC secure design principles,https://www.ncsc.gov.uk/collection/cyber-security-design-principles,2026-10-24
@@ -749,6 +797,9 @@ score,title,url,verified
 7,"NIST SP 800-63B-4, Password verifiers",https://pages.nist.gov/800-63-4/sp800-63b.html#passwordver,2026-10-25
 7,"NIST SP 800-63B-4, Passwords",https://pages.nist.gov/800-63-4/sp800-63b.html#password,2026-10-25
 7,"NIST SP 800-63B-4, Rate limiting (throttling)",https://pages.nist.gov/800-63-4/sp800-63b.html#throttle,2026-10-25
+7,"NIST, Privacy Framework",https://www.nist.gov/privacy-framework,2026-10-26
+7,"NIST, Privacy Framework Version 1.0 (Inventory and Mapping, ID.IM-P)",https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf,2026-10-26
+7,"NIST, SP 800-53 Rev. 5 (SA-3(2) Use of live or operational data, PM-25 Minimization of PII used in testing)",https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf,2026-10-26
 7,"Node.js Best Practices, 1.1 Structure your solution by business components",https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md,2026-10-25
 7,"Node.js Best Practices, 8.6 Shutdown smartly and gracefully",https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/graceful-shutdown.md,2026-10-25
 7,"Node.js, Command-line API: --unhandled-rejections",https://nodejs.org/api/cli.html#--unhandled-rejectionsmode,2026-10-25
@@ -1039,8 +1090,12 @@ score,title,url,verified
 7,"typescript-eslint, no-misused-promises",https://typescript-eslint.io/rules/no-misused-promises/,2026-10-25
 7,"typescript-eslint, no-unsafe-assignment",https://typescript-eslint.io/rules/no-unsafe-assignment/,2026-10-25
 7,"typescript-eslint, switch-exhaustiveness-check",https://typescript-eslint.io/rules/switch-exhaustiveness-check/,2026-10-25
+7,"Unicode CLDR, Language plural rules",https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html,2026-10-26
+7,"Unicode Consortium, MessageFormat 2",https://messageformat.unicode.org/,2026-10-26
 7,"Unity Addressables, overview",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html,2026-10-24
 7,Unity Boss Room multiplayer sample,https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop,2026-10-24
+7,"Unity Localization, Smart Strings",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Smart/SmartStrings.html,2026-10-26
+7,"Unity Localization, String Tables",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/StringTables.html,2026-10-26
 7,"Unity Manual, Asynchronous programming with Awaitable",https://docs.unity3d.com/Manual/async-await-support.html,2026-10-24
 7,"Unity Manual, Comparison of UI systems",https://docs.unity3d.com/Manual/UI-system-compare.html,2026-10-24
 7,"Unity Manual, Configurable Enter Play Mode",https://docs.unity3d.com/Manual/configurable-enter-play-mode.html,2026-10-24
@@ -1059,9 +1114,13 @@ score,title,url,verified
 7,"Unity Test Framework, Run tests from the command line",https://docs.unity3d.com/Manual/test-framework/run-tests-from-command-line.html,2026-10-24
 7,"Unity, Architect your code with ScriptableObjects",https://unity.com/how-to/architect-game-code-scriptable-objects,2026-10-24
 7,"Unity, How to architect code as your project scales",https://unity.com/how-to/how-architect-code-your-project-scales,2026-10-24
+7,"Unity, Localization package manual (1.5)",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html,2026-10-26
 7,"Unity, ScriptableObject event channels",https://unity.com/how-to/scriptableobjects-event-channels-game-code,2026-10-24
 7,"Unity, Separate game data and logic with ScriptableObjects",https://unity.com/how-to/separate-game-data-logic-scriptable-objects,2026-10-24
+7,"Unreal Engine, Localization Overview",https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-overview-for-unreal-engine,2026-10-26
+7,"Unreal Engine, Localization Tools",https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-tools-in-unreal-engine,2026-10-26
 7,"Unreal Engine, One File Per Actor",https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine,2026-10-25
+7,"Unreal Engine, Text Localization",https://dev.epicgames.com/documentation/en-us/unreal-engine/text-localization-in-unreal-engine,2026-10-26
 7,"Unreal Engine, Using Perforce as source control",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine,2026-10-25
 7,Using domain analysis to model microservices,https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis,2026-10-24
 7,"uv, Structure and files: The lockfile",https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile,2026-10-25
@@ -1101,7 +1160,12 @@ score,title,url,verified
 7,"Vue.js, Testing: component testing",https://vuejs.org/guide/scaling-up/testing.html#component-testing,2026-10-25
 7,"Vue.js, Tutorial",https://vuejs.org/tutorial/,2026-10-25
 7,"Vue.js, Watchers",https://vuejs.org/guide/essentials/watchers.html,2026-10-25
+7,"W3C Internationalization, Authoring web pages",https://www.w3.org/International/techniques/authoring-html,2026-10-26
+7,"W3C Internationalization, Choosing & applying a character encoding",https://www.w3.org/International/questions/qa-choosing-encodings,2026-10-26
+7,"W3C Internationalization, Structural markup and right-to-left text in HTML",https://www.w3.org/International/questions/qa-html-dir,2026-10-26
+7,"W3C Internationalization, Text size in translation",https://www.w3.org/International/articles/article-text-size,2026-10-26
 7,"W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)",https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/,2026-10-25
+7,"W3C, Working with Time and Timezones (Group Draft Note)",https://www.w3.org/TR/timezone/,2026-10-26
 7,"web.dev, Baseline",https://web.dev/baseline,2026-10-25
 7,"web.dev, Browser-level image lazy loading for the web",https://web.dev/articles/browser-level-image-lazy-loading,2026-10-25
 7,"web.dev, How to choose your Baseline target",https://web.dev/articles/how-to-choose-your-baseline-target,2026-10-25
@@ -1109,11 +1173,13 @@ score,title,url,verified
 7,"web.dev, Learn Performance",https://web.dev/learn/performance,2026-10-25
 7,"web.dev, Web Vitals",https://web.dev/articles/vitals,2026-10-24
 7,"web.dev, Why lab and field data can be different (and what to do about it)",https://web.dev/articles/lab-and-field-data-differences,2026-10-25
+7,"WHATWG, Encoding Standard: preface (UTF-8 requirement)",https://encoding.spec.whatwg.org/#preface,2026-10-26
 7,"Yoni Goldberg et al., Node.js Best Practices",https://github.com/goldbergyoni/nodebestpractices,2026-10-25
 6,"AbleGamers, Accessible Player Experiences (APX)",https://accessible.games/accessible-player-experiences/,2026-10-25
 6,"actionlint, Checks: Script injection by potentially untrusted inputs",https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs,2026-10-25
 6,"Andrey Sitnik, Size Limit",https://github.com/ai/size-limit,2026-10-25
 6,"Android Developers, Include native symbols in your release build",https://developer.android.com/build/include-native-symbols,2026-10-25
+6,"Android Lint, SetTextI18n: TextView internationalization",https://googlesamples.github.io/android-custom-lint-rules/checks/SetTextI18n.md.html,2026-10-26
 6,"Apache Kafka, Basic Kafka Operations: checking consumer position",https://kafka.apache.org/43/operations/basic-kafka-operations/#checking-consumer-position,2026-10-25
 6,"Apache Kafka, Broker configs: group.share.delivery.count.limit",https://kafka.apache.org/43/configuration/broker-configs/#group.share.delivery.count.limit,2026-10-25
 6,"Apache Kafka, Kafka Connect: error reporting",https://kafka.apache.org/43/kafka-connect/user-guide/#error-reporting-in-connect,2026-10-25
@@ -1191,6 +1257,7 @@ score,title,url,verified
 6,"Dodds, Colocation",https://kentcdodds.com/blog/colocation,2026-10-24
 6,"Dodds, Stop mocking fetch",https://kentcdodds.com/blog/stop-mocking-fetch,2026-10-26
 6,"Dodds, The Testing Trophy and Testing Classifications",https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications,2026-10-26
+6,"EDPB, Data protection guide for small business",https://www.edpb.europa.eu/sme_en,2026-10-26
 6,"Epic Games, Blueprint Best Practices in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine,2026-10-25
 6,"Epic Games, Introduction to performance profiling and configuration in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine,2026-10-25
 6,"Epic Games, Low-Level Tests in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine,2026-10-25
@@ -1206,6 +1273,7 @@ score,title,url,verified
 6,"eslint-plugin-vue, vue/no-async-in-computed-properties",https://eslint.vuejs.org/rules/no-async-in-computed-properties.html,2026-10-25
 6,"eslint-plugin-vue, vue/no-mutating-props",https://eslint.vuejs.org/rules/no-mutating-props.html,2026-10-25
 6,"eslint-plugin-vue, vue/no-side-effects-in-computed-properties",https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html,2026-10-25
+6,"European Commission, Rules on international data transfers",https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/rules-international-data-transfers_en,2026-10-26
 6,"FastAPI, Concurrency and async / await: In a hurry?",https://fastapi.tiangolo.com/async/#in-a-hurry,2026-10-25
 6,"FastAPI, Deployments Concepts",https://fastapi.tiangolo.com/deployment/concepts/,2026-10-25
 6,"FastAPI, Request Body",https://fastapi.tiangolo.com/tutorial/body/,2026-10-25
@@ -1217,6 +1285,7 @@ score,title,url,verified
 6,"Flutter, Result pattern",https://docs.flutter.dev/app-architecture/design-patterns/result,2026-10-24
 6,"Flutter, State management options",https://docs.flutter.dev/data-and-backend/state-mgmt/options,2026-10-24
 6,"Ford and Richards, Software Architecture: The Hard Parts and other books",https://www.developertoarchitect.com/books.html,2026-10-24
+6,"FormatJS, ESLint plugin (eslint-plugin-formatjs)",https://formatjs.github.io/docs/tooling/linter/,2026-10-26
 6,"Fowler, Contract Test",https://martinfowler.com/bliki/ContractTest.html,2026-10-24
 6,"Fowler, Design Stamina Hypothesis",https://martinfowler.com/bliki/DesignStaminaHypothesis.html,2026-10-24
 6,"Fowler, Is Design Dead?",https://martinfowler.com/articles/designDead.html,2026-10-24
@@ -1225,6 +1294,8 @@ score,title,url,verified
 6,"Fowler, Test Double",https://martinfowler.com/bliki/TestDouble.html,2026-10-24
 6,"Gaffer On Games (Fiedler), Floating Point Determinism",https://gafferongames.com/post/floating_point_determinism/,2026-10-25
 6,"Gaffer On Games (Fiedler), What every programmer needs to know about game networking",https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/,2026-10-25
+6,"Game Accessibility Guidelines, Use an easily readable default font size",https://gameaccessibilityguidelines.com/use-an-easily-readable-default-font-size/,2026-10-26
+6,"Game Accessibility Guidelines, Use simple clear language",https://gameaccessibilityguidelines.com/use-simple-clear-language/,2026-10-26
 6,"Git LFS wiki, File Locking",https://github.com/git-lfs/git-lfs/wiki/File-Locking,2026-10-25
 6,"GitHub Docs, Managing a merge queue",https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue,2026-10-25
 6,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input",https://securitylab.github.com/resources/github-actions-untrusted-input/,2026-10-25
@@ -1264,6 +1335,8 @@ score,title,url,verified
 6,"Godot class reference, FileAccess.get_var",https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var,2026-10-25
 6,"Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration",https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration,2026-10-25
 6,"Godot class reference, Resource.resource_local_to_scene",https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene,2026-10-25
+6,"Godot docs, Localization using gettext (PO files)",https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html,2026-10-26
+6,"Godot docs, Pseudolocalization",https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html,2026-10-26
 6,"Godot docs, Your first 3D game",https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html,2026-10-25
 6,Google Cloud API design guide,https://docs.cloud.google.com/apis/design,2026-10-24
 6,"Google Cloud, Architecting disaster recovery for cloud infrastructure outages",https://docs.cloud.google.com/architecture/disaster-recovery,2026-10-25
@@ -1304,10 +1377,12 @@ score,title,url,verified
 6,"HashiCorp, terraform validate command reference",https://developer.hashicorp.com/terraform/cli/commands/validate,2026-10-25
 6,Humble Object pattern,http://xunitpatterns.com/Humble%20Object.html,2026-10-24
 6,Hyrum's Law,https://www.hyrumslaw.com/,2026-10-24
+6,"ICO, Storage and access technologies: what are the exceptions?",https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/,2026-10-26
 6,"IETF, RFC 8594: The Sunset HTTP Header Field",https://www.rfc-editor.org/rfc/rfc8594,2026-10-25
 6,"Import Linter, forbidden contracts",https://import-linter.readthedocs.io/en/stable/contract_types/forbidden/,2026-10-25
 6,"Import Linter, independence contracts",https://import-linter.readthedocs.io/en/stable/contract_types/independence/,2026-10-25
 6,"Import Linter, layers contracts",https://import-linter.readthedocs.io/en/stable/contract_types/layers/,2026-10-25
+6,"Jaap-Henk Hoepman, Privacy Design Strategies (The Little Blue Book)",https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf,2026-10-26
 6,"Jackson, Micro Frontends",https://martinfowler.com/articles/micro-frontends.html,2026-10-24
 6,"Konsist, architecture assertions",https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert,2026-10-25
 6,kube-linter checks,https://docs.kubelinter.io/#/generated/checks,2026-10-25
@@ -1326,7 +1401,14 @@ score,title,url,verified
 6,"Microsoft Cost Management, Create and manage budgets",https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets,2026-10-25
 6,"Microsoft Learn, Automate your workflow with GitHub Actions (learning path)",https://learn.microsoft.com/en-us/training/paths/github-actions/,2026-10-25
 6,"Microsoft Learn, Build great solutions with the Microsoft Azure Well-Architected Framework (learning path)",https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/,2026-10-25
+6,"Microsoft Learn, Continuous localization",https://learn.microsoft.com/en-us/globalization/methodology/continuous-localization,2026-10-26
+6,"Microsoft Learn, Design software for international markets: text input and display",https://learn.microsoft.com/en-us/globalization/methodology/international-design#text-input-and-display,2026-10-26
+6,"Microsoft Learn, Exchanging localizable resources",https://learn.microsoft.com/en-us/globalization/localization/exchanging-localizable-resources,2026-10-26
+6,"Microsoft Learn, Format numbers",https://learn.microsoft.com/en-us/globalization/locale/number-formatting,2026-10-26
 6,"Microsoft Learn, Fundamentals of Bicep (learning path)",https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/,2026-10-25
+6,"Microsoft Learn, Identifying user preferences",https://learn.microsoft.com/en-us/globalization/locale/user-preferences,2026-10-26
+6,"Microsoft Learn, Localize games",https://learn.microsoft.com/en-us/globalization/localization/localize-games,2026-10-26
+6,"Microsoft Learn, Mirroring",https://learn.microsoft.com/en-us/globalization/fonts-layout/mirroring,2026-10-26
 6,"Microsoft, .NET code analysis overview",https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview,2026-10-25
 6,"Microsoft, Azure Policy built-in initiatives",https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives,2026-10-25
 6,"Microsoft, Azure Policy definitions for tagging resources",https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-policies,2026-10-25
@@ -1347,6 +1429,8 @@ score,title,url,verified
 6,Modularizing React Applications with Established UI Patterns,https://martinfowler.com/articles/modularizing-react-apps.html,2026-10-24
 6,"monorepo.tools, What is a monorepo?",https://monorepo.tools/#what-is-a-monorepo,2026-10-25
 6,"Mozilla, eslint-plugin-no-unsanitized",https://github.com/mozilla/eslint-plugin-no-unsanitized,2026-10-25
+6,"Mozilla, Localization best practices for developers: add localization notes",https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html#add-localization-notes,2026-10-26
+6,"Mozilla, Localization best practices for developers: avoid concatenations",https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html#avoid-concatenations-use-placeholders-instead,2026-10-26
 6,"NCSC, Obsolete products",https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products,2026-10-26
 6,"Netlify, Background Functions overview",https://docs.netlify.com/build/functions/background-functions/,2026-10-25
 6,"Netlify, Edge Functions overview: use cases",https://docs.netlify.com/build/edge-functions/overview/#use-cases,2026-10-25
@@ -1483,6 +1567,7 @@ score,title,url,verified
 6,"Squawk, Applying migrations safely",https://squawkhq.com/docs/safe_migrations,2026-10-25
 6,"Squawk, Rules overview",https://squawkhq.com/docs/rules,2026-10-25
 6,Structurizr,https://structurizr.com/,2026-10-24
+6,"Stylelint, property-layout-mappings",https://stylelint.io/user-guide/rules/property-layout-mappings/,2026-10-26
 6,"Svelte CLI, sv check: --compiler-warnings",https://svelte.dev/docs/cli/sv-check#Options-compiler-warnings-warnings,2026-10-25
 6,"Svelte CLI, sv check: --fail-on-warnings",https://svelte.dev/docs/cli/sv-check#Options-fail-on-warnings,2026-10-25
 6,"Svelte, svelte/compiler: CompileOptions",https://svelte.dev/docs/svelte/svelte-compiler#CompileOptions,2026-10-25
@@ -1521,6 +1606,9 @@ score,title,url,verified
 6,"typescript-eslint, no-unsafe-type-assertion",https://typescript-eslint.io/rules/no-unsafe-type-assertion/,2026-10-25
 6,Unity Entities package manual,https://docs.unity3d.com/Packages/com.unity.entities@latest/,2026-10-24
 6,Unity game programming patterns demo,https://github.com/Unity-Technologies/game-programming-patterns-demo,2026-10-24
+6,"Unity Localization, Asset Tables",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/AssetTables.html,2026-10-26
+6,"Unity Localization, Plural Localization Formatter",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Smart/Plural-Formatter.html,2026-10-26
+6,"Unity Localization, Pseudo-Localization",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Pseudo-Localization.html,2026-10-26
 6,"Unity Manual, Adaptive Performance",https://docs.unity3d.com/Manual/adaptive-performance/adaptive-performance.html,2026-10-25
 6,"Unity Manual, Analyzer scope and diagnostics",https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html,2026-10-25
 6,"Unity Manual, Coroutines",https://docs.unity3d.com/Manual/Coroutines.html,2026-10-24
@@ -1556,6 +1644,9 @@ score,title,url,verified
 6,"Vue Test Utils, Guide",https://test-utils.vuejs.org/guide/,2026-10-25
 6,"Vue.js, Accessibility: skip link",https://vuejs.org/guide/best-practices/accessibility.html#skip-link,2026-10-25
 6,"Vue.js, Composition API FAQ",https://vuejs.org/guide/extras/composition-api-faq.html,2026-10-25
+6,"W3C Internationalization, Accept-Language used for locale setting",https://www.w3.org/International/questions/qa-accept-lang-locales,2026-10-26
+6,"W3C Internationalization, Character encodings: Essential concepts",https://www.w3.org/International/articles/definitions-characters/,2026-10-26
+6,"W3C Internationalization, Guiding users to translated pages",https://www.w3.org/International/questions/qa-site-conneg,2026-10-26
 6,"web.dev, Learn Images",https://web.dev/learn/images,2026-10-25
 6,"web.dev, Learn Responsive Design: Responsive images",https://web.dev/learn/design/responsive-images,2026-10-25
 6,"web.dev, Learn Testing",https://web.dev/learn/testing,2026-10-26
@@ -1569,6 +1660,8 @@ score,title,url,verified
 5,"Android Developers, Android Games Dev Center",https://developer.android.com/games,2026-10-25
 5,"Android Lint checks, ExpiredTargetSdkVersion",https://googlesamples.github.io/android-custom-lint-rules/checks/ExpiredTargetSdkVersion.md.html,2026-10-25
 5,"Android Lint checks, OldTargetApi",https://googlesamples.github.io/android-custom-lint-rules/checks/OldTargetApi.md.html,2026-10-25
+5,"Android Lint, HardcodedText",https://googlesamples.github.io/android-custom-lint-rules/checks/HardcodedText.md.html,2026-10-26
+5,"Android Lint, RtlHardcoded",https://googlesamples.github.io/android-custom-lint-rules/checks/RtlHardcoded.md.html,2026-10-26
 5,Anthropic skills repository,https://github.com/anthropics/skills,2026-10-24
 5,"Anton Babenko, Terraform Best Practices",https://www.terraform-best-practices.com/,2026-10-25
 5,"Apache Kafka, CreateTopicPolicy API",https://kafka.apache.org/43/javadoc/org/apache/kafka/server/policy/CreateTopicPolicy.html,2026-10-25
@@ -1581,6 +1674,7 @@ score,title,url,verified
 5,"AWS Lambda, Python handler best practices",https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html,2026-10-24
 5,"AWS Resilience Hub, scheduled assessments",https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html,2026-10-25
 5,"AWS Well-Architected, Sustainability pillar",https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html,2026-10-24
+5,"Bearer CLI, Report types: privacy report",https://docs.bearer.com/explanations/reports/#privacy-report,2026-10-26
 5,"Cedric Neukirchen, Multiplayer Network Compendium",https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/,2026-10-25
 5,"Changesets, Automating Changesets: Blocking",https://changesets.dev/guide/automating#blocking,2026-10-25
 5,"Changesets, Why Changesets",https://changesets.dev/guide/why,2026-10-25
@@ -1604,6 +1698,7 @@ score,title,url,verified
 5,"Egor Rogov (Postgres Professional), PostgreSQL 14 Internals",https://postgrespro.com/community/books/internals,2026-10-25
 5,eslint-plugin-boundaries,https://www.jsboundaries.dev/docs/overview/,2026-10-25
 5,eslint-plugin-compat,https://github.com/amilajack/eslint-plugin-compat,2026-10-25
+5,"eslint-plugin-i18next, no-literal-string",https://github.com/edvardchen/eslint-plugin-i18next/blob/main/docs/rules/no-literal-string.md,2026-10-26
 5,"eslint-plugin-playwright, no-raw-locators",https://github.com/mskelton/eslint-plugin-playwright/blob/main/docs/rules/no-raw-locators.md,2026-10-26
 5,"eslint-plugin-playwright, no-wait-for-timeout",https://github.com/mskelton/eslint-plugin-playwright/blob/main/docs/rules/no-wait-for-timeout.md,2026-10-26
 5,"eslint-plugin-playwright, prefer-web-first-assertions",https://github.com/mskelton/eslint-plugin-playwright/blob/main/docs/rules/prefer-web-first-assertions.md,2026-10-26
@@ -1632,6 +1727,7 @@ score,title,url,verified
 5,"GitLab Docs, glab ci lint",https://docs.gitlab.com/cli/ci/lint/,2026-10-25
 5,"GitLab Docs, Improving monorepo performance",https://docs.gitlab.com/user/project/repository/monorepos/,2026-10-25
 5,"Godot docs, Resolving crashes on Android",https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html,2026-10-25
+5,"Godot docs, TranslationServer class reference",https://docs.godotengine.org/en/stable/classes/class_translationserver.html,2026-10-26
 5,"Google API Linter, core::0121::resource-must-support-get",https://linter.aip.dev/121/resource-must-support-get,2026-10-25
 5,"Google API Linter, core::0158::request-page-size-field",https://linter.aip.dev/158/request-page-size-field,2026-10-25
 5,"Google Cloud, Cloud Foundation Fabric (Terraform modules and FAST landing zone toolkit)",https://github.com/GoogleCloudPlatform/cloud-foundation-fabric,2026-10-25
@@ -1675,11 +1771,13 @@ score,title,url,verified
 5,"Microsoft, Customize builds by folder (Directory.Build.props)",https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory,2026-10-25
 5,"Microsoft, dotnet format",https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format,2026-10-25
 5,"monorepo.tools, The polyrepo tax",https://monorepo.tools/#polyrepo-concept,2026-10-25
+5,"Mozilla, Localization best practices for developers: test localizability",https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html#test-localizability,2026-10-26
 5,"mypy, Type hints cheat sheet",https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html,2026-10-25
 5,"Node.js Best Practices, 2.2 Extend the built-in Error object",https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md,2026-10-25
 5,"Nuxt ESLint, ESLint module",https://eslint.nuxt.com/packages/module,2026-10-25
 5,OPA Gatekeeper policy library,https://open-policy-agent.github.io/gatekeeper-library/website/,2026-10-25
 5,"OpenTelemetry, Collector configuration: validate command",https://opentelemetry.io/docs/collector/configuration/#location,2026-10-25
+5,"OWASP, Top 10 Privacy Risks",https://owasp.org/projects/top-10-privacy-risks,2026-10-26
 5,"pgBackRest, Command Reference: check",https://pgbackrest.org/command.html#command-check,2026-10-25
 5,"pgBackRest, Command Reference: verify",https://pgbackrest.org/command.html#command-verify,2026-10-25
 5,"Pino, Child loggers",https://github.com/pinojs/pino/blob/main/docs/child-loggers.md,2026-10-25
@@ -1690,6 +1788,7 @@ score,title,url,verified
 5,"Polaris, reliability checks",https://polaris.docs.fairwinds.com/checks/reliability/,2026-10-25
 5,"Polaris, security checks",https://polaris.docs.fairwinds.com/checks/security/,2026-10-25
 5,"poutine, CI Debug Enabled rule",https://boostsecurityio.github.io/poutine/rules/debug_enabled/,2026-10-25
+5,"Presidio (Data Privacy Stack), PII detection and anonymization",https://presidio.dataprivacystack.org/,2026-10-26
 5,"PSRule for Azure, Azure.AppService.AvailabilityZone",https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.AppService.AvailabilityZone/,2026-10-25
 5,"PSRule for Azure, Azure.AppService.ManagedIdentity",https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.AppService.ManagedIdentity/,2026-10-25
 5,"PSRule for Azure, Azure.Deployment.OutputSecretValue",https://azure.github.io/PSRule.Rules.Azure/en/rules/Azure.Deployment.OutputSecretValue/,2026-10-25
@@ -1756,6 +1855,7 @@ score,title,url,verified
 4,adr-tools,https://github.com/npryce/adr-tools,2026-10-24
 4,AWS Skill Builder,https://skillbuilder.aws/,2026-10-24
 4,AWS Well-Architected Labs,https://www.wellarchitectedlabs.com/,2026-10-24
+4,"Bearer CLI, Rule: Leakage of sensitive data to Sentry",https://docs.bearer.com/reference/rules/javascript_third_parties_sentry/,2026-10-26
 4,"bloc_lint, avoid_flutter_imports",https://bloclibrary.dev/lint-rules/avoid_flutter_imports/,2026-10-25
 4,"bloc_lint, avoid_public_fields",https://bloclibrary.dev/lint-rules/avoid_public_fields/,2026-10-25
 4,"DCM, avoid-banned-imports (commercial)",https://dcm.dev/docs/rules/common/avoid-banned-imports/,2026-10-25
@@ -1766,6 +1866,7 @@ score,title,url,verified
 4,"GUT, Export test results",https://gut.readthedocs.io/en/latest/Export-Test-Results.html,2026-10-25
 4,Module Graph Assert (Gradle plugin),https://github.com/jraska/modules-graph-assert,2026-10-25
 4,"poutine, injection rule (Rego source)",https://github.com/boostsecurityio/poutine/blob/main/opa/rego/rules/injection.rego,2026-10-25
+4,"Privado, open-source data flow scanner for personal data",https://github.com/Privado-Inc/privado,2026-10-26
 4,"Sherif, README",https://github.com/QuiiBz/sherif/blob/main/README.md,2026-10-25
 4,Slack compose-lints rules,https://slackhq.github.io/compose-lints/rules/,2026-10-25
 4,"Turborepo, boundaries (experimental)",https://turborepo.dev/docs/reference/boundaries,2026-10-25

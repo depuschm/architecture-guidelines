@@ -46,8 +46,8 @@ Scope: designing exchanges, queues, publishers and consumers for RabbitMQ 4.x, f
 
 ### Operations
 
+- `8` `RABBITMQ-14` **Stay on a release series that still has community support, and upgrade along the supported rolling upgrade paths, with all stable feature flags enabled first.** Community support for a series ends a few months after the next series ships. ([RabbitMQ, Release information](https://www.rabbitmq.com/release-information), [Upgrading: version upgradability](https://www.rabbitmq.com/docs/upgrade#rabbitmq-version-upgradability))
 - `7` `RABBITMQ-13` **Monitor with the built-in Prometheus plugin, and alert on queue depth, unacknowledged messages, consumer counts, connection churn and resource alarms.** ([RabbitMQ, Monitoring with Prometheus-compatible tools](https://www.rabbitmq.com/docs/monitoring#with-prometheus), [Queue metrics](https://www.rabbitmq.com/docs/monitoring#queue-metrics), [Connections: high connection churn](https://www.rabbitmq.com/docs/connections#high-connection-churn), [Memory and disk alarms](https://www.rabbitmq.com/docs/alarms))
-- `7` `RABBITMQ-14` **Stay on a release series that still has community support, and upgrade along the supported rolling upgrade paths, with all stable feature flags enabled first.** Community support for a series ends a few months after the next series ships. ([RabbitMQ, Release information](https://www.rabbitmq.com/release-information), [Upgrading: version upgradability](https://www.rabbitmq.com/docs/upgrade#rabbitmq-version-upgradability))
 
 ## How to enforce
 

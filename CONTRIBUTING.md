@@ -19,6 +19,8 @@ Write your own rule under "Key rules" only when:
 
 Even then, the rule must link to the source(s) that support it.
 
+**General rule or platform rule?** Check [RULES.md](RULES.md) before adding a rule. If a general rule already states the principle, a platform rule should add only the platform's how-to (the API, setting or tool) and name the general rule's ID, not restate it. When three or more platform files need the same principle, add it to `general/` and keep the platform rules to their how-to.
+
 ## 2. File format
 
 Every guideline file in `general/` and `specific/` uses these sections. Leave out any section that would be empty.

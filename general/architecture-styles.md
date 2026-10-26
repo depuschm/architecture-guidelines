@@ -25,7 +25,7 @@ How to choose and combine structural styles such as monoliths, microservices, la
 
 ### Inside an application
 
-- `9` `STYLE-6` **Keep the domain independent of UI, frameworks and databases, so that dependencies point inwards.** Hexagonal, Onion and Clean Architecture all express this. ([Cockburn, Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture), [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/), [Martin, The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html))
+- `9` `STYLE-6` **Keep the domain independent of UI, frameworks and databases, so that dependencies point inwards.** Hexagonal, Onion and Clean Architecture all express this. Apply it in proportion to the domain's complexity: a simple CRUD app that wraps a database doesn't need separate layers ([Percival and Gregory, Architecture Patterns with Python: Repository pattern](https://www.cosmicpython.com/book/chapter_02_repository)). ([Cockburn, Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture), [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/), [Martin, The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html))
 - `7` `STYLE-7` **Layer presentation, domain and data, but in larger systems make domain modules the top-level split.** ([Fowler, Presentation Domain Data Layering](https://martinfowler.com/bliki/PresentationDomainDataLayering.html))
 
 ### Events and messaging

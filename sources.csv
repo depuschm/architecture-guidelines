@@ -199,10 +199,16 @@ score,title,url,verified
 8,"Optimize performance for mobile, XR and web games (Unity e-book)",https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6,2026-10-24
 8,Organizing your AWS environment using multiple accounts,https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html,2026-10-24
 8,OWASP API Security Top 10,https://api-security.owasp.org/,2026-10-24
+8,"OWASP ASVS 5.0, V12 Secure Communication",https://github.com/OWASP/ASVS/blob/master/5.0/en/0x21-V12-Secure-Communication.md,2026-10-26
+8,"OWASP ASVS 5.0, V13 Configuration",https://github.com/OWASP/ASVS/blob/master/5.0/en/0x22-V13-Configuration.md,2026-10-26
 8,OWASP Authorization Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html,2026-10-24
+8,OWASP Deserialization Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html,2026-10-26
 8,OWASP Docker Security Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html,2026-10-25
+8,OWASP Input Validation Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html,2026-10-26
 8,OWASP Secrets Management Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html,2026-10-24
+8,OWASP Software Supply Chain Security Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet.html,2026-10-26
 8,OWASP Threat Modeling Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html,2026-10-24
+8,"OWASP Top 10:2025, A03 Software Supply Chain Failures",https://top10.owasp.org/2025/A03_2025-Software_Supply_Chain_Failures/,2026-10-26
 8,"OWASP, ASVS 5.0, V10 OAuth and OIDC",https://github.com/OWASP/ASVS/blob/master/5.0/en/0x19-V10-OAuth-and-OIDC.md,2026-10-25
 8,"OWASP, Authentication Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html,2026-10-25
 8,"OWASP, Content Security Policy Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html,2026-10-25
@@ -349,6 +355,7 @@ score,title,url,verified
 7,"AWS Well-Architected, Operational excellence pillar",https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html,2026-10-24
 7,"AWS Well-Architected, Performance efficiency pillar",https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html,2026-10-24
 7,"AWS, Caching best practices",https://aws.amazon.com/caching/best-practices/,2026-10-25
+7,"Azure Well-Architected, Redundancy",https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy,2026-10-26
 7,"Azure, Anti-corruption Layer pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer,2026-10-24
 7,"Azure, Bulkhead pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead,2026-10-24
 7,"Azure, CQRS pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs,2026-10-24
@@ -419,6 +426,7 @@ score,title,url,verified
 7,Docs as Code,https://www.writethedocs.org/guide/docs-as-code/,2026-10-24
 7,"DORA, Loosely coupled teams",https://dora.dev/capabilities/loosely-coupled-teams/,2026-10-24
 7,Emerging Patterns in Building GenAI Products,https://martinfowler.com/articles/gen-ai-patterns/,2026-10-24
+7,"Enterprise Integration Patterns, Idempotent Receiver",https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html,2026-10-26
 7,"Epic Games, Asset Management in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-management-in-unreal-engine,2026-10-25
 7,"Epic Games, Asynchronous Asset Loading in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/asynchronous-asset-loading-in-unreal-engine,2026-10-25
 7,"Epic Games, Automation Test Framework in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine,2026-10-25
@@ -455,6 +463,7 @@ score,title,url,verified
 7,"Fowler, DDD Aggregate",https://martinfowler.com/bliki/DDD_Aggregate.html,2026-10-24
 7,"Fowler, Domain-Driven Design",https://martinfowler.com/bliki/DomainDrivenDesign.html,2026-10-24
 7,"Fowler, Event Sourcing",https://martinfowler.com/eaaDev/EventSourcing.html,2026-10-24
+7,"Fowler, Infrastructure as Code",https://martinfowler.com/bliki/InfrastructureAsCode.html,2026-10-26
 7,"Fowler, Microservice Premium",https://martinfowler.com/bliki/MicroservicePremium.html,2026-10-24
 7,"Fowler, Microservice Prerequisites",https://martinfowler.com/bliki/MicroservicePrerequisites.html,2026-10-24
 7,"Fowler, Presentation Domain Data Layering",https://martinfowler.com/bliki/PresentationDomainDataLayering.html,2026-10-24
@@ -596,6 +605,7 @@ score,title,url,verified
 7,"Google Play Console Help, Device and Network Abuse policy",https://support.google.com/googleplay/android-developer/answer/16559646?hl=en,2026-10-25
 7,"Google Play Console Help, Provide information for Google Play's Data safety section",https://support.google.com/googleplay/android-developer/answer/10787469?hl=en,2026-10-25
 7,"Google Play Console Help, Release app updates with staged rollouts",https://support.google.com/googleplay/android-developer/answer/6346149?hl=en,2026-10-25
+7,"Google SRE book, Data Integrity",https://sre.google/sre-book/data-integrity/,2026-10-26
 7,"Google SRE book, Postmortem Culture",https://sre.google/sre-book/postmortem-culture/,2026-10-24
 7,"Google, Site Reliability Engineering, chapter 8: Release Engineering",https://sre.google/sre-book/release-engineering/,2026-10-25
 7,"GOV.UK Service Manual, Building a robust frontend using progressive enhancement",https://www.gov.uk/service-manual/technology/using-progressive-enhancement,2026-10-25
@@ -698,6 +708,7 @@ score,title,url,verified
 7,"Microsoft, Secure your Azure Key Vault: identity and access management",https://learn.microsoft.com/en-us/azure/key-vault/general/secure-key-vault#identity-and-access-management,2026-10-25
 7,"Microsoft, What are Azure availability zones? Architectural guidance",https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview#availability-zone-architectural-guidance,2026-10-25
 7,"Microsoft, What is a private endpoint?",https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview,2026-10-25
+7,"MITRE, CWE-488: Exposure of Data Element to Wrong Session",https://cwe.mitre.org/data/definitions/488.html,2026-10-26
 7,Model Context Protocol,https://modelcontextprotocol.io/,2026-10-24
 7,"mypy, The mypy command line: --strict",https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict,2026-10-25
 7,"mypy, Using mypy with an existing codebase",https://mypy.readthedocs.io/en/stable/existing_code.html,2026-10-25
@@ -772,6 +783,7 @@ score,title,url,verified
 7,"OpenTelemetry, Gateway deployment pattern",https://opentelemetry.io/docs/collector/deploy/gateway/,2026-10-25
 7,"OpenTelemetry, Getting started",https://opentelemetry.io/docs/getting-started/,2026-10-25
 7,"OpenTelemetry, Instrumentation",https://opentelemetry.io/docs/concepts/instrumentation/,2026-10-25
+7,"OpenTelemetry, Logs",https://opentelemetry.io/docs/concepts/signals/logs/,2026-10-26
 7,"OpenTelemetry, Logs: log appender / bridge",https://opentelemetry.io/docs/concepts/signals/logs/#log-appender--bridge,2026-10-25
 7,"OpenTelemetry, Metrics: cardinality limits",https://opentelemetry.io/docs/concepts/signals/metrics/#cardinality-limits,2026-10-25
 7,"OpenTelemetry, Observability primer",https://opentelemetry.io/docs/concepts/observability-primer/,2026-10-24
@@ -795,6 +807,7 @@ score,title,url,verified
 7,"OWASP Docker Security, Rule #9: Integrate container scanning into CI/CD",https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-9-integrate-container-scanning-tools-into-your-cicd-pipeline,2026-10-25
 7,OWASP Logging Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html,2026-10-24
 7,OWASP Microservices Security Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html,2026-10-24
+7,"OWASP Mobile Top 10, M1 Improper Credential Usage",https://owasp.github.io/www-project-mobile-top-10/2023-risks/m1-improper-credential-usage,2026-10-26
 7,"OWASP Multifactor Authentication Cheat Sheet, Passkeys",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#passkeys,2026-10-25
 7,"OWASP Multifactor Authentication Cheat Sheet, Primary phishing-resistant control",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#general-mitigation-primary-phishing-resistant-control,2026-10-25
 7,"OWASP Multifactor Authentication Cheat Sheet, Quick recommendations",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#quick-recommendations,2026-10-25
@@ -807,6 +820,7 @@ score,title,url,verified
 7,"OWASP Session Management Cheat Sheet, Renew the session ID after any privilege level change",https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#renew-the-session-id-after-any-privilege-level-change,2026-10-25
 7,"OWASP Session Management Cheat Sheet, Session expiration",https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#session-expiration,2026-10-25
 7,"OWASP Session Management Cheat Sheet, The localStorage API",https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#the-localstorage-api,2026-10-25
+7,"OWASP Top 10 CI/CD Security Risks, CICD-SEC-6",https://owasp.github.io/www-project-top-10-ci-cd-security-risks/CICD-SEC-06-Insufficient-Credential-Hygiene,2026-10-26
 7,"OWASP, Forgot Password Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html,2026-10-25
 7,"OWASP, GraphQL Cheat Sheet: Access control",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#access-control,2026-10-25
 7,"OWASP, GraphQL Cheat Sheet: DoS prevention",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#dos-prevention,2026-10-25
@@ -989,7 +1003,9 @@ score,title,url,verified
 7,"Thoughtworks, Architectural fitness function",https://www.thoughtworks.com/radar/techniques/architectural-fitness-function,2026-10-24
 7,Trunk Based Development,https://trunkbaseddevelopment.com/,2026-10-24
 7,"Twelve-Factor App, IV Backing services",https://12factor.net/backing-services,2026-10-24
+7,"Twelve-Factor App, IX Disposability",https://12factor.net/disposability,2026-10-26
 7,"Twelve-Factor App, VI Processes",https://12factor.net/processes,2026-10-24
+7,"Twelve-Factor App, XI Logs",https://12factor.net/logs,2026-10-26
 7,"TypeScript Handbook, Choosing compiler options: I'm writing a library",https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-a-library,2026-10-25
 7,"TypeScript Handbook, Choosing compiler options: I'm writing an app",https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-an-app,2026-10-25
 7,"TypeScript Handbook, Modules reference: package.json ""exports""",https://www.typescriptlang.org/docs/handbook/modules/reference.html#packagejson-exports,2026-10-25
@@ -1026,6 +1042,7 @@ score,title,url,verified
 7,"Unity Manual, Install and use an existing analyzer",https://docs.unity3d.com/Manual/install-existing-analyzer.html,2026-10-25
 7,"Unity Manual, Load resources at runtime",https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html,2026-10-24
 7,"Unity Manual, Profiler",https://docs.unity3d.com/Manual/Profiler.html,2026-10-24
+7,"Unity Manual, Profiling your application",https://docs.unity3d.com/Manual/profiler-profiling-applications.html,2026-10-26
 7,"Unity Manual, Referencing assemblies",https://docs.unity3d.com/Manual/assembly-definitions-referencing.html,2026-10-24
 7,"Unity Manual, Special folder names",https://docs.unity3d.com/Manual/SpecialFolders.html,2026-10-24
 7,"Unity Manual, Version control",https://docs.unity3d.com/Manual/VersionControl.html,2026-10-24
@@ -1319,6 +1336,7 @@ score,title,url,verified
 6,Modularizing React Applications with Established UI Patterns,https://martinfowler.com/articles/modularizing-react-apps.html,2026-10-24
 6,"monorepo.tools, What is a monorepo?",https://monorepo.tools/#what-is-a-monorepo,2026-10-25
 6,"Mozilla, eslint-plugin-no-unsanitized",https://github.com/mozilla/eslint-plugin-no-unsanitized,2026-10-25
+6,"NCSC, Obsolete products",https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products,2026-10-26
 6,"Netlify, Background Functions overview",https://docs.netlify.com/build/functions/background-functions/,2026-10-25
 6,"Netlify, Edge Functions overview: use cases",https://docs.netlify.com/build/edge-functions/overview/#use-cases,2026-10-25
 6,"Netlify, File-based configuration",https://docs.netlify.com/build/configure-builds/file-based-configuration/,2026-10-25

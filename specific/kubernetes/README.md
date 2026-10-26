@@ -21,8 +21,8 @@ Scope: designing and running application workloads on Kubernetes clusters. For b
 - `9` `K8S-1` **Give every container CPU and memory requests and a memory limit. Set CPU limits only where needed, for example on sensitive workloads.** ([Kubernetes, Resource management for pods and containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/), [LearnKube, Production best practices](https://learnkube.com/production-best-practices), [Kubernetes, Security checklist](https://kubernetes.io/docs/concepts/security/security-checklist/))
 - `9` `K8S-2` **Configure readiness, liveness and startup probes for their distinct purposes.** Check back-end services only in the readiness probe, never in the liveness probe. ([Kubernetes, Liveness, readiness and startup probes](https://kubernetes.io/docs/concepts/workloads/pods/probes/), [Configure probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/))
 - `8` `K8S-4` **Run multiple replicas, spread them across nodes and zones, and protect them with PodDisruptionBudgets.** ([Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/), [Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/))
-- `8` `K8S-5` **Deploy images by a specific version tag or by digest, never `:latest`.** Only digests are immutable. ([Kubernetes, Images](https://kubernetes.io/docs/concepts/containers/images/))
-- `7` `K8S-3` **Handle `SIGTERM` and shut down gracefully within the termination grace period.** ([Kubernetes, Pod lifecycle: termination](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/))
+- `8` `K8S-5` **Deploy images by digest, never by a mutable tag such as `:latest`.** Tags can be moved to point to different images; digests can't. Let a bot keep the digests current, as `SEC-15` in [general/security.md](../../general/security.md) asks. ([Kubernetes, Images](https://kubernetes.io/docs/concepts/containers/images/))
+- `7` `K8S-3` **Fit graceful shutdown into the Pod's termination grace period: set `terminationGracePeriodSeconds` to cover your slowest shutdown, and use a `preStop` hook if the app needs time before it receives `SIGTERM`.** Handling `SIGTERM` itself is `OPS-15` in [general/operations-reliability.md](../../general/operations-reliability.md). ([Kubernetes, Pod lifecycle: termination](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/))
 - `5` `K8S-6` **Scale stateless workloads horizontally with the HorizontalPodAutoscaler.** ([Kubernetes, Autoscaling workloads](https://kubernetes.io/docs/concepts/workloads/autoscaling/))
 - `4` `K8S-7` **Apply the recommended `app.kubernetes.io/*` labels.** ([Kubernetes, Recommended labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/))
 
@@ -36,7 +36,7 @@ Scope: designing and running application workloads on Kubernetes clusters. For b
 
 ### Delivery
 
-- `6` `K8S-13` **Keep all manifests declarative and in Git, and let an agent reconcile the cluster to them (GitOps).** ([OpenGitOps principles](https://opengitops.dev/))
+- `6` `K8S-13` **Let an agent pull the declared state from Git and continuously reconcile the cluster to it (GitOps).** Keeping the manifests in Git is `OPS-14` in [general/operations-reliability.md](../../general/operations-reliability.md). ([OpenGitOps principles](https://opengitops.dev/))
 
 ## How to enforce
 

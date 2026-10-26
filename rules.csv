@@ -47,10 +47,10 @@ AUTH-13,active,"Offer a phishing-resistant authenticator, preferably passkeys. W
 AUTH-14,active,"Give the same response, in about the same time, whether the account doesn't exist, the password is wrong or the account is locked, and limit failed attempts per account."
 AUTH-15,active,"Protect account recovery as strongly as sign-in: use random, single-use, short-lived reset tokens, answer the same whether or not the account exists, and notify the user after every recovery."
 AUTH-16,active,"Encourage users to register more than one passkey or authenticator, or to keep single-use recovery codes, so that losing one device doesn't force a weaker recovery."
-AWS-1,active,"Apply least privilege, and use temporary credentials (federation and roles) instead of long-term access keys."
+AWS-1,active,"Give people access through IAM Identity Center federation and workloads through IAM roles, so that both use temporary credentials instead of IAM users with long-term access keys."
 AWS-2,active,"Use a multi-account structure with AWS Organizations, separating workloads and environments into their own accounts."
 AWS-3,active,"Design for Availability Zone failure, and understand AWS fault isolation boundaries."
-AWS-4,active,Define all infrastructure as code.
+AWS-4,active,"Define AWS infrastructure with the CDK or CloudFormation, and follow the CDK best practices for structuring apps, constructs and stacks."
 AWS-5,active,"Review each workload against the Well-Architected Framework early in design and before go-live, and again after significant architecture changes."
 AWS-6,active,"Choose a disaster recovery strategy from your RTO and RPO: backup and restore, pilot light, warm standby, or multi-site active/active."
 AWS-7,active,Set organisation-wide guardrails with service control policies.
@@ -78,6 +78,8 @@ DATA-4,active,Publish events atomically with state changes using a transactional
 DATA-5,active,Choose the consistency level per use case and make eventual consistency visible in the design.
 DATA-6,active,"Choose storage technology per need, but count the operational cost of every extra datastore."
 DATA-7,active,"At organisational scale, treat analytical data as a product owned by domain teams (data mesh)."
+DATA-8,active,"Set recovery point and recovery time objectives for each data store, back up to meet them with copies kept outside the primary system, and test restores regularly."
+DATA-9,active,"Assume every message can arrive more than once: acknowledge it only after processing it, and make consumers idempotent, for example by recording the IDs of processed messages."
 DDD-1,active,"Build a ubiquitous language with domain experts and use it everywhere: in conversations, documents and code."
 DDD-2,active,"Split large domains into bounded contexts, each with its own model, and make the relationships between them explicit."
 DDD-3,active,Spend modelling effort on the core domain; buy or simplify generic subdomains.
@@ -92,7 +94,7 @@ DOC-5,active,"Use the C4 abstractions (person, software system, container, compo
 DOC-6,active,"Don't mix tutorials, how-to guides, reference and explanation in one document."
 DOCKER-1,active,Run the application as a non-root user: create a user in the Dockerfile and switch to it with `USER`.
 DOCKER-2,active,"Never pass secrets to a build through `ARG`, `ENV` or copied files. Use secret mounts or SSH mounts."
-DOCKER-3,active,"Pin base images to a specific version tag, or to a tag plus digest for reproducible builds, and let a bot such as Dependabot propose updates."
+DOCKER-3,active,"Pin base images to a tag plus digest, and let a bot such as Dependabot update both."
 DOCKER-4,active,"Use multi-stage builds so that the final image contains only what the application needs to run, on a small base image from a trusted source."
 DOCKER-5,active,"Rebuild images often, with `--pull` to fetch fresh base images, so that security fixes in the base image reach production."
 DOCKER-6,active,"Start the main process with the exec form, such as `ENTRYPOINT [""app""]`, so that it runs as PID 1 and receives `SIGTERM`."
@@ -106,14 +108,14 @@ DOCKER-13,active,"Run containers with least privilege: never use `--privileged`,
 DOCKER-14,active,"Give containers runtime secrets as Compose or orchestrator secrets, mounted as files, rather than as environment variables."
 DOCKER-15,active,"Make services wait for their dependencies to be ready, not only started: give the dependency a `healthcheck` and use `depends_on` with `condition: service_healthy`."
 DOCKER-16,active,"Keep one base `compose.yaml` and put environment-specific changes in extra files, such as `compose.override.yaml` for development and `compose.production.yaml` for production. In production, don't bind-mount application code."
-DOTNET-1,active,Keep secrets out of source.
+DOTNET-1,active,"Load secrets through configuration providers: user secrets (the Secret Manager) in development, and Azure Key Vault or another vault in production, never `appsettings.json` or source code."
 DOTNET-2,active,Go async all the way and never block on async code with `.Result` or `.Wait()`.
 DOTNET-3,active,Use the built-in DI container and follow its lifetime guidelines.
-DOTNET-4,active,"Add standard resilience (timeouts, retries, circuit breakers) to outgoing HTTP calls."
-DOTNET-5,active,Structure apps with Clean Architecture.
-DOTNET-6,active,"Return errors as ProblemDetails, and handle exceptions centrally."
-DOTNET-7,active,Expose health checks for load balancers and orchestrators.
-DOTNET-8,active,Instrument with OpenTelemetry.
+DOTNET-4,active,Add `AddStandardResilienceHandler` from `Microsoft.Extensions.Http.Resilience` to outgoing `HttpClient`s.
+DOTNET-5,active,"When the domain has real business logic, structure the solution with Clean Architecture: an application core that defines interfaces, and infrastructure projects that implement them and that the core never references."
+DOTNET-6,active,"Register `AddProblemDetails` and `UseExceptionHandler`, so that errors are returned as ProblemDetails and exceptions are handled in one place."
+DOTNET-7,active,"Map separate liveness and readiness endpoints with `MapHealthChecks`, selecting the checks for each by tag."
+DOTNET-8,active,"Instrument with the OpenTelemetry .NET SDK, or with the .NET Aspire service defaults, which configure it for you."
 DOTNET-9,active,Enable nullable reference types in all projects.
 DOTNET-10,active,"Test the HTTP pipeline with in-memory integration tests (`WebApplicationFactory`), and enforce layering with architecture tests."
 DOTNET-11,active,Bind configuration to strongly typed classes with the options pattern.
@@ -170,7 +172,7 @@ GHA-10,active,Pass secrets to reusable workflows by name instead of with `secret
 GHA-11,active,"Deploy through environments with protection rules: required reviewers, allowed deployment branches, and secrets scoped to the environment."
 GHA-12,active,Share CI logic through reusable workflows (whole jobs) and composite actions (steps) instead of copying YAML between workflows and repositories.
 GHA-13,active,Use concurrency groups to cancel superseded runs on the same branch and to stop deployments to the same environment from running at once.
-GITLAB-1,active,"Pin every `include` and CI/CD component to a commit SHA or to a release tag you trust, pin job images by digest, and let a bot such as Renovate propose updates."
+GITLAB-1,active,"Pin every `include` and CI/CD component to a commit SHA or to a protected tag, pin job images by digest, and let a bot such as Renovate propose updates."
 GITLAB-2,active,"Keep secrets in an external secrets manager. If a secret must be a CI/CD variable, make it masked and hidden, and protected so that only pipelines for protected branches and tags receive it."
 GITLAB-3,active,"Authenticate to cloud providers and secret managers with ID tokens (`id_tokens`) instead of stored credentials, and restrict the trust policy to specific projects and protected branches or tags."
 GITLAB-4,active,"Run a pipeline in the parent project for a merge request from a fork only after reviewing its changes, including changes to `.gitlab-ci.yml`."
@@ -229,9 +231,9 @@ HOST-12,active,"Recover from a bad release by rolling back to the previous produ
 HOST-13,active,"Send logs and traces to an external observability service with a log drain or OpenTelemetry export, because the platforms keep runtime logs only for hours or days."
 K8S-1,active,"Give every container CPU and memory requests and a memory limit. Set CPU limits only where needed, for example on sensitive workloads."
 K8S-2,active,"Configure readiness, liveness and startup probes for their distinct purposes."
-K8S-3,active,Handle `SIGTERM` and shut down gracefully within the termination grace period.
+K8S-3,active,"Fit graceful shutdown into the Pod's termination grace period: set `terminationGracePeriodSeconds` to cover your slowest shutdown, and use a `preStop` hook if the app needs time before it receives `SIGTERM`."
 K8S-4,active,"Run multiple replicas, spread them across nodes and zones, and protect them with PodDisruptionBudgets."
-K8S-5,active,"Deploy images by a specific version tag or by digest, never `:latest`."
+K8S-5,active,"Deploy images by digest, never by a mutable tag such as `:latest`."
 K8S-6,active,Scale stateless workloads horizontally with the HorizontalPodAutoscaler.
 K8S-7,active,Apply the recommended `app.kubernetes.io/*` labels.
 K8S-8,active,"Grant least-privilege RBAC, and give each workload its own service account."
@@ -239,7 +241,7 @@ K8S-9,active,Enforce the Restricted Pod Security Standard for application namesp
 K8S-10,active,Start each namespace from a default-deny NetworkPolicy and allow only the traffic you need.
 K8S-11,active,"Encrypt Secrets at rest, restrict who can read them, and consider an external secret store."
 K8S-12,active,"Decide your tenancy model (namespaces, clusters) explicitly."
-K8S-13,active,"Keep all manifests declarative and in Git, and let an agent reconcile the cluster to them (GitOps)."
+K8S-13,active,Let an agent pull the declared state from Git and continuously reconcile the cluster to it (GitOps).
 KAFKA-1,active,"Choose each record's key by the ordering you need: records with the same key go to the same partition, and Kafka keeps order only within a partition."
 KAFKA-2,active,"Choose a topic's partition count when you create it, from the throughput and consumer parallelism you need, with room for growth."
 KAFKA-3,active,"Create topics explicitly with their partition count, replication factor and retention, and turn off automatic topic creation on the brokers."
@@ -304,6 +306,10 @@ OPS-9,active,"Keep config in the environment, treat backing services as attached
 OPS-10,active,Expose health endpoints that load balancers and orchestrators can probe.
 OPS-11,active,"Instrument with OpenTelemetry and follow its semantic conventions, so telemetry is portable and correlated."
 OPS-12,active,Run blameless postmortems and track their action items.
+OPS-13,active,"Run production across at least two independent failure domains, such as availability zones, with enough spare capacity to lose one without scaling up."
+OPS-14,active,"Define infrastructure and platform configuration as code in version control, and change it only through a reviewed pipeline, not by hand in a console or dashboard."
+OPS-15,active,"Make processes disposable: on `SIGTERM`, stop taking new work, finish or hand back the work in flight, and exit within the platform's grace period."
+OPS-16,active,"Write structured logs that carry the trace context, to stdout or through a log appender, and ship them to a central store with the retention you need."
 OTEL-1,active,"Set `service.name` explicitly in every service, with the same value for all instances of the service, and add `service.version` and `deployment.environment.name` as resource attributes."
 OTEL-2,active,"Before you name a custom attribute or metric, look for it in the semantic conventions; when none fits, prefix the new name with your company's reverse domain name, such as `com.acme.`, or with your application's name."
 OTEL-3,active,"Propagate trace context across every process boundary, including queues: keep the default W3C Trace Context propagator for HTTP and gRPC, and have producers attach the context to each message."
@@ -313,7 +319,7 @@ OTEL-6,active,"Keep span names and metric attributes low-cardinality: use route 
 OTEL-7,active,"Treat trace context from outside as untrusted: ignore or sanitize incoming trace headers from callers you don't trust, don't send internal context to external services, and never put credentials or personal data in baggage."
 OTEL-8,active,"Choose sampling deliberately: don't sample when you produce little data, use consistent probability (head) sampling to cut volume cheaply, and add tail sampling in a Collector tier when you must keep every error or slow trace."
 OTEL-9,active,"Make `memory_limiter` the first processor in every Collector pipeline, set `GOMEMLIMIT` to about 80% of the Collector's hard memory limit, and batch data after sampling and filtering, preferably with the exporter's `sending_queue` batching."
-OTEL-10,active,"Secure every Collector: bind receivers to `localhost` or a specific interface instead of `0.0.0.0`, require TLS and authentication on receivers that other hosts send to, keep credentials in a secret store or environment variables, and include only the components you use."
+OTEL-10,active,"Secure every Collector: bind receivers to `localhost` or a specific interface instead of `0.0.0.0`, require TLS and authentication on receivers that other hosts send to, keep credentials out of the configuration file, in a secret store or, where nothing else is available, in environment variables, and include only the components you use."
 OTEL-11,active,"Send telemetry over OTLP to an OpenTelemetry Collector, running as an agent next to the service or as a gateway, rather than from each service straight to a vendor."
 OTEL-12,active,"Keep secrets and personal data out of telemetry: don't record what you don't need, and remove, hash or truncate what instrumentation captures anyway, for example with the Collector's `redaction`, `attributes`, `transform` or `filter` processors."
 PG-1,active,"Declare integrity rules as constraints in the database: a primary key on every table, `NOT NULL` on most columns, and foreign key, unique and check constraints where the data needs them."
@@ -391,7 +397,7 @@ REACT-8,active,Try props and composition before reaching for context.
 REACT-9,active,Extract reusable stateful logic into custom hooks.
 REACT-10,active,"Organise larger apps by feature, not by file type."
 REACT-11,active,"Move non-view logic (domain, data access) out of components as the app grows."
-REACT-12,active,Track Core Web Vitals as the user-facing performance budget.
+REACT-12,retired,Track Core Web Vitals as the user-facing performance budget.
 REDIS-1,active,"Keep the authoritative copy of cached data in a durable data store, and keep data only in Redis when you have configured persistence and replication for it on purpose."
 REDIS-2,active,"Give cache entries a TTL, even a long one, unless write-through keeps them current, and set `maxmemory` with an eviction policy that fits the workload, such as `allkeys-lru` for a pure cache."
 REDIS-3,active,"Choose the write strategy per data set: cache-aside (load on a miss, invalidate on write) as the default, and write-through where readers must see a change right after the write."
@@ -402,7 +408,7 @@ REDIS-7,active,"Name keys with one schema, such as `app:object-type:id[:field]`,
 REDIS-8,active,"On Redis Cluster, put keys that one multi-key command, transaction or script uses into the same hash slot with a hash tag, such as `{user:1000}:cart`, and use hash tags only where you need them."
 REDIS-9,active,"Use Streams with consumer groups, not Pub/Sub, for messages that must not be lost."
 REDIS-10,active,"Never expose Redis to the internet or other untrusted networks: bind it to private interfaces, firewall the port so that only the application hosts can reach it, and leave protected mode on."
-REDIS-11,active,"Authenticate every client as a named ACL user with only the commands and key patterns it needs, turn off the passwordless `default` user, and use TLS when traffic crosses a network you don't fully control."
+REDIS-11,active,"Authenticate every client as a named ACL user with only the commands and key patterns it needs, turn off the passwordless `default` user, and use TLS for every connection that leaves the host."
 REDIS-12,active,"Choose persistence by what losing the data would cost: none for a cache you can rebuild, RDB snapshots when losing the last minutes of writes is acceptable, and AOF plus RDB for safety close to PostgreSQL's. Copy RDB snapshots off the machine at least daily."
 REDIS-13,active,"With replication, turn on persistence on the primary and the replicas, or stop a primary without persistence from restarting automatically."
 REDIS-14,active,"For automatic failover, run Sentinel, with at least three instances on machines that fail independently, or Redis Cluster, and design for lost writes."
@@ -429,11 +435,19 @@ SEC-1,active,"Deny by default, enforce least privilege, and check authorisation 
 SEC-2,active,Keep secrets out of code and repositories.
 SEC-3,active,Threat model early and revisit it as the design changes.
 SEC-4,active,"Log security-relevant events, and keep secrets and sensitive personal data out of logs by removing, masking, hashing or encrypting them."
-SEC-5,active,Secure service-to-service communication and identity in distributed systems.
+SEC-5,active,"Give each application and service its own identity, with only the permissions it needs, on every system it connects to, and never let it use a shared, default or administrator account."
 SEC-6,active,Ship secure defaults so customers don't have to harden the product themselves.
 SEC-7,active,Don't grant implicit trust based on network location. Authenticate and authorise every access (zero trust).
 SEC-8,active,Protect the software supply chain with build provenance and continuous dependency health checks.
 SEC-9,active,"Use STRIDE to enumerate threats per component, data flow and trust boundary."
+SEC-10,active,"Validate all input that crosses a trust boundary on the server, against a schema or an allowlist, before using it, and never deserialize untrusted data with a mechanism that can create arbitrary objects or run code."
+SEC-11,active,"Treat everything you ship to a client as public, including browser bundles, page payloads, mobile apps and game builds, and never build secrets into it."
+SEC-12,active,"Never keep one user's or one request's data in state that a server process shares between requests, such as module-level variables or singletons: scope it to the request, or keep it in a backing service."
+SEC-13,active,"Encrypt every network connection with TLS, including internal connections to databases, caches, message brokers and telemetry collectors, and make clients verify the server's certificate."
+SEC-14,active,"Authenticate workloads and pipelines with short-lived credentials issued for their identity, such as cloud managed identities or OpenID Connect workload identity federation, instead of long-lived keys or stored secrets."
+SEC-15,active,"Pin every dependency, including packages, base images, CI actions and infrastructure modules, to an immutable version, such as a lock file with hashes, an image digest or a commit SHA, install exactly what is pinned, and let a bot propose updates."
+SEC-16,active,"Separate production from non-production, and workloads from each other, with their own accounts or projects, credentials and data stores."
+SEC-17,active,"Run only releases of runtimes, frameworks, databases and other platform software that still receive security fixes, apply their patch releases promptly, and plan each upgrade before the end-of-life date."
 STYLE-1,active,Start with a well-structured monolith and split it once the boundaries are understood.
 STYLE-2,active,"Have rapid provisioning, basic monitoring and rapid deployment in place before adopting microservices."
 STYLE-3,active,Organise services around business capabilities and let each service own its data.
@@ -511,7 +525,7 @@ UNITY-CODE-11,active,"For asynchronous code, use `Awaitable` with async/await (U
 UNITY-CODE-12,active,"For multiplayer, choose the netcode stack with the Multiplayer Center and study Boss Room before designing your own architecture."
 UNITY-CODE-13,active,Choose the UI system (UI Toolkit or uGUI) per use case using Unity's comparison.
 UNITY-CODE-14,active,Choose the Entities package (DOTS/ECS) deliberately for large simulations.
-UNITY-PERF-1,active,"Profile early and on target devices, and measure before and after every optimisation."
+UNITY-PERF-1,active,"Profile with the Unity Profiler connected to a build running on the target device, early and before and after every optimisation, not only in the Editor."
 UNITY-PERF-2,active,Pair every Addressables load with a release.
 UNITY-PERF-3,active,Avoid managed allocations in per-frame code paths to prevent garbage-collector spikes.
 UNITY-PERF-4,active,Keep the `Resources` folder for prototypes and small bootstrap data. Load game content through Addressables (or AssetBundles).
@@ -526,7 +540,7 @@ UNITY-STRUCT-7,active,"Keep `.meta` files visible and committed, and keep asset 
 UNITY-STRUCT-8,active,Start from the community Unity `.gitignore` so that generated folders such as `Library/` and `Temp/` are never committed.
 UNITY-STRUCT-9,active,Configure UnityYAMLMerge (Smart Merge) as the merge tool for scenes and prefabs.
 UNITY-STRUCT-10,active,Enter Play mode without domain reload for faster iteration.
-UNITY-TEST-1,active,"Design for testability: keep logic in plain C# classes behind thin MonoBehaviours, and inject dependencies."
+UNITY-TEST-1,active,"Inject dependencies into the plain C# classes that hold the logic, so that Edit Mode tests can substitute fakes."
 UNITY-TEST-2,active,"Run the tests from the command line in batch mode as part of the build, so CI runs them on every change."
 UNITY-TEST-3,active,"Write plain NUnit `[Test]` tests in Edit Mode for logic that doesn't need Play mode, and use `[UnityTest]` Play Mode tests for runtime behaviour that spans frames or needs a scene."
 UNITY-TEST-4,active,Put tests in their own test assemblies that reference the assemblies under test.

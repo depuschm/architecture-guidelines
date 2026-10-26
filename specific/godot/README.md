@@ -34,8 +34,8 @@ The Godot documentation has an official best practices section. **Follow it as t
 ### Scripts
 
 - `7` `GODOT-9` **Use static typing throughout, and set the `untyped_declaration` warning to Error so that untyped declarations stop a script from compiling.** Typed code catches more errors before it runs, and it runs faster. ([Godot, Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html), [GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html))
+- `7` `GODOT-11` **Move objects and run game logic in `_physics_process`, and turn on physics interpolation so that motion stays smooth at any frame rate.** Use `_process` only for work that must follow the rendered frame rate. ([Godot, Using physics interpolation](https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html), [Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html), [game development: fixed time steps](../gamedev/README.md))
 - `6` `GODOT-10` **Follow the GDScript style guide, including its code order.** Consistency within the team matters more than any single convention. ([Godot, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html))
-- `6` `GODOT-11` **Move objects and run game logic in `_physics_process`, and turn on physics interpolation so that motion stays smooth at any frame rate.** Use `_process` only for work that must follow the rendered frame rate. ([Godot, Using physics interpolation](https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html), [Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html), [game development: fixed time steps](../gamedev/README.md))
 
 ### Data and saving
 

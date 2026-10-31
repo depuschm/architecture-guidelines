@@ -99,7 +99,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1572 sources.
+1626 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -115,6 +115,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Apache Kafka, Design](https://kafka.apache.org/43/design/design/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
+| 8 | [Arm, GPU Best Practices Developer Guide (issue 10, PDF)](https://documentation-service.arm.com/static/67a62b17091bfc3e0a947695) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [AWS Builders' Library, Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Timeouts, retries and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
@@ -203,6 +204,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Kubernetes, Resource management for pods and containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Martin, The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [MDN, HTTP caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [MDN, WebGL best practices](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 8 | [Microservice Architecture pattern language](https://microservices.io/patterns/index.html) | [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [microservices.io data management patterns](https://microservices.io/patterns/data/database-per-service.html) | [general/architecture-styles](general/architecture-styles.md), [general/data](general/data.md) | 2026-10-24 |
 | 8 | [microservices.io, Saga](https://microservices.io/patterns/data/saga.html) | [general/data](general/data.md) | 2026-10-24 |
@@ -251,6 +253,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Pinia, Introduction](https://pinia.vuejs.org/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Playwright, Best Practices](https://playwright.dev/docs/best-practices) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 8 | [PostgreSQL, Backup and Restore](https://www.postgresql.org/docs/current/backup.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 8 | [Qualcomm, Adreno GPU on Mobile: Best Practices](https://docs.qualcomm.com/doc/80-78185-2/topic/mobile_best_practices.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 8 | [RabbitMQ, Consumer Acknowledgements and Publisher Confirms](https://www.rabbitmq.com/docs/confirms) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 8 | [RabbitMQ, Production Deployment Guidelines](https://www.rabbitmq.com/docs/production-checklist) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 8 | [RabbitMQ, Reliability Guide](https://www.rabbitmq.com/docs/reliability) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
@@ -288,15 +291,20 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Vue.js, Using Vue with TypeScript](https://vuejs.org/guide/typescript/overview.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [W3C, Trace Context (Recommendation)](https://www.w3.org/TR/trace-context/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3](https://www.w3.org/TR/webauthn-3/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [W3C, WebGPU (Candidate Recommendation Draft)](https://www.w3.org/TR/webgpu/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 8 | [web.dev, Mitigate cross-site scripting (XSS) with a strict Content Security Policy (CSP)](https://web.dev/articles/strict-csp) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, The most effective ways to improve Core Web Vitals](https://web.dev/articles/top-cwv) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [adr.github.io](https://adr.github.io/) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [Agent Skills](https://agentskills.io/specification) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [AIP-158, Pagination](https://google.aip.dev/158) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 7 | [AMD GPUOpen, RDNA Performance Guide](https://gpuopen.com/learn/rdna-performance-guide/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android architecture samples](https://github.com/android/architecture-samples) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 7 | [Android Developers, Analyze and optimize game performance](https://developer.android.com/games/optimize/gameperformance) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Android Developers, Analyze and optimize game performance: identify CPU or GPU bottlenecks](https://developer.android.com/games/optimize/gameperformance#cpu-gpu-bottlenecks) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android Developers, Android vitals](https://developer.android.com/google/play/vitals) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Android vitals: Bad behavior thresholds](https://developer.android.com/google/play/vitals#what_are_the_bad_behavior_thresholds) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, CPU and GPU optimization tips](https://developer.android.com/games/optimize/optimization-tips) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android Developers, Google Play Billing Library version deprecation](https://developer.android.com/google/play/billing/deprecation-faq) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Meet Google Play's target API level requirement](https://developer.android.com/google/play/requirements/target-sdk) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Optimize thermal and CPU performance with the Android Dynamic Performance Framework](https://developer.android.com/games/optimize/adpf) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -308,6 +316,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Android Developers, Play Billing: Purchase lifecycle management and entitlement sync](https://developer.android.com/google/play/billing/backend#lifecycle-management) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Play Billing: Verify purchases before granting entitlements](https://developer.android.com/google/play/billing/security#verify) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Play Integrity API: Security considerations](https://developer.android.com/google/play/integrity/overview#security-considerations) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Target texture compression formats in Android App Bundles](https://developer.android.com/guide/playcore/asset-delivery/texture-compression) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Android Developers, Textures](https://developer.android.com/games/optimize/textures) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Android Developers, Use Vulkan for graphics](https://developer.android.com/games/develop/vulkan/overview) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android Studio, Improve your code with lint checks](https://developer.android.com/studio/write/lint) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Android, Architecting your Compose UI](https://developer.android.com/develop/ui/compose/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -366,6 +377,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Apple, App Review Guidelines: 4.7 Mini apps, mini games, streaming games](https://developer.apple.com/app-store/review/guidelines/#4.7) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 5.1.2 Data Use and Sharing](https://developer.apple.com/app-store/review/guidelines/#5.1.2) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 5.1.4 Kids](https://developer.apple.com/app-store/review/guidelines/#5.1.4) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple, Metal binary archives](https://developer.apple.com/documentation/metal/metal-binary-archives) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Apple, Optimizing GPU performance](https://developer.apple.com/documentation/xcode/optimizing-gpu-performance) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Apple, Reducing the memory footprint of Metal apps](https://developer.apple.com/documentation/metal/reducing-the-memory-footprint-of-metal-apps) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Apple, Setting load and store actions](https://developer.apple.com/documentation/metal/setting-load-and-store-actions) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Apple, Tailor your apps for Apple GPUs and tile-based deferred rendering](https://developer.apple.com/documentation/metal/tailor-your-apps-for-apple-gpus-and-tile-based-deferred-rendering) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Apple, Validating your app's Metal API usage](https://developer.apple.com/documentation/xcode/validating-your-apps-metal-api-usage) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [arc42, section 1: quality goals](https://docs.arc42.org/section-1/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [ArchUnit](https://www.archunit.org/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [ArchUnit user guide](https://www.archunit.org/userguide/html/000_Index.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
@@ -590,12 +607,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, Command line tutorial](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) | [specific/gamedev](specific/gamedev/README.md), [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) | [specific/gamedev](specific/gamedev/README.md), [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Godot interfaces](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
+| 7 | [Godot docs, Overview of renderers](https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Godot docs, Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Reducing stutter from shader (pipeline) compilations](https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Godot docs, Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Saving games](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Scene unique nodes](https://docs.godotengine.org/en/stable/tutorials/scripting/scene_unique_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -702,6 +721,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [ICU User Guide, Formatting messages](https://unicode-org.github.io/icu/userguide/format_parse/messages/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 7 | [Khronos, Vulkan Guide: Tile Based Rendering (TBR) Best Practices](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/tile_based_rendering_best_practices.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Khronos, Vulkan Samples: performance samples](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/README.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Kubernetes tutorials](https://kubernetes.io/docs/tutorials/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Configure liveness, readiness and startup probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -716,9 +737,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [MDN, Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [MDN, ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [MDN, CSS logical properties and values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) | [general/localization](general/localization.md) | 2026-10-26 |
+| 7 | [MDN, GPUDevice: lost property](https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/lost) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [MDN, Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [MDN, Set-Cookie header: Cookie prefixes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#cookie_prefixes) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [MDN, Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [MDN, WebGL best practices: batch draw calls](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#batch_draw_calls) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, WebGL best practices: consider compressed texture formats](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#consider_compressed_texture_formats) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, WebGL best practices: estimate a per-pixel VRAM budget](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#estimate_a_per-pixel_vram_budget) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, WebGL best practices: prefer KHR_parallel_shader_compile](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#prefer_khr_parallel_shader_compile) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, WebGL best practices: use mipmaps for any texture you'll see in 3D](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#use_mipmaps_for_any_texture_youll_see_in_3d) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, WebGPU API: accessing a device](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API#accessing_a_device) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [microservices.io, Idempotent Consumer](https://microservices.io/patterns/communication-style/idempotent-consumer.html) | [general/data](general/data.md), [specific/kafka](specific/kafka/README.md), [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Cache-Aside pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -763,8 +792,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft, Cloud Adoption Framework: subscription considerations and recommendations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions#organization-and-governance-recommendations) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, DI scope validation](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview#scope-validation) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 7 | [Microsoft, EF Core performance](https://learn.microsoft.com/en-us/ef/core/performance/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Microsoft, Get started with PIX](https://learn.microsoft.com/en-us/windows/win32/direct3dtools/pix/articles/general/pix-overview) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Microsoft, GPU-based validation and the Direct3D 12 Debug Layer](https://learn.microsoft.com/en-us/windows/win32/direct3d12/using-d3d12-debug-layer-gpu-based-validation) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Microsoft, Handle errors in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Microsoft, ID3D12Device1::CreatePipelineLibrary](https://learn.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Microsoft, Integration tests](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Managed identities for Azure resources](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, Microsoft cloud security benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -774,6 +806,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft, Safe deployment of Azure Policy assignments](https://learn.microsoft.com/en-us/azure/governance/policy/how-to/policy-safe-deployment-practices) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, Secure your Azure Key Vault: data protection](https://learn.microsoft.com/en-us/azure/key-vault/general/secure-key-vault#data-protection) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, Secure your Azure Key Vault: identity and access management](https://learn.microsoft.com/en-us/azure/key-vault/general/secure-key-vault#identity-and-access-management) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft, Texture block compression in Direct3D 11](https://learn.microsoft.com/en-us/windows/win32/direct3d11/texture-block-compression-in-direct3d-11) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Microsoft, What are Azure availability zones? Architectural guidance](https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview#availability-zone-architectural-guidance) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, What is a private endpoint?](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [MITRE, CWE-488: Exposure of Data Element to Wrong Session](https://cwe.mitre.org/data/definitions/488.html) | [general/security](general/security.md) | 2026-10-26 |
@@ -838,6 +871,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Nuxt, Rendering modes: hybrid rendering](https://nuxt.com/docs/4.x/guide/concepts/rendering#hybrid-rendering) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Nuxt, Runtime config](https://nuxt.com/docs/4.x/guide/going-further/runtime-config) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [Nuxt, State management: best practices](https://nuxt.com/docs/4.x/getting-started/state-management#best-practices) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [NVIDIA Technical Blog, Advanced API Performance tips](https://developer.nvidia.com/blog/tag/advanced-api-performance/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [NVIDIA Technical Blog, Advanced API Performance: Pipeline State Objects](https://developer.nvidia.com/blog/advanced-api-performance-pipeline-state-objects/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Nx, Enforce Module Boundaries rule](https://nx.dev/docs/kb/enforce-module-boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [OpenGitOps principles](https://opengitops.dev/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [OpenID Connect Core 1.0, Claim stability and uniqueness](https://openid.net/specs/openid-connect-core-1_0.html#ClaimStability) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1116,10 +1151,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Localization, Smart Strings](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Smart/SmartStrings.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity Localization, String Tables](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/StringTables.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity Manual, Asynchronous programming with Awaitable](https://docs.unity3d.com/Manual/async-await-support.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 7 | [Unity Manual, Choose a render pipeline](https://docs.unity3d.com/Manual/choose-a-render-pipeline.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Unity Manual, Comparison of UI systems](https://docs.unity3d.com/Manual/UI-system-compare.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Install and use an existing analyzer](https://docs.unity3d.com/Manual/install-existing-analyzer.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 7 | [Unity Manual, Introduction to shader variants](https://docs.unity3d.com/Manual/shader-variants.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Profiling your application](https://docs.unity3d.com/Manual/profiler-profiling-applications.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
@@ -1197,6 +1234,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AbleGamers, Accessible Player Experiences (APX)](https://accessible.games/accessible-player-experiences/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Android Developers, Android GPU Inspector](https://developer.android.com/agi) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Android Developers, CPU and GPU optimization tips: avoid discard to enable Early-Z](https://developer.android.com/games/optimize/optimization-tips#avoid-discard-early-z) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Android Developers, CPU and GPU optimization tips: minimize load or store operations](https://developer.android.com/games/optimize/optimization-tips#minimize-operations) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Android Developers, CPU and GPU optimization tips: optimize geometry complexity](https://developer.android.com/games/optimize/optimization-tips#optimize-geometry) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Android Developers, CPU and GPU optimization tips: optimize shader precision](https://developer.android.com/games/optimize/optimization-tips#optimize-shader-precision) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Android Developers, Geometry: level of detail](https://developer.android.com/games/optimize/geometry#level-of-detail) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Android Developers, Include native symbols in your release build](https://developer.android.com/build/include-native-symbols) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Android Lint, SetTextI18n: TextView internationalization](https://googlesamples.github.io/android-custom-lint-rules/checks/SetTextI18n.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Apache Kafka, Basic Kafka Operations: checking consumer position](https://kafka.apache.org/43/operations/basic-kafka-operations/#checking-consumer-position) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -1213,6 +1256,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Apple Developer Documentation, ProcessInfo.ThermalState.serious](https://developer.apple.com/documentation/foundation/processinfo/thermalstate-swift.enum/serious) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apple sample code, Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apple, Meet the App Store Server Library (WWDC23)](https://developer.apple.com/videos/play/wwdc2023/10143/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple, OpenGL ES (deprecated)](https://developer.apple.com/documentation/opengles) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -1367,6 +1411,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Google Cloud, Security Command Center Compliance Manager cloud control reference](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Cloud, Terraform blueprints and modules for Google Cloud](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Cloud, Well-Architected Framework: foster a culture of cost awareness](https://docs.cloud.google.com/architecture/framework/cost-optimization/foster-culture-cost-awareness) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 6 | [Google Codelabs, Your first WebGPU app](https://codelabs.developers.google.com/your-first-webgpu-app) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Google Play Console Help, Use a pre-launch report to identify issues](https://support.google.com/googleplay/android-developer/answer/9842757?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Google Testing Blog, Flaky Tests at Google and How We Mitigate Them](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -1403,6 +1448,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md), [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Jaap-Henk Hoepman, Privacy Design Strategies (The Little Blue Book)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Khronos, glslang](https://github.com/KhronosGroup/glslang/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Khronos, SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Khronos, Vulkan Guide](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/README.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [Khronos, Vulkan Validation Layers: Best Practices validation](https://github.com/KhronosGroup/Vulkan-ValidationLayers/blob/main/docs/best_practices.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Konsist, architecture assertions](https://docs.konsist.lemonappdev.com/writing-tests/architecture-assert) | [general/testing-delivery](general/testing-delivery.md), [specific/android](specific/android/README.md) | 2026-10-25 |
 | 6 | [kube-linter checks](https://docs.kubelinter.io/#/generated/checks) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 6 | [Kubernetes RBAC, service account permissions](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#service-account-permissions) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -1415,6 +1464,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Matt Pocock, Total TypeScript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [MDN, HTTP Observatory (mdn-http-observatory)](https://github.com/mdn/mdn-http-observatory) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [MDN, WebGL best practices: address and eliminate WebGL errors](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#address_and_eliminate_webgl_errors) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [MDN, WebGLRenderingContext: isContextLost() usage notes](https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/isContextLost#usage_notes) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Mertens, ECS FAQ](https://github.com/SanderMertens/ecs-faq) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Microsoft Cost Management, Create and manage budgets](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -1435,6 +1486,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Microsoft, Bicep best practices: outputs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices#outputs) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Comparing Terraform and Bicep](https://learn.microsoft.com/en-us/azure/developer/terraform/comparing-terraform-and-bicep) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Design a Log Analytics workspace architecture: design strategy](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design#design-strategy) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 6 | [Microsoft, DirectX Shader Compiler](https://github.com/microsoft/DirectXShaderCompiler/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Microsoft, Enable diagnostic settings by category group using built-in policies](https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/diagnostic-settings-policy-built-in) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Introduction to Azure Advisor](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Monitor Azure resources with Azure Monitor: diagnostic settings](https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/monitor-azure-resource#diagnostic-settings-for-an-azure-resource) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -1571,6 +1623,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Redis, SLOWLOG command](https://redis.io/docs/latest/commands/slowlog/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 6 | [Reducing the scope of impact with cell-based architecture](https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Refactoring.Guru: design patterns](https://refactoring.guru/design-patterns) | [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 6 | [RenderDoc, FAQ](https://renderdoc.org/docs/getting_started/faq.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Reproducible Builds, Definitions](https://reproducible-builds.org/docs/definition/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Ruff, asyncio-dangling-task (RUF006)](https://docs.astral.sh/ruff/rules/asyncio-dangling-task/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, Rules: flake8-async (ASYNC)](https://docs.astral.sh/ruff/rules/#flake8-async-async) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1671,6 +1724,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [web.dev, Learn Testing](https://web.dev/learn/testing) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [web.dev, Learn Testing: Visual tests](https://web.dev/learn/testing/get-started/test-types#visual) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [web.dev, WebGPU is now supported in major browsers: browser and OS availability](https://web.dev/blog/webgpu-supported-major-browsers#browser_and_os_availability) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Workload isolation using shuffle-sharding](https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [ZAP, Baseline scan](https://www.zaproxy.org/docs/docker/baseline-scan/) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1678,7 +1732,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-216 sources.
+219 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1692,6 +1746,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Anton Babenko, Terraform Best Practices](https://www.terraform-best-practices.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Apache Kafka, CreateTopicPolicy API](https://kafka.apache.org/43/javadoc/org/apache/kafka/server/policy/CreateTopicPolicy.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [API Extractor, The API report](https://api-extractor.com/pages/overview/demo_api_report/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [Arm Learning Paths, Analyze shader program performance with Mali Offline Compiler](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ams/malioc/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 5 | [Arm, Mali Offline Compiler User Guide 8.6 (PDF)](https://documentation-service.arm.com/static/674866c827eda361ad4dc590) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 5 | [Astral, Ruff](https://docs.astral.sh/ruff/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [AWS Config, CloudFormation stack drift detection rule](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -1874,6 +1930,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Vercel, Edge Runtime](https://vercel.com/docs/functions/runtimes/edge) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Welcome to DDD](https://github.com/ddd-crew/welcome-to-ddd) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 5 | [wgpu, naga](https://github.com/gfx-rs/wgpu/blob/trunk/naga/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 5 | [ZAP, Cookie No HttpOnly Flag (10010)](https://www.zaproxy.org/docs/alerts/10010/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [ZAP, Cookie without SameSite Attribute (10054)](https://www.zaproxy.org/docs/alerts/10054/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [ZAP, Cookie Without Secure Flag (10011)](https://www.zaproxy.org/docs/alerts/10011/) | [general/authentication](general/authentication.md) | 2026-10-25 |

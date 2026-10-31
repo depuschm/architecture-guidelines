@@ -8,7 +8,7 @@
     {
       "name": "architecture-guidelines",
       "source": ".",
-      "description": "Source-linked architecture guidelines with skills for architecture reviews, ADRs, C4 diagrams and Unity architecture."
+      "description": "Source-linked architecture guidelines with skills for architecture reviews, enforcing them in CI, ADRs, C4 diagrams and game architecture."
     }
   ]
 }

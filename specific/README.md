@@ -8,6 +8,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Unity](unity/README.md): game and real-time 3D projects.
 - [Godot](godot/README.md): games built with Godot 4 and GDScript.
 - [Unreal Engine](unreal/README.md): Unreal Engine 5 games in C++ and Blueprint.
+- [Graphics and GPU rendering](graphics/README.md): engine-independent GPU rendering and shaders, on native platforms and on the web with WebGL and WebGPU.
 - [Mobile games](mobile-games/README.md): shipping and running games on the App Store and Google Play, for any engine.
 
 ### Web and back end

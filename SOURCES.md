@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-85 sources.
+86 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -60,6 +60,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [GraphQL Foundation, GraphQL Specification (September 2025)](https://spec.graphql.org/September2025/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 9 | [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 9 | [Introduction to URP for advanced creators (Unity e-book, Unity 6 edition)](https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 9 | [Kubernetes, Security checklist](https://kubernetes.io/docs/concepts/security/security-checklist/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 9 | [Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 9 | [MADR: Markdown Architectural Decision Records](https://adr.github.io/madr/) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -99,7 +100,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1626 sources.
+1672 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -227,8 +228,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OpenTelemetry, Context propagation](https://opentelemetry.io/docs/concepts/context-propagation/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [OpenTelemetry, Handling sensitive data](https://opentelemetry.io/docs/security/handling-sensitive-data/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [OpenTelemetry, Sampling](https://opentelemetry.io/docs/concepts/sampling/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
-| 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
-| 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/mobile-games](specific/mobile-games/README.md), [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
+| 8 | [Optimize performance for consoles and PCs (Unity e-book)](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md), [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-24 |
+| 8 | [Optimize performance for mobile, XR and web games (Unity e-book)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) | [specific/mobile-games](specific/mobile-games/README.md), [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md), [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-24 |
 | 8 | [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 8 | [OWASP API Security Top 10](https://api-security.owasp.org/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [OWASP ASVS 5.0, V12 Secure Communication](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x21-V12-Secure-Communication.md) | [general/security](general/security.md) | 2026-10-26 |
@@ -285,6 +286,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework course](https://docs.unity3d.com/Manual/test-framework/course/overview.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 8 | [Unity, Render pipelines strategy for 2026](https://unity.com/topics/render-pipelines-strategy-for-2026) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Vue Router, Guide](https://router.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Security](https://vuejs.org/guide/best-practices/security.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -610,11 +612,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) | [specific/gamedev](specific/gamedev/README.md), [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Godot interfaces](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, GPU optimization: reuse shaders and materials](https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html#reuse-shaders-and-materials) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
 | 7 | [Godot docs, Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
-| 7 | [Godot docs, Overview of renderers](https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Godot docs, Mesh level of detail (LOD)](https://docs.godotengine.org/en/stable/tutorials/3d/mesh_lod.html) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 7 | [Godot docs, Overview of renderers](https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html) | [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Godot docs, Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Reducing stutter from shader (pipeline) compilations](https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Godot docs, Reducing stutter from shader (pipeline) compilations](https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html) | [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Godot docs, Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Saving games](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Scene unique nodes](https://docs.godotengine.org/en/stable/tutorials/scripting/scene_unique_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -623,6 +627,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, Using physics interpolation](https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Using signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Visibility ranges (HLOD)](https://docs.godotengine.org/en/stable/tutorials/3d/visibility_ranges.html) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
 | 7 | [Godot docs, When and how to avoid using nodes for everything](https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, When to use scenes versus scripts](https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Godot docs, Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -1151,20 +1156,32 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Localization, Smart Strings](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Smart/SmartStrings.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity Localization, String Tables](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/StringTables.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity Manual, Asynchronous programming with Awaitable](https://docs.unity3d.com/Manual/async-await-support.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
-| 7 | [Unity Manual, Choose a render pipeline](https://docs.unity3d.com/Manual/choose-a-render-pipeline.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Unity Manual, Check how many shader variants you have](https://docs.unity3d.com/Manual/shader-how-many-variants.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Choose a GPU texture format by platform](https://docs.unity3d.com/Manual/texture-choose-format-by-platform.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Choose a method for optimizing draw calls](https://docs.unity3d.com/Manual/optimizing-draw-calls-choose-method.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Choose a render pipeline](https://docs.unity3d.com/Manual/choose-a-render-pipeline.html) | [specific/graphics](specific/graphics/README.md), [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Comparison of UI systems](https://docs.unity3d.com/Manual/UI-system-compare.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Unity Manual, How Unity compiles branching shaders](https://docs.unity3d.com/Manual/shader-conditionals-choose-a-type.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Install and use an existing analyzer](https://docs.unity3d.com/Manual/install-existing-analyzer.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 7 | [Unity Manual, Introduction to level of detail](https://docs.unity3d.com/Manual/LevelOfDetail.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Introduction to PSO tracing and warming](https://docs.unity3d.com/Manual/shader-pso-introduction.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to shader variants](https://docs.unity3d.com/Manual/shader-variants.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
+| 7 | [Unity Manual, Optimize custom shaders](https://docs.unity3d.com/Manual/SL-ShaderPerformance.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Profiling your application](https://docs.unity3d.com/Manual/profiler-profiling-applications.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
+| 7 | [Unity Manual, Reduce shader variants](https://docs.unity3d.com/Manual/shader-variant-stripping.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Referencing assemblies](https://docs.unity3d.com/Manual/assembly-definitions-referencing.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Special folder names](https://docs.unity3d.com/Manual/SpecialFolders.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Unity Manual, Strip shader variants in URP](https://docs.unity3d.com/Manual/urp/shader-stripping-features.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Trace and manage PSO data collections](https://docs.unity3d.com/Manual/shader-pso-trace.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Version control](https://docs.unity3d.com/Manual/VersionControl.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Unity Manual, Warm up PSOs](https://docs.unity3d.com/Manual/shader-prewarm.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Project Auditor, Code view reference](https://docs.unity3d.com/Manual/project-auditor/code-view-reference.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
 | 7 | [Unity Project Auditor, domain reloading issues](https://docs.unity3d.com/Manual/project-auditor/domain-reloading-issues.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
+| 7 | [Unity Project Auditor, Shaders view reference](https://docs.unity3d.com/Manual/project-auditor/shaders-view-reference.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Scripting API, ObjectPool](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Test Framework, Edit Mode vs. Play Mode tests](https://docs.unity3d.com/Manual/test-framework/edit-mode-vs-play-mode-tests.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 7 | [Unity Test Framework, Run tests from the command line](https://docs.unity3d.com/Manual/test-framework/run-tests-from-command-line.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
@@ -1173,10 +1190,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, Localization package manual (1.5)](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity, ScriptableObject event channels](https://unity.com/how-to/scriptableobjects-event-channels-game-code) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 7 | [Unreal Engine, Creating a Bundled PSO Cache](https://dev.epicgames.com/documentation/en-us/unreal-engine/manually-creating-bundled-pso-caches-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 7 | [Unreal Engine, Hardware and Software Specifications](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
 | 7 | [Unreal Engine, Localization Overview](https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-overview-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-26 |
 | 7 | [Unreal Engine, Localization Tools](https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-tools-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-26 |
+| 7 | [Unreal Engine, Lumen Global Illumination and Reflections](https://dev.epicgames.com/documentation/en-us/unreal-engine/lumen-global-illumination-and-reflections-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 7 | [Unreal Engine, Material Instances](https://dev.epicgames.com/documentation/en-us/unreal-engine/instanced-materials-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 7 | [Unreal Engine, Nanite Virtualized Geometry](https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
 | 7 | [Unreal Engine, One File Per Actor](https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 7 | [Unreal Engine, PSO Precaching](https://dev.epicgames.com/documentation/en-us/unreal-engine/pso-precaching-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 7 | [Unreal Engine, PSO Precaching: validation and tracking](https://dev.epicgames.com/documentation/en-us/unreal-engine/pso-precaching-for-unreal-engine#validation-and-tracking) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 7 | [Unreal Engine, Setting Up Device Profiles](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-device-profiles-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
 | 7 | [Unreal Engine, Text Localization](https://dev.epicgames.com/documentation/en-us/unreal-engine/text-localization-in-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-26 |
+| 7 | [Unreal Engine, Using Derived Data Cache: Shared DDC](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-derived-data-cache-in-unreal-engine#sharedddc) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
 | 7 | [Unreal Engine, Using Perforce as source control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [uv, Structure and files: The lockfile](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1300,6 +1326,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Confluent, Schema Registry Best Practices](https://www.confluent.io/blog/best-practices-for-confluent-schema-registry/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Confluent, Schema Registry Maven plugin: test-local-compatibility](https://docs.confluent.io/platform/current/schema-registry/develop/maven-plugin.html#schema-registry-test-local-compatibility) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
+| 6 | [Create popular shaders and visual effects with URP (Unity e-book, Unity 6 edition)](https://unity.com/resources/create-shaders-visual-effects-urp-unity-6) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 6 | [dependency-cruiser, rules reference: group matching](https://github.com/sverweij/dependency-cruiser/blob/main/doc/rules-reference.md#group-matching) | [general/repositories](general/repositories.md), [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -1399,7 +1426,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot class reference, Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot docs, Localization using gettext (PO files)](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
+| 6 | [Godot docs, Optimizing 3D performance: instancing](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#use-manual-instancing-multimesh) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 6 | [Godot docs, Optimizing 3D performance: level of detail](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#level-of-detail-lod) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
 | 6 | [Godot docs, Pseudolocalization](https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
+| 6 | [Godot docs, Shading language: global uniforms](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#global-uniforms) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 6 | [Godot docs, Shading language: per-instance uniforms](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#per-instance-uniforms) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Google Cloud, Architecting disaster recovery for cloud infrastructure outages](https://docs.cloud.google.com/architecture/disaster-recovery) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -1634,6 +1665,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Semantic Versioning FAQ, How do I know when to release 1.0.0?](https://semver.org/#how-do-i-know-when-to-release-100) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Semantic Versioning FAQ, What do I do if I accidentally release a backward incompatible change as a minor version?](https://semver.org/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Shader Graph 17.6, Introduction to HLSL in Shader Graph](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.6/manual/Custom-nodes-hlsl-introduction.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 6 | [Shader Graph 17.6, Introduction to keywords](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.6/manual/Keywords-concepts.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Shopify, Tutorial: Designing a GraphQL API](https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Squawk, Applying migrations safely](https://squawkhq.com/docs/safe_migrations) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -1683,23 +1716,37 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity Localization, Pseudo-Localization](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Pseudo-Localization.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 6 | [Unity Manual, Adaptive Performance](https://docs.unity3d.com/Manual/adaptive-performance/adaptive-performance.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Unity Manual, Analyzer scope and diagnostics](https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 6 | [Unity Manual, Check whether a GameObject is compatible with the SRP Batcher](https://docs.unity3d.com/Manual/SRPBatcher-Materials.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Editor settings](https://docs.unity3d.com/Manual/class-EditorManager.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 6 | [Unity Manual, Enable the GPU Resident Drawer in URP](https://docs.unity3d.com/Manual/urp/gpu-resident-drawer.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 6 | [Unity Manual, Introduction to the Frame Debugger](https://docs.unity3d.com/Manual/FrameDebugger.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 6 | [Unity Manual, Other methods to warm up shaders](https://docs.unity3d.com/Manual/shader-prewarm-other.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Play Asset Delivery](https://docs.unity3d.com/Manual/play-asset-delivery.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Unity Manual, Rendering Debugger window reference for URP](https://docs.unity3d.com/Manual/urp/features/rendering-debugger-reference.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Smart Merge](https://docs.unity3d.com/Manual/SmartMerge.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 6 | [Unity Manual, Toggle shader keywords in a script](https://docs.unity3d.com/Manual/shader-keywords-scripts.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 6 | [Unity Manual, Troubleshoot the SRP Batcher in URP](https://docs.unity3d.com/Manual/SRPBatcher-Profile.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, UnityEvents](https://docs.unity3d.com/Manual/unity-events.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Version control settings](https://docs.unity3d.com/Manual/class-VersionControlSettings.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Multiplayer Center](https://docs.unity3d.com/Packages/com.unity.multiplayer.center@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Netcode for GameObjects](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity PaddleGameSO (ScriptableObjects demo)](https://github.com/UnityTechnologies/PaddleGameSO) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 6 | [Unity Performance Testing package](https://docs.unity3d.com/Packages/com.unity.test-framework.performance@latest/) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
-| 6 | [Unity Project Auditor, run from the command line](https://docs.unity3d.com/Manual/project-auditor/run-from-command-line.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-25 |
+| 6 | [Unity Project Auditor, run from the command line](https://docs.unity3d.com/Manual/project-auditor/run-from-command-line.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md), [specific/unity/project-structure](specific/unity/project-structure.md), [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-25 |
 | 6 | [Unity Scripting API, Application.targetFrameRate](https://docs.unity3d.com/ScriptReference/Application-targetFrameRate.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Unity Scripting API, IPreprocessShaders.OnProcessShader](https://docs.unity3d.com/ScriptReference/Build.IPreprocessShaders.OnProcessShader.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity, Advanced programming and code architecture](https://unity.com/how-to/advanced-programming-and-code-architecture) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 6 | [Unity, How to run automated tests with the Unity Test Framework](https://unity.com/how-to/automated-tests-unity-test-framework) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Unity, Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity, UI Toolkit for advanced Unity developers](https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Unreal Engine, How to Set Up Unreal Cloud DDC](https://dev.epicgames.com/documentation/en-us/unreal-engine/how-to-set-up-a-cloud-type-derived-data-cache-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 6 | [Unreal Engine, Material Analyzer](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-analyzer-tool) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 6 | [Unreal Engine, Material Properties](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-properties) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 6 | [Unreal Engine, Scalability and the Developer](https://dev.epicgames.com/documentation/en-us/unreal-engine/scalability-and-the-developer-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 6 | [Unreal Engine, Scalability Reference](https://dev.epicgames.com/documentation/en-us/unreal-engine/scalability-reference-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
+| 6 | [Unreal Engine, Zen Storage Server](https://dev.epicgames.com/documentation/en-us/unreal-engine/zen-storage-server-for-unreal-engine) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
 | 6 | [uv, Locking and syncing: Checking the lockfile](https://docs.astral.sh/uv/concepts/projects/sync/#checking-the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [uv, Working on projects](https://docs.astral.sh/uv/guides/projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Vercel, @vercel/functions API reference: attachDatabasePool](https://vercel.com/docs/functions/functions-api-reference/vercel-functions-package#attachdatabasepool) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -1732,7 +1779,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-219 sources.
+224 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1808,6 +1855,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [GitLab Docs, CI Lint API](https://docs.gitlab.com/api/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, glab ci lint](https://docs.gitlab.com/cli/ci/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, Improving monorepo performance](https://docs.gitlab.com/user/project/repository/monorepos/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 5 | [Godot class reference, Performance pipeline compilation monitors](https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-pipeline-compilations-draw) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 5 | [Godot class reference, ProjectSettings rendering/renderer/rendering_method.mobile](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-rendering-renderer-rendering-method-mobile) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 5 | [Godot docs, Optimization using MultiMeshes](https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
 | 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Godot docs, TranslationServer class reference](https://docs.godotengine.org/en/stable/classes/class_translationserver.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
@@ -1921,9 +1971,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Turborepo, run reference: --affected](https://turborepo.dev/docs/reference/run#--affected) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [typescript-eslint, no-unsafe-member-access](https://typescript-eslint.io/rules/no-unsafe-member-access/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 5 | [Unity ECS samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 5 | [Unity Manual, Apply default presets to assets by folder](https://docs.unity3d.com/Manual/DefaultPresetsByFolder.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 5 | [Unity Manual, Package layout](https://docs.unity3d.com/Manual/cus-layout.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 5 | [Unreal Engine, Material Editor UI](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-ui) | [specific/unreal](specific/unreal/README.md) | 2026-10-31 |
 | 5 | [uv, Commands: uv audit](https://docs.astral.sh/uv/reference/cli/#uv-audit) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Vattani, Chierichetti and Lowenstein, Optimal Probabilistic Cache Stampede Prevention (VLDB 2015)](https://www.vldb.org/pvldb/vol8/p886-vattani.pdf) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 5 | [VContainer](https://vcontainer.hadashikick.jp/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |

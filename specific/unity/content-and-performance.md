@@ -1,7 +1,7 @@
 <!-- rule-prefix: UNITY-PERF -->
 # Unity: content and performance
 
-Asset loading, memory management, profiling and localization.
+Asset loading, memory management, profiling and localization. Render pipelines, shaders and textures are in [Rendering and shaders](rendering.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

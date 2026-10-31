@@ -219,6 +219,11 @@ GODOT-12,active,Model designer-edited game data as custom Resource classes saved
 GODOT-13,active,"Write saves and settings to `user://`, and don't decode objects (`allow_objects`) from files that players can edit or share."
 GODOT-14,active,"Write automated tests with GUT or gdUnit4, and run them headless in CI on every change."
 GODOT-15,active,"Localize with Godot's translation system: add CSV or gettext PO translations under *Project Settings > Localization*, look up text with `tr()` and `tr_n()` or a Control's automatic translation, fill named placeholders with `String.format()`, and switch languages with `TranslationServer.set_locale()`."
+GODOT-16,active,"Choose the renderer for the platforms and oldest hardware you ship to: Forward+ for desktop games that need advanced rendering features, Mobile for mobile devices and standalone XR, and Compatibility for the web, older devices or the widest hardware support."
+GODOT-17,active,"In Forward+ and Mobile, let pipeline precompilation see everything during loading: show a simple scene that uses every rendering feature the game needs, such as MSAA, reflection probes or VoxelGI, before loading most assets, and instance effects that scripts add during play once as hidden nodes."
+GODOT-18,active,"Reuse materials, and where you can't, reuse shaders: share one material across objects and give each object its own values through per-instance uniforms (`instance uniform`), not a unique material."
+GODOT-19,active,"Draw thousands of identical objects, such as grass, flocks or particles, with a MultiMesh, and split it into several MultiMeshes by area, because Godot culls a MultiMesh only as a whole."
+GODOT-20,active,"Keep the mesh LODs that Godot generates on import, and add visibility ranges (HLOD) where a group of objects should turn into one simpler mesh or an impostor in the distance, or where distant effects should disappear."
 GQL-1,active,"Evolve the schema without versions: add fields and types, mark what you plan to remove with `@deprecated(reason: …)` naming the replacement, and remove it only after usage tracking shows that clients have migrated, or the announced deadline has passed."
 GQL-2,active,"Change data only in mutations: keep query fields free of side effects, and don't execute a mutation sent with `GET`."
 GQL-3,active,"Design the schema around the business domain and the way clients use the data, not around the database tables behind it."
@@ -571,6 +576,15 @@ UNITY-CODE-11,active,"For asynchronous code, use `Awaitable` with async/await (U
 UNITY-CODE-12,active,"For multiplayer, choose the netcode stack with the Multiplayer Center and study Boss Room before designing your own architecture."
 UNITY-CODE-13,active,Choose the UI system (UI Toolkit or uGUI) per use case using Unity's comparison.
 UNITY-CODE-14,active,Choose the Entities package (DOTS/ECS) deliberately for large simulations.
+UNITY-GFX-1,active,"Start new projects on the Universal Render Pipeline (URP), and choose HDRP only for a PC or console project that needs its high-end features. Don't start a new title on the Built-in Render Pipeline."
+UNITY-GFX-2,active,"In URP and HDRP, follow Unity's draw-call recommendations: enable the SRP Batcher and the GPU Resident Drawer, turn off static batching and the materials' *Enable GPU Instancing* checkbox, share materials, and use Material Variants rather than `MaterialPropertyBlock` for objects that differ only in property values."
+UNITY-GFX-3,active,"Write custom shaders in Shader Graph by default, bring in hand-written HLSL through Custom Function nodes, and keep any fully hand-written URP or HDRP shader compatible with the SRP Batcher."
+UNITY-GFX-4,active,"Declare keywords that only materials set with `shader_feature_local` (in Shader Graph, keep the keyword's default *Shader Feature* definition), keep `multi_compile` for branches that C# switches at run time, and use `dynamic_branch` for simple, balanced branches on fast GPUs."
+UNITY-GFX-5,active,"Strip the shader variants the build doesn't need, and check the count after every build: turn on *Strip Unused Variants* and *Strip Unused Post Processing Variants* in the URP Graphics settings, turn off unused features in every URP asset the build includes, remove keywords in *Shader Build Settings* (Unity 6.3 LTS and later), and strip the rest with `IPreprocessShaders`."
+UNITY-GFX-6,active,"On DirectX 12, Vulkan and Metal, record the pipeline state objects (PSOs) the game uses into a `GraphicsStateCollection` from a development build, one collection per graphics API and platform, ship the collections, and warm them up during loading screens with `WarmUp` or `WarmUpProgressively`."
+UNITY-GFX-7,active,"Set texture import settings for each platform in the platform overrides: ASTC on mobile, XR and the web, BC7, DXT or BC6H on desktop, the lowest *Max Size* that looks acceptable, and *Read/Write* off. Apply them through presets, so that new imports get them automatically."
+UNITY-GFX-8,active,"Give meshes that are seen at varying distances levels of detail: generate Mesh LODs on import (Unity 6.2 and later) to cut triangles at little memory cost, and use LOD Groups where a lower level must also cut materials or draw calls, or needs explicit transition sizes."
+UNITY-GFX-9,active,"Inspect batching in the Frame Debugger and GPU cost in the Rendering Debugger, both of which can also inspect a built player."
 UNITY-PERF-1,active,"Profile with the Unity Profiler connected to a build running on the target device, early and before and after every optimisation, not only in the Editor."
 UNITY-PERF-2,active,Pair every Addressables load with a release.
 UNITY-PERF-3,active,Avoid managed allocations in per-frame code paths to prevent garbage-collector spikes.
@@ -607,6 +621,12 @@ UNREAL-13,active,"Turn content rules, such as naming conventions and size or per
 UNREAL-14,active,"Write automated tests with the Automation Test Framework, use Low-Level Tests for pure unit tests, and run both from the command line in CI."
 UNREAL-15,active,"Keep One File Per Actor on (the default with World Partition), so that several people can change actors in the same level at once."
 UNREAL-16,active,"Keep all user-facing text in `FText`, created from text properties in assets, `LOCTEXT` macros in C++ or String Tables, and build messages with `FText::Format` and its `plural`, `ordinal` and `gender` argument modifiers."
+UNREAL-17,active,"Keep PSO precaching on, hold the first loading screen until `FShaderPipelineCache::NumPrecompilesRemaining()` reaches zero, and test first-run smoothness with `-clearPSODriverCache`."
+UNREAL-18,active,"Give the team a shared Derived Data Cache, so that each shader and other derived asset is built once for everyone: a Zen Storage Server or a network drive for people in one office, and Unreal Cloud DDC for a distributed team."
+UNREAL-19,active,"Build materials as a few parameterized parent materials, create the variations as Material Instances, and use Material Instance Dynamic only for values that change at run time."
+UNREAL-20,active,"Keep material permutations down: use few static switch parameters and few combinations of them across instances, and keep usage flags to the kinds of mesh a material is really used on, because each combination and each flag compiles more shaders."
+UNREAL-21,active,"Decide for each target platform, before content production starts, whether to use Nanite and Lumen."
+UNREAL-22,active,"Set rendering quality for each platform and device in `Config/DefaultDeviceProfiles.ini`, through the scalability groups (`sg.*`) and console variables, and test every quality level on low-, mid- and high-spec hardware."
 VUE-1,active,"Never mutate props, including nested properties of object props: emit an event so that the parent changes its own state, or use `defineModel()` for two-way binding."
 VUE-2,active,Write application components as Single-File Components with the Composition API and `<script setup>`.
 VUE-3,active,"Derive values with `computed`, keep computed getters free of side effects, and use watchers only for side effects in reaction to state changes."

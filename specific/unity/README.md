@@ -23,6 +23,7 @@ Unity publishes thorough official guidance. **Follow these as the baseline.** Th
 - [Project structure](project-structure.md): folders, assemblies, packages and version control.
 - [Code architecture](code-architecture.md): patterns, ScriptableObjects, dependencies, events and lifecycle.
 - [Content and performance](content-and-performance.md): asset loading, memory, profiling and localization.
+- [Rendering and shaders](rendering.md): render pipelines, draw calls, shader variants and warm-up, textures and level of detail.
 - [Testing](testing.md): Unity Test Framework, testable design and CI.
 
 ## Sample projects

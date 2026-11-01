@@ -21,7 +21,7 @@ Then read the engine's guidelines:
 | --- | --- | --- |
 | Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `<root>/specific/unity/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Godot | `project.godot` | `<root>/specific/godot/README.md` |
-| Unreal Engine | a `.uproject` file | `<root>/specific/unreal/README.md` |
+| Unreal Engine | a `.uproject` file | `<root>/specific/unreal/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Custom engine or framework | a game loop in your own code, for example on SDL, raylib, MonoGame or Bevy | the game development file only |
 
 If the game ships on iOS or Android, also read `<root>/specific/mobile-games/README.md`. If it has its own shaders or renders 3D, read `<root>/specific/graphics/README.md`. If it ships in more than one language, read `<root>/general/localization.md`, and if it collects player data, such as accounts, analytics or advertising SDKs, read `<root>/general/privacy.md`.

@@ -34,7 +34,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Mobile game | A game that builds for iOS or Android: Android or iOS build settings in the engine project, an `AndroidManifest.xml` or Xcode project, or StoreKit or Play Billing code | `specific/mobile-games/`, plus `specific/gamedev/` and the engine's folder |
 | Graphics and shaders | Shader files (`*.shader`, `*.shadergraph`, `*.hlsl`, `*.glsl`, `*.vert`, `*.frag`, `*.wgsl`, `*.metal`, `*.gdshader`, `*.usf`), or code that calls a GPU API directly: Vulkan, Direct3D 12, Metal, WebGL or WebGPU, or a web 3D library such as three.js or Babylon.js | `specific/graphics/`, plus the engine's folder |
 | Godot | `project.godot`, `.gd` and `.tscn` files | `specific/godot/` |
-| Unreal Engine | A `.uproject` file, `*.Build.cs` and `*.Target.cs` files, `Config/DefaultEngine.ini` | `specific/unreal/` |
+| Unreal Engine | A `.uproject` file, `*.Build.cs` and `*.Target.cs` files, `Config/DefaultEngine.ini` | `specific/unreal/` (all files) |
 | Web front end | HTML, CSS or JavaScript served to browsers: `index.html`, a bundler config (`vite.config.*`, `webpack.config.*`), or a front-end framework | `specific/web/`, plus the framework's folder below |
 | React | `package.json` with a `react` dependency | `specific/react/` |
 | Next.js | `next.config.js`, `next.config.mjs` or `next.config.ts`, or a `next` dependency in `package.json` | `specific/nextjs/`, plus `specific/react/` |

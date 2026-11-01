@@ -1,7 +1,7 @@
 <!-- rule-prefix: I18N -->
 # Internationalization and localization
 
-Scope: making software and games ready for other languages and regions (internationalization), and translating and adapting them (localization), whatever the platform. The engine files name each engine's localization system: [Unity](../specific/unity/content-and-performance.md), [Godot](../specific/godot/README.md) and [Unreal Engine](../specific/unreal/README.md). Adjustable text size and other accessibility settings for games are in [Game development](../specific/gamedev/README.md) (`GAMEDEV-18`), and storing timestamps in PostgreSQL is `PG-2` in [PostgreSQL](../specific/postgres/README.md).
+Scope: making software and games ready for other languages and regions (internationalization), and translating and adapting them (localization), whatever the platform. The engine files name each engine's localization system: [Unity](../specific/unity/content-and-performance.md), [Godot](../specific/godot/README.md) and [Unreal Engine](../specific/unreal/content-and-performance.md). Adjustable text size and other accessibility settings for games are in [Game development](../specific/gamedev/README.md) (`GAMEDEV-18`), and storing timestamps in PostgreSQL is `PG-2` in [PostgreSQL](../specific/postgres/README.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

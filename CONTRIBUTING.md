@@ -96,7 +96,7 @@ Fill in the empty scores, then run it again. Lists must be tight (no blank lines
 ## 4. Adding a platform folder
 
 1. Copy `specific/_template/` to `specific/<platform>/` (lower-case, hyphenated).
-2. Fill in `README.md`, and set a new, unique rule prefix in its first line. Split into more files only when the README gets long (see `specific/unity/`). Each file with key rules needs its own prefix.
+2. Fill in `README.md`, and set a new, unique rule prefix in its first line. Split into more files only when the README gets long (see `specific/unity/`). Give each new file with key rules its own prefix, except when you split an existing README: then keep its prefix in every new file, so that the rule IDs don't change (see `specific/unreal/`).
 3. Add the platform to the table in the root [README.md](README.md) and in [specific/README.md](specific/README.md).
 4. Add its detection hints to the platform table in [skills/architecture-review/SKILL.md](skills/architecture-review/SKILL.md).
 

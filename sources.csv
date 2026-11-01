@@ -544,6 +544,7 @@ score,title,url,verified
 7,"GitHub, Use GITHUB_TOKEN for authentication in workflows",https://docs.github.com/en/actions/tutorials/authenticate-with-github_token,2026-10-25
 7,"GitHub, Workflow dependency lockfiles (public preview)",https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles,2026-10-25
 7,"github/gitignore, Unity.gitignore",https://github.com/github/gitignore/blob/main/Unity.gitignore,2026-10-24
+7,"github/gitignore, UnrealEngine.gitignore",https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore,2026-11-01
 7,"GitLab Docs, Caching in GitLab CI/CD: How cache is different from artifacts",https://docs.gitlab.com/ci/caching/#how-cache-is-different-from-artifacts,2026-10-25
 7,"GitLab Docs, Caching in GitLab CI/CD: Use the same cache for all branches",https://docs.gitlab.com/ci/caching/#use-the-same-cache-for-all-branches,2026-10-25
 7,"GitLab Docs, CI/CD components",https://docs.gitlab.com/ci/components/,2026-10-25
@@ -1171,7 +1172,13 @@ score,title,url,verified
 7,"Unity, Localization package manual (1.5)",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html,2026-10-26
 7,"Unity, ScriptableObject event channels",https://unity.com/how-to/scriptableobjects-event-channels-game-code,2026-10-24
 7,"Unity, Separate game data and logic with ScriptableObjects",https://unity.com/how-to/separate-game-data-logic-scriptable-objects,2026-10-24
+7,"Unreal Engine, Automation Test Framework: test design guidelines",https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine#test-design-guidelines,2026-11-01
+7,"Unreal Engine, Blueprint Communication Usage",https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-communication-usage-in-unreal-engine,2026-11-01
+7,"Unreal Engine, BuildGraph",https://dev.epicgames.com/documentation/en-us/unreal-engine/buildgraph-for-unreal-engine,2026-11-01
+7,"Unreal Engine, Common Memory and CPU Performance Considerations",https://dev.epicgames.com/documentation/en-us/unreal-engine/common-memory-and-cpu-performance-considerations-in-unreal-engine,2026-11-01
 7,"Unreal Engine, Creating a Bundled PSO Cache",https://dev.epicgames.com/documentation/en-us/unreal-engine/manually-creating-bundled-pso-caches-in-unreal-engine,2026-10-31
+7,"Unreal Engine, Data Driven Gameplay Elements",https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements-in-unreal-engine,2026-11-01
+7,"Unreal Engine, Enhanced Input",https://dev.epicgames.com/documentation/en-us/unreal-engine/enhanced-input-in-unreal-engine,2026-11-01
 7,"Unreal Engine, Hardware and Software Specifications",https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine,2026-10-31
 7,"Unreal Engine, Localization Overview",https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-overview-for-unreal-engine,2026-10-26
 7,"Unreal Engine, Localization Tools",https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-tools-in-unreal-engine,2026-10-26
@@ -1179,12 +1186,15 @@ score,title,url,verified
 7,"Unreal Engine, Material Instances",https://dev.epicgames.com/documentation/en-us/unreal-engine/instanced-materials-in-unreal-engine,2026-10-31
 7,"Unreal Engine, Nanite Virtualized Geometry",https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine,2026-10-31
 7,"Unreal Engine, One File Per Actor",https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine,2026-10-25
+7,"Unreal Engine, Plugins",https://dev.epicgames.com/documentation/en-us/unreal-engine/plugins-in-unreal-engine,2026-11-01
 7,"Unreal Engine, PSO Precaching",https://dev.epicgames.com/documentation/en-us/unreal-engine/pso-precaching-for-unreal-engine,2026-10-31
 7,"Unreal Engine, PSO Precaching: validation and tracking",https://dev.epicgames.com/documentation/en-us/unreal-engine/pso-precaching-for-unreal-engine#validation-and-tracking,2026-10-31
+7,"Unreal Engine, Saving and Loading Your Game",https://dev.epicgames.com/documentation/en-us/unreal-engine/saving-and-loading-your-game-in-unreal-engine,2026-11-01
 7,"Unreal Engine, Setting Up Device Profiles",https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-device-profiles-in-unreal-engine,2026-10-31
 7,"Unreal Engine, Text Localization",https://dev.epicgames.com/documentation/en-us/unreal-engine/text-localization-in-unreal-engine,2026-10-26
 7,"Unreal Engine, Using Derived Data Cache: Shared DDC",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-derived-data-cache-in-unreal-engine#sharedddc,2026-10-31
 7,"Unreal Engine, Using Perforce as source control",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine,2026-10-25
+7,"Unreal Engine, World Partition",https://dev.epicgames.com/documentation/en-us/unreal-engine/world-partition-in-unreal-engine,2026-11-01
 7,Using domain analysis to model microservices,https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis,2026-10-24
 7,"uv, Structure and files: The lockfile",https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile,2026-10-25
 7,"Valkey, Documentation by topic",https://valkey.io/topics/,2026-10-25
@@ -1722,11 +1732,36 @@ score,title,url,verified
 6,"Unity, How to run automated tests with the Unity Test Framework",https://unity.com/how-to/automated-tests-unity-test-framework,2026-10-24
 6,"Unity, Naming and code style tips",https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity,2026-10-24
 6,"Unity, UI Toolkit for advanced Unity developers",https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html,2026-10-24
+6,"Unreal Engine, Actor Ticking",https://dev.epicgames.com/documentation/en-us/unreal-engine/actor-ticking-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Asset Redirectors",https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-redirectors-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Automation Spec",https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-spec-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Behavior Trees",https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-trees-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Blueprint Interface",https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-interface-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Common UI Plugin for Advanced User Interfaces",https://dev.epicgames.com/documentation/en-us/unreal-engine/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine,2026-11-01
+6,"Unreal Engine, CQTest Test Framework",https://dev.epicgames.com/documentation/en-us/unreal-engine/cqtest-test-framework-for-unreal-engine,2026-11-01
+6,"Unreal Engine, Developers Folder",https://dev.epicgames.com/documentation/en-us/unreal-engine/developers-folder-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Directory Structure",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-directory-structure,2026-11-01
+6,"Unreal Engine, Functional Testing",https://dev.epicgames.com/documentation/en-us/unreal-engine/functional-testing-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Gameplay Timers",https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-timers-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Gauntlet Automation Framework",https://dev.epicgames.com/documentation/en-us/unreal-engine/gauntlet-automation-framework-in-unreal-engine,2026-11-01
 6,"Unreal Engine, How to Set Up Unreal Cloud DDC",https://dev.epicgames.com/documentation/en-us/unreal-engine/how-to-set-up-a-cloud-type-derived-data-cache-for-unreal-engine,2026-10-31
 6,"Unreal Engine, Material Analyzer",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-analyzer-tool,2026-10-31
 6,"Unreal Engine, Material Properties",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-properties,2026-10-31
+6,"Unreal Engine, Memory Insights",https://dev.epicgames.com/documentation/en-us/unreal-engine/memory-insights-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Reference Viewer",https://dev.epicgames.com/documentation/en-us/unreal-engine/reference-viewer-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Replication Graph",https://dev.epicgames.com/documentation/en-us/unreal-engine/replication-graph-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Scalability and the Developer",https://dev.epicgames.com/documentation/en-us/unreal-engine/scalability-and-the-developer-for-unreal-engine,2026-10-31
 6,"Unreal Engine, Scalability Reference",https://dev.epicgames.com/documentation/en-us/unreal-engine/scalability-reference-for-unreal-engine,2026-10-31
+6,"Unreal Engine, Screenshot Comparison Tool",https://dev.epicgames.com/documentation/en-us/unreal-engine/screenshot-comparison-tool-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Source Control",https://dev.epicgames.com/documentation/en-us/unreal-engine/source-control-in-unreal-engine,2026-11-01
+6,"Unreal Engine, StateTree Overview",https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-state-tree-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Tasks System",https://dev.epicgames.com/documentation/en-us/unreal-engine/tasks-systems-in-unreal-engine,2026-11-01
+6,"Unreal Engine, UMG Viewmodel",https://dev.epicgames.com/documentation/en-us/unreal-engine/umg-viewmodel-for-unreal-engine,2026-11-01
+6,"Unreal Engine, Unreal Game Sync (UGS)",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-game-sync-ugs-for-unreal-engine,2026-11-01
+6,"Unreal Engine, Using Live Coding to Recompile at Runtime",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-live-coding-to-recompile-unreal-engine-applications-at-runtime,2026-11-01
+6,"Unreal Engine, Using Perforce as Source Control: P4 Ignore",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine#p4ignore,2026-11-01
+6,"Unreal Engine, Using the Low-Level Memory Tracker",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-the-low-level-memory-tracker-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Write C++ Tests",https://dev.epicgames.com/documentation/en-us/unreal-engine/write-cplusplus-tests-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Zen Storage Server",https://dev.epicgames.com/documentation/en-us/unreal-engine/zen-storage-server-for-unreal-engine,2026-10-31
 6,"uv, Locking and syncing: Checking the lockfile",https://docs.astral.sh/uv/concepts/projects/sync/#checking-the-lockfile,2026-10-25
 6,"uv, Working on projects",https://docs.astral.sh/uv/guides/projects/,2026-10-25
@@ -1949,7 +1984,10 @@ score,title,url,verified
 5,"Unity Manual, Package layout",https://docs.unity3d.com/Manual/cus-layout.html,2026-10-24
 5,"Unity Scripting API, GameObject.Find",https://docs.unity3d.com/ScriptReference/GameObject.Find.html,2026-10-24
 5,"Unity, ScriptableObject-based enums",https://unity.com/how-to/scriptableobject-based-enums,2026-10-24
+5,"Unreal Engine API, GameplayTags module",https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/GameplayTags,2026-11-01
+5,"Unreal Engine, Iris Replication System",https://dev.epicgames.com/documentation/en-us/unreal-engine/iris-replication-system-in-unreal-engine,2026-11-01
 5,"Unreal Engine, Material Editor UI",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-ui,2026-10-31
+5,"Unreal Engine, Using Anchorpoint as Source Control",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-anchorpoint-as-source-control-for-unreal-engine,2026-11-01
 5,"uv, Commands: uv audit",https://docs.astral.sh/uv/reference/cli/#uv-audit,2026-10-25
 5,"Vattani, Chierichetti and Lowenstein, Optimal Probabilistic Cache Stampede Prevention (VLDB 2015)",https://www.vldb.org/pvldb/vol8/p886-vattani.pdf,2026-10-25
 5,VContainer,https://vcontainer.hadashikick.jp/,2026-10-24

@@ -1,6 +1,6 @@
 ---
 name: game-architecture
-description: Design or review the architecture of a game project in Unity, Godot, Unreal Engine or a custom engine, covering code and scene structure, data-driven design, communication between systems, dependencies and singletons, content loading, the game loop, save data, multiplayer, performance budgets, version control for large assets, accessibility and tests, based on the engine's official guidance as cited in the Architecture Guidelines. Use in game projects (Unity Assets/ and ProjectSettings/, Godot project.godot, Unreal .uproject) when asked how to structure a system or feature, to review or refactor for scale, or to assess technical debt.
+description: Design or review the architecture of a game project in Unity, Godot, Unreal Engine, GameMaker or a custom engine, covering code and scene structure, data-driven design, communication between systems, dependencies and singletons, content loading, the game loop, save data, multiplayer, performance budgets, version control for large assets, accessibility and tests, based on the engine's official guidance as cited in the Architecture Guidelines. Use in game projects (Unity Assets/ and ProjectSettings/, Godot project.godot, Unreal .uproject) when asked how to structure a system or feature, to review or refactor for scale, or to assess technical debt.
 argument-hint: "[review | design <feature>]"
 ---
 
@@ -22,6 +22,7 @@ Then read the engine's guidelines:
 | Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `<root>/specific/unity/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Godot | `project.godot` | `<root>/specific/godot/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Unreal Engine | a `.uproject` file | `<root>/specific/unreal/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
+| GameMaker | a `.yyp` file | `<root>/specific/gamemaker/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Custom engine or framework | a game loop in your own code, for example on SDL, raylib, MonoGame or Bevy | the game development file only |
 
 If the game ships on iOS or Android, also read `<root>/specific/mobile-games/README.md`. If it has its own shaders or renders 3D, read `<root>/specific/graphics/README.md`. If it ships in more than one language, read `<root>/general/localization.md`, and if it collects player data, such as accounts, analytics or advertising SDKs, read `<root>/general/privacy.md`.
@@ -30,7 +31,7 @@ Cite rules by ID (for example `GODOT-3` or `UNITY-STRUCT-1`), with their score a
 
 ## 1. Understand the project
 
-- **Engine version.** Unity: `ProjectSettings/ProjectVersion.txt`. Godot: `config/features` in `project.godot`. Unreal: `EngineAssociation` in the `.uproject` file. Some advice depends on it; for example, Unity's `Awaitable` needs Unity 2023.1 or later.
+- **Engine version.** Unity: `ProjectSettings/ProjectVersion.txt`. Godot: `config/features` in `project.godot`. Unreal: `EngineAssociation` in the `.uproject` file. GameMaker: `MetaData.IDEVersion` in the `.yyp` file, and the `toolchain` in `gm-options.json` if the project builds with gm-cli. Some advice depends on it; for example, Unity's `Awaitable` needs Unity 2023.1 or later.
 - **Packages and plugins.** Unity: `Packages/manifest.json` (Addressables, Entities, Netcode, Input System, Test Framework, DI containers). Godot: `addons/` and the `[autoload]` and `[editor_plugins]` sections of `project.godot`. Unreal: the `Modules` and `Plugins` lists in the `.uproject` file, and each module's `*.Build.cs`.
 - **Targets.** Which platforms the game ships on, whether it's multiplayer, and the target frame rate. Ask if you can't tell, because frame budgets and multiplayer rules depend on them.
 - **Skip generated and third-party folders** in all searches. Unity: `Library/`, `Temp/`, `Logs/`, `obj/`, `Build*/` and vendor folders under `Assets/`. Godot: `.godot/` and third-party plugins in `addons/`. Unreal: `Binaries/`, `Intermediate/`, `Saved/`, `DerivedDataCache/` and marketplace plugins.
@@ -106,6 +107,16 @@ Collect evidence with the checks for every project and for the engine, then eval
 | Asset Manager | Check the Asset Manager settings in `Config/DefaultGame.ini` for primary asset types |
 | Levels | For levels that several people edit, check whether they use One File Per Actor (the default with World Partition) |
 | Quality | Find automation tests and Data Validation rules, and check whether CI runs them |
+
+**GameMaker:**
+
+| Area | How to check |
+| --- | --- |
+| Version control and versions | Check that `.gitignore` and `.gitattributes` exist, and read `MetaData.IDEVersion` in the `.yyp`. Is the team on LTS, with one pinned IDE and runtime version? |
+| Global state | Search for `globalvar` and find where each `global.` variable is first assigned. List the objects with `"persistent":true` in `objects/*/*.yy`, and check that each is created only once |
+| Events and instances | Look for instance variables first assigned outside `Create_0.gml`, code that relies on the order in which instances run an event, and child events that override the parent's without `event_inherited()` |
+| Dynamic resources | Match `ds_*_create`, `surface_create` and `buffer_create` with their destroy and free calls and the objects' Clean Up events, and check that `surface_exists()` is called before `surface_set_target()` |
+| Drawing | Look for `gpu_set_blendmode` or `shader_set` in many objects' Draw events instead of one controller or a layer script, and for missing `shader_reset()` or `surface_reset_target()`. Check `TextureGroups` in the `.yyp` for everything left in Default |
 
 ## 3. Report
 

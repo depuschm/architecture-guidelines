@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, mobile games, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, Azure, Google Cloud, serverless hosting (Vercel, Netlify, Cloudflare), Terraform, GitHub Actions and GitLab CI/CD). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines (general rules plus platform-specific rules for game development, Unity, Godot, Unreal Engine, GameMaker, mobile games, web front ends, React, Next.js, Vue, Svelte, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Kafka, RabbitMQ, Android, Flutter, Docker, Kubernetes, OpenTelemetry, AWS, Azure, Google Cloud, serverless hosting (Vercel, Netlify, Cloudflare), Terraform, GitHub Actions and GitLab CI/CD). Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -29,12 +29,13 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 
 | Platform | Signals | Guidelines |
 | --- | --- | --- |
-| Game (any engine) | A Unity, Godot, Unreal or other game project, or a custom game loop | `specific/gamedev/`, plus the engine's folder below |
-| Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep game work in Unity, Godot or Unreal, use the `game-architecture` skill |
+| Game (any engine) | A Unity, Godot, Unreal, GameMaker or other game project, or a custom game loop | `specific/gamedev/`, plus the engine's folder below |
+| Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `specific/unity/` (all files). For deep game work in Unity, Godot, Unreal or GameMaker, use the `game-architecture` skill |
 | Mobile game | A game that builds for iOS or Android: Android or iOS build settings in the engine project, an `AndroidManifest.xml` or Xcode project, or StoreKit or Play Billing code | `specific/mobile-games/`, plus `specific/gamedev/` and the engine's folder |
 | Graphics and shaders | Shader files (`*.shader`, `*.shadergraph`, `*.hlsl`, `*.glsl`, `*.vert`, `*.frag`, `*.wgsl`, `*.metal`, `*.gdshader`, `*.usf`), or code that calls a GPU API directly: Vulkan, Direct3D 12, Metal, WebGL or WebGPU, or a web 3D library such as three.js or Babylon.js | `specific/graphics/`, plus the engine's folder |
 | Godot | `project.godot`, `.gd` and `.tscn` files | `specific/godot/` (all files) |
 | Unreal Engine | A `.uproject` file, `*.Build.cs` and `*.Target.cs` files, `Config/DefaultEngine.ini` | `specific/unreal/` (all files) |
+| GameMaker | A `.yyp` project file, `objects/*/*.yy` files and GML event files such as `Create_0.gml` | `specific/gamemaker/` (all files) |
 | Web front end | HTML, CSS or JavaScript served to browsers: `index.html`, a bundler config (`vite.config.*`, `webpack.config.*`), or a front-end framework | `specific/web/`, plus the framework's folder below |
 | React | `package.json` with a `react` dependency | `specific/react/` |
 | Next.js | `next.config.js`, `next.config.mjs` or `next.config.ts`, or a `next` dependency in `package.json` | `specific/nextjs/`, plus `specific/react/` |

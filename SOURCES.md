@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-86 sources.
+87 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -96,11 +96,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md), [specific/web](specific/web/README.md) | 2026-10-24 |
 | 9 | [Vue.js, Style Guide](https://vuejs.org/style-guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [W3C WAI, ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 9 | [YoYo Games, GameMaker Manual (LTS)](https://manual.gamemaker.io/lts/en/Content.htm) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
 | 9 | [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 
 ## Recommended (6–8)
 
-1745 sources.
+1829 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -168,7 +169,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Gaffer On Games (Fiedler), Fix Your Timestep!](https://gafferongames.com/post/fix_your_timestep/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 8 | [Gambetta, Fast-Paced Multiplayer: Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 8 | [Game Accessibility Guidelines](https://gameaccessibilityguidelines.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
-| 8 | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | [general/reading-list](general/reading-list.md), [specific/gamedev](specific/gamedev/README.md), [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 8 | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | [general/reading-list](general/reading-list.md), [specific/gamedev](specific/gamedev/README.md), [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 8 | [GameMaker Manual, Best Practices When Programming](https://manual.gamemaker.io/lts/en/Additional_Information/Best_Practices_When_Programming.htm) | [specific/gamemaker](specific/gamemaker/README.md), [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md), [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
 | 8 | [GitLab Docs, Deployment safety](https://docs.gitlab.com/ci/environments/deployment_safety/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Pipeline security](https://docs.gitlab.com/ci/pipeline_security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Security for self-managed runners](https://docs.gitlab.com/runner/security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
@@ -540,6 +542,51 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Gambetta, Lag Compensation](https://www.gabrielgambetta.com/lag-compensation.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Game Accessibility Guidelines, Basic](https://gameaccessibilityguidelines.com/basic/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [Game Accessibility Guidelines, Why and how](https://gameaccessibilityguidelines.com/why-and-how/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 7 | [GameMaker (Matharoo), How To Optimise Your Games](https://gamemaker.io/en/tutorials/how-to-optimise-your-games) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md), [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Help Centre, Setting Up And Using Source Control](https://gamemaker.io/en/help/articles/setting-up-and-using-source-control) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Help Centre, What To Do If GameMaker Says Your Project Is Read-Only](https://gamemaker.io/en/help/articles/what-to-do-if-gamemaker-says-your-project-is-read-only) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Async Events](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Async_Events.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Audio Groups](https://manual.gamemaker.io/lts/en/Settings/Audio_Groups.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Building & Testing via Command Line](https://manual.gamemaker.io/lts/en/Settings/Building_via_Command_Line.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md), [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Compiling](https://manual.gamemaker.io/lts/en/Introduction/Compiling.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Configurations](https://manual.gamemaker.io/lts/en/Settings/Configurations.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Constants (enums and macros)](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Variables/Constants.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Data Structures](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Data_Structures/Data_Structures.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Deactivating Instances](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/Deactivating_Instances.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Dynamic Textures](https://manual.gamemaker.io/lts/en/Settings/Texture_Information/Dynamic_Textures.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Evaluation Order](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Evaluation_Order.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Event Order](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Event_Order.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Feather Messages](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Feather Preferences](https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Feather_Settings.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Feather Preferences: naming rules](https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Feather_Settings.htm#s4) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Garbage Collection](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Garbage_Collection/Garbage_Collection.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Global Variables](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Variables/Global_Variables.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, GML Code Overview](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/GML_Overview.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Guide To Using Shaders](https://manual.gamemaker.io/lts/en/Additional_Information/Guide_To_Using_Shaders.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, JSDoc Comments](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/JSDoc_Script_Comments.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Local Asset Packages](https://manual.gamemaker.io/lts/en/IDE_Tools/Local_Asset_Packages.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Object Events](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Object_Events.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Objects vs. Instances](https://manual.gamemaker.io/lts/en/Additional_Information/Objects_vs_Instances.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Parent Objects](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Parent_Objects.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Project Format](https://manual.gamemaker.io/lts/en/Additional_Information/Project_Format.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Rollback Multiplayer](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Rollback/Rollback_Multiplayer.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Rollback System](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Rollback/Rollback_System.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Script Functions And Variables](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Script_Functions.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Script Functions vs. Methods](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Script_Functions_vs_Methods.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Source Control](https://manual.gamemaker.io/lts/en/IDE_Tools/Source_Control.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Static Variables](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Functions/Static_Variables.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Structs & Constructors: compared with objects and instances](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Structs.htm#constructors_structs_vs_objects_instances) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Surfaces](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Drawing/Surfaces/Surfaces.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Texture Groups](https://manual.gamemaker.io/lts/en/Settings/Texture_Groups.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md), [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, Texture Pages](https://manual.gamemaker.io/lts/en/Settings/Texture_Information/Texture_Pages.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, The Debug Overlay](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Debugging/The_Debug_Overlay.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, The Debugger](https://manual.gamemaker.io/lts/en/IDE_Tools/The_Debugger.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, The File System](https://manual.gamemaker.io/lts/en/Additional_Information/The_File_System.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, The Object Editor](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Objects.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, The Profiler](https://manual.gamemaker.io/lts/en/IDE_Tools/The_Debugger/The_Profiler.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, The Shader Editor](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Shaders.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, UI Layers](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Room_Properties/UI_Layers.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 7 | [GameMaker Manual, with](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Language_Features/with.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
 | 7 | [Git LFS](https://git-lfs.com/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [GitHub Docs, About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [GitHub Docs, About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) | [general/repositories](general/repositories.md) | 2026-10-25 |
@@ -1411,6 +1458,41 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Gaffer On Games (Fiedler), What every programmer needs to know about game networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Game Accessibility Guidelines, Use an easily readable default font size](https://gameaccessibilityguidelines.com/use-an-easily-readable-default-font-size/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Game Accessibility Guidelines, Use simple clear language](https://gameaccessibilityguidelines.com/use-simple-clear-language/) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [GameMaker (DAndrewBox), Guide to GameMaker Testing Library](https://gamemaker.io/en/tutorials/gamemaker-testing-library-tutorial) | [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
+| 6 | [GameMaker (Matharoo), Make Your Own Role-Playing Game](https://gamemaker.io/en/tutorials/how-to-make-an-rpg) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
+| 6 | [GameMaker (Wain), How to Get Started with GameMaker in 2026](https://gamemaker.io/en/tutorials/get-started-gamemaker-2026) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
+| 6 | [GameMaker Manual (Beta), The File System: preventing data loss](https://manual.gamemaker.io/beta/en/Additional_Information/The_File_System.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Animated Tiles](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Tile_Set_Editors/Animated_Tiles.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, application_surface](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Drawing/Surfaces/application_surface.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Building & Testing via Command Line: Igor Testing](https://manual.gamemaker.io/lts/en/Settings/Building_via_Command_Line.htm#s3) | [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Data Types](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Data_Types.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Directives: path](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Directives.htm#path) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Messages: GM2000](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2000) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Messages: GM2003](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2003) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Messages: GM2005](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2005) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Messages: GM2016](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2016) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Messages: GM2017](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2017) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Feather Messages: GM2023](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2023) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Guide To Using JSON](https://manual.gamemaker.io/lts/en/Additional_Information/Guide_To_Using_JSON.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, http_get](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/http_get.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Installation Guide](https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/Installation_Guide.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Networking](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Networking/Networking.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, place_meeting](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/place_meeting.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Plugin Preferences](https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Plugin_Preferences.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Prefab Library](https://manual.gamemaker.io/lts/en/IDE_Tools/Prefab_Library.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Quick Start Guide](https://manual.gamemaker.io/lts/en/Quick_Start_Guide/Quick_Start_Guide.htm) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Room Properties: Instance Creation Order](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Room_Properties/Room_Properties.htm#creation_order) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, shader_is_compiled](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Asset_Management/Shaders/shader_is_compiled.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Source Control: Conflicts](https://manual.gamemaker.io/lts/en/IDE_Tools/Source_Control/Conflicts.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Texture Compression](https://manual.gamemaker.io/lts/en/Settings/Texture_Information/Texture_Compression.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, The Asset Browser](https://manual.gamemaker.io/lts/en/Introduction/The_Asset_Browser.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, The Debug Overlay: FPS](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Debugging/The_Debug_Overlay.htm#fps) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md), [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, The File Watcher](https://manual.gamemaker.io/lts/en/IDE_Tools/The_File_Watcher.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, The Tile Set Editor](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Tile_Sets.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, UI Layers At Runtime](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Room_Properties/UI_Layers_At_Runtime.htm) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, Windows Game Options](https://manual.gamemaker.io/lts/en/Settings/Game_Options/Windows.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 6 | [GameMaker Manual, YoYo Compiler](https://manual.gamemaker.io/lts/en/Settings/YoYo_Compiler.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 6 | [GameMaker, GameMaker LTS 2026.0: New Features, GMRT and Much More](https://gamemaker.io/en/blog/lts-2026-release) | [specific/gamemaker](specific/gamemaker/README.md), [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 6 | [GDQuest, Make a Finite State Machine in Godot 4](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 6 | [gdUnit4, Documentation](https://godot-gdunit-labs.github.io/gdUnit4/latest/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 6 | [Git LFS wiki, File Locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -1614,7 +1696,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Nystrom, Data Locality](https://gameprogrammingpatterns.com/data-locality.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Game Loop](https://gameprogrammingpatterns.com/game-loop.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Object Pool](https://gameprogrammingpatterns.com/object-pool.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
-| 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Nystrom, Type Object](https://gameprogrammingpatterns.com/type-object.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [oasdiff, breaking changes (OpenAPI)](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard](https://scorecard.dev/) | [general/security](general/security.md) | 2026-10-24 |
@@ -1847,12 +1929,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [web.dev, WebGPU is now supported in major browsers: browser and OS availability](https://web.dev/blog/webgpu-supported-major-browsers#browser_and_os_availability) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Workload isolation using shuffle-sharding](https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [YoYo Games, GameMaker CLI (gm-cli) README](https://github.com/YoYoGames/gm-cli/blob/main/README.md) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [YoYo Games, gm-cli changelog](https://github.com/YoYoGames/gm-cli/blob/main/CHANGELOG.md) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [YoYo Games, gm-cli compile workflow template](https://github.com/YoYoGames/gm-cli/blob/main/src/commands/init/compile.yml) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 6 | [ZAP, Baseline scan](https://www.zaproxy.org/docs/docker/baseline-scan/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [zizmor, Audit rules](https://docs.zizmor.sh/audits/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 
 ## Further reading (1–5)
 
-251 sources.
+265 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1891,6 +1976,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [CodeQL, Use of password hash with insufficient computational effort (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-insufficient-password-hash/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [Confluent, Schema Registry for Confluent Platform: license](https://docs.confluent.io/platform/current/schema-registry/index.html#cp-license) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [Dan Kestranek (tranek), GASDocumentation](https://github.com/tranek/GASDocumentation) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
+| 5 | [DAndrewBox, GameMaker Testing Library (GMTL) documentation](https://github.com/DAndrewBox/GM-Testing-Library/blob/main/Docs/Documentation.md) | [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
 | 5 | [Dart diagnostic, must_be_immutable](https://dart.dev/tools/diagnostics/must_be_immutable) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [Dart linter rule, prefer_final_fields](https://dart.dev/tools/linter-rules/prefer_final_fields) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 5 | [detekt, coroutines rules](https://detekt.dev/docs/rules/coroutines/) | [specific/android](specific/android/README.md) | 2026-10-25 |
@@ -1916,6 +2002,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 5 | [GameCI, Unity Test Runner](https://game.ci/docs/github/test-runner/) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-25 |
+| 5 | [GameMaker (Alexander), Coffee-Break Tutorials: Finite State Machines (GML)](https://gamemaker.io/en/tutorials/coffee-break-tutorials-finite-state-machines-gml) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 5 | [GameMaker (Alexander), The Basics Of Scaling - The Game Camera](https://gamemaker.io/en/blog/the-basics-of-scaling-the-game-view) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
+| 5 | [GameMaker Manual, gc_enable](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Garbage_Collection/gc_enable.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
+| 5 | [GameMaker Manual, Quick Start Guide: Creating Sprites](https://manual.gamemaker.io/lts/en/Quick_Start_Guide/Creating_Sprites.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 5 | [GameMaker Manual, Quick Start Guide: Objects And Instances](https://manual.gamemaker.io/lts/en/Quick_Start_Guide/Objects_And_Instances.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 5 | [GameMaker Manual, Runtime Feeds Preferences](https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Runtime_Feed_Preferences.htm) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 5 | [GameMaker, Download GameMaker (release channels)](https://gamemaker.io/en/download) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 5 | [GameMaker, GameMaker Update Spring 2026: LTS Roadmap, GMRT, and the Future](https://gamemaker.io/en/blog/update-spring-2026) | [specific/gamemaker](specific/gamemaker/README.md), [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 5 | [GameMaker, Winter Update: Slowing Down to Speed Up in 2025](https://gamemaker.io/en/blog/winter-update-2024) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
 | 5 | [gdtoolkit, Linter (gdlint)](https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 5 | [gdtoolkit, README (gdformat and CI usage)](https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 5 | [gdUnit4, Command line tool](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
@@ -2080,6 +2175,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [VSTHRD103, call async methods when in an async method](https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 5 | [Welcome to DDD](https://github.com/ddd-crew/welcome-to-ddd) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 5 | [wgpu, naga](https://github.com/gfx-rs/wgpu/blob/trunk/naga/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 5 | [YoYo Games, gm-cli agent guidance (GML conventions)](https://github.com/YoYoGames/gm-cli/blob/main/src/commands/init/claude-contents.txt) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 5 | [YoYo Games, GMEXT-Photon (Photon extension for GameMaker)](https://github.com/YoYoGames/GMEXT-Photon/blob/main/README.md) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
 | 5 | [ZAP, Cookie No HttpOnly Flag (10010)](https://www.zaproxy.org/docs/alerts/10010/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [ZAP, Cookie without SameSite Attribute (10054)](https://www.zaproxy.org/docs/alerts/10054/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [ZAP, Cookie Without Secure Flag (10011)](https://www.zaproxy.org/docs/alerts/10011/) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -2090,8 +2187,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Bearer CLI, Rule: Leakage of sensitive data to Sentry](https://docs.bearer.com/reference/rules/javascript_third_parties_sentry/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 4 | [bloc_lint, avoid_flutter_imports](https://bloclibrary.dev/lint-rules/avoid_flutter_imports/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 4 | [bloc_lint, avoid_public_fields](https://bloclibrary.dev/lint-rules/avoid_public_fields/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
+| 4 | [Crispy (bfrymire), Crispy documentation](https://bfrymire.github.io/crispy/) | [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
 | 4 | [DCM, avoid-banned-imports (commercial)](https://dcm.dev/docs/rules/common/avoid-banned-imports/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 4 | [docs-as-co.de](https://docs-as-co.de/) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 4 | [GameMaker, GameMaker Update 2024.14 Now Available](https://gamemaker.io/en/blog/release-2024-14) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
 | 4 | [Gatekeeper library, container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, disallowed tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |

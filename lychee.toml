@@ -27,6 +27,9 @@ exclude = [
   '^https://doi\.org/10\.1145/',
   '^https://dl\.acm\.org/',
   '^https://www\.w3\.org/',
+  # Cloudflare answers scripted requests with 403 (checked 2026-11-01). The cited pages were
+  # checked against the manual's source, https://github.com/YoYoGames/GameMaker-Manual.
+  '^https://manual\.gamemaker\.io/',
   # Answers scripted requests with HTTP 400, even for its home page (checked 2026-10-25).
   '^https://developers\.meta\.com/',
   # Loads normally, but times out from GitHub-hosted runners (checked 2026-10-25).

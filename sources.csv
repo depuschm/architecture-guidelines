@@ -84,6 +84,7 @@ score,title,url,verified
 9,"Vocke, The Practical Test Pyramid",https://martinfowler.com/articles/practical-test-pyramid.html,2026-10-24
 9,"Vue.js, Style Guide",https://vuejs.org/style-guide/,2026-10-25
 9,"W3C WAI, ARIA Authoring Practices Guide (APG)",https://www.w3.org/WAI/ARIA/apg/,2026-10-25
+9,"YoYo Games, GameMaker Manual (LTS)",https://manual.gamemaker.io/lts/en/Content.htm,2026-11-01
 9,Zalando RESTful API Guidelines,https://opensource.zalando.com/restful-api-guidelines/,2026-10-24
 8,.NET Microservices: Architecture for Containerized .NET Applications,https://learn.microsoft.com/en-us/dotnet/architecture/microservices/,2026-10-24
 8,"AIP-121, Resource-oriented design",https://google.aip.dev/121,2026-10-24
@@ -150,6 +151,7 @@ score,title,url,verified
 8,"Gambetta, Fast-Paced Multiplayer: Client-Server Game Architecture",https://www.gabrielgambetta.com/client-server-game-architecture.html,2026-10-25
 8,Game Accessibility Guidelines,https://gameaccessibilityguidelines.com/,2026-10-25
 8,Game Programming Patterns,https://gameprogrammingpatterns.com/contents.html,2026-10-24
+8,"GameMaker Manual, Best Practices When Programming",https://manual.gamemaker.io/lts/en/Additional_Information/Best_Practices_When_Programming.htm,2026-11-01
 8,"GitLab Docs, Deployment safety",https://docs.gitlab.com/ci/environments/deployment_safety/,2026-10-25
 8,"GitLab Docs, Pipeline security",https://docs.gitlab.com/ci/pipeline_security/,2026-10-25
 8,"GitLab Docs, Security for self-managed runners",https://docs.gitlab.com/runner/security/,2026-10-25
@@ -521,6 +523,51 @@ score,title,url,verified
 7,"Gambetta, Lag Compensation",https://www.gabrielgambetta.com/lag-compensation.html,2026-10-25
 7,"Game Accessibility Guidelines, Basic",https://gameaccessibilityguidelines.com/basic/,2026-10-25
 7,"Game Accessibility Guidelines, Why and how",https://gameaccessibilityguidelines.com/why-and-how/,2026-10-25
+7,"GameMaker (Matharoo), How To Optimise Your Games",https://gamemaker.io/en/tutorials/how-to-optimise-your-games,2026-11-01
+7,"GameMaker Help Centre, Setting Up And Using Source Control",https://gamemaker.io/en/help/articles/setting-up-and-using-source-control,2026-11-01
+7,"GameMaker Help Centre, What To Do If GameMaker Says Your Project Is Read-Only",https://gamemaker.io/en/help/articles/what-to-do-if-gamemaker-says-your-project-is-read-only,2026-11-01
+7,"GameMaker Manual, Async Events",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Async_Events.htm,2026-11-01
+7,"GameMaker Manual, Audio Groups",https://manual.gamemaker.io/lts/en/Settings/Audio_Groups.htm,2026-11-01
+7,"GameMaker Manual, Building & Testing via Command Line",https://manual.gamemaker.io/lts/en/Settings/Building_via_Command_Line.htm,2026-11-01
+7,"GameMaker Manual, Compiling",https://manual.gamemaker.io/lts/en/Introduction/Compiling.htm,2026-11-01
+7,"GameMaker Manual, Configurations",https://manual.gamemaker.io/lts/en/Settings/Configurations.htm,2026-11-01
+7,"GameMaker Manual, Constants (enums and macros)",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Variables/Constants.htm,2026-11-01
+7,"GameMaker Manual, Data Structures",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Data_Structures/Data_Structures.htm,2026-11-01
+7,"GameMaker Manual, Deactivating Instances",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/Deactivating_Instances.htm,2026-11-01
+7,"GameMaker Manual, Dynamic Textures",https://manual.gamemaker.io/lts/en/Settings/Texture_Information/Dynamic_Textures.htm,2026-11-01
+7,"GameMaker Manual, Evaluation Order",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Evaluation_Order.htm,2026-11-01
+7,"GameMaker Manual, Event Order",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Event_Order.htm,2026-11-01
+7,"GameMaker Manual, Feather Messages",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm,2026-11-01
+7,"GameMaker Manual, Feather Preferences",https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Feather_Settings.htm,2026-11-01
+7,"GameMaker Manual, Feather Preferences: naming rules",https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Feather_Settings.htm#s4,2026-11-01
+7,"GameMaker Manual, Garbage Collection",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Garbage_Collection/Garbage_Collection.htm,2026-11-01
+7,"GameMaker Manual, Global Variables",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Variables/Global_Variables.htm,2026-11-01
+7,"GameMaker Manual, GML Code Overview",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/GML_Overview.htm,2026-11-01
+7,"GameMaker Manual, Guide To Using Shaders",https://manual.gamemaker.io/lts/en/Additional_Information/Guide_To_Using_Shaders.htm,2026-11-01
+7,"GameMaker Manual, JSDoc Comments",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/JSDoc_Script_Comments.htm,2026-11-01
+7,"GameMaker Manual, Local Asset Packages",https://manual.gamemaker.io/lts/en/IDE_Tools/Local_Asset_Packages.htm,2026-11-01
+7,"GameMaker Manual, Object Events",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Object_Events.htm,2026-11-01
+7,"GameMaker Manual, Objects vs. Instances",https://manual.gamemaker.io/lts/en/Additional_Information/Objects_vs_Instances.htm,2026-11-01
+7,"GameMaker Manual, Parent Objects",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Object_Properties/Parent_Objects.htm,2026-11-01
+7,"GameMaker Manual, Project Format",https://manual.gamemaker.io/lts/en/Additional_Information/Project_Format.htm,2026-11-01
+7,"GameMaker Manual, Rollback Multiplayer",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Rollback/Rollback_Multiplayer.htm,2026-11-01
+7,"GameMaker Manual, Rollback System",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Rollback/Rollback_System.htm,2026-11-01
+7,"GameMaker Manual, Script Functions And Variables",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Script_Functions.htm,2026-11-01
+7,"GameMaker Manual, Script Functions vs. Methods",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Script_Functions_vs_Methods.htm,2026-11-01
+7,"GameMaker Manual, Source Control",https://manual.gamemaker.io/lts/en/IDE_Tools/Source_Control.htm,2026-11-01
+7,"GameMaker Manual, Static Variables",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Functions/Static_Variables.htm,2026-11-01
+7,"GameMaker Manual, Structs & Constructors: compared with objects and instances",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Structs.htm#constructors_structs_vs_objects_instances,2026-11-01
+7,"GameMaker Manual, Surfaces",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Drawing/Surfaces/Surfaces.htm,2026-11-01
+7,"GameMaker Manual, Texture Groups",https://manual.gamemaker.io/lts/en/Settings/Texture_Groups.htm,2026-11-01
+7,"GameMaker Manual, Texture Pages",https://manual.gamemaker.io/lts/en/Settings/Texture_Information/Texture_Pages.htm,2026-11-01
+7,"GameMaker Manual, The Debug Overlay",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Debugging/The_Debug_Overlay.htm,2026-11-01
+7,"GameMaker Manual, The Debugger",https://manual.gamemaker.io/lts/en/IDE_Tools/The_Debugger.htm,2026-11-01
+7,"GameMaker Manual, The File System",https://manual.gamemaker.io/lts/en/Additional_Information/The_File_System.htm,2026-11-01
+7,"GameMaker Manual, The Object Editor",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Objects.htm,2026-11-01
+7,"GameMaker Manual, The Profiler",https://manual.gamemaker.io/lts/en/IDE_Tools/The_Debugger/The_Profiler.htm,2026-11-01
+7,"GameMaker Manual, The Shader Editor",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Shaders.htm,2026-11-01
+7,"GameMaker Manual, UI Layers",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Room_Properties/UI_Layers.htm,2026-11-01
+7,"GameMaker Manual, with",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Overview/Language_Features/with.htm,2026-11-01
 7,Git LFS,https://git-lfs.com/,2026-10-25
 7,"GitHub Docs, About code owners",https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners,2026-10-25
 7,"GitHub Docs, About protected branches",https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches,2026-10-25
@@ -1392,6 +1439,41 @@ score,title,url,verified
 6,"Gaffer On Games (Fiedler), What every programmer needs to know about game networking",https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/,2026-10-25
 6,"Game Accessibility Guidelines, Use an easily readable default font size",https://gameaccessibilityguidelines.com/use-an-easily-readable-default-font-size/,2026-10-26
 6,"Game Accessibility Guidelines, Use simple clear language",https://gameaccessibilityguidelines.com/use-simple-clear-language/,2026-10-26
+6,"GameMaker (DAndrewBox), Guide to GameMaker Testing Library",https://gamemaker.io/en/tutorials/gamemaker-testing-library-tutorial,2026-11-01
+6,"GameMaker (Matharoo), Make Your Own Role-Playing Game",https://gamemaker.io/en/tutorials/how-to-make-an-rpg,2026-11-01
+6,"GameMaker (Wain), How to Get Started with GameMaker in 2026",https://gamemaker.io/en/tutorials/get-started-gamemaker-2026,2026-11-01
+6,"GameMaker Manual (Beta), The File System: preventing data loss",https://manual.gamemaker.io/beta/en/Additional_Information/The_File_System.htm,2026-11-01
+6,"GameMaker Manual, Animated Tiles",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Tile_Set_Editors/Animated_Tiles.htm,2026-11-01
+6,"GameMaker Manual, application_surface",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Drawing/Surfaces/application_surface.htm,2026-11-01
+6,"GameMaker Manual, Building & Testing via Command Line: Igor Testing",https://manual.gamemaker.io/lts/en/Settings/Building_via_Command_Line.htm#s3,2026-11-01
+6,"GameMaker Manual, Feather Data Types",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Data_Types.htm,2026-11-01
+6,"GameMaker Manual, Feather Directives: path",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Directives.htm#path,2026-11-01
+6,"GameMaker Manual, Feather Messages: GM2000",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2000,2026-11-01
+6,"GameMaker Manual, Feather Messages: GM2003",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2003,2026-11-01
+6,"GameMaker Manual, Feather Messages: GM2005",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2005,2026-11-01
+6,"GameMaker Manual, Feather Messages: GM2016",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2016,2026-11-01
+6,"GameMaker Manual, Feather Messages: GM2017",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2017,2026-11-01
+6,"GameMaker Manual, Feather Messages: GM2023",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Messages.htm#gm2023,2026-11-01
+6,"GameMaker Manual, Guide To Using JSON",https://manual.gamemaker.io/lts/en/Additional_Information/Guide_To_Using_JSON.htm,2026-11-01
+6,"GameMaker Manual, http_get",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/http_get.htm,2026-11-01
+6,"GameMaker Manual, Installation Guide",https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/Installation_Guide.htm,2026-11-01
+6,"GameMaker Manual, Networking",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Networking/Networking.htm,2026-11-01
+6,"GameMaker Manual, place_meeting",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/place_meeting.htm,2026-11-01
+6,"GameMaker Manual, Plugin Preferences",https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Plugin_Preferences.htm,2026-11-01
+6,"GameMaker Manual, Prefab Library",https://manual.gamemaker.io/lts/en/IDE_Tools/Prefab_Library.htm,2026-11-01
+6,"GameMaker Manual, Quick Start Guide",https://manual.gamemaker.io/lts/en/Quick_Start_Guide/Quick_Start_Guide.htm,2026-11-01
+6,"GameMaker Manual, Room Properties: Instance Creation Order",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Room_Properties/Room_Properties.htm#creation_order,2026-11-01
+6,"GameMaker Manual, shader_is_compiled",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Asset_Management/Shaders/shader_is_compiled.htm,2026-11-01
+6,"GameMaker Manual, Source Control: Conflicts",https://manual.gamemaker.io/lts/en/IDE_Tools/Source_Control/Conflicts.htm,2026-11-01
+6,"GameMaker Manual, Texture Compression",https://manual.gamemaker.io/lts/en/Settings/Texture_Information/Texture_Compression.htm,2026-11-01
+6,"GameMaker Manual, The Asset Browser",https://manual.gamemaker.io/lts/en/Introduction/The_Asset_Browser.htm,2026-11-01
+6,"GameMaker Manual, The Debug Overlay: FPS",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Debugging/The_Debug_Overlay.htm#fps,2026-11-01
+6,"GameMaker Manual, The File Watcher",https://manual.gamemaker.io/lts/en/IDE_Tools/The_File_Watcher.htm,2026-11-01
+6,"GameMaker Manual, The Tile Set Editor",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Tile_Sets.htm,2026-11-01
+6,"GameMaker Manual, UI Layers At Runtime",https://manual.gamemaker.io/lts/en/The_Asset_Editors/Room_Properties/UI_Layers_At_Runtime.htm,2026-11-01
+6,"GameMaker Manual, Windows Game Options",https://manual.gamemaker.io/lts/en/Settings/Game_Options/Windows.htm,2026-11-01
+6,"GameMaker Manual, YoYo Compiler",https://manual.gamemaker.io/lts/en/Settings/YoYo_Compiler.htm,2026-11-01
+6,"GameMaker, GameMaker LTS 2026.0: New Features, GMRT and Much More",https://gamemaker.io/en/blog/lts-2026-release,2026-11-01
 6,"GDQuest, Make a Finite State Machine in Godot 4",https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/,2026-11-01
 6,"gdUnit4, Documentation",https://godot-gdunit-labs.github.io/gdUnit4/latest/,2026-11-01
 6,"Git LFS wiki, File Locking",https://github.com/git-lfs/git-lfs/wiki/File-Locking,2026-10-25
@@ -1828,6 +1910,9 @@ score,title,url,verified
 6,"web.dev, WebGPU is now supported in major browsers: browser and OS availability",https://web.dev/blog/webgpu-supported-major-browsers#browser_and_os_availability,2026-10-31
 6,Workload isolation using shuffle-sharding,https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding,2026-10-25
 6,"Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)",https://www.terraformupandrunning.com/,2026-10-25
+6,"YoYo Games, GameMaker CLI (gm-cli) README",https://github.com/YoYoGames/gm-cli/blob/main/README.md,2026-11-01
+6,"YoYo Games, gm-cli changelog",https://github.com/YoYoGames/gm-cli/blob/main/CHANGELOG.md,2026-11-01
+6,"YoYo Games, gm-cli compile workflow template",https://github.com/YoYoGames/gm-cli/blob/main/src/commands/init/compile.yml,2026-11-01
 6,"ZAP, Baseline scan",https://www.zaproxy.org/docs/docker/baseline-scan/,2026-10-25
 6,"zizmor, Audit rules",https://docs.zizmor.sh/audits/,2026-10-25
 5,action-semantic-pull-request (GitHub Action),https://github.com/amannn/action-semantic-pull-request,2026-10-25
@@ -1865,6 +1950,7 @@ score,title,url,verified
 5,"CodeQL, Use of password hash with insufficient computational effort (JavaScript)",https://codeql.github.com/codeql-query-help/javascript/js-insufficient-password-hash/,2026-10-25
 5,"Confluent, Schema Registry for Confluent Platform: license",https://docs.confluent.io/platform/current/schema-registry/index.html#cp-license,2026-10-25
 5,"Dan Kestranek (tranek), GASDocumentation",https://github.com/tranek/GASDocumentation,2026-10-25
+5,"DAndrewBox, GameMaker Testing Library (GMTL) documentation",https://github.com/DAndrewBox/GM-Testing-Library/blob/main/Docs/Documentation.md,2026-11-01
 5,"Dart diagnostic, must_be_immutable",https://dart.dev/tools/diagnostics/must_be_immutable,2026-10-25
 5,"Dart linter rule, prefer_final_fields",https://dart.dev/tools/linter-rules/prefer_final_fields,2026-10-25
 5,"detekt, coroutines rules",https://detekt.dev/docs/rules/coroutines/,2026-10-25
@@ -1890,6 +1976,15 @@ score,title,url,verified
 5,"Fowler, Polyglot Persistence",https://martinfowler.com/bliki/PolyglotPersistence.html,2026-10-24
 5,"Fowler, Sacrificial Architecture",https://martinfowler.com/bliki/SacrificialArchitecture.html,2026-10-24
 5,"GameCI, Unity Test Runner",https://game.ci/docs/github/test-runner/,2026-10-25
+5,"GameMaker (Alexander), Coffee-Break Tutorials: Finite State Machines (GML)",https://gamemaker.io/en/tutorials/coffee-break-tutorials-finite-state-machines-gml,2026-11-01
+5,"GameMaker (Alexander), The Basics Of Scaling - The Game Camera",https://gamemaker.io/en/blog/the-basics-of-scaling-the-game-view,2026-11-01
+5,"GameMaker Manual, gc_enable",https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Garbage_Collection/gc_enable.htm,2026-11-01
+5,"GameMaker Manual, Quick Start Guide: Creating Sprites",https://manual.gamemaker.io/lts/en/Quick_Start_Guide/Creating_Sprites.htm,2026-11-01
+5,"GameMaker Manual, Quick Start Guide: Objects And Instances",https://manual.gamemaker.io/lts/en/Quick_Start_Guide/Objects_And_Instances.htm,2026-11-01
+5,"GameMaker Manual, Runtime Feeds Preferences",https://manual.gamemaker.io/lts/en/Setting_Up_And_Version_Information/IDE_Preferences/Runtime_Feed_Preferences.htm,2026-11-01
+5,"GameMaker, Download GameMaker (release channels)",https://gamemaker.io/en/download,2026-11-01
+5,"GameMaker, GameMaker Update Spring 2026: LTS Roadmap, GMRT, and the Future",https://gamemaker.io/en/blog/update-spring-2026,2026-11-01
+5,"GameMaker, Winter Update: Slowing Down to Speed Up in 2025",https://gamemaker.io/en/blog/winter-update-2024,2026-11-01
 5,"gdtoolkit, Linter (gdlint)",https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter,2026-10-25
 5,"gdtoolkit, README (gdformat and CI usage)",https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md,2026-10-25
 5,"gdUnit4, Command line tool",https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/,2026-10-25
@@ -2054,6 +2149,8 @@ score,title,url,verified
 5,"VSTHRD103, call async methods when in an async method",https://microsoft.github.io/vs-threading/analyzers/VSTHRD103.html,2026-10-25
 5,Welcome to DDD,https://github.com/ddd-crew/welcome-to-ddd,2026-10-24
 5,"wgpu, naga",https://github.com/gfx-rs/wgpu/blob/trunk/naga/README.md,2026-10-31
+5,"YoYo Games, gm-cli agent guidance (GML conventions)",https://github.com/YoYoGames/gm-cli/blob/main/src/commands/init/claude-contents.txt,2026-11-01
+5,"YoYo Games, GMEXT-Photon (Photon extension for GameMaker)",https://github.com/YoYoGames/GMEXT-Photon/blob/main/README.md,2026-11-01
 5,"ZAP, Cookie No HttpOnly Flag (10010)",https://www.zaproxy.org/docs/alerts/10010/,2026-10-25
 5,"ZAP, Cookie without SameSite Attribute (10054)",https://www.zaproxy.org/docs/alerts/10054/,2026-10-25
 5,"ZAP, Cookie Without Secure Flag (10011)",https://www.zaproxy.org/docs/alerts/10011/,2026-10-25
@@ -2064,8 +2161,10 @@ score,title,url,verified
 4,"Bearer CLI, Rule: Leakage of sensitive data to Sentry",https://docs.bearer.com/reference/rules/javascript_third_parties_sentry/,2026-10-26
 4,"bloc_lint, avoid_flutter_imports",https://bloclibrary.dev/lint-rules/avoid_flutter_imports/,2026-10-25
 4,"bloc_lint, avoid_public_fields",https://bloclibrary.dev/lint-rules/avoid_public_fields/,2026-10-25
+4,"Crispy (bfrymire), Crispy documentation",https://bfrymire.github.io/crispy/,2026-11-01
 4,"DCM, avoid-banned-imports (commercial)",https://dcm.dev/docs/rules/common/avoid-banned-imports/,2026-10-25
 4,docs-as-co.de,https://docs-as-co.de/,2026-10-24
+4,"GameMaker, GameMaker Update 2024.14 Now Available",https://gamemaker.io/en/blog/release-2024-14,2026-11-01
 4,"Gatekeeper library, container requests",https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/,2026-10-25
 4,"Gatekeeper library, disallowed tags",https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/,2026-10-25
 4,"Gatekeeper library, required probes",https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/,2026-10-25

@@ -1,7 +1,7 @@
 <!-- rule-prefix: GFX -->
 # Graphics and GPU rendering
 
-Scope: engine-independent GPU rendering and shaders for games and other real-time 3D applications, on native platforms and on the web with WebGL and WebGPU. Engine-specific rendering rules are in [Unity: rendering and shaders](../unity/rendering.md), [Godot: rendering and shaders](../godot/rendering.md) and [Unreal Engine: rendering and shaders](../unreal/rendering.md). Frame-time budgets (`GAMEDEV-12`) and other engine-independent game rules are in [Game development](../gamedev/README.md), and store, thermal and download-size rules for phones are in [Mobile games](../mobile-games/README.md).
+Scope: engine-independent GPU rendering and shaders for games and other real-time 3D applications, on native platforms and on the web with WebGL and WebGPU. Engine-specific rendering rules are in [Unity: rendering and shaders](../unity/rendering.md), [Godot: rendering and shaders](../godot/rendering.md), [Unreal Engine: rendering and shaders](../unreal/rendering.md) and [GameMaker: rendering and shaders](../gamemaker/rendering.md). Frame-time budgets (`GAMEDEV-12`) and other engine-independent game rules are in [Game development](../gamedev/README.md), and store, thermal and download-size rules for phones are in [Mobile games](../mobile-games/README.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

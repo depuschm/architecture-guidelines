@@ -111,7 +111,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2144 sources.
+2221 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -194,6 +194,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [GitLab Docs, Deployment safety](https://docs.gitlab.com/ci/environments/deployment_safety/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Pipeline security](https://docs.gitlab.com/ci/pipeline_security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Security for self-managed runners](https://docs.gitlab.com/runner/security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [Godot docs, Exporting for the Web](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md), [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
 | 8 | [Google Cloud, Best practices for using service accounts securely](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -311,6 +312,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Manual, Optimizing managed memory](https://docs.unity3d.com/Manual/performance-optimizing-code-managed-memory.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Unity Manual, Order of execution for event functions](https://docs.unity3d.com/Manual/execution-order.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 8 | [Unity Manual, ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 8 | [Unity Manual, Web](https://docs.unity3d.com/Manual/webgl.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 8 | [Unity Test Framework course](https://docs.unity3d.com/Manual/test-framework/course/overview.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -517,6 +519,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Azure, Saga pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/saga) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Azure, Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Azure: RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 7 | [Babylon.js docs, Optimizing Your Scene](https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [buf breaking (Protobuf breaking-change detection)](https://buf.build/docs/breaking/) | [general/api-design](general/api-design.md), [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [Building Microservices and Monolith to Microservices](https://samnewman.io/books/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Building Microservices, 2nd edition](https://samnewman.io/books/building_microservices_2nd_edition/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -524,6 +527,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [C# coding conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [C4 model, abstractions](https://c4model.com/abstractions) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 7 | [C4 model, notation](https://c4model.com/diagrams/notation) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 7 | [Chrome DevTools, Analyze runtime performance: simulate a mobile CPU](https://developer.chrome.com/docs/devtools/performance#simulate_a_mobile_cpu) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [Chrome for Developers, Page Lifecycle API: hidden state](https://developer.chrome.com/docs/web-platform/page-lifecycle-api#state-hidden) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [CIS Docker Benchmark](https://www.cisecurity.org/benchmark/docker) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [CISA Secure by Design](https://www.cisa.gov/securebydesign) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [Clemson, Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -546,6 +551,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Consistency models](https://jepsen.io/consistency) | [general/data](general/data.md) | 2026-10-24 |
 | 7 | [Context Mapping](https://github.com/ddd-crew/context-mapping) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 7 | [CrazyGames Documentation, Technical requirements](https://docs.crazygames.com/requirements/technical/) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [CrazyGames Documentation, Technical requirements: file size and count limits](https://docs.crazygames.com/requirements/technical/#file-size-count-limits) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Dan Vanderkam, Effective TypeScript (2nd edition)](https://effectivetypescript.com/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [Dart, customizing static analysis](https://dart.dev/tools/analysis) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 7 | [Dehghani, How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -796,6 +803,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, Debugger panel](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 7 | [Godot docs, Exporting for dedicated servers](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Godot docs, Exporting for dedicated servers: exporting a project for a dedicated server](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html#exporting-a-project-for-a-dedicated-server) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting for the Web: introduction and notes](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#exporting-for-the-web) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting for the Web: serving the files](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#serving-the-files) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting for the Web: thread and extension support](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#thread-and-extension-support) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting for the Web: WebGL version](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#webgl-version) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Godot docs, Exporting projects](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
 | 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
 | 7 | [Godot docs, GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
@@ -934,6 +945,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [ICO, When do we need to do a DPIA?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [ICU User Guide, Formatting messages](https://unicode-org.github.io/icu/userguide/format_parse/messages/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745) | [general/releases](general/releases.md) | 2026-10-25 |
+| 7 | [itch.io, Uploading HTML5 games](https://itch.io/docs/creators/html5) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [itch.io, Uploading HTML5 games: ZIP file requirements](https://itch.io/docs/creators/html5#zip-file-requirements) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Khronos, Vulkan Guide: Tile Based Rendering (TBR) Best Practices](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/tile_based_rendering_best_practices.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Khronos, Vulkan Samples: performance samples](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/README.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -949,12 +962,21 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Martin, The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [MDN Learn, Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [MDN, Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [MDN, Anatomy of a video game: building a main loop in JavaScript](https://developer.mozilla.org/en-US/docs/Games/Anatomy#building_a_main_loop_in_javascript) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [MDN, ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [MDN, Autoplay guide for media and Web Audio APIs: autoplay availability](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay#autoplay_availability) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [MDN, CSS logical properties and values](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) | [general/localization](general/localization.md) | 2026-10-26 |
+| 7 | [MDN, Game development](https://developer.mozilla.org/en-US/docs/Games) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [MDN, GPUDevice: lost property](https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/lost) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [MDN, Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) | [general/localization](general/localization.md) | 2026-10-26 |
+| 7 | [MDN, Page Visibility API: policies in place to aid background page performance](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API#policies_in_place_to_aid_background_page_performance) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [MDN, Pointer events: touch-action CSS property](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events#touch-action_css_property) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [MDN, Set-Cookie header: Cookie prefixes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#cookie_prefixes) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [MDN, SharedArrayBuffer: security requirements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [MDN, Storage quotas and eviction criteria: does browser-stored data persist?](https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria#does_browser-stored_data_persist) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [MDN, Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [MDN, Using the Gamepad API: connecting to a gamepad](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API#connecting_to_a_gamepad) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [MDN, Web Audio API best practices: autoplay policy](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices#autoplay_policy) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [MDN, WebGL best practices: batch draw calls](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#batch_draw_calls) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [MDN, WebGL best practices: consider compressed texture formats](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#consider_compressed_texture_formats) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [MDN, WebGL best practices: estimate a per-pixel VRAM budget](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#estimate_a_per-pixel_vram_budget) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -962,6 +984,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [MDN, WebGL best practices: use mipmaps for any texture you'll see in 3D](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#use_mipmaps_for_any_texture_youll_see_in_3d) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [MDN, WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [MDN, WebGPU API: accessing a device](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API#accessing_a_device) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [MDN, Window: requestAnimationFrame() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Meta Horizon OS developer docs, Save Game Best Practices](https://developers.meta.com/vr/documentation/native/ps-save-game-best-practices/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 7 | [microservices.io, Idempotent Consumer](https://microservices.io/patterns/communication-style/idempotent-consumer.html) | [general/data](general/data.md), [specific/kafka](specific/kafka/README.md), [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Cache-Aside pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -1160,12 +1183,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Percival and Gregory, Architecture Patterns with Python: Repository Pattern](https://www.cosmicpython.com/book/chapter_02_repository) | [general/architecture-styles](general/architecture-styles.md), [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [PgBouncer, Features](https://www.pgbouncer.org/features.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [PgBouncer, SQL feature map for pooling modes](https://www.pgbouncer.org/features.html#sql-feature-map-for-pooling-modes) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 7 | [Phaser docs, Loader](https://docs.phaser.io/phaser/concepts/loader) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [Phaser docs, Scenes](https://docs.phaser.io/phaser/concepts/scenes) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Pinia, Why should I use Pinia?](https://pinia.vuejs.org/introduction.html#Why-should-I-use-Pinia-) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs](https://pip.pypa.io/en/stable/topics/secure-installs/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs: Hash-checking mode](https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Playwright, Isolation](https://playwright.dev/docs/browser-contexts) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [Playwright, Locators](https://playwright.dev/docs/locators) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [Playwright, Visual comparisons](https://playwright.dev/docs/test-snapshots) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 7 | [Poki for Developers, Requirements](https://developers.poki.com/guide/requirements-quality) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [PostgreSQL wiki, Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [PostgreSQL wiki, Don't Do This: Don't use char(n)](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_char.28n.29) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [PostgreSQL wiki, Don't Do This: Don't use serial](https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_serial) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -1199,6 +1225,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [PostgreSQL, Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [PostgreSQL, Versioning Policy](https://www.postgresql.org/support/versioning/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [Potvin and Levenberg, Why Google Stores Billions of Lines of Code in a Single Repository (CACM, 2016)](https://research.google/pubs/why-google-stores-billions-of-lines-of-code-in-a-single-repository/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [Privacy Sandbox, Storage partitioning](https://privacysandbox.google.com/cookies/storage-partitioning) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Production best practices checklist](https://learnkube.com/production-best-practices) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Protocol Buffers, dos and don'ts](https://protobuf.dev/best-practices/dos-donts/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Pydantic, Settings Management](https://pydantic.dev/docs/validation/latest/concepts/pydantic_settings/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1394,6 +1421,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [The Pragmatic Programmer, 20th anniversary edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Thoughtworks, Architectural fitness function](https://www.thoughtworks.com/radar/techniques/architectural-fitness-function) | [general/decisions](general/decisions.md), [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
+| 7 | [three.js manual](https://threejs.org/manual/) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [three.js manual, How to dispose of objects](https://threejs.org/manual/#how-to-dispose-of-objects) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Trunk Based Development](https://trunkbaseddevelopment.com/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Twelve-Factor App, IV Backing services](https://12factor.net/backing-services) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 7 | [Twelve-Factor App, IX Disposability](https://12factor.net/disposability) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-26 |
@@ -1437,9 +1466,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Manual, Choose a GPU texture format by platform](https://docs.unity3d.com/Manual/texture-choose-format-by-platform.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Choose a method for optimizing draw calls](https://docs.unity3d.com/Manual/optimizing-draw-calls-choose-method.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Choose a render pipeline](https://docs.unity3d.com/Manual/choose-a-render-pipeline.html) | [specific/graphics](specific/graphics/README.md), [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Compare WebGPU and WebGL2](https://docs.unity3d.com/Manual/web-graphics-apis-intro.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Comparison of UI systems](https://docs.unity3d.com/Manual/UI-system-compare.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Dedicated Server optimizations](https://docs.unity3d.com/Manual/dedicated-server-optimizations.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Unity Manual, Deploy a Web application](https://docs.unity3d.com/Manual/webgl-deploying.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, How Unity compiles branching shaders](https://docs.unity3d.com/Manual/shader-conditionals-choose-a-type.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Install and use an existing analyzer](https://docs.unity3d.com/Manual/install-existing-analyzer.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
@@ -1447,14 +1478,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Manual, Introduction to level of detail](https://docs.unity3d.com/Manual/LevelOfDetail.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to PSO tracing and warming](https://docs.unity3d.com/Manual/shader-pso-introduction.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to shader variants](https://docs.unity3d.com/Manual/shader-variants.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Unity Manual, Introduction to Web multithreading](https://docs.unity3d.com/Manual/web-multithreading-intro.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
+| 7 | [Unity Manual, Memory in Unity Web](https://docs.unity3d.com/Manual/webgl-memory.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Optimize custom shaders](https://docs.unity3d.com/Manual/SL-ShaderPerformance.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Optimize Web platform for mobile](https://docs.unity3d.com/Manual/web-optimization-mobile.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Profiler](https://docs.unity3d.com/Manual/Profiler.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Profiling your application](https://docs.unity3d.com/Manual/profiler-profiling-applications.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity Manual, Reduce shader variants](https://docs.unity3d.com/Manual/shader-variant-stripping.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Reduce Web startup time with progressive asset loading](https://docs.unity3d.com/Manual/web-optimization-progressive-asset-loading.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Referencing assemblies](https://docs.unity3d.com/Manual/assembly-definitions-referencing.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Special folder names](https://docs.unity3d.com/Manual/SpecialFolders.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Strip shader variants in URP](https://docs.unity3d.com/Manual/urp/shader-stripping-features.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 7 | [Unity Manual, Texture compression in Web](https://docs.unity3d.com/Manual/webgl-texture-compression.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Trace and manage PSO data collections](https://docs.unity3d.com/Manual/shader-pso-trace.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Version control](https://docs.unity3d.com/Manual/VersionControl.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, Warm up PSOs](https://docs.unity3d.com/Manual/shader-prewarm.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
@@ -1545,6 +1581,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [web.dev, How to choose your Baseline target](https://web.dev/articles/how-to-choose-your-baseline-target) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Learn Accessibility](https://web.dev/learn/accessibility) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Learn Performance](https://web.dev/learn/performance) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [web.dev, Making your website cross-origin isolated using COOP and COEP: isolation in iframes](https://web.dev/articles/coop-coep#isolation_in_iframes) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [web.dev, Persistent storage: when should I ask for persistent storage?](https://web.dev/articles/persistent-storage#when_should_i_ask_for_persistent_storage) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [web.dev, Storage for the web](https://web.dev/articles/storage-for-the-web) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [web.dev, Storage for the web: recommendation](https://web.dev/articles/storage-for-the-web#recommendation) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [web.dev, Web Vitals](https://web.dev/articles/vitals) | [specific/web](specific/web/README.md) | 2026-10-24 |
 | 7 | [web.dev, Why lab and field data can be different (and what to do about it)](https://web.dev/articles/lab-and-field-data-differences) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [WHATWG, Encoding Standard: preface (UTF-8 requirement)](https://encoding.spec.whatwg.org/#preface) | [general/localization](general/localization.md) | 2026-10-26 |
@@ -1651,6 +1691,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Confluent, Schema Registry Best Practices](https://www.confluent.io/blog/best-practices-for-confluent-schema-registry/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Confluent, Schema Registry Maven plugin: test-local-compatibility](https://docs.confluent.io/platform/current/schema-registry/develop/maven-plugin.html#schema-registry-test-local-compatibility) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html) | [general/principles](general/principles.md) | 2026-10-24 |
+| 6 | [CrazyGames Documentation, Data module](https://docs.crazygames.com/sdk/data/) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [CrazyGames Documentation, Technical requirements: device and browser compatibility](https://docs.crazygames.com/requirements/technical/#device-browser-compatibility) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [CrazyGames Documentation, Technical requirements: resuming audio after iOS interrupts it](https://docs.crazygames.com/requirements/technical/#resuming-audio-after-ios-interrupts-it) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [CrazyGames Documentation, Technical requirements: SDK integration](https://docs.crazygames.com/requirements/technical/#sdk-integration) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Create popular shaders and visual effects with URP (Unity e-book, Unity 6 edition)](https://unity.com/resources/create-shaders-visual-effects-urp-unity-6) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Dehghani, Data Mesh Principles](https://martinfowler.com/articles/data-mesh-principles.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
@@ -1733,6 +1777,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GameMaker (DAndrewBox), Guide to GameMaker Testing Library](https://gamemaker.io/en/tutorials/gamemaker-testing-library-tutorial) | [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
 | 6 | [GameMaker (Matharoo), Make Your Own Role-Playing Game](https://gamemaker.io/en/tutorials/how-to-make-an-rpg) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
 | 6 | [GameMaker (Wain), How to Get Started with GameMaker in 2026](https://gamemaker.io/en/tutorials/get-started-gamemaker-2026) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
+| 6 | [GameMaker Help Centre, HTML5: Common Issues and Differences To VM/YYC](https://gamemaker.io/en/help/articles/html5-common-issues-and-differences-to-vm-yyc) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [GameMaker Help Centre, Setting Up For GX Games](https://gamemaker.io/en/help/articles/setting-up-for-gx-games) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [GameMaker Manual (Beta), The File System: preventing data loss](https://manual.gamemaker.io/beta/en/Additional_Information/The_File_System.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
 | 6 | [GameMaker Manual, Animated Tiles](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Tile_Set_Editors/Animated_Tiles.htm) | [specific/gamemaker/content-and-performance](specific/gamemaker/content-and-performance.md) | 2026-11-01 |
 | 6 | [GameMaker Manual, application_surface](https://manual.gamemaker.io/lts/en/GameMaker_Language/GML_Reference/Drawing/Surfaces/application_surface.htm) | [specific/gamemaker/rendering](specific/gamemaker/rendering.md) | 2026-11-01 |
@@ -1811,6 +1857,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Godot docs, About godot-cpp](https://docs.godotengine.org/en/stable/tutorials/scripting/cpp/about_godot_cpp.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 6 | [Godot docs, CPU optimization: languages](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#languages) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 6 | [Godot docs, CPU optimization: SceneTree](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#scenetree) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting for the Web: audio](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#audio) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting for the Web: background processing](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#background-processing) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting for the Web: export options](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#export-options) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting for the Web: full screen and mouse capture](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#full-screen-and-mouse-capture) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting for the Web: gamepads](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#gamepads) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting for the Web: using cookies for data persistence](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#using-cookies-for-data-persistence) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Godot docs, Exporting packs, patches, and mods](https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 6 | [Godot docs, Exporting projects: configuration files](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#configuration-files) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
 | 6 | [Godot docs, Exporting projects: exporting from the command line](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#exporting-from-the-command-line) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
@@ -1883,7 +1935,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Import Linter, forbidden contracts](https://import-linter.readthedocs.io/en/stable/contract_types/forbidden/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Import Linter, independence contracts](https://import-linter.readthedocs.io/en/stable/contract_types/independence/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md), [specific/python](specific/python/README.md) | 2026-10-25 |
-| 6 | [itch.io, butler manual: running butler from CI builds](https://itch.io/docs/butler/login.html#running-butler-from-ci-builds-github-actions-gitlab-ci-etc) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [itch.io, butler manual: Pushing builds](https://itch.io/docs/butler/pushing.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [itch.io, butler manual: running butler from CI builds](https://itch.io/docs/butler/login.html#running-butler-from-ci-builds-github-actions-gitlab-ci-etc) | [specific/steam](specific/steam/README.md), [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [itch.io, Uploading HTML5 games: compression](https://itch.io/docs/creators/html5#compression) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Jaap-Henk Hoepman, Privacy Design Strategies (The Little Blue Book)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Khronos, glslang](https://github.com/KhronosGroup/glslang/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1898,11 +1952,23 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Kubernetes, Service accounts](https://kubernetes.io/docs/concepts/security/service-accounts/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kyverno policy library](https://kyverno.io/policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/web-games](specific/web-games/README.md), [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Matt Pocock, Total TypeScript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [MDN, AudioContext: suspend() method](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/suspend) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, BaseAudioContext: state property](https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/state) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, Element: requestFullscreen() method: security considerations](https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen#security_considerations) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, Game development: Tutorials](https://developer.mozilla.org/en-US/docs/Games/Tutorials) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, HTTP Observatory (mdn-http-observatory)](https://github.com/mdn/mdn-http-observatory) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [MDN, Implementing game control mechanisms](https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, Pointer Lock API: iframe limitations](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API#iframe_limitations) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, ScreenOrientation: lock() method](https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation/lock) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, touch-action: accessibility](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/touch-action#accessibility) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, Transferable objects](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, Using Service Workers: deleting old caches](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#deleting_old_caches) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, WebAssembly.instantiateStreaming()](https://developer.mozilla.org/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, WebGL best practices: address and eliminate WebGL errors](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#address_and_eliminate_webgl_errors) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [MDN, WebGL best practices: delete objects eagerly](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#delete_objects_eagerly) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, WebGLRenderingContext: isContextLost() usage notes](https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/isContextLost#usage_notes) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Mermaid C4 diagrams](https://mermaid.js.org/syntax/c4.html) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Mertens, ECS FAQ](https://github.com/SanderMertens/ecs-faq) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -2007,7 +2073,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Patterns.dev, Vue patterns](https://www.patterns.dev/vue/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Flask API and Service Layer](https://www.cosmicpython.com/book/chapter_04_service_layer) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Percival and Gregory, Architecture Patterns with Python: Repository and Unit of Work Patterns with Django](https://www.cosmicpython.com/book/appendix_django) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Phaser docs, Game: events](https://docs.phaser.io/phaser/concepts/game#events) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Phaser docs, Loader: where to load assets](https://docs.phaser.io/phaser/concepts/loader#where-to-load-assets) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Phaser docs, Textures](https://docs.phaser.io/phaser/concepts/textures) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [pip-tools, pip-compile](https://pip-tools.pypa.io/en/stable/reference/pip-compile/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [PixiJS, Performance Tips](https://pixijs.com/8.x/guides/concepts/performance-tips) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Playwright, Authentication: one account per parallel worker](https://playwright.dev/docs/auth#moderate-one-account-per-parallel-worker) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Playwright, Best Practices: Avoid testing third-party dependencies](https://playwright.dev/docs/best-practices#avoid-testing-third-party-dependencies) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Playwright, Best Practices: Use web first assertions](https://playwright.dev/docs/best-practices#use-web-first-assertions) | [specific/web](specific/web/README.md) | 2026-10-26 |
@@ -2016,6 +2086,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Playwright, testConfig.failOnFlakyTests](https://playwright.dev/docs/api/class-testconfig#test-config-fail-on-flaky-tests) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Playwright, Trace viewer: Tracing on CI](https://playwright.dev/docs/trace-viewer#tracing-on-ci) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [pnpm, Workspace](https://pnpm.io/workspaces) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [Poki for Developers, Choosing your web game engine](https://developers.poki.com/guide/web-engine) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [PostgreSQL wiki, Number Of Database Connections](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -2168,14 +2239,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity Localization, Pseudo-Localization](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/Pseudo-Localization.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 6 | [Unity Manual, Adaptive Performance](https://docs.unity3d.com/Manual/adaptive-performance/adaptive-performance.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Unity Manual, Analyzer scope and diagnostics](https://docs.unity3d.com/Manual/analyzer-scope-and-diagnostics.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 6 | [Unity Manual, Audio in Web](https://docs.unity3d.com/Manual/webgl-audio.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Unity Manual, Cache behavior in Web](https://docs.unity3d.com/Manual/webgl-caching.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Unity Manual, Check whether a GameObject is compatible with the SRP Batcher](https://docs.unity3d.com/Manual/SRPBatcher-Materials.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Manual, Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Editor settings](https://docs.unity3d.com/Manual/class-EditorManager.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Enable the GPU Resident Drawer in URP](https://docs.unity3d.com/Manual/urp/gpu-resident-drawer.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 6 | [Unity Manual, Enable the WebGPU graphics API](https://docs.unity3d.com/Manual/webgpu-enable.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Unity Manual, Input in Web](https://docs.unity3d.com/Manual/webgl-input.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Unity Manual, Introduction to the Frame Debugger](https://docs.unity3d.com/Manual/FrameDebugger.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Other methods to warm up shaders](https://docs.unity3d.com/Manual/shader-prewarm-other.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Play Asset Delivery](https://docs.unity3d.com/Manual/play-asset-delivery.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Unity Manual, Profile a Web build](https://docs.unity3d.com/Manual/web-profile.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Unity Manual, Rendering Debugger window reference for URP](https://docs.unity3d.com/Manual/urp/features/rendering-debugger-reference.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Smart Merge](https://docs.unity3d.com/Manual/SmartMerge.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Toggle shader keywords in a script](https://docs.unity3d.com/Manual/shader-keywords-scripts.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
@@ -2249,6 +2325,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [web.dev, Learn Responsive Design: Responsive images](https://web.dev/learn/design/responsive-images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Testing](https://web.dev/learn/testing) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [web.dev, Learn Testing: Visual tests](https://web.dev/learn/testing/get-started/test-types#visual) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [web.dev, OffscreenCanvas: speed up your canvas operations with a web worker](https://web.dev/articles/offscreen-canvas) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, WebGPU is now supported in major browsers: browser and OS availability](https://web.dev/blog/webgpu-supported-major-browsers#browser_and_os_availability) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Workload isolation using shuffle-sharding](https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -2262,7 +2339,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-295 sources.
+298 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2297,6 +2374,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [AWS Lambda, Python handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Resilience Hub, scheduled assessments](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [Babylon.js, Spector.js](https://github.com/BabylonJS/Spector.js/blob/master/readme.md) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 5 | [Bearer CLI, Report types: privacy report](https://docs.bearer.com/explanations/reports/#privacy-report) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 5 | [Cedric Neukirchen, Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |
 | 5 | [Changesets, Automating Changesets: Blocking](https://changesets.dev/guide/automating#blocking) | [general/releases](general/releases.md) | 2026-10-25 |
@@ -2543,6 +2621,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Crispy (bfrymire), Crispy documentation](https://bfrymire.github.io/crispy/) | [specific/gamemaker/testing](specific/gamemaker/testing.md) | 2026-11-01 |
 | 4 | [DCM, avoid-banned-imports (commercial)](https://dcm.dev/docs/rules/common/avoid-banned-imports/) | [specific/flutter](specific/flutter/README.md) | 2026-10-25 |
 | 4 | [docs-as-co.de](https://docs-as-co.de/) | [general/documentation](general/documentation.md) | 2026-10-24 |
+| 4 | [ESLint, no-restricted-globals](https://eslint.org/docs/latest/rules/no-restricted-globals) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 4 | [ESLint, no-restricted-globals: checkGlobalObject](https://eslint.org/docs/latest/rules/no-restricted-globals#checkglobalobject) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 4 | [GameMaker, GameMaker Update 2024.14 Now Available](https://gamemaker.io/en/blog/release-2024-14) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
 | 4 | [Gatekeeper library, container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, disallowed tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |

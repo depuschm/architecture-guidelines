@@ -1,7 +1,7 @@
 <!-- rule-prefix: WEB -->
 # Web front end (framework-independent)
 
-Scope: any web front end, whatever the framework or build tool, with a focus on accessibility, performance, security, resilience and testing. Framework-specific rules are in [React](../react/README.md), and the [general guidelines](../../general/README.md) still apply, including the test strategy in [Testing and delivery](../../general/testing-delivery.md).
+Scope: any web front end, whatever the framework or build tool, with a focus on accessibility, performance, security, resilience and testing. Framework-specific rules are in [React](../react/README.md), and the [general guidelines](../../general/README.md) still apply, including the test strategy in [Testing and delivery](../../general/testing-delivery.md). Games that run in the browser are in [Web games](../web-games/README.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 

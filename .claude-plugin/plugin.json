@@ -1,7 +1,7 @@
 {
   "name": "architecture-guidelines",
   "displayName": "Architecture Guidelines",
-  "description": "Source-linked software architecture guidelines (general and per platform, such as Unity, Godot, Unreal, GameMaker, mobile games, Steam and PC games, game servers, graphics and shaders, web, Next.js, Vue, Svelte, Angular, TypeScript, Node.js, Python, .NET, GraphQL, PostgreSQL, Redis, Firebase, Supabase, Kafka, RabbitMQ, Android, Docker, Kubernetes, OpenTelemetry, AWS, Azure, Google Cloud, Terraform, GitHub Actions and GitLab CI), with skills for architecture reviews, enforcing the rules in CI, ADRs, C4 diagrams and game architecture in Unity, Godot, Unreal and GameMaker.",
+  "description": "Source-linked software architecture guidelines, general and for 40+ platforms: game engines (Unity, Godot, Unreal, GameMaker), game services, graphics, web frameworks, back ends, databases, mobile apps, cloud and CI. With skills for architecture reviews, enforcing the rules in CI, ADRs, C4 diagrams and game architecture.",
   "author": {
     "name": "depuschm",
     "url": "https://github.com/depuschm"
@@ -23,6 +23,7 @@
     "mobile-games",
     "steam",
     "game-servers",
+    "web-games",
     "graphics",
     "shaders",
     "webdev",

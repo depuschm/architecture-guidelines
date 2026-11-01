@@ -12,6 +12,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Graphics and GPU rendering](graphics/README.md): engine-independent GPU rendering and shaders, on native platforms and on the web with WebGL and WebGPU.
 - [Steam and PC games](steam/README.md): shipping and running games on Steam and PCs, for any engine: builds and branches, Steamworks keys and accounts, purchases, Steam Cloud, controllers, Steam Deck and Proton.
 - [Game servers and online services](game-servers/README.md): dedicated game servers and their online services, for any engine: headless builds, Agones and Amazon GameLift Servers, matchmaking, Nakama, rollouts, security, observability and cost.
+- [Web games](web-games/README.md): games that run in the browser, written with a web framework or exported from Unity, Godot or GameMaker: builds and hosting, download size, audio and input, saves and portals.
 - [Mobile games](mobile-games/README.md): shipping and running games on the App Store and Google Play, for any engine.
 
 ### Web and back end

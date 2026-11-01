@@ -42,6 +42,8 @@
     "go",
     "graphql",
     "postgres",
+    "mongodb",
+    "sqlite",
     "redis",
     "firebase",
     "supabase",

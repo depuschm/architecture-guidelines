@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-105 sources.
+109 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -27,12 +27,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 10 | [MongoDB, Database Manual](https://www.mongodb.com/docs/manual/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 10 | [NIST, SP 800-63B-4, Authentication and Authenticator Management](https://pages.nist.gov/800-63-4/sp800-63b.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 10 | [RabbitMQ, Documentation (4.4)](https://www.rabbitmq.com/docs) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 10 | [SQLite, SQLite Documentation](https://www.sqlite.org/docs.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 10 | [Supabase Docs, Production Checklist](https://supabase.com/docs/guides/deployment/going-into-prod) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -82,6 +84,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Microsoft Learn, Globalization documentation](https://learn.microsoft.com/en-us/globalization/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 9 | [Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 9 | [Microsoft, Cloud Adoption Framework: What is an Azure landing zone?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 9 | [MongoDB, Atlas Architecture Center](https://www.mongodb.com/docs/atlas/architecture/current/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 9 | [MongoDB, Data Modeling in MongoDB](https://www.mongodb.com/docs/manual/data-modeling/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 9 | [Next.js, How to think about data security in Next.js](https://nextjs.org/docs/app/guides/data-security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 9 | [Node.js, Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Node.js, Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -119,7 +123,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2519 sources.
+2635 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -270,6 +274,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Threat Modeling Tool threats (STRIDE)](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Microsoft, Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/xbox/accessibility/guidelines) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 8 | [MongoDB, Best Practices for Data Modeling in MongoDB](https://www.mongodb.com/docs/manual/data-modeling/best-practices/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 8 | [MongoDB, Development Checklist](https://www.mongodb.com/docs/manual/administration/production-checklist-development/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 8 | [MongoDB, Schema Design Anti-Patterns](https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 8 | [MongoDB, Schema Design Patterns](https://www.mongodb.com/docs/manual/data-modeling/design-patterns/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 8 | [MongoDB, Security Checklist for Self-Managed Deployments](https://www.mongodb.com/docs/manual/administration/security-checklist/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 8 | [Next.js, Caching (Cache Components)](https://nextjs.org/docs/app/getting-started/caching) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [NIST Secure Software Development Framework (SP 800-218)](https://csrc.nist.gov/pubs/sp/800/218/final) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [OpenID Foundation, OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -319,6 +328,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Semantic Versioning 2.0.0, Specification](https://semver.org/#semantic-versioning-specification-semver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 8 | [SQLite, Appropriate Uses For SQLite](https://www.sqlite.org/whentouse.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 8 | [SQLite, Defense Against The Dark Arts](https://www.sqlite.org/security.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 8 | [SQLite, How To Corrupt An SQLite Database File](https://www.sqlite.org/howtocorrupt.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 8 | [SQLite, Pragma statements supported by SQLite](https://www.sqlite.org/pragma.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 8 | [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Static stability using Availability Zones](https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 8 | [Steamworks, Steam Deck and Steam Machine Compatibility Review](https://partner.steamgames.com/doc/steamhardware/compat) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
@@ -398,6 +411,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Android Developers, Analyze and optimize game performance: identify CPU or GPU bottlenecks](https://developer.android.com/games/optimize/gameperformance#cpu-gpu-bottlenecks) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android Developers, Android vitals](https://developer.android.com/google/play/vitals) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Android vitals: Bad behavior thresholds](https://developer.android.com/google/play/vitals#what_are_the_bad_behavior_thresholds) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Android Developers, Best practices for SQLite performance](https://developer.android.com/topic/performance/sqlite-performance-best-practices) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [Android Developers, CPU and GPU optimization tips](https://developer.android.com/games/optimize/optimization-tips) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android Developers, Google Play Billing Library version deprecation](https://developer.android.com/google/play/billing/deprecation-faq) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Android Developers, Meet Google Play's target API level requirement](https://developer.android.com/google/play/requirements/target-sdk) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -1215,6 +1229,46 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft, What is a private endpoint?](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [MITRE, CWE-488: Exposure of Data Element to Wrong Session](https://cwe.mitre.org/data/definitions/488.html) | [general/security](general/security.md) | 2026-10-26 |
 | 7 | [Model Context Protocol](https://modelcontextprotocol.io/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 7 | [MongoDB Atlas, Atlas Resource Policies: restrict IP addresses](https://www.mongodb.com/docs/atlas/atlas-resource-policies/#restrict-ip-addresses) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB Atlas, Back Up, Restore, and Archive Data](https://www.mongodb.com/docs/atlas/backup-restore-cluster/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB Atlas, Configure IP Access List Entries](https://www.mongodb.com/docs/atlas/security/ip-access-list/#add-ip-access-list-entries) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB Atlas, Manage Connections with AWS Lambda](https://www.mongodb.com/docs/atlas/manage-connections-aws-lambda/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Atlas Architecture Center: Atlas database authentication](https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/#atlas-database-authentication) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Atlas Architecture Center: authorization, RBAC and predefined roles](https://www.mongodb.com/docs/atlas/architecture/current/auth/authorization/#rbac-and-predefined-roles) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Atlas Architecture Center: disaster recovery, backup strategy RTO/RPO trade-offs](https://www.mongodb.com/docs/atlas/architecture/current/disaster-recovery/#backup-strategy-rtorpo-trade-offs) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Atlas Architecture Center: network security recommendations](https://www.mongodb.com/docs/atlas/architecture/current/network-security/#all-deployment-paradigm-recommendations) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Atlas Architecture Center: recommendations for Atlas backups](https://www.mongodb.com/docs/atlas/architecture/current/backups/#recommendations-for-atlas-backups) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Atlas Operational Readiness Checklist](https://www.mongodb.com/docs/atlas/architecture/current/operational-readiness-checklist/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Avoid Unbounded Arrays](https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/unbounded-arrays/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Backup Methods for a Self-Managed Deployment](https://www.mongodb.com/docs/manual/core/backups/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Best Practices for Data Modeling: atomicity](https://www.mongodb.com/docs/manual/data-modeling/best-practices/#atomicity) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Best Practices for Data Modeling: enforce schema with validation rules](https://www.mongodb.com/docs/manual/data-modeling/best-practices/#enforce-schema-with-validation-rules) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Best Practices for Data Modeling: link related data](https://www.mongodb.com/docs/manual/data-modeling/best-practices/#link-related-data) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Choose a Shard Key](https://www.mongodb.com/docs/manual/core/sharding-choose-a-shard-key/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Connection Pool Overview: use an instance of your driver's MongoClient object](https://www.mongodb.com/docs/manual/administration/connection-pool-overview/#use-an-instance-of-your-drivers-mongoclient-object) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Development Checklist: data durability](https://www.mongodb.com/docs/manual/administration/production-checklist-development/#data-durability) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Development Checklist: drivers](https://www.mongodb.com/docs/manual/administration/production-checklist-development/#drivers) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Development Checklist: schema design](https://www.mongodb.com/docs/manual/administration/production-checklist-development/#schema-design) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Indexing Strategies](https://www.mongodb.com/docs/manual/applications/indexes/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Interpret Explain Plan Results](https://www.mongodb.com/docs/manual/tutorial/analyze-query-plan/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Limits and Thresholds: BSON documents](https://www.mongodb.com/docs/manual/reference/limits/#bson-documents) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Maintain Different Schema Versions](https://www.mongodb.com/docs/manual/data-modeling/design-patterns/data-versioning/schema-versioning/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Operations Checklist for Self-Managed Deployments](https://www.mongodb.com/docs/manual/administration/production-checklist-operations/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Production Notes for Self-Managed Deployments](https://www.mongodb.com/docs/manual/administration/production-notes/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Production Notes: use trusted networking environments](https://www.mongodb.com/docs/manual/administration/production-notes/#use-trusted-networking-environments) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Retryable Writes: retryable write operations](https://www.mongodb.com/docs/manual/core/retryable-writes/#retryable-write-operations) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Rollbacks During Replica Set Failover: avoid replica set rollbacks](https://www.mongodb.com/docs/manual/core/replica-set-rollbacks/#avoid-replica-set-rollbacks) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Schema Validation](https://www.mongodb.com/docs/manual/core/schema-validation/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Security Checklist: configure role-based access control](https://www.mongodb.com/docs/manual/administration/security-checklist/#-configure-role-based-access-control) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Security Checklist: encrypt communication (TLS/SSL)](https://www.mongodb.com/docs/manual/administration/security-checklist/#-encrypt-communication-tlsssl) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Security Checklist: limit network exposure](https://www.mongodb.com/docs/manual/administration/security-checklist/#-limit-network-exposure) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Self-Managed Network and Configuration Hardening: IP binding](https://www.mongodb.com/docs/manual/core/security-hardening/#ip-binding) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Software Lifecycle Schedules](https://www.mongodb.com/legal/support-policy/lifecycles) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, The ESR (Equality, Sort, Range) Guideline](https://www.mongodb.com/docs/manual/tutorial/equality-sort-range-guideline/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Transactions](https://www.mongodb.com/docs/manual/core/transactions/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Versions and Upgrade Paths: before you upgrade](https://www.mongodb.com/docs/mongodb-versions/#before-you-upgrade) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Write Concern: implicit default write concern](https://www.mongodb.com/docs/manual/reference/write-concern/#implicit-default-write-concern) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Write Concern: read and write concern recommendations](https://www.mongodb.com/docs/manual/reference/write-concern/#read-and-write-concern-recommendations) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 7 | [Mozilla, Localization best practices for developers](https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [mypy, The mypy command line: --strict](https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-strict) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [mypy, Using mypy with an existing codebase](https://mypy.readthedocs.io/en/stable/existing_code.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1340,6 +1394,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP, GraphQL Cheat Sheet: Secure configurations](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#secure-configurations) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [OWASP, OAuth 2.0 Protocol Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP, Passkey Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP, SQL Injection Prevention Cheat Sheet: allow-list input validation](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#allow-list-input-validation) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [OWASP, SQL Injection Prevention Cheat Sheet: prepared statements with parameterized queries](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#defense-option-1-prepared-statements-with-parameterized-queries) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [Pact](https://docs.pact.io/) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Pact, can-i-deploy](https://docs.pact.io/pact_broker/can_i_deploy) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules](https://doi.org/10.1145/361598.361623) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -1409,6 +1465,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Python docs, Developing with asyncio: Running blocking code](https://docs.python.org/3/library/asyncio-dev.html#running-blocking-code) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Python docs, pickle: Python object serialization](https://docs.python.org/3/library/pickle.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Python docs, Security Considerations](https://docs.python.org/3/library/security_warnings.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Python docs, sqlite3: How to use placeholders to bind values in SQL queries](https://docs.python.org/3/library/sqlite3.html#sqlite3-placeholders) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [Python docs, subprocess: Security considerations](https://docs.python.org/3/library/subprocess.html#security-considerations) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Python docs, typing: Support for type hints](https://docs.python.org/3/library/typing.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Python docs, venv: Creation of virtual environments](https://docs.python.org/3/library/venv.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1496,6 +1553,27 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Software Engineering at Google, chapter 16: The One-Version Rule](https://abseil.io/resources/swe-book/html/ch16.html#the_quotation_markone_versionquotation) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, chapter 21: Dependency Management](https://abseil.io/resources/swe-book/html/ch21.html) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [SQLite, ALTER TABLE: making other kinds of table schema changes](https://www.sqlite.org/lang_altertable.html#making_other_kinds_of_table_schema_changes) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Appropriate Uses For SQLite: checklist for choosing the right database engine](https://www.sqlite.org/whentouse.html#checklist_for_choosing_the_right_database_engine) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Defense Against The Dark Arts: untrusted SQL inputs](https://www.sqlite.org/security.html#untrusted_sql_inputs) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Defense Against The Dark Arts: untrusted SQLite database files](https://www.sqlite.org/security.html#untrusted_sqlite_database_files) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Foreign Key Support: enabling foreign key support](https://www.sqlite.org/foreignkeys.html#fk_enable) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, How To Corrupt: backup or restore while a transaction is active](https://www.sqlite.org/howtocorrupt.html#_backup_or_restore_while_a_transaction_is_active) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, How To Corrupt: deleting a hot journal](https://www.sqlite.org/howtocorrupt.html#_deleting_a_hot_journal) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, How To Corrupt: disabling sync using pragmas](https://www.sqlite.org/howtocorrupt.html#_disabling_sync_using_pragmas) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, How To Corrupt: filesystems with broken or missing lock implementations](https://www.sqlite.org/howtocorrupt.html#_filesystems_with_broken_or_missing_lock_implementations) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, PRAGMA foreign_keys](https://www.sqlite.org/pragma.html#pragma_foreign_keys) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, PRAGMA integrity_check](https://www.sqlite.org/pragma.html#pragma_integrity_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, PRAGMA synchronous](https://www.sqlite.org/pragma.html#pragma_synchronous) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, PRAGMA trusted_schema](https://www.sqlite.org/pragma.html#pragma_trusted_schema) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Quirks, Caveats, and Gotchas In SQLite](https://www.sqlite.org/quirks.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, SQLite Backup API](https://www.sqlite.org/backup.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, STRICT Tables](https://www.sqlite.org/stricttables.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Transaction: DEFERRED, IMMEDIATE, and EXCLUSIVE transactions](https://www.sqlite.org/lang_transaction.html#deferred_immediate_and_exclusive_transactions) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Transaction: read transactions versus write transactions](https://www.sqlite.org/lang_transaction.html#read_transactions_versus_write_transactions) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, VACUUM with an INTO clause](https://www.sqlite.org/lang_vacuum.html#vacuum_with_an_into_clause) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Write-Ahead Logging](https://www.sqlite.org/wal.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Write-Ahead Logging: overview](https://www.sqlite.org/wal.html#overview) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [Steamworks, Authentication using Web API Keys: publisher keys](https://partner.steamgames.com/doc/webapi_overview/auth#publisher-keys) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Steamworks, Builds: authorizing default build updates](https://partner.steamgames.com/doc/store/application/builds#Authorizing_Default_Build_Updates) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Steamworks, Compatibility Review: requirements for Steam Deck and Steam Machine](https://partner.steamgames.com/doc/steamhardware/compat#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
@@ -1909,7 +1987,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Cloudflare, Workers Logs: limits](https://developers.cloudflare.com/workers/observability/logs/workers-logs/#limits) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Cloudflare, Wrangler configuration: source of truth](https://developers.cloudflare.com/workers/wrangler/configuration/#source-of-truth) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [CodeQL, Database query built from user-controlled sources (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-sql-injection/) | [specific/mongodb](specific/mongodb/README.md), [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [CodeQL, NoSQL Injection (Python)](https://codeql.github.com/codeql-query-help/python/py-nosql-injection/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 6 | [CodeQL, Sensitive server cookie exposed to the client (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-client-exposed-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 6 | [CodeQL, SQL query built from user-controlled sources (Python)](https://codeql.github.com/codeql-query-help/python/py-sql-injection/) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [commitlint, Guide: CI setup](https://commitlint.js.org/guides/ci-setup) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Confluent Developer, Apache Kafka 101](https://developer.confluent.io/courses/apache-kafka/events/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Confluent Developer, Dead Letter Stream](https://developer.confluent.io/patterns/event-processing/dead-letter-stream/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -2011,6 +2092,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Offline-first support](https://docs.flutter.dev/app-architecture/design-patterns/offline-first) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
+| 6 | [Flutter, Persist data with SQLite](https://docs.flutter.dev/cookbook/persistence/sqlite) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [Flutter, Result pattern](https://docs.flutter.dev/app-architecture/design-patterns/result) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Ford and Richards, Software Architecture: The Hard Parts and other books](https://www.developertoarchitect.com/books.html) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -2289,6 +2371,23 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Mock Service Worker, listen(): onUnhandledFrame](https://mswjs.io/api/setup-server/listen#onunhandledframe) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Modular Monolith with DDD reference implementation](https://github.com/kgrzybek/modular-monolith-with-ddd) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [Modularizing React Applications with Established UI Patterns](https://martinfowler.com/articles/modularizing-react-apps.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [MongoDB Atlas, Configure Additional Settings: allow server-side JavaScript](https://www.mongodb.com/docs/atlas/cluster-additional-settings/#allow-server-side-javascript) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB Atlas, Monitor and Improve Slow Queries with the Performance Advisor](https://www.mongodb.com/docs/atlas/performance-advisor/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Bloated Documents](https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/bloated-documents/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Designing Your Schema](https://www.mongodb.com/docs/manual/data-modeling/schema-design-process/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Development Checklist: replication](https://www.mongodb.com/docs/manual/administration/production-checklist-development/#replication) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Development Checklist: sharding](https://www.mongodb.com/docs/manual/administration/production-checklist-development/#sharding) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, FAQ: How does MongoDB address SQL or query injection?](https://www.mongodb.com/docs/manual/faq/fundamentals/#how-does-mongodb-address-sql-or-query-injection) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Operations Checklist: backups](https://www.mongodb.com/docs/manual/administration/production-checklist-operations/#backups) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Remove Unnecessary Indexes](https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/unnecessary-indexes/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Security Checklist: run MongoDB with secure configuration options](https://www.mongodb.com/docs/manual/administration/security-checklist/#-run-mongodb-with-secure-configuration-options) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Server Parameters: notablescan](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.notablescan) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Server-side JavaScript: disable server-side JavaScript](https://www.mongodb.com/docs/manual/core/server-side-javascript/#disable-server-side-javascript) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Specify JSON Schema Validation](https://www.mongodb.com/docs/manual/core/schema-validation/specify-json-schema/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Stable API: create a strict client](https://www.mongodb.com/docs/manual/reference/stable-api/#create-a-strict-client) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Transactions Production Considerations: runtime limit](https://www.mongodb.com/docs/manual/core/transactions-production-consideration/#runtime-limit) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [MongoDB, Versions and Upgrade Paths: feature compatibility version](https://www.mongodb.com/docs/mongodb-versions/#feature-compatibility-version) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 6 | [Mongoose, Mongoose.prototype.sanitizeFilter()](https://mongoosejs.com/docs/api/mongoose.html#Mongoose.prototype.sanitizeFilter%28%29) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 6 | [monorepo.tools, What is a monorepo?](https://monorepo.tools/#what-is-a-monorepo) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Mozilla, eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Mozilla, Localization best practices for developers: add localization notes](https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html#add-localization-notes) | [general/localization](general/localization.md) | 2026-10-26 |
@@ -2372,6 +2471,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Playwright, Trace viewer: Tracing on CI](https://playwright.dev/docs/trace-viewer#tracing-on-ci) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [pnpm, Workspace](https://pnpm.io/workspaces) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Poki for Developers, Choosing your web game engine](https://developers.poki.com/guide/web-engine) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [PortSwigger Web Security Academy, NoSQL injection](https://portswigger.net/web-security/nosql-injection) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 6 | [PostgreSQL wiki, Number Of Database Connections](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -2426,6 +2526,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [RenderDoc, FAQ](https://renderdoc.org/docs/getting_started/faq.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Reproducible Builds, Definitions](https://reproducible-builds.org/docs/definition/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Ruff, asyncio-dangling-task (RUF006)](https://docs.astral.sh/ruff/rules/asyncio-dangling-task/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Ruff, hardcoded-sql-expression (S608)](https://docs.astral.sh/ruff/rules/hardcoded-sql-expression/) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [Ruff, Rules: flake8-async (ASYNC)](https://docs.astral.sh/ruff/rules/#flake8-async-async) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, Rules: flake8-bandit (S)](https://docs.astral.sh/ruff/rules/#flake8-bandit-s) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, The Ruff Formatter](https://docs.astral.sh/ruff/formatter/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -2439,6 +2540,25 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Shader Graph 17.6, Introduction to keywords](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.6/manual/Keywords-concepts.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Shopify, Tutorial: Designing a GraphQL API](https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 6 | [SQLite, Binding Values To Prepared Statements](https://www.sqlite.org/c3ref/bind_blob.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, Database Remote-Copy Tool For SQLite (sqlite3_rsync)](https://www.sqlite.org/rsync.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, EXPLAIN QUERY PLAN](https://www.sqlite.org/eqp.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, FAQ (19): INSERT is really slow](https://www.sqlite.org/faq.html#q19) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, FAQ (5): multiple applications accessing one database file](https://www.sqlite.org/faq.html#q5) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, Foreign Key Support: required and suggested database indexes](https://www.sqlite.org/foreignkeys.html#fk_indexes) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, PRAGMA busy_timeout](https://www.sqlite.org/pragma.html#pragma_busy_timeout) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, PRAGMA foreign_key_check](https://www.sqlite.org/pragma.html#pragma_foreign_key_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, PRAGMA optimize](https://www.sqlite.org/pragma.html#pragma_optimize) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, PRAGMA quick_check](https://www.sqlite.org/pragma.html#pragma_quick_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, PRAGMA user_version](https://www.sqlite.org/pragma.html#pragma_user_version) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, Query Planning](https://www.sqlite.org/queryplanner.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, Quirks: flexible typing](https://www.sqlite.org/quirks.html#flexible_typing) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, Register A Callback To Handle SQLITE_BUSY Errors](https://www.sqlite.org/c3ref/busy_handler.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, SQLite As An Application File Format](https://www.sqlite.org/appfileformat.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, SQLite Over a Network, Caveats and Considerations](https://www.sqlite.org/useovernet.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, SQLITE_DBCONFIG_DEFENSIVE](https://www.sqlite.org/c3ref/c_dbconfig_defensive.html#sqlitedbconfigdefensive) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, STRICT Tables: backwards compatibility](https://www.sqlite.org/stricttables.html#backwards_compatibility) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [SQLite, Write-Ahead Logging: the WAL file](https://www.sqlite.org/wal.html#the_wal_file) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [Squawk, Applying migrations safely](https://squawkhq.com/docs/safe_migrations) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Squawk, Rules overview](https://squawkhq.com/docs/rules) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Staticcheck, Checks](https://staticcheck.dev/docs/checks/) | [specific/go](specific/go/README.md) | 2026-11-01 |
@@ -2645,7 +2765,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-315 sources.
+323 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2693,8 +2813,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Checkov, Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Clean Architecture template (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 5 | [CodeQL, clear-text logging of sensitive data (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-clear-text-logging/) | [general/security](general/security.md) | 2026-10-25 |
+| 5 | [CodeQL, Database query built from user-controlled sources (Swift)](https://codeql.github.com/codeql-query-help/swift/swift-sql-injection/) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [CodeQL, Failure to use secure cookies (Java)](https://codeql.github.com/codeql-query-help/java/java-insecure-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [CodeQL, Failure to use secure cookies (Python)](https://codeql.github.com/codeql-query-help/python/py-insecure-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 5 | [CodeQL, Query built from user-controlled sources (Java and Kotlin)](https://codeql.github.com/codeql-query-help/java/java-sql-injection/) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [CodeQL, Use of a broken or weak cryptographic hashing algorithm on sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-weak-sensitive-data-hashing/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [CodeQL, Use of password hash with insufficient computational effort (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-insufficient-password-hash/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [Confluent, Schema Registry for Confluent Platform: license](https://docs.confluent.io/platform/current/schema-registry/index.html#cp-license) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -2882,6 +3004,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Semgrep, angular-bypasssecuritytrust rule](https://github.com/semgrep/semgrep-rules/blob/develop/typescript/angular/security/audit/angular-domsanitizer.yaml) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Spring for Apache Kafka, Non-blocking retries: how the pattern works](https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 5 | [SQLite Wasm, Persistent Storage Options](https://sqlite.org/wasm/doc/trunk/persistence.md) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 5 | [SQLite, Atomic Commit In SQLite](https://www.sqlite.org/atomiccommit.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 5 | [SQLite, PRAGMA cell_size_check](https://www.sqlite.org/pragma.html#pragma_cell_size_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 5 | [SQLite, PRAGMA mmap_size](https://www.sqlite.org/pragma.html#pragma_mmap_size) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 5 | [SQLite, SQLite As An Application File Format: security considerations](https://www.sqlite.org/appfileformat.html#security_considerations) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [Squawk, ban-char-field](https://squawkhq.com/docs/ban-char-field) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, ban-concurrent-index-creation-in-transaction](https://squawkhq.com/docs/ban-concurrent-index-creation-in-transaction) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, constraint-missing-not-valid](https://squawkhq.com/docs/constraint-missing-not-valid) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
@@ -2955,6 +3082,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [poutine, injection rule (Rego source)](https://github.com/boostsecurityio/poutine/blob/main/opa/rego/rules/injection.rego) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 4 | [Privado, open-source data flow scanner for personal data](https://github.com/Privado-Inc/privado) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 4 | [Semgrep, mongodb-nosqli rule (Java)](https://github.com/semgrep/semgrep-rules/blob/develop/java/mongodb/security/injection/audit/mongodb-nosqli.yaml) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 4 | [Sherif, README](https://github.com/QuiiBz/sherif/blob/main/README.md) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [SwiftLint, accessibility_label_for_image rule](https://realm.github.io/SwiftLint/accessibility_label_for_image.html) | [specific/ios](specific/ios/README.md) | 2026-11-01 |

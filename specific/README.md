@@ -34,6 +34,8 @@ One folder per platform or service. Each folder adopts the platform's official g
 ### Data and messaging
 
 - [PostgreSQL](postgres/README.md): schema design, indexing, migrations, pooling, backups and access for PostgreSQL.
+- [MongoDB](mongodb/README.md): schema design, indexes, write and read concerns, connections, security, backups and upgrades for MongoDB and MongoDB Atlas.
+- [SQLite](sqlite/README.md): choosing SQLite, connection settings, WAL and concurrency, migrations, safe backups and copies, and untrusted database files for embedded SQLite, including game saves.
 - [Redis and caching](redis/README.md): caching patterns, keys and commands, security and persistence for Redis and Valkey.
 - [Firebase](firebase/README.md): Security Rules, App Check, API keys, environments, Firestore data and cost, Cloud Functions, budgets and consent, for apps and games that call Firebase directly.
 - [Supabase](supabase/README.md): Row Level Security and grants, API keys, Storage, Edge Functions, migrations, connections, backups and Auth settings, for apps and games that call Supabase directly.

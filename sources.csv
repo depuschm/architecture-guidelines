@@ -588,24 +588,39 @@ score,title,url,verified
 7,"GitLab Docs, workflow keyword: Switch between branch pipelines and merge request pipelines",https://docs.gitlab.com/ci/yaml/workflow/#switch-between-branch-pipelines-and-merge-request-pipelines,2026-10-25
 7,"Godot blog, UID changes coming to Godot 4.4",https://godotengine.org/article/uid-changes-coming-to-godot-4-4/,2026-10-25
 7,"Godot docs, Autoloads versus regular nodes",https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html,2026-10-25
+7,"Godot docs, Background loading",https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html,2026-11-01
+7,"Godot docs, C# basics",https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/c_sharp_basics.html,2026-11-01
 7,"Godot docs, Command line tutorial",https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html,2026-10-25
+7,"Godot docs, CPU optimization",https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html,2026-11-01
+7,"Godot docs, Debugger panel",https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html,2026-11-01
+7,"Godot docs, Exporting projects",https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html,2026-11-01
 7,"Godot docs, File paths in Godot projects",https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html,2026-10-25
 7,"Godot docs, GDScript warning system",https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html,2026-10-25
 7,"Godot docs, General optimization tips",https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html,2026-10-25
 7,"Godot docs, Godot interfaces",https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html,2026-10-25
 7,"Godot docs, Godot notifications",https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html,2026-10-25
+7,"Godot docs, GPU optimization",https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html,2026-11-01
 7,"Godot docs, GPU optimization: reuse shaders and materials",https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html#reuse-shaders-and-materials,2026-10-31
+7,"Godot docs, High-level multiplayer",https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html,2026-11-01
+7,"Godot docs, High-level multiplayer: secure multiplayer design",https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#secure-multiplayer-design,2026-11-01
+7,"Godot docs, Import configuration (3D scenes)",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html,2026-11-01
 7,"Godot docs, Import process",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html,2026-10-25
 7,"Godot docs, Internationalizing games",https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html,2026-10-26
 7,"Godot docs, Mesh level of detail (LOD)",https://docs.godotengine.org/en/stable/tutorials/3d/mesh_lod.html,2026-10-31
+7,"Godot docs, Optimization using Servers",https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html,2026-11-01
+7,"Godot docs, Optimizing 3D performance",https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html,2026-11-01
 7,"Godot docs, Overview of renderers",https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html,2026-10-31
 7,"Godot docs, Project organization",https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html,2026-10-25
 7,"Godot docs, Reducing stutter from shader (pipeline) compilations",https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html,2026-10-31
 7,"Godot docs, Resources",https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html,2026-10-25
 7,"Godot docs, Saving games",https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html,2026-10-25
 7,"Godot docs, Scene unique nodes",https://docs.godotengine.org/en/stable/tutorials/scripting/scene_unique_nodes.html,2026-10-25
+7,"Godot docs, Scripting languages",https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_languages.html,2026-11-01
 7,"Godot docs, Static typing in GDScript",https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html,2026-10-25
 7,"Godot docs, Step by step",https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html,2026-10-25
+7,"Godot docs, The Profiler",https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html,2026-11-01
+7,"Godot docs, Thread-safe APIs",https://docs.godotengine.org/en/stable/tutorials/performance/thread_safe_apis.html,2026-11-01
+7,"Godot docs, Using InputEvent",https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html,2026-11-01
 7,"Godot docs, Using physics interpolation",https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html,2026-10-25
 7,"Godot docs, Using signals",https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html,2026-10-25
 7,"Godot docs, Version control systems",https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html,2026-10-25
@@ -1377,6 +1392,8 @@ score,title,url,verified
 6,"Gaffer On Games (Fiedler), What every programmer needs to know about game networking",https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/,2026-10-25
 6,"Game Accessibility Guidelines, Use an easily readable default font size",https://gameaccessibilityguidelines.com/use-an-easily-readable-default-font-size/,2026-10-26
 6,"Game Accessibility Guidelines, Use simple clear language",https://gameaccessibilityguidelines.com/use-simple-clear-language/,2026-10-26
+6,"GDQuest, Make a Finite State Machine in Godot 4",https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/,2026-11-01
+6,"gdUnit4, Documentation",https://godot-gdunit-labs.github.io/gdUnit4/latest/,2026-11-01
 6,"Git LFS wiki, File Locking",https://github.com/git-lfs/git-lfs/wiki/File-Locking,2026-10-25
 6,"GitHub Docs, Managing a merge queue",https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue,2026-10-25
 6,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input",https://securitylab.github.com/resources/github-actions-untrusted-input/,2026-10-25
@@ -1414,15 +1431,35 @@ score,title,url,verified
 6,"GitLab Docs, Tutorial: Create and run your first GitLab CI/CD pipeline",https://docs.gitlab.com/ci/quick_start/,2026-10-25
 6,Gitleaks,https://github.com/gitleaks/gitleaks,2026-10-25
 6,"Godot class reference, FileAccess.get_var",https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var,2026-10-25
+6,"Godot class reference, Object",https://docs.godotengine.org/en/stable/classes/class_object.html#description,2026-11-01
 6,"Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration",https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration,2026-10-25
 6,"Godot class reference, Resource.resource_local_to_scene",https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene,2026-10-25
+6,"Godot docs, About godot-cpp",https://docs.godotengine.org/en/stable/tutorials/scripting/cpp/about_godot_cpp.html,2026-11-01
+6,"Godot docs, CPU optimization: languages",https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#languages,2026-11-01
+6,"Godot docs, CPU optimization: SceneTree",https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#scenetree,2026-11-01
+6,"Godot docs, Exporting packs, patches, and mods",https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html,2026-11-01
+6,"Godot docs, Exporting projects: configuration files",https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#configuration-files,2026-11-01
+6,"Godot docs, Exporting projects: exporting from the command line",https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#exporting-from-the-command-line,2026-11-01
+6,"Godot docs, Exporting projects: resource options",https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#resource-options,2026-11-01
+6,"Godot docs, Feature tags",https://docs.godotengine.org/en/stable/tutorials/export/feature_tags.html,2026-11-01
+6,"Godot docs, File system: drawbacks",https://docs.godotengine.org/en/stable/tutorials/scripting/filesystem.html#drawbacks,2026-11-01
+6,"Godot docs, Import configuration: scene inheritance",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#scene-inheritance,2026-11-01
+6,"Godot docs, Importing images: compress mode",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html#compress-mode,2026-11-01
 6,"Godot docs, Localization using gettext (PO files)",https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html,2026-10-26
+6,"Godot docs, Logic preferences: loading vs. preloading",https://docs.godotengine.org/en/stable/tutorials/best_practices/logic_preferences.html#loading-vs-preloading,2026-11-01
+6,"Godot docs, Making plugins",https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html,2026-11-01
+6,"Godot docs, Multiple resolutions: common use case scenarios",https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html#common-use-case-scenarios,2026-11-01
 6,"Godot docs, Optimizing 3D performance: instancing",https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#use-manual-instancing-multimesh,2026-10-31
 6,"Godot docs, Optimizing 3D performance: level of detail",https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#level-of-detail-lod,2026-10-31
 6,"Godot docs, Pseudolocalization",https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html,2026-10-26
 6,"Godot docs, Shading language: global uniforms",https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#global-uniforms,2026-10-31
 6,"Godot docs, Shading language: per-instance uniforms",https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#per-instance-uniforms,2026-10-31
+6,"Godot docs, TSCN file format",https://docs.godotengine.org/en/stable/engine_details/file_formats/tscn.html,2026-11-01
+6,"Godot docs, Using Containers",https://docs.godotengine.org/en/stable/tutorials/ui/gui_containers.html,2026-11-01
+6,"Godot docs, Using multiple threads",https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html,2026-11-01
+6,"Godot docs, Version control systems: Git LFS",https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#git-lfs,2026-11-01
 6,"Godot docs, Your first 3D game",https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html,2026-10-25
+6,"Godot Foundation, Godot demo projects",https://github.com/godotengine/godot-demo-projects,2026-11-01
 6,Google Cloud API design guide,https://docs.cloud.google.com/apis/design,2026-10-24
 6,"Google Cloud, Architecting disaster recovery for cloud infrastructure outages",https://docs.cloud.google.com/architecture/disaster-recovery,2026-10-25
 6,"Google Cloud, Best practices for enabling VPC Service Controls",https://docs.cloud.google.com/vpc-service-controls/docs/enable,2026-10-25
@@ -1455,6 +1492,7 @@ score,title,url,verified
 6,"GraphQL Yoga, Persisted Operations",https://the-guild.dev/graphql/yoga-server/docs/features/persisted-operations,2026-10-25
 6,"GraphQL Yoga, Preparing for Production",https://the-guild.dev/graphql/yoga-server/docs/prepare-for-production,2026-10-25
 6,gRPC guides,https://grpc.io/docs/guides/,2026-10-24
+6,"GUT, Documentation",https://gut.readthedocs.io/en/latest/,2026-11-01
 6,"Hadolint, Dockerfile linter",https://github.com/hadolint/hadolint,2026-10-25
 6,"HashiCorp, HCP Terraform policy enforcement overview",https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement,2026-10-25
 6,"HashiCorp, Health assessments in HCP Terraform",https://developer.hashicorp.com/terraform/cloud-docs/workspaces/health,2026-10-25
@@ -1856,6 +1894,12 @@ score,title,url,verified
 5,"gdtoolkit, README (gdformat and CI usage)",https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md,2026-10-25
 5,"gdUnit4, Command line tool",https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/,2026-10-25
 5,"gdUnit4, Continuous integration",https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/ci/,2026-10-25
+5,"gdUnit4, Integration testing",https://godot-gdunit-labs.github.io/gdUnit4/latest/testing/integration-testing/,2026-11-01
+5,"gdUnit4, Mocking",https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/mock/,2026-11-01
+5,"gdUnit4, Orphan nodes",https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/orphan/,2026-11-01
+5,"gdUnit4, Problems and solutions: export failures with the plugin installed",https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/solutions/#export-failures-with-gdunit4-plugin-installed,2026-11-01
+5,"gdUnit4, Scene Runner",https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/sceneRunner/,2026-11-01
+5,"gdUnit4, Unit testing",https://godot-gdunit-labs.github.io/gdUnit4/latest/testing/unit-testing/,2026-11-01
 5,"GitHub Docs, Automatically generated release notes",https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes,2026-10-25
 5,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 3: How to trust your building blocks",https://securitylab.github.com/resources/github-actions-building-blocks/,2026-10-25
 5,"GitHub, creating diagrams",https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-10-24
@@ -1864,9 +1908,22 @@ score,title,url,verified
 5,"GitLab Docs, CI Lint API",https://docs.gitlab.com/api/lint/,2026-10-25
 5,"GitLab Docs, glab ci lint",https://docs.gitlab.com/cli/ci/lint/,2026-10-25
 5,"GitLab Docs, Improving monorepo performance",https://docs.gitlab.com/user/project/repository/monorepos/,2026-10-25
+5,"Godot blog, Multiplayer in Godot 4.0: Scene Replication",https://godotengine.org/article/multiplayer-in-godot-4-0-scene-replication/,2026-11-01
+5,"Godot class reference, InputMap",https://docs.godotengine.org/en/stable/classes/class_inputmap.html,2026-11-01
+5,"Godot class reference, MultiplayerSpawner",https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html,2026-11-01
+5,"Godot class reference, MultiplayerSynchronizer",https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html,2026-11-01
+5,"Godot class reference, Node.queue_free",https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-queue-free,2026-11-01
+5,"Godot class reference, Node.remove_child",https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-remove-child,2026-11-01
+5,"Godot class reference, Performance OBJECT_ORPHAN_NODE_COUNT",https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-object-orphan-node-count,2026-11-01
 5,"Godot class reference, Performance pipeline compilation monitors",https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-pipeline-compilations-draw,2026-10-31
+5,"Godot class reference, ProjectSettings editor/export/convert_text_resources_to_binary",https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-editor-export-convert-text-resources-to-binary,2026-11-01
 5,"Godot class reference, ProjectSettings rendering/renderer/rendering_method.mobile",https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-rendering-renderer-rendering-method-mobile,2026-10-31
+5,"Godot docs, Exporting for Android: environment variables",https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html#environment-variables,2026-11-01
+5,"Godot docs, Import process: changing default import parameters",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html#changing-default-import-parameters,2026-11-01
+5,"Godot docs, Importing images: Detect 3D",https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html#detect-3d,2026-11-01
+5,"Godot docs, Installing plugins",https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html,2026-11-01
 5,"Godot docs, Optimization using MultiMeshes",https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html,2026-10-31
+5,"Godot docs, Overview of debugging tools: Deploy with Remote Debug",https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html#deploy-with-remote-debug,2026-11-01
 5,"Godot docs, Resolving crashes on Android",https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html,2026-10-25
 5,"Godot docs, TranslationServer class reference",https://docs.godotengine.org/en/stable/classes/class_translationserver.html,2026-10-26
 5,"Google API Linter, core::0121::resource-must-support-get",https://linter.aip.dev/121/resource-must-support-get,2026-10-25
@@ -1885,6 +1942,8 @@ score,title,url,verified
 5,"GraphQL ESLint, relay-connection-types",https://the-guild.dev/graphql/eslint/rules/relay-connection-types,2026-10-25
 5,"GraphQL Yoga, CSRF Prevention",https://the-guild.dev/graphql/yoga-server/docs/features/csrf-prevention,2026-10-25
 5,"GUT, Command line",https://gut.readthedocs.io/en/latest/Command-Line.html,2026-10-25
+5,"GUT, Doubles",https://gut.readthedocs.io/en/latest/Doubles.html,2026-11-01
+5,"GUT, Memory Management: testing for leaks",https://gut.readthedocs.io/en/latest/Memory-Management.html#testing-for-leaks,2026-11-01
 5,"Hadolint, DL3002: last user should not be root",https://github.com/hadolint/hadolint/wiki/DL3002,2026-10-25
 5,"Hadolint, DL3006: always tag the version of an image explicitly",https://github.com/hadolint/hadolint/wiki/DL3006,2026-10-25
 5,"Hadolint, DL3007: don't use the latest tag",https://github.com/hadolint/hadolint/wiki/DL3007,2026-10-25
@@ -2011,6 +2070,9 @@ score,title,url,verified
 4,"Gatekeeper library, disallowed tags",https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/,2026-10-25
 4,"Gatekeeper library, required probes",https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/,2026-10-25
 4,"GUT, Export test results",https://gut.readthedocs.io/en/latest/Export-Test-Results.html,2026-10-25
+4,"GUT, Install",https://gut.readthedocs.io/en/latest/Install.html,2026-11-01
+4,"GUT, Mocking Input",https://gut.readthedocs.io/en/latest/Mocking-Input.html,2026-11-01
+4,"GUT, Simulate",https://gut.readthedocs.io/en/latest/Simulate.html,2026-11-01
 4,Module Graph Assert (Gradle plugin),https://github.com/jraska/modules-graph-assert,2026-10-25
 4,"poutine, injection rule (Rego source)",https://github.com/boostsecurityio/poutine/blob/main/opa/rego/rules/injection.rego,2026-10-25
 4,"Privado, open-source data flow scanner for personal data",https://github.com/Privado-Inc/privado,2026-10-26

@@ -20,7 +20,7 @@ Then read the engine's guidelines:
 | Engine | Detect by | Read |
 | --- | --- | --- |
 | Unity | `ProjectSettings/ProjectVersion.txt`, `Assets/` with `.meta` files | `<root>/specific/unity/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
-| Godot | `project.godot` | `<root>/specific/godot/README.md` |
+| Godot | `project.godot` | `<root>/specific/godot/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Unreal Engine | a `.uproject` file | `<root>/specific/unreal/README.md`, `project-structure.md`, `code-architecture.md`, `content-and-performance.md`, `rendering.md` and `testing.md` |
 | Custom engine or framework | a game loop in your own code, for example on SDL, raylib, MonoGame or Bevy | the game development file only |
 

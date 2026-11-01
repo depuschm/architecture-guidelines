@@ -100,7 +100,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1707 sources.
+1745 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -172,8 +172,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [GitLab Docs, Deployment safety](https://docs.gitlab.com/ci/environments/deployment_safety/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Pipeline security](https://docs.gitlab.com/ci/pipeline_security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Security for self-managed runners](https://docs.gitlab.com/runner/security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
-| 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md), [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
 | 8 | [Google Cloud, Best practices for using service accounts securely](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 8 | [Google Cloud, Best practices for using Terraform: general style and structure](https://docs.cloud.google.com/docs/terraform/best-practices/general-style-structure) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [Google Cloud, Landing zone design in Google Cloud](https://docs.cloud.google.com/architecture/landing-zones) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -605,32 +605,47 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GitLab Docs, Troubleshooting CI/CD variables: Enable debug logging](https://docs.gitlab.com/ci/variables/variables_troubleshooting/#enable-debug-logging) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 7 | [GitLab Docs, Validate GitLab CI/CD configuration (CI Lint)](https://docs.gitlab.com/ci/yaml/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 7 | [GitLab Docs, workflow keyword: Switch between branch pipelines and merge request pipelines](https://docs.gitlab.com/ci/yaml/workflow/#switch-between-branch-pipelines-and-merge-request-pipelines) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
-| 7 | [Godot blog, UID changes coming to Godot 4.4](https://godotengine.org/article/uid-changes-coming-to-godot-4-4/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Autoloads versus regular nodes](https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Command line tutorial](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) | [specific/gamedev](specific/gamedev/README.md), [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Godot interfaces](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, GPU optimization: reuse shaders and materials](https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html#reuse-shaders-and-materials) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 7 | [Godot docs, Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
-| 7 | [Godot docs, Mesh level of detail (LOD)](https://docs.godotengine.org/en/stable/tutorials/3d/mesh_lod.html) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 7 | [Godot docs, Overview of renderers](https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html) | [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
-| 7 | [Godot docs, Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Reducing stutter from shader (pipeline) compilations](https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html) | [specific/godot](specific/godot/README.md), [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
-| 7 | [Godot docs, Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Saving games](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Scene unique nodes](https://docs.godotengine.org/en/stable/tutorials/scripting/scene_unique_nodes.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot blog, UID changes coming to Godot 4.4](https://godotengine.org/article/uid-changes-coming-to-godot-4-4/) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-10-25 |
+| 7 | [Godot docs, Autoloads versus regular nodes](https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, Background loading](https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 7 | [Godot docs, C# basics](https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/c_sharp_basics.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, Command line tutorial](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
+| 7 | [Godot docs, CPU optimization](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 7 | [Godot docs, Debugger panel](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting projects](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
+| 7 | [Godot docs, GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) | [specific/gamedev](specific/gamedev/README.md), [specific/godot/content-and-performance](specific/godot/content-and-performance.md), [specific/graphics](specific/graphics/README.md) | 2026-10-25 |
+| 7 | [Godot docs, Godot interfaces](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md), [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
+| 7 | [Godot docs, Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, GPU optimization](https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-11-01 |
+| 7 | [Godot docs, GPU optimization: reuse shaders and materials](https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html#reuse-shaders-and-materials) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 7 | [Godot docs, High-level multiplayer](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, High-level multiplayer: secure multiplayer design](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#secure-multiplayer-design) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, Import configuration (3D scenes)](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 7 | [Godot docs, Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md), [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-10-25 |
+| 7 | [Godot docs, Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
+| 7 | [Godot docs, Mesh level of detail (LOD)](https://docs.godotengine.org/en/stable/tutorials/3d/mesh_lod.html) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 7 | [Godot docs, Optimization using Servers](https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, Optimizing 3D performance](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-11-01 |
+| 7 | [Godot docs, Overview of renderers](https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html) | [specific/godot/rendering](specific/godot/rendering.md), [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Godot docs, Project organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-10-25 |
+| 7 | [Godot docs, Reducing stutter from shader (pipeline) compilations](https://docs.godotengine.org/en/stable/tutorials/performance/pipeline_compilations.html) | [specific/godot/rendering](specific/godot/rendering.md), [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Godot docs, Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
+| 7 | [Godot docs, Saving games](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
+| 7 | [Godot docs, Scene unique nodes](https://docs.godotengine.org/en/stable/tutorials/scripting/scene_unique_nodes.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, Scripting languages](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_languages.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 7 | [Godot docs, Step by step](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Using physics interpolation](https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Using signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, Visibility ranges (HLOD)](https://docs.godotengine.org/en/stable/tutorials/3d/visibility_ranges.html) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 7 | [Godot docs, When and how to avoid using nodes for everything](https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 7 | [Godot docs, When to use scenes versus scripts](https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 7 | [Godot docs, The Profiler](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 7 | [Godot docs, Thread-safe APIs](https://docs.godotengine.org/en/stable/tutorials/performance/thread_safe_apis.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, Using InputEvent](https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, Using physics interpolation](https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/using_physics_interpolation.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, Using signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, Version control systems](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-10-25 |
+| 7 | [Godot docs, Visibility ranges (HLOD)](https://docs.godotengine.org/en/stable/tutorials/3d/visibility_ranges.html) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 7 | [Godot docs, When and how to avoid using nodes for everything](https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 7 | [Godot docs, When to use scenes versus scripts](https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 7 | [Godot docs, Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 7 | [Google API Linter](https://linter.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 7 | [Google Cloud, Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -1396,6 +1411,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Gaffer On Games (Fiedler), What every programmer needs to know about game networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Game Accessibility Guidelines, Use an easily readable default font size](https://gameaccessibilityguidelines.com/use-an-easily-readable-default-font-size/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Game Accessibility Guidelines, Use simple clear language](https://gameaccessibilityguidelines.com/use-simple-clear-language/) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [GDQuest, Make a Finite State Machine in Godot 4](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 6 | [gdUnit4, Documentation](https://godot-gdunit-labs.github.io/gdUnit4/latest/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 6 | [Git LFS wiki, File Locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [GitHub Docs, Managing a merge queue](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/resources/github-actions-untrusted-input/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -1432,16 +1449,36 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitLab Docs, Tutorial: Create a complex pipeline](https://docs.gitlab.com/ci/quick_start/tutorial/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 6 | [GitLab Docs, Tutorial: Create and run your first GitLab CI/CD pipeline](https://docs.gitlab.com/ci/quick_start/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 6 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [general/security](general/security.md) | 2026-10-25 |
-| 6 | [Godot class reference, FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 6 | [Godot class reference, Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 6 | [Godot docs, Localization using gettext (PO files)](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
-| 6 | [Godot docs, Optimizing 3D performance: instancing](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#use-manual-instancing-multimesh) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 6 | [Godot docs, Optimizing 3D performance: level of detail](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#level-of-detail-lod) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 6 | [Godot docs, Pseudolocalization](https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
-| 6 | [Godot docs, Shading language: global uniforms](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#global-uniforms) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 6 | [Godot docs, Shading language: per-instance uniforms](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#per-instance-uniforms) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 6 | [Godot class reference, FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
+| 6 | [Godot class reference, Object](https://docs.godotengine.org/en/stable/classes/class_object.html#description) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 6 | [Godot class reference, Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
+| 6 | [Godot docs, About godot-cpp](https://docs.godotengine.org/en/stable/tutorials/scripting/cpp/about_godot_cpp.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 6 | [Godot docs, CPU optimization: languages](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#languages) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 6 | [Godot docs, CPU optimization: SceneTree](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#scenetree) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting packs, patches, and mods](https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting projects: configuration files](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#configuration-files) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting projects: exporting from the command line](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#exporting-from-the-command-line) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 6 | [Godot docs, Exporting projects: resource options](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#resource-options) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 6 | [Godot docs, Feature tags](https://docs.godotengine.org/en/stable/tutorials/export/feature_tags.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 6 | [Godot docs, File system: drawbacks](https://docs.godotengine.org/en/stable/tutorials/scripting/filesystem.html#drawbacks) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 6 | [Godot docs, Import configuration: scene inheritance](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#scene-inheritance) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot docs, Importing images: compress mode](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html#compress-mode) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot docs, Localization using gettext (PO files)](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
+| 6 | [Godot docs, Logic preferences: loading vs. preloading](https://docs.godotengine.org/en/stable/tutorials/best_practices/logic_preferences.html#loading-vs-preloading) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 6 | [Godot docs, Making plugins](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 6 | [Godot docs, Multiple resolutions: common use case scenarios](https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html#common-use-case-scenarios) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 6 | [Godot docs, Optimizing 3D performance: instancing](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#use-manual-instancing-multimesh) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 6 | [Godot docs, Optimizing 3D performance: level of detail](https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html#level-of-detail-lod) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 6 | [Godot docs, Pseudolocalization](https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
+| 6 | [Godot docs, Shading language: global uniforms](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#global-uniforms) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 6 | [Godot docs, Shading language: per-instance uniforms](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#per-instance-uniforms) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 6 | [Godot docs, TSCN file format](https://docs.godotengine.org/en/stable/engine_details/file_formats/tscn.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 6 | [Godot docs, Using Containers](https://docs.godotengine.org/en/stable/tutorials/ui/gui_containers.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 6 | [Godot docs, Using multiple threads](https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 6 | [Godot docs, Version control systems: Git LFS](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#git-lfs) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 6 | [Godot Foundation, Godot demo projects](https://github.com/godotengine/godot-demo-projects) | [specific/godot](specific/godot/README.md) | 2026-11-01 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Google Cloud, Architecting disaster recovery for cloud infrastructure outages](https://docs.cloud.google.com/architecture/disaster-recovery) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Cloud, Best practices for enabling VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/enable) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -1474,6 +1511,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GraphQL Yoga, Persisted Operations](https://the-guild.dev/graphql/yoga-server/docs/features/persisted-operations) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL Yoga, Preparing for Production](https://the-guild.dev/graphql/yoga-server/docs/prepare-for-production) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [gRPC guides](https://grpc.io/docs/guides/) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 6 | [GUT, Documentation](https://gut.readthedocs.io/en/latest/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 6 | [Hadolint, Dockerfile linter](https://github.com/hadolint/hadolint) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, HCP Terraform policy enforcement overview](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, Health assessments in HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/health) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -1814,7 +1852,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-227 sources.
+251 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1878,10 +1916,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 5 | [GameCI, Unity Test Runner](https://game.ci/docs/github/test-runner/) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-25 |
-| 5 | [gdtoolkit, Linter (gdlint)](https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 5 | [gdtoolkit, README (gdformat and CI usage)](https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 5 | [gdUnit4, Command line tool](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
-| 5 | [gdUnit4, Continuous integration](https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/ci/) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [gdtoolkit, Linter (gdlint)](https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 5 | [gdtoolkit, README (gdformat and CI usage)](https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
+| 5 | [gdUnit4, Command line tool](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
+| 5 | [gdUnit4, Continuous integration](https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/ci/) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
+| 5 | [gdUnit4, Integration testing](https://godot-gdunit-labs.github.io/gdUnit4/latest/testing/integration-testing/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 5 | [gdUnit4, Mocking](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/mock/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 5 | [gdUnit4, Orphan nodes](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/orphan/) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 5 | [gdUnit4, Problems and solutions: export failures with the plugin installed](https://godot-gdunit-labs.github.io/gdUnit4/latest/faq/solutions/#export-failures-with-gdunit4-plugin-installed) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 5 | [gdUnit4, Scene Runner](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/sceneRunner/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 5 | [gdUnit4, Unit testing](https://godot-gdunit-labs.github.io/gdUnit4/latest/testing/unit-testing/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 5 | [GitHub Docs, Automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 3: How to trust your building blocks](https://securitylab.github.com/resources/github-actions-building-blocks/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 5 | [GitHub, creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) | [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -1890,11 +1934,24 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [GitLab Docs, CI Lint API](https://docs.gitlab.com/api/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, glab ci lint](https://docs.gitlab.com/cli/ci/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, Improving monorepo performance](https://docs.gitlab.com/user/project/repository/monorepos/) | [general/repositories](general/repositories.md) | 2026-10-25 |
-| 5 | [Godot class reference, Performance pipeline compilation monitors](https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-pipeline-compilations-draw) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 5 | [Godot class reference, ProjectSettings rendering/renderer/rendering_method.mobile](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-rendering-renderer-rendering-method-mobile) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
-| 5 | [Godot docs, Optimization using MultiMeshes](https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html) | [specific/godot](specific/godot/README.md) | 2026-10-31 |
+| 5 | [Godot blog, Multiplayer in Godot 4.0: Scene Replication](https://godotengine.org/article/multiplayer-in-godot-4-0-scene-replication/) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 5 | [Godot class reference, InputMap](https://docs.godotengine.org/en/stable/classes/class_inputmap.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 5 | [Godot class reference, MultiplayerSpawner](https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 5 | [Godot class reference, MultiplayerSynchronizer](https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 5 | [Godot class reference, Node.queue_free](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-queue-free) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 5 | [Godot class reference, Node.remove_child](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-remove-child) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 5 | [Godot class reference, Performance OBJECT_ORPHAN_NODE_COUNT](https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-object-orphan-node-count) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 5 | [Godot class reference, Performance pipeline compilation monitors](https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-pipeline-compilations-draw) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 5 | [Godot class reference, ProjectSettings editor/export/convert_text_resources_to_binary](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-editor-export-convert-text-resources-to-binary) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 5 | [Godot class reference, ProjectSettings rendering/renderer/rendering_method.mobile](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-rendering-renderer-rendering-method-mobile) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 5 | [Godot docs, Exporting for Android: environment variables](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html#environment-variables) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 5 | [Godot docs, Import process: changing default import parameters](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html#changing-default-import-parameters) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 5 | [Godot docs, Importing images: Detect 3D](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html#detect-3d) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 5 | [Godot docs, Installing plugins](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
+| 5 | [Godot docs, Optimization using MultiMeshes](https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
+| 5 | [Godot docs, Overview of debugging tools: Deploy with Remote Debug](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html#deploy-with-remote-debug) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
-| 5 | [Godot docs, TranslationServer class reference](https://docs.godotengine.org/en/stable/classes/class_translationserver.html) | [specific/godot](specific/godot/README.md) | 2026-10-26 |
+| 5 | [Godot docs, TranslationServer class reference](https://docs.godotengine.org/en/stable/classes/class_translationserver.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google Cloud, Cloud Foundation Fabric (Terraform modules and FAST landing zone toolkit)](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -1910,7 +1967,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [GraphQL ESLint, relay-connection-types](https://the-guild.dev/graphql/eslint/rules/relay-connection-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [GraphQL Yoga, CSRF Prevention](https://the-guild.dev/graphql/yoga-server/docs/features/csrf-prevention) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
-| 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 5 | [GUT, Command line](https://gut.readthedocs.io/en/latest/Command-Line.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
+| 5 | [GUT, Doubles](https://gut.readthedocs.io/en/latest/Doubles.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 5 | [GUT, Memory Management: testing for leaks](https://gut.readthedocs.io/en/latest/Memory-Management.html#testing-for-leaks) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 5 | [Hadolint, DL3002: last user should not be root](https://github.com/hadolint/hadolint/wiki/DL3002) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3006: always tag the version of an image explicitly](https://github.com/hadolint/hadolint/wiki/DL3006) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Hadolint, DL3007: don't use the latest tag](https://github.com/hadolint/hadolint/wiki/DL3007) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -2036,7 +2095,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Gatekeeper library, container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, disallowed tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 4 | [GUT, Export test results](https://gut.readthedocs.io/en/latest/Export-Test-Results.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 4 | [GUT, Export test results](https://gut.readthedocs.io/en/latest/Export-Test-Results.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
+| 4 | [GUT, Install](https://gut.readthedocs.io/en/latest/Install.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 4 | [GUT, Mocking Input](https://gut.readthedocs.io/en/latest/Mocking-Input.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
+| 4 | [GUT, Simulate](https://gut.readthedocs.io/en/latest/Simulate.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [poutine, injection rule (Rego source)](https://github.com/boostsecurityio/poutine/blob/main/opa/rego/rules/injection.rego) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 4 | [Privado, open-source data flow scanner for personal data](https://github.com/Privado-Inc/privado) | [general/privacy](general/privacy.md) | 2026-10-26 |

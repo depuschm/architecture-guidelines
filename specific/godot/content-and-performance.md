@@ -1,0 +1,41 @@
+<!-- rule-prefix: GODOT -->
+# Godot: content and performance
+
+Profiling, loading and freeing resources and nodes, asset import, data and saving, and localization. Renderers, shaders, materials and level of detail are in [Rendering and shaders](rendering.md), and frame budgets and save-data versioning are in [Game development](../gamedev/README.md).
+
+> Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
+
+## Adopted references
+
+- `7` [General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html) (Godot docs): how to measure performance, find the bottleneck and optimise it, including CPU versus GPU bottlenecks.
+- `7` [CPU optimization](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html) (Godot docs): CPU profilers, caches, the performance trade-offs of each scripting language, threads, the cost of large scene trees, and physics.
+- `6` [Exporting packs, patches, and mods](https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html) (Godot docs): delivering DLC, patches and mods as PCK or ZIP files, and the security risks of loading them.
+
+## Key rules
+
+### Profiling, loading and memory
+
+- `7` `GODOT-26` **Profile on every target platform during development, not only in the editor: run a debug export with *Deploy with Remote Debug*, and use the debugger's Profiler for script time, the Visual Profiler for CPU and GPU rendering time, and the Monitors for memory and object counts.** The Profiler doesn't measure C# scripts, so profile C# code with JetBrains Rider and dotTrace or with Visual Studio. This applies `GAMEDEV-12` and `GFX-3`. ([Godot, Debugger panel](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html), [The Profiler](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html), [Overview of debugging tools: Deploy with Remote Debug](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html#deploy-with-remote-debug), [General optimization tips](https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html))
+- `7` `GODOT-27` **Preload only what a script always needs, and load levels and other large or optional content in the background with `ResourceLoader.load_threaded_request()`, behind a loading screen, because `load()` blocks the thread until the resource has loaded.** Load imported assets only through `load()` or `ResourceLoader`, never `FileAccess`, which reads them in the editor but fails in the exported game. ([Godot, Logic preferences: loading vs. preloading](https://docs.godotengine.org/en/stable/tutorials/best_practices/logic_preferences.html#loading-vs-preloading), [Background loading](https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html), [Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html))
+- `7` `GODOT-28` **Free nodes you no longer need with `queue_free()`: unlike `RefCounted` objects such as Resources, nodes aren't freed automatically, and `remove_child()` only takes a node out of the tree.** Detaching a node to re-attach it later is fine while you keep a reference to it. Watch the orphan node count in the debugger's Monitors for nodes that leak. ([Godot, Object](https://docs.godotengine.org/en/stable/classes/class_object.html#description), [Node.queue_free](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-queue-free), [Node.remove_child](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-remove-child), [CPU optimization: SceneTree](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#scenetree), [Performance, orphan node count](https://docs.godotengine.org/en/stable/classes/class_performance.html#class-performance-constant-object-orphan-node-count))
+
+### Asset import
+
+- `6` `GODOT-29` **Import 3D textures as VRAM Compressed with mipmaps, which *Detect 3D* sets automatically, and 2D textures, especially pixel art, as Lossless; if the project needs other settings, change the defaults project-wide in *Project Settings > Import Defaults*.** VRAM compression usually cuts video memory use by a factor of 4 to 6, but shows noticeable artifacts in 2D. This applies `GFX-13`. ([Godot, Importing images: compress mode](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html#compress-mode), [Detect 3D](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html#detect-3d), [Import process: changing default import parameters](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html#changing-default-import-parameters))
+- `6` `GODOT-30` **Change imported 3D models in the modelling tool where you can, then in the import settings, and make any other change in an inherited scene, because Godot re-imports the whole scene whenever the source file changes.** ([Godot, Import configuration](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html), [scene inheritance](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#scene-inheritance))
+
+### Data and saving
+
+- `7` `GODOT-12` **Model designer-edited game data as custom Resource classes saved as `.tres` files.** A loaded resource is one cached instance that every user shares, so set `resource_local_to_scene` or `duplicate()` it before changing it per instance. ([Godot, Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html), [Resource.resource_local_to_scene](https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource-property-resource-local-to-scene), [Godot interfaces](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_interfaces.html))
+- `7` `GODOT-13` **Write saves and settings to `user://`, and don't decode objects (`allow_objects`) from files that players can edit or share.** `res://` is usually read-only in an exported game, and decoded objects can run code. ([Godot, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html), [Saving games](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html), [FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var), [game development: save data](../gamedev/README.md))
+
+### Localization
+
+- `7` `GODOT-15` **Localize with Godot's translation system: add CSV or gettext PO translations under *Project Settings > Localization*, look up text with `tr()` and `tr_n()` or a Control's automatic translation, fill named placeholders with `String.format()`, and switch languages with `TranslationServer.set_locale()`.** This applies `I18N-1`, `I18N-2` and `I18N-3`. Turn on pseudolocalization in the advanced Project Settings, under *Internationalization*, to find untranslated and overflowing text (`I18N-14`). ([Godot, Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html), [Localization using gettext](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html), [Pseudolocalization](https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html), [TranslationServer](https://docs.godotengine.org/en/stable/classes/class_translationserver.html))
+
+## How to enforce
+
+Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
+
+- `5` [GUT, Memory Management](https://gut.readthedocs.io/en/latest/Memory-Management.html#testing-for-leaks): GUT lists the orphan nodes each test leaves behind, and `assert_no_new_orphans()` fails a test that creates nodes it doesn't free. Partly checks `GODOT-28`.
+- `5` [gdUnit4, Orphan nodes](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/orphan/): counts the orphan nodes each test creates and reports them as warnings in the test report. Partly checks `GODOT-28`.

@@ -21,6 +21,24 @@ ANDROID-5,active,Use dependency injection (Hilt).
 ANDROID-6,active,"Follow the coroutine best practices: inject dispatchers, make suspend functions main-safe, and don't expose mutable state."
 ANDROID-7,active,"Build offline-first where possible, with the local database as the source of truth."
 ANDROID-8,active,Modularise by feature and layer as the app and team grow.
+ANGULAR-1,active,"Keep the current defaults in new code: standalone components, `OnPush` change detection and zoneless change detection. Don't set `standalone: false`, `ChangeDetectionStrategy.Eager` or `provideZoneChangeDetection()`."
+ANGULAR-2,active,"Derive state with `computed()`, or with `linkedSignal()` when the user can also set it, and use `effect()` only to sync signals with APIs that aren't reactive, such as storage, logging, or a canvas or third-party UI library."
+ANGULAR-3,active,"Declare inputs, outputs and queries with the signal-based functions, such as `input()`, `output()`, `model()` and `viewChild()`, and name outputs in camelCase, without an `on` prefix and without the name of a DOM event such as `click`."
+ANGULAR-4,active,"Use the built-in control flow (`@if`, `@for` and `@switch`) instead of the deprecated `*ngIf`, `*ngFor` and `*ngSwitch`, and give every `@for` a `track` expression with a property that uniquely identifies the item, such as its ID."
+ANGULAR-5,active,"Keep components focused on presentation, and move business logic, data access and state that several components share into services. Keep that state in private writable signals, and expose it as read-only signals, with `asReadonly()` or `computed()`, plus methods that change it."
+ANGULAR-6,active,"Declare app-wide services with `@Service()`, or with `@Injectable({providedIn: 'root'})` before Angular 22, inject dependencies with `inject()`, and provide a service in a route's `providers` instead when only one feature uses it."
+ANGULAR-7,active,"Read data that depends on signals with `httpResource()`, convert Observables that templates read with `toSignal()`, and send changes, such as `POST` and `PUT` requests, with `HttpClient` directly."
+ANGULAR-8,active,"Lazy-load every route except the main landing pages with `loadComponent` or `loadChildren`, and wrap heavy components that aren't visible on the first render in `@defer` blocks."
+ANGULAR-9,active,"In server-rendered apps, set a render mode for each route in the server routes: `RenderMode.Prerender` for pages that are the same for every user, `RenderMode.Server` for pages with user-specific data, and `RenderMode.Client` only where load performance and SEO matter less."
+ANGULAR-10,active,"Give every route a `title`, and move focus to the main content after each navigation."
+ANGULAR-11,active,Never use route guards as access control: check authorization on the server for every request.
+ANGULAR-12,active,"Never build Angular templates from user input: ship only templates that the CLI compiles ahead of time, and don't generate Angular templates with a server-side templating language."
+ANGULAR-13,active,"Insert untrusted values through template bindings, so that Angular sanitizes them, never pass them to the `DomSanitizer.bypassSecurityTrust*()` methods, and don't write to the DOM through `ElementRef.nativeElement` or `document`."
+ANGULAR-14,active,"Never put secrets, such as API keys, in the files in `src/environments/`: the build bundles them into the client, where anyone who loads the page can read them."
+ANGULAR-15,active,"Send a Content Security Policy with a unique, unpredictable nonce for each response, and pass the nonce to Angular with the `ngCspNonce` attribute or the `CSP_NONCE` token. On static hosting that can't add a nonce, turn on `autoCsp` or avoid inline scripts, instead of hard-coding a nonce."
+ANGULAR-16,active,"Run a major version that is still supported, update with `ng update` one major version at a time, and plan each yearly major update before your version's long-term support ends."
+ANGULAR-17,active,"Keep strict template type checking on (`strictTemplates`, the default) together with TypeScript's `strict` (`TS-1`), and make the extended diagnostics fail the build by setting their `defaultCategory` to `error`."
+ANGULAR-18,active,"Test components the way users use them, and let Angular schedule change detection: drive shared UI components through component harnesses, await `fixture.whenStable()` instead of calling `fixture.detectChanges()`, and answer HTTP requests with `HttpTestingController`, then call `verify()`."
 API-1,active,"Make operations safe to retry, using idempotency keys where the method isn't naturally idempotent."
 API-2,active,Evolve APIs in backward-compatible ways.
 API-3,active,Use HTTP methods and status codes as their specification defines them.

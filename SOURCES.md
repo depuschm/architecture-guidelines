@@ -7,11 +7,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-87 sources.
+89 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 10 | [Angular, Documentation](https://angular.dev/overview) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 10 | [Apache Kafka, Documentation (4.3)](https://kafka.apache.org/43/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 10 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
@@ -35,6 +36,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 9 | [Angular, Coding style guide](https://angular.dev/style-guide) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 9 | [Apple, App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 9 | [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -101,7 +103,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1829 sources.
+1895 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -114,6 +116,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Android, Data layer](https://developer.android.com/topic/architecture/data-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, Guide to app modularization](https://developer.android.com/topic/modularization) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, UI layer](https://developer.android.com/topic/architecture/ui-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 8 | [Angular, Security](https://angular.dev/best-practices/security) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 8 | [Angular, Server-side and hybrid rendering](https://angular.dev/guide/ssr) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 8 | [Angular, Signals](https://angular.dev/guide/signals) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 8 | [Apache Kafka, Design](https://kafka.apache.org/43/design/design/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
@@ -332,6 +337,46 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Android, Fundamentals of testing](https://developer.android.com/training/testing/fundamentals) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Hilt](https://developer.android.com/training/dependency-injection/hilt-android) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, ViewModel overview](https://developer.android.com/topic/libraries/architecture/viewmodel) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 7 | [Angular, Accepting data with input properties](https://angular.dev/guide/components/inputs) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Accessibility](https://angular.dev/best-practices/a11y) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Actively supported versions](https://angular.dev/reference/releases#actively-supported-versions) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Best practices for deferring views](https://angular.dev/guide/templates/defer#best-practices-for-deferring-views) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Breaking change policy and update paths](https://angular.dev/reference/releases#breaking-change-policy-and-update-paths) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Build environments: configure environment-specific defaults](https://angular.dev/tools/cli/environments#configure-environment-specific-defaults) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Component harnesses overview](https://angular.dev/guide/testing/component-harnesses-overview) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Control flow: why is track in @for blocks important?](https://angular.dev/guide/templates/control-flow#why-is-track-in-for-blocks-important) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Control route access with guards](https://angular.dev/guide/routing/route-guards) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Creating and using services](https://angular.dev/guide/di/creating-and-using-services) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Dependent state with linkedSignal](https://angular.dev/guide/signals/linked-signal) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Effects: use cases for effects](https://angular.dev/guide/signals/effect#use-cases-for-effects) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Extended diagnostics](https://angular.dev/extended-diagnostics) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Extended diagnostics: configuration](https://angular.dev/extended-diagnostics#configuration) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, httpResource: using httpResource](https://angular.dev/guide/http/http-resource#using-httpresource) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Hydration: constraints](https://angular.dev/guide/hydration#constraints) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Intercepting requests and responses](https://angular.dev/guide/http/interceptors) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Learn Angular tutorial](https://angular.dev/tutorials/learn-angular) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, NgModules](https://angular.dev/guide/ngmodules/overview) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Performance overview](https://angular.dev/best-practices/performance) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Route loading strategies: eager or lazy](https://angular.dev/guide/routing/loading-strategies#should-i-use-an-eager-or-a-lazy-route) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: Angular's cross-site scripting security model](https://angular.dev/best-practices/security#angulars-cross-site-scripting-security-model) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: content security policy](https://angular.dev/best-practices/security#content-security-policy) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: direct use of the DOM APIs and explicit sanitization calls](https://angular.dev/best-practices/security#direct-use-of-the-dom-apis-and-explicit-sanitization-calls) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: enforcing Trusted Types](https://angular.dev/best-practices/security#enforcing-trusted-types) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: sanitization and security contexts](https://angular.dev/best-practices/security#sanitization-and-security-contexts) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: server-side XSS protection](https://angular.dev/best-practices/security#server-side-xss-protection) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: trusting safe values](https://angular.dev/best-practices/security#trusting-safe-values) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Security: use the AOT template compiler](https://angular.dev/best-practices/security#use-the-aot-template-compiler) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Skipping component subtrees: using OnPush](https://angular.dev/best-practices/skipping-subtrees#using-onpush) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, SSR: authoring server-compatible components](https://angular.dev/guide/ssr#authoring-server-compatible-components) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, SSR: choosing a rendering mode](https://angular.dev/guide/ssr#choosing-a-rendering-mode) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, SSR: server routing](https://angular.dev/guide/ssr#server-routing) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Style guide: keep components and directives focused on presentation](https://angular.dev/style-guide#keep-components-and-directives-focused-on-presentation) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Template type checking: strict mode](https://angular.dev/tools/cli/template-typecheck#strict-mode) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Testing](https://angular.dev/guide/testing) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Testing HttpClient](https://angular.dev/guide/http/testing) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Update guide](https://angular.dev/update-guide) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Versioning and releases](https://angular.dev/reference/releases) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Zoneless: enabling zoneless in an application](https://angular.dev/guide/zoneless#enabling-zoneless-in-an-application) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Anthropic, Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Anthropic, Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Anthropic, Writing effective tools for agents](https://www.anthropic.com/research/writing-tools-for-agents) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
@@ -1340,6 +1385,29 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Android Developers, Geometry: level of detail](https://developer.android.com/games/optimize/geometry#level-of-detail) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Android Developers, Include native symbols in your release build](https://developer.android.com/build/include-native-symbols) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Android Lint, SetTextI18n: TextView internationalization](https://googlesamples.github.io/android-custom-lint-rules/checks/SetTextI18n.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [Angular, Accessibility: focus management after navigation](https://angular.dev/best-practices/a11y#focus-management-after-navigation) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Angular CLI overview](https://angular.dev/tools/cli) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Build your first Angular app](https://angular.dev/tutorials/first-app) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Building Angular apps: configuring size budgets](https://angular.dev/tools/cli/build#configuring-size-budgets) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Compiler options: strictStandalone](https://angular.dev/reference/configs/angular-compiler-options#strictstandalone) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Define routes: page titles](https://angular.dev/guide/routing/define-routes#page-titles) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Defining dependency providers: route providers](https://angular.dev/guide/di/defining-dependency-providers#route-providers) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, httpResource: response parsing and validation](https://angular.dev/guide/http/http-resource#response-parsing-and-validation) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Lazily loaded components and routes](https://angular.dev/guide/routing/loading-strategies#lazily-loaded-components-and-routes) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Learn Angular signals](https://angular.dev/tutorials/signals) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Migrating to the new build system](https://angular.dev/tools/cli/build-system-migration) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, ng update](https://angular.dev/cli/update) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, NG8109: signals must be invoked in template interpolations](https://angular.dev/extended-diagnostics/NG8109) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, NG8115: uninvoked track function](https://angular.dev/extended-diagnostics/NG8115) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Outputs: choosing event names](https://angular.dev/guide/components/outputs#choosing-event-names) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Referencing component children with queries](https://angular.dev/guide/components/queries) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Security: hash inline scripts with autoCsp](https://angular.dev/best-practices/security#hash-inline-scripts-with-autocsp) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Signals interop: toSignal](https://angular.dev/ecosystem/rxjs-interop#create-a-signal-from-an-rxjs-observable-with-tosignal) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Signals: converting writable signals to readonly](https://angular.dev/guide/signals#converting-writable-signals-to-readonly) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Style guide: prefer the inject function](https://angular.dev/style-guide#prefer-the-inject-function-over-constructor-parameter-injection) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, When to use @Service vs @Injectable](https://angular.dev/guide/di/creating-and-using-services#when-to-use-service-vs-injectable) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [Angular, Zoneless: using zoneless in TestBed](https://angular.dev/guide/zoneless#using-zoneless-in-testbed) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 6 | [angular-eslint, README](https://github.com/angular-eslint/angular-eslint/blob/main/README.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 6 | [Apache Kafka, Basic Kafka Operations: checking consumer position](https://kafka.apache.org/43/operations/basic-kafka-operations/#checking-consumer-position) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apache Kafka, Broker configs: group.share.delivery.count.limit](https://kafka.apache.org/43/configuration/broker-configs/#group.share.delivery.count.limit) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apache Kafka, Kafka Connect: error reporting](https://kafka.apache.org/43/kafka-connect/user-guide/#error-reporting-in-connect) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -1937,7 +2005,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-265 sources.
+277 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1947,6 +2015,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Android Lint checks, OldTargetApi](https://googlesamples.github.io/android-custom-lint-rules/checks/OldTargetApi.md.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Android Lint, HardcodedText](https://googlesamples.github.io/android-custom-lint-rules/checks/HardcodedText.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
 | 5 | [Android Lint, RtlHardcoded](https://googlesamples.github.io/android-custom-lint-rules/checks/RtlHardcoded.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
+| 5 | [Angular, NgIf API reference](https://angular.dev/api/common/NgIf) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, no-output-native](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-native.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, no-output-on-prefix](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-on-prefix.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, prefer-inject](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-inject.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, prefer-on-push-component-change-detection](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-on-push-component-change-detection.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, prefer-output-emitter-ref](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-output-emitter-ref.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, prefer-service-decorator](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-service-decorator.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, prefer-signals](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-signals.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, prefer-standalone](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-standalone.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, Premade flat configs](https://github.com/angular-eslint/angular-eslint/blob/main/packages/angular-eslint/src/configs/README.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [angular-eslint, template/prefer-control-flow](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/prefer-control-flow.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 5 | [Anthropic skills repository](https://github.com/anthropics/skills) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 5 | [Anton Babenko, Terraform Best Practices](https://www.terraform-best-practices.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 5 | [Apache Kafka, CreateTopicPolicy API](https://kafka.apache.org/43/javadoc/org/apache/kafka/server/policy/CreateTopicPolicy.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -2141,6 +2220,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Ruff, suspicious-pickle-usage (S301)](https://docs.astral.sh/ruff/rules/suspicious-pickle-usage/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Ruff, unsafe-yaml-load (S506)](https://docs.astral.sh/ruff/rules/unsafe-yaml-load/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [semantic-release](https://semantic-release.org/) | [general/releases](general/releases.md) | 2026-10-25 |
+| 5 | [Semgrep, angular-bypasssecuritytrust rule](https://github.com/semgrep/semgrep-rules/blob/develop/typescript/angular/security/audit/angular-domsanitizer.yaml) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Spring for Apache Kafka, Non-blocking retries: how the pattern works](https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [Squawk, ban-char-field](https://squawkhq.com/docs/ban-char-field) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |

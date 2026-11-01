@@ -1,7 +1,7 @@
 {
   "name": "architecture-guidelines",
   "displayName": "Architecture Guidelines",
-  "description": "Source-linked software architecture guidelines, general and for 40+ platforms: game engines (Unity, Godot, Unreal, GameMaker), game services, graphics, web frameworks, back ends, databases, mobile apps, cloud and CI. With skills for architecture reviews, enforcing the rules in CI, ADRs, C4 diagrams and game architecture.",
+  "description": "Source-linked software architecture guidelines, general and for 40+ platforms: game engines (Unity, Godot, Unreal, GameMaker), game services, graphics, web frameworks, back ends, databases, mobile and desktop apps, cloud and CI. With skills for architecture reviews, enforcing the rules in CI, ADRs, C4 diagrams and game architecture.",
   "author": {
     "name": "depuschm",
     "url": "https://github.com/depuschm"
@@ -31,6 +31,9 @@
     "vue",
     "svelte",
     "angular",
+    "astro",
+    "electron",
+    "tauri",
     "typescript",
     "nodejs",
     "python",

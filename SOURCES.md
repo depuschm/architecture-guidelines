@@ -7,16 +7,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-97 sources.
+100 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 10 | [Angular, Documentation](https://angular.dev/overview) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 10 | [Apache Kafka, Documentation (4.3)](https://kafka.apache.org/43/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 10 | [Astro Docs](https://docs.astro.build/en/getting-started/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 10 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 10 | [Electron, Security](https://www.electronjs.org/docs/latest/tutorial/security) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 10 | [Firebase, Firebase security checklist](https://firebase.google.com/support/guides/security-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
@@ -34,6 +36,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Supabase Docs, Production Checklist](https://supabase.com/docs/guides/deployment/going-into-prod) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 10 | [Tauri, Security](https://v2.tauri.app/security/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
 | 10 | [Valve, Steamworks Documentation](https://partner.steamgames.com/doc/home) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -111,7 +114,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2221 sources.
+2327 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -133,6 +136,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 8 | [Arm, GPU Best Practices Developer Guide (issue 10, PDF)](https://documentation-service.arm.com/static/67a62b17091bfc3e0a947695) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 8 | [Astro Docs, Content collections](https://docs.astro.build/en/guides/content-collections/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 8 | [Astro Docs, Islands architecture](https://docs.astro.build/en/concepts/islands/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 8 | [Astro Docs, On-demand rendering](https://docs.astro.build/en/guides/on-demand-rendering/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [AWS Builders' Library, Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Timeouts, retries and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
@@ -161,6 +167,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [EDPB, Guidelines 05/2020 on consent under Regulation 2016/679](https://www.edpb.europa.eu/documents/guideline/guidelines-052020-on-consent-under-regulation-2016679_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [EDPB, Guidelines 9/2022 on personal data breach notification under GDPR](https://www.edpb.europa.eu/documents/guideline/guidelines-92022-on-personal-data-breach-notification-under-gdpr_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [Effective Dart](https://dart.dev/effective-dart) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
+| 8 | [Electron, Inter-Process Communication](https://www.electronjs.org/docs/latest/tutorial/ipc) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 8 | [Electron, Process Model](https://www.electronjs.org/docs/latest/tutorial/process-model) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 8 | [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) | [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Epic Games, Exposing C++ to Blueprints Visual Scripting in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/exposing-cplusplus-to-blueprints-visual-scripting-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 8 | [Epic Games, Networking Overview for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-overview-for-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
@@ -301,6 +309,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Supabase Docs, Securing your API](https://supabase.com/docs/guides/api/securing-your-api) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 8 | [SvelteKit, Performance](https://svelte.dev/docs/kit/performance) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [SvelteKit, State management](https://svelte.dev/docs/kit/state-management) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [Tauri, Capabilities](https://v2.tauri.app/security/capabilities/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Twelve-Factor App, III Config](https://12factor.net/config) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -491,6 +500,26 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [ArchUnit](https://www.archunit.org/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [ArchUnit user guide](https://www.archunit.org/userguide/html/000_Index.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Aspire (.NET)](https://aspire.dev/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 7 | [Astro Docs, Actions](https://docs.astro.build/en/guides/actions/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Actions: authorize users from an action handler](https://docs.astro.build/en/guides/actions/#authorize-users-from-an-action-handler) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Actions: security when using actions](https://docs.astro.build/en/guides/actions/#security-when-using-actions) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Build your first Astro blog (tutorial)](https://docs.astro.build/en/tutorial/0-introduction/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, CLI commands: astro check](https://docs.astro.build/en/reference/cli-reference/#astro-check) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Configuration reference: security.allowedDomains](https://docs.astro.build/en/reference/configuration-reference/#securityalloweddomains) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Configuration reference: security.checkOrigin](https://docs.astro.build/en/reference/configuration-reference/#securitycheckorigin) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Configuration reference: security.csp](https://docs.astro.build/en/reference/configuration-reference/#securitycsp) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Content collections: defining the collection schema](https://docs.astro.build/en/guides/content-collections/#defining-the-collection-schema) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Content collections: types of collections](https://docs.astro.build/en/guides/content-collections/#types-of-collections) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Islands architecture: client islands](https://docs.astro.build/en/concepts/islands/#client-islands) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Middleware](https://docs.astro.build/en/guides/middleware/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Middleware: storing data in context.locals](https://docs.astro.build/en/guides/middleware/#storing-data-in-contextlocals) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, On-demand rendering: enabling on-demand rendering](https://docs.astro.build/en/guides/on-demand-rendering/#enabling-on-demand-rendering) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Sessions](https://docs.astro.build/en/guides/sessions/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Template directives reference: client directives](https://docs.astro.build/en/reference/directives-reference/#client-directives) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, TypeScript: type checking](https://docs.astro.build/en/guides/typescript/#type-checking) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Upgrade to Astro v7](https://docs.astro.build/en/guides/upgrade-to/v7/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Using environment variables](https://docs.astro.build/en/guides/environment-variables/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Using environment variables: variable types](https://docs.astro.build/en/guides/environment-variables/#variable-types) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [AsyncAPI Specification](https://www.asyncapi.com/docs/reference/specification/latest) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [AWS Architecture Center](https://aws.amazon.com/architecture/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Builders' Library, Avoiding fallback in distributed systems](https://builder.aws.com/content/3EuS9Sakq7L3VLQIF3qzfMfke1Y/avoiding-fallback-in-distributed-systems) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
@@ -587,6 +616,33 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [DORA, Loosely coupled teams](https://dora.dev/capabilities/loosely-coupled-teams/) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [EDPB, Guidelines 01/2025 on Pseudonymisation (version for public consultation)](https://www.edpb.europa.eu/documents/guideline/guidelines-012025-on-pseudonymisation_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [EDPB, Guidelines 2/2023 on Technical Scope of Art. 5(3) of ePrivacy Directive](https://www.edpb.europa.eu/documents/guideline/guidelines-22023-on-technical-scope-of-art-53-of-eprivacy-directive_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 7 | [Electron Forge, Getting Started](https://www.electronforge.io/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Automated Testing](https://www.electronjs.org/docs/latest/tutorial/automated-testing) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Code Signing](https://www.electronjs.org/docs/latest/tutorial/code-signing) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Code Signing: macOS APIs that require code signing](https://www.electronjs.org/docs/latest/tutorial/code-signing#macos-apis-that-require-code-signing) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Context Isolation: security considerations](https://www.electronjs.org/docs/latest/tutorial/context-isolation#security-considerations) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Electron Fuses: current fuses](https://www.electronjs.org/docs/latest/tutorial/fuses#current-fuses) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Electron Releases: version support policy](https://www.electronjs.org/docs/latest/tutorial/electron-timelines#version-support-policy) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Inter-Process Communication: renderer to main (two-way)](https://www.electronjs.org/docs/latest/tutorial/ipc#pattern-2-renderer-to-main-two-way) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Performance](https://www.electronjs.org/docs/latest/tutorial/performance) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Performance: blocking the main process](https://www.electronjs.org/docs/latest/tutorial/performance#3-blocking-the-main-process) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Process Sandboxing: enabling the sandbox globally](https://www.electronjs.org/docs/latest/tutorial/sandbox#enabling-the-sandbox-globally) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, safeStorage](https://www.electronjs.org/docs/latest/api/safe-storage) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: avoid the file:// protocol and prefer custom protocols](https://www.electronjs.org/docs/latest/tutorial/security#18-avoid-usage-of-the-file-protocol-and-prefer-usage-of-custom-protocols) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: check which fuses you can change](https://www.electronjs.org/docs/latest/tutorial/security#19-check-which-fuses-you-can-change) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: define a Content Security Policy](https://www.electronjs.org/docs/latest/tutorial/security#7-define-a-content-security-policy) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: disable or limit creation of new windows](https://www.electronjs.org/docs/latest/tutorial/security#14-disable-or-limit-creation-of-new-windows) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: disable or limit navigation](https://www.electronjs.org/docs/latest/tutorial/security#13-disable-or-limit-navigation) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: do not disable webSecurity](https://www.electronjs.org/docs/latest/tutorial/security#6-do-not-disable-websecurity) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: do not enable Node.js integration for remote content](https://www.electronjs.org/docs/latest/tutorial/security#2-do-not-enable-nodejs-integration-for-remote-content) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: do not expose Electron APIs to untrusted web content](https://www.electronjs.org/docs/latest/tutorial/security#20-do-not-expose-electron-apis-to-untrusted-web-content) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: do not use shell.openExternal with untrusted content](https://www.electronjs.org/docs/latest/tutorial/security#15-do-not-use-shellopenexternal-with-untrusted-content) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: enable context isolation](https://www.electronjs.org/docs/latest/tutorial/security#3-enable-context-isolation) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: enable process sandboxing](https://www.electronjs.org/docs/latest/tutorial/security#4-enable-process-sandboxing) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: use a current version of Electron](https://www.electronjs.org/docs/latest/tutorial/security#16-use-a-current-version-of-electron) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Security: validate the sender of all IPC messages](https://www.electronjs.org/docs/latest/tutorial/security#17-validate-the-sender-of-all-ipc-messages) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Tutorial](https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Electron, Updating Applications](https://www.electronjs.org/docs/latest/tutorial/updates) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Emerging Patterns in Building GenAI Products](https://martinfowler.com/articles/gen-ai-patterns/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
 | 7 | [Enterprise Integration Patterns, Idempotent Receiver](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html) | [general/data](general/data.md) | 2026-10-26 |
 | 7 | [Epic Games, Asset Management in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-management-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md), [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
@@ -947,6 +1003,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [itch.io, Uploading HTML5 games](https://itch.io/docs/creators/html5) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [itch.io, Uploading HTML5 games: ZIP file requirements](https://itch.io/docs/creators/html5#zip-file-requirements) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [Jason Miller, Islands Architecture](https://jasonformat.com/islands-architecture/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Khronos, Vulkan Guide: Tile Based Rendering (TBR) Best Practices](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/tile_based_rendering_best_practices.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Khronos, Vulkan Samples: performance samples](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/README.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1416,6 +1473,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [SvelteKit, State management: avoid shared state on the server](https://svelte.dev/docs/kit/state-management#Avoid-shared-state-on-the-server) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [SvelteKit, State management: component and page state is preserved](https://svelte.dev/docs/kit/state-management#Component-and-page-state-is-preserved) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [SvelteKit, State management: no side-effects in load](https://svelte.dev/docs/kit/state-management#No-side-effects-in-load) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Tauri, Capabilities: security boundaries](https://v2.tauri.app/security/capabilities/#security-boundaries) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Command scopes](https://v2.tauri.app/security/scope/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Content Security Policy (CSP)](https://v2.tauri.app/security/csp/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Distribute](https://v2.tauri.app/distribute/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, File System plugin: scopes](https://v2.tauri.app/plugin/file-system/#scopes) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Isolation pattern: when](https://v2.tauri.app/concept/inter-process-communication/isolation/#when) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, macOS code signing: notarization](https://v2.tauri.app/distribute/sign/macos/#notarization) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Process model: the WebView process](https://v2.tauri.app/concept/process-model/#the-webview-process) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Security: trust boundaries](https://v2.tauri.app/security/#trust-boundaries) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Shell plugin: permissions](https://v2.tauri.app/plugin/shell/#permissions) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Updater: signing updates](https://v2.tauri.app/plugin/updater/#signing-updates) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, WebDriver](https://v2.tauri.app/develop/tests/webdriver/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 7 | [Tauri, Windows code signing](https://v2.tauri.app/distribute/sign/windows/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Team Topologies key concepts](https://teamtopologies.com/key-concepts) | [general/principles](general/principles.md) | 2026-10-24 |
 | 7 | [Testing Library, About Queries: Priority](https://testing-library.com/docs/queries/about/#priority) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 7 | [Testing Library, Guiding principles](https://testing-library.com/docs/guiding-principles) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -1645,6 +1715,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Apollo, Safelisting with Persisted Queries: differences from automatic persisted queries](https://www.apollographql.com/docs/graphos/platform/security/persisted-queries#differences-from-automatic-persisted-queries) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Apple Developer Documentation, Adding identifiable symbol names to a crash report](https://developer.apple.com/documentation/xcode/adding-identifiable-symbol-names-to-a-crash-report) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apple Developer Documentation, ProcessInfo.ThermalState.serious](https://developer.apple.com/documentation/foundation/processinfo/thermalstate-swift.enum/serious) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple Developer Documentation, Resolving common notarization issues](https://developer.apple.com/documentation/security/resolving-common-notarization-issues) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Apple sample code, Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apple, Meet the App Store Server Library (WWDC23)](https://developer.apple.com/videos/play/wwdc2023/10143/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apple, OpenGL ES (deprecated)](https://developer.apple.com/documentation/opengles) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1655,6 +1726,24 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [ArchUnitNET](https://github.com/TNG/ArchUnitNET) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [ArchUnitNET guide](https://archunitnet.readthedocs.io/en/latest/guide/) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [arethetypeswrong, CLI](https://github.com/arethetypeswrong/arethetypeswrong.github.io/blob/main/packages/cli/README.md) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [Astro Docs, Actions: gate actions from middleware](https://docs.astro.build/en/guides/actions/#gate-actions-from-middleware) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Astro Container API (experimental)](https://docs.astro.build/en/reference/container-reference/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Configuration reference: security.csp.directives](https://docs.astro.build/en/reference/configuration-reference/#securitycspdirectives) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Images: authorizing remote images](https://docs.astro.build/en/guides/images/#authorizing-remote-images) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Images: src/ vs public/](https://docs.astro.build/en/guides/images/#src-vs-public) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Images: the <Image /> component](https://docs.astro.build/en/guides/images/#image-) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, On-demand rendering: 'server' mode](https://docs.astro.build/en/guides/on-demand-rendering/#server-mode) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Server islands: caching](https://docs.astro.build/en/guides/server-islands/#caching) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Server islands: fallback content](https://docs.astro.build/en/guides/server-islands/#server-island-fallback-content) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Server islands: reusing the encryption key](https://docs.astro.build/en/guides/server-islands/#reusing-the-encryption-key) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Sessions: overriding the configuration at runtime](https://docs.astro.build/en/guides/sessions/#overriding-the-configuration-at-runtime) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Testing: Playwright, launching a web server during the tests](https://docs.astro.build/en/guides/testing/#advanced-launching-a-development-web-server-during-the-tests) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Testing: Vitest and Container API](https://docs.astro.build/en/guides/testing/#vitest-and-container-api) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, TypeScript: tsconfig templates](https://docs.astro.build/en/guides/typescript/#tsconfig-templates) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, Using environment variables: Vite's built-in support](https://docs.astro.build/en/guides/environment-variables/#vites-built-in-support) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, View transitions: browser-native view transitions and <ClientRouter />](https://docs.astro.build/en/guides/view-transitions/#differences-between-browser-native-view-transitions-and-astros-clientrouter-) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, View transitions: route announcement](https://docs.astro.build/en/guides/view-transitions/#route-announcement) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 6 | [Astro Docs, View transitions: script re-execution](https://docs.astro.build/en/guides/view-transitions/#script-re-execution) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 6 | [AWS Config, required-tags rule](https://docs.aws.amazon.com/config/latest/developerguide/required-tags.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS multi-Region fundamentals](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-multi-region-fundamentals/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [AWS Prescriptive Guidance, ADR best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -1718,6 +1807,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Dodds, The Testing Trophy and Testing Classifications](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Edgegap, Orchestration](https://docs.edgegap.com/learn/orchestration) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [EDPB, Data protection guide for small business](https://www.edpb.europa.eu/sme_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 6 | [Electron Forge, Fuses Plugin](https://www.electronforge.io/config/plugins/fuses) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Electron, @electron/fuses](https://github.com/electron/fuses/blob/main/README.md) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Electron, ASAR Archives](https://www.electronjs.org/docs/latest/tutorial/asar-archives) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Electron, autoUpdater: macOS](https://www.electronjs.org/docs/latest/api/auto-updater#macos) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Electron, Inter-Process Communication: using ipcRenderer.sendSync](https://www.electronjs.org/docs/latest/tutorial/ipc#using-ipcrenderersendsync) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Electron, Process Model: the utility process](https://www.electronjs.org/docs/latest/tutorial/process-model#the-utility-process) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Epic Games, Blueprint Best Practices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md), [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
@@ -1727,6 +1822,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Epic Games, Using Google Play Asset Delivery in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-google-play-asset-delivery-in-unreal-engine) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [esbuild, Content types: TypeScript caveats](https://esbuild.github.io/content-types/#typescript-caveats) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [eslint-plugin-astro, Available rules](https://ota-meshi.github.io/eslint-plugin-astro/rules/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 6 | [eslint-plugin-n, no-sync](https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-sync.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-regexp, no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-svelte, Available rules](https://sveltejs.github.io/eslint-plugin-svelte/rules/) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -1983,7 +2079,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Microsoft Learn, Identifying user preferences](https://learn.microsoft.com/en-us/globalization/locale/user-preferences) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Microsoft Learn, Localize games](https://learn.microsoft.com/en-us/globalization/localization/localize-games) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Microsoft Learn, Mirroring](https://learn.microsoft.com/en-us/globalization/fonts-layout/mirroring) | [general/localization](general/localization.md) | 2026-10-26 |
-| 6 | [Microsoft Learn, SignTool: verify command options](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#verify-command-options) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Microsoft Learn, SignTool: verify command options](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#verify-command-options) | [specific/desktop](specific/desktop/README.md), [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Microsoft Learn, SymStore](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/symstore) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Microsoft, .NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Azure Policy built-in initiatives](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -2030,7 +2126,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Node.js Best Practices, 6.10 Validate incoming JSON schemas](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/security/validation.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 7.1 Don't block the event loop](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/performance/block-loop.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [Node.js Best Practices, 8.2 Bootstrap using node command, avoid npm start](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/bootstrap-using-node.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
-| 6 | [npm Docs, npm audit](https://docs.npmjs.com/cli/v12/commands/npm-audit/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
+| 6 | [npm Docs, npm audit](https://docs.npmjs.com/cli/v12/commands/npm-audit/) | [specific/desktop](specific/desktop/README.md), [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [npm Docs, npm Unpublish Policy](https://docs.npmjs.com/policies/unpublish/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Nuxt, nuxt typecheck command](https://nuxt.com/docs/4.x/api/commands/typecheck) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [Nx, Enforce module boundaries](https://nx.dev/docs/features/enforce-module-boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
@@ -2142,6 +2238,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Ruff, The Ruff Formatter](https://docs.astral.sh/ruff/formatter/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, The Ruff Linter: Exit codes](https://docs.astral.sh/ruff/linter/#exit-codes) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Ruff, The Ruff Linter: Rule selection](https://docs.astral.sh/ruff/linter/#rule-selection) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [RustSec, cargo audit](https://github.com/rustsec/rustsec/blob/main/cargo-audit/README.md) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Semantic Versioning FAQ, How do I know when to release 1.0.0?](https://semver.org/#how-do-i-know-when-to-release-100) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Semantic Versioning FAQ, What do I do if I accidentally release a backward incompatible change as a minor version?](https://semver.org/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Server Components](https://react.dev/reference/rsc/server-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -2206,6 +2303,17 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [SvelteKit, Remote functions: query arguments](https://svelte.dev/docs/kit/remote-functions#query-Query-arguments) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [SvelteKit, Zero-config deployments (adapter-auto)](https://svelte.dev/docs/kit/adapter-auto) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Tauri, App Size](https://v2.tauri.app/concept/size/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Application lifecycle threats: keep your applications up to date](https://v2.tauri.app/security/lifecycle/#keep-your-applications-up-to-date) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Capabilities for different windows and platforms](https://v2.tauri.app/learn/security/capabilities-for-windows-and-platforms/#apply-different-capabilities-to-different-windows) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Configuration: dangerousDisableAssetCspModification](https://v2.tauri.app/reference/config/#dangerousdisableassetcspmodification) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Configuration: pattern](https://v2.tauri.app/reference/config/#pattern) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Isolation pattern: recommendations](https://v2.tauri.app/concept/inter-process-communication/isolation/#recommendations) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Mock Tauri APIs](https://v2.tauri.app/develop/tests/mocking/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Opener plugin: permissions](https://v2.tauri.app/plugin/opener/#permissions) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Stronghold plugin](https://v2.tauri.app/plugin/stronghold/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Updater: Tauri configuration](https://v2.tauri.app/plugin/updater/#tauri-configuration) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Tauri, Using plugin permissions](https://v2.tauri.app/learn/security/using-plugin-permissions/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Testing in .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Testing Library, Async methods](https://testing-library.com/docs/dom-testing-library/api-async/) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [TFLint, Terraform ruleset rules](https://github.com/terraform-linters/tflint-ruleset-terraform/blob/main/docs/rules/README.md) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -2328,6 +2436,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [web.dev, OffscreenCanvas: speed up your canvas operations with a web worker](https://web.dev/articles/offscreen-canvas) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [web.dev, Use Baseline with Browserslist](https://web.dev/articles/use-baseline-with-browserslist) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, WebGPU is now supported in major browsers: browser and OS availability](https://web.dev/blog/webgpu-supported-major-browsers#browser_and_os_availability) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 6 | [WebdriverIO, Electron](https://webdriver.io/docs/desktop-testing/electron) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Workload isolation using shuffle-sharding](https://builder.aws.com/content/3F06NpJ8YeoIGP8VHTw4n81pFn8/workload-isolation-using-shuffle-sharding) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Yevgeniy Brikman, Terraform: Up & Running (book, 3rd edition)](https://www.terraformupandrunning.com/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [YoYo Games, GameMaker CLI (gm-cli) README](https://github.com/YoYoGames/gm-cli/blob/main/README.md) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
@@ -2339,7 +2448,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-298 sources.
+303 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2367,6 +2476,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Arm Learning Paths, Analyze shader program performance with Mali Offline Compiler](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ams/malioc/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 5 | [Arm, Mali Offline Compiler User Guide 8.6 (PDF)](https://documentation-service.arm.com/static/674866c827eda361ad4dc590) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 5 | [Astral, Ruff](https://docs.astral.sh/ruff/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 5 | [Astro Docs, Error reference: content entry data does not match schema](https://docs.astro.build/en/reference/errors/invalid-content-entry-data-error/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 5 | [Astro Docs, Error reference: envPrefix conflicts with secret environment variables](https://docs.astro.build/en/reference/errors/env-prefix-conflicts-with-secret/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 5 | [Astro Docs, Error reference: invalid environment variables](https://docs.astro.build/en/reference/errors/env-invalid-variables/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 5 | [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [AWS Config, CloudFormation stack drift detection rule](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 5 | [AWS DevOps Blog, compliance with the AWS CDK and cdk-nag](https://aws.amazon.com/blogs/devops/manage-application-security-and-compliance-with-the-aws-cloud-development-kit-and-cdk-nag/) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
@@ -2399,6 +2511,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 5 | [Edgegap, DDoS protection](https://docs.edgegap.com/docs/ddos-protection) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 5 | [Egor Rogov (Postgres Professional), PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [eslint-plugin-astro, astro/no-set-html-directive](https://ota-meshi.github.io/eslint-plugin-astro/rules/no-set-html-directive/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 5 | [eslint-plugin-astro, astro/no-unsafe-inline-scripts](https://ota-meshi.github.io/eslint-plugin-astro/rules/no-unsafe-inline-scripts/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-i18next, no-literal-string](https://github.com/edvardchen/eslint-plugin-i18next/blob/main/docs/rules/no-literal-string.md) | [general/localization](general/localization.md) | 2026-10-26 |

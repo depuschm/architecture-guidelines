@@ -23,6 +23,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Vue](vue/README.md): Vue 3 apps, with Pinia, Vue Router and Nuxt.
 - [Svelte and SvelteKit](svelte/README.md): Svelte 5 and SvelteKit apps.
 - [Angular](angular/README.md): Angular apps with standalone components, signals, server-side rendering and hydration.
+- [Astro](astro/README.md): Astro 7 sites and apps: static and on-demand rendering, client and server islands, content collections, actions, middleware and sessions.
 - [TypeScript](typescript/README.md): compiler settings, modules and types for any TypeScript codebase.
 - [Node.js](nodejs/README.md): back-end services in TypeScript.
 - [Python](python/README.md): Python applications and services, including FastAPI and Django.
@@ -42,6 +43,10 @@ One folder per platform or service. Each folder adopts the platform's official g
 
 - [Android](android/README.md): native Android apps.
 - [Flutter](flutter/README.md): cross-platform apps.
+
+### Desktop
+
+- [Desktop apps (Electron and Tauri)](desktop/README.md): Electron and Tauri 2 desktop apps: process isolation and IPC, permissions and CSP, secrets, signing, updates and testing.
 
 ### Infrastructure and automation
 

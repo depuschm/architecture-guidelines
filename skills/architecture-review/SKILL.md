@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Review a codebase, a pull request or a design document against the Architecture Guidelines, applying the general rules plus the rules for every platform it detects, from game engines, game services and graphics to web front ends, back ends, databases, mobile apps, cloud and CI. Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
+description: Review a codebase, a pull request or a design document against the Architecture Guidelines, applying the general rules plus the rules for every platform it detects, from game engines, game services and graphics to web front ends, back ends, databases, mobile and desktop apps, cloud and CI. Produces a findings report where every finding cites the guideline it is based on and that guideline's source link. Use when asked for an architecture review, design review, structural assessment or "is this well architected?" check, or before a large refactoring.
 argument-hint: "[path | PR/branch | design doc]"
 ---
 
@@ -45,6 +45,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | Vue | `*.vue` files, a `vue` dependency in `package.json`, or `nuxt.config.*` | `specific/vue/`, plus `specific/web/` |
 | Svelte | `*.svelte` files, `svelte.config.js`, or an `@sveltejs/kit` dependency | `specific/svelte/`, plus `specific/web/` |
 | Angular | `angular.json`, or an `@angular/core` dependency in `package.json`; an `@angular/ssr` dependency means server-side rendering | `specific/angular/`, plus `specific/web/` and `specific/typescript/`, and `specific/nodejs/` with `@angular/ssr` |
+| Astro | `astro.config.mjs`, `.ts` or `.js`, an `astro` dependency in `package.json`, or `.astro` files in `src/pages/` | `specific/astro/`, plus `specific/web/`, the folder of any UI framework used in islands, and `specific/web-hosting/` when an adapter targets Vercel, Netlify or Cloudflare |
 | TypeScript | `tsconfig.json`, or `*.ts` and `*.tsx` files | `specific/typescript/`, plus the platform's folder |
 | Node.js | `package.json` for a server: dependencies such as `express`, `fastify`, `@nestjs/core` or `hono`, or a `start` script that runs `node` | `specific/nodejs/` |
 | Python | `pyproject.toml`, `requirements*.txt`, `uv.lock`, `setup.py`, or Django's `manage.py` | `specific/python/` |
@@ -58,6 +59,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | RabbitMQ | An AMQP client (for example `amqplib`, `pika`, `RabbitMQ.Client`, `amqp091-go`, Spring AMQP), `amqp://` or `amqps://` URLs, `rabbitmq.conf`, or a `rabbitmq` service in a Compose file | `specific/rabbitmq/` |
 | Android | Gradle files that apply `com.android.application` or `com.android.library` | `specific/android/` |
 | Flutter | `pubspec.yaml` that depends on the `flutter` SDK | `specific/flutter/` |
+| Desktop app (Electron or Tauri) | An `electron` dependency, `forge.config.*` or `electron-builder` config, or `BrowserWindow`, `contextBridge` or `ipcMain` in code; or a `src-tauri/` folder with `tauri.conf.json`, a `Cargo.toml` with `tauri`, or `src-tauri/capabilities/*.json` | `specific/desktop/`, plus `specific/web/`, the front-end framework's folder, and `specific/nodejs/` for Electron's main process |
 | Docker | `Dockerfile` or `Containerfile`, `compose.yaml` or `docker-compose.yml`, `.dockerignore` | `specific/docker/` |
 | Kubernetes | YAML files with `apiVersion:` and `kind:`, `Chart.yaml`, `kustomization.yaml` | `specific/kubernetes/` |
 | OpenTelemetry | OpenTelemetry SDK packages (`@opentelemetry/*`, `opentelemetry-*`, `OpenTelemetry.*`), `OTEL_*` environment variables, or a Collector configuration with `receivers`, `exporters` and `service.pipelines` | `specific/opentelemetry/` |

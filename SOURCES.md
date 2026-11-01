@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-95 sources.
+97 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -38,6 +38,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Valve, Steamworks Documentation](https://partner.steamgames.com/doc/home) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 9 | [Agones, Documentation](https://agones.dev/site/docs/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 9 | [Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 9 | [Angular, Coding style guide](https://angular.dev/style-guide) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 9 | [Apple, App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -109,13 +111,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2078 sources.
+2144 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 8 | [.NET Microservices: Architecture for Containerized .NET Applications](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [AIP-121, Resource-oriented design](https://google.aip.dev/121) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AIP-180, Backwards compatibility](https://google.aip.dev/180) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 8 | [Amazon GameLift Servers, Add Amazon GameLift Servers to your game server with the server SDK](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 8 | [Amazon GameLift Servers, Prepare for launch with Amazon GameLift Servers hosting](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 8 | [Android Basics with Compose (course)](https://developer.android.com/courses/android-basics-compose/course) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android Developers, Play Billing: Fight fraud and abuse](https://developer.android.com/google/play/billing/security) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [Android, Best practices for coroutines](https://developer.android.com/kotlin/coroutines/coroutines-best-practices) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -208,6 +212,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [HashiCorp, HCP Terraform workspace best practices](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Manage sensitive data in your configuration](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Module creation: recommended pattern](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 8 | [Heroic Labs, Nakama concepts](https://heroiclabs.com/docs/nakama/concepts/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 8 | [Hodgson, Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [ICO, Age appropriate design: a code of practice for online services (Children's code)](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [ICO, UK GDPR guidance and resources](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -322,7 +327,39 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [adr.github.io](https://adr.github.io/) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 7 | [Agent Skills](https://agentskills.io/specification) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 7 | [Agones, Best practices](https://agones.dev/site/docs/guides/best-practices/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Best practices: redundant clusters](https://agones.dev/site/docs/guides/best-practices/#redundant-clusters) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Client SDKs: lifecycle management](https://agones.dev/site/docs/guides/client-sdks/#lifecycle-management) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Client SDKs: Shutdown()](https://agones.dev/site/docs/guides/client-sdks/#shutdown) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Controlling disruption: considerations](https://agones.dev/site/docs/advanced/controlling-disruption/#considerations) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Controlling disruption: eviction API](https://agones.dev/site/docs/advanced/controlling-disruption/#eviction-api) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Fleet Autoscaler specification: ready buffer autoscaling](https://agones.dev/site/docs/reference/fleetautoscaler/#ready-buffer-autoscaling) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Fleet updates](https://agones.dev/site/docs/guides/fleet-updates/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, GameServer health checking](https://agones.dev/site/docs/guides/health-checking/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Getting started quickstarts](https://agones.dev/site/docs/getting-started/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Scheduling and autoscaling: Packed](https://agones.dev/site/docs/advanced/scheduling-and-autoscaling/#packed) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Agones, Upgrading Agones: multiple clusters](https://agones.dev/site/docs/installation/upgrading/#upgrading-agones-multiple-clusters) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [AIP-158, Pagination](https://google.aip.dev/158) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 7 | [Amazon GameLift Servers, Access AWS resources with an IAM role](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-resources.html#gamelift-sdk-server-resources-roles) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Build a backend service](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_designbackend.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Build a multi-location queue](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/queues-design-multiregion.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Cost optimization strategies](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-pricing-cost-optimization.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Create a player latency policy](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/queues-design-latency.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, DDoS protection](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/ddos-protection-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Decision guide: choose a hosting option](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/fleets-decision-guide.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Managing game hosting in production: game server updates and patches](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-prod-hosting.html#gamelift-prod-hosting-updates) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Monitor with Amazon CloudWatch](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/monitoring-cloudwatch.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Player gateway](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/ddos-protection-player-gateway.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Prepare for launch: launch checklist](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html#gamelift_quickstart_customservers_launch_checklist) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Prepare for launch: testing checklist](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html#gamelift_quickstart_customservers_test_checklist) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Respond to a server process shutdown notification](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-terminate) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Security best practices: keep fleet runtime environments up to date](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/security-best-practices.html#security-best-practices-fleetupdates) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Security best practices: secure your port configurations](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/security-best-practices.html#security-best-practices-ports) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Target-based auto scaling](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/fleets-autoscaling-target.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Telemetry metrics: available metrics](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-servers-metrics-types.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, UDP ping beacons](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/reference-udp-ping-beacons.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Validate a new player](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-validateplayer) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, What is FlexMatch?](https://docs.aws.amazon.com/gameliftservers/latest/flexmatchguide/match-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [AMD GPUOpen, RDNA Performance Guide](https://gpuopen.com/learn/rdna-performance-guide/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Android architecture samples](https://github.com/android/architecture-samples) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android Developers, Analyze and optimize game performance](https://developer.android.com/games/optimize/gameperformance) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -550,7 +587,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Epic Games, Automation Test Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
 | 7 | [Epic Games, Data Validation in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-validation-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 7 | [Epic Games, Game Features and Modular Gameplay in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-features-and-modular-gameplay-in-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-10-25 |
-| 7 | [Epic Games, Game Mode and Game State in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-mode-and-game-state-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
+| 7 | [Epic Games, Game Mode and Game State in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-mode-and-game-state-in-unreal-engine) | [specific/game-servers](specific/game-servers/README.md), [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 7 | [Epic Games, Lyra Sample Game in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/lyra-sample-game-in-unreal-engine) | [specific/unreal](specific/unreal/README.md), [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-10-25 |
 | 7 | [Epic Games, Object Pointers in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/object-pointers-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 7 | [Epic Games, Performance Guidelines for Mobile Devices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/performance-guidelines-for-mobile-devices-in-unreal-engine) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -559,6 +596,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Epic Games, Referencing Assets in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/referencing-assets-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 7 | [Epic Games, Remote Procedure Calls in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/remote-procedure-calls-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 7 | [Epic Games, Run Automation Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/run-automation-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
+| 7 | [Epic Games, Setting Up Dedicated Servers in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-dedicated-servers-in-unreal-engine) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Epic Games, Understanding the Unreal Engine Gameplay Ability System](https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 7 | [Epic Games, Unreal Insights in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 7 | [eslint-plugin-vue, Available rules](https://eslint.vuejs.org/rules/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -756,6 +794,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, Command line tutorial](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
 | 7 | [Godot docs, CPU optimization](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 7 | [Godot docs, Debugger panel](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting for dedicated servers](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Godot docs, Exporting for dedicated servers: exporting a project for a dedicated server](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html#exporting-a-project-for-a-dedicated-server) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Godot docs, Exporting projects](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
 | 7 | [Godot docs, File paths in Godot projects](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
 | 7 | [Godot docs, GDScript warning system](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/warning_system.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
@@ -765,7 +805,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Godot docs, GPU optimization](https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-11-01 |
 | 7 | [Godot docs, GPU optimization: reuse shaders and materials](https://docs.godotengine.org/en/stable/tutorials/performance/gpu_optimization.html#reuse-shaders-and-materials) | [specific/godot/rendering](specific/godot/rendering.md) | 2026-10-31 |
 | 7 | [Godot docs, High-level multiplayer](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
-| 7 | [Godot docs, High-level multiplayer: secure multiplayer design](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#secure-multiplayer-design) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 7 | [Godot docs, High-level multiplayer: authentication](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#authentication) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Godot docs, High-level multiplayer: secure multiplayer design](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#secure-multiplayer-design) | [specific/game-servers](specific/game-servers/README.md), [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 7 | [Godot docs, Import configuration (3D scenes)](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 7 | [Godot docs, Import process](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md), [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-10-25 |
 | 7 | [Godot docs, Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
@@ -873,6 +914,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [HashiCorp, Tests (Terraform configuration language)](https://developer.hashicorp.com/terraform/language/tests) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [HashiCorp, Version constraints](https://developer.hashicorp.com/terraform/language/expressions/version-constraints) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Helm chart best practices](https://helm.sh/docs/chart_best_practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 7 | [Heroic Labs, Nakama authoritative multiplayer: tick rate](https://heroiclabs.com/docs/nakama/concepts/multiplayer/authoritative/#tick-rate) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Heroic Labs, Nakama configuration: common properties](https://heroiclabs.com/docs/nakama/getting-started/configuration/#common-properties) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Heroic Labs, Nakama in-app purchase validation](https://heroiclabs.com/docs/nakama/concepts/iap-validation/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Heroic Labs, Nakama leaderboards: authoritative leaderboards](https://heroiclabs.com/docs/nakama/concepts/leaderboards/#authoritative-leaderboards) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Heroic Labs, Nakama server framework best practices: match handlers](https://heroiclabs.com/docs/nakama/server-framework/introduction/best-practices/#match-handlers) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Heroic Labs, Nakama server framework: performance and scalability best practices](https://heroiclabs.com/docs/nakama/server-framework/introduction/best-practices/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Heroic Labs, Nakama storage access controls: object permissions](https://heroiclabs.com/docs/nakama/concepts/storage/permissions/#object-permissions) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [IAM Access Analyzer, policy validation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [ICO, A brief guide to international transfers](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/a-brief-guide-to-international-transfers/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [ICO, Children's code: code standards](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/code-standards/) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -1067,6 +1115,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OpenTelemetry, Zero-code instrumentation](https://opentelemetry.io/docs/concepts/instrumentation/zero-code/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, Language documentation](https://opentofu.org/docs/language/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [OWASP API Security Top 10, API4:2023 Unrestricted Resource Consumption](https://api-security.owasp.org/editions/2023/en/0xa4-unrestricted-resource-consumption/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [OWASP Authentication Cheat Sheet, Authentication responses](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Implement proper password strength controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Login throttling](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login-throttling) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1390,9 +1439,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Manual, Choose a render pipeline](https://docs.unity3d.com/Manual/choose-a-render-pipeline.html) | [specific/graphics](specific/graphics/README.md), [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Comparison of UI systems](https://docs.unity3d.com/Manual/UI-system-compare.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity Manual, Configurable Enter Play Mode](https://docs.unity3d.com/Manual/configurable-enter-play-mode.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
+| 7 | [Unity Manual, Dedicated Server optimizations](https://docs.unity3d.com/Manual/dedicated-server-optimizations.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Domain reloading](https://docs.unity3d.com/Manual/domain-reloading.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 7 | [Unity Manual, How Unity compiles branching shaders](https://docs.unity3d.com/Manual/shader-conditionals-choose-a-type.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Install and use an existing analyzer](https://docs.unity3d.com/Manual/install-existing-analyzer.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-25 |
+| 7 | [Unity Manual, Introduction to Dedicated Server](https://docs.unity3d.com/Manual/dedicated-server-introduction.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Introduction to level of detail](https://docs.unity3d.com/Manual/LevelOfDetail.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to PSO tracing and warming](https://docs.unity3d.com/Manual/shader-pso-introduction.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to shader variants](https://docs.unity3d.com/Manual/shader-variants.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1416,6 +1467,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, Architect your code with ScriptableObjects](https://unity.com/how-to/architect-game-code-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity, How to architect code as your project scales](https://unity.com/how-to/how-architect-code-your-project-scales) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 7 | [Unity, Localization package manual (1.5)](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
+| 7 | [Unity, Netcode for GameObjects: Connection approval](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@3.1/manual/basics/connection-approval.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Unity, ScriptableObject event channels](https://unity.com/how-to/scriptableobjects-event-channels-game-code) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unreal Engine, Automation Test Framework: test design guidelines](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine#test-design-guidelines) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-01 |
@@ -1499,6 +1551,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Yoni Goldberg et al., Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 6 | [AbleGamers, Accessible Player Experiences (APX)](https://accessible.games/accessible-player-experiences/) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [actionlint, Checks: Script injection by potentially untrusted inputs](https://github.com/rhysd/actionlint/blob/main/docs/checks.md#untrusted-inputs) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [Agones, Canary testing a new Fleet](https://agones.dev/site/docs/integration-patterns/canary-testing/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Agones, Fleet updates: GameServerAllocation across Fleets](https://agones.dev/site/docs/guides/fleet-updates/#gameserverallocation-across-fleets) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Agones, GameServer Pod service accounts](https://agones.dev/site/docs/advanced/service-accounts/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Agones, Google Kubernetes Engine best practices](https://agones.dev/site/docs/guides/best-practices/gke/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Agones, Latency testing with multiple clusters](https://agones.dev/site/docs/guides/ping-service/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Agones, Metrics](https://agones.dev/site/docs/guides/metrics/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Amazon GameLift Servers API Reference, CreateFleet: request parameters](https://docs.aws.amazon.com/gameliftservers/latest/apireference/API_CreateFleet.html#API_CreateFleet_RequestParameters) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Amazon GameLift Servers FlexMatch, Allow requirements to relax over time](https://docs.aws.amazon.com/gameliftservers/latest/flexmatchguide/match-rulesets-components-expansion.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Amazon GameLift Servers, Development roadmap for managed EC2 hosting](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-roadmap-managed.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Amazon GameLift Servers, FleetIQ best practices](https://docs.aws.amazon.com/gameliftservers/latest/fleetiqguide/gsg-best-practices.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Android Developers, Android GPU Inspector](https://developer.android.com/agi) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Android Developers, CPU and GPU optimization tips: avoid discard to enable Early-Z](https://developer.android.com/games/optimize/optimization-tips#avoid-discard-early-z) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1610,12 +1672,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Dodds, Colocation](https://kentcdodds.com/blog/colocation) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Dodds, Stop mocking fetch](https://kentcdodds.com/blog/stop-mocking-fetch) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Dodds, The Testing Trophy and Testing Classifications](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Edgegap, Orchestration](https://docs.edgegap.com/learn/orchestration) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [EDPB, Data protection guide for small business](https://www.edpb.europa.eu/sme_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 6 | [Epic Games, Blueprint Best Practices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md), [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
 | 6 | [Epic Games, Running Gauntlet Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/running-gauntlet-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
 | 6 | [Epic Games, Static Code Analysis in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/static-code-analysis-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
+| 6 | [Epic Games, Unreal Engine API: FNetworkVersion](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/FNetworkVersion) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Epic Games, Using Google Play Asset Delivery in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-google-play-asset-delivery-in-unreal-engine) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [esbuild, Content types: TypeScript caveats](https://esbuild.github.io/content-types/#typescript-caveats) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -1809,6 +1873,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [HashiCorp, terraform plan command reference](https://developer.hashicorp.com/terraform/cli/commands/plan) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, terraform test command reference](https://developer.hashicorp.com/terraform/cli/commands/test) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, terraform validate command reference](https://developer.hashicorp.com/terraform/cli/commands/validate) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [Heroic Labs, Nakama matchmaker: expanding criteria](https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#expanding-criteria) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Heroic Labs, Nakama matchmaker: properties](https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#properties) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Heroic Labs, Nakama user accounts: virtual wallet](https://heroiclabs.com/docs/nakama/concepts/user-accounts/#virtual-wallet) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [ICO, Storage and access technologies: what are the exceptions?](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -2123,6 +2190,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity Scripting API, Application.targetFrameRate](https://docs.unity3d.com/ScriptReference/Application-targetFrameRate.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Unity Scripting API, IPreprocessShaders.OnProcessShader](https://docs.unity3d.com/ScriptReference/Build.IPreprocessShaders.OnProcessShader.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity, Advanced programming and code architecture](https://unity.com/how-to/advanced-programming-and-code-architecture) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
+| 6 | [Unity, Dedicated Server package: Multiplayer roles](https://docs.unity3d.com/Packages/com.unity.dedicated-server@3.0/manual/multiplayer-roles.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Unity, How to run automated tests with the Unity Test Framework](https://unity.com/how-to/automated-tests-unity-test-framework) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Unity, Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity, UI Toolkit for advanced Unity developers](https://docs.unity3d.com/Manual/best-practice-guides/ui-toolkit-for-advanced-unity-developers/bpg-uiad-index.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -2194,7 +2262,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-290 sources.
+295 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2251,6 +2319,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Development Containers specification](https://containers.dev/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Docker, Use Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 5 | [Edgegap, DDoS protection](https://docs.edgegap.com/docs/ddos-protection) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 5 | [Egor Rogov (Postgres Professional), PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-boundaries](https://www.jsboundaries.dev/docs/overview/) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -2329,6 +2398,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Google Cloud, Compliance Manager: Use Custom Service Accounts for Compute Engine Instances](https://docs.cloud.google.com/security-command-center/docs/compliance-manager-cloud-controls#define-non-default-service-account) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 5 | [Google Cloud, Overview of Security Health Analytics](https://docs.cloud.google.com/security-command-center/docs/concepts-security-health-analytics) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 5 | [Google Cloud, Well-Architected Framework: sustainability pillar](https://docs.cloud.google.com/architecture/framework/sustainability) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
+| 5 | [Google for Games, Global multiplayer demo](https://github.com/googleforgames/global-multiplayer-demo/blob/main/README.md) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 5 | [Google Skills, Professional Cloud Architect Certification learning path](https://www.skills.google/paths/12) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 5 | [Google, Release Please](https://github.com/googleapis/release-please) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [GraphQL ESLint, relay-connection-types](https://the-guild.dev/graphql/eslint/rules/relay-connection-types) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -2444,6 +2514,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Unity Manual, Apply default presets to assets by folder](https://docs.unity3d.com/Manual/DefaultPresetsByFolder.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 5 | [Unity Manual, Package layout](https://docs.unity3d.com/Manual/cus-layout.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 5 | [Unity, Netcode for GameObjects API: NetworkConfig](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@3.1/api/Unity.Netcode.NetworkConfig.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 5 | [Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unreal Engine API, GameplayTags module](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/GameplayTags) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 5 | [Unreal Engine, Iris Replication System](https://dev.epicgames.com/documentation/en-us/unreal-engine/iris-replication-system-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
@@ -2476,6 +2547,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Gatekeeper library, container requests](https://open-policy-agent.github.io/gatekeeper-library/website/validation/containerrequests/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, disallowed tags](https://open-policy-agent.github.io/gatekeeper-library/website/validation/disallowedtags/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 4 | [Gatekeeper library, required probes](https://open-policy-agent.github.io/gatekeeper-library/website/validation/requiredprobes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 4 | [Google for Games, Open Match 2 README](https://github.com/googleforgames/open-match2/blob/main/README.md) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 4 | [GUT, Export test results](https://gut.readthedocs.io/en/latest/Export-Test-Results.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
 | 4 | [GUT, Install](https://gut.readthedocs.io/en/latest/Install.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 4 | [GUT, Mocking Input](https://gut.readthedocs.io/en/latest/Mocking-Input.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
@@ -2487,4 +2559,5 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [Turborepo, boundaries (experimental)](https://turborepo.dev/docs/reference/boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Unity Chop Chop (Open Project 1)](https://github.com/UnityTechnologies/open-project-1) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
+| 4 | [Unity Status, Multiplay deprecation notice](https://status.unity.com/info_notices/362941) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 3 | [RabbitMQ, Lazy Queues (historical reference)](https://www.rabbitmq.com/docs/lazy-queues) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |

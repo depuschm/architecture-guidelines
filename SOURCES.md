@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-109 sources.
+112 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -25,6 +25,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md), [specific/gcp](specific/gcp/README.md) | 2026-10-24 |
 | 10 | [GraphQL Foundation, Learn GraphQL](https://graphql.org/learn/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 10 | [Laravel, Documentation](https://laravel.com/framework/docs) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 10 | [MongoDB, Database Manual](https://www.mongodb.com/docs/manual/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
@@ -34,6 +35,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 10 | [RabbitMQ, Documentation (4.4)](https://www.rabbitmq.com/docs) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 10 | [Spring Boot, Reference documentation](https://docs.spring.io/spring-boot/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 10 | [SQLite, SQLite Documentation](https://www.sqlite.org/docs.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 10 | [Supabase Docs, Production Checklist](https://supabase.com/docs/guides/deployment/going-into-prod) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -106,6 +108,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Redis, Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 9 | [Spring Security, Reference documentation](https://docs.spring.io/spring-security/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 9 | [Supabase Docs, Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 9 | [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -123,7 +126,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2635 sources.
+2756 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -243,6 +246,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [HashiCorp, Manage sensitive data in your configuration](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Module creation: recommended pattern](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [Heroic Labs, Nakama concepts](https://heroiclabs.com/docs/nakama/concepts/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 8 | [Hibernate, A Short Guide to Hibernate 7 (7.4)](https://docs.hibernate.org/orm/7.4/introduction/html_single/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 8 | [Hodgson, Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [ICO, Age appropriate design: a code of practice for online services (Children's code)](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [ICO, UK GDPR guidance and resources](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -256,6 +260,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Kubernetes, Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, RBAC good practices](https://kubernetes.io/docs/concepts/security/rbac-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Resource management for pods and containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 8 | [Laravel, Deployment](https://laravel.com/framework/docs/deployment) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 8 | [Martin, The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 8 | [MDN, HTTP caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [MDN, WebGL best practices](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -328,6 +333,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Semantic Versioning 2.0.0, Specification](https://semver.org/#semantic-versioning-specification-semver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 8 | [Spring Modulith, Reference documentation](https://docs.spring.io/spring-modulith/reference/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 8 | [SQLite, Appropriate Uses For SQLite](https://www.sqlite.org/whentouse.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 8 | [SQLite, Defense Against The Dark Arts](https://www.sqlite.org/security.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 8 | [SQLite, How To Corrupt An SQLite Database File](https://www.sqlite.org/howtocorrupt.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
@@ -870,7 +876,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GitHub, OpenID Connect reference](https://docs.github.com/en/actions/reference/security/oidc) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Reusing workflow configurations](https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Script injections](https://docs.github.com/en/actions/concepts/security/script-injections) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
-| 7 | [GitHub, secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection) | [general/security](general/security.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
+| 7 | [GitHub, secret scanning push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection) | [general/security](general/security.md), [specific/dotnet](specific/dotnet/README.md), [specific/laravel](specific/laravel/README.md), [specific/spring-boot](specific/spring-boot/README.md) | 2026-10-25 |
 | 7 | [GitHub, Secure use reference: Hardening for self-hosted runners](https://docs.github.com/en/actions/reference/security/secure-use#hardening-for-self-hosted-runners) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Secure use reference: Using third-party actions](https://docs.github.com/en/actions/reference/security/secure-use#using-third-party-actions) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Securely using pull_request_target](https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -1109,6 +1115,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Heroic Labs, Nakama server framework best practices: match handlers](https://heroiclabs.com/docs/nakama/server-framework/introduction/best-practices/#match-handlers) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Heroic Labs, Nakama server framework: performance and scalability best practices](https://heroiclabs.com/docs/nakama/server-framework/introduction/best-practices/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Heroic Labs, Nakama storage access controls: object permissions](https://heroiclabs.com/docs/nakama/concepts/storage/permissions/#object-permissions) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Hibernate, A Short Guide to Hibernate 7: association fetching](https://docs.hibernate.org/orm/7.4/introduction/html_single/#association-fetching) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Hibernate, A Short Guide to Hibernate 7: join fetching](https://docs.hibernate.org/orm/7.4/introduction/html_single/#join-fetch) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [IAM Access Analyzer, policy validation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-validation.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [ICO, A brief guide to international transfers](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/a-brief-guide-to-international-transfers/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [ICO, Children's code: code standards](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/code-standards/) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -1135,6 +1143,31 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Kubernetes, Images](https://kubernetes.io/docs/concepts/containers/images/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [Kubernetes, Pod lifecycle: termination](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) | [specific/kubernetes](specific/kubernetes/README.md), [specific/nodejs](specific/nodejs/README.md) | 2026-10-24 |
+| 7 | [Laravel, Authorization](https://laravel.com/framework/docs/authorization#introduction) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Blade: displaying unescaped data](https://laravel.com/framework/docs/blade#displaying-unescaped-data) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Configuration: configuration caching](https://laravel.com/framework/docs/configuration#configuration-caching) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Configuration: environment file security](https://laravel.com/framework/docs/configuration#environment-file-security) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, CSRF protection: preventing CSRF requests](https://laravel.com/framework/docs/csrf#preventing-csrf-requests) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Database: database transactions](https://laravel.com/framework/docs/database#database-transactions) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Deployment: debug mode](https://laravel.com/framework/docs/deployment#debug-mode) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Deployment: optimization](https://laravel.com/framework/docs/deployment#optimization) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Eloquent relationships: eager loading](https://laravel.com/framework/docs/eloquent-relationships#eager-loading) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Eloquent relationships: preventing lazy loading](https://laravel.com/framework/docs/eloquent-relationships#preventing-lazy-loading) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Eloquent: mass assignment](https://laravel.com/framework/docs/eloquent#mass-assignment) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, File storage: file uploads](https://laravel.com/framework/docs/filesystem#file-uploads) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Getting Started with Laravel (course)](https://laravel.com/learn/getting-started-with-laravel) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Migrations](https://laravel.com/framework/docs/migrations#introduction) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Query builder](https://laravel.com/framework/docs/queries#introduction) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Query builder: raw methods](https://laravel.com/framework/docs/queries#raw-methods) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Queues](https://laravel.com/framework/docs/queues#introduction) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Queues: dealing with failed jobs](https://laravel.com/framework/docs/queues#dealing-with-failed-jobs) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Queues: job expirations and timeouts](https://laravel.com/framework/docs/queues#job-expirations-and-timeouts) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Queues: jobs and database transactions](https://laravel.com/framework/docs/queues#jobs-and-database-transactions) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Release notes: support policy](https://laravel.com/framework/docs/releases#support-policy) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Testing: getting started](https://laravel.com/framework/docs/testing#introduction) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Upgrade guide](https://laravel.com/framework/docs/upgrade) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Validation: form request validation](https://laravel.com/framework/docs/validation#form-request-validation) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 7 | [Laravel, Validation: validating files](https://laravel.com/framework/docs/validation#validating-files) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 7 | [Mario Casciaro and Luciano Mammino, Node.js Design Patterns (4th edition)](https://nodejsdesignpatterns.com/) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 7 | [Markus Winand, Use The Index, Luke](https://use-the-index-luke.com/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [Martin, The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -1357,6 +1390,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OpenTelemetry, Zero-code instrumentation](https://opentelemetry.io/docs/concepts/instrumentation/zero-code/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, Language documentation](https://opentofu.org/docs/language/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [Oracle, Java SE 25 Core Libraries: Virtual Threads](https://docs.oracle.com/en/java/javase/25/core/virtual-threads.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Oracle, Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [OWASP API Security Top 10, API4:2023 Unrestricted Resource Consumption](https://api-security.owasp.org/editions/2023/en/0xa4-unrestricted-resource-consumption/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [OWASP Authentication Cheat Sheet, Authentication responses](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Implement proper password strength controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1406,6 +1441,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [PgBouncer, SQL feature map for pooling modes](https://www.pgbouncer.org/features.html#sql-feature-map-for-pooling-modes) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 7 | [Phaser docs, Loader](https://docs.phaser.io/phaser/concepts/loader) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Phaser docs, Scenes](https://docs.phaser.io/phaser/concepts/scenes) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 7 | [PHP, Supported Versions](https://www.php.net/supported-versions.php) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 7 | [Pinia, Why should I use Pinia?](https://pinia.vuejs.org/introduction.html#Why-should-I-use-Pinia-) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs](https://pip.pypa.io/en/stable/topics/secure-installs/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [pip, Secure installs: Hash-checking mode](https://pip.pypa.io/en/stable/topics/secure-installs/#hash-checking-mode) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -1553,6 +1589,34 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Software Engineering at Google, chapter 16: The One-Version Rule](https://abseil.io/resources/swe-book/html/ch16.html#the_quotation_markone_versionquotation) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, chapter 21: Dependency Management](https://abseil.io/resources/swe-book/html/ch21.html) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [Spring Boot, Actuator endpoints: checking external state with Kubernetes probes](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html#actuator.endpoints.kubernetes-probes.external-state) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Actuator endpoints: exposing endpoints](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html#actuator.endpoints.exposing) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Actuator endpoints: Kubernetes probes](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html#actuator.endpoints.kubernetes-probes) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Actuator endpoints: security](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html#actuator.endpoints.security) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Database Initialization: use a higher-level database migration tool](https://docs.spring.io/spring-boot/how-to/data-initialization.html#howto.data-initialization.migration-tool) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Deploying to the Cloud: Kubernetes container lifecycle](https://docs.spring.io/spring-boot/how-to/deployment/cloud.html#howto.deployment.cloud.kubernetes.container-lifecycle) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Externalized Configuration: @ConfigurationProperties vs. @Value](https://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.typesafe-configuration-properties.vs-value-annotation) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Externalized Configuration: using configuration trees](https://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.files.configtree) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Graceful Shutdown](https://docs.spring.io/spring-boot/reference/web/graceful-shutdown.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, How-to guides](https://docs.spring.io/spring-boot/how-to/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Observability: OpenTelemetry support](https://docs.spring.io/spring-boot/reference/actuator/observability.html#actuator.observability.opentelemetry) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Spring Beans and Dependency Injection](https://docs.spring.io/spring-boot/reference/using/spring-beans-and-dependency-injection.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Spring Security: MVC security](https://docs.spring.io/spring-boot/reference/web/spring-security.html#web.security.spring-mvc) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Structuring Your Code](https://docs.spring.io/spring-boot/reference/using/structuring-your-code.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Testcontainers: service connections](https://docs.spring.io/spring-boot/reference/testing/testcontainers.html#testing.testcontainers.service-connections) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Boot, Testing Spring Boot Applications: auto-configured tests](https://docs.spring.io/spring-boot/reference/testing/spring-boot-applications.html#testing.spring-boot-applications.autoconfigured-tests) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Data JPA, Reference documentation](https://docs.spring.io/spring-data/jpa/reference/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Data JPA, Transactionality](https://docs.spring.io/spring-data/jpa/reference/jpa/transactions.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Framework, Dependency Injection: constructor-based or setter-based DI?](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html#beans-constructor-vs-setter-injection) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Framework, Reference documentation](https://docs.spring.io/spring-framework/reference/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Framework, Using @Transactional](https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/annotations.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Modulith, Fundamentals: advanced application modules](https://docs.spring.io/spring-modulith/reference/fundamentals.html#modules.advanced) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Modulith, Verifying Application Module Structure](https://docs.spring.io/spring-modulith/reference/verification.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Security, Authorize HttpServletRequests: matching by HTTP method](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#match-by-httpmethod) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Security, CSRF: when to use CSRF protection](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Security, Method Security](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Security, Method Security: comparing request-level and method-level authorization](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html#request-vs-method) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring, Spring Boot support timeline](https://spring.io/projects/spring-boot#support) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [SQLite, ALTER TABLE: making other kinds of table schema changes](https://www.sqlite.org/lang_altertable.html#making_other_kinds_of_table_schema_changes) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, Appropriate Uses For SQLite: checklist for choosing the right database engine](https://www.sqlite.org/whentouse.html#checklist_for_choosing_the_right_database_engine) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, Defense Against The Dark Arts: untrusted SQL inputs](https://www.sqlite.org/security.html#untrusted_sql_inputs) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
@@ -1940,6 +2004,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [Architecture decision records overview](https://docs.cloud.google.com/architecture/architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 6 | [ArchUnit user guide, GeneralCodingRules](https://www.archunit.org/userguide/html/000_Index.html#_generalcodingrules) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [ArchUnit user guide, ProxyRules](https://www.archunit.org/userguide/html/000_Index.html#_proxyrules) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [ArchUnitNET](https://github.com/TNG/ArchUnitNET) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [ArchUnitNET guide](https://archunitnet.readthedocs.io/en/latest/guide/) | [general/testing-delivery](general/testing-delivery.md), [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [arethetypeswrong, CLI](https://github.com/arethetypeswrong/arethetypeswrong.github.io/blob/main/packages/cli/README.md) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
@@ -1988,10 +2054,15 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Cloudflare, Wrangler configuration: source of truth](https://developers.cloudflare.com/workers/wrangler/configuration/#source-of-truth) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [CodeQL, clear-text logging of sensitive data (Python)](https://codeql.github.com/codeql-query-help/python/py-clear-text-logging-sensitive-data/) | [general/security](general/security.md) | 2026-10-25 |
 | 6 | [CodeQL, Database query built from user-controlled sources (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-sql-injection/) | [specific/mongodb](specific/mongodb/README.md), [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 6 | [CodeQL, Disabled Spring CSRF protection (Java)](https://codeql.github.com/codeql-query-help/java/java-spring-disabled-csrf-protection/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [CodeQL, Exposed Spring Boot actuators (Java)](https://codeql.github.com/codeql-query-help/java/java-spring-boot-exposed-actuators/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [CodeQL, Exposed Spring Boot actuators in configuration file (Java)](https://codeql.github.com/codeql-query-help/java/java-spring-boot-exposed-actuators-config/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [CodeQL, NoSQL Injection (Python)](https://codeql.github.com/codeql-query-help/python/py-nosql-injection/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 6 | [CodeQL, Sensitive server cookie exposed to the client (JavaScript)](https://codeql.github.com/codeql-query-help/javascript/js-client-exposed-cookie/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [CodeQL, SQL query built from user-controlled sources (Python)](https://codeql.github.com/codeql-query-help/python/py-sql-injection/) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [commitlint, Guide: CI setup](https://commitlint.js.org/guides/ci-setup) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [Composer, Basic usage: commit your composer.lock file to version control](https://getcomposer.org/doc/01-basic-usage.md#commit-your-composerlock-file-to-version-control) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Composer, Command-line interface: audit](https://getcomposer.org/doc/03-cli.md#audit) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 6 | [Confluent Developer, Apache Kafka 101](https://developer.confluent.io/courses/apache-kafka/events/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Confluent Developer, Dead Letter Stream](https://developer.confluent.io/patterns/event-processing/dead-letter-stream/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Confluent Developer, Event Streaming Patterns](https://developer.confluent.io/patterns/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
@@ -2295,6 +2366,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Heroic Labs, Nakama matchmaker: expanding criteria](https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#expanding-criteria) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Heroic Labs, Nakama matchmaker: properties](https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#properties) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Heroic Labs, Nakama user accounts: virtual wallet](https://heroiclabs.com/docs/nakama/concepts/user-accounts/#virtual-wallet) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Hibernate, A Short Guide to Hibernate 7: many-to-one](https://docs.hibernate.org/orm/7.4/introduction/html_single/#many-to-one) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Hibernate, A Short Guide to Hibernate 7: testing persistence logic](https://docs.hibernate.org/orm/7.4/introduction/html_single/#testing) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [ICO, Storage and access technologies: what are the exceptions?](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -2319,6 +2392,35 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Kubernetes, Service accounts](https://kubernetes.io/docs/concepts/security/service-accounts/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kubernetes, Topology spread constraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 6 | [Kyverno policy library](https://kyverno.io/policies/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 6 | [Laracasts, Laravel From Scratch (2026 Edition)](https://laracasts.com/series/laravel-from-scratch-2026) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Larastan, PHPStan extension for Laravel](https://github.com/larastan/larastan) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Larastan, Rules](https://github.com/larastan/larastan/blob/3.x/docs/rules.md) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Authorization: authorizing actions via middleware](https://laravel.com/framework/docs/authorization#via-middleware) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Authorization: guest users](https://laravel.com/framework/docs/authorization#guest-users) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Blade: rendering JSON](https://laravel.com/framework/docs/blade#rendering-json) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Configuration: encrypting environment files](https://laravel.com/framework/docs/configuration#encrypting-environment-files) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, CSRF protection: excluding URIs](https://laravel.com/framework/docs/csrf#csrf-excluding-uris) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Database testing: model factories](https://laravel.com/framework/docs/database-testing#model-factories) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Database testing: resetting the database after each test](https://laravel.com/framework/docs/database-testing#resetting-the-database-after-each-test) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Database: handling deadlocks](https://laravel.com/framework/docs/database#handling-deadlocks) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Database: running a select query](https://laravel.com/framework/docs/database#running-a-select-query) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Database: running an unprepared statement](https://laravel.com/framework/docs/database#running-an-unprepared-statement) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Deployment: Nginx](https://laravel.com/framework/docs/deployment#nginx) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Deployment: reloading services](https://laravel.com/framework/docs/deployment#reloading-services) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Eloquent: allowing mass assignment](https://laravel.com/framework/docs/eloquent#allowing-mass-assignment) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Eloquent: mass assignment exceptions](https://laravel.com/framework/docs/eloquent#mass-assignment-exceptions) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Encryption: configuration](https://laravel.com/framework/docs/encryption#configuration) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Encryption: gracefully rotating encryption keys](https://laravel.com/framework/docs/encryption#gracefully-rotating-encryption-keys) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, File storage: other uploaded file information](https://laravel.com/framework/docs/filesystem#other-uploaded-file-information) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, File storage: specifying a file name](https://laravel.com/framework/docs/filesystem#specifying-a-file-name) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Horizon](https://laravel.com/framework/docs/horizon) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, HTTP tests: making requests](https://laravel.com/framework/docs/http-tests#making-requests) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Migrations: forcing migrations to run in production](https://laravel.com/framework/docs/migrations#forcing-migrations-to-run-in-production) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Migrations: isolating migration execution](https://laravel.com/framework/docs/migrations#isolating-migration-execution) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Pint: running Pint](https://laravel.com/framework/docs/pint#running-pint) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Validation: authorizing form requests](https://laravel.com/framework/docs/validation#authorizing-form-requests) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Validation: validating file types](https://laravel.com/framework/docs/validation#validating-files-file-types) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 6 | [Laravel, Validation: working with validated input](https://laravel.com/framework/docs/validation#working-with-validated-input) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 6 | [Lighthouse CI, configuration and assertions](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md) | [specific/nextjs](specific/nextjs/README.md), [specific/web-games](specific/web-games/README.md), [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Matt Pocock, Total TypeScript Essentials](https://www.totaltypescript.com/books/total-typescript-essentials) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -2444,11 +2546,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [OpenTelemetry Weaver, Live check](https://github.com/open-telemetry/weaver/blob/main/crates/weaver_live_check/README.md) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 6 | [OpenTelemetry, Deploy the Collector](https://opentelemetry.io/docs/collector/deploy/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 6 | [OpenTelemetry, Training (certifications and courses)](https://opentelemetry.io/training/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OWASP Dependency-Check, Maven plugin configuration](https://dependency-check.github.io/DependencyCheck/dependency-check-maven/configuration.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Resetting MFA](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP, Django Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [OWASP, GraphQL Cheat Sheet: Introspection and GraphiQL](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#introspection-graphiql) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [OWASP, GraphQL Cheat Sheet: Server-side batching and caching](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#server-side-batching-and-caching) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [OWASP, Laravel Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Laravel_Cheat_Sheet.html) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 6 | [OWASP, Third Party JavaScript Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [Palermo, Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 6 | [passkeys.dev, Bootstrapping an account on the web](https://passkeys.dev/docs/use-cases/bootstrapping/) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -2460,6 +2564,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Phaser docs, Game: events](https://docs.phaser.io/phaser/concepts/game#events) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Phaser docs, Loader: where to load assets](https://docs.phaser.io/phaser/concepts/loader#where-to-load-assets) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Phaser docs, Textures](https://docs.phaser.io/phaser/concepts/textures) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [PHP-FIG, PER Coding Style](https://www.php-fig.org/per/coding-style/) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 6 | [pip-tools, pip-compile](https://pip-tools.pypa.io/en/stable/reference/pip-compile/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [PixiJS, Performance Tips](https://pixijs.com/8.x/guides/concepts/performance-tips) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Playwright, Authentication: one account per parallel worker](https://playwright.dev/docs/auth#moderate-one-account-per-parallel-worker) | [specific/web](specific/web/README.md) | 2026-10-26 |
@@ -2476,6 +2581,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [PostgreSQL, Explicit Locking: Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [PostgreSQL, max_connections](https://www.postgresql.org/docs/current/runtime-config-connection.html#GUC-MAX-CONNECTIONS) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 6 | [Psalm Laravel plugin, Security (taint) checks](https://github.com/psalm/psalm-plugin-laravel/blob/4.x/docs/security.md) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 6 | [PSRule for Azure, rules reference](https://azure.github.io/PSRule.Rules.Azure/en/rules/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [publint, Rules](https://publint.dev/rules) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [PyPA, Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -2540,6 +2646,23 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Shader Graph 17.6, Introduction to keywords](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.6/manual/Keywords-concepts.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Shopify, Tutorial: Designing a GraphQL API](https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
+| 6 | [Spring Boot, Database Initialization: initialize a database using Hibernate](https://docs.spring.io/spring-boot/how-to/data-initialization.html#howto.data-initialization.using-hibernate) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, Developing Your First Spring Boot Application](https://docs.spring.io/spring-boot/tutorial/first-application/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, Externalized Configuration: @ConfigurationProperties validation](https://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.typesafe-configuration-properties.validation) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, Externalized Configuration: encrypting properties](https://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.encrypting) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, Metrics: OTLP export](https://docs.spring.io/spring-boot/reference/actuator/metrics.html#actuator.metrics.export.otlp) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, SpringApplication: virtual threads](https://docs.spring.io/spring-boot/reference/features/spring-application.html#features.spring-application.virtual-threads) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, SQL Databases: Open EntityManager in View](https://docs.spring.io/spring-boot/reference/data/sql.html#data.sql.jpa-and-spring-data.open-entity-manager-in-view) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, System Requirements](https://docs.spring.io/spring-boot/system-requirements.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, Tracing: OpenTelemetry with OTLP](https://docs.spring.io/spring-boot/reference/actuator/tracing.html#actuator.micrometer-tracing.tracer-implementations.otel-otlp) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Boot, Tracing: sampling](https://docs.spring.io/spring-boot/reference/actuator/tracing.html#actuator.micrometer-tracing.sampling) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Data JPA, Configuring fetch- and load-graphs](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#jpa.entity-graph) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, Authorize HttpServletRequests: favor permitAll over ignoring](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#favor-permitall) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, CSRF: CSRF and stateless browser applications](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when-stateless) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, CSRF: safe methods must be read-only](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-protection-read-only) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, Servlet CSRF: disable CSRF protection](https://docs.spring.io/spring-security/reference/servlet/exploits/csrf.html#disable-csrf) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring, Guides](https://spring.io/guides/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring, Support policy](https://spring.io/support-policy/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [SQLite, Binding Values To Prepared Statements](https://www.sqlite.org/c3ref/bind_blob.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [SQLite, Database Remote-Copy Tool For SQLite (sqlite3_rsync)](https://www.sqlite.org/rsync.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [SQLite, EXPLAIN QUERY PLAN](https://www.sqlite.org/eqp.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
@@ -2738,6 +2861,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Vitest, Component Testing: Why Browser Mode?](https://vitest.dev/guide/browser/component-testing#why-browser-mode) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Vitest, Mocking Requests](https://vitest.dev/guide/mocking/requests) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Vitest, sequence.shuffle](https://vitest.dev/config/sequence#sequence-shuffle) | [specific/web](specific/web/README.md) | 2026-10-26 |
+| 6 | [Vlad Mihalcea, The Open Session In View Anti-Pattern](https://vladmihalcea.com/the-open-session-in-view-anti-pattern/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [Vogels, Eventually Consistent](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html) | [general/data](general/data.md) | 2026-10-24 |
 | 6 | [VSTHRD002, avoid problematic synchronous waits](https://microsoft.github.io/vs-threading/analyzers/VSTHRD002.html) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Vue Test Utils, Guide](https://test-utils.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -2765,7 +2889,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-323 sources.
+334 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2939,6 +3063,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Kyverno policy, require PodDisruptionBudget](https://kyverno.io/policies/other/require-pdb/require-pdb/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Larastan, Rules: JobDispatchedInTransactionUsesAfterCommitRule](https://github.com/larastan/larastan/blob/3.x/docs/rules.md#jobdispatchedintransactionusesaftercommitrule) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 5 | [Larastan, Rules: NoEnvCallsOutsideOfConfig](https://github.com/larastan/larastan/blob/3.x/docs/rules.md#noenvcallsoutsideofconfig) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 5 | [Laravel, Pint: presets](https://laravel.com/framework/docs/pint#presets) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 5 | [Marc-André Giroux, Production Ready GraphQL](https://book.productionreadygraphql.com/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 5 | [MDN, Progressive enhancement (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 5 | [Microsoft, Azure landing zone documentation (IaC accelerator)](https://azure.github.io/Azure-Landing-Zones/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -2957,9 +3084,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Nuxt ESLint, ESLint module](https://eslint.nuxt.com/packages/module) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [OpenTelemetry, Collector configuration: validate command](https://opentelemetry.io/docs/collector/configuration/#location) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 5 | [OWASP Dependency-Check, Gradle plugin configuration](https://dependency-check.github.io/DependencyCheck/dependency-check-gradle/configuration.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 5 | [OWASP, Top 10 Privacy Risks](https://owasp.org/projects/top-10-privacy-risks) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 5 | [pgBackRest, Command Reference: check](https://pgbackrest.org/command.html#command-check) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [pgBackRest, Command Reference: verify](https://pgbackrest.org/command.html#command-verify) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [PHP The Right Way](https://phptherightway.com/) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 5 | [Pino, Child loggers](https://github.com/pinojs/pino/blob/main/docs/child-loggers.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Pino, Redaction](https://github.com/pinojs/pino/blob/main/docs/redaction.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 5 | [Plumber, CI/CD security issues reference](https://getplumber.io/docs/cli/issues) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
@@ -3002,8 +3131,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Ruff, unsafe-yaml-load (S506)](https://docs.astral.sh/ruff/rules/unsafe-yaml-load/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [semantic-release](https://semantic-release.org/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 5 | [Semgrep, angular-bypasssecuritytrust rule](https://github.com/semgrep/semgrep-rules/blob/develop/typescript/angular/security/audit/angular-domsanitizer.yaml) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 5 | [Semgrep, Laravel security rules](https://github.com/semgrep/semgrep-rules/tree/develop/php/laravel/security) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Spring for Apache Kafka, Non-blocking retries: how the pattern works](https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 5 | [Spring, Spring PetClinic sample application](https://github.com/spring-projects/spring-petclinic) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 5 | [SQLite Wasm, Persistent Storage Options](https://sqlite.org/wasm/doc/trunk/persistence.md) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [SQLite, Atomic Commit In SQLite](https://www.sqlite.org/atomiccommit.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [SQLite, PRAGMA cell_size_check](https://www.sqlite.org/pragma.html#pragma_cell_size_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
@@ -3080,9 +3211,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [GUT, Mocking Input](https://gut.readthedocs.io/en/latest/Mocking-Input.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 4 | [GUT, Simulate](https://gut.readthedocs.io/en/latest/Simulate.html) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 4 | [Module Graph Assert (Gradle plugin)](https://github.com/jraska/modules-graph-assert) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 4 | [PHP-FIG, PSR-12: Extended Coding Style](https://www.php-fig.org/psr/psr-12/) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 4 | [poutine, injection rule (Rego source)](https://github.com/boostsecurityio/poutine/blob/main/opa/rego/rules/injection.rego) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 4 | [Privado, open-source data flow scanner for personal data](https://github.com/Privado-Inc/privado) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 4 | [Semgrep, mongodb-nosqli rule (Java)](https://github.com/semgrep/semgrep-rules/blob/develop/java/mongodb/security/injection/audit/mongodb-nosqli.yaml) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 4 | [Semgrep, Rule laravel-active-debug-code](https://github.com/semgrep/semgrep-rules/blob/develop/php/laravel/security/laravel-active-debug-code.yaml) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 4 | [Semgrep, Rule laravel-blade-form-missing-csrf](https://github.com/semgrep/semgrep-rules/blob/develop/php/laravel/security/laravel-blade-form-missing-csrf.yaml) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
+| 4 | [Semgrep, Rule laravel-dangerous-model-construction](https://github.com/semgrep/semgrep-rules/blob/develop/php/laravel/security/laravel-dangerous-model-construction.yaml) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 4 | [Sherif, README](https://github.com/QuiiBz/sherif/blob/main/README.md) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 4 | [SwiftLint, accessibility_label_for_image rule](https://realm.github.io/SwiftLint/accessibility_label_for_image.html) | [specific/ios](specific/ios/README.md) | 2026-11-01 |

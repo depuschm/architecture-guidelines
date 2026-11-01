@@ -29,6 +29,8 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Python](python/README.md): Python applications and services, including FastAPI and Django.
 - [Go](go/README.md): services, command-line tools and game servers on Go 1.26 and 1.27: module layout, errors, contexts and goroutines, HTTP servers, slog, modules and govulncheck, database/sql, fuzzing and CI checks.
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.
+- [Java and Spring Boot](spring-boot/README.md): back-end services and web apps on Spring Boot 4 and a Java LTS release: code structure and Spring Modulith, configuration and secrets, Spring Security, JPA and Hibernate, Actuator and Kubernetes probes, observability, versions and testing.
+- [PHP and Laravel](laravel/README.md): Laravel 13 web apps and APIs on supported PHP versions: configuration and deployment, authorization, validation and mass assignment, Blade and SQL injection, uploads, Eloquent and migrations, queues, testing and upgrades.
 - [GraphQL](graphql/README.md): designing, securing and running GraphQL APIs.
 
 ### Data and messaging

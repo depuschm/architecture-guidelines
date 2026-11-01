@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-89 sources.
+90 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
+| 10 | [Valve, Steamworks Documentation](https://partner.steamgames.com/doc/home) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -103,7 +104,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1895 sources.
+1965 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -277,6 +278,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Static stability using Availability Zones](https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
+| 8 | [Steamworks, Steam Deck and Steam Machine Compatibility Review](https://partner.steamgames.com/doc/steamhardware/compat) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 8 | [Steamworks, Uploading to Steam](https://partner.steamgames.com/doc/sdk/uploading) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 8 | [Steamworks, User Authentication and Ownership](https://partner.steamgames.com/doc/features/auth) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 8 | [SvelteKit, Performance](https://svelte.dev/docs/kit/performance) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [SvelteKit, State management](https://svelte.dev/docs/kit/state-management) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -867,6 +871,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft Azure Architecture Center, Caching guidance: high availability and scalability](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#implement-high-availability-and-scalability-and-improve-performance) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Microsoft Azure Architecture Center, Caching guidance: keep the cache consistent on writes](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching#keep-the-cache-consistent-on-writes) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Microsoft Entra Workload ID, Workload identity federation](https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
+| 7 | [Microsoft Learn, Code signing options for Windows app developers: Azure Artifact Signing](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/code-signing-options#azure-artifact-signing-formerly-trusted-signing--recommended-for-non-store-distribution) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Microsoft Learn, Contextual metadata](https://learn.microsoft.com/en-us/globalization/internationalization/contextual-metadata) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Microsoft Learn, Customize font selection with font fallback and font linking](https://learn.microsoft.com/en-us/globalization/fonts-layout/fonts) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Microsoft Learn, Design software for international markets: encoding](https://learn.microsoft.com/en-us/globalization/methodology/international-design#encoding) | [general/localization](general/localization.md) | 2026-10-26 |
@@ -879,6 +884,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Microsoft Learn, Message formatting](https://learn.microsoft.com/en-us/globalization/internationalization/message-formatting) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Microsoft Learn, Pluralization](https://learn.microsoft.com/en-us/globalization/internationalization/pluralization) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Microsoft Learn, Pseudolocalization](https://learn.microsoft.com/en-us/globalization/methodology/pseudolocalization) | [general/localization](general/localization.md) | 2026-10-26 |
+| 7 | [Microsoft Learn, SmartScreen reputation for Windows app developers: minimizing SmartScreen warnings in practice](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation#minimizing-smartscreen-warnings-in-practice) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Microsoft, .NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 7 | [Microsoft, Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 7 | [Microsoft, Azure Policy regulatory compliance details for the Microsoft cloud security benchmark](https://learn.microsoft.com/en-us/azure/governance/policy/samples/azure-security-benchmark) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -1189,6 +1195,37 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Software Engineering at Google, chapter 16: The One-Version Rule](https://abseil.io/resources/swe-book/html/ch16.html#the_quotation_markone_versionquotation) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, chapter 21: Dependency Management](https://abseil.io/resources/swe-book/html/ch21.html) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Software Engineering at Google, table of contents](https://abseil.io/resources/swe-book/html/toc.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 7 | [Steamworks, Authentication using Web API Keys: publisher keys](https://partner.steamgames.com/doc/webapi_overview/auth#publisher-keys) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Builds: authorizing default build updates](https://partner.steamgames.com/doc/store/application/builds#Authorizing_Default_Build_Updates) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Compatibility Review: requirements for Steam Deck and Steam Machine](https://partner.steamgames.com/doc/steamhardware/compat#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Compatibility Review: Steam Deck specific requirements](https://partner.steamgames.com/doc/steamhardware/compat#3) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Getting your game ready for Steam Deck and Steam Machine](https://partner.steamgames.com/doc/steamhardware/recommendations) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Getting your game ready for Steam Deck and Steam Machine: game features](https://partner.steamgames.com/doc/steamhardware/recommendations#3) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Getting your game ready for Steam Deck and Steam Machine: input](https://partner.steamgames.com/doc/steamhardware/recommendations#1) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Managing Your Steamworks Account: group permissions](https://partner.steamgames.com/doc/gettingstarted/managing_users#9) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Managing Your Steamworks Account: managing groups](https://partner.steamgames.com/doc/gettingstarted/managing_users#5) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Microtransactions Implementation Guide](https://partner.steamgames.com/doc/features/microtransactions/implementation) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Microtransactions Implementation Guide: in-game purchasing](https://partner.steamgames.com/doc/features/microtransactions/implementation#6) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Stats and Achievements](https://partner.steamgames.com/doc/features/achievements) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Stats and Achievements: game server stats](https://partner.steamgames.com/doc/features/achievements#game_server_stats) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Cloud](https://partner.steamgames.com/doc/features/cloud) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Cloud: notes and best practices](https://partner.steamgames.com/doc/features/cloud#notes-and-best-practices) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Hardware and Proton](https://partner.steamgames.com/doc/steamhardware/proton) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Hardware and Proton: known Proton issues](https://partner.steamgames.com/doc/steamhardware/proton#4) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Hardware and Proton: Proton anti-cheat support](https://partner.steamgames.com/doc/steamhardware/proton#1) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Input: Getting Started for Developers](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_devs) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Input: Getting Started for Developers: overview](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_devs#1) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Leaderboards](https://partner.steamgames.com/doc/features/leaderboards) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Steam Playtest](https://partner.steamgames.com/doc/features/playtest) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Testing On Steam](https://partner.steamgames.com/doc/store/testing) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Updating Your Game: Best Practices](https://partner.steamgames.com/doc/store/updates) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Updating Your Game: uploading your update](https://partner.steamgames.com/doc/store/updates#7) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Uploading to Steam: game content structure best practices](https://partner.steamgames.com/doc/sdk/uploading#AppStructureBestPractices) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Uploading to Steam: Steam build account](https://partner.steamgames.com/doc/sdk/uploading#Build_Account) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, Uploading to Steam: using SteamPipe in a CI/CD environment](https://partner.steamgames.com/doc/sdk/uploading#automating_steampipe) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, User Authentication and Ownership: APIs (session tickets, encrypted application tickets)](https://partner.steamgames.com/doc/features/auth#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, User Authentication and Ownership: backend server](https://partner.steamgames.com/doc/features/auth#client_to_backend_webapi) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Steamworks, User Authentication and Ownership: P2P or game servers](https://partner.steamgames.com/doc/features/auth#client_to_client) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Svelte CLI, sv check](https://svelte.dev/docs/cli/sv-check) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, $effect: when not to use $effect](https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, Best practices: $props](https://svelte.dev/docs/svelte/best-practices#$props) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -1302,6 +1339,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unreal Engine, Blueprint Communication Usage](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-communication-usage-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 7 | [Unreal Engine, BuildGraph](https://dev.epicgames.com/documentation/en-us/unreal-engine/buildgraph-for-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-11-01 |
 | 7 | [Unreal Engine, Common Memory and CPU Performance Considerations](https://dev.epicgames.com/documentation/en-us/unreal-engine/common-memory-and-cpu-performance-considerations-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md), [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-11-01 |
+| 7 | [Unreal Engine, Crash Reporting in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/crash-reporting-in-unreal-engine) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Unreal Engine, Creating a Bundled PSO Cache](https://dev.epicgames.com/documentation/en-us/unreal-engine/manually-creating-bundled-pso-caches-in-unreal-engine) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 7 | [Unreal Engine, Data Driven Gameplay Elements](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 7 | [Unreal Engine, Enhanced Input](https://dev.epicgames.com/documentation/en-us/unreal-engine/enhanced-input-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
@@ -1312,6 +1350,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unreal Engine, Material Instances](https://dev.epicgames.com/documentation/en-us/unreal-engine/instanced-materials-in-unreal-engine) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 7 | [Unreal Engine, Nanite Virtualized Geometry](https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 7 | [Unreal Engine, One File Per Actor](https://dev.epicgames.com/documentation/en-us/unreal-engine/one-file-per-actor-in-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-10-25 |
+| 7 | [Unreal Engine, Online Subsystem](https://dev.epicgames.com/documentation/en-us/unreal-engine/online-subsystem-in-unreal-engine) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Unreal Engine, Online Subsystem Steam](https://dev.epicgames.com/documentation/en-us/unreal-engine/online-subsystem-steam-interface-in-unreal-engine) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Unreal Engine, Plugins](https://dev.epicgames.com/documentation/en-us/unreal-engine/plugins-in-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-11-01 |
 | 7 | [Unreal Engine, PSO Precaching](https://dev.epicgames.com/documentation/en-us/unreal-engine/pso-precaching-for-unreal-engine) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 7 | [Unreal Engine, PSO Precaching: validation and tracking](https://dev.epicgames.com/documentation/en-us/unreal-engine/pso-precaching-for-unreal-engine#validation-and-tracking) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
@@ -1675,6 +1715,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Import Linter, forbidden contracts](https://import-linter.readthedocs.io/en/stable/contract_types/forbidden/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Import Linter, independence contracts](https://import-linter.readthedocs.io/en/stable/contract_types/independence/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md), [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [itch.io, butler manual: running butler from CI builds](https://itch.io/docs/butler/login.html#running-butler-from-ci-builds-github-actions-gitlab-ci-etc) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Jaap-Henk Hoepman, Privacy Design Strategies (The Little Blue Book)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Khronos, glslang](https://github.com/KhronosGroup/glslang/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1708,6 +1749,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Microsoft Learn, Identifying user preferences](https://learn.microsoft.com/en-us/globalization/locale/user-preferences) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Microsoft Learn, Localize games](https://learn.microsoft.com/en-us/globalization/localization/localize-games) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Microsoft Learn, Mirroring](https://learn.microsoft.com/en-us/globalization/fonts-layout/mirroring) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [Microsoft Learn, SignTool: verify command options](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#verify-command-options) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Microsoft Learn, SymStore](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/symstore) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Microsoft, .NET code analysis overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Azure Policy built-in initiatives](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
 | 6 | [Microsoft, Azure Policy definitions for tagging resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-policies) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -1869,6 +1912,31 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Squawk, Applying migrations safely](https://squawkhq.com/docs/safe_migrations) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Squawk, Rules overview](https://squawkhq.com/docs/rules) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 6 | [Steamworks, Authentication using Web API Keys: creating a publisher Web API key](https://partner.steamgames.com/doc/webapi_overview/auth#create_publisher_key) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Builds: beta branches](https://partner.steamgames.com/doc/store/application/builds#Beta_Branches) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Compatibility Review: FAQ](https://partner.steamgames.com/doc/steamhardware/compat#7) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Demos](https://partner.steamgames.com/doc/store/application/demos) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Managing Your Steamworks Account: Actual Authority](https://partner.steamgames.com/doc/gettingstarted/managing_users#7) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Managing Your Steamworks Account: user history](https://partner.steamgames.com/doc/gettingstarted/managing_users#4) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Microtransactions Implementation Guide: status values](https://partner.steamgames.com/doc/features/microtransactions/implementation#status_values) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Stats and Achievements: define your game's stats and achievements](https://partner.steamgames.com/doc/features/achievements#4) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Stats and Achievements: global stats](https://partner.steamgames.com/doc/features/achievements#global_stats) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Stats and Achievements: how to use them](https://partner.steamgames.com/doc/features/achievements#6) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Stats and Achievements: offline mode](https://partner.steamgames.com/doc/features/achievements#8) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Cloud: cross-platform saves](https://partner.steamgames.com/doc/features/cloud#4) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Cloud: initial setup](https://partner.steamgames.com/doc/features/cloud#initial-setup) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Cloud: save file paths](https://partner.steamgames.com/doc/features/cloud#3) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Cloud: Steam Cloud API and Steam Auto-Cloud](https://partner.steamgames.com/doc/features/cloud#5) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Error Reporting](https://partner.steamgames.com/doc/features/error_reporting) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Hardware and Proton: Easy Anti-Cheat](https://partner.steamgames.com/doc/steamhardware/proton#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Input: Getting Started for Developers: creating an in-game actions file](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_devs#iga) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Input: Getting Started for Developers: non-Steam Input API games](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_devs#5) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Input: Getting Started for Developers: on-screen glyphs](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_devs#18) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steam Leaderboards: creating via the web](https://partner.steamgames.com/doc/features/leaderboards#4) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steamworks API Overview: commercial engine and non-C++ language support](https://partner.steamgames.com/doc/sdk/api#thirdparty) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Steamworks API Overview: SteamAPI_Init](https://partner.steamgames.com/doc/sdk/api#SteamAPI_Init) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Uploading to Steam: advanced build scripts](https://partner.steamgames.com/doc/sdk/uploading#5) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 6 | [Steamworks, Uploading to Steam: introduction to the SteamPipe content system](https://partner.steamgames.com/doc/sdk/uploading#Introduction) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Stylelint, property-layout-mappings](https://stylelint.io/user-guide/rules/property-layout-mappings/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Svelte CLI, sv check: --compiler-warnings](https://svelte.dev/docs/cli/sv-check#Options-compiler-warnings-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -1907,6 +1975,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [TypeScript, TypeScript 4.7 release notes: package.json exports, imports and self-referencing](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#packagejson-exports-imports-and-self-referencing) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [typescript-eslint, Dependency Versions](https://typescript-eslint.io/users/dependency-versions/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [typescript-eslint, no-unsafe-type-assertion](https://typescript-eslint.io/rules/no-unsafe-type-assertion/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
+| 6 | [Unity Cloud, View Diagnostics for your project](https://docs.unity.com/en-us/cloud/developer-data/diagnostics) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Unity Entities package manual](https://docs.unity3d.com/Packages/com.unity.entities@latest/) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity game programming patterns demo](https://github.com/Unity-Technologies/game-programming-patterns-demo) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Unity Localization, Asset Tables](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/AssetTables.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
@@ -1972,6 +2041,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unreal Engine, Zen Storage Server](https://dev.epicgames.com/documentation/en-us/unreal-engine/zen-storage-server-for-unreal-engine) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 6 | [uv, Locking and syncing: Checking the lockfile](https://docs.astral.sh/uv/concepts/projects/sync/#checking-the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [uv, Working on projects](https://docs.astral.sh/uv/guides/projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Valve, Steam Hardware & Software Survey](https://store.steampowered.com/hwsurvey) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Vercel, @vercel/functions API reference: attachDatabasePool](https://vercel.com/docs/functions/functions-api-reference/vercel-functions-package#attachdatabasepool) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vercel, Getting started with Vercel](https://vercel.com/docs/getting-started-with-vercel) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Vercel, Project configuration](https://vercel.com/docs/project-configuration) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -2000,12 +2070,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [YoYo Games, GameMaker CLI (gm-cli) README](https://github.com/YoYoGames/gm-cli/blob/main/README.md) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 6 | [YoYo Games, gm-cli changelog](https://github.com/YoYoGames/gm-cli/blob/main/CHANGELOG.md) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 6 | [YoYo Games, gm-cli compile workflow template](https://github.com/YoYoGames/gm-cli/blob/main/src/commands/init/compile.yml) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
+| 6 | [YoYo Games, GMEXT-Steamworks: GameMaker's Steamworks extension](https://github.com/YoYoGames/GMEXT-Steamworks/blob/main/README.md) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [ZAP, Baseline scan](https://www.zaproxy.org/docs/docker/baseline-scan/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [zizmor, Audit rules](https://docs.zizmor.sh/audits/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 
 ## Further reading (1–5)
 
-277 sources.
+283 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2077,6 +2148,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [eslint-plugin-testing-library, no-node-access](https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-node-access.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 5 | [eslint-plugin-vue, vue/define-emits-declaration](https://eslint.vuejs.org/rules/define-emits-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-vue, vue/define-props-declaration](https://eslint.vuejs.org/rules/define-props-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 5 | [Facepunch, Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -2126,6 +2198,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Godot docs, Overview of debugging tools: Deploy with Remote Debug](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html#deploy-with-remote-debug) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Godot docs, TranslationServer class reference](https://docs.godotengine.org/en/stable/classes/class_translationserver.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
+| 5 | [GodotSteam, Steamworks for the Godot Engine](https://godotsteam.com/) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google Cloud, Cloud Foundation Fabric (Terraform modules and FAST landing zone toolkit)](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -2209,6 +2282,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [RabbitMQ, Quorum Queues: global QoS](https://www.rabbitmq.com/docs/quorum-queues#global-qos) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 5 | [RabbitMQ, rabbitmq-diagnostics: check_certificate_expiration](https://www.rabbitmq.com/docs/man/rabbitmq-diagnostics.8#check_certificate_expiration) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 5 | [Renovate Docs, Automated dependency updates for GitLab CI/CD](https://docs.renovatebot.com/modules/manager/gitlabci/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 5 | [Riley Labrecque, Steamworks.NET](https://steamworks.github.io/) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Roberts, Serverless Architectures](https://martinfowler.com/articles/serverless.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 5 | [Ruff, blocking-http-call-in-async-function (ASYNC210)](https://docs.astral.sh/ruff/rules/blocking-http-call-in-async-function/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Ruff, blocking-open-call-in-async-function (ASYNC230)](https://docs.astral.sh/ruff/rules/blocking-open-call-in-async-function/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -2232,6 +2306,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Squawk, require-concurrent-index-creation](https://squawkhq.com/docs/require-concurrent-index-creation) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, require-concurrent-index-deletion](https://squawkhq.com/docs/require-concurrent-index-deletion) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, require-lock-timeout](https://squawkhq.com/docs/require-lock-timeout) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Steamworks, Stats and Achievements: stat consistency](https://partner.steamgames.com/doc/features/achievements#10) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 5 | [Steamworks, Steam DRM: automated Steam DRM wrapper](https://partner.steamgames.com/doc/features/drm#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Syncpack, lint command](https://syncpack.dev/command/lint/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -2257,6 +2333,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [wgpu, naga](https://github.com/gfx-rs/wgpu/blob/trunk/naga/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 5 | [YoYo Games, gm-cli agent guidance (GML conventions)](https://github.com/YoYoGames/gm-cli/blob/main/src/commands/init/claude-contents.txt) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 5 | [YoYo Games, GMEXT-Photon (Photon extension for GameMaker)](https://github.com/YoYoGames/GMEXT-Photon/blob/main/README.md) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-11-01 |
+| 5 | [Zach Burke, The 5 Golden Rules of Input (Game Developer)](https://www.gamedeveloper.com/design/the-5-golden-rules-of-input) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [ZAP, Cookie No HttpOnly Flag (10010)](https://www.zaproxy.org/docs/alerts/10010/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [ZAP, Cookie without SameSite Attribute (10054)](https://www.zaproxy.org/docs/alerts/10054/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 5 | [ZAP, Cookie Without Secure Flag (10011)](https://www.zaproxy.org/docs/alerts/10011/) | [general/authentication](general/authentication.md) | 2026-10-25 |

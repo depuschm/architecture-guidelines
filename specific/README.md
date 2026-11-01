@@ -10,6 +10,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Unreal Engine](unreal/README.md): Unreal Engine 5 games in C++ and Blueprint.
 - [GameMaker](gamemaker/README.md): games built with GameMaker and GML, on the LTS release.
 - [Graphics and GPU rendering](graphics/README.md): engine-independent GPU rendering and shaders, on native platforms and on the web with WebGL and WebGPU.
+- [Steam and PC games](steam/README.md): shipping and running games on Steam and PCs, for any engine: builds and branches, Steamworks keys and accounts, purchases, Steam Cloud, controllers, Steam Deck and Proton.
 - [Mobile games](mobile-games/README.md): shipping and running games on the App Store and Google Play, for any engine.
 
 ### Web and back end

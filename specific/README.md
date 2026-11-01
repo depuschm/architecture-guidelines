@@ -27,6 +27,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [TypeScript](typescript/README.md): compiler settings, modules and types for any TypeScript codebase.
 - [Node.js](nodejs/README.md): back-end services in TypeScript.
 - [Python](python/README.md): Python applications and services, including FastAPI and Django.
+- [Go](go/README.md): services, command-line tools and game servers on Go 1.26 and 1.27: module layout, errors, contexts and goroutines, HTTP servers, slog, modules and govulncheck, database/sql, fuzzing and CI checks.
 - [.NET / ASP.NET Core](dotnet/README.md): back-end services and web apps.
 - [GraphQL](graphql/README.md): designing, securing and running GraphQL APIs.
 

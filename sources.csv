@@ -57,6 +57,7 @@ score,title,url,verified
 9,"Google Cloud, Enterprise foundations blueprint",https://docs.cloud.google.com/architecture/blueprints/security-foundations,2026-10-25
 9,"Google SRE book, Service Level Objectives",https://sre.google/sre-book/service-level-objectives/,2026-10-24
 9,Google SRE books,https://sre.google/books/,2026-10-24
+9,"Google, Go Style",https://google.github.io/styleguide/go/,2026-11-01
 9,"GraphQL Foundation, GraphQL Specification (September 2025)",https://spec.graphql.org/September2025/,2026-10-25
 9,IAM security best practices,https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html,2026-10-24
 9,"IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security",https://www.rfc-editor.org/rfc/rfc9700,2026-10-25
@@ -183,6 +184,10 @@ score,title,url,verified
 8,"GitLab Docs, Deployment safety",https://docs.gitlab.com/ci/environments/deployment_safety/,2026-10-25
 8,"GitLab Docs, Pipeline security",https://docs.gitlab.com/ci/pipeline_security/,2026-10-25
 8,"GitLab Docs, Security for self-managed runners",https://docs.gitlab.com/runner/security/,2026-10-25
+8,"Go wiki, Go Code Review Comments",https://go.dev/wiki/CodeReviewComments,2026-11-01
+8,"Go, Go Modules Reference",https://go.dev/ref/mod,2026-11-01
+8,"Go, Organizing a Go module",https://go.dev/doc/modules/layout,2026-11-01
+8,"Go, Security Best Practices for Go Developers",https://go.dev/doc/security/best-practices,2026-11-01
 8,"Godot docs, Exporting for the Web",https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html,2026-11-01
 8,"Godot docs, GDScript style guide",https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html,2026-10-25
 8,"Godot docs, Scene organization",https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html,2026-10-25
@@ -198,6 +203,9 @@ score,title,url,verified
 8,"Google SRE book, Embracing Risk",https://sre.google/sre-book/embracing-risk/,2026-10-24
 8,"Google SRE book, Monitoring Distributed Systems",https://sre.google/sre-book/monitoring-distributed-systems/,2026-10-24
 8,"Google SRE book, table of contents",https://sre.google/sre-book/table-of-contents/,2026-10-24
+8,"Google, Go Style Best Practices",https://google.github.io/styleguide/go/best-practices,2026-11-01
+8,"Google, Go Style Decisions",https://google.github.io/styleguide/go/decisions,2026-11-01
+8,"Google, Go Style Guide",https://google.github.io/styleguide/go/guide,2026-11-01
 8,"GraphQL Foundation, Authorization",https://graphql.org/learn/authorization/,2026-10-25
 8,"HashiCorp, HCP Terraform workspace best practices",https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices,2026-10-25
 8,"HashiCorp, Manage sensitive data in your configuration",https://developer.hashicorp.com/terraform/language/manage-sensitive-data,2026-10-25
@@ -831,6 +839,52 @@ score,title,url,verified
 7,"GitLab Docs, Troubleshooting CI/CD variables: Enable debug logging",https://docs.gitlab.com/ci/variables/variables_troubleshooting/#enable-debug-logging,2026-10-25
 7,"GitLab Docs, Validate GitLab CI/CD configuration (CI Lint)",https://docs.gitlab.com/ci/yaml/lint/,2026-10-25
 7,"GitLab Docs, workflow keyword: Switch between branch pipelines and merge request pipelines",https://docs.gitlab.com/ci/yaml/workflow/#switch-between-branch-pipelines-and-merge-request-pipelines,2026-10-25
+7,"Go blog, Contexts and structs",https://go.dev/blog/context-and-structs,2026-11-01
+7,"Go blog, How Go Mitigates Supply Chain Attacks",https://go.dev/blog/supply-chain,2026-11-01
+7,"Go blog, Structured Logging with slog",https://go.dev/blog/slog,2026-11-01
+7,"Go blog, When To Use Generics: One simple guideline",https://go.dev/blog/when-generics#one-simple-guideline,2026-11-01
+7,"Go blog, Working with Errors in Go 1.13: Whether to wrap",https://go.dev/blog/go1.13-errors#whether-to-wrap,2026-11-01
+7,"Go wiki, Go Code Review Comments: Contexts",https://go.dev/wiki/CodeReviewComments#contexts,2026-11-01
+7,"Go wiki, Go Code Review Comments: Don't panic",https://go.dev/wiki/CodeReviewComments#dont-panic,2026-11-01
+7,"Go wiki, Go Code Review Comments: Gofmt",https://go.dev/wiki/CodeReviewComments#gofmt,2026-11-01
+7,"Go wiki, Go Code Review Comments: Goroutine lifetimes",https://go.dev/wiki/CodeReviewComments#goroutine-lifetimes,2026-11-01
+7,"Go wiki, Go Code Review Comments: Handle errors",https://go.dev/wiki/CodeReviewComments#handle-errors,2026-11-01
+7,"Go wiki, Go Code Review Comments: Interfaces",https://go.dev/wiki/CodeReviewComments#interfaces,2026-11-01
+7,"Go wiki, Go Code Review Comments: Package names",https://go.dev/wiki/CodeReviewComments#package-names,2026-11-01
+7,"Go wiki, Go Test Comments",https://go.dev/wiki/TestComments,2026-11-01
+7,"Go, A Guide to the Go Garbage Collector",https://go.dev/doc/gc-guide,2026-11-01
+7,"Go, A Tour of Go",https://go.dev/tour/,2026-11-01
+7,"Go, Accessing relational databases",https://go.dev/doc/database/,2026-11-01
+7,"Go, Avoiding SQL injection risk",https://go.dev/doc/database/sql-injection,2026-11-01
+7,"Go, context package",https://pkg.go.dev/context,2026-11-01
+7,"Go, Data Race Detector",https://go.dev/doc/articles/race_detector,2026-11-01
+7,"Go, database/sql: Open",https://pkg.go.dev/database/sql#Open,2026-11-01
+7,"Go, Effective Go",https://go.dev/doc/effective_go,2026-11-01
+7,"Go, errors package",https://pkg.go.dev/errors,2026-11-01
+7,"Go, Go Fuzzing",https://go.dev/doc/security/fuzz/,2026-11-01
+7,"Go, Go Modules Reference: Authenticating modules",https://go.dev/ref/mod#authenticating,2026-11-01
+7,"Go, Go Modules Reference: go mod tidy",https://go.dev/ref/mod#go-mod-tidy,2026-11-01
+7,"Go, Go Modules Reference: Private modules",https://go.dev/ref/mod#private-modules,2026-11-01
+7,"Go, Go Toolchains",https://go.dev/doc/toolchain,2026-11-01
+7,"Go, golang.org/x/sync/errgroup package",https://pkg.go.dev/golang.org/x/sync/errgroup,2026-11-01
+7,"Go, govulncheck command",https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck,2026-11-01
+7,"Go, How to Write Go Code",https://go.dev/doc/code,2026-11-01
+7,"Go, html/template package",https://pkg.go.dev/html/template,2026-11-01
+7,"Go, Managing connections",https://go.dev/doc/database/manage-connections,2026-11-01
+7,"Go, net/http: Handler",https://pkg.go.dev/net/http#Handler,2026-11-01
+7,"Go, net/http: Server",https://pkg.go.dev/net/http#Server,2026-11-01
+7,"Go, net/http: Server.Shutdown",https://pkg.go.dev/net/http#Server.Shutdown,2026-11-01
+7,"Go, Organizing a Go module: Server project",https://go.dev/doc/modules/layout#server-project,2026-11-01
+7,"Go, os/signal: NotifyContext",https://pkg.go.dev/os/signal#NotifyContext,2026-11-01
+7,"Go, Release History",https://go.dev/doc/devel/release,2026-11-01
+7,"Go, Release History: Release policy",https://go.dev/doc/devel/release#policy,2026-11-01
+7,"Go, Security Best Practices: Check for race conditions with Go's race detector",https://go.dev/doc/security/best-practices#check-for-race-conditions-with-gos-race-detector,2026-11-01
+7,"Go, Security Best Practices: Keep your Go version and dependencies up to date",https://go.dev/doc/security/best-practices#keep-your-go-version-and-dependencies-up-to-date,2026-11-01
+7,"Go, Security Best Practices: Scan source code and binaries for vulnerabilities",https://go.dev/doc/security/best-practices#scan-source-code-and-binaries-for-vulnerabilities,2026-11-01
+7,"Go, Security Best Practices: Test with fuzzing to uncover edge-case exploits",https://go.dev/doc/security/best-practices#test-with-fuzzing-to-uncover-edge-case-exploits,2026-11-01
+7,"Go, testing/synctest package",https://pkg.go.dev/testing/synctest,2026-11-01
+7,"Go, The Go Programming Language Specification: Handling panics",https://go.dev/ref/spec#Handling_panics,2026-11-01
+7,"Go, vet command",https://pkg.go.dev/cmd/vet,2026-11-01
 7,"Godot blog, UID changes coming to Godot 4.4",https://godotengine.org/article/uid-changes-coming-to-godot-4-4/,2026-10-25
 7,"Godot docs, Autoloads versus regular nodes",https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html,2026-10-25
 7,"Godot docs, Background loading",https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html,2026-11-01
@@ -924,6 +978,12 @@ score,title,url,verified
 7,"Google Play Console Help, Release app updates with staged rollouts",https://support.google.com/googleplay/android-developer/answer/6346149?hl=en,2026-10-25
 7,"Google SRE book, Data Integrity",https://sre.google/sre-book/data-integrity/,2026-10-26
 7,"Google SRE book, Postmortem Culture",https://sre.google/sre-book/postmortem-culture/,2026-10-24
+7,"Google, Go Style Best Practices: Logging errors",https://google.github.io/styleguide/go/best-practices#error-logging,2026-11-01
+7,"Google, Go Style Best Practices: Util packages",https://google.github.io/styleguide/go/best-practices#util-packages,2026-11-01
+7,"Google, Go Style Best Practices: When to panic",https://google.github.io/styleguide/go/best-practices#when-to-panic,2026-11-01
+7,"Google, Go Style Decisions: Goroutine lifetimes",https://google.github.io/styleguide/go/decisions#goroutine-lifetimes,2026-11-01
+7,"Google, Go Style Decisions: Interfaces",https://google.github.io/styleguide/go/decisions#interfaces,2026-11-01
+7,"Google, Go Style Guide: Formatting",https://google.github.io/styleguide/go/guide#formatting,2026-11-01
 7,"Google, Site Reliability Engineering, chapter 8: Release Engineering",https://sre.google/sre-book/release-engineering/,2026-10-25
 7,"GOV.UK Service Manual, Building a robust frontend using progressive enhancement",https://www.gov.uk/service-manual/technology/using-progressive-enhancement,2026-10-25
 7,"GOV.UK Service Manual, Understanding WCAG 2.2",https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag,2026-10-25
@@ -1740,6 +1800,7 @@ score,title,url,verified
 6,cargo-semver-checks,https://github.com/obi1kenobi/cargo-semver-checks,2026-10-25
 6,cdk-nag rules,https://github.com/cdklabs/cdk-nag/blob/main/RULES.md,2026-10-25
 6,"Checkov, Terraform resource scans (policy index)",https://www.checkov.io/5.Policy%20Index/terraform.html,2026-10-25
+6,"Chris James, Learn Go with Tests",https://quii.gitbook.io/learn-go-with-tests,2026-11-01
 6,Clean Architecture template (Ardalis),https://github.com/ardalis/CleanArchitecture,2026-10-24
 6,"Cloudflare Pages, Preview deployments",https://developers.cloudflare.com/pages/configuration/preview-deployments/,2026-10-25
 6,"Cloudflare, Choose a data or storage product",https://developers.cloudflare.com/workers/platform/storage-options/,2026-10-25
@@ -1927,6 +1988,33 @@ score,title,url,verified
 6,"GitLab Docs, Tutorial: Create a complex pipeline",https://docs.gitlab.com/ci/quick_start/tutorial/,2026-10-25
 6,"GitLab Docs, Tutorial: Create and run your first GitLab CI/CD pipeline",https://docs.gitlab.com/ci/quick_start/,2026-10-25
 6,Gitleaks,https://github.com/gitleaks/gitleaks,2026-10-25
+6,"Go blog, Package names: Bad package names",https://go.dev/blog/package-names#bad-package-names,2026-11-01
+6,"Go blog, Routing Enhancements for Go 1.22",https://go.dev/blog/routing-enhancements,2026-11-01
+6,"Go wiki, Go Code Review Comments: Synchronous functions",https://go.dev/wiki/CodeReviewComments#synchronous-functions,2026-11-01
+6,"Go wiki, Go Modules: Should I commit my go.sum file?",https://go.dev/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file,2026-11-01
+6,"Go wiki, TableDrivenTests",https://go.dev/wiki/TableDrivenTests,2026-11-01
+6,"Go wiki, Use a sync.Mutex or a channel?",https://go.dev/wiki/MutexOrChannel,2026-11-01
+6,"Go, Canceling in-progress operations",https://go.dev/doc/database/cancel-operations,2026-11-01
+6,"Go, Effective Go: Recover",https://go.dev/doc/effective_go#recover,2026-11-01
+6,"Go, Effective Go: Share by communicating",https://go.dev/doc/effective_go#sharing,2026-11-01
+6,"Go, Go 1.27 Release Notes: Goroutine leak profile",https://go.dev/doc/go1.27#goroutineleak-profiles,2026-11-01
+6,"Go, Go 1.27 Release Notes: Vet",https://go.dev/doc/go1.27#vet,2026-11-01
+6,"Go, go command: Test packages",https://pkg.go.dev/cmd/go#hdr-Test_packages,2026-11-01
+6,"Go, Go Modules Reference: go mod verify",https://go.dev/ref/mod#go-mod-verify,2026-11-01
+6,"Go, gofmt command",https://pkg.go.dev/cmd/gofmt,2026-11-01
+6,"Go, govulncheck: Exit codes",https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck#hdr-Exit_codes,2026-11-01
+6,"Go, html/template: HTML",https://pkg.go.dev/html/template#HTML,2026-11-01
+6,"Go, log/slog: Contexts",https://pkg.go.dev/log/slog#hdr-Contexts,2026-11-01
+6,"Go, log/slog: Customizing a type's logging behavior",https://pkg.go.dev/log/slog#hdr-Customizing_a_type_s_logging_behavior,2026-11-01
+6,"Go, log/slog: SetDefault",https://pkg.go.dev/log/slog#SetDefault,2026-11-01
+6,"Go, net/http: MaxBytesReader",https://pkg.go.dev/net/http#MaxBytesReader,2026-11-01
+6,"Go, net/http: ResponseController",https://pkg.go.dev/net/http#ResponseController,2026-11-01
+6,"Go, net/http: Server.RegisterOnShutdown",https://pkg.go.dev/net/http#Server.RegisterOnShutdown,2026-11-01
+6,"Go, os/signal: Default behavior of signals in Go programs",https://pkg.go.dev/os/signal#hdr-Default_behavior_of_signals_in_Go_programs,2026-11-01
+6,"Go, Querying for data: Querying for multiple rows",https://go.dev/doc/database/querying#multiple_rows,2026-11-01
+6,"Go, Tutorial: Accessing a relational database",https://go.dev/doc/tutorial/database-access,2026-11-01
+6,"Go, Tutorial: Find and fix vulnerable dependencies with govulncheck",https://go.dev/doc/tutorial/govulncheck,2026-11-01
+6,"Go, Tutorial: Getting started with fuzzing",https://go.dev/doc/tutorial/fuzz,2026-11-01
 6,"Godot class reference, FileAccess.get_var",https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var,2026-10-25
 6,"Godot class reference, Object",https://docs.godotengine.org/en/stable/classes/class_object.html#description,2026-11-01
 6,"Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration",https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration,2026-10-25
@@ -1963,6 +2051,8 @@ score,title,url,verified
 6,"Godot docs, Version control systems: Git LFS",https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#git-lfs,2026-11-01
 6,"Godot docs, Your first 3D game",https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html,2026-10-25
 6,"Godot Foundation, Godot demo projects",https://github.com/godotengine/godot-demo-projects,2026-11-01
+6,"golangci-lint, Linter settings: errorlint",https://golangci-lint.run/docs/linters/configuration/#errorlint,2026-11-01
+6,"golangci-lint, Linters",https://golangci-lint.run/docs/linters/,2026-11-01
 6,Google Cloud API design guide,https://docs.cloud.google.com/apis/design,2026-10-24
 6,"Google Cloud, Architecting disaster recovery for cloud infrastructure outages",https://docs.cloud.google.com/architecture/disaster-recovery,2026-10-25
 6,"Google Cloud, Best practices for enabling VPC Service Controls",https://docs.cloud.google.com/vpc-service-controls/docs/enable,2026-10-25
@@ -1977,6 +2067,9 @@ score,title,url,verified
 6,"Google Play Console Help, Use a pre-launch report to identify issues",https://support.google.com/googleplay/android-developer/answer/9842757?hl=en,2026-10-25
 6,"Google Testing Blog, Flaky Tests at Google and How We Mitigate Them",https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html,2026-10-26
 6,"Google Testing Blog, Just Say No to More End-to-End Tests",https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html,2026-10-24
+6,"Google, Go Style Best Practices: Error structure",https://google.github.io/styleguide/go/best-practices#error-structure,2026-11-01
+6,"Google, Go Style Decisions: Generics",https://google.github.io/styleguide/go/decisions#generics,2026-11-01
+6,"gosec, Rule Documentation",https://github.com/securego/gosec/blob/master/RULES.md,2026-11-01
 6,GraphQL best practices,https://graphql.org/learn/best-practices/,2026-10-24
 6,"GraphQL ESLint, no-deprecated",https://the-guild.dev/graphql/eslint/rules/no-deprecated,2026-10-25
 6,"GraphQL ESLint, relay-arguments",https://the-guild.dev/graphql/eslint/rules/relay-arguments,2026-10-25
@@ -2002,6 +2095,8 @@ score,title,url,verified
 6,"HashiCorp, terraform plan command reference",https://developer.hashicorp.com/terraform/cli/commands/plan,2026-10-25
 6,"HashiCorp, terraform test command reference",https://developer.hashicorp.com/terraform/cli/commands/test,2026-10-25
 6,"HashiCorp, terraform validate command reference",https://developer.hashicorp.com/terraform/cli/commands/validate,2026-10-25
+6,"Heroic Labs, Nakama Go Runtime",https://heroiclabs.com/docs/nakama/server-framework/go-runtime/,2026-11-01
+6,"Heroic Labs, Nakama Go Runtime: Dependency Pinning",https://heroiclabs.com/docs/nakama/server-framework/go-runtime/go-dependencies/,2026-11-01
 6,"Heroic Labs, Nakama matchmaker: expanding criteria",https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#expanding-criteria,2026-11-01
 6,"Heroic Labs, Nakama matchmaker: properties",https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#properties,2026-11-01
 6,"Heroic Labs, Nakama user accounts: virtual wallet",https://heroiclabs.com/docs/nakama/concepts/user-accounts/#virtual-wallet,2026-11-01
@@ -2229,6 +2324,8 @@ score,title,url,verified
 6,"Spectral, OpenAPI rules",https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md,2026-10-25
 6,"Squawk, Applying migrations safely",https://squawkhq.com/docs/safe_migrations,2026-10-25
 6,"Squawk, Rules overview",https://squawkhq.com/docs/rules,2026-10-25
+6,"Staticcheck, Checks",https://staticcheck.dev/docs/checks/,2026-11-01
+6,"Staticcheck, Checks: SA1012",https://staticcheck.dev/docs/checks/#SA1012,2026-11-01
 6,"Steamworks, Authentication using Web API Keys: creating a publisher Web API key",https://partner.steamgames.com/doc/webapi_overview/auth#create_publisher_key,2026-11-01
 6,"Steamworks, Builds: beta branches",https://partner.steamgames.com/doc/store/application/builds#Beta_Branches,2026-11-01
 6,"Steamworks, Compatibility Review: FAQ",https://partner.steamgames.com/doc/steamhardware/compat#7,2026-11-01
@@ -2483,6 +2580,7 @@ score,title,url,verified
 5,Development Containers specification,https://containers.dev/,2026-10-25
 5,"Docker, Use Compose Watch",https://docs.docker.com/compose/how-tos/file-watch/,2026-10-25
 5,Domain-Driven Design Quickly (InfoQ e-book),https://www.infoq.com/minibooks/domain-driven-design-quickly/,2026-10-24
+5,"Donovan and Kernighan, The Go Programming Language",https://www.gopl.io/,2026-11-01
 5,"Edgegap, DDoS protection",https://docs.edgegap.com/docs/ddos-protection,2026-11-01
 5,"Egor Rogov (Postgres Professional), PostgreSQL 14 Internals",https://postgrespro.com/community/books/internals,2026-10-25
 5,"eslint-plugin-astro, astro/no-set-html-directive",https://ota-meshi.github.io/eslint-plugin-astro/rules/no-set-html-directive/,2026-11-01
@@ -2534,6 +2632,8 @@ score,title,url,verified
 5,"GitLab Docs, CI Lint API",https://docs.gitlab.com/api/lint/,2026-10-25
 5,"GitLab Docs, glab ci lint",https://docs.gitlab.com/cli/ci/lint/,2026-10-25
 5,"GitLab Docs, Improving monorepo performance",https://docs.gitlab.com/user/project/repository/monorepos/,2026-10-25
+5,"Go blog, Go Concurrency Patterns: Context",https://go.dev/blog/context,2026-11-01
+5,"Go blog, Go Concurrency Patterns: Pipelines and cancellation",https://go.dev/blog/pipelines,2026-11-01
 5,"Godot blog, Multiplayer in Godot 4.0: Scene Replication",https://godotengine.org/article/multiplayer-in-godot-4-0-scene-replication/,2026-11-01
 5,"Godot class reference, InputMap",https://docs.godotengine.org/en/stable/classes/class_inputmap.html,2026-11-01
 5,"Godot class reference, MultiplayerSpawner",https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html,2026-11-01
@@ -2553,6 +2653,9 @@ score,title,url,verified
 5,"Godot docs, Resolving crashes on Android",https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html,2026-10-25
 5,"Godot docs, TranslationServer class reference",https://docs.godotengine.org/en/stable/classes/class_translationserver.html,2026-10-26
 5,"GodotSteam, Steamworks for the Godot Engine",https://godotsteam.com/,2026-11-01
+5,"golangci-lint, Linter settings: containedctx",https://golangci-lint.run/docs/linters/configuration/#containedctx,2026-11-01
+5,"golangci-lint, Linter settings: noctx",https://golangci-lint.run/docs/linters/configuration/#noctx,2026-11-01
+5,"golangci-lint, Linter settings: sloglint",https://golangci-lint.run/docs/linters/configuration/#sloglint,2026-11-01
 5,"Google API Linter, core::0121::resource-must-support-get",https://linter.aip.dev/121/resource-must-support-get,2026-10-25
 5,"Google API Linter, core::0158::request-page-size-field",https://linter.aip.dev/158/request-page-size-field,2026-10-25
 5,"Google Cloud, Cloud Foundation Fabric (Terraform modules and FAST landing zone toolkit)",https://github.com/GoogleCloudPlatform/cloud-foundation-fabric,2026-10-25
@@ -2661,6 +2764,7 @@ score,title,url,verified
 5,"Squawk, require-concurrent-index-creation",https://squawkhq.com/docs/require-concurrent-index-creation,2026-10-25
 5,"Squawk, require-concurrent-index-deletion",https://squawkhq.com/docs/require-concurrent-index-deletion,2026-10-25
 5,"Squawk, require-lock-timeout",https://squawkhq.com/docs/require-lock-timeout,2026-10-25
+5,"Staticcheck, Documentation",https://staticcheck.dev/docs/,2026-11-01
 5,"Steamworks, Stats and Achievements: stat consistency",https://partner.steamgames.com/doc/features/achievements#10,2026-11-01
 5,"Steamworks, Steam DRM: automated Steam DRM wrapper",https://partner.steamgames.com/doc/features/drm#2,2026-11-01
 5,"Supabase splinter, Lint 0003: Auth RLS InitPlan",https://supabase.github.io/splinter/0003_auth_rls_initplan/,2026-11-01

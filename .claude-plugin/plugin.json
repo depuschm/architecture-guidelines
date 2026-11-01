@@ -37,6 +37,7 @@
     "typescript",
     "nodejs",
     "python",
+    "go",
     "graphql",
     "postgres",
     "redis",

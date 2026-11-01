@@ -49,6 +49,7 @@ If the scope is unclear and the repository is large, ask once. Otherwise state y
 | TypeScript | `tsconfig.json`, or `*.ts` and `*.tsx` files | `specific/typescript/`, plus the platform's folder |
 | Node.js | `package.json` for a server: dependencies such as `express`, `fastify`, `@nestjs/core` or `hono`, or a `start` script that runs `node` | `specific/nodejs/` |
 | Python | `pyproject.toml`, `requirements*.txt`, `uv.lock`, `setup.py`, or Django's `manage.py` | `specific/python/` |
+| Go | `go.mod` (with `go.sum`) or `go.work`, `*.go` files, or `cmd/<name>/main.go` | `specific/go/`, plus `specific/game-servers/` when `go.mod` requires `agones.dev/agones` or `github.com/heroiclabs/nakama-common`, and `specific/postgres/` with `github.com/jackc/pgx` |
 | .NET | `*.sln`, `*.slnx`, `*.csproj` (outside a Unity project) | `specific/dotnet/` |
 | GraphQL | `*.graphql` or `*.gql` schema files, a `graphql` dependency, or a GraphQL server library (for example Apollo Server, GraphQL Yoga, Strawberry, Hot Chocolate) | `specific/graphql/` |
 | PostgreSQL | SQL migrations for PostgreSQL, `postgres://` or `postgresql://` connection strings, a PostgreSQL driver (`pg`, `psycopg`, `asyncpg`, `Npgsql`), or a `postgres` service in a Compose file | `specific/postgres/` |

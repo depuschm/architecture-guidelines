@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-100 sources.
+101 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -69,6 +69,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Google Cloud, Enterprise foundations blueprint](https://docs.cloud.google.com/architecture/blueprints/security-foundations) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 9 | [Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Google SRE books](https://sre.google/books/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 9 | [Google, Go Style](https://google.github.io/styleguide/go/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 9 | [GraphQL Foundation, GraphQL Specification (September 2025)](https://spec.graphql.org/September2025/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 9 | [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -114,7 +115,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2327 sources.
+2423 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -202,6 +203,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [GitLab Docs, Deployment safety](https://docs.gitlab.com/ci/environments/deployment_safety/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Pipeline security](https://docs.gitlab.com/ci/pipeline_security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 8 | [GitLab Docs, Security for self-managed runners](https://docs.gitlab.com/runner/security/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 8 | [Go wiki, Go Code Review Comments](https://go.dev/wiki/CodeReviewComments) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 8 | [Go, Go Modules Reference](https://go.dev/ref/mod) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 8 | [Go, Organizing a Go module](https://go.dev/doc/modules/layout) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 8 | [Go, Security Best Practices for Go Developers](https://go.dev/doc/security/best-practices) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Godot docs, Exporting for the Web](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md), [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
@@ -217,6 +222,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Google SRE book, Embracing Risk](https://sre.google/sre-book/embracing-risk/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, table of contents](https://sre.google/sre-book/table-of-contents/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [Google, Go Style Best Practices](https://google.github.io/styleguide/go/best-practices) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 8 | [Google, Go Style Decisions](https://google.github.io/styleguide/go/decisions) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 8 | [Google, Go Style Guide](https://google.github.io/styleguide/go/guide) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [GraphQL Foundation, Authorization](https://graphql.org/learn/authorization/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, HCP Terraform workspace best practices](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 8 | [HashiCorp, Manage sensitive data in your configuration](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
@@ -850,6 +858,52 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GitLab Docs, Troubleshooting CI/CD variables: Enable debug logging](https://docs.gitlab.com/ci/variables/variables_troubleshooting/#enable-debug-logging) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 7 | [GitLab Docs, Validate GitLab CI/CD configuration (CI Lint)](https://docs.gitlab.com/ci/yaml/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 7 | [GitLab Docs, workflow keyword: Switch between branch pipelines and merge request pipelines](https://docs.gitlab.com/ci/yaml/workflow/#switch-between-branch-pipelines-and-merge-request-pipelines) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
+| 7 | [Go blog, Contexts and structs](https://go.dev/blog/context-and-structs) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go blog, How Go Mitigates Supply Chain Attacks](https://go.dev/blog/supply-chain) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go blog, Structured Logging with slog](https://go.dev/blog/slog) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go blog, When To Use Generics: One simple guideline](https://go.dev/blog/when-generics#one-simple-guideline) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go blog, Working with Errors in Go 1.13: Whether to wrap](https://go.dev/blog/go1.13-errors#whether-to-wrap) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Contexts](https://go.dev/wiki/CodeReviewComments#contexts) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Don't panic](https://go.dev/wiki/CodeReviewComments#dont-panic) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Gofmt](https://go.dev/wiki/CodeReviewComments#gofmt) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Goroutine lifetimes](https://go.dev/wiki/CodeReviewComments#goroutine-lifetimes) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Handle errors](https://go.dev/wiki/CodeReviewComments#handle-errors) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Interfaces](https://go.dev/wiki/CodeReviewComments#interfaces) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Code Review Comments: Package names](https://go.dev/wiki/CodeReviewComments#package-names) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go wiki, Go Test Comments](https://go.dev/wiki/TestComments) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, A Tour of Go](https://go.dev/tour/) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Accessing relational databases](https://go.dev/doc/database/) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Avoiding SQL injection risk](https://go.dev/doc/database/sql-injection) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, context package](https://pkg.go.dev/context) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Data Race Detector](https://go.dev/doc/articles/race_detector) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, database/sql: Open](https://pkg.go.dev/database/sql#Open) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Effective Go](https://go.dev/doc/effective_go) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, errors package](https://pkg.go.dev/errors) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Go Fuzzing](https://go.dev/doc/security/fuzz/) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Go Modules Reference: Authenticating modules](https://go.dev/ref/mod#authenticating) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Go Modules Reference: go mod tidy](https://go.dev/ref/mod#go-mod-tidy) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Go Modules Reference: Private modules](https://go.dev/ref/mod#private-modules) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Go Toolchains](https://go.dev/doc/toolchain) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, golang.org/x/sync/errgroup package](https://pkg.go.dev/golang.org/x/sync/errgroup) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, govulncheck command](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, How to Write Go Code](https://go.dev/doc/code) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, html/template package](https://pkg.go.dev/html/template) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Managing connections](https://go.dev/doc/database/manage-connections) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, net/http: Handler](https://pkg.go.dev/net/http#Handler) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, net/http: Server](https://pkg.go.dev/net/http#Server) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, net/http: Server.Shutdown](https://pkg.go.dev/net/http#Server.Shutdown) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Organizing a Go module: Server project](https://go.dev/doc/modules/layout#server-project) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, os/signal: NotifyContext](https://pkg.go.dev/os/signal#NotifyContext) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Release History](https://go.dev/doc/devel/release) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Release History: Release policy](https://go.dev/doc/devel/release#policy) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Security Best Practices: Check for race conditions with Go's race detector](https://go.dev/doc/security/best-practices#check-for-race-conditions-with-gos-race-detector) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Security Best Practices: Keep your Go version and dependencies up to date](https://go.dev/doc/security/best-practices#keep-your-go-version-and-dependencies-up-to-date) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Security Best Practices: Scan source code and binaries for vulnerabilities](https://go.dev/doc/security/best-practices#scan-source-code-and-binaries-for-vulnerabilities) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Security Best Practices: Test with fuzzing to uncover edge-case exploits](https://go.dev/doc/security/best-practices#test-with-fuzzing-to-uncover-edge-case-exploits) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, testing/synctest package](https://pkg.go.dev/testing/synctest) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, The Go Programming Language Specification: Handling panics](https://go.dev/ref/spec#Handling_panics) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, vet command](https://pkg.go.dev/cmd/vet) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Godot blog, UID changes coming to Godot 4.4](https://godotengine.org/article/uid-changes-coming-to-godot-4-4/) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-10-25 |
 | 7 | [Godot docs, Autoloads versus regular nodes](https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_regular_nodes.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 7 | [Godot docs, Background loading](https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
@@ -943,6 +997,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google Play Console Help, Release app updates with staged rollouts](https://support.google.com/googleplay/android-developer/answer/6346149?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Google SRE book, Data Integrity](https://sre.google/sre-book/data-integrity/) | [general/data](general/data.md) | 2026-10-26 |
 | 7 | [Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 7 | [Google, Go Style Best Practices: Logging errors](https://google.github.io/styleguide/go/best-practices#error-logging) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Google, Go Style Best Practices: Util packages](https://google.github.io/styleguide/go/best-practices#util-packages) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Google, Go Style Best Practices: When to panic](https://google.github.io/styleguide/go/best-practices#when-to-panic) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Google, Go Style Decisions: Goroutine lifetimes](https://google.github.io/styleguide/go/decisions#goroutine-lifetimes) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Google, Go Style Decisions: Interfaces](https://google.github.io/styleguide/go/decisions#interfaces) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Google, Go Style Guide: Formatting](https://google.github.io/styleguide/go/guide#formatting) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Google, Site Reliability Engineering, chapter 8: Release Engineering](https://sre.google/sre-book/release-engineering/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -1759,6 +1819,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [cdk-nag rules](https://github.com/cdklabs/cdk-nag/blob/main/RULES.md) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [Checkov, Terraform resource scans (policy index)](https://www.checkov.io/5.Policy%20Index/terraform.html) | [specific/azure](specific/azure/README.md), [specific/gcp](specific/gcp/README.md), [specific/redis](specific/redis/README.md), [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [Chris James, Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Clean Architecture template (Ardalis)](https://github.com/ardalis/CleanArchitecture) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Cloudflare Pages, Preview deployments](https://developers.cloudflare.com/pages/configuration/preview-deployments/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
 | 6 | [Cloudflare, Choose a data or storage product](https://developers.cloudflare.com/workers/platform/storage-options/) | [specific/web-hosting](specific/web-hosting/README.md) | 2026-10-25 |
@@ -1946,6 +2007,33 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitLab Docs, Tutorial: Create a complex pipeline](https://docs.gitlab.com/ci/quick_start/tutorial/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 6 | [GitLab Docs, Tutorial: Create and run your first GitLab CI/CD pipeline](https://docs.gitlab.com/ci/quick_start/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 6 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [general/security](general/security.md) | 2026-10-25 |
+| 6 | [Go blog, Package names: Bad package names](https://go.dev/blog/package-names#bad-package-names) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go blog, Routing Enhancements for Go 1.22](https://go.dev/blog/routing-enhancements) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go wiki, Go Code Review Comments: Synchronous functions](https://go.dev/wiki/CodeReviewComments#synchronous-functions) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go wiki, Go Modules: Should I commit my go.sum file?](https://go.dev/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go wiki, TableDrivenTests](https://go.dev/wiki/TableDrivenTests) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go wiki, Use a sync.Mutex or a channel?](https://go.dev/wiki/MutexOrChannel) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Canceling in-progress operations](https://go.dev/doc/database/cancel-operations) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Effective Go: Recover](https://go.dev/doc/effective_go#recover) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Effective Go: Share by communicating](https://go.dev/doc/effective_go#sharing) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Go 1.27 Release Notes: Goroutine leak profile](https://go.dev/doc/go1.27#goroutineleak-profiles) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Go 1.27 Release Notes: Vet](https://go.dev/doc/go1.27#vet) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, go command: Test packages](https://pkg.go.dev/cmd/go#hdr-Test_packages) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Go Modules Reference: go mod verify](https://go.dev/ref/mod#go-mod-verify) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, gofmt command](https://pkg.go.dev/cmd/gofmt) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, govulncheck: Exit codes](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck#hdr-Exit_codes) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, html/template: HTML](https://pkg.go.dev/html/template#HTML) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, log/slog: Contexts](https://pkg.go.dev/log/slog#hdr-Contexts) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, log/slog: Customizing a type's logging behavior](https://pkg.go.dev/log/slog#hdr-Customizing_a_type_s_logging_behavior) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, log/slog: SetDefault](https://pkg.go.dev/log/slog#SetDefault) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, net/http: MaxBytesReader](https://pkg.go.dev/net/http#MaxBytesReader) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, net/http: ResponseController](https://pkg.go.dev/net/http#ResponseController) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, net/http: Server.RegisterOnShutdown](https://pkg.go.dev/net/http#Server.RegisterOnShutdown) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, os/signal: Default behavior of signals in Go programs](https://pkg.go.dev/os/signal#hdr-Default_behavior_of_signals_in_Go_programs) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Querying for data: Querying for multiple rows](https://go.dev/doc/database/querying#multiple_rows) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Tutorial: Accessing a relational database](https://go.dev/doc/tutorial/database-access) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Tutorial: Find and fix vulnerable dependencies with govulncheck](https://go.dev/doc/tutorial/govulncheck) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, Tutorial: Getting started with fuzzing](https://go.dev/doc/tutorial/fuzz) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Godot class reference, FileAccess.get_var](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html#class-fileaccess-method-get-var) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-25 |
 | 6 | [Godot class reference, Object](https://docs.godotengine.org/en/stable/classes/class_object.html#description) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 6 | [Godot class reference, ProjectSettings debug/gdscript/warnings/untyped_declaration](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-debug-gdscript-warnings-untyped-declaration) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
@@ -1982,6 +2070,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Godot docs, Version control systems: Git LFS](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#git-lfs) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 6 | [Godot Foundation, Godot demo projects](https://github.com/godotengine/godot-demo-projects) | [specific/godot](specific/godot/README.md) | 2026-11-01 |
+| 6 | [golangci-lint, Linter settings: errorlint](https://golangci-lint.run/docs/linters/configuration/#errorlint) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [golangci-lint, Linters](https://golangci-lint.run/docs/linters/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [Google Cloud, Architecting disaster recovery for cloud infrastructure outages](https://docs.cloud.google.com/architecture/disaster-recovery) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 6 | [Google Cloud, Best practices for enabling VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/enable) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -1996,6 +2086,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Google Play Console Help, Use a pre-launch report to identify issues](https://support.google.com/googleplay/android-developer/answer/9842757?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Google Testing Blog, Flaky Tests at Google and How We Mitigate Them](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 6 | [Google Testing Blog, Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
+| 6 | [Google, Go Style Best Practices: Error structure](https://google.github.io/styleguide/go/best-practices#error-structure) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Google, Go Style Decisions: Generics](https://google.github.io/styleguide/go/decisions#generics) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [gosec, Rule Documentation](https://github.com/securego/gosec/blob/master/RULES.md) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
 | 6 | [GraphQL ESLint, no-deprecated](https://the-guild.dev/graphql/eslint/rules/no-deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL ESLint, relay-arguments](https://the-guild.dev/graphql/eslint/rules/relay-arguments) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -2021,6 +2114,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [HashiCorp, terraform plan command reference](https://developer.hashicorp.com/terraform/cli/commands/plan) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, terraform test command reference](https://developer.hashicorp.com/terraform/cli/commands/test) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 6 | [HashiCorp, terraform validate command reference](https://developer.hashicorp.com/terraform/cli/commands/validate) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 6 | [Heroic Labs, Nakama Go Runtime](https://heroiclabs.com/docs/nakama/server-framework/go-runtime/) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Heroic Labs, Nakama Go Runtime: Dependency Pinning](https://heroiclabs.com/docs/nakama/server-framework/go-runtime/go-dependencies/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Heroic Labs, Nakama matchmaker: expanding criteria](https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#expanding-criteria) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Heroic Labs, Nakama matchmaker: properties](https://heroiclabs.com/docs/nakama/concepts/multiplayer/matchmaker/#properties) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Heroic Labs, Nakama user accounts: virtual wallet](https://heroiclabs.com/docs/nakama/concepts/user-accounts/#virtual-wallet) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
@@ -2248,6 +2343,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Spectral, OpenAPI rules](https://github.com/stoplightio/spectral/blob/develop/docs/reference/openapi-rules.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Squawk, Applying migrations safely](https://squawkhq.com/docs/safe_migrations) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 6 | [Squawk, Rules overview](https://squawkhq.com/docs/rules) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 6 | [Staticcheck, Checks](https://staticcheck.dev/docs/checks/) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Staticcheck, Checks: SA1012](https://staticcheck.dev/docs/checks/#SA1012) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Steamworks, Authentication using Web API Keys: creating a publisher Web API key](https://partner.steamgames.com/doc/webapi_overview/auth#create_publisher_key) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Steamworks, Builds: beta branches](https://partner.steamgames.com/doc/store/application/builds#Beta_Branches) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Steamworks, Compatibility Review: FAQ](https://partner.steamgames.com/doc/steamhardware/compat#7) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
@@ -2448,7 +2545,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-303 sources.
+310 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2509,6 +2606,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Development Containers specification](https://containers.dev/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Docker, Use Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 5 | [Domain-Driven Design Quickly (InfoQ e-book)](https://www.infoq.com/minibooks/domain-driven-design-quickly/) | [general/domain-driven-design](general/domain-driven-design.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 5 | [Donovan and Kernighan, The Go Programming Language](https://www.gopl.io/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 5 | [Edgegap, DDoS protection](https://docs.edgegap.com/docs/ddos-protection) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 5 | [Egor Rogov (Postgres Professional), PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-astro, astro/no-set-html-directive](https://ota-meshi.github.io/eslint-plugin-astro/rules/no-set-html-directive/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
@@ -2560,6 +2658,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [GitLab Docs, CI Lint API](https://docs.gitlab.com/api/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, glab ci lint](https://docs.gitlab.com/cli/ci/lint/) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 5 | [GitLab Docs, Improving monorepo performance](https://docs.gitlab.com/user/project/repository/monorepos/) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 5 | [Go blog, Go Concurrency Patterns: Context](https://go.dev/blog/context) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 5 | [Go blog, Go Concurrency Patterns: Pipelines and cancellation](https://go.dev/blog/pipelines) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 5 | [Godot blog, Multiplayer in Godot 4.0: Scene Replication](https://godotengine.org/article/multiplayer-in-godot-4-0-scene-replication/) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 5 | [Godot class reference, InputMap](https://docs.godotengine.org/en/stable/classes/class_inputmap.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 5 | [Godot class reference, MultiplayerSpawner](https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
@@ -2579,6 +2679,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Godot docs, TranslationServer class reference](https://docs.godotengine.org/en/stable/classes/class_translationserver.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
 | 5 | [GodotSteam, Steamworks for the Godot Engine](https://godotsteam.com/) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 5 | [golangci-lint, Linter settings: containedctx](https://golangci-lint.run/docs/linters/configuration/#containedctx) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 5 | [golangci-lint, Linter settings: noctx](https://golangci-lint.run/docs/linters/configuration/#noctx) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 5 | [golangci-lint, Linter settings: sloglint](https://golangci-lint.run/docs/linters/configuration/#sloglint) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 5 | [Google API Linter, core::0121::resource-must-support-get](https://linter.aip.dev/121/resource-must-support-get) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google API Linter, core::0158::request-page-size-field](https://linter.aip.dev/158/request-page-size-field) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 5 | [Google Cloud, Cloud Foundation Fabric (Terraform modules and FAST landing zone toolkit)](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
@@ -2687,6 +2790,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Squawk, require-concurrent-index-creation](https://squawkhq.com/docs/require-concurrent-index-creation) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, require-concurrent-index-deletion](https://squawkhq.com/docs/require-concurrent-index-deletion) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Squawk, require-lock-timeout](https://squawkhq.com/docs/require-lock-timeout) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
+| 5 | [Staticcheck, Documentation](https://staticcheck.dev/docs/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 5 | [Steamworks, Stats and Achievements: stat consistency](https://partner.steamgames.com/doc/features/achievements#10) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Steamworks, Steam DRM: automated Steam DRM wrapper](https://partner.steamgames.com/doc/features/drm#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Supabase splinter, Lint 0003: Auth RLS InitPlan](https://supabase.github.io/splinter/0003_auth_rls_initplan/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |

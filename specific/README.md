@@ -31,6 +31,8 @@ One folder per platform or service. Each folder adopts the platform's official g
 
 - [PostgreSQL](postgres/README.md): schema design, indexing, migrations, pooling, backups and access for PostgreSQL.
 - [Redis and caching](redis/README.md): caching patterns, keys and commands, security and persistence for Redis and Valkey.
+- [Firebase](firebase/README.md): Security Rules, App Check, API keys, environments, Firestore data and cost, Cloud Functions, budgets and consent, for apps and games that call Firebase directly.
+- [Supabase](supabase/README.md): Row Level Security and grants, API keys, Storage, Edge Functions, migrations, connections, backups and Auth settings, for apps and games that call Supabase directly.
 - [Apache Kafka](kafka/README.md): topics, producers, consumers, schemas and security for Kafka 4.x.
 - [RabbitMQ](rabbitmq/README.md): queue types, confirms and acknowledgements, failed messages and security for RabbitMQ 4.x.
 

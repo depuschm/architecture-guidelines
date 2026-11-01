@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-90 sources.
+95 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -17,6 +17,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 10 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 10 | [Firebase, Firebase security checklist](https://firebase.google.com/support/guides/security-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 10 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md), [specific/gcp](specific/gcp/README.md) | 2026-10-24 |
@@ -30,6 +31,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 10 | [RabbitMQ, Documentation (4.4)](https://www.rabbitmq.com/docs) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 10 | [Supabase Docs, Production Checklist](https://supabase.com/docs/guides/deployment/going-into-prod) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
@@ -52,6 +54,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Epic Games, Gameplay Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 9 | [EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 9 | [Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 9 | [Firebase, Firebase launch checklist](https://firebase.google.com/support/guides/launch-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 9 | [Firebase, Firebase Security Rules](https://firebase.google.com/docs/rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 9 | [Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Fowler, Software Architecture Guide](https://martinfowler.com/architecture/) | [general](general/README.md), [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -88,6 +92,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Redis, Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 9 | [Supabase Docs, Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 9 | [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Thinking in React](https://react.dev/learn/thinking-in-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -104,7 +109,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-1965 sources.
+2078 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -160,6 +165,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [eShop reference application](https://github.com/dotnet/eShop) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [European Commission, Data protection: information for business and organisations](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [Evans, Domain-Driven Design (book)](https://www.domainlanguage.com/ddd/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 8 | [Firebase, Avoid insecure rules](https://firebase.google.com/docs/rules/insecure-rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 8 | [Firebase, Best practices for Cloud Firestore](https://firebase.google.com/docs/firestore/best-practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 8 | [Firebase, Firebase App Check](https://firebase.google.com/docs/app-check) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 8 | [Firebase, General best practices for setting up Firebase projects](https://firebase.google.com/docs/projects/dev-workflows/general-best-practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 8 | [Firebase, Learn about and manage API keys for Firebase](https://firebase.google.com/docs/projects/api-keys) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 8 | [Fowler (David), ASP.NET Core async guidance](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Fowler, Bounded Context](https://martinfowler.com/bliki/BoundedContext.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Fowler, Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -281,6 +291,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Steamworks, Steam Deck and Steam Machine Compatibility Review](https://partner.steamgames.com/doc/steamhardware/compat) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 8 | [Steamworks, Uploading to Steam](https://partner.steamgames.com/doc/sdk/uploading) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 8 | [Steamworks, User Authentication and Ownership](https://partner.steamgames.com/doc/features/auth) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 8 | [Supabase Docs, API keys](https://supabase.com/docs/guides/getting-started/api-keys) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 8 | [Supabase Docs, Securing your API](https://supabase.com/docs/guides/api/securing-your-api) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 8 | [SvelteKit, Performance](https://svelte.dev/docs/kit/performance) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [SvelteKit, State management](https://svelte.dev/docs/kit/state-management) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
@@ -561,6 +573,42 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [FastAPI, Dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [FastAPI, Settings and Environment Variables](https://fastapi.tiangolo.com/advanced/settings/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [FastAPI, Tutorial - User Guide](https://fastapi.tiangolo.com/tutorial/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 7 | [Firebase codelab, Protect your Firestore data with Firebase Security Rules](https://firebase.google.com/codelabs/firebase-rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, API keys: Use separate, restricted API keys for any non-Firebase service](https://firebase.google.com/docs/projects/api-keys#use-separate-keys-for-specific-apis) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Avoid surprise bills](https://firebase.google.com/docs/projects/billing/avoid-surprise-bills) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Avoid surprise bills: Set up budgets](https://firebase.google.com/docs/projects/billing/avoid-surprise-bills#set-up-budgets) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Basic Security Rules: Development-environment rules](https://firebase.google.com/docs/rules/basics#development-environment_rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Build unit tests (Security Rules)](https://firebase.google.com/docs/rules/unit-tests) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Cloud Functions tips: Write idempotent functions](https://firebase.google.com/docs/functions/tips#write_idempotent_functions) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Cloud Functions: Secret parameters](https://firebase.google.com/docs/functions/config-env#secret-parameters) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Cloud Functions: Store and access sensitive configuration information](https://firebase.google.com/docs/functions/config-env#secret-manager) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Cloud Functions: Tips and tricks](https://firebase.google.com/docs/functions/tips) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Connect your app to the Cloud Firestore Emulator: Choose a Firebase project](https://firebase.google.com/docs/emulator-suite/connect_firestore#choose_a_firebase_project) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Enable App Check enforcement](https://firebase.google.com/docs/app-check/enable-enforcement) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Firestore point-in-time recovery: PITR window](https://firebase.google.com/docs/firestore/pitr#pitr_window) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Firestore: Allowing read access only for specific fields](https://firebase.google.com/docs/firestore/security/rules-fields#allowing_read_access_only_for_specific_fields) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Firestore: Back up and restore data](https://firebase.google.com/docs/firestore/backups) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Firestore: Control access to specific fields](https://firebase.google.com/docs/firestore/security/rules-fields) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Firestore: Securely query data: Rules are not filters](https://firebase.google.com/docs/firestore/security/rules-query#rules_are_not_filters) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, General best practices: Avoiding multi-tenancy](https://firebase.google.com/docs/projects/dev-workflows/general-best-practices#avoiding-multi-tenancy) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, General best practices: Registering app variants with Firebase projects](https://firebase.google.com/docs/projects/dev-workflows/general-best-practices#registering-app-variants) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Install, configure and integrate Local Emulator Suite: Integrate with your CI system](https://firebase.google.com/docs/emulator-suite/install_and_configure#integrate_with_your_ci_system) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Introduction to Firebase Local Emulator Suite](https://firebase.google.com/docs/emulator-suite) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Launch checklist: App Check](https://firebase.google.com/support/guides/launch-checklist#app-check) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Launch checklist: Authentication](https://firebase.google.com/support/guides/launch-checklist#authentication) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Launch checklist: Know your pricing plan limits and set budget alerts](https://firebase.google.com/support/guides/launch-checklist#pricing-plan) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Manage and deploy Firebase Security Rules: Use the Firebase CLI](https://firebase.google.com/docs/rules/manage-deploy#use_the) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Monitor App Check request metrics](https://firebase.google.com/docs/app-check/monitor-metrics) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Retry asynchronous functions: Best practices](https://firebase.google.com/docs/functions/retries#best_practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Authentication](https://firebase.google.com/support/guides/security-checklist#authentication) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Configure your Cloud Functions to scale for normal traffic](https://firebase.google.com/support/guides/security-checklist#configure-functions-to-scale-for-normal-traffic) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Initialize rules in production or locked mode](https://firebase.google.com/support/guides/security-checklist#initialize-rules-in-production-or-locked-mode) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Keep service account keys secret](https://firebase.google.com/support/guides/security-checklist#keep-service-account-keys-secret) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Security rules are a schema; add rules when you add documents](https://firebase.google.com/support/guides/security-checklist#add-rules-when-you-add-documents) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Set up development and staging projects](https://firebase.google.com/support/guides/security-checklist#set-up-dev-and-staging-projects) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Unit test security rules with the Local Emulator Suite; add it to CI](https://firebase.google.com/support/guides/security-checklist#unit-test-security-rules-with-emulators) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Security checklist: Use security rules that require a sign-in method or verified email](https://firebase.google.com/support/guides/security-checklist#use-security-rules-that-require-sign-in-method) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Understand Cloud Firestore billing](https://firebase.google.com/docs/firestore/pricing) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Flutter app architecture, case study](https://docs.flutter.dev/app-architecture/case-study) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter app architecture, concepts](https://docs.flutter.dev/app-architecture/concepts) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter, Architecture design patterns](https://docs.flutter.dev/app-architecture/design-patterns) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -780,6 +828,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google Engineering Practices, Small CLs](https://google.github.io/eng-practices/review/developer/small-cls.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Google Engineering Practices, Speed of code reviews](https://google.github.io/eng-practices/review/reviewer/speed.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [Google for Developers, Passkeys developer guide](https://developers.google.com/identity/passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [Google for Developers, Set up consent mode for apps: Set the default consent state](https://developers.google.com/tag-platform/security/guides/app-consent#default-consent) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Google Play Console Help, Content ratings](https://support.google.com/googleplay/android-developer/answer/9898843?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Google Play Console Help, Device and Network Abuse policy](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Google Play Console Help, Provide information for Google Play's Data safety section](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -1226,6 +1275,40 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Steamworks, User Authentication and Ownership: APIs (session tickets, encrypted application tickets)](https://partner.steamgames.com/doc/features/auth#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Steamworks, User Authentication and Ownership: backend server](https://partner.steamgames.com/doc/features/auth#client_to_backend_webapi) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Steamworks, User Authentication and Ownership: P2P or game servers](https://partner.steamgames.com/doc/features/auth#client_to_client) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Advisors](https://supabase.com/docs/guides/observability/advisors) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Anonymous Sign-Ins: Access control](https://supabase.com/docs/guides/auth/auth-anonymous#access-control) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, API keys: Handling secret keys safely](https://supabase.com/docs/guides/getting-started/api-keys#handling-secret-keys-safely) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, API keys: Which key do you use?](https://supabase.com/docs/guides/getting-started/api-keys#which-key-do-you-use) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Branching](https://supabase.com/docs/guides/deployment/branching) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Connect to your database](https://supabase.com/docs/guides/database/connecting-to-postgres) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Connect to your database: Which connection method do you use?](https://supabase.com/docs/guides/database/connecting-to-postgres#choose-a-connection-method) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Database Backups](https://supabase.com/docs/guides/platform/backups) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Database Backups: Point-in-Time recovery](https://supabase.com/docs/guides/platform/backups#point-in-time-recovery) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Deploy database migrations](https://supabase.com/docs/guides/deployment/database-migrations) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Deploy database migrations: Working with a team](https://supabase.com/docs/guides/deployment/database-migrations#working-with-a-team) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Managing Environments](https://supabase.com/docs/guides/deployment/managing-environments) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Managing Environments: Deploy a migration](https://supabase.com/docs/guides/deployment/managing-environments#deploy-a-migration) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Migrating to publishable and secret API keys](https://supabase.com/docs/guides/getting-started/migrating-to-new-api-keys) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Production Checklist: Availability](https://supabase.com/docs/guides/deployment/going-into-prod#availability) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Production Checklist: Deployment](https://supabase.com/docs/guides/deployment/going-into-prod#deployment) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Production Checklist: Security](https://supabase.com/docs/guides/deployment/going-into-prod#security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Add indexes](https://supabase.com/docs/guides/database/postgres/row-level-security#add-indexes) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: auth.jwt()](https://supabase.com/docs/guides/database/postgres/row-level-security#authjwt) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Call functions with select](https://supabase.com/docs/guides/database/postgres/row-level-security#call-functions-with-select) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Enable RLS and set the grants](https://supabase.com/docs/guides/database/postgres/row-level-security#enable-rls-and-set-the-grants) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Grants and policies](https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Policy tests](https://supabase.com/docs/guides/database/postgres/row-level-security#policy-tests) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Secure a table with RLS](https://supabase.com/docs/guides/database/postgres/row-level-security#secure-a-table-with-rls) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Specify roles in your policies](https://supabase.com/docs/guides/database/postgres/row-level-security#specify-roles-in-your-policies) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Use security definer functions](https://supabase.com/docs/guides/database/postgres/row-level-security#use-security-definer-functions) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Views and RLS](https://supabase.com/docs/guides/database/postgres/row-level-security#views-and-rls) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Row Level Security: Write a policy for each operation](https://supabase.com/docs/guides/database/postgres/row-level-security#write-a-policy-for-each-operation) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Securing Edge Functions](https://supabase.com/docs/guides/functions/auth) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Securing your API: Default privileges](https://supabase.com/docs/guides/api/securing-your-api#default-privileges) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Shared Responsibility Model](https://supabase.com/docs/guides/deployment/shared-responsibility-model) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Storage Access Control: Access policies](https://supabase.com/docs/guides/storage/security/access-control#access-policies) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Storage Buckets: Access model](https://supabase.com/docs/guides/storage/buckets/fundamentals#access-model) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, Testing Overview: Best practices](https://supabase.com/docs/guides/local-development/testing/overview#best-practices) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Svelte CLI, sv check](https://svelte.dev/docs/cli/sv-check) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, $effect: when not to use $effect](https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, Best practices: $props](https://svelte.dev/docs/svelte/best-practices#$props) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -1548,7 +1631,24 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [FastAPI, Deployments Concepts](https://fastapi.tiangolo.com/deployment/concepts/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Request Body](https://fastapi.tiangolo.com/tutorial/body/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Testing Dependencies with Overrides](https://fastapi.tiangolo.com/advanced/testing-dependencies/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [Firebase codelab, App Check Web Codelab](https://firebase.google.com/codelabs/appcheck-web) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase codelab, Local Development with the Firebase Emulator Suite](https://firebase.google.com/codelabs/firebase-emulator) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 6 | [Firebase Docs, Firebase Remote Config](https://firebase.google.com/docs/remote-config) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Firebase, App Check: How is App Check related to Firebase Authentication?](https://firebase.google.com/docs/app-check#how_is_related_to) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Cloud Firestore billing: Cloud Firestore Security Rules](https://firebase.google.com/docs/firestore/pricing#firestore-rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Cloud Firestore billing: Listening to query results](https://firebase.google.com/docs/firestore/pricing#listens) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Cloud Firestore billing: Managing large result sets](https://firebase.google.com/docs/firestore/pricing#large-result-sets) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Cloud Functions: Migrate from runtime configuration](https://firebase.google.com/docs/functions/config-env#migrate-config) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Configure Analytics data collection and usage: Temporarily disable collection](https://firebase.google.com/docs/analytics/ios/configure-data-collection#temporarily-disable-collection) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Customize your Crashlytics crash reports: Enable opt-in reporting](https://firebase.google.com/docs/crashlytics/customize-crash-reports#enable-reporting) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Firestore: Choose a data structure](https://firebase.google.com/docs/firestore/manage-data/structure-data) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Firestore: Usage and limits](https://firebase.google.com/docs/firestore/quotas) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Firestore: Write-time aggregations](https://firebase.google.com/docs/firestore/solutions/aggregation) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Manage functions: Limit the maximum number of instances for a function](https://firebase.google.com/docs/functions/manage-functions#limit_the_maximum_number_of_instances_for_a_function) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Manage indexes in Cloud Firestore: Use the Firebase CLI](https://firebase.google.com/docs/firestore/query-data/indexing#use-firebase-cli) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Remote Config: Policies and limits](https://firebase.google.com/docs/remote-config#policies-and-limits) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Security checklist: Prevent self-DOSes: test functions locally with the emulators](https://firebase.google.com/support/guides/security-checklist#test-functions-with-emulators) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Firebase, Writing conditions for Cloud Firestore Security Rules: Data validation](https://firebase.google.com/docs/firestore/security/rules-conditions#data_validation) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 6 | [Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Offline-first support](https://docs.flutter.dev/app-architecture/design-patterns/offline-first) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -1605,6 +1705,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [gdUnit4, Documentation](https://godot-gdunit-labs.github.io/gdUnit4/latest/) | [specific/godot/testing](specific/godot/testing.md) | 2026-11-01 |
 | 6 | [Git LFS wiki, File Locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [GitHub Docs, Managing a merge queue](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue) | [general/repositories](general/repositories.md) | 2026-10-25 |
+| 6 | [GitHub Docs, Supported secret scanning patterns](https://docs.github.com/en/code-security/reference/secret-security/supported-secret-scanning-patterns) | [specific/firebase](specific/firebase/README.md), [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/resources/github-actions-untrusted-input/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 4: New vulnerability patterns and mitigation strategies](https://securitylab.github.com/resources/github-actions-new-patterns-and-mitigations/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, About large files on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
@@ -1939,6 +2040,23 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Steamworks, Uploading to Steam: introduction to the SteamPipe content system](https://partner.steamgames.com/doc/sdk/uploading#Introduction) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 6 | [Structurizr](https://structurizr.com/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 6 | [Stylelint, property-layout-mappings](https://stylelint.io/user-guide/rules/property-layout-mappings/) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [Supabase Docs, Advanced pgTAP Testing](https://supabase.com/docs/guides/local-development/testing/pgtap-extended) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Anonymous Sign-Ins: Abuse prevention and rate limits](https://supabase.com/docs/guides/auth/auth-anonymous#abuse-prevention-and-rate-limits) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Auth rate limits](https://supabase.com/docs/guides/auth/rate-limits) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Build a User Management App with React](https://supabase.com/docs/guides/getting-started/tutorials/with-react) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Connect to your database: Configure your client](https://supabase.com/docs/guides/database/connecting-to-postgres#configure-your-client) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Control your costs: Spend Cap](https://supabase.com/docs/guides/platform/cost-control#spend-cap) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Edge Functions: Environment variables](https://supabase.com/docs/guides/functions/secrets) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Enable CAPTCHA Protection](https://supabase.com/docs/guides/auth/auth-captcha) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Network Restrictions](https://supabase.com/docs/guides/platform/network-restrictions) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Postgres SSL Enforcement](https://supabase.com/docs/guides/platform/ssl-enforcement) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Row Level Security performance](https://supabase.com/docs/guides/database/postgres/row-level-security-performance) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Row Level Security: Expose a view safely](https://supabase.com/docs/guides/database/postgres/row-level-security#expose-a-view-safely) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Secure configuration of Supabase products](https://supabase.com/docs/guides/security/product-security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Securing Edge Functions: Authenticated user calls](https://supabase.com/docs/guides/functions/auth#authenticated-user-calls) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Securing Edge Functions: External webhooks](https://supabase.com/docs/guides/functions/auth#external-webhooks) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Testing Overview: Continuous integration testing](https://supabase.com/docs/guides/local-development/testing/overview#continuous-integration-testing) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 6 | [Supabase Docs, Testing Your Database](https://supabase.com/docs/guides/database/testing) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 6 | [Svelte CLI, sv check: --compiler-warnings](https://svelte.dev/docs/cli/sv-check#Options-compiler-warnings-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [Svelte CLI, sv check: --fail-on-warnings](https://svelte.dev/docs/cli/sv-check#Options-fail-on-warnings) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [Svelte, svelte/compiler: CompileOptions](https://svelte.dev/docs/svelte/svelte-compiler#CompileOptions) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -2076,7 +2194,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-283 sources.
+290 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2150,6 +2268,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [eslint-plugin-vue, vue/define-props-declaration](https://eslint.vuejs.org/rules/define-props-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [Facepunch, Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 5 | [Firebase, ESLint Plugin: Firebase Security Rules (@firebase/eslint-plugin-security-rules)](https://github.com/firebase/eslint-tools) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 5 | [GameCI, Unity Test Runner](https://game.ci/docs/github/test-runner/) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-25 |
@@ -2308,6 +2427,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Squawk, require-lock-timeout](https://squawkhq.com/docs/require-lock-timeout) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 5 | [Steamworks, Stats and Achievements: stat consistency](https://partner.steamgames.com/doc/features/achievements#10) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Steamworks, Steam DRM: automated Steam DRM wrapper](https://partner.steamgames.com/doc/features/drm#2) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
+| 5 | [Supabase splinter, Lint 0003: Auth RLS InitPlan](https://supabase.github.io/splinter/0003_auth_rls_initplan/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 5 | [Supabase splinter, Lint 0010: Security Definer View](https://supabase.github.io/splinter/0010_security_definer_view/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 5 | [Supabase splinter, Lint 0011: Function Search Path Mutable](https://supabase.github.io/splinter/0011_function_search_path_mutable/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 5 | [Supabase splinter, Lint 0013: RLS Disabled in Public](https://supabase.github.io/splinter/0013_rls_disabled_in_public/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 5 | [Supabase splinter, Lint 0015: RLS References user_metadata](https://supabase.github.io/splinter/0015_rls_references_user_metadata/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 5 | [Supabase, splinter (Supabase Postgres linter)](https://github.com/supabase/splinter) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 5 | [Syncpack, lint command](https://syncpack.dev/command/lint/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |

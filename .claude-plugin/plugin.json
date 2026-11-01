@@ -34,6 +34,8 @@
     "astro",
     "electron",
     "tauri",
+    "ios",
+    "react-native",
     "typescript",
     "nodejs",
     "python",

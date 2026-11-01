@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-101 sources.
+105 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -45,6 +45,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 9 | [Angular, Coding style guide](https://angular.dev/style-guide) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 9 | [Apple Developer Documentation, SwiftUI](https://developer.apple.com/documentation/swiftui) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 9 | [Apple, App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 9 | [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -59,6 +60,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Epic Games, Gameplay Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 9 | [EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 9 | [Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 9 | [Expo documentation, Develop an app with Expo](https://docs.expo.dev/workflow/overview/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 9 | [Firebase, Firebase launch checklist](https://firebase.google.com/support/guides/launch-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 9 | [Firebase, Firebase Security Rules](https://firebase.google.com/docs/rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 9 | [Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -94,7 +96,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [OWASP, ASVS 5.0, V6 Authentication](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x15-V6-Authentication.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [OWASP, ASVS 5.0, V7 Session Management](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x16-V7-Session-Management.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [OWASP, Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 9 | [OWASP, Mobile Application Security Verification Standard (MASVS)](https://mas.owasp.org/MASVS/) | [specific/ios](specific/ios/README.md), [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 9 | [PyPA, Python Packaging User Guide](https://packaging.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 9 | [React Native, documentation (Introduction)](https://reactnative.dev/docs/getting-started) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 9 | [Redis, Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -115,7 +119,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2423 sources.
+2519 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -134,6 +138,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Angular, Server-side and hybrid rendering](https://angular.dev/guide/ssr) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 8 | [Angular, Signals](https://angular.dev/guide/signals) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 8 | [Apache Kafka, Design](https://kafka.apache.org/43/design/design/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
+| 8 | [Apple Developer Documentation, Managing model data in your app](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 8 | [Apple Developer Documentation, SwiftUI: Model data](https://developer.apple.com/documentation/swiftui/model-data) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 8 | [Apple, Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 8 | [Arm, GPU Best Practices Developer Guide (issue 10, PDF)](https://documentation-service.arm.com/static/67a62b17091bfc3e0a947695) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -178,6 +185,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [eShop reference application](https://github.com/dotnet/eShop) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [European Commission, Data protection: information for business and organisations](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [Evans, Domain-Driven Design (book)](https://www.domainlanguage.com/ddd/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
+| 8 | [Expo Router, Introduction](https://docs.expo.dev/router/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 8 | [Expo, EAS Update](https://docs.expo.dev/eas-update/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 8 | [Firebase, Avoid insecure rules](https://firebase.google.com/docs/rules/insecure-rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 8 | [Firebase, Best practices for Cloud Firestore](https://firebase.google.com/docs/firestore/best-practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 8 | [Firebase, Firebase App Check](https://firebase.google.com/docs/app-check) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
@@ -288,6 +297,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [OWASP, DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [OWASP, GraphQL Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 8 | [OWASP, HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 8 | [OWASP, Mobile Application Security Testing Guide (MASTG)](https://mas.owasp.org/MASTG/) | [specific/ios](specific/ios/README.md), [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 8 | [OWASP, Multifactor Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [OWASP, Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -298,6 +308,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [RabbitMQ, Consumer Acknowledgements and Publisher Confirms](https://www.rabbitmq.com/docs/confirms) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 8 | [RabbitMQ, Production Deployment Guidelines](https://www.rabbitmq.com/docs/production-checklist) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 8 | [RabbitMQ, Reliability Guide](https://www.rabbitmq.com/docs/reliability) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 8 | [React Native, Security](https://reactnative.dev/docs/security) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 8 | [react.dev, Choosing the state structure](https://react.dev/learn/choosing-the-state-structure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -317,7 +328,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Supabase Docs, Securing your API](https://supabase.com/docs/guides/api/securing-your-api) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 8 | [SvelteKit, Performance](https://svelte.dev/docs/kit/performance) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [SvelteKit, State management](https://svelte.dev/docs/kit/state-management) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 8 | [Swift.org, API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 8 | [Tauri, Capabilities](https://v2.tauri.app/security/capabilities/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 8 | [The Swift Programming Language, Concurrency](https://docs.swift.org/latest/documentation/the-swift-programming-language/concurrency/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Twelve-Factor App, III Config](https://12factor.net/config) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -478,31 +491,52 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Apache Kafka, Topic configs: retention.ms](https://kafka.apache.org/43/configuration/topic-configs/#retention.ms) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [Apache Kafka, Upgrading servers to 4.0](https://kafka.apache.org/43/getting-started/upgrade/#upgrading-servers-to-401-from-any-version-33x-through-39x) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 7 | [App Store Connect Help, Release a version update in phases](https://developer.apple.com/help/app-store-connect/update-your-app/release-a-version-update-in-phases) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Adding a privacy manifest to your app or third-party SDK](https://developer.apple.com/documentation/bundleresources/adding-a-privacy-manifest-to-your-app-or-third-party-sdk) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, Analyzing the performance of your shipping app](https://developer.apple.com/documentation/xcode/analyzing-the-performance-of-your-shipping-app) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer Documentation, App Store Server API](https://developer.apple.com/documentation/appstoreserverapi) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer Documentation, App Store Server Notifications](https://developer.apple.com/documentation/appstoreservernotifications) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, ASWebAuthenticationSession](https://developer.apple.com/documentation/authenticationservices/aswebauthenticationsession) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, Background Assets](https://developer.apple.com/documentation/backgroundassets) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
-| 7 | [Apple Developer Documentation, Describing use of required reason API](https://developer.apple.com/documentation/bundleresources/describing-use-of-required-reason-api) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Choosing background strategies for your app](https://developer.apple.com/documentation/backgroundtasks/choosing-background-strategies-for-your-app) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Describing data use in privacy manifests](https://developer.apple.com/documentation/bundleresources/describing-data-use-in-privacy-manifests) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Describing use of required reason API](https://developer.apple.com/documentation/bundleresources/describing-use-of-required-reason-api) | [specific/ios](specific/ios/README.md), [specific/mobile-games](specific/mobile-games/README.md), [specific/react-native](specific/react-native/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Distributing your app for beta testing and releases](https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Encrypting your app's files (Data Protection)](https://developer.apple.com/documentation/uikit/encrypting-your-app-s-files) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, Establishing your app's integrity (App Attest)](https://developer.apple.com/documentation/devicecheck/establishing-your-app-s-integrity) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
-| 7 | [Apple Developer Documentation, Privacy manifest files](https://developer.apple.com/documentation/bundleresources/privacy-manifest-files) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Migrating from the Observable Object protocol to the Observable macro](https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Performing accessibility audits for your app](https://developer.apple.com/documentation/accessibility/performing-accessibility-audits-for-your-app) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Preventing insecure network connections (App Transport Security)](https://developer.apple.com/documentation/security/preventing-insecure-network-connections) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Privacy manifest files](https://developer.apple.com/documentation/bundleresources/privacy-manifest-files) | [specific/ios](specific/ios/README.md), [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, Restricting keychain item accessibility](https://developer.apple.com/documentation/security/restricting-keychain-item-accessibility) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Running tests and interpreting results](https://developer.apple.com/documentation/xcode/running-tests-and-interpreting-results) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Security framework](https://developer.apple.com/documentation/security) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, Simplifying your implementation by using the App Store Server Library](https://developer.apple.com/documentation/appstoreserverapi/simplifying-your-implementation-by-using-the-app-store-server-library) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer Documentation, StoreKit Transaction (verify transactions)](https://developer.apple.com/documentation/storekit/transaction) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, SwiftData](https://developer.apple.com/documentation/swiftdata) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, SwiftUI: State](https://developer.apple.com/documentation/swiftui/state) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, Transaction.finish()](https://developer.apple.com/documentation/storekit/transaction/finish%28%29) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer Documentation, UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Xcode Cloud](https://developer.apple.com/documentation/xcode/xcode-cloud) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, Xcode: Testing](https://developer.apple.com/documentation/xcode/testing) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer, App privacy details](https://developer.apple.com/app-store/app-privacy-details/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
-| 7 | [Apple Developer, Third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Developer, Third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/) | [specific/ios](specific/ios/README.md), [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer, Upcoming requirements](https://developer.apple.com/news/upcoming-requirements/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple Human Interface Guidelines, Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple, App Review Guidelines: 1.3 Kids Category](https://developer.apple.com/app-store/review/guidelines/#kids-category) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 2.3.6 Age rating](https://developer.apple.com/app-store/review/guidelines/#2.3.6) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
-| 7 | [Apple, App Review Guidelines: 2.5.2 Software requirements](https://developer.apple.com/app-store/review/guidelines/#2.5.2) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple, App Review Guidelines: 2.5.2 Software requirements](https://developer.apple.com/app-store/review/guidelines/#2.5.2) | [specific/mobile-games](specific/mobile-games/README.md), [specific/react-native](specific/react-native/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 3.1.1 In-App Purchase](https://developer.apple.com/app-store/review/guidelines/#3.1.1) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 4.7 Mini apps, mini games, streaming games](https://developer.apple.com/app-store/review/guidelines/#4.7) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 5.1.2 Data Use and Sharing](https://developer.apple.com/app-store/review/guidelines/#5.1.2) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple, App Review Guidelines: 5.1.4 Kids](https://developer.apple.com/app-store/review/guidelines/#5.1.4) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Apple, Apple Platform Security guide](https://support.apple.com/guide/security/welcome/web) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple, Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple, Metal binary archives](https://developer.apple.com/documentation/metal/metal-binary-archives) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Apple, Optimizing GPU performance](https://developer.apple.com/documentation/xcode/optimizing-gpu-performance) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Apple, Reducing the memory footprint of Metal apps](https://developer.apple.com/documentation/metal/reducing-the-memory-footprint-of-metal-apps) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Apple, Setting load and store actions](https://developer.apple.com/documentation/metal/setting-load-and-store-actions) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Apple, Tailor your apps for Apple GPUs and tile-based deferred rendering](https://developer.apple.com/documentation/metal/tailor-your-apps-for-apple-gpus-and-tile-based-deferred-rendering) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Apple, TN3151: Choosing the right networking API](https://developer.apple.com/documentation/technotes/tn3151-choosing-the-right-networking-api) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple, Validating your app's Metal API usage](https://developer.apple.com/documentation/xcode/validating-your-apps-metal-api-usage) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [arc42, section 1: quality goals](https://docs.arc42.org/section-1/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 7 | [ArchUnit](https://www.archunit.org/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -677,6 +711,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [European Commission, Principles of the GDPR: data minimisation](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#data-minimisation) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [European Commission, Principles of the GDPR: purpose limitation](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#purpose-limitation) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [EventStorming](https://www.eventstorming.com/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 7 | [Expo SDK, SecureStore](https://docs.expo.dev/versions/latest/sdk/securestore/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Authentication with OAuth or OpenID providers](https://docs.expo.dev/guides/authentication/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Continuous Native Generation (CNG)](https://docs.expo.dev/workflow/continuous-native-generation/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, EAS Build](https://docs.expo.dev/build/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, EAS Update: Runtime versions and updates](https://docs.expo.dev/eas-update/runtime-versions/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Environment variables in Expo](https://docs.expo.dev/guides/environment-variables/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Overview of linking, deep links, Android App Links and iOS Universal Links](https://docs.expo.dev/linking/overview/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Privacy manifests](https://docs.expo.dev/guides/apple-privacy/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, React Native's New Architecture](https://docs.expo.dev/guides/new-architecture/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Submit to app stores (EAS Submit)](https://docs.expo.dev/deploy/submit-to-app-stores/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Tutorial: Using React Native and Expo](https://docs.expo.dev/tutorial/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Unit testing with Jest](https://docs.expo.dev/develop/unit-testing/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Upgrade Expo SDK](https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [FastAPI, Bigger Applications - Multiple Files](https://fastapi.tiangolo.com/tutorial/bigger-applications/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [FastAPI, Concurrency and async / await: Path operation functions](https://fastapi.tiangolo.com/async/#path-operation-functions) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [FastAPI, Dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -992,7 +1039,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google for Developers, Passkeys developer guide](https://developers.google.com/identity/passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Google for Developers, Set up consent mode for apps: Set the default consent state](https://developers.google.com/tag-platform/security/guides/app-consent#default-consent) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Google Play Console Help, Content ratings](https://support.google.com/googleplay/android-developer/answer/9898843?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
-| 7 | [Google Play Console Help, Device and Network Abuse policy](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 7 | [Google Play Console Help, Device and Network Abuse policy](https://support.google.com/googleplay/android-developer/answer/16559646?hl=en) | [specific/mobile-games](specific/mobile-games/README.md), [specific/react-native](specific/react-native/README.md) | 2026-10-25 |
 | 7 | [Google Play Console Help, Provide information for Google Play's Data safety section](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Google Play Console Help, Release app updates with staged rollouts](https://support.google.com/googleplay/android-developer/answer/6346149?hl=en) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Google SRE book, Data Integrity](https://sre.google/sre-book/data-integrity/) | [general/data](general/data.md) | 2026-10-26 |
@@ -1060,6 +1107,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [ICO, Storage and access technologies: how do we manage consent in practice?](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/how-do-we-manage-consent-in-practice/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [ICO, When do we need to do a DPIA?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [ICU User Guide, Formatting messages](https://unicode-org.github.io/icu/userguide/format_parse/messages/) | [general/localization](general/localization.md) | 2026-10-26 |
+| 7 | [IETF, RFC 8252: OAuth 2.0 for Native Apps, 8.12 Embedded user agents](https://www.rfc-editor.org/rfc/rfc8252.html#section-8.12) | [specific/ios](specific/ios/README.md), [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [itch.io, Uploading HTML5 games](https://itch.io/docs/creators/html5) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [itch.io, Uploading HTML5 games: ZIP file requirements](https://itch.io/docs/creators/html5#zip-file-requirements) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
@@ -1390,8 +1438,19 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [RabbitMQ, Streams: use cases](https://www.rabbitmq.com/docs/streams#use-cases) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [RabbitMQ, TLS Support: enabling TLS](https://www.rabbitmq.com/docs/ssl#enabling-tls) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 7 | [RabbitMQ, Tutorials](https://www.rabbitmq.com/tutorials) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 7 | [React Native Security, Async Storage](https://reactnative.dev/docs/security#async-storage) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native Security, Authentication and deep linking](https://reactnative.dev/docs/security#authentication-and-deep-linking) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native Security, OAuth2 and redirects](https://reactnative.dev/docs/security#oauth2-and-redirects) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native Security, Secure storage](https://reactnative.dev/docs/security#secure-storage) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native Security, Storing sensitive info](https://reactnative.dev/docs/security#storing-sensitive-info) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native, Get started with React Native](https://reactnative.dev/docs/environment-setup) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native, Performance overview](https://reactnative.dev/docs/performance) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native, Releases overview (support policy)](https://reactnative.dev/releases/overview) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native, Testing](https://reactnative.dev/docs/testing-overview) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [React Native, Upgrading to new versions](https://reactnative.dev/docs/upgrading) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [react.dev, Creating a React App](https://react.dev/learn/creating-a-react-app) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Passing data deeply with context](https://react.dev/learn/passing-data-deeply-with-context) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 7 | [react.dev, React Compiler: Introduction](https://react.dev/learn/react-compiler/introduction) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [react.dev, Reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [react.dev, Sharing state between components](https://react.dev/learn/sharing-state-between-components) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 7 | [Redis, ACL](https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -1533,6 +1592,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [SvelteKit, State management: avoid shared state on the server](https://svelte.dev/docs/kit/state-management#Avoid-shared-state-on-the-server) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [SvelteKit, State management: component and page state is preserved](https://svelte.dev/docs/kit/state-management#Component-and-page-state-is-preserved) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [SvelteKit, State management: no side-effects in load](https://svelte.dev/docs/kit/state-management#No-side-effects-in-load) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 7 | [Swift.org, Swift 6 concurrency migration guide: Data race safety](https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/dataracesafety/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Swift.org, Swift 6 concurrency migration guide: Enable data-race safety checking](https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/enabledataracesafety/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Tauri, Capabilities: security boundaries](https://v2.tauri.app/security/capabilities/#security-boundaries) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Tauri, Command scopes](https://v2.tauri.app/security/scope/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Tauri, Content Security Policy (CSP)](https://v2.tauri.app/security/csp/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
@@ -1773,10 +1834,28 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Apicurio Registry, Content rule reference (3.3)](https://www.apicur.io/registry/docs/apicurio-registry/3.3.x/getting-started/assembly-rule-reference.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 6 | [Apollo Server, Configuring CORS: Preventing CSRF](https://www.apollographql.com/docs/apollo-server/security/cors#preventing-cross-site-request-forgery-csrf) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [Apollo, Safelisting with Persisted Queries: differences from automatic persisted queries](https://www.apollographql.com/docs/graphos/platform/security/persisted-queries#differences-from-automatic-persisted-queries) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
+| 6 | [Apple Developer Account Help, Cloud-managed certificates](https://developer.apple.com/help/account/certificates/cloud-managed-certificates) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 6 | [Apple Developer Documentation, Adding identifiable symbol names to a crash report](https://developer.apple.com/documentation/xcode/adding-identifiable-symbol-names-to-a-crash-report) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple Developer Documentation, Core Data: Staged migrations](https://developer.apple.com/documentation/coredata/staged-migrations) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, Diagnosing memory, thread, and crash issues early (sanitizers)](https://developer.apple.com/documentation/xcode/diagnosing-memory-thread-and-crash-issues-early) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 6 | [Apple Developer Documentation, ProcessInfo.ThermalState.serious](https://developer.apple.com/documentation/foundation/processinfo/thermalstate-swift.enum/serious) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple Developer Documentation, Reducing your app's size](https://developer.apple.com/documentation/xcode/reducing-your-app-s-size) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 6 | [Apple Developer Documentation, Resolving common notarization issues](https://developer.apple.com/documentation/security/resolving-common-notarization-issues) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, SwiftData: SchemaMigrationPlan](https://developer.apple.com/documentation/swiftdata/schemamigrationplan) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, SwiftData: VersionedSchema](https://developer.apple.com/documentation/swiftdata/versionedschema) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, SwiftUI: ScenePhase](https://developer.apple.com/documentation/swiftui/scenephase) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, SwiftUI: SceneStorage](https://developer.apple.com/documentation/swiftui/scenestorage) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, SwiftUI: task(name:priority:file:line:_:) modifier](https://developer.apple.com/documentation/swiftui/view/task%28name:priority:file:line:_:%29) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, Synchronizing code signing identities with your developer account](https://developer.apple.com/documentation/xcode/sharing-your-teams-signing-certificates) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, URLSessionConfiguration.waitsForConnectivity](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/waitsforconnectivity) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, Verifying the origin of your XCFrameworks](https://developer.apple.com/documentation/xcode/verifying-the-origin-of-your-xcframeworks) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Developer Documentation, Xcode build settings reference](https://developer.apple.com/documentation/xcode/build-settings-reference) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Human Interface Guidelines, Typography](https://developer.apple.com/design/human-interface-guidelines/typography) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple Human Interface Guidelines, VoiceOver](https://developer.apple.com/design/human-interface-guidelines/voiceover) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple sample code, Backyard Birds: Building an app with SwiftData and widgets](https://developer.apple.com/documentation/swiftui/backyard-birds-sample) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 6 | [Apple sample code, Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Apple, Discover Observation in SwiftUI (WWDC23)](https://developer.apple.com/videos/play/wwdc2023/10149/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Apple, Embracing Swift concurrency (WWDC25)](https://developer.apple.com/videos/play/wwdc2025/268/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 6 | [Apple, Meet the App Store Server Library (WWDC23)](https://developer.apple.com/videos/play/wwdc2023/10143/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Apple, OpenGL ES (deprecated)](https://developer.apple.com/documentation/opengles) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
@@ -1892,6 +1971,21 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [eslint-plugin-vue, vue/no-mutating-props](https://eslint.vuejs.org/rules/no-mutating-props.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-vue, vue/no-side-effects-in-computed-properties](https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [European Commission, Rules on international data transfers](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/rules-international-data-transfers_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 6 | [Expo Router, Protected routes](https://docs.expo.dev/router/advanced/protected/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo Router, Typed routes](https://docs.expo.dev/router/reference/typed-routes/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Configure with app config](https://docs.expo.dev/workflow/configuration/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, EAS Update: Rollbacks](https://docs.expo.dev/eas-update/rollbacks/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, EAS Update: Rollouts](https://docs.expo.dev/eas-update/rollouts/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, End-to-end code signing with EAS Update](https://docs.expo.dev/eas-update/code-signing/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, New Architecture: Validate your dependencies with React Native Directory](https://docs.expo.dev/guides/new-architecture/#validate-your-dependencies-with-react-native-directory) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, React Compiler](https://docs.expo.dev/guides/react-compiler/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, React Compiler: Enabling the linter](https://docs.expo.dev/guides/react-compiler/#enabling-the-linter) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Run E2E tests on EAS Workflows with Maestro](https://docs.expo.dev/eas/workflows/examples/e2e-tests/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Tools for development: Expo Doctor](https://docs.expo.dev/develop/tools/#expo-doctor) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Using automatically managed credentials](https://docs.expo.dev/app-signing/managed-credentials/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Using ESLint and Prettier (eslint-config-expo)](https://docs.expo.dev/guides/using-eslint/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Using local credentials](https://docs.expo.dev/app-signing/local-credentials/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Using TypeScript](https://docs.expo.dev/guides/typescript/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [FastAPI, Concurrency and async / await: In a hurry?](https://fastapi.tiangolo.com/async/#in-a-hurry) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Deployments Concepts](https://fastapi.tiangolo.com/deployment/concepts/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Request Body](https://fastapi.tiangolo.com/tutorial/body/) | [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -2311,6 +2405,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [RabbitMQ, Tutorial: Reliable Publishing with Publisher Confirms (Java)](https://www.rabbitmq.com/tutorials/tutorial-seven-java) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 6 | [RabbitMQ, Upgrading: version upgradability](https://www.rabbitmq.com/docs/upgrade#rabbitmq-version-upgradability) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 6 | [RabbitMQ, Virtual Hosts: default queue type](https://www.rabbitmq.com/docs/vhosts#default-queue-type) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
+| 6 | [React Native blog, Use a framework to build React Native apps](https://reactnative.dev/blog/2024/06/25/use-a-framework-to-build-react-native-apps) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [React Native, Accessibility](https://reactnative.dev/docs/accessibility) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [React Native, Optimizing FlatList configuration](https://reactnative.dev/docs/optimizing-flatlist-configuration) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [React Native, ScrollView](https://reactnative.dev/docs/scrollview) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [react.dev, purity lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/purity) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [react.dev, set-state-in-effect lint](https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 6 | [Redis (Ajeet Raina), Redis anti-patterns every developer should avoid](https://redis.io/tutorials/redis-anti-patterns-every-developer-should-avoid/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -2399,6 +2497,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [SvelteKit, Remote functions (experimental)](https://svelte.dev/docs/kit/remote-functions) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [SvelteKit, Remote functions: query arguments](https://svelte.dev/docs/kit/remote-functions#query-Query-arguments) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 6 | [SvelteKit, Zero-config deployments (adapter-auto)](https://svelte.dev/docs/kit/adapter-auto) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 6 | [Swift.org, Swift 6 concurrency migration guide: Migration strategy](https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/migrationstrategy/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 6 | [Swift.org, Swift 6.2 released](https://www.swift.org/blog/swift-6.2-released/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 6 | [TanStack Query overview](https://tanstack.com/query/latest/docs/framework/react/overview) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 6 | [Tauri, App Size](https://v2.tauri.app/concept/size/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Tauri, Application lifecycle threats: keep your applications up to date](https://v2.tauri.app/security/lifecycle/#keep-your-applications-up-to-date) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
@@ -2545,7 +2645,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-310 sources.
+315 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2625,6 +2725,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [eslint-plugin-testing-library, no-node-access](https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-node-access.md) | [specific/web](specific/web/README.md) | 2026-10-26 |
 | 5 | [eslint-plugin-vue, vue/define-emits-declaration](https://eslint.vuejs.org/rules/define-emits-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 5 | [eslint-plugin-vue, vue/define-props-declaration](https://eslint.vuejs.org/rules/define-props-declaration.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 5 | [Expo SDK, @shopify/flash-list](https://docs.expo.dev/versions/latest/sdk/flash-list/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 5 | [Facepunch, Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Firebase, ESLint Plugin: Firebase Security Rules (@firebase/eslint-plugin-security-rules)](https://github.com/firebase/eslint-tools) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
@@ -2799,6 +2900,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Supabase splinter, Lint 0013: RLS Disabled in Public](https://supabase.github.io/splinter/0013_rls_disabled_in_public/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 5 | [Supabase splinter, Lint 0015: RLS References user_metadata](https://supabase.github.io/splinter/0015_rls_references_user_metadata/) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 5 | [Supabase, splinter (Supabase Postgres linter)](https://github.com/supabase/splinter) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 5 | [SwiftLint, Rule directory](https://realm.github.io/SwiftLint/rule-directory.html) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 5 | [Syncpack, lint command](https://syncpack.dev/command/lint/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 5 | [Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Thoughtworks Radar, Lightweight Architecture Decision Records](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
@@ -2855,6 +2957,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 4 | [Privado, open-source data flow scanner for personal data](https://github.com/Privado-Inc/privado) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 4 | [Sherif, README](https://github.com/QuiiBz/sherif/blob/main/README.md) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Slack compose-lints rules](https://slackhq.github.io/compose-lints/rules/) | [specific/android](specific/android/README.md) | 2026-10-25 |
+| 4 | [SwiftLint, accessibility_label_for_image rule](https://realm.github.io/SwiftLint/accessibility_label_for_image.html) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 4 | [SwiftLint, accessibility_trait_for_button rule](https://realm.github.io/SwiftLint/accessibility_trait_for_button.html) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 4 | [SwiftLint, private_swiftui_state rule](https://realm.github.io/SwiftLint/private_swiftui_state.html) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 4 | [Turborepo, boundaries (experimental)](https://turborepo.dev/docs/reference/boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 4 | [Unity Chop Chop (Open Project 1)](https://github.com/UnityTechnologies/open-project-1) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
 | 4 | [Unity Status, Multiplay deprecation notice](https://status.unity.com/info_notices/362941) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |

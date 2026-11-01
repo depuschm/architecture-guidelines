@@ -1,4 +1,18 @@
 id,status,title
+A11Y-1,active,"Use WCAG 2.2 Level AA as the accessibility baseline for every user interface, not only websites: apply it to native apps, desktop software and documents through WCAG2ICT, and through EN 301 549 where EU law applies."
+A11Y-2,active,"If you sell to consumers in the EU, check whether the European Accessibility Act covers your products or services, and if it does, design them to its requirements from the start."
+A11Y-3,active,"In the US, check which federal accessibility rules apply to what you build: Section 508 for ICT that federal agencies develop, buy or use, the ADA Title II rule for state and local governments' websites and apps, and the CVAA for software with communication features."
+A11Y-4,active,"Build accessibility into the design system and into the definition of done: make and test the shared components accessible once, and test each new feature for accessibility, automatically and by hand, before it counts as done."
+A11Y-5,active,"Involve people with disabilities in research, design reviews and testing from the start of a project, with a range of disabilities and assistive technologies."
+A11Y-6,active,"Publish an accessibility statement for each website, app or product, saying how far it meets the standard, which parts don't and why, how to get an accessible alternative, and how to report a problem, and answer the reports you get."
+A11Y-7,active,"Test each new feature by hand with the assistive technologies and settings people use, on every platform you ship: at least a screen reader, a keyboard or switch access, and the largest text size."
+A11Y-8,active,Don't rely on accessibility overlays or widgets to make a product accessible or compliant: fix the barriers in its own code and content.
+A11Y-9,active,"Expose every control's name, role, state and value to assistive technologies through the platform's accessibility API: use the standard controls of the platform or UI toolkit, which do this for you, and implement the API yourself for custom-drawn UI, such as a canvas or a game engine's UI."
+A11Y-10,active,"Make every function work through a keyboard interface, without precise timing, because switch devices, alternative keyboards and other input that emulates a keyboard depend on it."
+A11Y-11,active,"Never convey information or instructions by colour alone or by sound alone, or only through shape, size, position or orientation: add text, icons, patterns or captions."
+A11Y-12,active,"Follow the platform's accessibility settings instead of overriding them, such as text size, bold text, contrast and colour filters, reduced motion and forced colours."
+A11Y-13,active,"Don't show anything that flashes more than three times in any one second, unless the flashes stay below the general flash and red flash thresholds."
+A11Y-14,active,"Give people enough time: let them turn off, adjust or extend each time limit, and pause, stop or hide anything that moves, blinks or scrolls on its own for more than five seconds."
 ADR-1,active,Write an ADR for every architecturally significant decision.
 ADR-2,active,"Keep ADRs in the repository next to the code as numbered Markdown files, for example `docs/decisions/0001-use-postgresql.md`."
 ADR-3,active,"Record the options you considered and why you rejected them, not just the option you chose."
@@ -21,6 +35,8 @@ ANDROID-5,active,Use dependency injection (Hilt).
 ANDROID-6,active,"Follow the coroutine best practices: inject dispatchers, make suspend functions main-safe, and don't expose mutable state."
 ANDROID-7,active,"Build offline-first where possible, with the local database as the source of truth."
 ANDROID-8,active,Modularise by feature and layer as the app and team grow.
+ANDROID-9,active,"Make every screen usable with TalkBack and Switch Access: describe each meaningful image and icon with a `contentDescription`, pass `null` for decorative ones, expose the role and state of custom components through Compose semantics, and make each touch target at least 48dp by 48dp."
+ANDROID-10,active,"Set text sizes in `sp`, and test every screen at the largest font size, which is 200% since Android 14, so that text follows the user's setting without being cut off."
 ANGULAR-1,active,"Keep the current defaults in new code: standalone components, `OnPush` change detection and zoneless change detection. Don't set `standalone: false`, `ChangeDetectionStrategy.Eager` or `provideZoneChangeDetection()`."
 ANGULAR-2,active,"Derive state with `computed()`, or with `linkedSignal()` when the user can also set it, and use `effect()` only to sync signals with APIs that aren't reactive, such as storage, logging, or a canvas or third-party UI library."
 ANGULAR-3,active,"Declare inputs, outputs and queries with the signal-based functions, such as `input()`, `output()`, `model()` and `viewChild()`, and name outputs in camelCase, without an `on` prefix and without the name of a DOM event such as `click`."
@@ -190,6 +206,8 @@ FLUTTER-3,active,Use unidirectional data flow and immutable data models.
 FLUTTER-4,active,"Cover logic with unit tests, widgets with widget tests, and critical flows with integration tests."
 FLUTTER-5,active,"Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state."
 FLUTTER-6,active,"Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers."
+FLUTTER-7,active,"Describe custom widgets to screen readers with the `Semantics` widget, setting a label and properties such as `button` or `header`, and make every tap target at least 48 by 48 dp on Android and 44 by 44 pt on iOS."
+FLUTTER-8,active,"Let text follow the font size set in the operating system, which Flutter's text widgets do by default, and make every layout leave room for text at the largest setting, testing on a small screen."
 GAMEDEV-1,active,"Advance the simulation in fixed time steps, decoupled from the render rate, and interpolate between the last two simulated states when rendering."
 GAMEDEV-2,active,"Build game entities by composing components, not through deep inheritance hierarchies."
 GAMEDEV-3,active,"Define entity types and tuning values as data that designers can change without recompiling, not as one subclass per type."
@@ -377,6 +395,7 @@ GODOT-36,active,"Put platform- and build-specific project settings in feature-ta
 GODOT-37,active,"Unit-test game logic in isolation, in `RefCounted` classes and other scripts that you can create with `new()`, and test whole scenes in integration tests with gdUnit4's Scene Runner or GUT's `simulate()` and input sender, for behaviour that spans frames or depends on input."
 GODOT-38,active,"Let the code under test receive its dependencies, as `GODOT-3` describes for scenes, so that tests can replace them with GUT doubles and stubs or gdUnit4 mocks and spies."
 GODOT-39,active,"Keep tests and the test framework out of release exports: put tests in their own folder, such as `res://test/`, and add it and the framework's addon folder (`addons/gut/*` or `addons/gdunit4/*`) to the exclude filter of every export preset."
+GODOT-40,active,"Give each Control that a screen reader should announce a human-readable `accessibility_name`, and an `accessibility_description` where the name isn't enough, keep the *Accessibility Support* project setting at its default, *Auto*, and test with a screen reader on each desktop platform you ship."
 GQL-1,active,"Evolve the schema without versions: add fields and types, mark what you plan to remove with `@deprecated(reason: …)` naming the replacement, and remove it only after usage tracking shows that clients have migrated, or the announced deadline has passed."
 GQL-2,active,"Change data only in mutations: keep query fields free of side effects, and don't execute a mutation sent with `GET`."
 GQL-3,active,"Design the schema around the business domain and the way clients use the data, not around the database tables behind it."
@@ -854,6 +873,7 @@ UNITY-CODE-11,active,"For asynchronous code, use `Awaitable` with async/await (U
 UNITY-CODE-12,active,"For multiplayer, choose the netcode stack with the Multiplayer Center and study Boss Room before designing your own architecture."
 UNITY-CODE-13,active,Choose the UI system (UI Toolkit or uGUI) per use case using Unity's comparison.
 UNITY-CODE-14,active,Choose the Entities package (DOTS/ECS) deliberately for large simulations.
+UNITY-CODE-15,active,"For screen reader support, build an accessibility hierarchy with Unity's Accessibility module: an `AccessibilityNode` with a label, role and state for each element that players read or use, set as `AssistiveSupport.activeHierarchy` while that UI is shown, and kept in sync with the UI, including each node's screen position, in your own code."
 UNITY-GFX-1,active,"Start new projects on the Universal Render Pipeline (URP), and choose HDRP only for a PC or console project that needs its high-end features. Don't start a new title on the Built-in Render Pipeline."
 UNITY-GFX-2,active,"In URP and HDRP, follow Unity's draw-call recommendations: enable the SRP Batcher and the GPU Resident Drawer, turn off static batching and the materials' *Enable GPU Instancing* checkbox, share materials, and use Material Variants rather than `MaterialPropertyBlock` for objects that differ only in property values."
 UNITY-GFX-3,active,"Write custom shaders in Shader Graph by default, bring in hand-written HLSL through Custom Function nodes, and keep any fully hand-written URP or HDRP shader compatible with the SRP Batcher."
@@ -927,6 +947,7 @@ UNREAL-41,active,"Write tests for code that needs engine systems as Automation S
 UNREAL-42,active,"Follow Epic's test design guidelines: don't assume the state of the game or the editor, because tests can run in any order or in parallel on several machines, leave files on disk as you found them, and mark a test as a Smoke test only if it finishes within a second."
 UNREAL-43,active,"Run boot tests and automation tests on packaged builds for each target platform with Gauntlet, not only in the editor."
 UNREAL-44,active,"Catch rendering regressions with screenshot comparison tests: place Functional Screenshot Test Actors in test levels, turn off noisy rendering features, set a tolerance, and review differences in the Screenshot Comparison browser."
+UNREAL-45,active,"If players need a screen reader, turn on Unreal's accessibility support with `Accessibility.Enable=1`, set the Accessibility options of each UMG widget, such as *Accessible Behavior*, and choose how it's read: by third-party screen readers on Windows and VoiceOver on iOS, or by the Slate Screen Reader plugin, which reads focused Slate and UMG widgets aloud with the engine's text-to-speech."
 VUE-1,active,"Never mutate props, including nested properties of object props: emit an event so that the parent changes its own state, or use `defineModel()` for two-way binding."
 VUE-2,active,Write application components as Single-File Components with the Composition API and `<script setup>`.
 VUE-3,active,"Derive values with `computed`, keep computed getters free of side effects, and use watchers only for side effects in reaction to state changes."

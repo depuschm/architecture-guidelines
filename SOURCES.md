@@ -7,7 +7,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-112 sources.
+113 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -44,7 +44,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
 | 10 | [Valve, Steamworks Documentation](https://partner.steamgames.com/doc/home) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
-| 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [general/accessibility](general/accessibility.md), [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [Agones, Documentation](https://agones.dev/site/docs/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 9 | [Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
@@ -62,6 +62,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [EDPB, Guidelines 4/2019 on Article 25 Data Protection by Design and by Default](https://www.edpb.europa.eu/documents/guideline/guidelines-42019-on-article-25-data-protection-by-design-and-by-default_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 9 | [Epic Games, Epic C++ Coding Standard for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 9 | [Epic Games, Gameplay Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
+| 9 | [ETSI, CEN and CENELEC, EN 301 549 V4.1.1 Accessibility requirements for ICT products and services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 9 | [EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 9 | [Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 9 | [Expo documentation, Develop an app with Expo](https://docs.expo.dev/workflow/overview/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
@@ -126,7 +127,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2756 sources.
+2809 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -190,6 +191,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Epic Games, Unreal Engine Modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-10-25 |
 | 8 | [Epic Games, Unreal Object Handling in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-object-handling-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 8 | [eShop reference application](https://github.com/dotnet/eShop) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 8 | [EUR-Lex, Directive (EU) 2019/882, the European Accessibility Act](https://eur-lex.europa.eu/eli/dir/2019/882/oj) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 8 | [European Commission, Data protection: information for business and organisations](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [Evans, Domain-Driven Design (book)](https://www.domainlanguage.com/ddd/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Expo Router, Introduction](https://docs.expo.dev/router/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
@@ -366,10 +368,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 8 | [Unity, Render pipelines strategy for 2026](https://unity.com/topics/render-pipelines-strategy-for-2026) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
+| 8 | [US Access Board, Revised 508 Standards and 255 Guidelines](https://www.access-board.gov/ict/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Vue Router, Guide](https://router.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Security](https://vuejs.org/guide/best-practices/security.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 8 | [Vue.js, Using Vue with TypeScript](https://vuejs.org/guide/typescript/overview.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 8 | [W3C, Guidance on Applying WCAG 2 to Non-Web ICT (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 8 | [W3C, Trace Context (Recommendation)](https://www.w3.org/TR/trace-context/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3](https://www.w3.org/TR/webauthn-3/) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [W3C, WebGPU (Candidate Recommendation Draft)](https://www.w3.org/TR/webgpu/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -441,6 +445,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Android, Domain layer](https://developer.android.com/topic/architecture/domain-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Fundamentals of testing](https://developer.android.com/training/testing/fundamentals) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Android, Hilt](https://developer.android.com/training/dependency-injection/hilt-android) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 7 | [Android, Make apps more accessible](https://developer.android.com/guide/topics/ui/accessibility/apps) | [specific/android](specific/android/README.md) | 2026-11-01 |
+| 7 | [Android, Test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing) | [general/accessibility](general/accessibility.md), [specific/android](specific/android/README.md) | 2026-11-01 |
 | 7 | [Android, ViewModel overview](https://developer.android.com/topic/libraries/architecture/viewmodel) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 7 | [Angular, Accepting data with input properties](https://angular.dev/guide/components/inputs) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Angular, Accessibility](https://angular.dev/best-practices/a11y) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
@@ -726,6 +732,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Epic Games, Unreal Insights in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 7 | [eslint-plugin-vue, Available rules](https://eslint.vuejs.org/rules/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 7 | [European Commission, Dealing with requests from individuals](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 7 | [European Commission, European Accessibility Act (EAA)](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [European Commission, Legal grounds for processing data](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [European Commission, Obligations under the GDPR](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/obligations_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [European Commission, Principles of the GDPR: data minimisation](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#data-minimisation) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -785,8 +792,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Firebase, Security checklist: Unit test security rules with the Local Emulator Suite; add it to CI](https://firebase.google.com/support/guides/security-checklist#unit-test-security-rules-with-emulators) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Security checklist: Use security rules that require a sign-in method or verified email](https://firebase.google.com/support/guides/security-checklist#use-security-rules-that-require-sign-in-method) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Understand Cloud Firestore billing](https://firebase.google.com/docs/firestore/pricing) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Flutter API, Semantics class](https://api.flutter.dev/flutter/widgets/Semantics-class.html) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
 | 7 | [Flutter app architecture, case study](https://docs.flutter.dev/app-architecture/case-study) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter app architecture, concepts](https://docs.flutter.dev/app-architecture/concepts) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
+| 7 | [Flutter, Accessibility technologies](https://docs.flutter.dev/ui/accessibility/assistive-technologies) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
 | 7 | [Flutter, Architecture design patterns](https://docs.flutter.dev/app-architecture/design-patterns) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter, Performance best practices](https://docs.flutter.dev/perf/best-practices) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 7 | [Flutter, Testing overview](https://docs.flutter.dev/testing/overview) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -1072,6 +1081,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Google, Go Style Guide: Formatting](https://google.github.io/styleguide/go/guide#formatting) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Google, Site Reliability Engineering, chapter 8: Release Engineering](https://sre.google/sre-book/release-engineering/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [GOV.UK Service Manual, Making your service accessible: an introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [GOV.UK Service Manual, Testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, DataLoader README](https://github.com/graphql/dataloader/blob/main/README.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, Error Handling](https://graphql.org/learn/error-handling/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -1134,6 +1145,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [itch.io, Uploading HTML5 games](https://itch.io/docs/creators/html5) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [itch.io, Uploading HTML5 games: ZIP file requirements](https://itch.io/docs/creators/html5#zip-file-requirements) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Jason Miller, Islands Architecture](https://jasonformat.com/islands-architecture/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Jetpack Compose, Semantics](https://developer.android.com/develop/ui/compose/accessibility/semantics) | [specific/android](specific/android/README.md) | 2026-11-01 |
 | 7 | [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [Khronos, Vulkan Guide: Tile Based Rendering (TBR) Best Practices](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/tile_based_rendering_best_practices.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [Khronos, Vulkan Samples: performance samples](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/README.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1811,6 +1823,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity Manual, Introduction to level of detail](https://docs.unity3d.com/Manual/LevelOfDetail.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to PSO tracing and warming](https://docs.unity3d.com/Manual/shader-pso-introduction.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity Manual, Introduction to shader variants](https://docs.unity3d.com/Manual/shader-variants.html) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
+| 7 | [Unity Manual, Introduction to the Accessibility module](https://docs.unity3d.com/Manual/accessibility/module-intro.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-11-01 |
 | 7 | [Unity Manual, Introduction to Web multithreading](https://docs.unity3d.com/Manual/web-multithreading-intro.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Unity Manual, Load resources at runtime](https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Manual, Memory in Unity Web](https://docs.unity3d.com/Manual/webgl-memory.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
@@ -1865,6 +1878,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unreal Engine, Using Derived Data Cache: Shared DDC](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-derived-data-cache-in-unreal-engine#sharedddc) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 7 | [Unreal Engine, Using Perforce as source control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine) | [specific/gamedev](specific/gamedev/README.md), [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-10-25 |
 | 7 | [Unreal Engine, World Partition](https://dev.epicgames.com/documentation/en-us/unreal-engine/world-partition-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-11-01 |
+| 7 | [US Access Board, Revised 508 Standards: 502.3 Accessibility Services](https://www.access-board.gov/ict/#502.3) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [US Access Board, Revised 508 Standards: 503.2 User Preferences](https://www.access-board.gov/ict/#503.2) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [US Access Board, Revised 508 Standards: E207.2 WCAG Conformance](https://www.access-board.gov/ict/#E207.2) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [US Department of Justice (ADA.gov), Fact sheet: New rule on the accessibility of web content and mobile apps provided by state and local governments](https://www.ada.gov/resources/2024-03-08-web-rule/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [Using domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 7 | [uv, Structure and files: The lockfile](https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Valkey, Documentation by topic](https://valkey.io/topics/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -1908,6 +1925,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [W3C Internationalization, Structural markup and right-to-left text in HTML](https://www.w3.org/International/questions/qa-html-dir) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [W3C Internationalization, Text size in translation](https://www.w3.org/International/articles/article-text-size) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [W3C WAI, Developing an Accessibility Statement](https://www.w3.org/WAI/planning/statements/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C WAI, Digital Accessibility Foundations (free online course)](https://www.w3.org/WAI/courses/foundations-course/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C WAI, How People with Disabilities Use the Web](https://www.w3.org/WAI/people-use-web/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C WAI, Involving Users in Web Projects for Better, Easier Accessibility](https://www.w3.org/WAI/planning/involving-users/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C WAI, WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 1.3.3 Sensory Characteristics](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 2.3.1 Three Flashes or Below Threshold](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [W3C, Working with Time and Timezones (Group Draft Note)](https://www.w3.org/TR/timezone/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [web.dev, Baseline](https://web.dev/baseline) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -1935,6 +1964,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Amazon GameLift Servers, Development roadmap for managed EC2 hosting](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-roadmap-managed.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Amazon GameLift Servers, FleetIQ best practices](https://docs.aws.amazon.com/gameliftservers/latest/fleetiqguide/gsg-best-practices.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 6 | [Andrey Sitnik, Size Limit](https://github.com/ai/size-limit) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 6 | [Android 14, Non-linear font scaling to 200%](https://developer.android.com/about/versions/14/features#non-linear-font-scaling) | [specific/android](specific/android/README.md) | 2026-11-01 |
 | 6 | [Android Developers, Android GPU Inspector](https://developer.android.com/agi) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Android Developers, CPU and GPU optimization tips: avoid discard to enable Early-Z](https://developer.android.com/games/optimize/optimization-tips#avoid-discard-early-z) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Android Developers, CPU and GPU optimization tips: minimize load or store operations](https://developer.android.com/games/optimize/optimization-tips#minimize-operations) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -1943,6 +1973,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Android Developers, Geometry: level of detail](https://developer.android.com/games/optimize/geometry#level-of-detail) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Android Developers, Include native symbols in your release build](https://developer.android.com/build/include-native-symbols) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 6 | [Android Lint, SetTextI18n: TextView internationalization](https://googlesamples.github.io/android-custom-lint-rules/checks/SetTextI18n.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [Android, Espresso accessibility checking](https://developer.android.com/training/testing/espresso/accessibility-checking) | [specific/android](specific/android/README.md) | 2026-11-01 |
+| 6 | [Android, Test your app's accessibility: Switch Access](https://developer.android.com/guide/topics/ui/accessibility/testing#switch-access) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [Angular, Accessibility: focus management after navigation](https://angular.dev/best-practices/a11y#focus-management-after-navigation) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 6 | [Angular, Angular CLI overview](https://angular.dev/tools/cli) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 6 | [Angular, Build your first Angular app](https://angular.dev/tutorials/first-app) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
@@ -2123,6 +2155,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [eslint-plugin-vue, vue/no-mutating-props](https://eslint.vuejs.org/rules/no-mutating-props.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-vue, vue/no-side-effects-in-computed-properties](https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 6 | [European Commission, Rules on international data transfers](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/rules-international-data-transfers_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 6 | [European Disability Forum and IAAP, Joint statement on accessibility overlays](https://www.edf-feph.org/publications/joint-statement-on-accessibility-overlays/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [Expo Router, Protected routes](https://docs.expo.dev/router/advanced/protected/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo Router, Typed routes](https://docs.expo.dev/router/reference/typed-routes/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo, Configure with app config](https://docs.expo.dev/workflow/configuration/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
@@ -2142,6 +2175,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [FastAPI, Deployments Concepts](https://fastapi.tiangolo.com/deployment/concepts/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Request Body](https://fastapi.tiangolo.com/tutorial/body/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [FastAPI, Testing Dependencies with Overrides](https://fastapi.tiangolo.com/advanced/testing-dependencies/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 6 | [FCC, Order DA 17-1243: final ACS accessibility waiver for video game software](https://docs.fcc.gov/public/attachments/DA-17-1243A1.pdf) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [Firebase codelab, App Check Web Codelab](https://firebase.google.com/codelabs/appcheck-web) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 6 | [Firebase codelab, Local Development with the Firebase Emulator Suite](https://firebase.google.com/codelabs/firebase-emulator) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 6 | [Firebase Docs, Firebase Remote Config](https://firebase.google.com/docs/remote-config) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
@@ -2160,12 +2194,16 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Firebase, Remote Config: Policies and limits](https://firebase.google.com/docs/remote-config#policies-and-limits) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 6 | [Firebase, Security checklist: Prevent self-DOSes: test functions locally with the emulators](https://firebase.google.com/support/guides/security-checklist#test-functions-with-emulators) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 6 | [Firebase, Writing conditions for Cloud Firestore Security Rules: Data validation](https://firebase.google.com/docs/firestore/security/rules-conditions#data_validation) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 6 | [Flutter API, meetsGuideline (accessibility guideline matchers)](https://api.flutter.dev/flutter/flutter_test/meetsGuideline.html) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
+| 6 | [Flutter, Accessibility testing: testing accessibility on mobile](https://docs.flutter.dev/ui/accessibility/accessibility-testing#testing-accessibility-on-mobile) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
 | 6 | [Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Offline-first support](https://docs.flutter.dev/app-architecture/design-patterns/offline-first) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, Persist data with SQLite](https://docs.flutter.dev/cookbook/persistence/sqlite) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 6 | [Flutter, Result pattern](https://docs.flutter.dev/app-architecture/design-patterns/result) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 6 | [Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
+| 6 | [Flutter, UI design and styling: large fonts](https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#large-fonts) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
+| 6 | [Flutter, UI design and styling: tap target size](https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#tap-target-size) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
 | 6 | [Ford and Richards, Software Architecture: The Hard Parts and other books](https://www.developertoarchitect.com/books.html) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 6 | [FormatJS, ESLint plugin (eslint-plugin-formatjs)](https://formatjs.github.io/docs/tooling/linter/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [Fowler, Contract Test](https://martinfowler.com/bliki/ContractTest.html) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -2316,7 +2354,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Godot docs, Using multiple threads](https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 6 | [Godot docs, Version control systems: Git LFS](https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#git-lfs) | [specific/godot/project-structure](specific/godot/project-structure.md) | 2026-11-01 |
 | 6 | [Godot docs, Your first 3D game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
+| 6 | [Godot Engine, Godot 4.5 release notes: screen reader support](https://godotengine.org/releases/4.5/) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 6 | [Godot Foundation, Godot demo projects](https://github.com/godotengine/godot-demo-projects) | [specific/godot](specific/godot/README.md) | 2026-11-01 |
+| 6 | [Godot, Control: accessibility_name](https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-property-accessibility-name) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 6 | [golangci-lint, Linter settings: errorlint](https://golangci-lint.run/docs/linters/configuration/#errorlint) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [golangci-lint, Linters](https://golangci-lint.run/docs/linters/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Google Cloud API design guide](https://docs.cloud.google.com/apis/design) | [general/api-design](general/api-design.md) | 2026-10-24 |
@@ -2336,6 +2376,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Google, Go Style Best Practices: Error structure](https://google.github.io/styleguide/go/best-practices#error-structure) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Google, Go Style Decisions: Generics](https://google.github.io/styleguide/go/decisions#generics) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [gosec, Rule Documentation](https://github.com/securego/gosec/blob/master/RULES.md) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [GOV.UK Design System, Accessibility strategy: accessibility and design systems](https://design-system.service.gov.uk/accessibility/accessibility-strategy/#accessibility-and-design-systems) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 6 | [GOV.UK Service Manual, Testing for accessibility: testing with assistive technologies](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility#testing-with-assistive-technologies) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 6 | [GOV.UK, Make your website or app accessible and publish an accessibility statement: publish your statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 6 | [GOV.UK, Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [GraphQL best practices](https://graphql.org/learn/best-practices/) | [general/api-design](general/api-design.md), [specific/graphql](specific/graphql/README.md) | 2026-10-24 |
 | 6 | [GraphQL ESLint, no-deprecated](https://the-guild.dev/graphql/eslint/rules/no-deprecated) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [GraphQL ESLint, relay-arguments](https://the-guild.dev/graphql/eslint/rules/relay-arguments) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -2380,6 +2424,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [itch.io, Uploading HTML5 games: compression](https://itch.io/docs/creators/html5#compression) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Jaap-Henk Hoepman, Privacy Design Strategies (The Little Blue Book)](https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 6 | [Jackson, Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) | [specific/react](specific/react/README.md) | 2026-10-24 |
+| 6 | [Jetpack Compose, Accessibility testing: accessibility checks](https://developer.android.com/develop/ui/compose/accessibility/testing#checks) | [specific/android](specific/android/README.md) | 2026-11-01 |
 | 6 | [Khronos, glslang](https://github.com/KhronosGroup/glslang/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Khronos, SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools/blob/main/README.md) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Khronos, Vulkan Guide](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/README.adoc) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
@@ -2427,10 +2472,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [MDN, AudioContext: suspend() method](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/suspend) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, BaseAudioContext: state property](https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/state) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, Element: requestFullscreen() method: security considerations](https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen#security_considerations) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, forced-colors CSS media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [MDN, Game development: Tutorials](https://developer.mozilla.org/en-US/docs/Games/Tutorials) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, HTTP Observatory (mdn-http-observatory)](https://github.com/mdn/mdn-http-observatory) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [MDN, Implementing game control mechanisms](https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, Pointer Lock API: iframe limitations](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API#iframe_limitations) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [MDN, prefers-reduced-motion CSS media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [MDN, ScreenOrientation: lock() method](https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation/lock) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, touch-action: accessibility](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/touch-action#accessibility) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [MDN, Transferable objects](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
@@ -2795,6 +2842,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unity Manual, Editor settings](https://docs.unity3d.com/Manual/class-EditorManager.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
 | 6 | [Unity Manual, Enable the GPU Resident Drawer in URP](https://docs.unity3d.com/Manual/urp/gpu-resident-drawer.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Enable the WebGPU graphics API](https://docs.unity3d.com/Manual/webgpu-enable.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
+| 6 | [Unity Manual, Get started with screen reader support](https://docs.unity3d.com/Manual/accessibility/screen-readers-get-started.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-11-01 |
 | 6 | [Unity Manual, Input in Web](https://docs.unity3d.com/Manual/webgl-input.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 6 | [Unity Manual, Introduction to the Frame Debugger](https://docs.unity3d.com/Manual/FrameDebugger.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 6 | [Unity Manual, Other methods to warm up shaders](https://docs.unity3d.com/Manual/shader-prewarm-other.html) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
@@ -2822,6 +2870,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unreal Engine, Asset Redirectors](https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-redirectors-in-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Automation Spec](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-spec-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Behavior Trees](https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-trees-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
+| 6 | [Unreal Engine, Blind Accessibility Features Overview](https://dev.epicgames.com/documentation/en-us/unreal-engine/blind-accessibility-features-overview-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Blueprint Interface](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-interface-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Common UI Plugin for Advanced User Interfaces](https://dev.epicgames.com/documentation/en-us/unreal-engine/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 6 | [Unreal Engine, CQTest Test Framework](https://dev.epicgames.com/documentation/en-us/unreal-engine/cqtest-test-framework-for-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-01 |
@@ -2841,6 +2890,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unreal Engine, Screenshot Comparison Tool](https://dev.epicgames.com/documentation/en-us/unreal-engine/screenshot-comparison-tool-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Source Control](https://dev.epicgames.com/documentation/en-us/unreal-engine/source-control-in-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-11-01 |
 | 6 | [Unreal Engine, StateTree Overview](https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-state-tree-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
+| 6 | [Unreal Engine, Supporting Screen Readers](https://dev.epicgames.com/documentation/en-us/unreal-engine/supporting-screen-readers-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Tasks System](https://dev.epicgames.com/documentation/en-us/unreal-engine/tasks-systems-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 6 | [Unreal Engine, UMG Viewmodel](https://dev.epicgames.com/documentation/en-us/unreal-engine/umg-viewmodel-for-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Unreal Game Sync (UGS)](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-game-sync-ugs-for-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-11-01 |
@@ -2849,6 +2899,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Unreal Engine, Using the Low-Level Memory Tracker](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-the-low-level-memory-tracker-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Write C++ Tests](https://dev.epicgames.com/documentation/en-us/unreal-engine/write-cplusplus-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-01 |
 | 6 | [Unreal Engine, Zen Storage Server](https://dev.epicgames.com/documentation/en-us/unreal-engine/zen-storage-server-for-unreal-engine) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
+| 6 | [US Federal Trade Commission, FTC approves final order requiring accessiBe to pay $1 million](https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [uv, Locking and syncing: Checking the lockfile](https://docs.astral.sh/uv/concepts/projects/sync/#checking-the-lockfile) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [uv, Working on projects](https://docs.astral.sh/uv/guides/projects/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Valve, Steam Hardware & Software Survey](https://store.steampowered.com/hwsurvey) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
@@ -2870,6 +2921,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [W3C Internationalization, Accept-Language used for locale setting](https://www.w3.org/International/questions/qa-accept-lang-locales) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [W3C Internationalization, Character encodings: Essential concepts](https://www.w3.org/International/articles/definitions-characters/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 6 | [W3C Internationalization, Guiding users to translated pages](https://www.w3.org/International/questions/qa-site-conneg) | [general/localization](general/localization.md) | 2026-10-26 |
+| 6 | [W3C WAI, Selecting Web Accessibility Evaluation Tools](https://www.w3.org/WAI/test-evaluate/tools/selecting/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 6 | [W3C WAI, Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 6 | [W3C, Understanding WCAG 2.2 SC 2.3.3 Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 6 | [web.dev, Learn Images](https://web.dev/learn/images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Responsive Design: Responsive images](https://web.dev/learn/design/responsive-images) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [web.dev, Learn Testing](https://web.dev/learn/testing) | [specific/web](specific/web/README.md) | 2026-10-26 |
@@ -2889,7 +2943,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-334 sources.
+339 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -2897,8 +2951,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Android Developers, Android Games Dev Center](https://developer.android.com/games) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Android Lint checks, ExpiredTargetSdkVersion](https://googlesamples.github.io/android-custom-lint-rules/checks/ExpiredTargetSdkVersion.md.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Android Lint checks, OldTargetApi](https://googlesamples.github.io/android-custom-lint-rules/checks/OldTargetApi.md.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 5 | [Android Lint, ContentDescription: image without contentDescription](https://googlesamples.github.io/android-custom-lint-rules/checks/ContentDescription.md.html) | [specific/android](specific/android/README.md) | 2026-11-01 |
 | 5 | [Android Lint, HardcodedText](https://googlesamples.github.io/android-custom-lint-rules/checks/HardcodedText.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
 | 5 | [Android Lint, RtlHardcoded](https://googlesamples.github.io/android-custom-lint-rules/checks/RtlHardcoded.md.html) | [general/localization](general/localization.md) | 2026-10-26 |
+| 5 | [Android Lint, SpUsage: dp instead of sp for text sizes](https://googlesamples.github.io/android-custom-lint-rules/checks/SpUsage.md.html) | [specific/android](specific/android/README.md) | 2026-11-01 |
 | 5 | [Angular, NgIf API reference](https://angular.dev/api/common/NgIf) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 5 | [angular-eslint, no-output-native](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-native.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 5 | [angular-eslint, no-output-on-prefix](https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-on-prefix.md) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
@@ -2975,6 +3031,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Facepunch, Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [Feature-Sliced Design](https://feature-sliced.design/) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 5 | [Firebase, ESLint Plugin: Firebase Security Rules (@firebase/eslint-plugin-security-rules)](https://github.com/firebase/eslint-tools) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 5 | [Flutter, UI design and styling: other accessibility features](https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#other-accessibility-features) | [specific/flutter](specific/flutter/README.md) | 2026-11-01 |
 | 5 | [Fowler, Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html) | [general/data](general/data.md) | 2026-10-24 |
 | 5 | [Fowler, Sacrificial Architecture](https://martinfowler.com/bliki/SacrificialArchitecture.html) | [general/principles](general/principles.md) | 2026-10-24 |
 | 5 | [GameCI, Unity Test Runner](https://game.ci/docs/github/test-runner/) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-25 |
@@ -3025,6 +3082,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Godot docs, Overview of debugging tools: Deploy with Remote Debug](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html#deploy-with-remote-debug) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-11-01 |
 | 5 | [Godot docs, Resolving crashes on Android](https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 5 | [Godot docs, TranslationServer class reference](https://docs.godotengine.org/en/stable/classes/class_translationserver.html) | [specific/godot/content-and-performance](specific/godot/content-and-performance.md) | 2026-10-26 |
+| 5 | [Godot, DisplayServer: FEATURE_ACCESSIBILITY_SCREEN_READER](https://docs.godotengine.org/en/stable/classes/class_displayserver.html#class-displayserver-constant-feature-accessibility-screen-reader) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
+| 5 | [Godot, ProjectSettings: accessibility/general/accessibility_support](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-accessibility-general-accessibility-support) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-11-01 |
 | 5 | [GodotSteam, Steamworks for the Godot Engine](https://godotsteam.com/) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 5 | [golangci-lint, Linter settings: containedctx](https://golangci-lint.run/docs/linters/configuration/#containedctx) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 5 | [golangci-lint, Linter settings: noctx](https://golangci-lint.run/docs/linters/configuration/#noctx) | [specific/go](specific/go/README.md) | 2026-11-01 |

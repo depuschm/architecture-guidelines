@@ -17,6 +17,8 @@ The Flutter team publishes an official architecture guide. **Follow it as-is.**
 
 ## Key rules
 
+### Architecture
+
 - `9` `FLUTTER-1` **Separate the UI layer (views and view models) from the data layer (repositories and services), and add a domain layer of use cases only when needed.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
 - `8` `FLUTTER-2` **Make repositories the source of truth for app data, with services that wrap external APIs.** ([Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide))
 - `8` `FLUTTER-3` **Use unidirectional data flow and immutable data models.** ([Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations))
@@ -24,11 +26,17 @@ The Flutter team publishes an official architecture guide. **Follow it as-is.**
 - `6` `FLUTTER-5` **Choose a state management approach that fits the app and the team, and use it consistently for app state. `setState` is fine for widget-local state.** ([Flutter, State management options](https://docs.flutter.dev/data-and-backend/state-mgmt/options), [Ephemeral vs. app state](https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app))
 - `5` `FLUTTER-6` **Model user actions as commands, and model operation outcomes as `Result` values instead of throwing across layers.** ([Flutter, Command pattern](https://docs.flutter.dev/app-architecture/design-patterns/command), [Result pattern](https://docs.flutter.dev/app-architecture/design-patterns/result))
 
+### Accessibility
+
+- `7` `FLUTTER-7` **Describe custom widgets to screen readers with the `Semantics` widget, setting a label and properties such as `button` or `header`, and make every tap target at least 48 by 48 dp on Android and 44 by 44 pt on iOS.** Flutter's standard widgets build the accessibility tree automatically, `MergeSemantics` makes a subtree a single node, and `ExcludeSemantics` removes decoration from the tree; test with TalkBack and VoiceOver. This applies `A11Y-9`. ([Flutter, Accessibility technologies](https://docs.flutter.dev/ui/accessibility/assistive-technologies), [Flutter API, Semantics class](https://api.flutter.dev/flutter/widgets/Semantics-class.html), [Flutter, UI design and styling: tap target size](https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#tap-target-size))
+- `6` `FLUTTER-8` **Let text follow the font size set in the operating system, which Flutter's text widgets do by default, and make every layout leave room for text at the largest setting, testing on a small screen.** Read other settings that the platform reports, such as bold text, high contrast and inverted colours, from `AccessibilityFeatures`. This applies `A11Y-12`. ([Flutter, UI design and styling: large fonts](https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#large-fonts), [Flutter, Other accessibility features](https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#other-accessibility-features))
+
 ## How to enforce
 
 Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
 
 - `7` [Dart analyzer](https://dart.dev/tools/analysis) with [flutter_lints](https://pub.dev/packages/flutter_lints): the lint set the Flutter team recommends. [`must_be_immutable`](https://dart.dev/tools/diagnostics/must_be_immutable) and [`prefer_final_fields`](https://dart.dev/tools/linter-rules/prefer_final_fields) catch mutable fields in data models. Partly checks `FLUTTER-3`.
+- `6` [Flutter accessibility guideline matchers, `meetsGuideline`](https://api.flutter.dev/flutter/flutter_test/meetsGuideline.html): in widget tests, `androidTapTargetGuideline` and `iOSTapTargetGuideline` check minimum tap target sizes, `labeledTapTargetGuideline` checks that tappable elements have a label, and `textContrastGuideline` checks text contrast against WCAG. [Accessibility testing](https://docs.flutter.dev/ui/accessibility/accessibility-testing#testing-accessibility-on-mobile) shows a complete test. Partly checks `FLUTTER-7`.
 - `4` [DCM, avoid-banned-imports](https://dcm.dev/docs/rules/common/avoid-banned-imports/) (commercial): bans imports per folder, for example UI code importing services directly. Checks `FLUTTER-1`.
 - `4` [bloc_lint, avoid_flutter_imports](https://bloclibrary.dev/lint-rules/avoid_flutter_imports/) (for apps that use Bloc): keeps Flutter out of business logic components, and [avoid_public_fields](https://bloclibrary.dev/lint-rules/avoid_public_fields/) keeps state exposed only through the state object. Partly checks `FLUTTER-1` and `FLUTTER-3`.
 

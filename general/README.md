@@ -30,5 +30,6 @@ If you only read three external sources, read these:
 - [Versioning and releases](releases.md): semantic versioning, immutable releases, release automation, deprecation.
 - [Repositories and monorepos](repositories.md): monorepo or polyrepo, module boundaries, code ownership, branch protection.
 - [Internationalization and localization](localization.md): strings outside the code, plurals, UTF-8, locale-aware formats, time zones, layout for translation.
+- [Accessibility](accessibility.md): WCAG 2.2 AA as the baseline for every interface, the European Accessibility Act and US law, process, testing with assistive technologies, and platform accessibility APIs and settings.
 - [AI systems](ai-systems.md): LLM and agent-based systems.
 - [Reading list](reading-list.md): books and complete tutorials.

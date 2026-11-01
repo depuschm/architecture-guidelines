@@ -50,6 +50,7 @@ score,title,url,verified
 9,"EDPB, Guidelines 4/2019 on Article 25 Data Protection by Design and by Default",https://www.edpb.europa.eu/documents/guideline/guidelines-42019-on-article-25-data-protection-by-design-and-by-default_en,2026-10-26
 9,"Epic Games, Epic C++ Coding Standard for Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine,2026-10-25
 9,"Epic Games, Gameplay Framework in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine,2026-10-25
+9,"ETSI, CEN and CENELEC, EN 301 549 V4.1.1 Accessibility requirements for ICT products and services",https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf,2026-11-01
 9,"EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)",https://eur-lex.europa.eu/eli/reg/2016/679/oj,2026-10-26
 9,"Evans, DDD Reference",https://www.domainlanguage.com/ddd/reference/,2026-10-24
 9,"Expo documentation, Develop an app with Expo",https://docs.expo.dev/workflow/overview/,2026-11-01
@@ -171,6 +172,7 @@ score,title,url,verified
 8,"Epic Games, Unreal Engine Modules",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules,2026-10-25
 8,"Epic Games, Unreal Object Handling in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-object-handling-in-unreal-engine,2026-10-25
 8,eShop reference application,https://github.com/dotnet/eShop,2026-10-24
+8,"EUR-Lex, Directive (EU) 2019/882, the European Accessibility Act",https://eur-lex.europa.eu/eli/dir/2019/882/oj,2026-11-01
 8,"European Commission, Data protection: information for business and organisations",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en,2026-10-26
 8,"Evans, Domain-Driven Design (book)",https://www.domainlanguage.com/ddd/,2026-10-24
 8,"Expo Router, Introduction",https://docs.expo.dev/router/introduction/,2026-11-01
@@ -347,10 +349,12 @@ score,title,url,verified
 8,"Unity Test Framework, introduction",https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html,2026-10-24
 8,"Unity, Best practices for organizing your Unity project",https://unity.com/how-to/organizing-your-project,2026-10-24
 8,"Unity, Render pipelines strategy for 2026",https://unity.com/topics/render-pipelines-strategy-for-2026,2026-10-31
+8,"US Access Board, Revised 508 Standards and 255 Guidelines",https://www.access-board.gov/ict/,2026-11-01
 8,"Vernon, Effective Aggregate Design",https://www.dddcommunity.org/library/vernon_2011/,2026-10-24
 8,"Vue Router, Guide",https://router.vuejs.org/guide/,2026-10-25
 8,"Vue.js, Security",https://vuejs.org/guide/best-practices/security.html,2026-10-25
 8,"Vue.js, Using Vue with TypeScript",https://vuejs.org/guide/typescript/overview.html,2026-10-25
+8,"W3C, Guidance on Applying WCAG 2 to Non-Web ICT (WCAG2ICT)",https://www.w3.org/TR/wcag2ict-22/,2026-11-01
 8,"W3C, Trace Context (Recommendation)",https://www.w3.org/TR/trace-context/,2026-10-25
 8,"W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3",https://www.w3.org/TR/webauthn-3/,2026-10-25
 8,"W3C, WebGPU (Candidate Recommendation Draft)",https://www.w3.org/TR/webgpu/,2026-10-31
@@ -422,6 +426,8 @@ score,title,url,verified
 7,"Android, Domain layer",https://developer.android.com/topic/architecture/domain-layer,2026-10-24
 7,"Android, Fundamentals of testing",https://developer.android.com/training/testing/fundamentals,2026-10-24
 7,"Android, Hilt",https://developer.android.com/training/dependency-injection/hilt-android,2026-10-24
+7,"Android, Make apps more accessible",https://developer.android.com/guide/topics/ui/accessibility/apps,2026-11-01
+7,"Android, Test your app's accessibility",https://developer.android.com/guide/topics/ui/accessibility/testing,2026-11-01
 7,"Android, ViewModel overview",https://developer.android.com/topic/libraries/architecture/viewmodel,2026-10-24
 7,"Angular, Accepting data with input properties",https://angular.dev/guide/components/inputs,2026-11-01
 7,"Angular, Accessibility",https://angular.dev/best-practices/a11y,2026-11-01
@@ -707,6 +713,7 @@ score,title,url,verified
 7,"Epic Games, Unreal Insights in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine,2026-10-25
 7,"eslint-plugin-vue, Available rules",https://eslint.vuejs.org/rules/,2026-10-25
 7,"European Commission, Dealing with requests from individuals",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en,2026-10-26
+7,"European Commission, European Accessibility Act (EAA)",https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en,2026-11-01
 7,"European Commission, Legal grounds for processing data",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en,2026-10-26
 7,"European Commission, Obligations under the GDPR",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/obligations_en,2026-10-26
 7,"European Commission, Principles of the GDPR: data minimisation",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#data-minimisation,2026-10-26
@@ -766,8 +773,10 @@ score,title,url,verified
 7,"Firebase, Security checklist: Unit test security rules with the Local Emulator Suite; add it to CI",https://firebase.google.com/support/guides/security-checklist#unit-test-security-rules-with-emulators,2026-11-01
 7,"Firebase, Security checklist: Use security rules that require a sign-in method or verified email",https://firebase.google.com/support/guides/security-checklist#use-security-rules-that-require-sign-in-method,2026-11-01
 7,"Firebase, Understand Cloud Firestore billing",https://firebase.google.com/docs/firestore/pricing,2026-11-01
+7,"Flutter API, Semantics class",https://api.flutter.dev/flutter/widgets/Semantics-class.html,2026-11-01
 7,"Flutter app architecture, case study",https://docs.flutter.dev/app-architecture/case-study,2026-10-24
 7,"Flutter app architecture, concepts",https://docs.flutter.dev/app-architecture/concepts,2026-10-24
+7,"Flutter, Accessibility technologies",https://docs.flutter.dev/ui/accessibility/assistive-technologies,2026-11-01
 7,"Flutter, Architecture design patterns",https://docs.flutter.dev/app-architecture/design-patterns,2026-10-24
 7,"Flutter, Performance best practices",https://docs.flutter.dev/perf/best-practices,2026-10-24
 7,"Flutter, Testing overview",https://docs.flutter.dev/testing/overview,2026-10-24
@@ -1053,6 +1062,8 @@ score,title,url,verified
 7,"Google, Go Style Guide: Formatting",https://google.github.io/styleguide/go/guide#formatting,2026-11-01
 7,"Google, Site Reliability Engineering, chapter 8: Release Engineering",https://sre.google/sre-book/release-engineering/,2026-10-25
 7,"GOV.UK Service Manual, Building a robust frontend using progressive enhancement",https://www.gov.uk/service-manual/technology/using-progressive-enhancement,2026-10-25
+7,"GOV.UK Service Manual, Making your service accessible: an introduction",https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction,2026-11-01
+7,"GOV.UK Service Manual, Testing for accessibility",https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility,2026-11-01
 7,"GOV.UK Service Manual, Understanding WCAG 2.2",https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag,2026-10-25
 7,"GraphQL Foundation, DataLoader README",https://github.com/graphql/dataloader/blob/main/README.md,2026-10-25
 7,"GraphQL Foundation, Error Handling",https://graphql.org/learn/error-handling/,2026-10-25
@@ -1115,6 +1126,7 @@ score,title,url,verified
 7,"itch.io, Uploading HTML5 games",https://itch.io/docs/creators/html5,2026-11-01
 7,"itch.io, Uploading HTML5 games: ZIP file requirements",https://itch.io/docs/creators/html5#zip-file-requirements,2026-11-01
 7,"Jason Miller, Islands Architecture",https://jasonformat.com/islands-architecture/,2026-11-01
+7,"Jetpack Compose, Semantics",https://developer.android.com/develop/ui/compose/accessibility/semantics,2026-11-01
 7,Keep a Changelog 1.1.0,https://keepachangelog.com/en/1.1.0/,2026-10-25
 7,"Khronos, Vulkan Guide: Tile Based Rendering (TBR) Best Practices",https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/tile_based_rendering_best_practices.adoc,2026-10-31
 7,"Khronos, Vulkan Samples: performance samples",https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/README.adoc,2026-10-31
@@ -1792,6 +1804,7 @@ score,title,url,verified
 7,"Unity Manual, Introduction to level of detail",https://docs.unity3d.com/Manual/LevelOfDetail.html,2026-10-31
 7,"Unity Manual, Introduction to PSO tracing and warming",https://docs.unity3d.com/Manual/shader-pso-introduction.html,2026-10-31
 7,"Unity Manual, Introduction to shader variants",https://docs.unity3d.com/Manual/shader-variants.html,2026-10-31
+7,"Unity Manual, Introduction to the Accessibility module",https://docs.unity3d.com/Manual/accessibility/module-intro.html,2026-11-01
 7,"Unity Manual, Introduction to Web multithreading",https://docs.unity3d.com/Manual/web-multithreading-intro.html,2026-11-01
 7,"Unity Manual, Load resources at runtime",https://docs.unity3d.com/Manual/LoadingResourcesatRuntime.html,2026-10-24
 7,"Unity Manual, Memory in Unity Web",https://docs.unity3d.com/Manual/webgl-memory.html,2026-11-01
@@ -1846,6 +1859,10 @@ score,title,url,verified
 7,"Unreal Engine, Using Derived Data Cache: Shared DDC",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-derived-data-cache-in-unreal-engine#sharedddc,2026-10-31
 7,"Unreal Engine, Using Perforce as source control",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-perforce-as-source-control-for-unreal-engine,2026-10-25
 7,"Unreal Engine, World Partition",https://dev.epicgames.com/documentation/en-us/unreal-engine/world-partition-in-unreal-engine,2026-11-01
+7,"US Access Board, Revised 508 Standards: 502.3 Accessibility Services",https://www.access-board.gov/ict/#502.3,2026-11-01
+7,"US Access Board, Revised 508 Standards: 503.2 User Preferences",https://www.access-board.gov/ict/#503.2,2026-11-01
+7,"US Access Board, Revised 508 Standards: E207.2 WCAG Conformance",https://www.access-board.gov/ict/#E207.2,2026-11-01
+7,"US Department of Justice (ADA.gov), Fact sheet: New rule on the accessibility of web content and mobile apps provided by state and local governments",https://www.ada.gov/resources/2024-03-08-web-rule/,2026-11-01
 7,Using domain analysis to model microservices,https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis,2026-10-24
 7,"uv, Structure and files: The lockfile",https://docs.astral.sh/uv/concepts/projects/layout/#the-lockfile,2026-10-25
 7,"Valkey, Documentation by topic",https://valkey.io/topics/,2026-10-25
@@ -1889,6 +1906,18 @@ score,title,url,verified
 7,"W3C Internationalization, Structural markup and right-to-left text in HTML",https://www.w3.org/International/questions/qa-html-dir,2026-10-26
 7,"W3C Internationalization, Text size in translation",https://www.w3.org/International/articles/article-text-size,2026-10-26
 7,"W3C WAI, APG Read Me First (No ARIA is better than bad ARIA)",https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/,2026-10-25
+7,"W3C WAI, Developing an Accessibility Statement",https://www.w3.org/WAI/planning/statements/,2026-11-01
+7,"W3C WAI, Digital Accessibility Foundations (free online course)",https://www.w3.org/WAI/courses/foundations-course/,2026-11-01
+7,"W3C WAI, How People with Disabilities Use the Web",https://www.w3.org/WAI/people-use-web/,2026-11-01
+7,"W3C WAI, Involving Users in Web Projects for Better, Easier Accessibility",https://www.w3.org/WAI/planning/involving-users/,2026-11-01
+7,"W3C WAI, WCAG 2 Overview",https://www.w3.org/WAI/standards-guidelines/wcag/,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 1.3.3 Sensory Characteristics",https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 1.4.1 Use of Color",https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 2.1.1 Keyboard",https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 2.2.1 Timing Adjustable",https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 2.2.2 Pause, Stop, Hide",https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 2.3.1 Three Flashes or Below Threshold",https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 4.1.2 Name, Role, Value",https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html,2026-11-01
 7,"W3C, Working with Time and Timezones (Group Draft Note)",https://www.w3.org/TR/timezone/,2026-10-26
 7,"web.dev, Baseline",https://web.dev/baseline,2026-10-25
 7,"web.dev, Browser-level image lazy loading for the web",https://web.dev/articles/browser-level-image-lazy-loading,2026-10-25
@@ -1916,6 +1945,7 @@ score,title,url,verified
 6,"Amazon GameLift Servers, Development roadmap for managed EC2 hosting",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-roadmap-managed.html,2026-11-01
 6,"Amazon GameLift Servers, FleetIQ best practices",https://docs.aws.amazon.com/gameliftservers/latest/fleetiqguide/gsg-best-practices.html,2026-11-01
 6,"Andrey Sitnik, Size Limit",https://github.com/ai/size-limit,2026-10-25
+6,"Android 14, Non-linear font scaling to 200%",https://developer.android.com/about/versions/14/features#non-linear-font-scaling,2026-11-01
 6,"Android Developers, Android GPU Inspector",https://developer.android.com/agi,2026-10-31
 6,"Android Developers, CPU and GPU optimization tips: avoid discard to enable Early-Z",https://developer.android.com/games/optimize/optimization-tips#avoid-discard-early-z,2026-10-31
 6,"Android Developers, CPU and GPU optimization tips: minimize load or store operations",https://developer.android.com/games/optimize/optimization-tips#minimize-operations,2026-10-31
@@ -1924,6 +1954,8 @@ score,title,url,verified
 6,"Android Developers, Geometry: level of detail",https://developer.android.com/games/optimize/geometry#level-of-detail,2026-10-31
 6,"Android Developers, Include native symbols in your release build",https://developer.android.com/build/include-native-symbols,2026-10-25
 6,"Android Lint, SetTextI18n: TextView internationalization",https://googlesamples.github.io/android-custom-lint-rules/checks/SetTextI18n.md.html,2026-10-26
+6,"Android, Espresso accessibility checking",https://developer.android.com/training/testing/espresso/accessibility-checking,2026-11-01
+6,"Android, Test your app's accessibility: Switch Access",https://developer.android.com/guide/topics/ui/accessibility/testing#switch-access,2026-11-01
 6,"Angular, Accessibility: focus management after navigation",https://angular.dev/best-practices/a11y#focus-management-after-navigation,2026-11-01
 6,"Angular, Angular CLI overview",https://angular.dev/tools/cli,2026-11-01
 6,"Angular, Build your first Angular app",https://angular.dev/tutorials/first-app,2026-11-01
@@ -2104,6 +2136,7 @@ score,title,url,verified
 6,"eslint-plugin-vue, vue/no-mutating-props",https://eslint.vuejs.org/rules/no-mutating-props.html,2026-10-25
 6,"eslint-plugin-vue, vue/no-side-effects-in-computed-properties",https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html,2026-10-25
 6,"European Commission, Rules on international data transfers",https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/rules-international-data-transfers_en,2026-10-26
+6,"European Disability Forum and IAAP, Joint statement on accessibility overlays",https://www.edf-feph.org/publications/joint-statement-on-accessibility-overlays/,2026-11-01
 6,"Expo Router, Protected routes",https://docs.expo.dev/router/advanced/protected/,2026-11-01
 6,"Expo Router, Typed routes",https://docs.expo.dev/router/reference/typed-routes/,2026-11-01
 6,"Expo, Configure with app config",https://docs.expo.dev/workflow/configuration/,2026-11-01
@@ -2123,6 +2156,7 @@ score,title,url,verified
 6,"FastAPI, Deployments Concepts",https://fastapi.tiangolo.com/deployment/concepts/,2026-10-25
 6,"FastAPI, Request Body",https://fastapi.tiangolo.com/tutorial/body/,2026-10-25
 6,"FastAPI, Testing Dependencies with Overrides",https://fastapi.tiangolo.com/advanced/testing-dependencies/,2026-10-25
+6,"FCC, Order DA 17-1243: final ACS accessibility waiver for video game software",https://docs.fcc.gov/public/attachments/DA-17-1243A1.pdf,2026-11-01
 6,"Firebase codelab, App Check Web Codelab",https://firebase.google.com/codelabs/appcheck-web,2026-11-01
 6,"Firebase codelab, Local Development with the Firebase Emulator Suite",https://firebase.google.com/codelabs/firebase-emulator,2026-11-01
 6,"Firebase Docs, Firebase Remote Config",https://firebase.google.com/docs/remote-config,2026-10-25
@@ -2141,12 +2175,16 @@ score,title,url,verified
 6,"Firebase, Remote Config: Policies and limits",https://firebase.google.com/docs/remote-config#policies-and-limits,2026-11-01
 6,"Firebase, Security checklist: Prevent self-DOSes: test functions locally with the emulators",https://firebase.google.com/support/guides/security-checklist#test-functions-with-emulators,2026-11-01
 6,"Firebase, Writing conditions for Cloud Firestore Security Rules: Data validation",https://firebase.google.com/docs/firestore/security/rules-conditions#data_validation,2026-11-01
+6,"Flutter API, meetsGuideline (accessibility guideline matchers)",https://api.flutter.dev/flutter/flutter_test/meetsGuideline.html,2026-11-01
+6,"Flutter, Accessibility testing: testing accessibility on mobile",https://docs.flutter.dev/ui/accessibility/accessibility-testing#testing-accessibility-on-mobile,2026-11-01
 6,"Flutter, Command pattern",https://docs.flutter.dev/app-architecture/design-patterns/command,2026-10-24
 6,"Flutter, Ephemeral vs. app state",https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app,2026-10-24
 6,"Flutter, Offline-first support",https://docs.flutter.dev/app-architecture/design-patterns/offline-first,2026-10-24
 6,"Flutter, Persist data with SQLite",https://docs.flutter.dev/cookbook/persistence/sqlite,2026-11-01
 6,"Flutter, Result pattern",https://docs.flutter.dev/app-architecture/design-patterns/result,2026-10-24
 6,"Flutter, State management options",https://docs.flutter.dev/data-and-backend/state-mgmt/options,2026-10-24
+6,"Flutter, UI design and styling: large fonts",https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#large-fonts,2026-11-01
+6,"Flutter, UI design and styling: tap target size",https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#tap-target-size,2026-11-01
 6,"Ford and Richards, Software Architecture: The Hard Parts and other books",https://www.developertoarchitect.com/books.html,2026-10-24
 6,"FormatJS, ESLint plugin (eslint-plugin-formatjs)",https://formatjs.github.io/docs/tooling/linter/,2026-10-26
 6,"Fowler, Contract Test",https://martinfowler.com/bliki/ContractTest.html,2026-10-24
@@ -2297,7 +2335,9 @@ score,title,url,verified
 6,"Godot docs, Using multiple threads",https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html,2026-11-01
 6,"Godot docs, Version control systems: Git LFS",https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#git-lfs,2026-11-01
 6,"Godot docs, Your first 3D game",https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html,2026-10-25
+6,"Godot Engine, Godot 4.5 release notes: screen reader support",https://godotengine.org/releases/4.5/,2026-11-01
 6,"Godot Foundation, Godot demo projects",https://github.com/godotengine/godot-demo-projects,2026-11-01
+6,"Godot, Control: accessibility_name",https://docs.godotengine.org/en/stable/classes/class_control.html#class-control-property-accessibility-name,2026-11-01
 6,"golangci-lint, Linter settings: errorlint",https://golangci-lint.run/docs/linters/configuration/#errorlint,2026-11-01
 6,"golangci-lint, Linters",https://golangci-lint.run/docs/linters/,2026-11-01
 6,Google Cloud API design guide,https://docs.cloud.google.com/apis/design,2026-10-24
@@ -2317,6 +2357,10 @@ score,title,url,verified
 6,"Google, Go Style Best Practices: Error structure",https://google.github.io/styleguide/go/best-practices#error-structure,2026-11-01
 6,"Google, Go Style Decisions: Generics",https://google.github.io/styleguide/go/decisions#generics,2026-11-01
 6,"gosec, Rule Documentation",https://github.com/securego/gosec/blob/master/RULES.md,2026-11-01
+6,"GOV.UK Design System, Accessibility strategy: accessibility and design systems",https://design-system.service.gov.uk/accessibility/accessibility-strategy/#accessibility-and-design-systems,2026-11-01
+6,"GOV.UK Service Manual, Testing for accessibility: testing with assistive technologies",https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility#testing-with-assistive-technologies,2026-11-01
+6,"GOV.UK, Make your website or app accessible and publish an accessibility statement: publish your statement",https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement,2026-11-01
+6,"GOV.UK, Understanding accessibility requirements for public sector bodies",https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps,2026-11-01
 6,GraphQL best practices,https://graphql.org/learn/best-practices/,2026-10-24
 6,"GraphQL ESLint, no-deprecated",https://the-guild.dev/graphql/eslint/rules/no-deprecated,2026-10-25
 6,"GraphQL ESLint, relay-arguments",https://the-guild.dev/graphql/eslint/rules/relay-arguments,2026-10-25
@@ -2361,6 +2405,7 @@ score,title,url,verified
 6,"itch.io, Uploading HTML5 games: compression",https://itch.io/docs/creators/html5#compression,2026-11-01
 6,"Jaap-Henk Hoepman, Privacy Design Strategies (The Little Blue Book)",https://www.cs.ru.nl/~jhh/publications/pds-booklet.pdf,2026-10-26
 6,"Jackson, Micro Frontends",https://martinfowler.com/articles/micro-frontends.html,2026-10-24
+6,"Jetpack Compose, Accessibility testing: accessibility checks",https://developer.android.com/develop/ui/compose/accessibility/testing#checks,2026-11-01
 6,"Khronos, glslang",https://github.com/KhronosGroup/glslang/blob/main/README.md,2026-10-31
 6,"Khronos, SPIRV-Tools",https://github.com/KhronosGroup/SPIRV-Tools/blob/main/README.md,2026-10-31
 6,"Khronos, Vulkan Guide",https://github.com/KhronosGroup/Vulkan-Guide/blob/main/README.adoc,2026-10-31
@@ -2408,10 +2453,12 @@ score,title,url,verified
 6,"MDN, AudioContext: suspend() method",https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/suspend,2026-11-01
 6,"MDN, BaseAudioContext: state property",https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/state,2026-11-01
 6,"MDN, Element: requestFullscreen() method: security considerations",https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen#security_considerations,2026-11-01
+6,"MDN, forced-colors CSS media feature",https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors,2026-11-01
 6,"MDN, Game development: Tutorials",https://developer.mozilla.org/en-US/docs/Games/Tutorials,2026-11-01
 6,"MDN, HTTP Observatory (mdn-http-observatory)",https://github.com/mdn/mdn-http-observatory,2026-10-25
 6,"MDN, Implementing game control mechanisms",https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms,2026-11-01
 6,"MDN, Pointer Lock API: iframe limitations",https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API#iframe_limitations,2026-11-01
+6,"MDN, prefers-reduced-motion CSS media feature",https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion,2026-11-01
 6,"MDN, ScreenOrientation: lock() method",https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation/lock,2026-11-01
 6,"MDN, touch-action: accessibility",https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/touch-action#accessibility,2026-11-01
 6,"MDN, Transferable objects",https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects,2026-11-01
@@ -2776,6 +2823,7 @@ score,title,url,verified
 6,"Unity Manual, Editor settings",https://docs.unity3d.com/Manual/class-EditorManager.html,2026-10-24
 6,"Unity Manual, Enable the GPU Resident Drawer in URP",https://docs.unity3d.com/Manual/urp/gpu-resident-drawer.html,2026-10-31
 6,"Unity Manual, Enable the WebGPU graphics API",https://docs.unity3d.com/Manual/webgpu-enable.html,2026-11-01
+6,"Unity Manual, Get started with screen reader support",https://docs.unity3d.com/Manual/accessibility/screen-readers-get-started.html,2026-11-01
 6,"Unity Manual, Input in Web",https://docs.unity3d.com/Manual/webgl-input.html,2026-11-01
 6,"Unity Manual, Introduction to the Frame Debugger",https://docs.unity3d.com/Manual/FrameDebugger.html,2026-10-31
 6,"Unity Manual, Other methods to warm up shaders",https://docs.unity3d.com/Manual/shader-prewarm-other.html,2026-10-31
@@ -2803,6 +2851,7 @@ score,title,url,verified
 6,"Unreal Engine, Asset Redirectors",https://dev.epicgames.com/documentation/en-us/unreal-engine/asset-redirectors-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Automation Spec",https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-spec-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Behavior Trees",https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-trees-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Blind Accessibility Features Overview",https://dev.epicgames.com/documentation/en-us/unreal-engine/blind-accessibility-features-overview-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Blueprint Interface",https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-interface-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Common UI Plugin for Advanced User Interfaces",https://dev.epicgames.com/documentation/en-us/unreal-engine/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine,2026-11-01
 6,"Unreal Engine, CQTest Test Framework",https://dev.epicgames.com/documentation/en-us/unreal-engine/cqtest-test-framework-for-unreal-engine,2026-11-01
@@ -2822,6 +2871,7 @@ score,title,url,verified
 6,"Unreal Engine, Screenshot Comparison Tool",https://dev.epicgames.com/documentation/en-us/unreal-engine/screenshot-comparison-tool-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Source Control",https://dev.epicgames.com/documentation/en-us/unreal-engine/source-control-in-unreal-engine,2026-11-01
 6,"Unreal Engine, StateTree Overview",https://dev.epicgames.com/documentation/en-us/unreal-engine/overview-of-state-tree-in-unreal-engine,2026-11-01
+6,"Unreal Engine, Supporting Screen Readers",https://dev.epicgames.com/documentation/en-us/unreal-engine/supporting-screen-readers-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Tasks System",https://dev.epicgames.com/documentation/en-us/unreal-engine/tasks-systems-in-unreal-engine,2026-11-01
 6,"Unreal Engine, UMG Viewmodel",https://dev.epicgames.com/documentation/en-us/unreal-engine/umg-viewmodel-for-unreal-engine,2026-11-01
 6,"Unreal Engine, Unreal Game Sync (UGS)",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-game-sync-ugs-for-unreal-engine,2026-11-01
@@ -2830,6 +2880,7 @@ score,title,url,verified
 6,"Unreal Engine, Using the Low-Level Memory Tracker",https://dev.epicgames.com/documentation/en-us/unreal-engine/using-the-low-level-memory-tracker-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Write C++ Tests",https://dev.epicgames.com/documentation/en-us/unreal-engine/write-cplusplus-tests-in-unreal-engine,2026-11-01
 6,"Unreal Engine, Zen Storage Server",https://dev.epicgames.com/documentation/en-us/unreal-engine/zen-storage-server-for-unreal-engine,2026-10-31
+6,"US Federal Trade Commission, FTC approves final order requiring accessiBe to pay $1 million",https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million,2026-11-01
 6,"uv, Locking and syncing: Checking the lockfile",https://docs.astral.sh/uv/concepts/projects/sync/#checking-the-lockfile,2026-10-25
 6,"uv, Working on projects",https://docs.astral.sh/uv/guides/projects/,2026-10-25
 6,"Valve, Steam Hardware & Software Survey",https://store.steampowered.com/hwsurvey,2026-11-01
@@ -2851,6 +2902,9 @@ score,title,url,verified
 6,"W3C Internationalization, Accept-Language used for locale setting",https://www.w3.org/International/questions/qa-accept-lang-locales,2026-10-26
 6,"W3C Internationalization, Character encodings: Essential concepts",https://www.w3.org/International/articles/definitions-characters/,2026-10-26
 6,"W3C Internationalization, Guiding users to translated pages",https://www.w3.org/International/questions/qa-site-conneg,2026-10-26
+6,"W3C WAI, Selecting Web Accessibility Evaluation Tools",https://www.w3.org/WAI/test-evaluate/tools/selecting/,2026-11-01
+6,"W3C WAI, Web Accessibility Tutorials",https://www.w3.org/WAI/tutorials/,2026-11-01
+6,"W3C, Understanding WCAG 2.2 SC 2.3.3 Animation from Interactions",https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html,2026-11-01
 6,"web.dev, Learn Images",https://web.dev/learn/images,2026-10-25
 6,"web.dev, Learn Responsive Design: Responsive images",https://web.dev/learn/design/responsive-images,2026-10-25
 6,"web.dev, Learn Testing",https://web.dev/learn/testing,2026-10-26
@@ -2871,8 +2925,10 @@ score,title,url,verified
 5,"Android Developers, Android Games Dev Center",https://developer.android.com/games,2026-10-25
 5,"Android Lint checks, ExpiredTargetSdkVersion",https://googlesamples.github.io/android-custom-lint-rules/checks/ExpiredTargetSdkVersion.md.html,2026-10-25
 5,"Android Lint checks, OldTargetApi",https://googlesamples.github.io/android-custom-lint-rules/checks/OldTargetApi.md.html,2026-10-25
+5,"Android Lint, ContentDescription: image without contentDescription",https://googlesamples.github.io/android-custom-lint-rules/checks/ContentDescription.md.html,2026-11-01
 5,"Android Lint, HardcodedText",https://googlesamples.github.io/android-custom-lint-rules/checks/HardcodedText.md.html,2026-10-26
 5,"Android Lint, RtlHardcoded",https://googlesamples.github.io/android-custom-lint-rules/checks/RtlHardcoded.md.html,2026-10-26
+5,"Android Lint, SpUsage: dp instead of sp for text sizes",https://googlesamples.github.io/android-custom-lint-rules/checks/SpUsage.md.html,2026-11-01
 5,"Angular, NgIf API reference",https://angular.dev/api/common/NgIf,2026-11-01
 5,"angular-eslint, no-output-native",https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-native.md,2026-11-01
 5,"angular-eslint, no-output-on-prefix",https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-on-prefix.md,2026-11-01
@@ -2949,6 +3005,7 @@ score,title,url,verified
 5,"Facepunch, Facepunch.Steamworks",https://github.com/Facepunch/Facepunch.Steamworks,2026-11-01
 5,Feature-Sliced Design,https://feature-sliced.design/,2026-10-24
 5,"Firebase, ESLint Plugin: Firebase Security Rules (@firebase/eslint-plugin-security-rules)",https://github.com/firebase/eslint-tools,2026-11-01
+5,"Flutter, UI design and styling: other accessibility features",https://docs.flutter.dev/ui/accessibility/ui-design-and-styling#other-accessibility-features,2026-11-01
 5,"Fowler, Polyglot Persistence",https://martinfowler.com/bliki/PolyglotPersistence.html,2026-10-24
 5,"Fowler, Sacrificial Architecture",https://martinfowler.com/bliki/SacrificialArchitecture.html,2026-10-24
 5,"GameCI, Unity Test Runner",https://game.ci/docs/github/test-runner/,2026-10-25
@@ -2999,6 +3056,8 @@ score,title,url,verified
 5,"Godot docs, Overview of debugging tools: Deploy with Remote Debug",https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html#deploy-with-remote-debug,2026-11-01
 5,"Godot docs, Resolving crashes on Android",https://docs.godotengine.org/en/stable/tutorials/platform/android/resolving_crashes_on_android.html,2026-10-25
 5,"Godot docs, TranslationServer class reference",https://docs.godotengine.org/en/stable/classes/class_translationserver.html,2026-10-26
+5,"Godot, DisplayServer: FEATURE_ACCESSIBILITY_SCREEN_READER",https://docs.godotengine.org/en/stable/classes/class_displayserver.html#class-displayserver-constant-feature-accessibility-screen-reader,2026-11-01
+5,"Godot, ProjectSettings: accessibility/general/accessibility_support",https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-accessibility-general-accessibility-support,2026-11-01
 5,"GodotSteam, Steamworks for the Godot Engine",https://godotsteam.com/,2026-11-01
 5,"golangci-lint, Linter settings: containedctx",https://golangci-lint.run/docs/linters/configuration/#containedctx,2026-11-01
 5,"golangci-lint, Linter settings: noctx",https://golangci-lint.run/docs/linters/configuration/#noctx,2026-11-01

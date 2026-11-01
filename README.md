@@ -57,6 +57,7 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | [Versioning & releases](general/releases.md) | SemVer, immutable releases, release automation, changelogs, deprecation |
 | [Repositories & monorepos](general/repositories.md) | Monorepo or polyrepo, module boundaries, code ownership, branch protection |
 | [Localization](general/localization.md) | Strings outside code, plurals, UTF-8, locale formats, time zones, layout for translation |
+| [Accessibility](general/accessibility.md) | WCAG 2.2 AA everywhere, the European Accessibility Act and US law, design systems, testing with assistive technologies, no overlays |
 | [AI systems](general/ai-systems.md) | LLM and agent architectures, evals, LLM security |
 | [Reading list](general/reading-list.md) | Books and complete tutorials |
 

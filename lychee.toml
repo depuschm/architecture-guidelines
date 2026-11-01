@@ -30,6 +30,8 @@ exclude = [
   # Has answered scripted requests with a Cloudflare challenge (403) since an outage on
   # 2026-10-31/11-01. The pages load in a browser; remove this line if the challenge goes away.
   '^https://ico\.org\.uk/',
+  # Answers scripted requests with 404, even for its home page (checked 2026-11-01).
+  '^https://www\.ftc\.gov/',
   # Cloudflare answers scripted requests with 403 (checked 2026-11-01). The cited pages were
   # checked against the manual's source, https://github.com/YoYoGames/GameMaker-Manual.
   '^https://manual\.gamemaker\.io/',

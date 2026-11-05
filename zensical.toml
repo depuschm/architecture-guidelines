@@ -8,7 +8,8 @@ site_description = "Reference-first software architecture guidelines, with sourc
 site_url = "https://depuschm.github.io/architecture-guidelines/"
 repo_url = "https://github.com/depuschm/architecture-guidelines"
 repo_name = "depuschm/architecture-guidelines"
-# Pages are staged with their repository paths; build_site.py fixes the few that it renames.
+# Used for the "view source" button. Pages are staged with their repository paths;
+# build_site.py fixes the few that it renames.
 edit_uri = "edit/main/"
 copyright = "Guidelines: CC BY 4.0 · Code and skills: MIT"
 
@@ -21,8 +22,9 @@ font = false
 favicon = "assets/favicon.svg"
 # No navigation.sections: with this many platform folders, collapsible platforms keep the
 # sidebar short, and navigation.prune leaves the closed ones out of each page.
+# No content.action.edit: almost any edit here needs `rank.py fix` afterwards, which a web
+# edit can't run, so the button would mostly lead to pull requests that fail CI.
 features = [
-  "content.action.edit",
   "content.action.view",
   "content.code.copy",
   "navigation.footer",

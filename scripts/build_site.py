@@ -12,8 +12,7 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
   assets/rule-links.js, using assets/rule-index.json.
 - The checklists are left out of search, because they repeat the rules of the guideline files.
 - The navigation is generated from the indexes, so new files and platforms appear automatically.
-- "Edit this page" links point at the repository file, also for pages the build renames, and
-  generated pages only get a "view source" link.
+- "View source" links point at the repository file, also for pages the build renames.
 
 Usage: python3 scripts/build_site.py [--serve]    (needs `pip install zensical`)
 """
@@ -41,8 +40,6 @@ SCORES_CSS = """/* Score chips, coloured by level (see RANKING.md). */
 """
 ID_CELL = re.compile(r"(?<![\[\w])`([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)`(?!\])")
 RULES_ROW = re.compile(r"^\| `([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)` \|", re.M)
-# Pages that scripts/rank.py generates: edit their sources, not the pages.
-GENERATED = re.compile(r"^(RULES\.md|SOURCES\.md|checklists/.*)$")
 # The lucide "blocks" icon (ISC License, https://lucide.dev/license), the same icon as the logo.
 FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#4051b5" stroke-linecap="round" \
 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 \
@@ -249,19 +246,13 @@ def write_config():
 
 
 def fix_source_links(pages):
-    """Point "edit" and "view source" at the repository file, and drop "edit" on generated pages."""
+    """Point "view source" at the repository file for pages the build renames."""
     for source, staged in pages.items():
         html = BUILD / "site" / page_url(staged) / "index.html"
-        if not html.exists():
+        if source == staged or not html.exists():
             continue
-        text = original = html.read_text(encoding="utf-8")
-        if source != staged:
-            for kind in ("edit", "raw"):
-                text = text.replace(f'{REPO_URL}/{kind}/main/{staged.as_posix()}"', f'{REPO_URL}/{kind}/main/{source.as_posix()}"')
-        if GENERATED.match(source.as_posix()):
-            text = re.sub(r'<a href="[^"]*/edit/main/[^"]*"[^>]*rel="edit">.*?</a>', "", text, flags=re.S)
-        if text != original:
-            html.write_text(text, encoding="utf-8")
+        text = html.read_text(encoding="utf-8")
+        html.write_text(text.replace(f'{REPO_URL}/raw/main/{staged.as_posix()}"', f'{REPO_URL}/raw/main/{source.as_posix()}"'), encoding="utf-8")
 
 
 def main():

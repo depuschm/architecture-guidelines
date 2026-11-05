@@ -7,11 +7,18 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
 - Relative links to files that aren't part of the site (CSV files, scripts, LICENSE, …)
   are rewritten to their GitHub URLs, so no link breaks.
 - Every rule gets an anchor, and rule IDs in RULES.md and the checklists link to it.
+- Every row of RULES.md gets an anchor too, so RULES/#ID is a permanent link to each rule. Links to
+  a rule ID on a page that no longer holds the rule are sent to its current page by
+  assets/rule-links.js, using assets/rule-index.json.
+- The checklists are left out of search, because they repeat the rules of the guideline files.
 - The navigation is generated from the indexes, so new files and platforms appear automatically.
+- "Edit this page" links point at the repository file, also for pages the build renames, and
+  generated pages only get a "view source" link.
 
 Usage: python3 scripts/build_site.py [--serve]    (needs `pip install zensical`)
 """
 
+import json
 import re
 import shutil
 import subprocess
@@ -33,6 +40,25 @@ SCORES_CSS = """/* Score chips, coloured by level (see RANKING.md). */
 .score-low { background: #757575; }
 """
 ID_CELL = re.compile(r"(?<![\[\w])`([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)`(?!\])")
+RULES_ROW = re.compile(r"^\| `([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)` \|", re.M)
+# Pages that scripts/rank.py generates: edit their sources, not the pages.
+GENERATED = re.compile(r"^(RULES\.md|SOURCES\.md|checklists/.*)$")
+# The lucide "blocks" icon (ISC License, https://lucide.dev/license), the same icon as the logo.
+FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#4051b5" stroke-linecap="round" \
+stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 \
+2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect width="8" height="8" x="14" y="2" rx="1"/></svg>
+"""
+RULE_LINKS_JS = """// Keep old links to a rule working after the rule moves to another page: if the address ends
+// in a rule ID (#GODOT-16) that isn't on this page, look up the rule's current page and go there.
+(function () {
+  var id = decodeURIComponent(location.hash.slice(1));
+  if (!/^[A-Z][A-Z0-9]*(-[A-Z][A-Z0-9]*)*-[0-9]+$/.test(id) || document.getElementById(id)) return;
+  var base = new URL(JSON.parse(document.getElementById("__config").textContent).base + "/", location.href);
+  fetch(new URL("assets/rule-index.json", base))
+    .then(function (response) { return response.json(); })
+    .then(function (pages) { if (pages[id] !== undefined) location.replace(new URL(pages[id] + "#" + id, base)); });
+})();
+"""
 
 
 def site_pages():
@@ -115,14 +141,31 @@ def stage():
             text = score_chips(text)
         texts[staged] = text
     for staged, text in texts.items():
+        if staged.name == "RULES.md":
+            text = RULES_ROW.sub(lambda m: f'| <span id="{m.group(1)}"></span>`{m.group(1)}` |', text)
         if staged.name == "RULES.md" or staged.parts[0] == "checklists":
             text = link_rule_ids(text, staged, rule_pages)
+        if staged.parts[0] == "checklists":
+            text = "---\nsearch:\n  exclude: true\n---\n\n" + text
         target = STAGE / staged
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(text, encoding="utf-8")
-    (STAGE / "assets").mkdir(exist_ok=True)
-    (STAGE / "assets" / "scores.css").write_text(SCORES_CSS, encoding="utf-8")
+    assets = STAGE / "assets"
+    assets.mkdir(exist_ok=True)
+    (assets / "scores.css").write_text(SCORES_CSS, encoding="utf-8")
+    (assets / "favicon.svg").write_text(FAVICON_SVG, encoding="utf-8")
+    (assets / "rule-links.js").write_text(RULE_LINKS_JS, encoding="utf-8")
+    index = {rule_id: page_url(staged) for rule_id, staged in sorted(rule_pages.items())}
+    (assets / "rule-index.json").write_text(json.dumps(index, separators=(",", ":")) + "\n", encoding="utf-8")
     return pages
+
+
+def page_url(staged):
+    """The site URL of a staged page, relative to the site root."""
+    if staged.name in ("index.md", "README.md"):
+        folder = staged.parent.as_posix()
+        return "" if folder == "." else folder + "/"
+    return staged.with_suffix("").as_posix() + "/"
 
 
 def title(path):
@@ -195,20 +238,42 @@ def navigation():
 
 def write_config():
     base = (ROOT / "zensical.toml").read_text(encoding="utf-8")
-    generated = 'docs_dir = "site-src"\nsite_dir = "site"\nextra_css = ["assets/scores.css"]\n' + navigation()
+    generated = (
+        'docs_dir = "site-src"\nsite_dir = "site"\nextra_css = ["assets/scores.css"]\n'
+        'extra_javascript = ["assets/rule-links.js"]\n' + navigation()
+    )
     config = base.replace("[project]\n", "[project]\n" + generated, 1)
     path = BUILD / "zensical.toml"
     path.write_text(config, encoding="utf-8")
     return path
 
 
+def fix_source_links(pages):
+    """Point "edit" and "view source" at the repository file, and drop "edit" on generated pages."""
+    for source, staged in pages.items():
+        html = BUILD / "site" / page_url(staged) / "index.html"
+        if not html.exists():
+            continue
+        text = original = html.read_text(encoding="utf-8")
+        if source != staged:
+            for kind in ("edit", "raw"):
+                text = text.replace(f'{REPO_URL}/{kind}/main/{staged.as_posix()}"', f'{REPO_URL}/{kind}/main/{source.as_posix()}"')
+        if GENERATED.match(source.as_posix()):
+            text = re.sub(r'<a href="[^"]*/edit/main/[^"]*"[^>]*rel="edit">.*?</a>', "", text, flags=re.S)
+        if text != original:
+            html.write_text(text, encoding="utf-8")
+
+
 def main():
-    stage()
+    pages = stage()
     config = write_config()
     command = ["zensical", "serve" if "--serve" in sys.argv else "build", "--config-file", str(config)]
-    if "--serve" not in sys.argv:
-        command += ["--clean", "--strict"]
-    return subprocess.call(command)
+    if "--serve" in sys.argv:
+        return subprocess.call(command)
+    result = subprocess.call(command + ["--clean", "--strict"])
+    if result == 0:
+        fix_source_links(pages)
+    return result
 
 
 if __name__ == "__main__":

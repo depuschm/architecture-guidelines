@@ -16,7 +16,7 @@ Every source and every rule has a **score from 1 to 10**, and lists are sorted b
 
 [RANKING.md](RANKING.md) explains the criteria, and [SOURCES.md](SOURCES.md) lists every source in one place, ranked, with the date each was last verified.
 
-Every rule also has a **stable ID**, such as `SEC-3` or `UNITY-STRUCT-2`, so reviews, ADRs and pull requests can cite it. [RULES.md](RULES.md) lists all rules by ID. Where a tool can check a rule automatically, the guideline file names it under **How to enforce**.
+Every rule also has a **stable ID**, such as `SEC-3` or `UNITY-STRUCT-2`, so reviews, ADRs and pull requests can cite it. [RULES.md](RULES.md) lists all rules by ID. On the website, `https://depuschm.github.io/architecture-guidelines/RULES/#SEC-3` is a permanent link to a rule, and older links to a rule on a page it has moved from still lead to it. Where a tool can check a rule automatically, the guideline file names it under **How to enforce**.
 
 ## Structure
 

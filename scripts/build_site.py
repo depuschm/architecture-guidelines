@@ -11,6 +11,7 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
   a rule ID on a page that no longer holds the rule are sent to its current page by
   assets/rule-links.js, using assets/rule-index.json.
 - The checklists are left out of search, because they repeat the rules of the guideline files.
+- The abbreviations in GLOSSARY.md become tooltips on every page.
 - The navigation is generated from the indexes, so new files and platforms appear automatically.
 - "View source" links point at the repository file, also for pages the build renames.
 
@@ -27,6 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
 STAGE = BUILD / "site-src"
+INCLUDES = BUILD / "includes"
 REPO_URL = "https://github.com/depuschm/architecture-guidelines"
 LINK = re.compile(r"(\]\()([^)\s]+)(\))")
 RULE_LINE = re.compile(r"^(\s*- `\d+` )`([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)`", re.M)
@@ -61,7 +63,7 @@ RULE_LINKS_JS = """// Keep old links to a rule working after the rule moves to a
 def site_pages():
     """Map repository paths to staged paths for every page on the site."""
     pages = {Path("README.md"): Path("index.md")}
-    for name in ("RANKING.md", "SOURCES.md", "RULES.md", "CONTRIBUTING.md"):
+    for name in ("RANKING.md", "SOURCES.md", "RULES.md", "GLOSSARY.md", "CONTRIBUTING.md"):
         pages[Path(name)] = Path(name)
     for folder in ("general", "specific", "checklists", "docs/decisions"):
         for path in sorted((ROOT / folder).rglob("*.md")):
@@ -154,7 +156,23 @@ def stage():
     (assets / "rule-links.js").write_text(RULE_LINKS_JS, encoding="utf-8")
     index = {rule_id: page_url(staged) for rule_id, staged in sorted(rule_pages.items())}
     (assets / "rule-index.json").write_text(json.dumps(index, separators=(",", ":")) + "\n", encoding="utf-8")
+    write_abbreviations()
     return pages
+
+
+def write_abbreviations():
+    """Turn the GLOSSARY.md table into abbreviation definitions, which Zensical appends to every page."""
+    text = "\n".join(path.read_text(encoding="utf-8") for path in STAGE.rglob("*.md"))
+    definitions = []
+    for line in (ROOT / "GLOSSARY.md").read_text(encoding="utf-8").split("\n"):
+        cells = [cell.strip() for cell in line.split("|")[1:-1]]
+        if len(cells) == 3 and re.fullmatch(r"[A-Z][A-Z0-9]+", cells[0]):
+            definitions.append(f"*[{cells[0]}]: {cells[1]}")
+            # "ADRs" doesn't match "ADR", so define the plurals that the pages use.
+            if re.search(rf"\b{cells[0]}s\b", text):
+                definitions.append(f"*[{cells[0]}s]: {cells[1]}")
+    INCLUDES.mkdir(parents=True, exist_ok=True)
+    (INCLUDES / "abbreviations.md").write_text("\n".join(definitions) + "\n", encoding="utf-8")
 
 
 def page_url(staged):
@@ -225,7 +243,7 @@ def navigation():
     checklists = sorted(p.relative_to(STAGE) for p in (STAGE / "checklists").glob("*.md"))
     checklists.sort(key=lambda p: (p.stem != "general", p.stem))
     entries.append(nav_entry("Checklists", checklists))
-    entries.append(nav_entry("Reference", [Path("RULES.md"), Path("SOURCES.md"), Path("RANKING.md")]))
+    entries.append(nav_entry("Reference", [Path("RULES.md"), Path("SOURCES.md"), Path("GLOSSARY.md"), Path("RANKING.md")]))
     skills = sorted(p.relative_to(STAGE) for p in (STAGE / "skills").glob("*/README.md"))
     entries.append(nav_entry("AI skills", skills + [Path("evals/README.md")]))
     entries.append(nav_entry("Decisions", section(Path("docs/decisions/README.md"))))
@@ -240,6 +258,8 @@ def write_config():
         'extra_javascript = ["assets/rule-links.js"]\n' + navigation()
     )
     config = base.replace("[project]\n", "[project]\n" + generated, 1)
+    snippets = f"pymdownx.snippets.base_path = [{toml_string(INCLUDES.as_posix())}]\n"
+    config = config.replace("[project.markdown_extensions]\n", "[project.markdown_extensions]\n" + snippets, 1)
     path = BUILD / "zensical.toml"
     path.write_text(config, encoding="utf-8")
     return path

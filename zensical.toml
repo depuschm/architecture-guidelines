@@ -27,6 +27,7 @@ favicon = "assets/favicon.svg"
 features = [
   "content.action.view",
   "content.code.copy",
+  "content.tooltips",
   "navigation.footer",
   "navigation.indexes",
   "navigation.instant",
@@ -61,6 +62,7 @@ toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
 [project.markdown_extensions]
+abbr = {}
 admonition = {}
 attr_list = {}
 md_in_html = {}
@@ -73,3 +75,6 @@ pymdownx.superfences.custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]
 pymdownx.tasklist.custom_checkbox = true
+# The abbreviations from GLOSSARY.md, which build_site.py writes to build/includes/ and sets
+# base_path for, become tooltips on every page.
+pymdownx.snippets.auto_append = ["abbreviations.md"]

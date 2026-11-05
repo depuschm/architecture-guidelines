@@ -58,6 +58,7 @@ Rules:
 - Link to the most specific page that supports the statement, not to a site's home page.
 - Keep rules short. If a rule needs more than two sentences, the source probably deserves an "Adopted references" entry instead.
 - Don't paste large excerpts from sources. Summarise in your own words and link.
+- If you use an abbreviation that readers may not know, add it to [GLOSSARY.md](GLOSSARY.md). The website shows its meaning as a tooltip wherever it appears.
 
 ## 3. Scores, IDs and freshness
 

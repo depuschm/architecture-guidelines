@@ -30,6 +30,7 @@ docs/decisions/     Architecture decision records for this repository
 RANKING.md          How sources and rules are scored from 1 to 10
 SOURCES.md          Every linked source, ranked (generated from sources.csv)
 RULES.md            Every rule by ID (generated)
+GLOSSARY.md         Abbreviations and their meanings
 sources.csv         Score and last-verified date of every source
 rules.csv           Registry of rule IDs, including retired ones (never reused)
 .claude-plugin/     Makes this repo installable as a Claude Code plugin and marketplace

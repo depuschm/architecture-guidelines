@@ -28,5 +28,5 @@ Architecture guidance for systems that use large language models, agents and mac
 
 ## Tutorials and further reading
 
-- `6` [Azure Architecture Center: AI and machine learning](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/): reference architectures.
+- `6` [Azure Architecture Center: AI architecture design](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/ai-get-started): reference architectures.
 - `5` [Anthropic skills repository](https://github.com/anthropics/skills): example Agent Skills.

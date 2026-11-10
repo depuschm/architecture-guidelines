@@ -79,7 +79,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Google, Go Style](https://google.github.io/styleguide/go/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 9 | [GraphQL Foundation, GraphQL Specification (September 2025)](https://spec.graphql.org/September2025/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 9 | [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Introduction to URP for advanced creators (Unity e-book, Unity 6 edition)](https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 9 | [Kubernetes, Security checklist](https://kubernetes.io/docs/concepts/security/security-checklist/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 9 | [Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -107,7 +107,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [PyPA, Python Packaging User Guide](https://packaging.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 9 | [React Native, documentation (Introduction)](https://reactnative.dev/docs/getting-started) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 9 | [Redis, Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
-| 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 9 | [Spring Security, Reference documentation](https://docs.spring.io/spring-security/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 9 | [Supabase Docs, Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
@@ -253,7 +253,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [ICO, Age appropriate design: a code of practice for online services (Children's code)](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [ICO, UK GDPR guidance and resources](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [IETF, BCP 47: Tags for Identifying Languages and Matching of Language Tags](https://www.rfc-editor.org/info/bcp47/) | [general/localization](general/localization.md) | 2026-10-26 |
-| 8 | [IETF, RFC 10017: OAuth 2.0 for Browser-Based Applications](https://www.rfc-editor.org/rfc/rfc10017) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [IETF, RFC 10017: OAuth 2.0 for Browser-Based Applications](https://www.rfc-editor.org/rfc/rfc10017.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Kleppmann, Designing Data-Intensive Applications (book)](https://dataintensive.net/) | [general/data](general/data.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Kubernetes, Configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 8 | [Kubernetes, Good practices for Secrets](https://kubernetes.io/docs/concepts/security/secrets-good-practices/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
@@ -329,8 +329,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [react.dev, eslint-plugin-react-hooks](https://react.dev/reference/eslint-plugin-react-hooks) | [specific/react](specific/react/README.md) | 2026-10-25 |
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | [specific/react](specific/react/README.md) | 2026-10-24 |
-| 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 8 | [RFC 9700, section 2: Best Practices](https://www.rfc-editor.org/rfc/rfc9700#section-2) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
+| 8 | [RFC 9700, section 2: Best Practices](https://www.rfc-editor.org/rfc/rfc9700.html#section-2) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Semantic Versioning](https://semver.org/) | [general/api-design](general/api-design.md), [general/releases](general/releases.md) | 2026-10-24 |
 | 8 | [Semantic Versioning 2.0.0, Specification](https://semver.org/#semantic-versioning-specification-semver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
@@ -1141,7 +1141,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [ICO, When do we need to do a DPIA?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia/) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [ICU User Guide, Formatting messages](https://unicode-org.github.io/icu/userguide/format_parse/messages/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [IETF, RFC 8252: OAuth 2.0 for Native Apps, 8.12 Embedded user agents](https://www.rfc-editor.org/rfc/rfc8252.html#section-8.12) | [specific/ios](specific/ios/README.md), [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745) | [general/releases](general/releases.md) | 2026-10-25 |
+| 7 | [IETF, RFC 9745: The Deprecation HTTP Response Header Field](https://www.rfc-editor.org/rfc/rfc9745.html) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [itch.io, Uploading HTML5 games](https://itch.io/docs/creators/html5) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [itch.io, Uploading HTML5 games: ZIP file requirements](https://itch.io/docs/creators/html5#zip-file-requirements) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 7 | [Jason Miller, Islands Architecture](https://jasonformat.com/islands-architecture/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
@@ -1583,8 +1583,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Redis, TLS](https://redis.io/docs/latest/operate/oss_and_stack/management/security/encryption/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Relay, GraphQL Cursor Connections Specification](https://relay.dev/graphql/connections.htm) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [Release It!, 2nd edition](https://pragprog.com/titles/mnee2/release-it-second-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
-| 7 | [RFC 10017, section 6.1: Backend for Frontend (BFF)](https://www.rfc-editor.org/rfc/rfc10017#section-6.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
-| 7 | [RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)](https://www.rfc-editor.org/rfc/rfc10017#section-7.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [RFC 10017, section 6.1: Backend for Frontend (BFF)](https://www.rfc-editor.org/rfc/rfc10017.html#section-6.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)](https://www.rfc-editor.org/rfc/rfc10017.html#section-7.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Richards and Ford, Fundamentals of Software Architecture (book)](https://fundamentalsofsoftwarearchitecture.com/) | [general/quality-attributes](general/quality-attributes.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Robinson, Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
@@ -2065,7 +2065,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AWS Resilience Hub, concepts](https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS Security Hub, Resource Tagging standard](https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS Well-Architected, Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 6 | [Azure Architecture Center: AI and machine learning](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
+| 6 | [Azure Architecture Center, AI architecture design](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/ai-get-started) | [general/ai-systems](general/ai-systems.md) | 2026-11-10 |
 | 6 | [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 6 | [buf breaking, rules and categories](https://buf.build/docs/breaking/rules/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -2416,7 +2416,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 6 | [Hyrum's Law](https://www.hyrumslaw.com/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 6 | [ICO, Storage and access technologies: what are the exceptions?](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) | [general/privacy](general/privacy.md) | 2026-10-26 |
-| 6 | [IETF, RFC 8594: The Sunset HTTP Header Field](https://www.rfc-editor.org/rfc/rfc8594) | [general/releases](general/releases.md) | 2026-10-25 |
+| 6 | [IETF, RFC 8594: The Sunset HTTP Header Field](https://www.rfc-editor.org/rfc/rfc8594.html) | [general/releases](general/releases.md) | 2026-10-25 |
 | 6 | [Import Linter, forbidden contracts](https://import-linter.readthedocs.io/en/stable/contract_types/forbidden/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [Import Linter, independence contracts](https://import-linter.readthedocs.io/en/stable/contract_types/independence/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [Import Linter, layers contracts](https://import-linter.readthedocs.io/en/stable/contract_types/layers/) | [general/testing-delivery](general/testing-delivery.md), [specific/python](specific/python/README.md) | 2026-10-25 |
@@ -3141,7 +3141,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Mozilla, Localization best practices for developers: test localizability](https://mozilla-l10n.github.io/documentation/localization/dev_best_practices.html#test-localizability) | [general/localization](general/localization.md) | 2026-10-26 |
 | 5 | [mypy, Type hints cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 5 | [Node.js Best Practices, 2.2 Extend the built-in Error object](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/errorhandling/useonlythebuiltinerror.md) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
-| 5 | [Nuxt ESLint, ESLint module](https://eslint.nuxt.com/packages/module) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 5 | [Nuxt ESLint, ESLint module](https://nuxt.com/modules/eslint) | [specific/vue](specific/vue/README.md) | 2026-11-10 |
 | 5 | [OPA Gatekeeper policy library](https://open-policy-agent.github.io/gatekeeper-library/website/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
 | 5 | [OpenTelemetry, Collector configuration: validate command](https://opentelemetry.io/docs/collector/configuration/#location) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 5 | [OWASP Dependency-Check, Gradle plugin configuration](https://dependency-check.github.io/DependencyCheck/dependency-check-gradle/configuration.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |

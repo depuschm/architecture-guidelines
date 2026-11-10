@@ -6,7 +6,9 @@ Usage:
                                                  look retired: redirected to a home, 404 or "deprecated" page,
                                                  titled "not found", or an untitled page marked noindex.
                                                  These still answer HTTP 200, so a plain link checker
-                                                 misses them.
+                                                 misses them. Also list sources that moved: a permanent
+                                                 redirect (301 or 308) to a new address. They still work,
+                                                 so they don't fail, but their links should be updated.
   python3 scripts/verify_sources.py --stale      List sources whose verified date is older than --max-age
                                                  days (default 365), oldest first. No network needed.
   Options: --max-age DAYS, --strict (with --stale: exit 1 if any source is stale), --verbose.
@@ -52,29 +54,52 @@ def normalise(url):
     return parts.netloc.lower().removeprefix("www."), parts.path.rstrip("/") or "/"
 
 
+class RecordingRedirects(urllib.request.HTTPRedirectHandler):
+    """Follows redirects like the default handler, and remembers each one's status code and target."""
+
+    def __init__(self):
+        self.hops = []
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        self.hops.append((code, newurl))
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+def permanent_target(hops):
+    """Where the leading permanent redirects (301, 308) end, or None if the first redirect isn't one.
+    Temporary redirects after them, for example to a docs site's current version, don't count."""
+    target = None
+    for code, newurl in hops:
+        if code not in (301, 308):
+            break
+        target = newurl
+    return target
+
+
 def fetch(url, attempts=2):
-    """Return (status, final url, html) — status 0 means a network error."""
-    last = (0, url, "")
+    """Return (status, final url, html, permanent target) — status 0 means a network error."""
+    last = (0, url, "", None)
     for _ in range(attempts):
-        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        redirects = RecordingRedirects()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()), redirects)
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,*/*"})
         try:
             with opener.open(request, timeout=30) as response:
                 body = response.read(300_000).decode("utf-8", errors="replace")
-                return response.status, response.geturl(), body
+                return response.status, response.geturl(), body, permanent_target(redirects.hops)
         except urllib.error.HTTPError as error:
-            last = (error.code, error.geturl() or url, "")
+            last = (error.code, error.geturl() or url, "", None)
             if error.code not in (502, 503, 504):  # gateway errors are often temporary: retry them
                 return last
             time.sleep(5)
         except Exception as error:  # timeouts, DNS, TLS
-            last = (0, url, str(error))
+            last = (0, url, str(error), None)
     return last
 
 
 def classify(url):
-    """Return (verdict, detail). Verdicts: ok, broken, retired, blocked, suspect, unreachable."""
-    status, final, body = fetch(url)
+    """Return (verdict, detail). Verdicts: ok, moved, broken, retired, blocked, suspect, unreachable."""
+    status, final, body, permanent = fetch(url)
     if status == 0:
         return "unreachable", body[:120]
     if status in (401, 403, 429):
@@ -102,7 +127,13 @@ def classify(url):
         return "retired", "untitled page marked noindex (a soft 404)"
     if noindex:
         return "suspect", "page is marked noindex (check by hand)"
-    return "ok", f"moved to {final}" if moved else ""
+    # A site's home page that redirects into its docs (modelcontextprotocol.io/ -> a versioned intro)
+    # is a landing page, not a move.
+    if permanent and original_path != "/" and normalise(permanent) != (original_host, original_path):
+        fragment = urllib.parse.urlsplit(url).fragment
+        new = permanent if not fragment or "#" in permanent else f"{permanent}#{fragment}"
+        return "moved", f"permanently redirects to {new} (update the link)"
+    return "ok", f"redirects to {final}" if moved else ""
 
 
 def check_links(verbose):
@@ -112,14 +143,14 @@ def check_links(verbose):
     with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
         results = dict(zip(urls, pool.map(classify, urls)))
     failures = 0
-    for verdict in ("broken", "retired", "suspect", "blocked", "unreachable", "ok"):
+    for verdict in ("broken", "retired", "suspect", "moved", "blocked", "unreachable", "ok"):
         for url, (found, detail) in sorted(results.items()):
             if found != verdict or (verdict == "ok" and not (verbose and detail)):
                 continue
             failures += verdict in ("broken", "retired")
             print(f"{verdict.upper():<11} {url}  {detail}")
     counts = {verdict: sum(1 for v, _ in results.values() if v == verdict) for verdict in
-              ("ok", "broken", "retired", "suspect", "blocked", "unreachable")}
+              ("ok", "moved", "broken", "retired", "suspect", "blocked", "unreachable")}
     print(f"\nChecked {len(urls)} sources ({len(sources) - len(urls)} excluded by lychee.toml): "
           + ", ".join(f"{count} {verdict}" for verdict, count in counts.items() if count))
     if failures:

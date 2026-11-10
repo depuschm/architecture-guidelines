@@ -127,7 +127,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2809 sources.
+2808 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -597,8 +597,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Lambda best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Organizations, SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Prescriptive Guidance, ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
-| 7 | [AWS Prescriptive Guidance, Best practices for using the Terraform AWS Provider](https://docs.aws.amazon.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
-| 7 | [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Security Hub, Foundational Security Best Practices standard](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html) | [general/ai-systems](general/ai-systems.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
@@ -2139,11 +2137,12 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Electron, Process Model: the utility process](https://www.electronjs.org/docs/latest/tutorial/process-model#the-utility-process) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 6 | [Epic Games, Blueprint Best Practices in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-best-practices-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 6 | [Epic Games, Introduction to performance profiling and configuration in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-performance-profiling-and-configuration-in-unreal-engine) | [specific/gamedev](specific/gamedev/README.md), [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
-| 6 | [Epic Games, Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/low-level-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
 | 6 | [Epic Games, Running Gauntlet Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/running-gauntlet-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-10-25 |
 | 6 | [Epic Games, Static Code Analysis in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/static-code-analysis-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
-| 6 | [Epic Games, Unreal Engine API: FNetworkVersion](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/FNetworkVersion) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 6 | [Epic Games, Unreal Engine 5.7 API: FNetworkVersion::GetLocalNetworkVersion](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/FNetworkVersion/GetLocalNetworkVersion?application_version=5.7) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-10 |
+| 6 | [Epic Games, Using Gameplay Tags in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-10 |
 | 6 | [Epic Games, Using Google Play Asset Delivery in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-google-play-asset-delivery-in-unreal-engine) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
+| 6 | [Epic Games, Write Low-Level Tests in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/write-low-level-tests-in-unreal-engine) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-10 |
 | 6 | [esbuild, Content types: TypeScript caveats](https://esbuild.github.io/content-types/#typescript-caveats) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 6 | [ESLint, @eslint/css use-baseline rule](https://github.com/eslint/css/blob/main/docs/rules/use-baseline.md) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 6 | [eslint-plugin-astro, Available rules](https://ota-meshi.github.io/eslint-plugin-astro/rules/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
@@ -2943,7 +2942,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-339 sources.
+338 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -3117,11 +3116,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [IETF draft, Idempotency-Key header](https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 5 | [Konsist, Android test snippets](https://docs.konsist.lemonappdev.com/samples/starter-test-snippets/android-test-snippets) | [specific/android](specific/android/README.md) | 2026-10-25 |
 | 5 | [Kubernetes, Recommended labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
-| 5 | [Kyverno policy, add default-deny NetworkPolicy](https://kyverno.io/policies/best-practices/add-network-policy/add-network-policy/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 5 | [Kyverno policy, require labels](https://kyverno.io/policies/best-practices/require-labels/require-labels/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 5 | [Kyverno policy, require PodDisruptionBudget](https://kyverno.io/policies/other/require-pdb/require-pdb/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
-| 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-25 |
+| 5 | [Kyverno policy, add default-deny NetworkPolicy](https://kyverno.io/policies/best-practices-gpol/add-network-policy/add-network-policy/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-11-10 |
+| 5 | [Kyverno policy, create default PodDisruptionBudget](https://kyverno.io/policies/other-gpol/create-default-pdb/create-default-pdb/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-11-10 |
+| 5 | [Kyverno policy, require labels](https://kyverno.io/policies/best-practices-vpol/require-labels/require-labels/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-11-10 |
+| 5 | [Kyverno policy, require probes](https://kyverno.io/policies/best-practices-vpol/require-probes/require-probes/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-11-10 |
+| 5 | [Kyverno policy, require requests and limits](https://kyverno.io/policies/best-practices-vpol/require-pod-requests-limits/require-pod-requests-limits/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-11-10 |
 | 5 | [Larastan, Rules: JobDispatchedInTransactionUsesAfterCommitRule](https://github.com/larastan/larastan/blob/3.x/docs/rules.md#jobdispatchedintransactionusesaftercommitrule) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 5 | [Larastan, Rules: NoEnvCallsOutsideOfConfig](https://github.com/larastan/larastan/blob/3.x/docs/rules.md#noenvcallsoutsideofconfig) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 5 | [Laravel, Pint: presets](https://laravel.com/framework/docs/pint#presets) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
@@ -3194,7 +3193,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Serverless Land](https://serverlessland.com/) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [Spring for Apache Kafka, Non-blocking retries: how the pattern works](https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 5 | [Spring, Spring PetClinic sample application](https://github.com/spring-projects/spring-petclinic) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 5 | [SQLite Wasm, Persistent Storage Options](https://sqlite.org/wasm/doc/trunk/persistence.md) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 5 | [SQLite Wasm, Persistent Storage Options](https://sqlite.org/wasm/doc/trunk/persistence.md) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-10 |
 | 5 | [SQLite, Atomic Commit In SQLite](https://www.sqlite.org/atomiccommit.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [SQLite, PRAGMA cell_size_check](https://www.sqlite.org/pragma.html#pragma_cell_size_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 5 | [SQLite, PRAGMA mmap_size](https://www.sqlite.org/pragma.html#pragma_mmap_size) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
@@ -3231,7 +3230,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [Unity Scripting API, GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 5 | [Unity, Netcode for GameObjects API: NetworkConfig](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@3.1/api/Unity.Netcode.NetworkConfig.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 5 | [Unity, ScriptableObject-based enums](https://unity.com/how-to/scriptableobject-based-enums) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
-| 5 | [Unreal Engine API, GameplayTags module](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/GameplayTags) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 5 | [Unreal Engine, Iris Replication System](https://dev.epicgames.com/documentation/en-us/unreal-engine/iris-replication-system-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-11-01 |
 | 5 | [Unreal Engine, Material Editor UI](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-ui) | [specific/unreal/rendering](specific/unreal/rendering.md) | 2026-10-31 |
 | 5 | [Unreal Engine, Using Anchorpoint as Source Control](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-anchorpoint-as-source-control-for-unreal-engine) | [specific/unreal/project-structure](specific/unreal/project-structure.md) | 2026-11-01 |

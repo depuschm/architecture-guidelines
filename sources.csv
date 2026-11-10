@@ -2015,7 +2015,7 @@ score,title,url,verified
 6,"Apple, OpenGL ES (deprecated)",https://developer.apple.com/documentation/opengles,2026-10-31
 6,Architecting Cloud Native .NET Applications for Azure,https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/,2026-10-24
 6,Architecture decision record,https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record,2026-10-24
-6,Architecture decision record examples and templates,https://github.com/joelparkerhenderson/architecture-decision-record,2026-10-24
+6,Architecture decision record examples and templates,https://github.com/architecture-decision-record/architecture-decision-record,2026-11-10
 6,Architecture decision records overview,https://docs.cloud.google.com/architecture/architecture-decision-records,2026-10-24
 6,"ArchUnit user guide, GeneralCodingRules",https://www.archunit.org/userguide/html/000_Index.html#_generalcodingrules,2026-11-01
 6,"ArchUnit user guide, ProxyRules",https://www.archunit.org/userguide/html/000_Index.html#_proxyrules,2026-11-01

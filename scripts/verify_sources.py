@@ -18,10 +18,12 @@ Sources excluded in lychee.toml (sites that block automated requests) are skippe
 
 import argparse
 import concurrent.futures
+import contextlib
 import datetime
 import http.cookiejar
 import re
 import sys
+import threading
 import time
 import tomllib
 import urllib.error
@@ -39,6 +41,11 @@ RETIRED_TITLE = re.compile(r"\b(404|page not found|not found|no longer available
 SUSPECT_TITLE = re.compile(r"\b(deprecated|archived|retired)\b", re.IGNORECASE)
 TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 META = re.compile(r"<meta\b[^>]*>", re.IGNORECASE)
+# github.com answers bursts of requests with HTTP 504, so go slowly there, as lychee.toml does:
+# at most this many requests at a time, with a pause after each.
+SLOW_HOSTS = {"github.com": 2}
+SLOW_HOST_PAUSE = 0.5
+HOST_SLOTS = {host: threading.BoundedSemaphore(limit) for host, limit in SLOW_HOSTS.items()}
 
 
 def excluded_patterns():
@@ -76,10 +83,27 @@ def permanent_target(hops):
     return target
 
 
-def fetch(url, attempts=2):
+@contextlib.contextmanager
+def host_slot(url):
+    """Limit how many requests run at once against a slow host, and pause after each."""
+    slot = HOST_SLOTS.get(urllib.parse.urlsplit(url).netloc.lower().removeprefix("www."))
+    if slot is None:
+        yield
+        return
+    with slot:
+        yield
+        time.sleep(SLOW_HOST_PAUSE)
+
+
+def fetch(url, attempts=3):
     """Return (status, final url, html, permanent target) — status 0 means a network error."""
+    with host_slot(url):
+        return fetch_now(url, attempts)
+
+
+def fetch_now(url, attempts):
     last = (0, url, "", None)
-    for _ in range(attempts):
+    for attempt in range(attempts):
         redirects = RecordingRedirects()
         opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()), redirects)
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,*/*"})
@@ -91,7 +115,7 @@ def fetch(url, attempts=2):
             last = (error.code, error.geturl() or url, "", None)
             if error.code not in (502, 503, 504):  # gateway errors are often temporary: retry them
                 return last
-            time.sleep(5)
+            time.sleep(5 * (attempt + 1))
         except Exception as error:  # timeouts, DNS, TLS
             last = (0, url, str(error), None)
     return last

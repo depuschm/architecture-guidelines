@@ -13,7 +13,7 @@ Record architecture decisions so the reasoning survives after the people who mad
 - `7` [ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html) and [best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html) (AWS Prescriptive Guidance): how teams propose, review and adopt ADRs.
 - `6` [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) (Azure Well-Architected): what to record and when.
 - `6` [Architecture decision records overview](https://docs.cloud.google.com/architecture/architecture-decision-records) (Google Cloud).
-- `6` [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) (Joel Parker Henderson): many alternative templates and examples.
+- `6` [Architecture decision record examples and templates](https://github.com/architecture-decision-record/architecture-decision-record) (Joel Parker Henderson): many alternative templates and examples.
 
 ## Key rules
 

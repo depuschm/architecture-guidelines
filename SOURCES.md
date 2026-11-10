@@ -2034,7 +2034,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Apple, OpenGL ES (deprecated)](https://developer.apple.com/documentation/opengles) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 6 | [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 6 | [Architecture decision record](https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
-| 6 | [Architecture decision record examples and templates](https://github.com/joelparkerhenderson/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 6 | [Architecture decision record examples and templates](https://github.com/architecture-decision-record/architecture-decision-record) | [general/decisions](general/decisions.md) | 2026-11-10 |
 | 6 | [Architecture decision records overview](https://docs.cloud.google.com/architecture/architecture-decision-records) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [ArchUnit user guide, GeneralCodingRules](https://www.archunit.org/userguide/html/000_Index.html#_generalcodingrules) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [ArchUnit user guide, ProxyRules](https://www.archunit.org/userguide/html/000_Index.html#_proxyrules) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |

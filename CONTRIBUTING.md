@@ -100,6 +100,7 @@ Fill in the empty scores, then run it again. Lists must be tight (no blank lines
 2. Fill in `README.md`, and set a new, unique rule prefix in its first line. Split into more files only when the README gets long (see `specific/unity/`). Give each new file with key rules its own prefix, except when you split an existing README: then keep its prefix in every new file, so that the rule IDs don't change (see `specific/godot/` and `specific/unreal/`).
 3. Add the platform to the table in the root [README.md](README.md) and in [specific/README.md](specific/README.md).
 4. Add its detection hints to the platform table in [skills/architecture-review/SKILL.md](skills/architecture-review/SKILL.md).
+5. Give it a sidebar icon for the website in `NAV_ICONS` in [scripts/build_site.py](scripts/build_site.py): the platform's logo from Simple Icons if Zensical bundles it, otherwise a Lucide icon.
 
 ## 5. Checks
 

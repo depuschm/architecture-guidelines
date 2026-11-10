@@ -12,6 +12,8 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
   assets/rule-links.js, using assets/rule-index.json.
 - The checklists are left out of search, because they repeat the rules of the guideline files.
 - The abbreviations in GLOSSARY.md become tooltips on every page.
+- Each general topic and each platform gets an icon in the sidebar (NAV_ICONS). The icons are set
+  in front matter here, not in the source files, where GitHub would show it as a table.
 - The navigation is generated from the indexes, so new files and platforms appear automatically.
 - "View source" links point at the repository file, also for pages the build renames.
 
@@ -47,6 +49,80 @@ FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#40
 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 \
 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect width="8" height="8" x="14" y="2" rx="1"/></svg>
 """
+# Sidebar icons from the sets bundled with Zensical: platform logos from Simple Icons (or Font
+# Awesome where Simple Icons has none), and Lucide icons for the general topics and generic platforms.
+# Pages without an entry get the default icon of their kind, so the sidebar stays even.
+NAV_ICONS = {
+    "general/principles.md": "lucide/compass",
+    "general/architecture-styles.md": "lucide/building-2",
+    "general/domain-driven-design.md": "lucide/boxes",
+    "general/decisions.md": "lucide/scale",
+    "general/documentation.md": "lucide/book-open",
+    "general/quality-attributes.md": "lucide/gauge",
+    "general/api-design.md": "lucide/plug",
+    "general/data.md": "lucide/database",
+    "general/operations-reliability.md": "lucide/activity",
+    "general/security.md": "lucide/shield",
+    "general/authentication.md": "lucide/lock",
+    "general/privacy.md": "lucide/eye-off",
+    "general/testing-delivery.md": "lucide/flask-conical",
+    "general/releases.md": "lucide/tag",
+    "general/repositories.md": "lucide/folder-git-2",
+    "general/localization.md": "lucide/languages",
+    "general/accessibility.md": "lucide/accessibility",
+    "general/ai-systems.md": "lucide/bot",
+    "general/reading-list.md": "lucide/library",
+    "gamedev": "lucide/gamepad-2",
+    "unity": "simple/unity",
+    "godot": "simple/godotengine",
+    "unreal": "simple/unrealengine",
+    "gamemaker": "simple/gamemaker",
+    "graphics": "lucide/monitor",
+    "steam": "simple/steam",
+    "game-servers": "lucide/server",
+    "web-games": "lucide/joystick",
+    "mobile-games": "lucide/smartphone",
+    "web": "lucide/globe",
+    "react": "simple/react",
+    "nextjs": "simple/nextdotjs",
+    "vue": "simple/vuedotjs",
+    "svelte": "simple/svelte",
+    "angular": "simple/angular",
+    "astro": "simple/astro",
+    "typescript": "simple/typescript",
+    "nodejs": "simple/nodedotjs",
+    "python": "simple/python",
+    "go": "simple/go",
+    "spring-boot": "simple/springboot",
+    "laravel": "simple/laravel",
+    "dotnet": "simple/dotnet",
+    "graphql": "simple/graphql",
+    "postgres": "simple/postgresql",
+    "mongodb": "simple/mongodb",
+    "sqlite": "simple/sqlite",
+    "redis": "simple/redis",
+    "firebase": "simple/firebase",
+    "supabase": "simple/supabase",
+    "kafka": "simple/apachekafka",
+    "rabbitmq": "simple/rabbitmq",
+    "android": "simple/android",
+    "ios": "simple/apple",
+    "flutter": "simple/flutter",
+    "react-native": "simple/expo",
+    "desktop": "lucide/app-window",
+    "docker": "simple/docker",
+    "kubernetes": "simple/kubernetes",
+    "opentelemetry": "simple/opentelemetry",
+    "aws": "fontawesome/brands/aws",
+    "azure": "fontawesome/brands/microsoft",
+    "gcp": "simple/googlecloud",
+    "web-hosting": "lucide/cloud",
+    "terraform": "simple/terraform",
+    "github-actions": "simple/githubactions",
+    "gitlab-ci": "simple/gitlab",
+}
+DEFAULT_TOPIC_ICON = "lucide/file-text"
+DEFAULT_PLATFORM_ICON = "lucide/box"
 RULE_LINKS_JS = """// Keep old links to a rule working after the rule moves to another page: if the address ends
 // in a rule ID (#GODOT-16) that isn't on this page, look up the rule's current page and go there.
 (function () {
@@ -144,8 +220,14 @@ def stage():
             text = RULES_ROW.sub(lambda m: f'| <span id="{m.group(1)}"></span>`{m.group(1)}` |', text)
         if staged.name == "RULES.md" or staged.parts[0] == "checklists":
             text = link_rule_ids(text, staged, rule_pages)
+        front_matter = ""
         if staged.parts[0] == "checklists":
-            text = "---\nsearch:\n  exclude: true\n---\n\n" + text
+            front_matter += "search:\n  exclude: true\n"
+        icon = nav_icon(staged)
+        if icon:
+            front_matter += f"icon: {icon}\n"
+        if front_matter:
+            text = f"---\n{front_matter}---\n\n{text}"
         target = STAGE / staged
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(text, encoding="utf-8")
@@ -173,6 +255,16 @@ def write_abbreviations():
                 definitions.append(f"*[{cells[0]}s]: {cells[1]}")
     INCLUDES.mkdir(parents=True, exist_ok=True)
     (INCLUDES / "abbreviations.md").write_text("\n".join(definitions) + "\n", encoding="utf-8")
+
+
+def nav_icon(staged):
+    """The sidebar icon of a general topic or a platform's main page; other pages get none."""
+    parts = staged.parts
+    if len(parts) == 2 and parts[0] == "general" and staged.name != "README.md":
+        return NAV_ICONS.get(staged.as_posix(), DEFAULT_TOPIC_ICON)
+    if len(parts) == 3 and parts[0] == "specific" and staged.name == "README.md":
+        return NAV_ICONS.get(parts[1], DEFAULT_PLATFORM_ICON)
+    return None
 
 
 def page_url(staged):

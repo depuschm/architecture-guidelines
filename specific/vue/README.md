@@ -7,7 +7,7 @@ Scope: web apps built with Vue 3, the Composition API and Single-File Components
 
 ## Adopted references
 
-- `10` [Vue.js Guide](https://vuejs.org/guide/introduction.html): **the baseline.** Essentials, components, composables, the Scaling Up chapters (Single-File Components, tooling, routing, state management, testing and server-side rendering), the Best Practices chapters (production deployment, performance, accessibility and security) and TypeScript.
+- `9` [Vue.js Guide](https://vuejs.org/guide/introduction.html): **the baseline.** Essentials, components, composables, the Scaling Up chapters (Single-File Components, tooling, routing, state management, testing and server-side rendering), the Best Practices chapters (production deployment, performance, accessibility and security) and TypeScript.
 - `9` [Vue Style Guide](https://vuejs.org/style-guide/): the official Vue-specific coding rules in four priorities. Follow Priority A (Essential) and Priority B (Strongly Recommended); eslint-plugin-vue has a rule category for each priority.
 - `9` [Nuxt documentation](https://nuxt.com/docs/4.x/getting-started/introduction): **the baseline for Nuxt apps**: rendering modes, data fetching, state management, server routes, runtime config and best practices.
 - `8` [Vue.js, Security](https://vuejs.org/guide/best-practices/security.html): what Vue escapes for you, the remaining HTML, URL, style and JavaScript injection risks, and coordination with the backend.

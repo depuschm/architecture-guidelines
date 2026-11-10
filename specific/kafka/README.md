@@ -7,7 +7,7 @@ Scope: designing topics, producers and consumers for Apache Kafka 4.x, which run
 
 ## Adopted references
 
-- `10` [Apache Kafka documentation](https://kafka.apache.org/43/) (Apache Kafka 4.3): **the baseline.** The Design chapter, the producer, consumer and topic configuration references, Operations and Security matter most for application work.
+- `9` [Apache Kafka documentation](https://kafka.apache.org/43/) (Apache Kafka 4.3): **the baseline.** The Design chapter, the producer, consumer and topic configuration references, Operations and Security matter most for application work.
 - `8` [Design](https://kafka.apache.org/43/design/design/) (Apache Kafka docs): how producers, consumers, delivery semantics, transactions, share groups, replication and log compaction work, and the guarantees each gives.
 - `7` [Security](https://kafka.apache.org/43/security/security-overview/) (Apache Kafka docs): encryption and authentication with TLS, SASL mechanisms, and authorization with ACLs.
 - `7` [Basic Kafka Operations](https://kafka.apache.org/43/operations/basic-kafka-operations/) (Apache Kafka docs): creating and changing topics, consumer groups, expanding clusters and increasing the replication factor.

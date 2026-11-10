@@ -49,7 +49,7 @@ One folder per platform or service. Each folder adopts the platform's official g
 - [Android](android/README.md): native Android apps.
 - [Flutter](flutter/README.md): cross-platform apps.
 - [iOS (Swift and SwiftUI)](ios/README.md): native iPhone and iPad apps in Swift and SwiftUI: data flow, Swift 6 concurrency, Keychain and App Transport Security, privacy manifests, app lifecycle, SwiftData, accessibility, testing and signing.
-- [React Native and Expo](react-native/README.md): iOS and Android apps with React Native and Expo: project setup, secrets and secure storage, sign-in and deep links, privacy manifests, EAS Build and EAS Update, performance, upgrades and testing.
+- [React Native and Expo](react-native/README.md): iOS and Android apps with React Native and Expo: project setup, secrets and secure storage, sign-in and deep links, privacy manifests, EAS Build and Expo Update, performance, upgrades and testing.
 
 ### Desktop
 

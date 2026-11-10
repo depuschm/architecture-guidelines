@@ -7,52 +7,31 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Start here (9–10)
 
-113 sources.
+98 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
-| 10 | [Angular, Documentation](https://angular.dev/overview) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
-| 10 | [Apache Kafka, Documentation (4.3)](https://kafka.apache.org/43/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
-| 10 | [Astro Docs](https://docs.astro.build/en/getting-started/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 10 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
-| 10 | [Electron, Security](https://www.electronjs.org/docs/latest/tutorial/security) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
-| 10 | [Firebase, Firebase security checklist](https://firebase.google.com/support/guides/security-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
-| 10 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 10 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md), [specific/gcp](specific/gcp/README.md) | 2026-10-24 |
 | 10 | [GraphQL Foundation, Learn GraphQL](https://graphql.org/learn/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
-| 10 | [Laravel, Documentation](https://laravel.com/framework/docs) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
-| 10 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
-| 10 | [MongoDB, Database Manual](https://www.mongodb.com/docs/manual/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
-| 10 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 10 | [NIST, SP 800-63B-4, Authentication and Authenticator Management](https://pages.nist.gov/800-63-4/sp800-63b.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
-| 10 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
-| 10 | [RabbitMQ, Documentation (4.4)](https://www.rabbitmq.com/docs) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
-| 10 | [Spring Boot, Reference documentation](https://docs.spring.io/spring-boot/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 10 | [SQLite, SQLite Documentation](https://www.sqlite.org/docs.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
-| 10 | [Supabase Docs, Production Checklist](https://supabase.com/docs/guides/deployment/going-into-prod) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
-| 10 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
-| 10 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
-| 10 | [Tauri, Security](https://v2.tauri.app/security/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 10 | [The C4 model](https://c4model.com/) | [general](general/README.md), [general/documentation](general/documentation.md) | 2026-10-24 |
-| 10 | [Valve, Steamworks Documentation](https://partner.steamgames.com/doc/home) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
-| 10 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 10 | [W3C, Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) | [general/accessibility](general/accessibility.md), [specific/web](specific/web/README.md) | 2026-10-25 |
-| 9 | [Agones, Documentation](https://agones.dev/site/docs/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
-| 9 | [Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 9 | [Android, Recommendations for Android architecture](https://developer.android.com/topic/architecture/recommendations) | [specific/android](specific/android/README.md) | 2026-10-24 |
-| 9 | [Angular, Coding style guide](https://angular.dev/style-guide) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
-| 9 | [Apple Developer Documentation, SwiftUI](https://developer.apple.com/documentation/swiftui) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 9 | [Angular, Documentation](https://angular.dev/overview) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 9 | [Apache Kafka, Documentation (4.3)](https://kafka.apache.org/43/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 9 | [Apple, App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 9 | [arc42](https://arc42.org/overview) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 9 | [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 9 | [Astro Docs](https://docs.astro.build/en/getting-started/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 9 | [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 9 | [Azure Architecture Center: architecture styles](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/) | [general](general/README.md), [general/architecture-styles](general/architecture-styles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) | [general](general/README.md), [general/architecture-styles](general/architecture-styles.md), [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -60,35 +39,35 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Create modular game architecture with ScriptableObjects (Unity e-book, Unity 6 edition)](https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 9 | [DORA research program](https://dora.dev/) | [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 9 | [EDPB, Guidelines 4/2019 on Article 25 Data Protection by Design and by Default](https://www.edpb.europa.eu/documents/guideline/guidelines-42019-on-article-25-data-protection-by-design-and-by-default_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
+| 9 | [Electron, Security](https://www.electronjs.org/docs/latest/tutorial/security) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 9 | [Epic Games, Epic C++ Coding Standard for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 9 | [Epic Games, Gameplay Framework in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 9 | [ETSI, CEN and CENELEC, EN 301 549 V4.1.1 Accessibility requirements for ICT products and services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 9 | [EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 9 | [Evans, DDD Reference](https://www.domainlanguage.com/ddd/reference/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
-| 9 | [Expo documentation, Develop an app with Expo](https://docs.expo.dev/workflow/overview/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 9 | [Firebase, Firebase launch checklist](https://firebase.google.com/support/guides/launch-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
-| 9 | [Firebase, Firebase Security Rules](https://firebase.google.com/docs/rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 9 | [Firebase, Firebase security checklist](https://firebase.google.com/support/guides/security-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 9 | [Flutter, Architecture recommendations](https://docs.flutter.dev/app-architecture/recommendations) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Flutter, Guide to app architecture](https://docs.flutter.dev/app-architecture/guide) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
 | 9 | [Fowler, Software Architecture Guide](https://martinfowler.com/architecture/) | [general](general/README.md), [general/principles](general/principles.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 9 | [GitHub, Secure use reference (GitHub Actions)](https://docs.github.com/en/actions/reference/security/secure-use) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 9 | [Godot docs, Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) | [specific/godot](specific/godot/README.md) | 2026-10-25 |
 | 9 | [Google API Improvement Proposals (AIPs)](https://google.aip.dev/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Google Cloud, Enterprise foundations blueprint](https://docs.cloud.google.com/architecture/blueprints/security-foundations) | [specific/gcp](specific/gcp/README.md) | 2026-10-25 |
 | 9 | [Google SRE book, Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Google SRE books](https://sre.google/books/) | [general/operations-reliability](general/operations-reliability.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
-| 9 | [Google, Go Style](https://google.github.io/styleguide/go/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 9 | [GraphQL Foundation, GraphQL Specification (September 2025)](https://spec.graphql.org/September2025/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 9 | [IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 9 | [IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [Introduction to URP for advanced creators (Unity e-book, Unity 6 edition)](https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 9 | [Kubernetes, Security checklist](https://kubernetes.io/docs/concepts/security/security-checklist/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
+| 9 | [Laravel, Documentation](https://laravel.com/framework/docs) | [specific/laravel](specific/laravel/README.md) | 2026-11-01 |
 | 9 | [Lewis and Fowler, Microservices](https://martinfowler.com/articles/microservices.html) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 9 | [MADR: Markdown Architectural Decision Records](https://adr.github.io/madr/) | [general/decisions](general/decisions.md) | 2026-10-24 |
-| 9 | [Microsoft Learn, Globalization documentation](https://learn.microsoft.com/en-us/globalization/) | [general/localization](general/localization.md) | 2026-10-26 |
+| 9 | [Microsoft, .NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 9 | [Microsoft, ASP.NET Core best practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 9 | [Microsoft, Cloud Adoption Framework: What is an Azure landing zone?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
-| 9 | [MongoDB, Atlas Architecture Center](https://www.mongodb.com/docs/atlas/architecture/current/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
-| 9 | [MongoDB, Data Modeling in MongoDB](https://www.mongodb.com/docs/manual/data-modeling/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 9 | [MongoDB, Database Manual](https://www.mongodb.com/docs/manual/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 9 | [Next.js, App Router documentation](https://nextjs.org/docs/app) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 9 | [Next.js, How to think about data security in Next.js](https://nextjs.org/docs/app/guides/data-security) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 9 | [Node.js, Don't Block the Event Loop (or the Worker Pool)](https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
 | 9 | [Node.js, Security Best Practices](https://nodejs.org/learn/getting-started/security-best-practices) | [specific/nodejs](specific/nodejs/README.md) | 2026-10-25 |
@@ -104,14 +83,18 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [OWASP, ASVS 5.0, V7 Session Management](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x16-V7-Session-Management.md) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 9 | [OWASP, Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [OWASP, Mobile Application Security Verification Standard (MASVS)](https://mas.owasp.org/MASVS/) | [specific/ios](specific/ios/README.md), [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 9 | [PostgreSQL, PostgreSQL Documentation](https://www.postgresql.org/docs/current/) | [specific/postgres](specific/postgres/README.md) | 2026-10-25 |
 | 9 | [PyPA, Python Packaging User Guide](https://packaging.python.org/en/latest/) | [specific/python](specific/python/README.md) | 2026-10-25 |
+| 9 | [RabbitMQ, Documentation (4.4)](https://www.rabbitmq.com/docs) | [specific/rabbitmq](specific/rabbitmq/README.md) | 2026-10-25 |
 | 9 | [React Native, documentation (Introduction)](https://reactnative.dev/docs/getting-started) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 9 | [Redis, Manage Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 9 | [RFC 9110, HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 9 | [Rules of React](https://react.dev/reference/rules) | [specific/react](specific/react/README.md) | 2026-10-24 |
-| 9 | [Spring Security, Reference documentation](https://docs.spring.io/spring-security/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 9 | [Supabase Docs, Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 9 | [Spring Boot, Reference documentation](https://docs.spring.io/spring-boot/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 9 | [SQLite, SQLite Documentation](https://www.sqlite.org/docs.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 9 | [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 9 | [Svelte, Documentation](https://svelte.dev/docs/svelte/overview) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
+| 9 | [SvelteKit, Documentation](https://svelte.dev/docs/kit/introduction) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 9 | [The Twelve-Factor App](https://12factor.net/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 9 | [Thinking in React](https://react.dev/learn/thinking-in-react) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 9 | [TypeScript, The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | [specific/nodejs](specific/nodejs/README.md), [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
@@ -119,7 +102,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 9 | [Ultimate guide to profiling Unity games (Unity e-book)](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6) | [specific/unity](specific/unity/README.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 9 | [Unicode Consortium, Unicode CLDR Project](https://cldr.unicode.org/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 9 | [Unity Manual, Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html) | [specific/unity](specific/unity/README.md) | 2026-10-24 |
+| 9 | [Valve, Steamworks Documentation](https://partner.steamgames.com/doc/home) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 9 | [Vocke, The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) | [general/testing-delivery](general/testing-delivery.md), [specific/web](specific/web/README.md) | 2026-10-24 |
+| 9 | [Vue.js, Guide](https://vuejs.org/guide/introduction.html) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [Vue.js, Style Guide](https://vuejs.org/style-guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
 | 9 | [W3C WAI, ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 9 | [YoYo Games, GameMaker Manual (LTS)](https://manual.gamemaker.io/lts/en/Content.htm) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
@@ -127,32 +112,31 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2812 sources.
+2829 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 8 | [.NET Microservices: Architecture for Containerized .NET Applications](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
+| 8 | [Agones, Documentation](https://agones.dev/site/docs/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 8 | [AIP-121, Resource-oriented design](https://google.aip.dev/121) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AIP-180, Backwards compatibility](https://google.aip.dev/180) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 8 | [Amazon GameLift Servers, Add Amazon GameLift Servers to your game server with the server SDK](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
-| 8 | [Amazon GameLift Servers, Prepare for launch with Amazon GameLift Servers hosting](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 8 | [Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 8 | [Android Basics with Compose (course)](https://developer.android.com/courses/android-basics-compose/course) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android Developers, Play Billing: Fight fraud and abuse](https://developer.android.com/google/play/billing/security) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 8 | [Android, Best practices for coroutines](https://developer.android.com/kotlin/coroutines/coroutines-best-practices) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, Data layer](https://developer.android.com/topic/architecture/data-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, Guide to app modularization](https://developer.android.com/topic/modularization) | [specific/android](specific/android/README.md) | 2026-10-24 |
 | 8 | [Android, UI layer](https://developer.android.com/topic/architecture/ui-layer) | [specific/android](specific/android/README.md) | 2026-10-24 |
+| 8 | [Angular, Coding style guide](https://angular.dev/style-guide) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 8 | [Angular, Security](https://angular.dev/best-practices/security) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 8 | [Angular, Server-side and hybrid rendering](https://angular.dev/guide/ssr) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
-| 8 | [Angular, Signals](https://angular.dev/guide/signals) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 8 | [Apache Kafka, Design](https://kafka.apache.org/43/design/design/) | [specific/kafka](specific/kafka/README.md) | 2026-10-25 |
 | 8 | [Apple Developer Documentation, Managing model data in your app](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
-| 8 | [Apple Developer Documentation, SwiftUI: Model data](https://developer.apple.com/documentation/swiftui/model-data) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 8 | [Apple Developer Documentation, SwiftUI](https://developer.apple.com/documentation/swiftui) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 8 | [Apple, Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 8 | [arc42 documentation](https://docs.arc42.org/home/) | [general/documentation](general/documentation.md) | 2026-10-24 |
 | 8 | [arc42 Quality Model](https://quality.arc42.org/) | [general/quality-attributes](general/quality-attributes.md) | 2026-10-24 |
 | 8 | [Arm, GPU Best Practices Developer Guide (issue 10, PDF)](https://documentation-service.arm.com/static/67a62b17091bfc3e0a947695) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
-| 8 | [Astro Docs, Content collections](https://docs.astro.build/en/guides/content-collections/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 8 | [Astro Docs, Islands architecture](https://docs.astro.build/en/concepts/islands/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 8 | [Astro Docs, On-demand rendering](https://docs.astro.build/en/guides/on-demand-rendering/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
@@ -192,15 +176,13 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Epic Games, Unreal Object Handling in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-object-handling-in-unreal-engine) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 8 | [eShop reference application](https://github.com/dotnet/eShop) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [EUR-Lex, Directive (EU) 2019/882, the European Accessibility Act](https://eur-lex.europa.eu/eli/dir/2019/882/oj) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
-| 8 | [European Commission, Data protection: information for business and organisations](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 8 | [Evans, Domain-Driven Design (book)](https://www.domainlanguage.com/ddd/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
-| 8 | [Expo Router, Introduction](https://docs.expo.dev/router/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 8 | [Expo, EAS Update](https://docs.expo.dev/eas-update/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 8 | [Expo documentation, Develop an app with Expo](https://docs.expo.dev/workflow/overview/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 8 | [Firebase, Avoid insecure rules](https://firebase.google.com/docs/rules/insecure-rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 8 | [Firebase, Best practices for Cloud Firestore](https://firebase.google.com/docs/firestore/best-practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
-| 8 | [Firebase, Firebase App Check](https://firebase.google.com/docs/app-check) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 8 | [Firebase, Firebase launch checklist](https://firebase.google.com/support/guides/launch-checklist) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 8 | [Firebase, Firebase Security Rules](https://firebase.google.com/docs/rules) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 8 | [Firebase, General best practices for setting up Firebase projects](https://firebase.google.com/docs/projects/dev-workflows/general-best-practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
-| 8 | [Firebase, Learn about and manage API keys for Firebase](https://firebase.google.com/docs/projects/api-keys) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 8 | [Fowler (David), ASP.NET Core async guidance](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Fowler, Bounded Context](https://martinfowler.com/bliki/BoundedContext.html) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Fowler, Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -224,7 +206,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Go wiki, Go Code Review Comments](https://go.dev/wiki/CodeReviewComments) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Go, Go Modules Reference](https://go.dev/ref/mod) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Go, Organizing a Go module](https://go.dev/doc/modules/layout) | [specific/go](specific/go/README.md) | 2026-11-01 |
-| 8 | [Go, Security Best Practices for Go Developers](https://go.dev/doc/security/best-practices) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Godot docs, Exporting for the Web](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 8 | [Godot docs, GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 8 | [Godot docs, Scene organization](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html) | [specific/godot/code-architecture](specific/godot/code-architecture.md), [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |
@@ -240,6 +221,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Google SRE book, Embracing Risk](https://sre.google/sre-book/embracing-risk/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Google SRE book, table of contents](https://sre.google/sre-book/table-of-contents/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
+| 8 | [Google, Go Style](https://google.github.io/styleguide/go/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Google, Go Style Best Practices](https://google.github.io/styleguide/go/best-practices) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Google, Go Style Decisions](https://google.github.io/styleguide/go/decisions) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 8 | [Google, Go Style Guide](https://google.github.io/styleguide/go/guide) | [specific/go](specific/go/README.md) | 2026-11-01 |
@@ -272,6 +254,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [microservices.io, Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html) | [general/data](general/data.md) | 2026-10-24 |
 | 8 | [Microsoft Azure Architecture Center, Caching guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [Microsoft Learn, Design software for international markets](https://learn.microsoft.com/en-us/globalization/methodology/international-design) | [general/localization](general/localization.md) | 2026-10-26 |
+| 8 | [Microsoft Learn, Globalization documentation](https://learn.microsoft.com/en-us/globalization/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 8 | [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [Microsoft, Architectural principles](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles) | [general/principles](general/principles.md) | 2026-10-24 |
 | 8 | [Microsoft, Azure Well-Architected Framework: Using availability zones and regions](https://learn.microsoft.com/en-us/azure/well-architected/design-guides/regions-availability-zones) | [specific/azure](specific/azure/README.md) | 2026-10-25 |
@@ -281,10 +264,10 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Microsoft, Safe storage of app secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets) | [specific/dotnet](specific/dotnet/README.md) | 2026-10-24 |
 | 8 | [Microsoft, Threat Modeling Tool threats (STRIDE)](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Microsoft, Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/xbox/accessibility/guidelines) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
+| 8 | [MongoDB, Atlas Architecture Center](https://www.mongodb.com/docs/atlas/architecture/current/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 8 | [MongoDB, Best Practices for Data Modeling in MongoDB](https://www.mongodb.com/docs/manual/data-modeling/best-practices/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 8 | [MongoDB, Data Modeling in MongoDB](https://www.mongodb.com/docs/manual/data-modeling/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 8 | [MongoDB, Development Checklist](https://www.mongodb.com/docs/manual/administration/production-checklist-development/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
-| 8 | [MongoDB, Schema Design Anti-Patterns](https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
-| 8 | [MongoDB, Schema Design Patterns](https://www.mongodb.com/docs/manual/data-modeling/design-patterns/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 8 | [MongoDB, Security Checklist for Self-Managed Deployments](https://www.mongodb.com/docs/manual/administration/security-checklist/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 8 | [Next.js, Caching (Cache Components)](https://nextjs.org/docs/app/getting-started/caching) | [specific/nextjs](specific/nextjs/README.md) | 2026-10-25 |
 | 8 | [NIST Secure Software Development Framework (SP 800-218)](https://csrc.nist.gov/pubs/sp/800/218/final) | [general/security](general/security.md) | 2026-10-24 |
@@ -330,33 +313,33 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [react.dev, Keeping components pure](https://react.dev/learn/keeping-components-pure) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [react.dev, You might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | [specific/react](specific/react/README.md) | 2026-10-24 |
 | 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
-| 8 | [RFC 9700, section 2: Best Practices](https://www.rfc-editor.org/rfc/rfc9700.html#section-2) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 8 | [Semantic Versioning](https://semver.org/) | [general/api-design](general/api-design.md), [general/releases](general/releases.md) | 2026-10-24 |
 | 8 | [Semantic Versioning 2.0.0, Specification](https://semver.org/#semantic-versioning-specification-semver) | [general/releases](general/releases.md) | 2026-10-25 |
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [Spring Modulith, Reference documentation](https://docs.spring.io/spring-modulith/reference/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 8 | [Spring Security, Reference documentation](https://docs.spring.io/spring-security/reference/index.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 8 | [SQLite, Appropriate Uses For SQLite](https://www.sqlite.org/whentouse.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 8 | [SQLite, Defense Against The Dark Arts](https://www.sqlite.org/security.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 8 | [SQLite, How To Corrupt An SQLite Database File](https://www.sqlite.org/howtocorrupt.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
-| 8 | [SQLite, Pragma statements supported by SQLite](https://www.sqlite.org/pragma.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 8 | [SRE workbook, Implementing SLOs](https://sre.google/workbook/implementing-slos/) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Static stability using Availability Zones](https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 8 | [Steamworks, Steam Deck and Steam Machine Compatibility Review](https://partner.steamgames.com/doc/steamhardware/compat) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 8 | [Steamworks, Uploading to Steam](https://partner.steamgames.com/doc/sdk/uploading) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 8 | [Steamworks, User Authentication and Ownership](https://partner.steamgames.com/doc/features/auth) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
-| 8 | [Supabase Docs, API keys](https://supabase.com/docs/guides/getting-started/api-keys) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 8 | [Supabase Docs, Production Checklist](https://supabase.com/docs/guides/deployment/going-into-prod) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 8 | [Supabase Docs, Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 8 | [Supabase Docs, Securing your API](https://supabase.com/docs/guides/api/securing-your-api) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 8 | [Supabase, Production security checklist](https://supabase.com/docs/guides/security/production-checklist) | [specific/supabase](specific/supabase/README.md) | 2026-11-10 |
 | 8 | [SvelteKit, Performance](https://svelte.dev/docs/kit/performance) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [SvelteKit, State management](https://svelte.dev/docs/kit/state-management) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 8 | [Swift.org, API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
-| 8 | [Tauri, Capabilities](https://v2.tauri.app/security/capabilities/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
+| 8 | [Tauri, Security](https://v2.tauri.app/security/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 8 | [The Swift Programming Language, Concurrency](https://docs.swift.org/latest/documentation/the-swift-programming-language/concurrency/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 8 | [The System Design Primer](https://github.com/donnemartin/system-design-primer) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 8 | [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 8 | [Twelve-Factor App, III Config](https://12factor.net/config) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [TypeScript Handbook, Modules](https://www.typescriptlang.org/docs/handbook/modules/introduction.html) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
-| 8 | [Unicode Consortium, ICU User Guide](https://unicode-org.github.io/icu/userguide/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 8 | [Unity Addressables package manual](https://docs.unity3d.com/Packages/com.unity.addressables@latest/) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 8 | [Unity Manual, Assembly definitions](https://docs.unity3d.com/Manual/assembly-definition-files.html) | [specific/unity/project-structure](specific/unity/project-structure.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Manual, Introduction to assemblies](https://docs.unity3d.com/Manual/assembly-definitions-intro.html) | [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
@@ -367,7 +350,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [Unity Test Framework course](https://docs.unity3d.com/Manual/test-framework/course/overview.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity Test Framework, introduction](https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html) | [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 8 | [Unity, Best practices for organizing your Unity project](https://unity.com/how-to/organizing-your-project) | [specific/unity](specific/unity/README.md), [specific/unity/project-structure](specific/unity/project-structure.md) | 2026-10-24 |
-| 8 | [Unity, Render pipelines strategy for 2026](https://unity.com/topics/render-pipelines-strategy-for-2026) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 8 | [US Access Board, Revised 508 Standards and 255 Guidelines](https://www.access-board.gov/ict/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 8 | [Vernon, Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 8 | [Vue Router, Guide](https://router.vuejs.org/guide/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
@@ -376,7 +358,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [W3C, Guidance on Applying WCAG 2 to Non-Web ICT (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 8 | [W3C, Trace Context (Recommendation)](https://www.w3.org/TR/trace-context/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 8 | [W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3](https://www.w3.org/TR/webauthn-3/) | [general/authentication](general/authentication.md) | 2026-10-25 |
-| 8 | [W3C, WebGPU (Candidate Recommendation Draft)](https://www.w3.org/TR/webgpu/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 8 | [web.dev, Mitigate cross-site scripting (XSS) with a strict Content Security Policy (CSP)](https://web.dev/articles/strict-csp) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 8 | [web.dev, The most effective ways to improve Core Web Vitals](https://web.dev/articles/top-cwv) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [Addressables, Release assets from memory](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
@@ -396,6 +377,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Agones, Upgrading Agones: multiple clusters](https://agones.dev/site/docs/installation/upgrading/#upgrading-agones-multiple-clusters) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [AIP-158, Pagination](https://google.aip.dev/158) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Amazon GameLift Servers, Access AWS resources with an IAM role](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-resources.html#gamelift-sdk-server-resources-roles) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Add Amazon GameLift Servers to your game server with the server SDK](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Build a backend service](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_designbackend.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Build a multi-location queue](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/queues-design-multiregion.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Cost optimization strategies](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-pricing-cost-optimization.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
@@ -405,6 +387,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Amazon GameLift Servers, Managing game hosting in production: game server updates and patches](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-prod-hosting.html#gamelift-prod-hosting-updates) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Monitor with Amazon CloudWatch](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/monitoring-cloudwatch.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Player gateway](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/ddos-protection-player-gateway.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Amazon GameLift Servers, Prepare for launch with Amazon GameLift Servers hosting](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Prepare for launch: launch checklist](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html#gamelift_quickstart_customservers_launch_checklist) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Prepare for launch: testing checklist](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html#gamelift_quickstart_customservers_test_checklist) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [Amazon GameLift Servers, Respond to a server process shutdown notification](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-terminate) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
@@ -477,6 +460,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Angular, Security: server-side XSS protection](https://angular.dev/best-practices/security#server-side-xss-protection) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Angular, Security: trusting safe values](https://angular.dev/best-practices/security#trusting-safe-values) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Angular, Security: use the AOT template compiler](https://angular.dev/best-practices/security#use-the-aot-template-compiler) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
+| 7 | [Angular, Signals](https://angular.dev/guide/signals) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Angular, Skipping component subtrees: using OnPush](https://angular.dev/best-practices/skipping-subtrees#using-onpush) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Angular, SSR: authoring server-compatible components](https://angular.dev/guide/ssr#authoring-server-compatible-components) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
 | 7 | [Angular, SSR: choosing a rendering mode](https://angular.dev/guide/ssr#choosing-a-rendering-mode) | [specific/angular](specific/angular/README.md) | 2026-11-01 |
@@ -539,6 +523,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Apple Developer Documentation, Simplifying your implementation by using the App Store Server Library](https://developer.apple.com/documentation/appstoreserverapi/simplifying-your-implementation-by-using-the-app-store-server-library) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer Documentation, StoreKit Transaction (verify transactions)](https://developer.apple.com/documentation/storekit/transaction) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer Documentation, SwiftData](https://developer.apple.com/documentation/swiftdata) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Apple Developer Documentation, SwiftUI: Model data](https://developer.apple.com/documentation/swiftui/model-data) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, SwiftUI: State](https://developer.apple.com/documentation/swiftui/state) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Apple Developer Documentation, Transaction.finish()](https://developer.apple.com/documentation/storekit/transaction/finish%28%29) | [specific/mobile-games](specific/mobile-games/README.md) | 2026-10-25 |
 | 7 | [Apple Developer Documentation, UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
@@ -576,6 +561,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Astro Docs, Configuration reference: security.allowedDomains](https://docs.astro.build/en/reference/configuration-reference/#securityalloweddomains) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [Astro Docs, Configuration reference: security.checkOrigin](https://docs.astro.build/en/reference/configuration-reference/#securitycheckorigin) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [Astro Docs, Configuration reference: security.csp](https://docs.astro.build/en/reference/configuration-reference/#securitycsp) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
+| 7 | [Astro Docs, Content collections](https://docs.astro.build/en/guides/content-collections/) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [Astro Docs, Content collections: defining the collection schema](https://docs.astro.build/en/guides/content-collections/#defining-the-collection-schema) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [Astro Docs, Content collections: types of collections](https://docs.astro.build/en/guides/content-collections/#types-of-collections) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
 | 7 | [Astro Docs, Islands architecture: client islands](https://docs.astro.build/en/concepts/islands/#client-islands) | [specific/astro](specific/astro/README.md) | 2026-11-01 |
@@ -731,6 +717,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Epic Games, Understanding the Unreal Engine Gameplay Ability System](https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system) | [specific/unreal/code-architecture](specific/unreal/code-architecture.md) | 2026-10-25 |
 | 7 | [Epic Games, Unreal Insights in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine) | [specific/unreal/content-and-performance](specific/unreal/content-and-performance.md) | 2026-10-25 |
 | 7 | [eslint-plugin-vue, Available rules](https://eslint.vuejs.org/rules/) | [specific/vue](specific/vue/README.md) | 2026-10-25 |
+| 7 | [European Commission, Data protection: information for business and organisations](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [European Commission, Dealing with requests from individuals](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [European Commission, European Accessibility Act (EAA)](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [European Commission, Legal grounds for processing data](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en) | [general/privacy](general/privacy.md) | 2026-10-26 |
@@ -738,12 +725,14 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [European Commission, Principles of the GDPR: data minimisation](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#data-minimisation) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [European Commission, Principles of the GDPR: purpose limitation](https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#purpose-limitation) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 7 | [EventStorming](https://www.eventstorming.com/) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
+| 7 | [Expo Router, Introduction](https://docs.expo.dev/router/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo SDK, SecureStore](https://docs.expo.dev/versions/latest/sdk/securestore/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, Authentication with OAuth or OpenID providers](https://docs.expo.dev/guides/authentication/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, Continuous Native Generation (CNG)](https://docs.expo.dev/workflow/continuous-native-generation/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, EAS Build](https://docs.expo.dev/build/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 7 | [Expo, EAS Update: Runtime versions and updates](https://docs.expo.dev/eas-update/runtime-versions/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, Environment variables in Expo](https://docs.expo.dev/guides/environment-variables/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Expo Update](https://docs.expo.dev/eas-update/introduction/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 7 | [Expo, Expo Update: Runtime versions and updates](https://docs.expo.dev/eas-update/runtime-versions/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, Overview of linking, deep links, Android App Links and iOS Universal Links](https://docs.expo.dev/linking/overview/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, Privacy manifests](https://docs.expo.dev/guides/apple-privacy/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 7 | [Expo, React Native's New Architecture](https://docs.expo.dev/guides/new-architecture/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
@@ -768,6 +757,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Firebase, Cloud Functions: Tips and tricks](https://firebase.google.com/docs/functions/tips) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Connect your app to the Cloud Firestore Emulator: Choose a Firebase project](https://firebase.google.com/docs/emulator-suite/connect_firestore#choose_a_firebase_project) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Enable App Check enforcement](https://firebase.google.com/docs/app-check/enable-enforcement) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Firebase App Check](https://firebase.google.com/docs/app-check) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Firestore point-in-time recovery: PITR window](https://firebase.google.com/docs/firestore/pitr#pitr_window) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Firestore: Allowing read access only for specific fields](https://firebase.google.com/docs/firestore/security/rules-fields#allowing_read_access_only_for_specific_fields) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Firestore: Back up and restore data](https://firebase.google.com/docs/firestore/backups) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
@@ -780,6 +770,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Firebase, Launch checklist: App Check](https://firebase.google.com/support/guides/launch-checklist#app-check) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Launch checklist: Authentication](https://firebase.google.com/support/guides/launch-checklist#authentication) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Launch checklist: Know your pricing plan limits and set budget alerts](https://firebase.google.com/support/guides/launch-checklist#pricing-plan) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
+| 7 | [Firebase, Learn about and manage API keys for Firebase](https://firebase.google.com/docs/projects/api-keys) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Manage and deploy Firebase Security Rules: Use the Firebase CLI](https://firebase.google.com/docs/rules/manage-deploy#use_the) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Monitor App Check request metrics](https://firebase.google.com/docs/app-check/monitor-metrics) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
 | 7 | [Firebase, Retry asynchronous functions: Best practices](https://firebase.google.com/docs/functions/retries#best_practices) | [specific/firebase](specific/firebase/README.md) | 2026-11-01 |
@@ -948,7 +939,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Go wiki, Go Code Review Comments: Package names](https://go.dev/wiki/CodeReviewComments#package-names) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go wiki, Go Test Comments](https://go.dev/wiki/TestComments) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide) | [specific/go](specific/go/README.md) | 2026-11-01 |
-| 7 | [Go, A Tour of Go](https://go.dev/tour/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Accessing relational databases](https://go.dev/doc/database/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Avoiding SQL injection risk](https://go.dev/doc/database/sql-injection) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, context package](https://pkg.go.dev/context) | [specific/go](specific/go/README.md) | 2026-11-01 |
@@ -973,6 +963,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Go, os/signal: NotifyContext](https://pkg.go.dev/os/signal#NotifyContext) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Release History](https://go.dev/doc/devel/release) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Release History: Release policy](https://go.dev/doc/devel/release#policy) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 7 | [Go, Security Best Practices for Go Developers](https://go.dev/doc/security/best-practices) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Security Best Practices: Check for race conditions with Go's race detector](https://go.dev/doc/security/best-practices#check-for-race-conditions-with-gos-race-detector) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Security Best Practices: Keep your Go version and dependencies up to date](https://go.dev/doc/security/best-practices#keep-your-go-version-and-dependencies-up-to-date) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 7 | [Go, Security Best Practices: Scan source code and binaries for vulnerabilities](https://go.dev/doc/security/best-practices#scan-source-code-and-binaries-for-vulnerabilities) | [specific/go](specific/go/README.md) | 2026-11-01 |
@@ -1303,6 +1294,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [MongoDB, Production Notes: use trusted networking environments](https://www.mongodb.com/docs/manual/administration/production-notes/#use-trusted-networking-environments) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 7 | [MongoDB, Retryable Writes: retryable write operations](https://www.mongodb.com/docs/manual/core/retryable-writes/#retryable-write-operations) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 7 | [MongoDB, Rollbacks During Replica Set Failover: avoid replica set rollbacks](https://www.mongodb.com/docs/manual/core/replica-set-rollbacks/#avoid-replica-set-rollbacks) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Schema Design Anti-Patterns](https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
+| 7 | [MongoDB, Schema Design Patterns](https://www.mongodb.com/docs/manual/data-modeling/design-patterns/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 7 | [MongoDB, Schema Validation](https://www.mongodb.com/docs/manual/core/schema-validation/) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 7 | [MongoDB, Security Checklist: configure role-based access control](https://www.mongodb.com/docs/manual/administration/security-checklist/#-configure-role-based-access-control) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
 | 7 | [MongoDB, Security Checklist: encrypt communication (TLS/SSL)](https://www.mongodb.com/docs/manual/administration/security-checklist/#-encrypt-communication-tlsssl) | [specific/mongodb](specific/mongodb/README.md) | 2026-11-01 |
@@ -1586,6 +1579,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Release It!, 2nd edition](https://pragprog.com/titles/mnee2/release-it-second-edition/) | [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [RFC 10017, section 6.1: Backend for Frontend (BFF)](https://www.rfc-editor.org/rfc/rfc10017.html#section-6.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)](https://www.rfc-editor.org/rfc/rfc10017.html#section-7.1) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [RFC 9700, section 2: Best Practices](https://www.rfc-editor.org/rfc/rfc9700.html#section-2) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [Richards and Ford, Fundamentals of Software Architecture (book)](https://fundamentalsofsoftwarearchitecture.com/) | [general/quality-attributes](general/quality-attributes.md), [general/reading-list](general/reading-list.md) | 2026-10-24 |
 | 7 | [Robinson, Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 7 | [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml) | [general/ai-systems](general/ai-systems.md) | 2026-10-24 |
@@ -1641,6 +1635,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [SQLite, How To Corrupt: filesystems with broken or missing lock implementations](https://www.sqlite.org/howtocorrupt.html#_filesystems_with_broken_or_missing_lock_implementations) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, PRAGMA foreign_keys](https://www.sqlite.org/pragma.html#pragma_foreign_keys) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, PRAGMA integrity_check](https://www.sqlite.org/pragma.html#pragma_integrity_check) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [SQLite, Pragma statements supported by SQLite](https://www.sqlite.org/pragma.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, PRAGMA synchronous](https://www.sqlite.org/pragma.html#pragma_synchronous) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, PRAGMA trusted_schema](https://www.sqlite.org/pragma.html#pragma_trusted_schema) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
 | 7 | [SQLite, Quirks, Caveats, and Gotchas In SQLite](https://www.sqlite.org/quirks.html) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
@@ -1684,6 +1679,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Steamworks, User Authentication and Ownership: P2P or game servers](https://partner.steamgames.com/doc/features/auth#client_to_client) | [specific/steam](specific/steam/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Advisors](https://supabase.com/docs/guides/observability/advisors) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Anonymous Sign-Ins: Access control](https://supabase.com/docs/guides/auth/auth-anonymous#access-control) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase Docs, API keys](https://supabase.com/docs/guides/getting-started/api-keys) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, API keys: Handling secret keys safely](https://supabase.com/docs/guides/getting-started/api-keys#handling-secret-keys-safely) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, API keys: Which key do you use?](https://supabase.com/docs/guides/getting-started/api-keys#which-key-do-you-use) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Branching](https://supabase.com/docs/guides/deployment/branching) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
@@ -1698,7 +1694,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Supabase Docs, Migrating to publishable and secret API keys](https://supabase.com/docs/guides/getting-started/migrating-to-new-api-keys) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Production Checklist: Availability](https://supabase.com/docs/guides/deployment/going-into-prod#availability) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Production Checklist: Deployment](https://supabase.com/docs/guides/deployment/going-into-prod#deployment) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
-| 7 | [Supabase Docs, Production Checklist: Security](https://supabase.com/docs/guides/deployment/going-into-prod#security) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Row Level Security: Add indexes](https://supabase.com/docs/guides/database/postgres/row-level-security#add-indexes) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Row Level Security: auth.jwt()](https://supabase.com/docs/guides/database/postgres/row-level-security#authjwt) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Row Level Security: Call functions with select](https://supabase.com/docs/guides/database/postgres/row-level-security#call-functions-with-select) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
@@ -1716,6 +1711,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Supabase Docs, Storage Access Control: Access policies](https://supabase.com/docs/guides/storage/security/access-control#access-policies) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Storage Buckets: Access model](https://supabase.com/docs/guides/storage/buckets/fundamentals#access-model) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
 | 7 | [Supabase Docs, Testing Overview: Best practices](https://supabase.com/docs/guides/local-development/testing/overview#best-practices) | [specific/supabase](specific/supabase/README.md) | 2026-11-01 |
+| 7 | [Supabase, Production security checklist: Auth](https://supabase.com/docs/guides/security/production-checklist#auth) | [specific/supabase](specific/supabase/README.md) | 2026-11-10 |
+| 7 | [Supabase, Production security checklist: database](https://supabase.com/docs/guides/security/production-checklist#database) | [specific/supabase](specific/supabase/README.md) | 2026-11-10 |
 | 7 | [Svelte CLI, sv check](https://svelte.dev/docs/cli/sv-check) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, $effect: when not to use $effect](https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Svelte, Best practices: $props](https://svelte.dev/docs/svelte/best-practices#$props) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
@@ -1749,6 +1746,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [SvelteKit, State management: no side-effects in load](https://svelte.dev/docs/kit/state-management#No-side-effects-in-load) | [specific/svelte](specific/svelte/README.md) | 2026-10-25 |
 | 7 | [Swift.org, Swift 6 concurrency migration guide: Data race safety](https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/dataracesafety/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
 | 7 | [Swift.org, Swift 6 concurrency migration guide: Enable data-race safety checking](https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/enabledataracesafety/) | [specific/ios](specific/ios/README.md) | 2026-11-01 |
+| 7 | [Tauri, Capabilities](https://v2.tauri.app/security/capabilities/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Tauri, Capabilities: security boundaries](https://v2.tauri.app/security/capabilities/#security-boundaries) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Tauri, Command scopes](https://v2.tauri.app/security/scope/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
 | 7 | [Tauri, Content Security Policy (CSP)](https://v2.tauri.app/security/csp/) | [specific/desktop](specific/desktop/README.md) | 2026-11-01 |
@@ -1802,6 +1800,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [typescript-eslint, no-unsafe-assignment](https://typescript-eslint.io/rules/no-unsafe-assignment/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [typescript-eslint, switch-exhaustiveness-check](https://typescript-eslint.io/rules/switch-exhaustiveness-check/) | [specific/typescript](specific/typescript/README.md) | 2026-10-25 |
 | 7 | [Unicode CLDR, Language plural rules](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html) | [general/localization](general/localization.md) | 2026-10-26 |
+| 7 | [Unicode Consortium, ICU User Guide](https://unicode-org.github.io/icu/userguide/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Unicode Consortium, MessageFormat 2](https://messageformat.unicode.org/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [Unity Addressables, overview](https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 7 | [Unity Boss Room multiplayer sample](https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
@@ -1851,6 +1850,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Unity, How to architect code as your project scales](https://unity.com/how-to/how-architect-code-your-project-scales) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/testing](specific/unity/testing.md) | 2026-10-24 |
 | 7 | [Unity, Localization package manual (1.5)](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html) | [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-26 |
 | 7 | [Unity, Netcode for GameObjects: Connection approval](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@3.1/manual/basics/connection-approval.html) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [Unity, Render pipelines strategy for 2026](https://unity.com/topics/render-pipelines-strategy-for-2026) | [specific/unity/rendering](specific/unity/rendering.md) | 2026-10-31 |
 | 7 | [Unity, ScriptableObject event channels](https://unity.com/how-to/scriptableobjects-event-channels-game-code) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unity, Separate game data and logic with ScriptableObjects](https://unity.com/how-to/separate-game-data-logic-scriptable-objects) | [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 7 | [Unreal Engine, Automation Test Framework: test design guidelines](https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine#test-design-guidelines) | [specific/unreal/testing](specific/unreal/testing.md) | 2026-11-01 |
@@ -1938,6 +1938,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [W3C, Understanding WCAG 2.2 SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [W3C, Understanding WCAG 2.2 SC 2.3.1 Three Flashes or Below Threshold](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [W3C, Understanding WCAG 2.2 SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, WebGPU (Candidate Recommendation Draft)](https://www.w3.org/TR/webgpu/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [W3C, Working with Time and Timezones (Group Draft Note)](https://www.w3.org/TR/timezone/) | [general/localization](general/localization.md) | 2026-10-26 |
 | 7 | [web.dev, Baseline](https://web.dev/baseline) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [web.dev, Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading) | [specific/web](specific/web/README.md) | 2026-10-25 |
@@ -2161,9 +2162,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Expo Router, Protected routes](https://docs.expo.dev/router/advanced/protected/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo Router, Typed routes](https://docs.expo.dev/router/reference/typed-routes/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo, Configure with app config](https://docs.expo.dev/workflow/configuration/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 6 | [Expo, EAS Update: Rollbacks](https://docs.expo.dev/eas-update/rollbacks/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 6 | [Expo, EAS Update: Rollouts](https://docs.expo.dev/eas-update/rollouts/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
-| 6 | [Expo, End-to-end code signing with EAS Update](https://docs.expo.dev/eas-update/code-signing/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, End-to-end code signing with Expo Update](https://docs.expo.dev/eas-update/code-signing/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Expo Update: Rollbacks](https://docs.expo.dev/eas-update/rollbacks/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
+| 6 | [Expo, Expo Update: Rollouts](https://docs.expo.dev/eas-update/rollouts/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo, New Architecture: Validate your dependencies with React Native Directory](https://docs.expo.dev/guides/new-architecture/#validate-your-dependencies-with-react-native-directory) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo, React Compiler](https://docs.expo.dev/guides/react-compiler/) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
 | 6 | [Expo, React Compiler: Enabling the linter](https://docs.expo.dev/guides/react-compiler/#enabling-the-linter) | [specific/react-native](specific/react-native/README.md) | 2026-11-01 |
@@ -2300,6 +2301,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Go wiki, Go Modules: Should I commit my go.sum file?](https://go.dev/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Go wiki, TableDrivenTests](https://go.dev/wiki/TableDrivenTests) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Go wiki, Use a sync.Mutex or a channel?](https://go.dev/wiki/MutexOrChannel) | [specific/go](specific/go/README.md) | 2026-11-01 |
+| 6 | [Go, A Tour of Go](https://go.dev/tour/) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Go, Canceling in-progress operations](https://go.dev/doc/database/cancel-operations) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Go, Effective Go: Recover](https://go.dev/doc/effective_go#recover) | [specific/go](specific/go/README.md) | 2026-11-01 |
 | 6 | [Go, Effective Go: Share by communicating](https://go.dev/doc/effective_go#sharing) | [specific/go](specific/go/README.md) | 2026-11-01 |

@@ -7,11 +7,11 @@ Scope: desktop apps for Windows, macOS and Linux whose user interface is a web f
 
 ## Adopted references
 
-- `10` [Security](https://www.electronjs.org/docs/latest/tutorial/security) (Electron): **the baseline for Electron apps.** The official checklist of 20 security recommendations, from context isolation, the sandbox and a Content Security Policy to navigation limits, IPC sender validation, custom protocols and fuses.
-- `10` [Security](https://v2.tauri.app/security/) (Tauri): **the baseline for Tauri apps.** Trust boundaries between the Rust core and the WebView, permissions, command scopes, capabilities, runtime authority, the CSP, the isolation pattern, and threats across the application lifecycle.
+- `9` [Security](https://www.electronjs.org/docs/latest/tutorial/security) (Electron): **the baseline for Electron apps.** The official checklist of 20 security recommendations, from context isolation, the sandbox and a Content Security Policy to navigation limits, IPC sender validation, custom protocols and fuses.
+- `8` [Security](https://v2.tauri.app/security/) (Tauri): **the baseline for Tauri apps.** Trust boundaries between the Rust core and the WebView, permissions, command scopes, capabilities, runtime authority, the CSP, the isolation pattern, and threats across the application lifecycle.
 - `8` [Process Model](https://www.electronjs.org/docs/latest/tutorial/process-model) (Electron): the main process, renderer processes, preload scripts and utility processes, and what each one may do.
 - `8` [Inter-Process Communication](https://www.electronjs.org/docs/latest/tutorial/ipc) (Electron): the IPC patterns between renderer and main process, exposed through a preload script and `contextBridge`.
-- `8` [Capabilities](https://v2.tauri.app/security/capabilities/) (Tauri): granting and denying permissions to windows and webviews, per platform, and what capabilities do and don't protect against.
+- `7` [Capabilities](https://v2.tauri.app/security/capabilities/) (Tauri): granting and denying permissions to windows and webviews, per platform, and what capabilities do and don't protect against.
 - `7` [Electron Forge](https://www.electronforge.io/): the Electron project's all-in-one tool for packaging, code signing, creating installers and publishing apps, which combines Electron's first-party tools into one build pipeline.
 - `7` [Distribute](https://v2.tauri.app/distribute/) (Tauri): building, bundling, versioning, signing and distributing Tauri apps for each platform and store.
 - `7` [Performance](https://www.electronjs.org/docs/latest/tutorial/performance) (Electron): a checklist for fast Electron apps, from choosing modules and loading code late to not blocking the main process and bundling code.

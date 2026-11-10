@@ -7,11 +7,11 @@ Scope: SQLite embedded in an application as its local database or file format: m
 
 ## Adopted references
 
-- `10` [SQLite Documentation](https://www.sqlite.org/docs.html) (SQLite): **the baseline.** The SQL dialect, the C interface, pragmas, file format, locking, transactions and the technical notes on using SQLite well.
+- `9` [SQLite Documentation](https://www.sqlite.org/docs.html) (SQLite): **the baseline.** The SQL dialect, the C interface, pragmas, file format, locking, transactions and the technical notes on using SQLite well.
 - `8` [Appropriate Uses For SQLite](https://www.sqlite.org/whentouse.html) (SQLite): where SQLite works well, where a client/server database works better, and a checklist for choosing between them.
 - `8` [How To Corrupt An SQLite Database File](https://www.sqlite.org/howtocorrupt.html) (SQLite): the ways databases get corrupted in practice, such as copying files during a transaction, deleting journals, broken file locking and disabled syncs, and how to avoid each one.
-- `8` [Pragma statements supported by SQLite](https://www.sqlite.org/pragma.html) (SQLite): the settings for each connection and database, such as `foreign_keys`, `journal_mode`, `synchronous`, `busy_timeout`, `user_version`, `optimize` and `integrity_check`.
 - `8` [Defense Against The Dark Arts](https://www.sqlite.org/security.html) (SQLite): precautions for applications that run untrusted SQL or open database files of uncertain origin.
+- `7` [Pragma statements supported by SQLite](https://www.sqlite.org/pragma.html) (SQLite): the settings for each connection and database, such as `foreign_keys`, `journal_mode`, `synchronous`, `busy_timeout`, `user_version`, `optimize` and `integrity_check`.
 - `7` [Quirks, Caveats, and Gotchas In SQLite](https://www.sqlite.org/quirks.html) (SQLite): where SQLite differs from other SQL databases, such as flexible typing, foreign keys being off by default, and primary keys that can contain NULLs.
 - `7` [Write-Ahead Logging](https://www.sqlite.org/wal.html) (SQLite): how WAL mode works, its advantages and limits, checkpoints and WAL file growth.
 - `7` [Best practices for SQLite performance](https://developer.android.com/topic/performance/sqlite-performance-best-practices) (Android Developers): WAL, synchronous mode, indexes, transactions and connection handling for SQLite on Android.

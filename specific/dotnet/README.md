@@ -7,7 +7,7 @@ Scope: back-end services, web APIs, web apps and worker services on modern .NET.
 
 ## Adopted references
 
-- `10` [.NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) (Microsoft): **the baseline.** A hub of free e-books, including:
+- `9` [.NET Architecture Guides](https://learn.microsoft.com/en-us/dotnet/architecture/) (Microsoft): **the baseline.** A hub of free e-books, including:
   - `9` [Architect Modern Web Applications with ASP.NET Core and Azure](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/): monolithic and Clean Architecture web apps.
   - `8` [.NET Microservices: Architecture for Containerized .NET Applications](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/): DDD, CQRS and microservices in .NET.
   - `6` [Architecting Cloud Native .NET Applications for Azure](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/).

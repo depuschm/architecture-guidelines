@@ -8,7 +8,7 @@ Scope: games and apps built with Godot 4, mainly in GDScript. Documentation link
 
 The Godot documentation has an official best practices section. **Follow it as the baseline.** The files below add only points that are easy to miss and choices the documentation leaves open.
 
-- `10` [Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) (Godot docs): **the baseline.** Scene organization, scenes versus scripts, autoloads versus regular nodes, interfaces, notifications, data and logic preferences, project organization and version control.
+- `9` [Best practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html) (Godot docs): **the baseline.** Scene organization, scenes versus scripts, autoloads versus regular nodes, interfaces, notifications, data and logic preferences, project organization and version control.
 
 ## Guidelines in this folder
 

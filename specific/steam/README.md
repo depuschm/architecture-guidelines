@@ -7,7 +7,7 @@ Scope: architecture concerns specific to shipping and running a game on Steam an
 
 ## Adopted references
 
-- `10` [Steamworks Documentation](https://partner.steamgames.com/doc/home) (Valve): **the baseline**: the release process, SteamPipe builds and branches, Steamworks features such as Steam Cloud, stats and achievements, Steam Input and microtransactions, the Web API, and the compatibility program for Steam hardware.
+- `9` [Steamworks Documentation](https://partner.steamgames.com/doc/home) (Valve): **the baseline**: the release process, SteamPipe builds and branches, Steamworks features such as Steam Cloud, stats and achievements, Steam Input and microtransactions, the Web API, and the compatibility program for Steam hardware.
 - `8` [Uploading to Steam](https://partner.steamgames.com/doc/sdk/uploading) (Steamworks): SteamPipe depots, `app_build` and `depot_build` scripts, build accounts, uploads from CI with `steamcmd`, and content layouts that keep patches small. [Testing on Steam](https://partner.steamgames.com/doc/store/testing) covers testing builds before they reach players.
 - `8` [Steam Deck and Steam Machine Compatibility Review](https://partner.steamgames.com/doc/steamhardware/compat) (Steamworks): the Verified, Playable and Unsupported ratings and the checklist behind them, with Valve's non-blocking [recommendations](https://partner.steamgames.com/doc/steamhardware/recommendations) for input, graphics, saves, offline play and launchers.
 - `8` [User Authentication and Ownership](https://partner.steamgames.com/doc/features/auth) (Steamworks): session tickets, Encrypted Application Tickets, OpenID and ownership checks between game clients, game servers and backends.

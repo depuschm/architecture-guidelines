@@ -7,14 +7,14 @@ Scope: web apps, mobile apps and games whose clients read and write Firebase dir
 
 ## Adopted references
 
-- `10` [Firebase security checklist](https://firebase.google.com/support/guides/security-checklist): **the baseline.** Abusive traffic, API keys, Security Rules, Authentication, Cloud Functions, environments and libraries.
-- `9` [Firebase launch checklist](https://firebase.google.com/support/guides/launch-checklist): what to check before going to production: emulator testing, App Check, budget alerts and spend caps, project protection and access, and the settings of each product you use.
-- `9` [Firebase Security Rules](https://firebase.google.com/docs/rules): how rules protect Firestore, Realtime Database and Cloud Storage, the rules language, conditions, Authentication, and managing, deploying and testing rules.
+- `9` [Firebase security checklist](https://firebase.google.com/support/guides/security-checklist): **the baseline.** Abusive traffic, API keys, Security Rules, Authentication, Cloud Functions, environments and libraries.
+- `8` [Firebase launch checklist](https://firebase.google.com/support/guides/launch-checklist): what to check before going to production: emulator testing, App Check, budget alerts and spend caps, project protection and access, and the settings of each product you use.
+- `8` [Firebase Security Rules](https://firebase.google.com/docs/rules): how rules protect Firestore, Realtime Database and Cloud Storage, the rules language, conditions, Authentication, and managing, deploying and testing rules.
 - `8` [Avoid insecure rules](https://firebase.google.com/docs/rules/insecure-rules): the common insecure configurations, such as open access and access for any signed-in user, and how to fix them.
 - `8` [General best practices for setting up Firebase projects](https://firebase.google.com/docs/projects/dev-workflows/general-best-practices): how projects, apps and resources relate, which app variants share a project, and why to avoid putting unrelated apps in one project.
-- `8` [Learn about and manage API keys for Firebase](https://firebase.google.com/docs/projects/api-keys): why Firebase API keys aren't secret, how to restrict them, and when to use separate keys.
-- `8` [Firebase App Check](https://firebase.google.com/docs/app-check): the attestation providers for each platform, the products App Check protects, request metrics and enforcement.
 - `8` [Best practices for Cloud Firestore](https://firebase.google.com/docs/firestore/best-practices): database location, document IDs, index exemptions, reads and writes, and designing for scale without hotspots.
+- `7` [Learn about and manage API keys for Firebase](https://firebase.google.com/docs/projects/api-keys): why Firebase API keys aren't secret, how to restrict them, and when to use separate keys.
+- `7` [Firebase App Check](https://firebase.google.com/docs/app-check): the attestation providers for each platform, the products App Check protects, request metrics and enforcement.
 - `7` [Understand Cloud Firestore billing](https://firebase.google.com/docs/firestore/pricing): what counts as a read, write and delete, including listeners, offsets, aggregation queries and documents that Security Rules read.
 - `7` [Avoid surprise bills](https://firebase.google.com/docs/projects/billing/avoid-surprise-bills): testing locally, usage dashboards, alert-only budgets and spend cap budgets.
 - `7` [Introduction to Firebase Local Emulator Suite](https://firebase.google.com/docs/emulator-suite): local emulators for Firestore, Realtime Database, Cloud Storage, Authentication, Hosting and Cloud Functions, for development, testing and CI.

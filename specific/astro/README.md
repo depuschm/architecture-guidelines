@@ -7,10 +7,10 @@ Scope: content-driven websites and web apps built with Astro, following the curr
 
 ## Adopted references
 
-- `10` [Astro Docs](https://docs.astro.build/en/getting-started/): **the baseline.** Project structure, components, routing, on-demand rendering, server islands, actions, middleware, sessions, content collections, images, environment variables, view transitions, testing and the configuration reference.
+- `9` [Astro Docs](https://docs.astro.build/en/getting-started/): **the baseline.** Project structure, components, routing, on-demand rendering, server islands, actions, middleware, sessions, content collections, images, environment variables, view transitions, testing and the configuration reference.
 - `8` [Islands architecture](https://docs.astro.build/en/concepts/islands/) (Astro Docs): the core concept: static HTML by default, client islands that ship JavaScript only for interactive components, and server islands for dynamic or personalized parts of a page.
 - `8` [On-demand rendering](https://docs.astro.build/en/guides/on-demand-rendering/) (Astro Docs): adapters, prerendering by default, opting routes out of prerendering, `'server'` output, HTML streaming, cookies and responses.
-- `8` [Content collections](https://docs.astro.build/en/guides/content-collections/) (Astro Docs): build-time and live collections, loaders, Zod schemas, references between collections, querying and generating routes from content.
+- `7` [Content collections](https://docs.astro.build/en/guides/content-collections/) (Astro Docs): build-time and live collections, loaders, Zod schemas, references between collections, querying and generating routes from content.
 - `7` [Actions](https://docs.astro.build/en/guides/actions/) (Astro Docs): type-safe backend functions with input validation, errors, form actions, and security for actions.
 - `7` [Using environment variables](https://docs.astro.build/en/guides/environment-variables/) (Astro Docs): Vite's `PUBLIC_` prefix and the type-safe `astro:env` schema with client, server and secret variables.
 - `7` [Upgrade to Astro v7](https://docs.astro.build/en/guides/upgrade-to/v7/) (Astro Docs): the breaking changes in Astro 7, such as Vite 8, the Rust compiler, stable route caching and the new Markdown processor, with an upgrade command.

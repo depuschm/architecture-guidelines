@@ -7,7 +7,7 @@ Scope: designing exchanges, queues, publishers and consumers for RabbitMQ 4.x, f
 
 ## Adopted references
 
-- `10` [RabbitMQ documentation](https://www.rabbitmq.com/docs) (RabbitMQ 4.4): **the baseline.** The guides on queue types, publishers, consumers, acknowledgements and confirms, dead lettering, access control, TLS and monitoring matter most for application work.
+- `9` [RabbitMQ documentation](https://www.rabbitmq.com/docs) (RabbitMQ 4.4): **the baseline.** The guides on queue types, publishers, consumers, acknowledgements and confirms, dead lettering, access control, TLS and monitoring matter most for application work.
 - `8` [Production Deployment Guidelines](https://www.rabbitmq.com/docs/production-checklist) (RabbitMQ docs): the production checklist for storage, virtual hosts and users, resource limits, security, cluster size, and connection management in applications. **Go through it before going live.**
 - `8` [Reliability Guide](https://www.rabbitmq.com/docs/reliability) (RabbitMQ docs): what can fail, and how publisher confirms, acknowledgements, heartbeats, clustering and replicated queues protect messages on the publisher, broker and consumer sides.
 - `8` [Consumer Acknowledgements and Publisher Confirms](https://www.rabbitmq.com/docs/confirms) (RabbitMQ docs): acknowledgement modes, requeueing, prefetch and its effect on throughput, and when the broker confirms a published message.

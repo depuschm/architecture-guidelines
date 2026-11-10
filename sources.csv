@@ -1,46 +1,25 @@
 score,title,url,verified
 10,"Android, Guide to app architecture",https://developer.android.com/topic/architecture,2026-10-24
-10,"Angular, Documentation",https://angular.dev/overview,2026-11-01
-10,"Apache Kafka, Documentation (4.3)",https://kafka.apache.org/43/,2026-10-25
-10,Astro Docs,https://docs.astro.build/en/getting-started/,2026-11-01
 10,AWS Well-Architected Framework,https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html,2026-10-24
 10,Azure Well-Architected Framework,https://learn.microsoft.com/en-us/azure/well-architected/,2026-10-24
 10,Dockerfile best practices,https://docs.docker.com/build/building/best-practices/,2026-10-24
-10,"Electron, Security",https://www.electronjs.org/docs/latest/tutorial/security,2026-11-01
-10,"Firebase, Firebase security checklist",https://firebase.google.com/support/guides/security-checklist,2026-11-01
 10,Flutter app architecture,https://docs.flutter.dev/app-architecture,2026-10-24
-10,"Godot docs, Best practices",https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html,2026-10-25
 10,Google Cloud Well-Architected Framework,https://docs.cloud.google.com/architecture/framework,2026-10-24
 10,"GraphQL Foundation, Learn GraphQL",https://graphql.org/learn/,2026-10-25
 10,"HashiCorp, Terraform style guide",https://developer.hashicorp.com/terraform/language/style,2026-10-25
-10,"Laravel, Documentation",https://laravel.com/framework/docs,2026-11-01
 10,Level up your code with design patterns and SOLID (Unity e-book),https://unity.com/resources/design-patterns-solid-ebook,2026-10-24
-10,"Microsoft, .NET Architecture Guides",https://learn.microsoft.com/en-us/dotnet/architecture/,2026-10-24
-10,"MongoDB, Database Manual",https://www.mongodb.com/docs/manual/,2026-11-01
-10,"Next.js, App Router documentation",https://nextjs.org/docs/app,2026-10-25
 10,"NIST, SP 800-63B-4, Authentication and Authenticator Management",https://pages.nist.gov/800-63-4/sp800-63b.html,2026-10-25
 10,OWASP Application Security Verification Standard (ASVS),https://asvs.owasp.org/,2026-10-24
-10,"PostgreSQL, PostgreSQL Documentation",https://www.postgresql.org/docs/current/,2026-10-25
-10,"RabbitMQ, Documentation (4.4)",https://www.rabbitmq.com/docs,2026-10-25
 10,react.dev: Learn React,https://react.dev/learn,2026-10-24
-10,"Spring Boot, Reference documentation",https://docs.spring.io/spring-boot/reference/index.html,2026-11-01
-10,"SQLite, SQLite Documentation",https://www.sqlite.org/docs.html,2026-11-01
-10,"Supabase Docs, Production Checklist",https://supabase.com/docs/guides/deployment/going-into-prod,2026-11-01
-10,"Svelte, Documentation",https://svelte.dev/docs/svelte/overview,2026-10-25
-10,"SvelteKit, Documentation",https://svelte.dev/docs/kit/introduction,2026-10-25
-10,"Tauri, Security",https://v2.tauri.app/security/,2026-11-01
 10,The C4 model,https://c4model.com/,2026-10-24
-10,"Valve, Steamworks Documentation",https://partner.steamgames.com/doc/home,2026-11-01
-10,"Vue.js, Guide",https://vuejs.org/guide/introduction.html,2026-10-25
 10,"W3C, Web Content Accessibility Guidelines (WCAG) 2.2",https://www.w3.org/TR/WCAG22/,2026-10-25
-9,"Agones, Documentation",https://agones.dev/site/docs/,2026-11-01
-9,"Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html,2026-11-01
 9,"Android, Recommendations for Android architecture",https://developer.android.com/topic/architecture/recommendations,2026-10-24
-9,"Angular, Coding style guide",https://angular.dev/style-guide,2026-11-01
-9,"Apple Developer Documentation, SwiftUI",https://developer.apple.com/documentation/swiftui,2026-11-01
+9,"Angular, Documentation",https://angular.dev/overview,2026-11-01
+9,"Apache Kafka, Documentation (4.3)",https://kafka.apache.org/43/,2026-10-25
 9,"Apple, App Review Guidelines",https://developer.apple.com/app-store/review/guidelines/,2026-10-25
 9,arc42,https://arc42.org/overview,2026-10-24
 9,Architect Modern Web Applications with ASP.NET Core and Azure,https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/,2026-10-24
+9,Astro Docs,https://docs.astro.build/en/getting-started/,2026-11-01
 9,AWS Builders' Library,https://builder.aws.com/learn/topics/builders-library,2026-10-25
 9,Azure Architecture Center: architecture styles,https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/,2026-10-24
 9,Azure cloud design patterns,https://learn.microsoft.com/en-us/azure/architecture/patterns/,2026-10-24
@@ -48,35 +27,35 @@ score,title,url,verified
 9,"Create modular game architecture with ScriptableObjects (Unity e-book, Unity 6 edition)",https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6,2026-10-24
 9,DORA research program,https://dora.dev/,2026-10-24
 9,"EDPB, Guidelines 4/2019 on Article 25 Data Protection by Design and by Default",https://www.edpb.europa.eu/documents/guideline/guidelines-42019-on-article-25-data-protection-by-design-and-by-default_en,2026-10-26
+9,"Electron, Security",https://www.electronjs.org/docs/latest/tutorial/security,2026-11-01
 9,"Epic Games, Epic C++ Coding Standard for Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine,2026-10-25
 9,"Epic Games, Gameplay Framework in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine,2026-10-25
 9,"ETSI, CEN and CENELEC, EN 301 549 V4.1.1 Accessibility requirements for ICT products and services",https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf,2026-11-01
 9,"EUR-Lex, Regulation (EU) 2016/679, General Data Protection Regulation (GDPR)",https://eur-lex.europa.eu/eli/reg/2016/679/oj,2026-10-26
 9,"Evans, DDD Reference",https://www.domainlanguage.com/ddd/reference/,2026-10-24
-9,"Expo documentation, Develop an app with Expo",https://docs.expo.dev/workflow/overview/,2026-11-01
-9,"Firebase, Firebase launch checklist",https://firebase.google.com/support/guides/launch-checklist,2026-11-01
-9,"Firebase, Firebase Security Rules",https://firebase.google.com/docs/rules,2026-11-01
+9,"Firebase, Firebase security checklist",https://firebase.google.com/support/guides/security-checklist,2026-11-01
 9,"Flutter, Architecture recommendations",https://docs.flutter.dev/app-architecture/recommendations,2026-10-24
 9,"Flutter, Guide to app architecture",https://docs.flutter.dev/app-architecture/guide,2026-10-24
 9,"Fowler, Software Architecture Guide",https://martinfowler.com/architecture/,2026-10-24
 9,"GitHub, Secure use reference (GitHub Actions)",https://docs.github.com/en/actions/reference/security/secure-use,2026-10-25
+9,"Godot docs, Best practices",https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html,2026-10-25
 9,Google API Improvement Proposals (AIPs),https://google.aip.dev/,2026-10-24
 9,"Google Cloud, Enterprise foundations blueprint",https://docs.cloud.google.com/architecture/blueprints/security-foundations,2026-10-25
 9,"Google SRE book, Service Level Objectives",https://sre.google/sre-book/service-level-objectives/,2026-10-24
 9,Google SRE books,https://sre.google/books/,2026-10-24
-9,"Google, Go Style",https://google.github.io/styleguide/go/,2026-11-01
 9,"GraphQL Foundation, GraphQL Specification (September 2025)",https://spec.graphql.org/September2025/,2026-10-25
 9,IAM security best practices,https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html,2026-10-24
 9,"IETF, RFC 9700: Best Current Practice for OAuth 2.0 Security",https://www.rfc-editor.org/rfc/rfc9700.html,2026-10-25
 9,"Introduction to URP for advanced creators (Unity e-book, Unity 6 edition)",https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6,2026-10-31
 9,"Kubernetes, Security checklist",https://kubernetes.io/docs/concepts/security/security-checklist/,2026-10-24
+9,"Laravel, Documentation",https://laravel.com/framework/docs,2026-11-01
 9,"Lewis and Fowler, Microservices",https://martinfowler.com/articles/microservices.html,2026-10-24
 9,MADR: Markdown Architectural Decision Records,https://adr.github.io/madr/,2026-10-24
-9,"Microsoft Learn, Globalization documentation",https://learn.microsoft.com/en-us/globalization/,2026-10-26
+9,"Microsoft, .NET Architecture Guides",https://learn.microsoft.com/en-us/dotnet/architecture/,2026-10-24
 9,"Microsoft, ASP.NET Core best practices",https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices,2026-10-24
 9,"Microsoft, Cloud Adoption Framework: What is an Azure landing zone?",https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/,2026-10-25
-9,"MongoDB, Atlas Architecture Center",https://www.mongodb.com/docs/atlas/architecture/current/,2026-11-01
-9,"MongoDB, Data Modeling in MongoDB",https://www.mongodb.com/docs/manual/data-modeling/,2026-11-01
+9,"MongoDB, Database Manual",https://www.mongodb.com/docs/manual/,2026-11-01
+9,"Next.js, App Router documentation",https://nextjs.org/docs/app,2026-10-25
 9,"Next.js, How to think about data security in Next.js",https://nextjs.org/docs/app/guides/data-security,2026-10-25
 9,"Node.js, Don't Block the Event Loop (or the Worker Pool)",https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop,2026-10-25
 9,"Node.js, Security Best Practices",https://nodejs.org/learn/getting-started/security-best-practices,2026-10-25
@@ -92,14 +71,18 @@ score,title,url,verified
 9,"OWASP, ASVS 5.0, V7 Session Management",https://github.com/OWASP/ASVS/blob/master/5.0/en/0x16-V7-Session-Management.md,2026-10-25
 9,"OWASP, Cross Site Scripting Prevention Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html,2026-10-25
 9,"OWASP, Mobile Application Security Verification Standard (MASVS)",https://mas.owasp.org/MASVS/,2026-11-01
+9,"PostgreSQL, PostgreSQL Documentation",https://www.postgresql.org/docs/current/,2026-10-25
 9,"PyPA, Python Packaging User Guide",https://packaging.python.org/en/latest/,2026-10-25
+9,"RabbitMQ, Documentation (4.4)",https://www.rabbitmq.com/docs,2026-10-25
 9,"React Native, documentation (Introduction)",https://reactnative.dev/docs/getting-started,2026-11-01
 9,"Redis, Manage Redis",https://redis.io/docs/latest/operate/oss_and_stack/management/,2026-10-25
 9,"RFC 9110, HTTP Semantics",https://www.rfc-editor.org/rfc/rfc9110.html,2026-10-24
 9,Rules of React,https://react.dev/reference/rules,2026-10-24
-9,"Spring Security, Reference documentation",https://docs.spring.io/spring-security/reference/index.html,2026-11-01
-9,"Supabase Docs, Row Level Security",https://supabase.com/docs/guides/database/postgres/row-level-security,2026-11-01
+9,"Spring Boot, Reference documentation",https://docs.spring.io/spring-boot/reference/index.html,2026-11-01
+9,"SQLite, SQLite Documentation",https://www.sqlite.org/docs.html,2026-11-01
 9,"Svelte, Best practices",https://svelte.dev/docs/svelte/best-practices,2026-10-25
+9,"Svelte, Documentation",https://svelte.dev/docs/svelte/overview,2026-10-25
+9,"SvelteKit, Documentation",https://svelte.dev/docs/kit/introduction,2026-10-25
 9,The Twelve-Factor App,https://12factor.net/,2026-10-24
 9,Thinking in React,https://react.dev/learn/thinking-in-react,2026-10-24
 9,"TypeScript, The TypeScript Handbook",https://www.typescriptlang.org/docs/handbook/intro.html,2026-10-25
@@ -107,33 +90,34 @@ score,title,url,verified
 9,Ultimate guide to profiling Unity games (Unity e-book),https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6,2026-10-24
 9,"Unicode Consortium, Unicode CLDR Project",https://cldr.unicode.org/,2026-10-26
 9,"Unity Manual, Best practice guides",https://docs.unity3d.com/Manual/best-practice-guides.html,2026-10-24
+9,"Valve, Steamworks Documentation",https://partner.steamgames.com/doc/home,2026-11-01
 9,"Vocke, The Practical Test Pyramid",https://martinfowler.com/articles/practical-test-pyramid.html,2026-10-24
+9,"Vue.js, Guide",https://vuejs.org/guide/introduction.html,2026-10-25
 9,"Vue.js, Style Guide",https://vuejs.org/style-guide/,2026-10-25
 9,"W3C WAI, ARIA Authoring Practices Guide (APG)",https://www.w3.org/WAI/ARIA/apg/,2026-10-25
 9,"YoYo Games, GameMaker Manual (LTS)",https://manual.gamemaker.io/lts/en/Content.htm,2026-11-01
 9,Zalando RESTful API Guidelines,https://opensource.zalando.com/restful-api-guidelines/,2026-10-24
 8,.NET Microservices: Architecture for Containerized .NET Applications,https://learn.microsoft.com/en-us/dotnet/architecture/microservices/,2026-10-24
+8,"Agones, Documentation",https://agones.dev/site/docs/,2026-11-01
 8,"AIP-121, Resource-oriented design",https://google.aip.dev/121,2026-10-24
 8,"AIP-180, Backwards compatibility",https://google.aip.dev/180,2026-10-24
-8,"Amazon GameLift Servers, Add Amazon GameLift Servers to your game server with the server SDK",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html,2026-11-01
-8,"Amazon GameLift Servers, Prepare for launch with Amazon GameLift Servers hosting",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html,2026-11-01
+8,"Amazon GameLift Servers, Hosting Guide: What is Amazon GameLift Servers?",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-intro.html,2026-11-01
 8,Android Basics with Compose (course),https://developer.android.com/courses/android-basics-compose/course,2026-10-24
 8,"Android Developers, Play Billing: Fight fraud and abuse",https://developer.android.com/google/play/billing/security,2026-10-25
 8,"Android, Best practices for coroutines",https://developer.android.com/kotlin/coroutines/coroutines-best-practices,2026-10-24
 8,"Android, Data layer",https://developer.android.com/topic/architecture/data-layer,2026-10-24
 8,"Android, Guide to app modularization",https://developer.android.com/topic/modularization,2026-10-24
 8,"Android, UI layer",https://developer.android.com/topic/architecture/ui-layer,2026-10-24
+8,"Angular, Coding style guide",https://angular.dev/style-guide,2026-11-01
 8,"Angular, Security",https://angular.dev/best-practices/security,2026-11-01
 8,"Angular, Server-side and hybrid rendering",https://angular.dev/guide/ssr,2026-11-01
-8,"Angular, Signals",https://angular.dev/guide/signals,2026-11-01
 8,"Apache Kafka, Design",https://kafka.apache.org/43/design/design/,2026-10-25
 8,"Apple Developer Documentation, Managing model data in your app",https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app,2026-11-01
-8,"Apple Developer Documentation, SwiftUI: Model data",https://developer.apple.com/documentation/swiftui/model-data,2026-11-01
+8,"Apple Developer Documentation, SwiftUI",https://developer.apple.com/documentation/swiftui,2026-11-01
 8,"Apple, Human Interface Guidelines",https://developer.apple.com/design/human-interface-guidelines/,2026-11-01
 8,arc42 documentation,https://docs.arc42.org/home/,2026-10-24
 8,arc42 Quality Model,https://quality.arc42.org/,2026-10-24
 8,"Arm, GPU Best Practices Developer Guide (issue 10, PDF)",https://documentation-service.arm.com/static/67a62b17091bfc3e0a947695,2026-10-31
-8,"Astro Docs, Content collections",https://docs.astro.build/en/guides/content-collections/,2026-11-01
 8,"Astro Docs, Islands architecture",https://docs.astro.build/en/concepts/islands/,2026-11-01
 8,"Astro Docs, On-demand rendering",https://docs.astro.build/en/guides/on-demand-rendering/,2026-11-01
 8,"AWS Builders' Library, Caching challenges and strategies",https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies,2026-10-25
@@ -173,15 +157,13 @@ score,title,url,verified
 8,"Epic Games, Unreal Object Handling in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-object-handling-in-unreal-engine,2026-10-25
 8,eShop reference application,https://github.com/dotnet/eShop,2026-10-24
 8,"EUR-Lex, Directive (EU) 2019/882, the European Accessibility Act",https://eur-lex.europa.eu/eli/dir/2019/882/oj,2026-11-01
-8,"European Commission, Data protection: information for business and organisations",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en,2026-10-26
 8,"Evans, Domain-Driven Design (book)",https://www.domainlanguage.com/ddd/,2026-10-24
-8,"Expo Router, Introduction",https://docs.expo.dev/router/introduction/,2026-11-01
-8,"Expo, EAS Update",https://docs.expo.dev/eas-update/introduction/,2026-11-01
+8,"Expo documentation, Develop an app with Expo",https://docs.expo.dev/workflow/overview/,2026-11-01
 8,"Firebase, Avoid insecure rules",https://firebase.google.com/docs/rules/insecure-rules,2026-11-01
 8,"Firebase, Best practices for Cloud Firestore",https://firebase.google.com/docs/firestore/best-practices,2026-11-01
-8,"Firebase, Firebase App Check",https://firebase.google.com/docs/app-check,2026-11-01
+8,"Firebase, Firebase launch checklist",https://firebase.google.com/support/guides/launch-checklist,2026-11-01
+8,"Firebase, Firebase Security Rules",https://firebase.google.com/docs/rules,2026-11-01
 8,"Firebase, General best practices for setting up Firebase projects",https://firebase.google.com/docs/projects/dev-workflows/general-best-practices,2026-11-01
-8,"Firebase, Learn about and manage API keys for Firebase",https://firebase.google.com/docs/projects/api-keys,2026-11-01
 8,"Fowler (David), ASP.NET Core async guidance",https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md,2026-10-24
 8,"Fowler, Bounded Context",https://martinfowler.com/bliki/BoundedContext.html,2026-10-24
 8,"Fowler, Circuit Breaker",https://martinfowler.com/bliki/CircuitBreaker.html,2026-10-24
@@ -205,7 +187,6 @@ score,title,url,verified
 8,"Go wiki, Go Code Review Comments",https://go.dev/wiki/CodeReviewComments,2026-11-01
 8,"Go, Go Modules Reference",https://go.dev/ref/mod,2026-11-01
 8,"Go, Organizing a Go module",https://go.dev/doc/modules/layout,2026-11-01
-8,"Go, Security Best Practices for Go Developers",https://go.dev/doc/security/best-practices,2026-11-01
 8,"Godot docs, Exporting for the Web",https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html,2026-11-01
 8,"Godot docs, GDScript style guide",https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html,2026-10-25
 8,"Godot docs, Scene organization",https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html,2026-10-25
@@ -221,6 +202,7 @@ score,title,url,verified
 8,"Google SRE book, Embracing Risk",https://sre.google/sre-book/embracing-risk/,2026-10-24
 8,"Google SRE book, Monitoring Distributed Systems",https://sre.google/sre-book/monitoring-distributed-systems/,2026-10-24
 8,"Google SRE book, table of contents",https://sre.google/sre-book/table-of-contents/,2026-10-24
+8,"Google, Go Style",https://google.github.io/styleguide/go/,2026-11-01
 8,"Google, Go Style Best Practices",https://google.github.io/styleguide/go/best-practices,2026-11-01
 8,"Google, Go Style Decisions",https://google.github.io/styleguide/go/decisions,2026-11-01
 8,"Google, Go Style Guide",https://google.github.io/styleguide/go/guide,2026-11-01
@@ -253,6 +235,7 @@ score,title,url,verified
 8,"microservices.io, Transactional outbox",https://microservices.io/patterns/data/transactional-outbox.html,2026-10-24
 8,"Microsoft Azure Architecture Center, Caching guidance",https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching,2026-10-25
 8,"Microsoft Learn, Design software for international markets",https://learn.microsoft.com/en-us/globalization/methodology/international-design,2026-10-26
+8,"Microsoft Learn, Globalization documentation",https://learn.microsoft.com/en-us/globalization/,2026-10-26
 8,Microsoft REST API Guidelines,https://github.com/microsoft/api-guidelines,2026-10-24
 8,"Microsoft, Architectural principles",https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles,2026-10-24
 8,"Microsoft, Azure Well-Architected Framework: Using availability zones and regions",https://learn.microsoft.com/en-us/azure/well-architected/design-guides/regions-availability-zones,2026-10-25
@@ -262,10 +245,10 @@ score,title,url,verified
 8,"Microsoft, Safe storage of app secrets",https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets,2026-10-24
 8,"Microsoft, Threat Modeling Tool threats (STRIDE)",https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats,2026-10-24
 8,"Microsoft, Xbox Accessibility Guidelines",https://learn.microsoft.com/en-us/xbox/accessibility/guidelines,2026-10-25
+8,"MongoDB, Atlas Architecture Center",https://www.mongodb.com/docs/atlas/architecture/current/,2026-11-01
 8,"MongoDB, Best Practices for Data Modeling in MongoDB",https://www.mongodb.com/docs/manual/data-modeling/best-practices/,2026-11-01
+8,"MongoDB, Data Modeling in MongoDB",https://www.mongodb.com/docs/manual/data-modeling/,2026-11-01
 8,"MongoDB, Development Checklist",https://www.mongodb.com/docs/manual/administration/production-checklist-development/,2026-11-01
-8,"MongoDB, Schema Design Anti-Patterns",https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/,2026-11-01
-8,"MongoDB, Schema Design Patterns",https://www.mongodb.com/docs/manual/data-modeling/design-patterns/,2026-11-01
 8,"MongoDB, Security Checklist for Self-Managed Deployments",https://www.mongodb.com/docs/manual/administration/security-checklist/,2026-11-01
 8,"Next.js, Caching (Cache Components)",https://nextjs.org/docs/app/getting-started/caching,2026-10-25
 8,NIST Secure Software Development Framework (SP 800-218),https://csrc.nist.gov/pubs/sp/800/218/final,2026-10-24
@@ -311,33 +294,33 @@ score,title,url,verified
 8,"react.dev, Keeping components pure",https://react.dev/learn/keeping-components-pure,2026-10-24
 8,"react.dev, You might not need an Effect",https://react.dev/learn/you-might-not-need-an-effect,2026-10-24
 8,"RFC 9457, Problem Details for HTTP APIs",https://www.rfc-editor.org/rfc/rfc9457.html,2026-10-24
-8,"RFC 9700, section 2: Best Practices",https://www.rfc-editor.org/rfc/rfc9700.html#section-2,2026-10-25
 8,Semantic Versioning,https://semver.org/,2026-10-24
 8,"Semantic Versioning 2.0.0, Specification",https://semver.org/#semantic-versioning-specification-semver,2026-10-25
 8,Software Engineering at Google,https://abseil.io/resources/swe-book,2026-10-24
 8,"Software Engineering at Google, chapter 16: Version Control and Branch Management",https://abseil.io/resources/swe-book/html/ch16.html,2026-10-25
 8,"Spring Modulith, Reference documentation",https://docs.spring.io/spring-modulith/reference/,2026-11-01
+8,"Spring Security, Reference documentation",https://docs.spring.io/spring-security/reference/index.html,2026-11-01
 8,"SQLite, Appropriate Uses For SQLite",https://www.sqlite.org/whentouse.html,2026-11-01
 8,"SQLite, Defense Against The Dark Arts",https://www.sqlite.org/security.html,2026-11-01
 8,"SQLite, How To Corrupt An SQLite Database File",https://www.sqlite.org/howtocorrupt.html,2026-11-01
-8,"SQLite, Pragma statements supported by SQLite",https://www.sqlite.org/pragma.html,2026-11-01
 8,"SRE workbook, Implementing SLOs",https://sre.google/workbook/implementing-slos/,2026-10-24
 8,Static stability using Availability Zones,https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones,2026-10-25
 8,"Steamworks, Steam Deck and Steam Machine Compatibility Review",https://partner.steamgames.com/doc/steamhardware/compat,2026-11-01
 8,"Steamworks, Uploading to Steam",https://partner.steamgames.com/doc/sdk/uploading,2026-11-01
 8,"Steamworks, User Authentication and Ownership",https://partner.steamgames.com/doc/features/auth,2026-11-01
-8,"Supabase Docs, API keys",https://supabase.com/docs/guides/getting-started/api-keys,2026-11-01
+8,"Supabase Docs, Production Checklist",https://supabase.com/docs/guides/deployment/going-into-prod,2026-11-01
+8,"Supabase Docs, Row Level Security",https://supabase.com/docs/guides/database/postgres/row-level-security,2026-11-01
 8,"Supabase Docs, Securing your API",https://supabase.com/docs/guides/api/securing-your-api,2026-11-01
+8,"Supabase, Production security checklist",https://supabase.com/docs/guides/security/production-checklist,2026-11-10
 8,"SvelteKit, Performance",https://svelte.dev/docs/kit/performance,2026-10-25
 8,"SvelteKit, State management",https://svelte.dev/docs/kit/state-management,2026-10-25
 8,"Swift.org, API Design Guidelines",https://www.swift.org/documentation/api-design-guidelines/,2026-11-01
-8,"Tauri, Capabilities",https://v2.tauri.app/security/capabilities/,2026-11-01
+8,"Tauri, Security",https://v2.tauri.app/security/,2026-11-01
 8,"The Swift Programming Language, Concurrency",https://docs.swift.org/latest/documentation/the-swift-programming-language/concurrency/,2026-11-01
 8,The System Design Primer,https://github.com/donnemartin/system-design-primer,2026-10-24
 8,Threat Modeling Manifesto,https://www.threatmodelingmanifesto.org/,2026-10-24
 8,"Twelve-Factor App, III Config",https://12factor.net/config,2026-10-24
 8,"TypeScript Handbook, Modules",https://www.typescriptlang.org/docs/handbook/modules/introduction.html,2026-10-25
-8,"Unicode Consortium, ICU User Guide",https://unicode-org.github.io/icu/userguide/,2026-10-26
 8,Unity Addressables package manual,https://docs.unity3d.com/Packages/com.unity.addressables@latest/,2026-10-24
 8,"Unity Manual, Assembly definitions",https://docs.unity3d.com/Manual/assembly-definition-files.html,2026-10-24
 8,"Unity Manual, Introduction to assemblies",https://docs.unity3d.com/Manual/assembly-definitions-intro.html,2026-10-24
@@ -348,7 +331,6 @@ score,title,url,verified
 8,Unity Test Framework course,https://docs.unity3d.com/Manual/test-framework/course/overview.html,2026-10-24
 8,"Unity Test Framework, introduction",https://docs.unity3d.com/Manual/test-framework/test-framework-introduction.html,2026-10-24
 8,"Unity, Best practices for organizing your Unity project",https://unity.com/how-to/organizing-your-project,2026-10-24
-8,"Unity, Render pipelines strategy for 2026",https://unity.com/topics/render-pipelines-strategy-for-2026,2026-10-31
 8,"US Access Board, Revised 508 Standards and 255 Guidelines",https://www.access-board.gov/ict/,2026-11-01
 8,"Vernon, Effective Aggregate Design",https://www.dddcommunity.org/library/vernon_2011/,2026-10-24
 8,"Vue Router, Guide",https://router.vuejs.org/guide/,2026-10-25
@@ -357,7 +339,6 @@ score,title,url,verified
 8,"W3C, Guidance on Applying WCAG 2 to Non-Web ICT (WCAG2ICT)",https://www.w3.org/TR/wcag2ict-22/,2026-11-01
 8,"W3C, Trace Context (Recommendation)",https://www.w3.org/TR/trace-context/,2026-10-25
 8,"W3C, Web Authentication: An API for accessing Public Key Credentials, Level 3",https://www.w3.org/TR/webauthn-3/,2026-10-25
-8,"W3C, WebGPU (Candidate Recommendation Draft)",https://www.w3.org/TR/webgpu/,2026-10-31
 8,"web.dev, Mitigate cross-site scripting (XSS) with a strict Content Security Policy (CSP)",https://web.dev/articles/strict-csp,2026-10-25
 8,"web.dev, The most effective ways to improve Core Web Vitals",https://web.dev/articles/top-cwv,2026-10-25
 7,"Addressables, Release assets from memory",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/memory-assets.html,2026-10-24
@@ -377,6 +358,7 @@ score,title,url,verified
 7,"Agones, Upgrading Agones: multiple clusters",https://agones.dev/site/docs/installation/upgrading/#upgrading-agones-multiple-clusters,2026-11-01
 7,"AIP-158, Pagination",https://google.aip.dev/158,2026-10-24
 7,"Amazon GameLift Servers, Access AWS resources with an IAM role",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-resources.html#gamelift-sdk-server-resources-roles,2026-11-01
+7,"Amazon GameLift Servers, Add Amazon GameLift Servers to your game server with the server SDK",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html,2026-11-01
 7,"Amazon GameLift Servers, Build a backend service",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_designbackend.html,2026-11-01
 7,"Amazon GameLift Servers, Build a multi-location queue",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/queues-design-multiregion.html,2026-11-01
 7,"Amazon GameLift Servers, Cost optimization strategies",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-pricing-cost-optimization.html,2026-11-01
@@ -386,6 +368,7 @@ score,title,url,verified
 7,"Amazon GameLift Servers, Managing game hosting in production: game server updates and patches",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-prod-hosting.html#gamelift-prod-hosting-updates,2026-11-01
 7,"Amazon GameLift Servers, Monitor with Amazon CloudWatch",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/monitoring-cloudwatch.html,2026-11-01
 7,"Amazon GameLift Servers, Player gateway",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/ddos-protection-player-gateway.html,2026-11-01
+7,"Amazon GameLift Servers, Prepare for launch with Amazon GameLift Servers hosting",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html,2026-11-01
 7,"Amazon GameLift Servers, Prepare for launch: launch checklist",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html#gamelift_quickstart_customservers_launch_checklist,2026-11-01
 7,"Amazon GameLift Servers, Prepare for launch: testing checklist",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift_quickstart_customservers_checklist.html#gamelift_quickstart_customservers_test_checklist,2026-11-01
 7,"Amazon GameLift Servers, Respond to a server process shutdown notification",https://docs.aws.amazon.com/gameliftservers/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-terminate,2026-11-01
@@ -458,6 +441,7 @@ score,title,url,verified
 7,"Angular, Security: server-side XSS protection",https://angular.dev/best-practices/security#server-side-xss-protection,2026-11-01
 7,"Angular, Security: trusting safe values",https://angular.dev/best-practices/security#trusting-safe-values,2026-11-01
 7,"Angular, Security: use the AOT template compiler",https://angular.dev/best-practices/security#use-the-aot-template-compiler,2026-11-01
+7,"Angular, Signals",https://angular.dev/guide/signals,2026-11-01
 7,"Angular, Skipping component subtrees: using OnPush",https://angular.dev/best-practices/skipping-subtrees#using-onpush,2026-11-01
 7,"Angular, SSR: authoring server-compatible components",https://angular.dev/guide/ssr#authoring-server-compatible-components,2026-11-01
 7,"Angular, SSR: choosing a rendering mode",https://angular.dev/guide/ssr#choosing-a-rendering-mode,2026-11-01
@@ -520,6 +504,7 @@ score,title,url,verified
 7,"Apple Developer Documentation, Simplifying your implementation by using the App Store Server Library",https://developer.apple.com/documentation/appstoreserverapi/simplifying-your-implementation-by-using-the-app-store-server-library,2026-10-25
 7,"Apple Developer Documentation, StoreKit Transaction (verify transactions)",https://developer.apple.com/documentation/storekit/transaction,2026-10-25
 7,"Apple Developer Documentation, SwiftData",https://developer.apple.com/documentation/swiftdata,2026-11-01
+7,"Apple Developer Documentation, SwiftUI: Model data",https://developer.apple.com/documentation/swiftui/model-data,2026-11-01
 7,"Apple Developer Documentation, SwiftUI: State",https://developer.apple.com/documentation/swiftui/state,2026-11-01
 7,"Apple Developer Documentation, Transaction.finish()",https://developer.apple.com/documentation/storekit/transaction/finish%28%29,2026-10-25
 7,"Apple Developer Documentation, UserDefaults",https://developer.apple.com/documentation/foundation/userdefaults,2026-11-01
@@ -557,6 +542,7 @@ score,title,url,verified
 7,"Astro Docs, Configuration reference: security.allowedDomains",https://docs.astro.build/en/reference/configuration-reference/#securityalloweddomains,2026-11-01
 7,"Astro Docs, Configuration reference: security.checkOrigin",https://docs.astro.build/en/reference/configuration-reference/#securitycheckorigin,2026-11-01
 7,"Astro Docs, Configuration reference: security.csp",https://docs.astro.build/en/reference/configuration-reference/#securitycsp,2026-11-01
+7,"Astro Docs, Content collections",https://docs.astro.build/en/guides/content-collections/,2026-11-01
 7,"Astro Docs, Content collections: defining the collection schema",https://docs.astro.build/en/guides/content-collections/#defining-the-collection-schema,2026-11-01
 7,"Astro Docs, Content collections: types of collections",https://docs.astro.build/en/guides/content-collections/#types-of-collections,2026-11-01
 7,"Astro Docs, Islands architecture: client islands",https://docs.astro.build/en/concepts/islands/#client-islands,2026-11-01
@@ -712,6 +698,7 @@ score,title,url,verified
 7,"Epic Games, Understanding the Unreal Engine Gameplay Ability System",https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system,2026-10-25
 7,"Epic Games, Unreal Insights in Unreal Engine",https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine,2026-10-25
 7,"eslint-plugin-vue, Available rules",https://eslint.vuejs.org/rules/,2026-10-25
+7,"European Commission, Data protection: information for business and organisations",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations_en,2026-10-26
 7,"European Commission, Dealing with requests from individuals",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en,2026-10-26
 7,"European Commission, European Accessibility Act (EAA)",https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en,2026-11-01
 7,"European Commission, Legal grounds for processing data",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en,2026-10-26
@@ -719,12 +706,14 @@ score,title,url,verified
 7,"European Commission, Principles of the GDPR: data minimisation",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#data-minimisation,2026-10-26
 7,"European Commission, Principles of the GDPR: purpose limitation",https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en#purpose-limitation,2026-10-26
 7,EventStorming,https://www.eventstorming.com/,2026-10-24
+7,"Expo Router, Introduction",https://docs.expo.dev/router/introduction/,2026-11-01
 7,"Expo SDK, SecureStore",https://docs.expo.dev/versions/latest/sdk/securestore/,2026-11-01
 7,"Expo, Authentication with OAuth or OpenID providers",https://docs.expo.dev/guides/authentication/,2026-11-01
 7,"Expo, Continuous Native Generation (CNG)",https://docs.expo.dev/workflow/continuous-native-generation/,2026-11-01
 7,"Expo, EAS Build",https://docs.expo.dev/build/introduction/,2026-11-01
-7,"Expo, EAS Update: Runtime versions and updates",https://docs.expo.dev/eas-update/runtime-versions/,2026-11-01
 7,"Expo, Environment variables in Expo",https://docs.expo.dev/guides/environment-variables/,2026-11-01
+7,"Expo, Expo Update",https://docs.expo.dev/eas-update/introduction/,2026-11-01
+7,"Expo, Expo Update: Runtime versions and updates",https://docs.expo.dev/eas-update/runtime-versions/,2026-11-01
 7,"Expo, Overview of linking, deep links, Android App Links and iOS Universal Links",https://docs.expo.dev/linking/overview/,2026-11-01
 7,"Expo, Privacy manifests",https://docs.expo.dev/guides/apple-privacy/,2026-11-01
 7,"Expo, React Native's New Architecture",https://docs.expo.dev/guides/new-architecture/,2026-11-01
@@ -749,6 +738,7 @@ score,title,url,verified
 7,"Firebase, Cloud Functions: Tips and tricks",https://firebase.google.com/docs/functions/tips,2026-11-01
 7,"Firebase, Connect your app to the Cloud Firestore Emulator: Choose a Firebase project",https://firebase.google.com/docs/emulator-suite/connect_firestore#choose_a_firebase_project,2026-11-01
 7,"Firebase, Enable App Check enforcement",https://firebase.google.com/docs/app-check/enable-enforcement,2026-11-01
+7,"Firebase, Firebase App Check",https://firebase.google.com/docs/app-check,2026-11-01
 7,"Firebase, Firestore point-in-time recovery: PITR window",https://firebase.google.com/docs/firestore/pitr#pitr_window,2026-11-01
 7,"Firebase, Firestore: Allowing read access only for specific fields",https://firebase.google.com/docs/firestore/security/rules-fields#allowing_read_access_only_for_specific_fields,2026-11-01
 7,"Firebase, Firestore: Back up and restore data",https://firebase.google.com/docs/firestore/backups,2026-11-01
@@ -761,6 +751,7 @@ score,title,url,verified
 7,"Firebase, Launch checklist: App Check",https://firebase.google.com/support/guides/launch-checklist#app-check,2026-11-01
 7,"Firebase, Launch checklist: Authentication",https://firebase.google.com/support/guides/launch-checklist#authentication,2026-11-01
 7,"Firebase, Launch checklist: Know your pricing plan limits and set budget alerts",https://firebase.google.com/support/guides/launch-checklist#pricing-plan,2026-11-01
+7,"Firebase, Learn about and manage API keys for Firebase",https://firebase.google.com/docs/projects/api-keys,2026-11-01
 7,"Firebase, Manage and deploy Firebase Security Rules: Use the Firebase CLI",https://firebase.google.com/docs/rules/manage-deploy#use_the,2026-11-01
 7,"Firebase, Monitor App Check request metrics",https://firebase.google.com/docs/app-check/monitor-metrics,2026-11-01
 7,"Firebase, Retry asynchronous functions: Best practices",https://firebase.google.com/docs/functions/retries#best_practices,2026-11-01
@@ -929,7 +920,6 @@ score,title,url,verified
 7,"Go wiki, Go Code Review Comments: Package names",https://go.dev/wiki/CodeReviewComments#package-names,2026-11-01
 7,"Go wiki, Go Test Comments",https://go.dev/wiki/TestComments,2026-11-01
 7,"Go, A Guide to the Go Garbage Collector",https://go.dev/doc/gc-guide,2026-11-01
-7,"Go, A Tour of Go",https://go.dev/tour/,2026-11-01
 7,"Go, Accessing relational databases",https://go.dev/doc/database/,2026-11-01
 7,"Go, Avoiding SQL injection risk",https://go.dev/doc/database/sql-injection,2026-11-01
 7,"Go, context package",https://pkg.go.dev/context,2026-11-01
@@ -954,6 +944,7 @@ score,title,url,verified
 7,"Go, os/signal: NotifyContext",https://pkg.go.dev/os/signal#NotifyContext,2026-11-01
 7,"Go, Release History",https://go.dev/doc/devel/release,2026-11-01
 7,"Go, Release History: Release policy",https://go.dev/doc/devel/release#policy,2026-11-01
+7,"Go, Security Best Practices for Go Developers",https://go.dev/doc/security/best-practices,2026-11-01
 7,"Go, Security Best Practices: Check for race conditions with Go's race detector",https://go.dev/doc/security/best-practices#check-for-race-conditions-with-gos-race-detector,2026-11-01
 7,"Go, Security Best Practices: Keep your Go version and dependencies up to date",https://go.dev/doc/security/best-practices#keep-your-go-version-and-dependencies-up-to-date,2026-11-01
 7,"Go, Security Best Practices: Scan source code and binaries for vulnerabilities",https://go.dev/doc/security/best-practices#scan-source-code-and-binaries-for-vulnerabilities,2026-11-01
@@ -1284,6 +1275,8 @@ score,title,url,verified
 7,"MongoDB, Production Notes: use trusted networking environments",https://www.mongodb.com/docs/manual/administration/production-notes/#use-trusted-networking-environments,2026-11-01
 7,"MongoDB, Retryable Writes: retryable write operations",https://www.mongodb.com/docs/manual/core/retryable-writes/#retryable-write-operations,2026-11-01
 7,"MongoDB, Rollbacks During Replica Set Failover: avoid replica set rollbacks",https://www.mongodb.com/docs/manual/core/replica-set-rollbacks/#avoid-replica-set-rollbacks,2026-11-01
+7,"MongoDB, Schema Design Anti-Patterns",https://www.mongodb.com/docs/manual/data-modeling/design-antipatterns/,2026-11-01
+7,"MongoDB, Schema Design Patterns",https://www.mongodb.com/docs/manual/data-modeling/design-patterns/,2026-11-01
 7,"MongoDB, Schema Validation",https://www.mongodb.com/docs/manual/core/schema-validation/,2026-11-01
 7,"MongoDB, Security Checklist: configure role-based access control",https://www.mongodb.com/docs/manual/administration/security-checklist/#-configure-role-based-access-control,2026-11-01
 7,"MongoDB, Security Checklist: encrypt communication (TLS/SSL)",https://www.mongodb.com/docs/manual/administration/security-checklist/#-encrypt-communication-tlsssl,2026-11-01
@@ -1567,6 +1560,7 @@ score,title,url,verified
 7,"Release It!, 2nd edition",https://pragprog.com/titles/mnee2/release-it-second-edition/,2026-10-24
 7,"RFC 10017, section 6.1: Backend for Frontend (BFF)",https://www.rfc-editor.org/rfc/rfc10017.html#section-6.1,2026-10-25
 7,"RFC 10017, section 7.1: Single-domain browser-based applications (not using OAuth)",https://www.rfc-editor.org/rfc/rfc10017.html#section-7.1,2026-10-25
+7,"RFC 9700, section 2: Best Practices",https://www.rfc-editor.org/rfc/rfc9700.html#section-2,2026-10-25
 7,"Richards and Ford, Fundamentals of Software Architecture (book)",https://fundamentalsofsoftwarearchitecture.com/,2026-10-24
 7,"Robinson, Consumer-Driven Contracts",https://martinfowler.com/articles/consumerDrivenContracts.html,2026-10-24
 7,Rules of Machine Learning,https://developers.google.com/machine-learning/guides/rules-of-ml,2026-10-24
@@ -1622,6 +1616,7 @@ score,title,url,verified
 7,"SQLite, How To Corrupt: filesystems with broken or missing lock implementations",https://www.sqlite.org/howtocorrupt.html#_filesystems_with_broken_or_missing_lock_implementations,2026-11-01
 7,"SQLite, PRAGMA foreign_keys",https://www.sqlite.org/pragma.html#pragma_foreign_keys,2026-11-01
 7,"SQLite, PRAGMA integrity_check",https://www.sqlite.org/pragma.html#pragma_integrity_check,2026-11-01
+7,"SQLite, Pragma statements supported by SQLite",https://www.sqlite.org/pragma.html,2026-11-01
 7,"SQLite, PRAGMA synchronous",https://www.sqlite.org/pragma.html#pragma_synchronous,2026-11-01
 7,"SQLite, PRAGMA trusted_schema",https://www.sqlite.org/pragma.html#pragma_trusted_schema,2026-11-01
 7,"SQLite, Quirks, Caveats, and Gotchas In SQLite",https://www.sqlite.org/quirks.html,2026-11-01
@@ -1665,6 +1660,7 @@ score,title,url,verified
 7,"Steamworks, User Authentication and Ownership: P2P or game servers",https://partner.steamgames.com/doc/features/auth#client_to_client,2026-11-01
 7,"Supabase Docs, Advisors",https://supabase.com/docs/guides/observability/advisors,2026-11-01
 7,"Supabase Docs, Anonymous Sign-Ins: Access control",https://supabase.com/docs/guides/auth/auth-anonymous#access-control,2026-11-01
+7,"Supabase Docs, API keys",https://supabase.com/docs/guides/getting-started/api-keys,2026-11-01
 7,"Supabase Docs, API keys: Handling secret keys safely",https://supabase.com/docs/guides/getting-started/api-keys#handling-secret-keys-safely,2026-11-01
 7,"Supabase Docs, API keys: Which key do you use?",https://supabase.com/docs/guides/getting-started/api-keys#which-key-do-you-use,2026-11-01
 7,"Supabase Docs, Branching",https://supabase.com/docs/guides/deployment/branching,2026-11-01
@@ -1679,7 +1675,6 @@ score,title,url,verified
 7,"Supabase Docs, Migrating to publishable and secret API keys",https://supabase.com/docs/guides/getting-started/migrating-to-new-api-keys,2026-11-01
 7,"Supabase Docs, Production Checklist: Availability",https://supabase.com/docs/guides/deployment/going-into-prod#availability,2026-11-01
 7,"Supabase Docs, Production Checklist: Deployment",https://supabase.com/docs/guides/deployment/going-into-prod#deployment,2026-11-01
-7,"Supabase Docs, Production Checklist: Security",https://supabase.com/docs/guides/deployment/going-into-prod#security,2026-11-01
 7,"Supabase Docs, Row Level Security: Add indexes",https://supabase.com/docs/guides/database/postgres/row-level-security#add-indexes,2026-11-01
 7,"Supabase Docs, Row Level Security: auth.jwt()",https://supabase.com/docs/guides/database/postgres/row-level-security#authjwt,2026-11-01
 7,"Supabase Docs, Row Level Security: Call functions with select",https://supabase.com/docs/guides/database/postgres/row-level-security#call-functions-with-select,2026-11-01
@@ -1697,6 +1692,8 @@ score,title,url,verified
 7,"Supabase Docs, Storage Access Control: Access policies",https://supabase.com/docs/guides/storage/security/access-control#access-policies,2026-11-01
 7,"Supabase Docs, Storage Buckets: Access model",https://supabase.com/docs/guides/storage/buckets/fundamentals#access-model,2026-11-01
 7,"Supabase Docs, Testing Overview: Best practices",https://supabase.com/docs/guides/local-development/testing/overview#best-practices,2026-11-01
+7,"Supabase, Production security checklist: Auth",https://supabase.com/docs/guides/security/production-checklist#auth,2026-11-10
+7,"Supabase, Production security checklist: database",https://supabase.com/docs/guides/security/production-checklist#database,2026-11-10
 7,"Svelte CLI, sv check",https://svelte.dev/docs/cli/sv-check,2026-10-25
 7,"Svelte, $effect: when not to use $effect",https://svelte.dev/docs/svelte/$effect#When-not-to-use-$effect,2026-10-25
 7,"Svelte, Best practices: $props",https://svelte.dev/docs/svelte/best-practices#$props,2026-10-25
@@ -1730,6 +1727,7 @@ score,title,url,verified
 7,"SvelteKit, State management: no side-effects in load",https://svelte.dev/docs/kit/state-management#No-side-effects-in-load,2026-10-25
 7,"Swift.org, Swift 6 concurrency migration guide: Data race safety",https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/dataracesafety/,2026-11-01
 7,"Swift.org, Swift 6 concurrency migration guide: Enable data-race safety checking",https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/enabledataracesafety/,2026-11-01
+7,"Tauri, Capabilities",https://v2.tauri.app/security/capabilities/,2026-11-01
 7,"Tauri, Capabilities: security boundaries",https://v2.tauri.app/security/capabilities/#security-boundaries,2026-11-01
 7,"Tauri, Command scopes",https://v2.tauri.app/security/scope/,2026-11-01
 7,"Tauri, Content Security Policy (CSP)",https://v2.tauri.app/security/csp/,2026-11-01
@@ -1783,6 +1781,7 @@ score,title,url,verified
 7,"typescript-eslint, no-unsafe-assignment",https://typescript-eslint.io/rules/no-unsafe-assignment/,2026-10-25
 7,"typescript-eslint, switch-exhaustiveness-check",https://typescript-eslint.io/rules/switch-exhaustiveness-check/,2026-10-25
 7,"Unicode CLDR, Language plural rules",https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html,2026-10-26
+7,"Unicode Consortium, ICU User Guide",https://unicode-org.github.io/icu/userguide/,2026-10-26
 7,"Unicode Consortium, MessageFormat 2",https://messageformat.unicode.org/,2026-10-26
 7,"Unity Addressables, overview",https://docs.unity3d.com/Packages/com.unity.addressables@4.1/manual/AddressableAssetsOverview.html,2026-10-24
 7,Unity Boss Room multiplayer sample,https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop,2026-10-24
@@ -1832,6 +1831,7 @@ score,title,url,verified
 7,"Unity, How to architect code as your project scales",https://unity.com/how-to/how-architect-code-your-project-scales,2026-10-24
 7,"Unity, Localization package manual (1.5)",https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html,2026-10-26
 7,"Unity, Netcode for GameObjects: Connection approval",https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@3.1/manual/basics/connection-approval.html,2026-11-01
+7,"Unity, Render pipelines strategy for 2026",https://unity.com/topics/render-pipelines-strategy-for-2026,2026-10-31
 7,"Unity, ScriptableObject event channels",https://unity.com/how-to/scriptableobjects-event-channels-game-code,2026-10-24
 7,"Unity, Separate game data and logic with ScriptableObjects",https://unity.com/how-to/separate-game-data-logic-scriptable-objects,2026-10-24
 7,"Unreal Engine, Automation Test Framework: test design guidelines",https://dev.epicgames.com/documentation/en-us/unreal-engine/automation-test-framework-in-unreal-engine#test-design-guidelines,2026-11-01
@@ -1919,6 +1919,7 @@ score,title,url,verified
 7,"W3C, Understanding WCAG 2.2 SC 2.2.2 Pause, Stop, Hide",https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html,2026-11-01
 7,"W3C, Understanding WCAG 2.2 SC 2.3.1 Three Flashes or Below Threshold",https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html,2026-11-01
 7,"W3C, Understanding WCAG 2.2 SC 4.1.2 Name, Role, Value",https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html,2026-11-01
+7,"W3C, WebGPU (Candidate Recommendation Draft)",https://www.w3.org/TR/webgpu/,2026-10-31
 7,"W3C, Working with Time and Timezones (Group Draft Note)",https://www.w3.org/TR/timezone/,2026-10-26
 7,"web.dev, Baseline",https://web.dev/baseline,2026-10-25
 7,"web.dev, Browser-level image lazy loading for the web",https://web.dev/articles/browser-level-image-lazy-loading,2026-10-25
@@ -2142,9 +2143,9 @@ score,title,url,verified
 6,"Expo Router, Protected routes",https://docs.expo.dev/router/advanced/protected/,2026-11-01
 6,"Expo Router, Typed routes",https://docs.expo.dev/router/reference/typed-routes/,2026-11-01
 6,"Expo, Configure with app config",https://docs.expo.dev/workflow/configuration/,2026-11-01
-6,"Expo, EAS Update: Rollbacks",https://docs.expo.dev/eas-update/rollbacks/,2026-11-01
-6,"Expo, EAS Update: Rollouts",https://docs.expo.dev/eas-update/rollouts/,2026-11-01
-6,"Expo, End-to-end code signing with EAS Update",https://docs.expo.dev/eas-update/code-signing/,2026-11-01
+6,"Expo, End-to-end code signing with Expo Update",https://docs.expo.dev/eas-update/code-signing/,2026-11-01
+6,"Expo, Expo Update: Rollbacks",https://docs.expo.dev/eas-update/rollbacks/,2026-11-01
+6,"Expo, Expo Update: Rollouts",https://docs.expo.dev/eas-update/rollouts/,2026-11-01
 6,"Expo, New Architecture: Validate your dependencies with React Native Directory",https://docs.expo.dev/guides/new-architecture/#validate-your-dependencies-with-react-native-directory,2026-11-01
 6,"Expo, React Compiler",https://docs.expo.dev/guides/react-compiler/,2026-11-01
 6,"Expo, React Compiler: Enabling the linter",https://docs.expo.dev/guides/react-compiler/#enabling-the-linter,2026-11-01
@@ -2281,6 +2282,7 @@ score,title,url,verified
 6,"Go wiki, Go Modules: Should I commit my go.sum file?",https://go.dev/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file,2026-11-01
 6,"Go wiki, TableDrivenTests",https://go.dev/wiki/TableDrivenTests,2026-11-01
 6,"Go wiki, Use a sync.Mutex or a channel?",https://go.dev/wiki/MutexOrChannel,2026-11-01
+6,"Go, A Tour of Go",https://go.dev/tour/,2026-11-01
 6,"Go, Canceling in-progress operations",https://go.dev/doc/database/cancel-operations,2026-11-01
 6,"Go, Effective Go: Recover",https://go.dev/doc/effective_go#recover,2026-11-01
 6,"Go, Effective Go: Share by communicating",https://go.dev/doc/effective_go#sharing,2026-11-01

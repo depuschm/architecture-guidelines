@@ -7,7 +7,7 @@ Scope: web applications and APIs built with Laravel and PHP, with Eloquent, Blad
 
 ## Adopted references
 
-- `10` [Laravel documentation](https://laravel.com/framework/docs) (Laravel): **the baseline.** Configuration, routing, requests and validation, Blade, authentication and authorization, CSRF protection, Eloquent and migrations, queues, file storage, testing and deployment.
+- `9` [Laravel documentation](https://laravel.com/framework/docs) (Laravel): **the baseline.** Configuration, routing, requests and validation, Blade, authentication and authorization, CSRF protection, Eloquent and migrations, queues, file storage, testing and deployment.
 - `8` [Deployment](https://laravel.com/framework/docs/deployment) (Laravel docs): server requirements, a web server configuration, the caches to build during deployment, debug mode, the health route, and reloading long-running processes.
 - `7` [Release notes: support policy](https://laravel.com/framework/docs/releases#support-policy) and [upgrade guide](https://laravel.com/framework/docs/upgrade) (Laravel docs): the bug-fix and security-fix dates and PHP versions of each Laravel release, and the breaking changes to handle when you move to the next one.
 - `7` [Supported Versions](https://www.php.net/supported-versions.php) (PHP): the active-support and security-support end dates of each PHP branch.

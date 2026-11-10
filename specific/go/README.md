@@ -7,11 +7,11 @@ Scope: services, command-line tools and game servers written in Go, on the two r
 
 ## Adopted references
 
-- `9` [Go Style](https://google.github.io/styleguide/go/) (Google): **the baseline for code style**: the canonical [Style Guide](https://google.github.io/styleguide/go/guide), the normative [Style Decisions](https://google.github.io/styleguide/go/decisions), and [Best Practices](https://google.github.io/styleguide/go/best-practices) for naming, package size, errors, interfaces, concurrency, contexts, global state and tests. A few points refer to Google's internal libraries, such as its own `log` package.
+- `8` [Go Style](https://google.github.io/styleguide/go/) (Google): **the baseline for code style**: the canonical [Style Guide](https://google.github.io/styleguide/go/guide), the normative [Style Decisions](https://google.github.io/styleguide/go/decisions), and [Best Practices](https://google.github.io/styleguide/go/best-practices) for naming, package size, errors, interfaces, concurrency, contexts, global state and tests. A few points refer to Google's internal libraries, such as its own `log` package.
 - `8` [Go Code Review Comments](https://go.dev/wiki/CodeReviewComments) (Go wiki): the comments most often made in Go code reviews, such as contexts, goroutine lifetimes, error handling, interfaces and package names, each with a short name to cite in a review. [Go Test Comments](https://go.dev/wiki/TestComments) adds those for tests.
-- `8` [Security Best Practices for Go Developers](https://go.dev/doc/security/best-practices) (Go): scanning for known vulnerabilities with govulncheck, keeping Go and dependencies up to date, fuzzing, the race detector and `go vet`.
 - `8` [Organizing a Go module](https://go.dev/doc/modules/layout) (Go): the official layouts for a package, a command, a module with several commands, and a server project, with `internal/` and `cmd/` directories.
 - `8` [Go Modules Reference](https://go.dev/ref/mod) (Go): `go.mod` and `go.sum`, minimal version selection, module proxies, the checksum database and private modules.
+- `7` [Security Best Practices for Go Developers](https://go.dev/doc/security/best-practices) (Go): scanning for known vulnerabilities with govulncheck, keeping Go and dependencies up to date, fuzzing, the race detector and `go vet`.
 - `7` [Effective Go](https://go.dev/doc/effective_go) (Go): idiomatic use of the core language, including interfaces, concurrency, errors, `panic` and `recover`. It was written for Go's release in 2009 and isn't actively updated, so it doesn't cover generics, modules or newer libraries.
 - `7` [Release History](https://go.dev/doc/devel/release) (Go): the release policy, under which each major release is supported until there are two newer major releases, and what each minor release fixed.
 - `7` [Accessing relational databases](https://go.dev/doc/database/) (Go): the `database/sql` guides to opening a handle, querying, transactions, cancellation, the connection pool and avoiding SQL injection.
@@ -75,8 +75,8 @@ Tools that check the key rules above automatically, in CI, the IDE or a commit h
 
 ## Tutorials and further reading
 
-- `7` [A Tour of Go](https://go.dev/tour/) (Go): the official interactive introduction to the syntax and data structures, methods and interfaces, and concurrency primitives.
 - `7` [How to Write Go Code](https://go.dev/doc/code) (Go): code organization in modules and packages, your first program, importing packages from your module and from remote modules, and testing, with the `go` command.
+- `6` [A Tour of Go](https://go.dev/tour/) (Go): the official interactive introduction to the syntax and data structures, methods and interfaces, and concurrency primitives.
 - `6` [Tutorial: Accessing a relational database](https://go.dev/doc/tutorial/database-access) (Go): querying, adding data and handling errors with `database/sql`, step by step.
 - `6` [Tutorial: Getting started with fuzzing](https://go.dev/doc/tutorial/fuzz) and [Tutorial: Find and fix vulnerable dependencies with govulncheck](https://go.dev/doc/tutorial/govulncheck) (Go): writing and running a fuzz test, and scanning, assessing and fixing a vulnerable dependency.
 - `6` [Routing Enhancements for Go 1.22](https://go.dev/blog/routing-enhancements) (Go blog): method matching and wildcards in `net/http`'s `ServeMux`, which cover the routing needs of many services without a third-party router.

@@ -88,6 +88,15 @@ A third round on 2026-10-26 covered the next batch of files (TypeScript, GraphQL
 - All 19 rules at 9 in these files were re-checked against "official sources mark it as strongly recommended or as a MUST, for nearly every project". Nine were lowered to 8: zone redundancy, infrastructure as code and workload identity for Azure and Google Cloud, and broker durability and authentication for Kafka and RabbitMQ. The 9s that platforms require or that prevent severe and common risks were kept.
 - Two rules and three tool pages that were two points apart were re-scored.
 
+A fourth round on 2026-11-10 covered the 427 rules and 1,554 sources added since the third (privacy, localization, accessibility, graphics, the engine pages, GameMaker, Angular, Astro, Go, Java and Spring Boot, PHP and Laravel, iOS, React Native, desktop apps, Firebase, Supabase, MongoDB, SQLite, Steam, game servers and web games): 90 rules and 50 sources.
+
+- 97% of rule scores (43 of 90 exactly) and 90% of source scores were within one point.
+- Rules scored 8 came back lower in 12 of 22 cases and never higher, as in the first round. All 96 new rules at 8 were re-checked, and 34 were lowered: 31 to 7 and three to 6. Most applied only with an optional feature, were cheap to fix later, or did the same job as rules already at 7. Rules stayed at 8 where an older, calibrated rule doing the same job is also at 8.
+- Sources scored 9 and 10 came back lower in 9 of 10 cases, by 1.3 points on average. All 113 new sources at 8 to 10 were re-checked, and 44 were lowered. Most of the 10s were documentation home pages scored as if they were whole-topic guides, and most of the lowered 8s were pages about one feature or product. The same check lowered nine older documentation home pages from 10 to 9.
+- The three rules and five sources that were two points apart were re-scored.
+
+This round adds a third rule of thumb for sources: a documentation home page or index scores at most 9, even when it's a platform's baseline. A 10 is for a guide that itself covers the whole topic, such as Android's *Guide to app architecture*, the OWASP ASVS or the C4 model.
+
 Repeat the exercise after large additions: sample entries across files and score bands, have someone score them blind, and re-check any band where the difference is systematic.
 
 ## Changing a score

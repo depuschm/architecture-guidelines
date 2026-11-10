@@ -7,8 +7,8 @@ Scope: web apps built with Svelte 5 in runes mode and SvelteKit, following the c
 
 ## Adopted references
 
-- `10` [Svelte documentation](https://svelte.dev/docs/svelte/overview): **the baseline for components**: runes, template syntax, styling, special elements, runtime APIs such as context and lifecycle, testing, TypeScript, and the compiler's errors and warnings.
-- `10` [SvelteKit documentation](https://svelte.dev/docs/kit/introduction): **the baseline for apps**: project structure, routing, loading data, form actions, page options, state management, hooks, adapters, environment variables, server-only modules, and best practices for auth, performance and accessibility.
+- `9` [Svelte documentation](https://svelte.dev/docs/svelte/overview): **the baseline for components**: runes, template syntax, styling, special elements, runtime APIs such as context and lifecycle, testing, TypeScript, and the compiler's errors and warnings.
+- `9` [SvelteKit documentation](https://svelte.dev/docs/kit/introduction): **the baseline for apps**: project structure, routing, loading data, form actions, page options, state management, hooks, adapters, environment variables, server-only modules, and best practices for auth, performance and accessibility.
 - `9` [Svelte, Best practices](https://svelte.dev/docs/svelte/best-practices): the official advice on `$state`, `$derived`, `$effect`, props, events, snippets, keyed each blocks, styling, context, and the legacy features to avoid.
 - `8` [SvelteKit, State management](https://svelte.dev/docs/kit/state-management): avoiding shared state on the server, keeping `load` free of side effects, and keeping state in context, the URL or snapshots.
 - `8` [SvelteKit, Performance](https://svelte.dev/docs/kit/performance): what SvelteKit optimizes by default, and how to diagnose issues, optimize assets, reduce code size, prevent waterfalls and choose hosting.

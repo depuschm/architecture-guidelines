@@ -1,7 +1,7 @@
 <!-- rule-prefix: WEB -->
 # Web front end (framework-independent)
 
-Scope: any web front end, whatever the framework or build tool, with a focus on accessibility, performance, security, resilience and testing. Framework-specific rules are in [React](../react/README.md), and the [general guidelines](../../general/README.md) still apply, including the test strategy in [Testing and delivery](../../general/testing-delivery.md). Games that run in the browser are in [Web games](../web-games/README.md). Cross-platform accessibility principles and the laws behind them are in [Accessibility](../../general/accessibility.md).
+Scope: any web front end, whatever the framework or build tool, with a focus on accessibility, performance, security, resilience and testing. Framework-specific rules are in [React](../react/README.md), and the [general guidelines](../../general/README.md) still apply, including the test strategy in [Testing and delivery](../../general/testing-delivery.md). Games that run in the browser are in [Web games](../web-games/README.md). Cross-platform accessibility principles and the laws behind them, including the WCAG 2.2 Level AA baseline (`A11Y-1`), are in [Accessibility](../../general/accessibility.md).
 
 > Entries are sorted by score from 1 to 10 ([criteria](../../RANKING.md)): 9–10 start here or strongly recommended, 6–8 recommended, 1–5 further reading or conditional.
 
@@ -23,9 +23,8 @@ Scope: any web front end, whatever the framework or build tool, with a focus on 
 
 ### Accessibility
 
-- `9` `WEB-1` **Target WCAG 2.2 Level AA as the minimum for every page and component.** It's the level that public-sector rules such as the UK government's require. ([WCAG 2.2](https://www.w3.org/TR/WCAG22/), [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag))
 - `9` `WEB-2` **Use native HTML elements, such as `button`, `a`, `input` and `select`, before ARIA.** Native elements come with keyboard support, roles and states. If you give an element an ARIA role instead, you have to build the behaviour that role promises yourself. ([MDN, ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), [APG, Read me first: No ARIA is better than bad ARIA](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/))
-- `7` `WEB-3` **Run automated accessibility checks in CI, and also test by hand with a keyboard and a screen reader.** Automated checks find only part of the problems: axe-core finds 57% of WCAG issues on average. ([axe-core](https://github.com/dequelabs/axe-core), [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling))
+- `7` `WEB-3` **Run automated accessibility checks, such as axe-core, in CI and in end-to-end tests.** They find only part of the problems, axe-core 57% of WCAG issues on average, so they add to the testing by hand in `A11Y-7` and don't replace it. ([axe-core](https://github.com/dequelabs/axe-core), [MDN, Accessibility tooling and assistive technology](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling))
 
 ### Performance
 
@@ -61,7 +60,7 @@ Scope: any web front end, whatever the framework or build tool, with a focus on 
 
 Tools that check the key rules above automatically, in CI, the IDE or a commit hook. "Partly" means the tool covers only some of what the rule asks.
 
-- `7` [axe-core rules](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md): automated checks tagged by WCAG version and level, including `aria-allowed-role`, `aria-required-children` and `nested-interactive` for misused ARIA. Run them in end-to-end tests with [@axe-core/playwright](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md). Partly checks `WEB-1`, `WEB-2` and `WEB-3`.
+- `7` [axe-core rules](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md): automated checks tagged by WCAG version and level, including `aria-allowed-role`, `aria-required-children` and `nested-interactive` for misused ARIA. Run them in end-to-end tests with [@axe-core/playwright](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md). Partly checks `A11Y-1`, `WEB-2` and `WEB-3`.
 - `6` [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md): fails CI when lab metrics, resource sizes such as total script bytes, or individual audits such as `unsized-images` miss your assertions. Lab tests can't measure INP. Partly checks `WEB-4`, `WEB-5` and `WEB-6`.
 - `6` [Size Limit](https://github.com/ai/size-limit): fails CI when the size or estimated download and run time of your JavaScript, dependencies included, exceeds a budget. Partly checks `WEB-5`.
 - `6` [eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized) (Mozilla): flags assignments to `innerHTML` and calls such as `insertAdjacentHTML` or `document.write` that don't go through an escaping function. Partly checks `WEB-8`.

@@ -228,7 +228,7 @@ GAMEDEV-15,active,"Pick version control that handles large binary assets before 
 GAMEDEV-16,active,"Lock binary assets that can't be merged, such as levels, textures, models and audio, before editing them: mark their types `lockable` in `.gitattributes` with Git LFS, or check them out exclusively in Perforce."
 GAMEDEV-17,active,"Plan accessibility at the design stage: review the Game Accessibility Guidelines before work starts, choose the ones that apply, and schedule early the ones that are costly to add later."
 GAMEDEV-18,active,"Address the four most common complaints first: control remapping, text size, colour blindness and subtitle presentation."
-GAMEDEV-19,active,"Don't convey essential information by colour alone or by sound alone, and give effects, speech and music separate volume controls."
+GAMEDEV-19,active,"Give sound effects, speech and music separate volume controls or mutes."
 GAMEDEV-20,active,Use the Xbox Accessibility Guidelines as a test checklist for your game's accessibility features.
 GAMEDEV-21,active,"Model an entity whose behaviour depends on its current mode, such as a character, an enemy or a menu, as a finite state machine: one current state out of a fixed set, with explicit transitions, instead of boolean flags and nested conditionals."
 GAMEMAKER-CODE-1,active,"Don't rely on the order in which instances run the same event, or on the order in which a room creates its instances."
@@ -761,7 +761,7 @@ SQLITE-2,active,"Never share a database between processes or machines through a 
 SQLITE-3,active,"Configure every connection in one place as soon as it opens: `PRAGMA foreign_keys=ON`, a busy timeout, and `PRAGMA trusted_schema=OFF`."
 SQLITE-4,active,"Use WAL mode (`PRAGMA journal_mode=WAL`) for databases that are read while they are written, set `PRAGMA synchronous=NORMAL` when each connection opens, and never set `synchronous=OFF` for data you need to keep."
 SQLITE-5,active,"Send all writes through one connection or a serial queue, start transactions that will write with `BEGIN IMMEDIATE`, and keep write transactions short."
-SQLITE-6,active,"Pass every value into SQL as a bound parameter, such as `?` or `:name`, never by building SQL strings from input, and pick table and column names from a fixed list in code."
+SQLITE-6,active,"Bind values with SQLite's placeholders, `?` or `:name`, through the driver's parameter API, such as the second argument of Python's `execute()`."
 SQLITE-7,active,"Record the schema version in `PRAGMA user_version`, and when the app opens a database, apply the missing migrations in order, each in a transaction. For changes that `ALTER TABLE` can't make, follow SQLite's 12-step procedure for rebuilding a table and finish with `PRAGMA foreign_key_check`."
 SQLITE-8,active,Create new tables as `STRICT` tables once every SQLite version that opens the file is 3.37.0 or later.
 SQLITE-9,active,Group related writes into one explicit transaction instead of letting each statement commit on its own.
@@ -866,7 +866,7 @@ TS-12,active,"Give each environment, such as browser, server, worker and tests, 
 TS-13,active,"Turn on `isolatedDeclarations` only when declaration emit limits your build, as in large monorepos, or when another tool generates your declaration files."
 UNITY-CODE-1,active,"Keep logic that doesn't need the engine in plain C# classes, with MonoBehaviours as thin adapters."
 UNITY-CODE-2,active,Separate UI from game logic with Model-View-Presenter (or MVC).
-UNITY-CODE-3,active,"Model complex behaviour, such as characters, AI and game flow, with the State pattern instead of growing `switch` statements."
+UNITY-CODE-3,retired,"Model complex behaviour, such as characters, AI and game flow, with the State pattern instead of growing `switch` statements."
 UNITY-CODE-4,active,"Wrap player and AI actions in commands when you need undo, replay, rebinding or queuing."
 UNITY-CODE-5,active,"Put designer-tunable, shared data in ScriptableObject assets, not hard-coded values or copies on every prefab."
 UNITY-CODE-6,active,Don't use ScriptableObjects as save-game storage.
@@ -968,9 +968,9 @@ VUE-12,active,"After each route change, move focus back to the start of the page
 VUE-13,active,"Never use untrusted content as a Vue template, and never mount Vue on server-rendered HTML that contains user-provided content."
 VUE-14,active,"Give an environment variable the `VITE_` prefix, or put a value in Nuxt's `runtimeConfig.public`, only if it may be public."
 VUE-15,active,"Run unit and component tests with Vitest, give each component its own component test, and in those tests interact with the component as a user would instead of mocking its child components."
-WEB-1,active,Target WCAG 2.2 Level AA as the minimum for every page and component.
+WEB-1,retired,Target WCAG 2.2 Level AA as the minimum for every page and component.
 WEB-2,active,"Use native HTML elements, such as `button`, `a`, `input` and `select`, before ARIA."
-WEB-3,active,"Run automated accessibility checks in CI, and also test by hand with a keyboard and a screen reader."
+WEB-3,active,"Run automated accessibility checks, such as axe-core, in CI and in end-to-end tests."
 WEB-4,active,"Measure Core Web Vitals from real users at the 75th percentile, separately for mobile and desktop, and set priorities from that field data."
 WEB-5,active,"Ship less JavaScript: split off code that the first render doesn't need, remove unused code, and use Baseline platform features instead of JavaScript reimplementations."
 WEB-6,active,"Give every image and embed explicit dimensions, offer sizes that fit the layout with `srcset` and `sizes`, and lazy-load only images outside the initial viewport."

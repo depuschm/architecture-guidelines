@@ -19,7 +19,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 10 | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) | [general/operations-reliability](general/operations-reliability.md), [specific/gcp](specific/gcp/README.md) | 2026-10-24 |
 | 10 | [GraphQL Foundation, Learn GraphQL](https://graphql.org/learn/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 10 | [HashiCorp, Terraform style guide](https://developer.hashicorp.com/terraform/language/style) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
-| 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
+| 10 | [Level up your code with design patterns and SOLID (Unity e-book)](https://unity.com/resources/design-patterns-solid-ebook) | [specific/gamedev](specific/gamedev/README.md), [specific/unity](specific/unity/README.md), [specific/unity/code-architecture](specific/unity/code-architecture.md), [specific/unity/content-and-performance](specific/unity/content-and-performance.md) | 2026-10-24 |
 | 10 | [NIST, SP 800-63B-4, Authentication and Authenticator Management](https://pages.nist.gov/800-63-4/sp800-63b.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 10 | [OWASP Application Security Verification Standard (ASVS)](https://asvs.owasp.org/) | [general/security](general/security.md) | 2026-10-24 |
 | 10 | [react.dev: Learn React](https://react.dev/learn) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -1074,7 +1074,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GOV.UK Service Manual, Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) | [specific/web](specific/web/README.md) | 2026-10-25 |
 | 7 | [GOV.UK Service Manual, Making your service accessible: an introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [GOV.UK Service Manual, Testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
-| 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [specific/web](specific/web/README.md) | 2026-10-25 |
+| 7 | [GOV.UK Service Manual, Understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) | [general/accessibility](general/accessibility.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, DataLoader README](https://github.com/graphql/dataloader/blob/main/README.md) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, Error Handling](https://graphql.org/learn/error-handling/) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 7 | [GraphQL Foundation, GraphQL federation: Is GraphQL federation right for you?](https://graphql.org/learn/federation/#is-graphql-federation-right-for-you) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -2578,7 +2578,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Nystrom, Data Locality](https://gameprogrammingpatterns.com/data-locality.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Game Loop](https://gameprogrammingpatterns.com/game-loop.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Object Pool](https://gameprogrammingpatterns.com/object-pool.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
-| 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/gamedev](specific/gamedev/README.md), [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/gamedev](specific/gamedev/README.md), [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md) | 2026-10-24 |
 | 6 | [Nystrom, Type Object](https://gameprogrammingpatterns.com/type-object.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [oasdiff, breaking changes (OpenAPI)](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard](https://scorecard.dev/) | [general/security](general/security.md) | 2026-10-24 |

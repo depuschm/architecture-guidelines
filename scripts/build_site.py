@@ -9,7 +9,8 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
 - Every rule gets an anchor, and rule IDs in RULES.md and the checklists link to it.
 - Every row of RULES.md gets an anchor too, so RULES/#ID is a permanent link to each rule. Links to
   a rule ID on a page that no longer holds the rule are sent to its current page by
-  assets/rule-links.js, using assets/rule-index.json.
+  assets/rule-links.js, using assets/rule-index.json. Links to a retired rule go to its entry in
+  the "Retired IDs" list of RULES.md.
 - The checklists are left out of search, because they repeat the rules of the guideline files.
 - The abbreviations in GLOSSARY.md become tooltips on every page.
 - Each general topic and each platform gets an icon in the sidebar (NAV_ICONS). The icons are set
@@ -44,6 +45,7 @@ SCORES_CSS = """/* Score chips, coloured by level (see RANKING.md). */
 """
 ID_CELL = re.compile(r"(?<![\[\w])`([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)`(?!\])")
 RULES_ROW = re.compile(r"^\| `([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)` \|", re.M)
+RETIRED_ITEM = re.compile(r"^- `([A-Z][A-Z0-9]*(?:-[A-Z][A-Z0-9]*)*-\d+)`:", re.M)
 # The lucide "blocks" icon (ISC License, https://lucide.dev/license), the same icon as the logo.
 FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#4051b5" stroke-linecap="round" \
 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 \
@@ -205,6 +207,7 @@ def stage():
         shutil.rmtree(STAGE)
     pages = site_pages()
     rule_pages = {}
+    retired_pages = {}
     texts = {}
     for source, staged in pages.items():
         text = (ROOT / source).read_text(encoding="utf-8")
@@ -218,6 +221,9 @@ def stage():
     for staged, text in texts.items():
         if staged.name == "RULES.md":
             text = RULES_ROW.sub(lambda m: f'| <span id="{m.group(1)}"></span>`{m.group(1)}` |', text)
+            for match in RETIRED_ITEM.finditer(text):
+                retired_pages[match.group(1)] = staged
+            text = RETIRED_ITEM.sub(lambda m: f'- <span id="{m.group(1)}"></span>`{m.group(1)}`:', text)
         if staged.name == "RULES.md" or staged.parts[0] == "checklists":
             text = link_rule_ids(text, staged, rule_pages)
         front_matter = ""
@@ -236,7 +242,7 @@ def stage():
     (assets / "scores.css").write_text(SCORES_CSS, encoding="utf-8")
     (assets / "favicon.svg").write_text(FAVICON_SVG, encoding="utf-8")
     (assets / "rule-links.js").write_text(RULE_LINKS_JS, encoding="utf-8")
-    index = {rule_id: page_url(staged) for rule_id, staged in sorted(rule_pages.items())}
+    index = {rule_id: page_url(staged) for rule_id, staged in sorted({**retired_pages, **rule_pages}.items())}
     (assets / "rule-index.json").write_text(json.dumps(index, separators=(",", ":")) + "\n", encoding="utf-8")
     write_abbreviations()
     return pages

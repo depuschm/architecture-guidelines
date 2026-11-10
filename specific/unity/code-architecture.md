@@ -18,7 +18,6 @@ How to structure gameplay and application code so it stays changeable as the pro
 
 - `8` `UNITY-CODE-1` **Keep logic that doesn't need the engine in plain C# classes, with MonoBehaviours as thin adapters.** The logic can then be unit tested without scenes. ([Unity, How to architect code as your project scales](https://unity.com/how-to/how-architect-code-your-project-scales), [Humble Object pattern](http://xunitpatterns.com/Humble%20Object.html))
 - `7` `UNITY-CODE-2` **Separate UI from game logic with Model-View-Presenter (or MVC).** Views display state and forward input, and presenters hold no rendering code. ([Unity e-book, Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook))
-- `5` `UNITY-CODE-3` **Model complex behaviour, such as characters, AI and game flow, with the State pattern instead of growing `switch` statements.** This applies `GAMEDEV-21`. ([Unity e-book, Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook), [Nystrom, State](https://gameprogrammingpatterns.com/state.html))
 - `4` `UNITY-CODE-4` **Wrap player and AI actions in commands when you need undo, replay, rebinding or queuing.** ([Unity e-book, Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook), [Nystrom, Command](https://gameprogrammingpatterns.com/command.html))
 
 ### Data and ScriptableObjects

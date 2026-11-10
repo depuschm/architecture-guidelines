@@ -42,6 +42,7 @@ Build systems that are observable, resilient to failure and cheap to operate.
 - `7` `OPS-12` **Run blameless postmortems and track their action items.** ([Google SRE book, Postmortem Culture](https://sre.google/sre-book/postmortem-culture/))
 - `7` `OPS-15` **Make processes disposable: on `SIGTERM`, stop taking new work, finish or hand back the work in flight, and exit within the platform's grace period.** Platform examples: `K8S-3`, `NODE-9` and `DOCKER-6`. ([Twelve-Factor App, IX Disposability](https://12factor.net/disposability))
 - `7` `OPS-16` **Write structured logs that carry the trace context, to stdout or through a log appender, and ship them to a central store with the retention you need.** Platform examples: `NODE-10`, `OTEL-5`, `AZURE-12`, `GCP-12` and `HOST-13`. ([Twelve-Factor App, XI Logs](https://12factor.net/logs), [OpenTelemetry, Logs](https://opentelemetry.io/docs/concepts/signals/logs/), [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html))
+- `7` `OPS-17` **Set a spending limit on every cloud account, project and paid third-party service, and where the provider offers no hard limit, billing alerts that reach the owners, so that an attack can't run up unlimited charges.** Platform examples: `AZURE-13`, `GCP-13`, `FIREBASE-15` and `SUPABASE-14`. ([OWASP API Security Top 10, API4:2023 Unrestricted Resource Consumption](https://api-security.owasp.org/editions/2023/en/0xa4-unrestricted-resource-consumption/))
 
 ## Tutorials and further reading
 

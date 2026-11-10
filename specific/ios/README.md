@@ -53,7 +53,7 @@ Apple publishes no single architecture guide for iOS apps. Use the framework doc
 
 ### Accessibility
 
-- `7` `IOS-14` **Use the built-in text styles, and make any custom font scale the same way, so that text follows Dynamic Type, give every meaningful image and custom control a VoiceOver label, and hide decorative images from VoiceOver.** Check each screen with Accessibility Inspector, and in UI tests with `performAccessibilityAudit(for:_:)`. ([Apple, HIG: Typography](https://developer.apple.com/design/human-interface-guidelines/typography), [HIG: VoiceOver](https://developer.apple.com/design/human-interface-guidelines/voiceover), [Performing accessibility audits for your app](https://developer.apple.com/documentation/accessibility/performing-accessibility-audits-for-your-app))
+- `7` `IOS-14` **Use the built-in text styles, and make any custom font scale the same way, so that text follows Dynamic Type, give every meaningful image and custom control a VoiceOver label, and hide decorative images from VoiceOver.** Check each screen with Accessibility Inspector, and in UI tests with `performAccessibilityAudit(for:_:)`. This applies `A11Y-9` and `A11Y-12`. ([Apple, HIG: Typography](https://developer.apple.com/design/human-interface-guidelines/typography), [HIG: VoiceOver](https://developer.apple.com/design/human-interface-guidelines/voiceover), [Performing accessibility audits for your app](https://developer.apple.com/documentation/accessibility/performing-accessibility-audits-for-your-app))
 
 ### Testing and delivery
 

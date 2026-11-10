@@ -1423,7 +1423,8 @@ score,title,url,verified
 7,"OWASP, OAuth 2.0 Protocol Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html,2026-10-25
 7,"OWASP, Passkey Security Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html,2026-10-25
 7,"OWASP, SQL Injection Prevention Cheat Sheet: allow-list input validation",https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#allow-list-input-validation,2026-11-01
-7,"OWASP, SQL Injection Prevention Cheat Sheet: prepared statements with parameterized queries",https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#defense-option-1-prepared-statements-with-parameterized-queries,2026-11-01
+7,"OWASP, SQL Injection Prevention Cheat Sheet: parameterized queries",https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#parameterized-queries,2026-11-10
+7,"OWASP, SQL Injection Prevention Cheat Sheet: primary defenses",https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#primary-defenses,2026-11-10
 7,Pact,https://docs.pact.io/,2026-10-24
 7,"Pact, can-i-deploy",https://docs.pact.io/pact_broker/can_i_deploy,2026-10-25
 7,"Parnas, On the Criteria to Be Used in Decomposing Systems into Modules",https://doi.org/10.1145/361598.361623,2026-10-24
@@ -2689,6 +2690,7 @@ score,title,url,verified
 6,"Spring Security, Authorize HttpServletRequests: favor permitAll over ignoring",https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#favor-permitall,2026-11-01
 6,"Spring Security, CSRF: CSRF and stateless browser applications",https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when-stateless,2026-11-01
 6,"Spring Security, CSRF: safe methods must be read-only",https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-protection-read-only,2026-11-01
+6,"Spring Security, CSRF: SameSite attribute",https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-protection-ssa,2026-11-10
 6,"Spring Security, Servlet CSRF: disable CSRF protection",https://docs.spring.io/spring-security/reference/servlet/exploits/csrf.html#disable-csrf,2026-11-01
 6,"Spring, Guides",https://spring.io/guides/,2026-11-01
 6,"Spring, Support policy",https://spring.io/support-policy/,2026-11-01

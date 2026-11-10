@@ -127,7 +127,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2810 sources.
+2812 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -1404,7 +1404,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OpenTofu, State and plan encryption](https://opentofu.org/docs/language/state/encryption/) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
 | 7 | [Oracle, Java SE 25 Core Libraries: Virtual Threads](https://docs.oracle.com/en/java/javase/25/core/virtual-threads.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [Oracle, Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 7 | [OWASP API Security Top 10, API4:2023 Unrestricted Resource Consumption](https://api-security.owasp.org/editions/2023/en/0xa4-unrestricted-resource-consumption/) | [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
+| 7 | [OWASP API Security Top 10, API4:2023 Unrestricted Resource Consumption](https://api-security.owasp.org/editions/2023/en/0xa4-unrestricted-resource-consumption/) | [general/api-design](general/api-design.md), [general/operations-reliability](general/operations-reliability.md), [specific/game-servers](specific/game-servers/README.md) | 2026-11-01 |
 | 7 | [OWASP Authentication Cheat Sheet, Authentication responses](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Implement proper password strength controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Login throttling](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login-throttling) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1442,7 +1442,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP, OAuth 2.0 Protocol Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP, Passkey Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP, SQL Injection Prevention Cheat Sheet: allow-list input validation](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#allow-list-input-validation) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
-| 7 | [OWASP, SQL Injection Prevention Cheat Sheet: prepared statements with parameterized queries](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#defense-option-1-prepared-statements-with-parameterized-queries) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-01 |
+| 7 | [OWASP, SQL Injection Prevention Cheat Sheet: parameterized queries](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#parameterized-queries) | [specific/sqlite](specific/sqlite/README.md) | 2026-11-10 |
+| 7 | [OWASP, SQL Injection Prevention Cheat Sheet: primary defenses](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#primary-defenses) | [general/security](general/security.md) | 2026-11-10 |
 | 7 | [Pact](https://docs.pact.io/) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 7 | [Pact, can-i-deploy](https://docs.pact.io/pact_broker/can_i_deploy) | [general/api-design](general/api-design.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-25 |
 | 7 | [Parnas, On the Criteria to Be Used in Decomposing Systems into Modules](https://doi.org/10.1145/361598.361623) | [general/principles](general/principles.md) | 2026-10-24 |
@@ -1625,7 +1626,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Spring Modulith, Fundamentals: advanced application modules](https://docs.spring.io/spring-modulith/reference/fundamentals.html#modules.advanced) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [Spring Modulith, Verifying Application Module Structure](https://docs.spring.io/spring-modulith/reference/verification.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [Spring Security, Authorize HttpServletRequests: matching by HTTP method](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#match-by-httpmethod) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 7 | [Spring Security, CSRF: when to use CSRF protection](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 7 | [Spring Security, CSRF: when to use CSRF protection](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when) | [general/authentication](general/authentication.md), [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [Spring Security, Method Security](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [Spring Security, Method Security: comparing request-level and method-level authorization](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html#request-vs-method) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 7 | [Spring, Spring Boot support timeline](https://spring.io/projects/spring-boot#support) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
@@ -2575,7 +2576,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Nystrom, Data Locality](https://gameprogrammingpatterns.com/data-locality.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Game Loop](https://gameprogrammingpatterns.com/game-loop.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [Nystrom, Object Pool](https://gameprogrammingpatterns.com/object-pool.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
-| 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
+| 6 | [Nystrom, State](https://gameprogrammingpatterns.com/state.html) | [specific/gamedev](specific/gamedev/README.md), [specific/gamemaker/code-architecture](specific/gamemaker/code-architecture.md), [specific/unity/code-architecture](specific/unity/code-architecture.md) | 2026-10-24 |
 | 6 | [Nystrom, Type Object](https://gameprogrammingpatterns.com/type-object.html) | [specific/gamedev](specific/gamedev/README.md) | 2026-10-25 |
 | 6 | [oasdiff, breaking changes (OpenAPI)](https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [OpenSSF Scorecard](https://scorecard.dev/) | [general/security](general/security.md) | 2026-10-24 |
@@ -2706,8 +2707,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [Spring Boot, Tracing: sampling](https://docs.spring.io/spring-boot/reference/actuator/tracing.html#actuator.micrometer-tracing.sampling) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [Spring Data JPA, Configuring fetch- and load-graphs](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#jpa.entity-graph) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [Spring Security, Authorize HttpServletRequests: favor permitAll over ignoring](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html#favor-permitall) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 6 | [Spring Security, CSRF: CSRF and stateless browser applications](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when-stateless) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
-| 6 | [Spring Security, CSRF: safe methods must be read-only](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-protection-read-only) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, CSRF: CSRF and stateless browser applications](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-when-stateless) | [general/authentication](general/authentication.md), [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, CSRF: safe methods must be read-only](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-protection-read-only) | [general/authentication](general/authentication.md), [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
+| 6 | [Spring Security, CSRF: SameSite attribute](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html#csrf-protection-ssa) | [general/authentication](general/authentication.md) | 2026-11-10 |
 | 6 | [Spring Security, Servlet CSRF: disable CSRF protection](https://docs.spring.io/spring-security/reference/servlet/exploits/csrf.html#disable-csrf) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [Spring, Guides](https://spring.io/guides/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [Spring, Support policy](https://spring.io/support-policy/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |

@@ -3,7 +3,10 @@
 
 Stages the repository's Markdown into build/site-src/, then builds build/site/:
 
-- README.md becomes the home page, and SKILL.md files become their skill's index page.
+- README.md becomes the home page, and SKILL.md files become their skill's index page. On the site,
+  the home page starts with a grid of cards, one per area (AREA_ICONS), generated from the indexes,
+  and drops the README's link to the site. GitHub shows README.md without the cards, whose icons
+  it couldn't render.
 - Relative links to files that aren't part of the site (CSV files, scripts, LICENSE, …)
   are rewritten to their GitHub URLs, so no link breaks.
 - Every rule gets an anchor, and rule IDs in RULES.md and the checklists link to it.
@@ -21,6 +24,7 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
 Usage: python3 scripts/build_site.py [--serve]    (needs `pip install zensical`)
 """
 
+import importlib.util
 import json
 import re
 import shutil
@@ -125,6 +129,24 @@ NAV_ICONS = {
 }
 DEFAULT_TOPIC_ICON = "lucide/file-text"
 DEFAULT_PLATFORM_ICON = "lucide/box"
+# The cards at the top of the site's home page: General, each group of specific/README.md, the
+# checklists and the skills. An area that isn't listed here gets DEFAULT_AREA_ICON.
+AREA_ICONS = {
+    "General": "lucide/compass",
+    "Games": "lucide/gamepad-2",
+    "Web and back end": "lucide/globe",
+    "Data and messaging": "lucide/database",
+    "Mobile": "lucide/smartphone",
+    "Desktop": "lucide/app-window",
+    "Infrastructure and automation": "lucide/server",
+    "Checklists": "lucide/list-checks",
+    "AI skills": "lucide/sparkles",
+}
+DEFAULT_AREA_ICON = "lucide/layers"
+# A no-break space keeps each separator on the line of the link before it.
+SEPARATOR = "\u00a0· "
+LIST_LINK = re.compile(r"^- \[([^\]]+)\]\(([^)\s]+)\)")
+SKILL_ROW = re.compile(r"^\| \[`([^`]+)`\]\(([^)\s]+)\)")
 RULE_LINKS_JS = """// Keep old links to a rule working after the rule moves to another page: if the address ends
 // in a rule ID (#GODOT-16) that isn't on this page, look up the rule's current page and go there.
 (function () {
@@ -153,6 +175,62 @@ def site_pages():
         pages[relative] = relative.with_name("README.md") if path.name == "SKILL.md" else relative
     pages[Path("evals/README.md")] = Path("evals/README.md")
     return pages
+
+
+def icon_svg(name):
+    """The inline SVG of a theme icon such as lucide/compass, from the installed Zensical package."""
+    spec = importlib.util.find_spec("zensical")
+    if spec is None:
+        sys.exit("Zensical is not installed: run pip install -r requirements.txt")
+    svg = Path(spec.origin).parent / "templates" / ".icons" / f"{name}.svg"
+    return svg.read_text(encoding="utf-8").strip()
+
+
+def heading_slug(heading):
+    """The anchor that the toc extension gives a heading."""
+    return re.sub(r"[\s-]+", "-", re.sub(r"[^\w\s-]", "", heading).strip().lower())
+
+
+def sections(text):
+    """Map each heading of a Markdown file (## or ###) to the lines under it."""
+    found, current = {}, None
+    for line in text.split("\n"):
+        if line.startswith(("## ", "### ")):
+            current = line.lstrip("#").strip()
+            found[current] = []
+        elif current:
+            found[current].append(line)
+    return found
+
+
+def areas():
+    """(title, link, body) for each card of the home page, with repository-relative links."""
+    def links(lines, folder):
+        return SEPARATOR.join(f"[{m.group(1)}]({folder}{m.group(2)})" for line in lines if (m := LIST_LINK.match(line)))
+
+    general = sections((ROOT / "general" / "README.md").read_text(encoding="utf-8"))
+    found = [("General", "general/README.md", links(general["Topics"], "general/"))]
+    specific = (ROOT / "specific" / "README.md").read_text(encoding="utf-8")
+    for heading in re.findall(r"^### (.+)$", specific, re.M):
+        lines = sections(specific)[heading]
+        found.append((heading, f"specific/README.md#{heading_slug(heading)}", links(lines, "specific/")))
+    readme = sections((ROOT / "README.md").read_text(encoding="utf-8"))
+    intro = next(line for line in readme["Checklists"] if line.strip())
+    found.append(("Checklists", "#checklists", intro.split(". ")[0].rstrip(".") + "."))
+    skills = SEPARATOR.join(f"[`{m.group(1)}`]({m.group(2)})" for line in readme["AI skills"] if (m := SKILL_ROW.match(line)))
+    found.append(("AI skills", "#ai-skills", skills))
+    return found
+
+
+def home_page(text):
+    """The site's home page: README.md with the area cards after its tagline, without the link to the site."""
+    cards = ['<div class="grid cards" markdown>', ""]
+    for title_text, link, body in areas():
+        icon = icon_svg(AREA_ICONS.get(title_text, DEFAULT_AREA_ICON))
+        cards += [f'-   <span class="twemoji lg middle">{icon}</span> **[{title_text}]({link})**', "", "    ---", "", f"    {body}", ""]
+    cards.append("</div>")
+    paragraphs = [p for p in text.split("\n\n") if not p.startswith("**Read it as a website:**")]
+    return "\n\n".join(paragraphs[:2] + ["\n".join(cards)] + paragraphs[2:])
 
 
 def rewrite_links(text, source, staged, pages):
@@ -211,6 +289,8 @@ def stage():
     texts = {}
     for source, staged in pages.items():
         text = (ROOT / source).read_text(encoding="utf-8")
+        if source == Path("README.md"):
+            text = home_page(text)
         text = rewrite_links(text, source, staged, pages)
         if source.parts[0] in ("general", "specific"):
             for match in RULE_LINE.finditer(text):
@@ -229,6 +309,9 @@ def stage():
         front_matter = ""
         if staged.parts[0] == "checklists":
             front_matter += "search:\n  exclude: true\n"
+        if staged == Path("index.md"):
+            # The home page has no sidebar navigation of its own, so give its cards the width.
+            front_matter += "hide:\n  - navigation\n"
         icon = nav_icon(staged)
         if icon:
             front_matter += f"icon: {icon}\n"

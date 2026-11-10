@@ -28,7 +28,7 @@ Folders, assemblies, packages and version control.
 ### Version control
 
 - `10` `UNITY-STRUCT-7` **Keep `.meta` files visible and committed, and keep asset serialization on Force Text, so that assets diff and merge.** Both are the defaults. Don't change them. ([Unity Manual, Version control settings](https://docs.unity3d.com/Manual/class-VersionControlSettings.html), [Editor settings: Asset Serialization](https://docs.unity3d.com/Manual/class-EditorManager.html))
-- `9` `UNITY-STRUCT-8` **Start from the community Unity `.gitignore` so that generated folders such as `Library/` and `Temp/` are never committed.** ([github/gitignore, Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore))
+- `9` `UNITY-STRUCT-8` **Start from the `Unity.gitignore` template in github/gitignore, which ignores generated folders such as `Library/` and `Temp/`.** This is how Unity projects apply `GAMEDEV-22`, together with committing the `.meta` files (`UNITY-STRUCT-7`). ([github/gitignore, Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore))
 - `6` `UNITY-STRUCT-9` **Configure UnityYAMLMerge (Smart Merge) as the merge tool for scenes and prefabs.** ([Unity Manual, Smart Merge](https://docs.unity3d.com/Manual/SmartMerge.html))
 
 ### Iteration speed

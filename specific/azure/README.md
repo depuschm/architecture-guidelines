@@ -38,7 +38,7 @@ Scope: workloads on Microsoft Azure, from a single subscription to an enterprise
 
 ### Networking
 
-- `7` `AZURE-8` **Reach PaaS data services, such as Storage, SQL Database and Key Vault, through private endpoints, and block public traffic with the service firewall or turn public network access off.** A private endpoint alone doesn't block public access, and clients need DNS, usually private DNS zones, that resolves the service to the endpoint. ([Well-Architected Framework, Private endpoints](https://learn.microsoft.com/en-us/azure/well-architected/security/networking#private-endpoints), [What is a private endpoint?](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview))
+- `7` `AZURE-8` **Reach PaaS data services, such as Storage, SQL Database and Key Vault, through private endpoints, and block public traffic with the service firewall or turn public network access off.** A private endpoint alone doesn't block public access, and clients need DNS, usually private DNS zones, that resolves the service to the endpoint. This is how Azure applies `SEC-20`. ([Well-Architected Framework, Private endpoints](https://learn.microsoft.com/en-us/azure/well-architected/security/networking#private-endpoints), [What is a private endpoint?](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview))
 
 ### Reliability
 

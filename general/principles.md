@@ -34,6 +34,10 @@ Design principles that apply regardless of technology, team size or architecture
 - `7` `PRIN-10` **Prefer the simplest design that passes the tests, reveals intention, has no duplication and has the fewest elements.** ([Beck Design Rules](https://martinfowler.com/bliki/BeckDesignRules.html))
 - `6` `PRIN-11` **Take on technical debt deliberately and prudently, and know when you're doing it.** ([Fowler, Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html))
 
+### Concurrency
+
+- `7` `PRIN-16` **Start every concurrent task in a scope, such as a task group, that waits for it to finish or cancels it before the scope ends (structured concurrency), so that no task outlives the code that owns it.** A task that nothing waits for can keep running after its caller has failed, leak resources, and lose its errors. Platform examples: `GO-6`, `PY-10`, `IOS-5` and `NODE-2`. ([Smith, Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/), [OpenJDK, JEP 543: Structured Concurrency](https://openjdk.org/jeps/543))
+
 ### Socio-technical design
 
 - `7` `PRIN-12` **Expect system structure to mirror communication structure (Conway's law).** Design teams and architecture together. ([Fowler, Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html), [Conway, original paper](https://www.melconway.com/Home/Conways_Law.html))

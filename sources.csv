@@ -296,6 +296,7 @@ score,title,url,verified
 8,"RFC 9457, Problem Details for HTTP APIs",https://www.rfc-editor.org/rfc/rfc9457.html,2026-10-24
 8,Semantic Versioning,https://semver.org/,2026-10-24
 8,"Semantic Versioning 2.0.0, Specification",https://semver.org/#semantic-versioning-specification-semver,2026-10-25
+8,"Smith, Notes on structured concurrency, or: Go statement considered harmful",https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/,2026-11-10
 8,Software Engineering at Google,https://abseil.io/resources/swe-book,2026-10-24
 8,"Software Engineering at Google, chapter 16: Version Control and Branch Management",https://abseil.io/resources/swe-book/html/ch16.html,2026-10-25
 8,"Spring Modulith, Reference documentation",https://docs.spring.io/spring-modulith/reference/,2026-11-01
@@ -573,6 +574,7 @@ score,title,url,verified
 7,"AWS Well-Architected, Operational excellence pillar",https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html,2026-10-24
 7,"AWS Well-Architected, Performance efficiency pillar",https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html,2026-10-24
 7,"AWS, Caching best practices",https://aws.amazon.com/caching/best-practices/,2026-10-25
+7,"Azure Architecture Center, Chatty I/O antipattern",https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/,2026-11-10
 7,"Azure Well-Architected, Redundancy",https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy,2026-10-26
 7,"Azure, Anti-corruption Layer pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer,2026-10-24
 7,"Azure, Bulkhead pattern",https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead,2026-10-24
@@ -845,6 +847,7 @@ score,title,url,verified
 7,"GitHub Docs, About code owners",https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners,2026-10-25
 7,"GitHub Docs, About protected branches",https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches,2026-10-25
 7,"GitHub Docs, About rulesets",https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets,2026-10-25
+7,"GitHub Docs, Ignoring files: configuring ignored files for a single repository",https://docs.github.com/en/get-started/git-basics/ignoring-files#configuring-ignored-files-for-a-single-repository,2026-11-10
 7,"GitHub Docs, Immutable releases",https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases,2026-10-25
 7,"GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests",https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/,2026-10-25
 7,"GitHub, Configuring OpenID Connect in cloud providers",https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers,2026-10-25
@@ -1353,6 +1356,7 @@ score,title,url,verified
 7,"Nx, Enforce Module Boundaries rule",https://nx.dev/docs/kb/enforce-module-boundaries,2026-10-25
 7,OpenGitOps principles,https://opengitops.dev/,2026-10-24
 7,"OpenID Connect Core 1.0, Claim stability and uniqueness",https://openid.net/specs/openid-connect-core-1_0.html#ClaimStability,2026-10-25
+7,"OpenJDK, JEP 543: Structured Concurrency",https://openjdk.org/jeps/543,2026-11-10
 7,"OpenTelemetry Collector, Memory limiter processor: best practices",https://github.com/open-telemetry/opentelemetry-collector/blob/main/processor/memorylimiterprocessor/README.md#best-practices,2026-10-25
 7,"OpenTelemetry Collector, Recommended processors",https://github.com/open-telemetry/opentelemetry-collector/blob/main/processor/README.md#recommended-processors,2026-10-25
 7,OpenTelemetry semantic conventions,https://opentelemetry.io/docs/specs/semconv/,2026-10-24
@@ -1384,6 +1388,9 @@ score,title,url,verified
 7,"OWASP Authentication Cheat Sheet, Login throttling",https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login-throttling,2026-10-25
 7,"OWASP Authentication Cheat Sheet, Require re-authentication for sensitive features",https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#require-re-authentication-for-sensitive-features,2026-10-25
 7,"OWASP Authentication Cheat Sheet, Secure federated account linking",https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#secure-federated-account-linking,2026-10-25
+7,"OWASP Cryptographic Storage Cheat Sheet, Key storage",https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#key-storage,2026-11-10
+7,"OWASP Database Security Cheat Sheet, Configuring secure authentication",https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html#configuring-secure-authentication,2026-11-10
+7,"OWASP Database Security Cheat Sheet, Protecting the backend database",https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html#protecting-the-backend-database,2026-11-10
 7,"OWASP Docker Security, Rule #12: Utilize Docker Secrets",https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-12-utilize-docker-secrets-for-sensitive-data-management,2026-10-25
 7,"OWASP Docker Security, Rule #13: Enhance supply chain security",https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-13-enhance-supply-chain-security,2026-10-25
 7,"OWASP Docker Security, Rule #1: Do not expose the Docker daemon socket",https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-1-do-not-expose-the-docker-daemon-socket-even-to-the-containers,2026-10-25
@@ -1393,6 +1400,7 @@ score,title,url,verified
 7,"OWASP Docker Security, Rule #8: Set filesystem and volumes to read-only",https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-8-set-filesystem-and-volumes-to-read-only,2026-10-25
 7,"OWASP Docker Security, Rule #9: Integrate container scanning into CI/CD",https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-9-integrate-container-scanning-tools-into-your-cicd-pipeline,2026-10-25
 7,OWASP Logging Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html,2026-10-24
+7,"OWASP MASWE-0001, Sensitive Data Stored Unencrypted in Private Storage",https://mas.owasp.org/MASWE/MASVS-STORAGE/MASWE-0001/,2026-11-10
 7,OWASP Microservices Security Cheat Sheet,https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html,2026-10-24
 7,"OWASP Mobile Top 10, M1 Improper Credential Usage",https://owasp.github.io/www-project-mobile-top-10/2023-risks/m1-improper-credential-usage,2026-10-26
 7,"OWASP Multifactor Authentication Cheat Sheet, Passkeys",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#passkeys,2026-10-25
@@ -1918,6 +1926,7 @@ score,title,url,verified
 7,"W3C, Understanding WCAG 2.2 SC 2.2.1 Timing Adjustable",https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html,2026-11-01
 7,"W3C, Understanding WCAG 2.2 SC 2.2.2 Pause, Stop, Hide",https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html,2026-11-01
 7,"W3C, Understanding WCAG 2.2 SC 2.3.1 Three Flashes or Below Threshold",https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html,2026-11-01
+7,"W3C, Understanding WCAG 2.2 SC 2.4.2 Page Titled",https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html#intent,2026-11-10
 7,"W3C, Understanding WCAG 2.2 SC 4.1.2 Name, Role, Value",https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html,2026-11-01
 7,"W3C, WebGPU (Candidate Recommendation Draft)",https://www.w3.org/TR/webgpu/,2026-10-31
 7,"W3C, Working with Time and Timezones (Group Draft Note)",https://www.w3.org/TR/timezone/,2026-10-26
@@ -2049,6 +2058,8 @@ score,title,url,verified
 6,"AWS Security Hub, Resource Tagging standard",https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html,2026-10-25
 6,"AWS Well-Architected, Serverless Applications Lens",https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html,2026-10-24
 6,"Azure Architecture Center, AI architecture design",https://learn.microsoft.com/en-us/azure/architecture/ai-ml/ai-get-started,2026-11-10
+6,"Azure Architecture Center, Chatty I/O antipattern: how to detect the problem",https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/#how-to-detect-the-problem,2026-11-10
+6,"BBC GEL, Routing",https://bbc.github.io/gel/foundations/routing/,2026-11-10
 6,Bounded Context Canvas,https://github.com/ddd-crew/bounded-context-canvas,2026-10-24
 6,"buf breaking, rules and categories",https://buf.build/docs/breaking/rules/,2026-10-25
 6,"Bulletproof React, project structure",https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md,2026-10-24
@@ -2261,6 +2272,7 @@ score,title,url,verified
 6,"GitHub, Reuse workflows",https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows,2026-10-25
 6,"GitHub, Secure use reference: Using CODEOWNERS to monitor changes",https://docs.github.com/en/actions/reference/security/secure-use#using-codeowners-to-monitor-changes,2026-10-25
 6,"GitHub, Tutorials for GitHub Actions",https://docs.github.com/en/actions/tutorials,2026-10-25
+6,"github/gitignore, a collection of .gitignore templates",https://github.com/github/gitignore,2026-11-10
 6,"GitLab Docs, Branch rules",https://docs.gitlab.com/user/project/repository/branches/branch_rules/,2026-10-25
 6,"GitLab Docs, CI/CD components: Avoid using global keywords",https://docs.gitlab.com/ci/components/#avoid-using-global-keywords,2026-10-25
 6,"GitLab Docs, CI/CD components: Replace hardcoded values with inputs",https://docs.gitlab.com/ci/components/#replace-hardcoded-values-with-inputs,2026-10-25
@@ -2578,9 +2590,11 @@ score,title,url,verified
 6,"OpenTelemetry Weaver, Live check",https://github.com/open-telemetry/weaver/blob/main/crates/weaver_live_check/README.md,2026-10-25
 6,"OpenTelemetry, Deploy the Collector",https://opentelemetry.io/docs/collector/deploy/,2026-10-25
 6,"OpenTelemetry, Training (certifications and courses)",https://opentelemetry.io/training/,2026-10-25
+6,"OWASP Cryptographic Storage Cheat Sheet, Encrypting stored keys",https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#encrypting-stored-keys,2026-11-10
 6,"OWASP Dependency-Check, Maven plugin configuration",https://dependency-check.github.io/DependencyCheck/dependency-check-maven/configuration.html,2026-11-01
 6,"OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service,2026-10-25
 6,"OWASP Multifactor Authentication Cheat Sheet, Resetting MFA",https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa,2026-10-25
+6,"OWASP NoSQL Security Cheat Sheet, Network and transport security",https://cheatsheetseries.owasp.org/cheatsheets/NoSQL_Security_Cheat_Sheet.html#network-transport-security,2026-11-10
 6,"OWASP, Django Security Cheat Sheet",https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html,2026-10-25
 6,"OWASP, GraphQL Cheat Sheet: Introspection and GraphiQL",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#introspection-graphiql,2026-10-25
 6,"OWASP, GraphQL Cheat Sheet: Server-side batching and caching",https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#server-side-batching-and-caching,2026-10-25
@@ -3023,6 +3037,7 @@ score,title,url,verified
 5,"GameMaker, Download GameMaker (release channels)",https://gamemaker.io/en/download,2026-11-01
 5,"GameMaker, GameMaker Update Spring 2026: LTS Roadmap, GMRT, and the Future",https://gamemaker.io/en/blog/update-spring-2026,2026-11-01
 5,"GameMaker, Winter Update: Slowing Down to Speed Up in 2025",https://gamemaker.io/en/blog/winter-update-2024,2026-11-01
+5,"Gatsby (Marcy Sutton), What we learned from user testing of accessible client-side routing techniques",https://www.gatsbyjs.com/blog/2019-07-11-user-testing-accessible-client-routing/#recommendations-finding-common-ground,2026-11-10
 5,"gdtoolkit, Linter (gdlint)",https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter,2026-10-25
 5,"gdtoolkit, README (gdformat and CI usage)",https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md,2026-10-25
 5,"gdUnit4, Command line tool",https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/,2026-10-25

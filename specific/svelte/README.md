@@ -45,7 +45,7 @@ Scope: web apps built with Svelte 5 in runes mode and SvelteKit, following the c
 
 ### Accessibility
 
-- `6` `SVELTE-15` **Give every page a unique, descriptive `<title>` in `<svelte:head>`, and set the `lang` attribute in `src/app.html`.** SvelteKit announces the title to screen readers after each client-side navigation. ([SvelteKit, Route announcements](https://svelte.dev/docs/kit/accessibility#Route-announcements), [The lang attribute](https://svelte.dev/docs/kit/accessibility#The-lang-attribute))
+- `6` `SVELTE-15` **Set each page's `<title>` in `<svelte:head>`, and the `lang` attribute in `src/app.html`.** SvelteKit announces the title to screen readers after each client-side navigation, which is how SvelteKit apps apply `WEB-22`. ([SvelteKit, Route announcements](https://svelte.dev/docs/kit/accessibility#Route-announcements), [The lang attribute](https://svelte.dev/docs/kit/accessibility#The-lang-attribute))
 - `6` `SVELTE-16` **Fix the compiler's accessibility warnings, and silence one with `<!-- svelte-ignore -->` only for a false positive, with a note saying why.** ([Svelte, Compiler warnings](https://svelte.dev/docs/svelte/compiler-warnings))
 
 ## How to enforce

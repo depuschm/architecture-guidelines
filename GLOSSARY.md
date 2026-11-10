@@ -68,6 +68,7 @@ When a guideline introduces an abbreviation that readers may not know, add a row
 | ICU | International Components for Unicode: libraries for locale-aware formatting, collation and message formatting | [Localization](general/localization.md) |
 | INP | Interaction to Next Paint: the Core Web Vital for responsiveness | [Web front end](specific/web/README.md) |
 | IPC | Inter-process communication | [Desktop apps](specific/desktop/README.md) |
+| JEP | JDK Enhancement Proposal: a proposal for a change to the Java platform, in the OpenJDK project | [Principles](general/principles.md) |
 | JPA | Jakarta Persistence API: Java's standard for object-relational mapping | [Spring Boot](specific/spring-boot/README.md) |
 | JWT | JSON Web Token: a signed token that carries claims, such as who the user is | [Supabase](specific/supabase/README.md) |
 | LCP | Largest Contentful Paint: the Core Web Vital for loading speed | [Web front end](specific/web/README.md) |
@@ -78,6 +79,7 @@ When a guideline introduces an abbreviation that readers may not know, add a row
 | MADR | Markdown Architectural Decision Records: a template for ADRs | [Decisions](general/decisions.md) |
 | MASTG | Mobile Application Security Testing Guide, from OWASP | [iOS](specific/ios/README.md) |
 | MASVS | Mobile Application Security Verification Standard, from OWASP | [iOS](specific/ios/README.md) |
+| MASWE | Mobile Application Security Weakness Enumeration, from OWASP | [Security](general/security.md) |
 | MFA | Multi-factor authentication | [Authentication](general/authentication.md) |
 | MSAA | Multisample anti-aliasing | [Godot: rendering](specific/godot/rendering.md) |
 | MVC | Model-view-controller: a pattern that separates data, presentation and input handling | [Unity: code architecture](specific/unity/code-architecture.md) |

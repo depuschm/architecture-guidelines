@@ -37,7 +37,7 @@ Scope: web apps built with Vue 3, the Composition API and Single-File Components
 
 - `7` `VUE-10` **Use server-side rendering or static generation, for example with Nuxt, when page load performance or SEO matters, and a client-side SPA only when they don't. In Nuxt, set the rendering mode per route with `routeRules`.** ([Vue.js, Performance: choosing the right architecture](https://vuejs.org/guide/best-practices/performance.html#choosing-the-right-architecture), [Vue.js, Why SSR?](https://vuejs.org/guide/scaling-up/ssr.html#why-ssr), [Nuxt, Hybrid rendering](https://nuxt.com/docs/4.x/guide/concepts/rendering#hybrid-rendering))
 - `7` `VUE-11` **Lazy-load route components with dynamic imports.** The Vue performance guide strongly recommends it for apps that use Vue Router: each route becomes a separate chunk that loads on the first visit. ([Vue.js, Code splitting](https://vuejs.org/guide/best-practices/performance.html#code-splitting), [Vue Router, Lazy loading routes](https://router.vuejs.org/guide/advanced/lazy-loading.html))
-- `6` `VUE-12` **After each route change, move focus back to the start of the page, just before a skip link to the main content.** ([Vue.js, Accessibility: skip link](https://vuejs.org/guide/best-practices/accessibility.html#skip-link))
+- `6` `VUE-12` **Put an element with `tabindex="-1"` at the top of `App.vue`, just before a skip link to the main content, and focus it in a watcher on Vue Router's current route.** Each route change then moves focus back to the start of the page. This is how Vue applies `WEB-22`. ([Vue.js, Accessibility: skip link](https://vuejs.org/guide/best-practices/accessibility.html#skip-link))
 
 ### Security
 

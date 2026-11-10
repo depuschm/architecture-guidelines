@@ -112,7 +112,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2829 sources.
+2843 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -315,6 +315,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [RFC 9457, Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457.html) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [Semantic Versioning](https://semver.org/) | [general/api-design](general/api-design.md), [general/releases](general/releases.md) | 2026-10-24 |
 | 8 | [Semantic Versioning 2.0.0, Specification](https://semver.org/#semantic-versioning-specification-semver) | [general/releases](general/releases.md) | 2026-10-25 |
+| 8 | [Smith, Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/) | [general/principles](general/principles.md) | 2026-11-10 |
 | 8 | [Software Engineering at Google](https://abseil.io/resources/swe-book) | [general/reading-list](general/reading-list.md), [general/testing-delivery](general/testing-delivery.md) | 2026-10-24 |
 | 8 | [Software Engineering at Google, chapter 16: Version Control and Branch Management](https://abseil.io/resources/swe-book/html/ch16.html) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 8 | [Spring Modulith, Reference documentation](https://docs.spring.io/spring-modulith/reference/) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
@@ -592,6 +593,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Well-Architected, Operational excellence pillar](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected, Performance efficiency pillar](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS, Caching best practices](https://aws.amazon.com/caching/best-practices/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
+| 7 | [Azure Architecture Center, Chatty I/O antipattern](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/) | [general/data](general/data.md) | 2026-11-10 |
 | 7 | [Azure Well-Architected, Redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-26 |
 | 7 | [Azure, Anti-corruption Layer pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
 | 7 | [Azure, Bulkhead pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
@@ -864,6 +866,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [GitHub Docs, About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [GitHub Docs, About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [GitHub Docs, About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) | [general/releases](general/releases.md), [general/repositories](general/repositories.md) | 2026-10-25 |
+| 7 | [GitHub Docs, Ignoring files: configuring ignored files for a single repository](https://docs.github.com/en/get-started/git-basics/ignoring-files#configuring-ignored-files-for-a-single-repository) | [specific/gamedev](specific/gamedev/README.md) | 2026-11-10 |
 | 7 | [GitHub Docs, Immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases) | [general/releases](general/releases.md) | 2026-10-25 |
 | 7 | [GitHub Security Lab, Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 7 | [GitHub, Configuring OpenID Connect in cloud providers](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
@@ -1372,6 +1375,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Nx, Enforce Module Boundaries rule](https://nx.dev/docs/kb/enforce-module-boundaries) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 7 | [OpenGitOps principles](https://opengitops.dev/) | [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 7 | [OpenID Connect Core 1.0, Claim stability and uniqueness](https://openid.net/specs/openid-connect-core-1_0.html#ClaimStability) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OpenJDK, JEP 543: Structured Concurrency](https://openjdk.org/jeps/543) | [general/principles](general/principles.md) | 2026-11-10 |
 | 7 | [OpenTelemetry Collector, Memory limiter processor: best practices](https://github.com/open-telemetry/opentelemetry-collector/blob/main/processor/memorylimiterprocessor/README.md#best-practices) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 7 | [OpenTelemetry Collector, Recommended processors](https://github.com/open-telemetry/opentelemetry-collector/blob/main/processor/README.md#recommended-processors) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 7 | [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) | [general/operations-reliability](general/operations-reliability.md), [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-24 |
@@ -1403,6 +1407,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP Authentication Cheat Sheet, Login throttling](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#login-throttling) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Require re-authentication for sensitive features](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#require-re-authentication-for-sensitive-features) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 7 | [OWASP Authentication Cheat Sheet, Secure federated account linking](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#secure-federated-account-linking) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 7 | [OWASP Cryptographic Storage Cheat Sheet, Key storage](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#key-storage) | [general/security](general/security.md) | 2026-11-10 |
+| 7 | [OWASP Database Security Cheat Sheet, Configuring secure authentication](https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html#configuring-secure-authentication) | [general/security](general/security.md) | 2026-11-10 |
+| 7 | [OWASP Database Security Cheat Sheet, Protecting the backend database](https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html#protecting-the-backend-database) | [general/security](general/security.md) | 2026-11-10 |
 | 7 | [OWASP Docker Security, Rule #12: Utilize Docker Secrets](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-12-utilize-docker-secrets-for-sensitive-data-management) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Docker Security, Rule #13: Enhance supply chain security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-13-enhance-supply-chain-security) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Docker Security, Rule #1: Do not expose the Docker daemon socket](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-1-do-not-expose-the-docker-daemon-socket-even-to-the-containers) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -1412,6 +1419,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [OWASP Docker Security, Rule #8: Set filesystem and volumes to read-only](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-8-set-filesystem-and-volumes-to-read-only) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Docker Security, Rule #9: Integrate container scanning into CI/CD](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-9-integrate-container-scanning-tools-into-your-cicd-pipeline) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) | [general/operations-reliability](general/operations-reliability.md), [general/security](general/security.md) | 2026-10-24 |
+| 7 | [OWASP MASWE-0001, Sensitive Data Stored Unencrypted in Private Storage](https://mas.owasp.org/MASWE/MASVS-STORAGE/MASWE-0001/) | [general/security](general/security.md) | 2026-11-10 |
 | 7 | [OWASP Microservices Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet.html) | [general/security](general/security.md) | 2026-10-24 |
 | 7 | [OWASP Mobile Top 10, M1 Improper Credential Usage](https://owasp.github.io/www-project-mobile-top-10/2023-risks/m1-improper-credential-usage) | [general/security](general/security.md) | 2026-10-26 |
 | 7 | [OWASP Multifactor Authentication Cheat Sheet, Passkeys](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#passkeys) | [general/authentication](general/authentication.md) | 2026-10-25 |
@@ -1937,6 +1945,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [W3C, Understanding WCAG 2.2 SC 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [W3C, Understanding WCAG 2.2 SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [W3C, Understanding WCAG 2.2 SC 2.3.1 Three Flashes or Below Threshold](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
+| 7 | [W3C, Understanding WCAG 2.2 SC 2.4.2 Page Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html#intent) | [specific/web](specific/web/README.md) | 2026-11-10 |
 | 7 | [W3C, Understanding WCAG 2.2 SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html) | [general/accessibility](general/accessibility.md) | 2026-11-01 |
 | 7 | [W3C, WebGPU (Candidate Recommendation Draft)](https://www.w3.org/TR/webgpu/) | [specific/graphics](specific/graphics/README.md) | 2026-10-31 |
 | 7 | [W3C, Working with Time and Timezones (Group Draft Note)](https://www.w3.org/TR/timezone/) | [general/localization](general/localization.md) | 2026-10-26 |
@@ -2068,6 +2077,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AWS Security Hub, Resource Tagging standard](https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS Well-Architected, Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Azure Architecture Center, AI architecture design](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/ai-get-started) | [general/ai-systems](general/ai-systems.md) | 2026-11-10 |
+| 6 | [Azure Architecture Center, Chatty I/O antipattern: how to detect the problem](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/#how-to-detect-the-problem) | [general/data](general/data.md) | 2026-11-10 |
+| 6 | [BBC GEL, Routing](https://bbc.github.io/gel/foundations/routing/) | [specific/web](specific/web/README.md) | 2026-11-10 |
 | 6 | [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | [general/domain-driven-design](general/domain-driven-design.md) | 2026-10-24 |
 | 6 | [buf breaking, rules and categories](https://buf.build/docs/breaking/rules/) | [general/api-design](general/api-design.md) | 2026-10-25 |
 | 6 | [Bulletproof React, project structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) | [specific/react](specific/react/README.md) | 2026-10-24 |
@@ -2280,6 +2291,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [GitHub, Reuse workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Secure use reference: Using CODEOWNERS to monitor changes](https://docs.github.com/en/actions/reference/security/secure-use#using-codeowners-to-monitor-changes) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
 | 6 | [GitHub, Tutorials for GitHub Actions](https://docs.github.com/en/actions/tutorials) | [specific/github-actions](specific/github-actions/README.md) | 2026-10-25 |
+| 6 | [github/gitignore, a collection of .gitignore templates](https://github.com/github/gitignore) | [specific/gamedev](specific/gamedev/README.md) | 2026-11-10 |
 | 6 | [GitLab Docs, Branch rules](https://docs.gitlab.com/user/project/repository/branches/branch_rules/) | [general/repositories](general/repositories.md) | 2026-10-25 |
 | 6 | [GitLab Docs, CI/CD components: Avoid using global keywords](https://docs.gitlab.com/ci/components/#avoid-using-global-keywords) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
 | 6 | [GitLab Docs, CI/CD components: Replace hardcoded values with inputs](https://docs.gitlab.com/ci/components/#replace-hardcoded-values-with-inputs) | [specific/gitlab-ci](specific/gitlab-ci/README.md) | 2026-10-25 |
@@ -2597,9 +2609,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [OpenTelemetry Weaver, Live check](https://github.com/open-telemetry/weaver/blob/main/crates/weaver_live_check/README.md) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 6 | [OpenTelemetry, Deploy the Collector](https://opentelemetry.io/docs/collector/deploy/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
 | 6 | [OpenTelemetry, Training (certifications and courses)](https://opentelemetry.io/training/) | [specific/opentelemetry](specific/opentelemetry/README.md) | 2026-10-25 |
+| 6 | [OWASP Cryptographic Storage Cheat Sheet, Encrypting stored keys](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#encrypting-stored-keys) | [general/security](general/security.md) | 2026-11-10 |
 | 6 | [OWASP Dependency-Check, Maven plugin configuration](https://dependency-check.github.io/DependencyCheck/dependency-check-maven/configuration.html) | [specific/spring-boot](specific/spring-boot/README.md) | 2026-11-01 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Consider using a third-party service](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#consider-using-a-third-party-service) | [general/authentication](general/authentication.md) | 2026-10-25 |
 | 6 | [OWASP Multifactor Authentication Cheat Sheet, Resetting MFA](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html#resetting-mfa) | [general/authentication](general/authentication.md) | 2026-10-25 |
+| 6 | [OWASP NoSQL Security Cheat Sheet, Network and transport security](https://cheatsheetseries.owasp.org/cheatsheets/NoSQL_Security_Cheat_Sheet.html#network-transport-security) | [general/security](general/security.md) | 2026-11-10 |
 | 6 | [OWASP, Django Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet.html) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 6 | [OWASP, GraphQL Cheat Sheet: Introspection and GraphiQL](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#introspection-graphiql) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
 | 6 | [OWASP, GraphQL Cheat Sheet: Server-side batching and caching](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html#server-side-batching-and-caching) | [specific/graphql](specific/graphql/README.md) | 2026-10-25 |
@@ -2948,7 +2962,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Further reading (1–5)
 
-338 sources.
+339 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -3049,6 +3063,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [GameMaker, Download GameMaker (release channels)](https://gamemaker.io/en/download) | [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 5 | [GameMaker, GameMaker Update Spring 2026: LTS Roadmap, GMRT, and the Future](https://gamemaker.io/en/blog/update-spring-2026) | [specific/gamemaker](specific/gamemaker/README.md), [specific/gamemaker/project-structure](specific/gamemaker/project-structure.md) | 2026-11-01 |
 | 5 | [GameMaker, Winter Update: Slowing Down to Speed Up in 2025](https://gamemaker.io/en/blog/winter-update-2024) | [specific/gamemaker](specific/gamemaker/README.md) | 2026-11-01 |
+| 5 | [Gatsby (Marcy Sutton), What we learned from user testing of accessible client-side routing techniques](https://www.gatsbyjs.com/blog/2019-07-11-user-testing-accessible-client-routing/#recommendations-finding-common-ground) | [specific/web](specific/web/README.md) | 2026-11-10 |
 | 5 | [gdtoolkit, Linter (gdlint)](https://github.com/Scony/godot-gdscript-toolkit/wiki/3.-Linter) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 5 | [gdtoolkit, README (gdformat and CI usage)](https://github.com/Scony/godot-gdscript-toolkit/blob/master/README.md) | [specific/godot/code-architecture](specific/godot/code-architecture.md) | 2026-10-25 |
 | 5 | [gdUnit4, Command line tool](https://godot-gdunit-labs.github.io/gdUnit4/latest/advanced_testing/cmd/) | [specific/godot/testing](specific/godot/testing.md) | 2026-10-25 |

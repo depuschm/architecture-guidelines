@@ -21,17 +21,30 @@ Sources drift. Pages move, get retired, or change their advice (for example, Uni
 2. Fetch the page. Confirm the final URL is the same page, not a home, 404 or "deprecated" page.
 3. For each place it's cited, read the rule or entry and confirm the page **still says that**. Quote the supporting passage to yourself.
 
-Then:
+If the page is there:
 
 - **Still supports everything**: set its `verified` column in `sources.csv` to today's date (YYYY-MM-DD).
 - **Content changed**: reword the affected rules to match, or find a better source. Follow the `add-guideline` skill for new sources (verify, score). A rule keeps its ID when reworded.
-- **Moved**: the page, or its whole site, is at a new address. Update the link in the guideline files and `sources.csv`, keep its `#anchor`, and read the new page before relying on it. A redirect target can be less specific than the old page: rfc-editor.org, for example, redirects `/rfc/rfc9110` to an info page without the RFC's text, so link the full text, `/rfc/rfc9110.html`, instead. When a whole site moves, for example to a new domain or from GitHub to Codeberg, update all of its links in one go and check that each new address loads.
-- **Missing**: before you park a page, look for its new address. Check the site's home or news page for a move notice, the project's repository README, and a web search for the page's title. If you find it, treat it as moved.
-- **Retired, with a successor or an equivalent**: the site marks the page as retired or names a successor, or another current official page covers the same points. Replace it, after reading the replacement.
-- **Unavailable, but it may come back**: for example, only one language edition is gone, search engines still list the page, an older version of it still exists, or the site gives no retirement notice. Don't remove it. Keep it cited and park its exact URL in the "Temporarily unavailable" part of `exclude` in `lychee.toml`, with today's date and the reason.
-- **A parked page is back**: check it as above, and remove it from the "Temporarily unavailable" list.
+- **It redirects permanently (MOVED)**: handle it as a moved page, in step 1 below.
+
+If the page is broken, retired or missing, go through these steps in order, and stop at the first that applies:
+
+1. **Look for a new address first.** Moving is the most common reason a page disappears, much more common than a page being retired, so don't park or remove a page until you have looked. Check:
+   - redirects, and the site's home or news page for a move notice
+   - whether other links to the same site broke too, which means the whole site moved, for example to a new domain or from GitHub to Codeberg
+   - the project's repository README, or the archived repository's notice, for a new home
+   - the site's own search or sitemap, and a web search for the page's title
+
+   If you find the page at a new address, it **moved**. Update the link in the guideline files and `sources.csv`, keep its `#anchor`, and read the new page before relying on it. A new address can be less specific than the old page: rfc-editor.org, for example, redirects `/rfc/rfc9110` to an info page without the RFC's text, so link the full text, `/rfc/rfc9110.html`, instead. When a whole site moved, update all of its links in one go and check that each new address loads.
+2. **Retired, with a successor or an equivalent**: the site marks the page as retired or names a successor, or another current official page covers the same points. Replace it, after reading the replacement.
+3. **It may come back**: for example, only one language edition is gone, search engines still list the page, an older version of it still exists, or the site gives no retirement notice. Don't remove it. Keep it cited and park its exact URL in the "Temporarily unavailable" part of `exclude` in `lychee.toml`, with today's date and the reason.
+4. **Nothing else applies**: ask the repository owner before removing the entry or the rule. A removed rule's ID is retired automatically and never reused.
+
+For parked pages:
+
+- **Back again**: check it as above, and remove it from the "Temporarily unavailable" list.
+- **Still gone**: look for a new address again, as in step 1, since sites often move after a pause.
 - **Parked for three months or more**: list it in your summary and ask the repository owner whether to keep waiting, cite another source or remove the entry.
-- **No replacement exists**: ask the repository owner before removing the entry or the rule. A removed rule's ID is retired automatically and never reused.
 
 Never update a `verified` date without reading the page.
 

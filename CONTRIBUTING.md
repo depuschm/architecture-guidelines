@@ -132,11 +132,11 @@ CI runs the same checks on every push and pull request, and weekly to catch link
 
 Some sites return `403` to bots even when the page exists. They are listed in [`lychee.toml`](lychee.toml) under `exclude`. Check those links by hand, and only add a domain to the list after confirming in a browser that the page works.
 
-### Pages that are temporarily unavailable
+### Pages that move or disappear
 
-Don't remove a source just because its page is down. If it may come back, for example because only one language edition is gone, search engines still list it, or the site has no retirement notice, keep it cited and park its exact URL in the "Temporarily unavailable" part of `exclude` in [`lychee.toml`](lychee.toml), with the date and the reason. The source re-check looks at parked pages again each time and unparks them once they're back, and asks the repository owner what to do about pages parked for three months or more. Replace a page only when it has clearly moved or been retired, and ask the repository owner before removing a source that has no replacement.
+When a source breaks, first check whether the page, or its whole site, just moved: that's much more common than a page being retired. Look for a redirect or a move notice on the site, check whether other links to the same site broke too, and search for the page's title. If it moved, update the link and read the new page, because a redirect can lead to a less specific page. `verify_sources.py` lists permanent redirects (HTTP 301 and 308) as MOVED: the old link still works, so they don't fail CI, but they go stale.
 
-When a page moves, update its link. `verify_sources.py` lists permanent redirects (HTTP 301 and 308) as MOVED: the old link still works, so they don't fail CI, but they go stale. Check the new address before using it, because a redirect can lead to a less specific page.
+Only if you find no new address: replace a page that was clearly retired with its successor or an equivalent current source. Otherwise don't remove it. If it may come back, for example because only one language edition is gone, search engines still list it, or the site has no retirement notice, keep it cited and park its exact URL in the "Temporarily unavailable" part of `exclude` in [`lychee.toml`](lychee.toml), with the date and the reason. The source re-check looks at parked pages again each time, looks for a new address again, unparks them once they're back, and asks the repository owner what to do about pages parked for three months or more. Ask the repository owner before removing a source that has no replacement.
 
 ## 6. Licensing of contributions
 

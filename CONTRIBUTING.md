@@ -132,6 +132,10 @@ CI runs the same checks on every push and pull request, and weekly to catch link
 
 Some sites return `403` to bots even when the page exists. They are listed in [`lychee.toml`](lychee.toml) under `exclude`. Check those links by hand, and only add a domain to the list after confirming in a browser that the page works.
 
+### Pages that are temporarily unavailable
+
+Don't remove a source just because its page is down. If it may come back, for example because only one language edition is gone, search engines still list it, or the site has no retirement notice, keep it cited and park its exact URL in the "Temporarily unavailable" part of `exclude` in [`lychee.toml`](lychee.toml), with the date and the reason. The source re-check looks at parked pages again each time and unparks them once they're back. Replace a page only when it has clearly moved or been retired, and ask the repository owner before removing a source that has no replacement.
+
 ## 6. Licensing of contributions
 
 By contributing, you agree that guideline content is licensed under [CC BY 4.0](LICENSE), and code and skills under [MIT](LICENSE-CODE), as described in the [README](README.md#license).

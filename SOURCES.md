@@ -127,7 +127,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2808 sources.
+2810 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -597,6 +597,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Lambda best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Organizations, SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Prescriptive Guidance, ADR process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
+| 7 | [AWS Prescriptive Guidance, Best practices for using the Terraform AWS Provider](https://docs.aws.amazon.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction.html) | [specific/terraform](specific/terraform/README.md) | 2026-10-25 |
+| 7 | [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Security Hub, Foundational Security Best Practices standard](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Well-Architected Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html) | [general/ai-systems](general/ai-systems.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |

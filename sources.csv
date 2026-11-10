@@ -578,6 +578,8 @@ score,title,url,verified
 7,AWS Lambda best practices,https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html,2026-10-24
 7,"AWS Organizations, SCPs",https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html,2026-10-24
 7,"AWS Prescriptive Guidance, ADR process",https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html,2026-10-24
+7,"AWS Prescriptive Guidance, Best practices for using the Terraform AWS Provider",https://docs.aws.amazon.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction.html,2026-10-25
+7,AWS Prescriptive Guidance: cloud design patterns,https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html,2026-10-24
 7,"AWS Security Hub, Foundational Security Best Practices standard",https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html,2026-10-25
 7,AWS Security Reference Architecture,https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html,2026-10-24
 7,AWS Well-Architected Generative AI Lens,https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html,2026-10-24

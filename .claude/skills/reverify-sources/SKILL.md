@@ -11,7 +11,8 @@ Sources drift. Pages move, get retired, or change their advice (for example, Uni
 ## 1. Pick the batch
 
 - If the user named URLs, use those.
-- Otherwise run `python3 scripts/verify_sources.py` and take every BROKEN, RETIRED and SUSPECT source first.
+- Otherwise start with the parked pages: the URLs in the "Temporarily unavailable" part of `exclude` in `lychee.toml`. The link checks skip them, so only this re-check notices when they're back.
+- Then run `python3 scripts/verify_sources.py` and take every BROKEN, RETIRED and SUSPECT source.
 - Then fill the batch from `python3 scripts/verify_sources.py --stale --max-age 0`, oldest first. Default batch size: 20.
 
 ## 2. Check each source
@@ -24,7 +25,10 @@ Then:
 
 - **Still supports everything**: set its `verified` column in `sources.csv` to today's date (YYYY-MM-DD). If it moved permanently, replace the URL with the new canonical one in the guideline files and `sources.csv`.
 - **Content changed**: reword the affected rules to match, or find a better source. Follow the `add-guideline` skill for new sources (verify, score). A rule keeps its ID when reworded.
-- **Retired or gone**: replace it with an equivalent current source. If none exists, remove the entry or the rule. A removed rule's ID is retired automatically and never reused.
+- **Unavailable, but it may come back**: for example, only one language edition is gone, search engines still list the page, an older version of it still exists, or the site gives no retirement notice. Don't remove it. Keep it cited and park its exact URL in the "Temporarily unavailable" part of `exclude` in `lychee.toml`, with today's date and the reason.
+- **A parked page is back**: check it as above, and remove it from the "Temporarily unavailable" list.
+- **Moved or retired for good**: the site redirects to a new page, names a successor, or marks the page as retired. Replace it with the new page or an equivalent current source.
+- **No replacement exists**: ask the repository owner before removing the entry or the rule. A removed rule's ID is retired automatically and never reused.
 
 Never update a `verified` date without reading the page.
 
@@ -36,4 +40,4 @@ python3 scripts/check_citations.py
 python3 scripts/rank.py check
 ```
 
-Summarise per source: verified unchanged, updated (what changed and in which rule IDs), or replaced or removed.
+Summarise per source: verified unchanged, updated (what changed and in which rule IDs), replaced, parked or unparked, and any removal the owner needs to decide on.

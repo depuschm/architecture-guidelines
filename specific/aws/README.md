@@ -17,6 +17,7 @@ Scope: workloads on Amazon Web Services.
 - `9` [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library): how Amazon designs and operates its own services.
 - `8` [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) (whitepaper).
 - `7` [AWS Architecture Center](https://aws.amazon.com/architecture/): reference architectures and diagrams.
+- `7` [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html).
 - `7` [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html).
 - `6` Well-Architected lenses for specific workloads, for example the [Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) and the [Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html).
 

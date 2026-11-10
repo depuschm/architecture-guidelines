@@ -13,6 +13,7 @@ Scope: managing infrastructure with Terraform or OpenTofu (`tofu` instead of `te
 - `8` [Manage sensitive data](https://developer.hashicorp.com/terraform/language/manage-sensitive-data) (HashiCorp): sensitive, ephemeral and write-only values, and how to secure state.
 - `8` [HCP Terraform workspace best practices](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/best-practices) (HashiCorp): how to split workspaces, each with one state file, by blast radius, volatility and team ownership.
 - `7` [Running Terraform in automation](https://developer.hashicorp.com/terraform/tutorials/automation/automate-terraform) (HashiCorp): the plan, review and apply cycle in CI.
+- `7` [Best practices for using the Terraform AWS Provider](https://docs.aws.amazon.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction.html) (AWS Prescriptive Guidance): security, backends, code structure and provider versions on AWS.
 - `7` [OpenTofu language documentation](https://opentofu.org/docs/language/) (OpenTofu): the OpenTofu counterpart of the Terraform language docs, including features such as [state and plan encryption](https://opentofu.org/docs/language/state/encryption/).
 
 ## Key rules

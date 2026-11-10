@@ -43,6 +43,12 @@ exclude = [
   # This repository's own website. It's deployed after this check runs, and the strict
   # site build (.github/workflows/site.yml) already checks its links.
   '^https://depuschm\.github\.io/architecture-guidelines/',
+  # Temporarily unavailable: pages that disappeared but may come back. They stay cited, and
+  # the source re-check (.claude/skills/reverify-sources) looks at them again each time and
+  # removes them from this list once they're back. Give each the date and the reason.
+  # 2026-11-10: the English editions return 404; the German and Japanese editions remain.
+  '^https://docs\.aws\.amazon\.com/prescriptive-guidance/latest/cloud-design-patterns/introduction\.html$',
+  '^https://docs\.aws\.amazon\.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction\.html$',
   # Template placeholders.
   '^https://example\.com/',
 ]

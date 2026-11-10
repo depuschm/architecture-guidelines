@@ -1,0 +1,3 @@
+# Store CSV files with Unix line endings, whichever tool wrote them, so that diffs show only
+# real changes. scripts/rank.py writes them this way.
+*.csv text eol=lf

@@ -24,7 +24,6 @@ Stages the repository's Markdown into build/site-src/, then builds build/site/:
 Usage: python3 scripts/build_site.py [--serve]    (needs `pip install zensical`)
 """
 
-import importlib.util
 import json
 import re
 import shutil
@@ -178,11 +177,16 @@ def site_pages():
 
 
 def icon_svg(name):
-    """The inline SVG of a theme icon such as lucide/compass, from the installed Zensical package."""
-    spec = importlib.util.find_spec("zensical")
-    if spec is None:
-        sys.exit("Zensical is not installed: run pip install -r requirements.txt")
-    svg = Path(spec.origin).parent / "templates" / ".icons" / f"{name}.svg"
+    """The inline SVG of a theme icon such as lucide/compass, from the installed Zensical theme."""
+    try:
+        # The theme's own lookup, which Zensical's emoji extension uses too. Since Zensical 0.1,
+        # the theme and its icons are in the zensical_ui package.
+        from zensical_ui import get_theme_dir
+    except ImportError:
+        sys.exit("Zensical 0.1 or later is not installed: run pip install -r requirements.txt")
+    svg = Path(get_theme_dir()) / ".icons" / f"{name}.svg"
+    if not svg.exists():
+        sys.exit(f"Icon {name} not found in the Zensical theme: pick another in AREA_ICONS")
     return svg.read_text(encoding="utf-8").strip()
 
 

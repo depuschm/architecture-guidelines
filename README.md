@@ -107,7 +107,7 @@ zensical.toml       Website configuration, built by scripts/build_site.py
 | Infrastructure | [Docker](specific/docker/README.md) | [Docker building best practices](https://docs.docker.com/build/building/best-practices/) and [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) |
 | Infrastructure | [Kubernetes](specific/kubernetes/README.md) | [Kubernetes configuration good practices](https://kubernetes.io/blog/2025/11/25/configuration-good-practices/) |
 | Infrastructure | [OpenTelemetry](specific/opentelemetry/README.md) | [OpenTelemetry documentation](https://opentelemetry.io/docs/) |
-| Infrastructure | [AWS](specific/aws/README.md) | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Infrastructure | [AWS](specific/aws/README.md) | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html) |
 | Infrastructure | [Microsoft Azure](specific/azure/README.md) | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) |
 | Infrastructure | [Google Cloud](specific/gcp/README.md) | [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework) |
 | Infrastructure | [Serverless and edge hosting](specific/web-hosting/README.md) | [Vercel production checklist](https://vercel.com/docs/production-checklist) and [Cloudflare Workers best practices](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/) |

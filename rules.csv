@@ -101,7 +101,7 @@ AWS-1,active,"Give people access through IAM Identity Center federation and work
 AWS-2,active,"Use a multi-account structure with AWS Organizations, separating workloads and environments into their own accounts."
 AWS-3,active,"Design for Availability Zone failure, and understand AWS fault isolation boundaries."
 AWS-4,active,"Define AWS infrastructure with the CDK or CloudFormation, and follow the CDK best practices for structuring apps, constructs and stacks."
-AWS-5,active,"Review each workload against the Well-Architected Framework early in design and before go-live, and again after significant architecture changes."
+AWS-5,active,"Review each workload against the Well-Architected Framework at key milestones of its lifecycle, such as its design, before go-live and after significant architecture changes."
 AWS-6,active,"Choose a disaster recovery strategy from your RTO and RPO: backup and restore, pilot light, warm standby, or multi-site active/active."
 AWS-7,active,Set organisation-wide guardrails with service control policies.
 AWS-8,active,"In Lambda functions, separate the handler from the core logic, and reuse the execution environment for clients and connections."

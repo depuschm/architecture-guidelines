@@ -54,7 +54,7 @@ Tools that check the key rules above automatically, in CI, the IDE or a commit h
 
 ## Tutorials and further reading
 
-- `7` [Get started](https://docs.docker.com/get-started/) (Docker Docs): the official introduction to containers, images, registries, Dockerfiles, multi-stage builds and Compose.
+- `7` [Docker Learn](https://docs.docker.com/learn/) (Docker Docs): the official learning paths, from containers, images, volumes and Compose to building images, multi-stage builds, the build cache and sharing images on Docker Hub.
 - `7` [Docker guides](https://docs.docker.com/guides/) (Docker Docs): language-specific guides, such as Node.js, Python, Go and .NET, that containerize an app, set up local development in containers and run tests.
 - `6` [Docker Hardened Images](https://docs.docker.com/dhi/) (Docker Docs): minimal, continuously patched base images with SBOMs and provenance. The core images are free under Apache 2.0.
 - `5` [Use Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) (Docker Docs): sync or rebuild services automatically while you edit code.

@@ -7,7 +7,7 @@ Build systems that are observable, resilient to failure and cheap to operate.
 
 ## Adopted references
 
-- `10` [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html): the review framework for AWS workloads. See also [specific/aws](../specific/aws/README.md).
+- `10` [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html): the review framework for AWS workloads. See also [specific/aws](../specific/aws/README.md).
 - `10` [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/): the review framework for Azure workloads.
 - `10` [Google Cloud Well-Architected Framework](https://docs.cloud.google.com/architecture/framework): the review framework for Google Cloud workloads.
 - `9` [The Twelve-Factor App](https://12factor.net/): baseline rules for building deployable, scalable services.

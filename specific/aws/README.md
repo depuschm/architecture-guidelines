@@ -7,13 +7,13 @@ Scope: workloads on Amazon Web Services.
 
 ## Adopted references
 
-- `10` [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html): **the baseline, used for every workload review.** Its [pillars](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) each have a detailed whitepaper:
-  - `8` [Security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
-  - `8` [Reliability](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html)
-  - `7` [Operational excellence](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html)
-  - `7` [Performance efficiency](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html)
-  - `7` [Cost optimization](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html)
-  - `5` [Sustainability](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html)
+- `10` [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html): **the baseline, used for every workload review.** Since November 2026 it's a single document: [Cloud Foundations](https://docs.aws.amazon.com/wellarchitected/latest/framework/cloud-foundations.html) covers the multi-account environment, identity and access, observability, security, cost management and networking that workloads build on, and each of the [pillars](https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html#framework-pillars) has a detailed section under Cloud Workloads:
+  - `8` [Security](https://docs.aws.amazon.com/wellarchitected/latest/framework/security.html)
+  - `8` [Reliability](https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html)
+  - `7` [Operational excellence](https://docs.aws.amazon.com/wellarchitected/latest/framework/operational-excellence.html)
+  - `7` [Performance efficiency](https://docs.aws.amazon.com/wellarchitected/latest/framework/performance-efficiency.html)
+  - `7` [Cost optimization](https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization.html)
+  - `5` [Sustainability](https://docs.aws.amazon.com/wellarchitected/latest/framework/sustainability.html)
 - `9` [AWS Builders' Library](https://builder.aws.com/learn/topics/builders-library): how Amazon designs and operates its own services.
 - `8` [Organizing your AWS environment using multiple accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) (whitepaper).
 - `7` [AWS Architecture Center](https://aws.amazon.com/architecture/): reference architectures and diagrams.
@@ -28,7 +28,7 @@ Scope: workloads on Amazon Web Services.
 - `8` `AWS-3` **Design for Availability Zone failure, and understand AWS fault isolation boundaries.** ([AWS fault isolation boundaries](https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/abstract-and-introduction.html), [Static stability using Availability Zones](https://builder.aws.com/content/3K9SiqiJ369TGkkGzqPM95BuYWI/static-stability-using-availability-zones))
 - `8` `AWS-4` **Define AWS infrastructure with the CDK or CloudFormation, and follow the CDK best practices for structuring apps, constructs and stacks.** The general rule on infrastructure as code is `OPS-14` in [general/operations-reliability.md](../../general/operations-reliability.md). ([AWS CDK best practices](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html))
 - `8` `AWS-6` **Choose a disaster recovery strategy from your RTO and RPO: backup and restore, pilot light, warm standby, or multi-site active/active.** ([Disaster recovery of workloads on AWS](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html))
-- `7` `AWS-5` **Review each workload against the Well-Architected Framework early in design and before go-live, and again after significant architecture changes.** ([AWS Well-Architected, The review process](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-review-process.html))
+- `7` `AWS-5` **Review each workload against the Well-Architected Framework at key milestones of its lifecycle, such as its design, before go-live and after significant architecture changes.** AWS means these reviews as constructive conversations about architectural decisions, not audits. ([AWS Well-Architected Framework, Architecture governance](https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html#architecture-governance), [Definitions: milestones](https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html#framework-definitions))
 - `7` `AWS-7` **Set organisation-wide guardrails with service control policies.** ([AWS Organizations, SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html))
 - `6` `AWS-8` **In Lambda functions, separate the handler from the core logic, and reuse the execution environment for clients and connections.** ([AWS Lambda best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html), handler best practices for [C#](https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html) and [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html))
 - `6` `AWS-9` **Tag resources consistently for ownership, cost allocation and automation.** ([Tagging best practices](https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html))

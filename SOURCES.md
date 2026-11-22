@@ -12,7 +12,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
 | 10 | [Android, Guide to app architecture](https://developer.android.com/topic/architecture) | [specific/android](specific/android/README.md) | 2026-10-24 |
-| 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 10 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html) | [general/operations-reliability](general/operations-reliability.md), [specific/aws](specific/aws/README.md) | 2026-11-22 |
 | 10 | [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/) | [general/operations-reliability](general/operations-reliability.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 10 | [Dockerfile best practices](https://docs.docker.com/build/building/best-practices/) | [specific/docker](specific/docker/README.md), [specific/kubernetes](specific/kubernetes/README.md) | 2026-10-24 |
 | 10 | [Flutter app architecture](https://docs.flutter.dev/app-architecture) | [specific/flutter](specific/flutter/README.md) | 2026-10-24 |
@@ -112,7 +112,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 
 ## Recommended (6–8)
 
-2843 sources.
+2845 sources.
 
 | Score | Source | Used in | Verified |
 | --- | --- | --- | --- |
@@ -142,10 +142,9 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 8 | [AWS Builders' Library, Caching challenges and strategies](https://builder.aws.com/content/3K9TeXp6strMiJ4vhakpRD7BQWO/caching-challenges-and-strategies) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 8 | [AWS Builders' Library, Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) | [general/api-design](general/api-design.md) | 2026-10-24 |
 | 8 | [AWS Builders' Library, Timeouts, retries and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-25 |
-| 8 | [AWS Well-Architected, Reliability pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 8 | [AWS Well-Architected, Security pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 8 | [AWS Well-Architected, the pillars of the framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 8 | [AWS Well-Architected, The review process](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-review-process.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 8 | [AWS Well-Architected Framework, Cloud Foundations](https://docs.aws.amazon.com/wellarchitected/latest/framework/cloud-foundations.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
+| 8 | [AWS Well-Architected Framework, Reliability](https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
+| 8 | [AWS Well-Architected Framework, Security](https://docs.aws.amazon.com/wellarchitected/latest/framework/security.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
 | 8 | [Azure Well-Architected pillars](https://learn.microsoft.com/en-us/azure/well-architected/pillars) | [general/quality-attributes](general/quality-attributes.md), [specific/azure](specific/azure/README.md) | 2026-10-24 |
 | 8 | [Azure, Retry pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-24 |
 | 8 | [Azure: microservices architecture style](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices) | [general/architecture-styles](general/architecture-styles.md) | 2026-10-24 |
@@ -588,10 +587,11 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [AWS Prescriptive Guidance: cloud design patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS Security Hub, Foundational Security Best Practices standard](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 7 | [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 7 | [AWS Well-Architected Framework, Architecture governance](https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html#architecture-governance) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
+| 7 | [AWS Well-Architected Framework, Cost optimization](https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
+| 7 | [AWS Well-Architected Framework, Operational excellence](https://docs.aws.amazon.com/wellarchitected/latest/framework/operational-excellence.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
+| 7 | [AWS Well-Architected Framework, Performance efficiency](https://docs.aws.amazon.com/wellarchitected/latest/framework/performance-efficiency.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
 | 7 | [AWS Well-Architected Generative AI Lens](https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html) | [general/ai-systems](general/ai-systems.md), [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 7 | [AWS Well-Architected, Cost optimization pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 7 | [AWS Well-Architected, Operational excellence pillar](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
-| 7 | [AWS Well-Architected, Performance efficiency pillar](https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 7 | [AWS, Caching best practices](https://aws.amazon.com/caching/best-practices/) | [specific/redis](specific/redis/README.md) | 2026-10-25 |
 | 7 | [Azure Architecture Center, Chatty I/O antipattern](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/) | [general/data](general/data.md) | 2026-11-10 |
 | 7 | [Azure Well-Architected, Redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy) | [general/operations-reliability](general/operations-reliability.md) | 2026-10-26 |
@@ -652,6 +652,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Django, Writing your first Django app](https://docs.djangoproject.com/en/stable/intro/tutorial01/) | [specific/python](specific/python/README.md) | 2026-10-25 |
 | 7 | [Docker Engine security](https://docs.docker.com/engine/security/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker guides (language-specific)](https://docs.docker.com/guides/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
+| 7 | [Docker Learn](https://docs.docker.com/learn/) | [specific/docker](specific/docker/README.md) | 2026-11-22 |
 | 7 | [Docker, Build attestations](https://docs.docker.com/build/metadata/attestations/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Build context: .dockerignore files](https://docs.docker.com/build/concepts/context/#dockerignore-files) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Build secrets](https://docs.docker.com/build/building/secrets/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -661,7 +662,6 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 7 | [Docker, Checking your build configuration (build checks)](https://docs.docker.com/build/checks/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Control startup and shutdown order in Compose](https://docs.docker.com/compose/how-tos/startup-order/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Dockerfile reference: ENTRYPOINT](https://docs.docker.com/reference/dockerfile/#entrypoint) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
-| 7 | [Docker, Get started](https://docs.docker.com/get-started/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Manage secrets securely in Docker Compose](https://docs.docker.com/compose/how-tos/use-secrets/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
 | 7 | [Docker, Optimize cache usage: order your layers](https://docs.docker.com/build/cache/optimize/#order-your-layers) | [specific/docker](specific/docker/README.md) | 2026-10-25 |
@@ -2075,6 +2075,8 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 6 | [AWS Prescriptive Guidance, ADR best practices](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/best-practices.html) | [general/decisions](general/decisions.md) | 2026-10-24 |
 | 6 | [AWS Resilience Hub, concepts](https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
 | 6 | [AWS Security Hub, Resource Tagging standard](https://docs.aws.amazon.com/securityhub/latest/userguide/standards-tagging.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
+| 6 | [AWS Well-Architected Framework, Definitions and terms](https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html#framework-definitions) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
+| 6 | [AWS Well-Architected Framework, Pillars of the Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html#framework-pillars) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
 | 6 | [AWS Well-Architected, Serverless Applications Lens](https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 6 | [Azure Architecture Center, AI architecture design](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/ai-get-started) | [general/ai-systems](general/ai-systems.md) | 2026-11-10 |
 | 6 | [Azure Architecture Center, Chatty I/O antipattern: how to detect the problem](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/#how-to-detect-the-problem) | [general/data](general/data.md) | 2026-11-10 |
@@ -3001,7 +3003,7 @@ This file is generated from [sources.csv](sources.csv) by `python3 scripts/rank.
 | 5 | [AWS Lambda, C# handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Lambda, Python handler best practices](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
 | 5 | [AWS Resilience Hub, scheduled assessments](https://docs.aws.amazon.com/resilience-hub/latest/userguide/scheduled-assessment.html) | [specific/aws](specific/aws/README.md) | 2026-10-25 |
-| 5 | [AWS Well-Architected, Sustainability pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) | [specific/aws](specific/aws/README.md) | 2026-10-24 |
+| 5 | [AWS Well-Architected Framework, Sustainability](https://docs.aws.amazon.com/wellarchitected/latest/framework/sustainability.html) | [specific/aws](specific/aws/README.md) | 2026-11-22 |
 | 5 | [Babylon.js, Spector.js](https://github.com/BabylonJS/Spector.js/blob/master/readme.md) | [specific/web-games](specific/web-games/README.md) | 2026-11-01 |
 | 5 | [Bearer CLI, Report types: privacy report](https://docs.bearer.com/explanations/reports/#privacy-report) | [general/privacy](general/privacy.md) | 2026-10-26 |
 | 5 | [Cedric Neukirchen, Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) | [specific/unreal](specific/unreal/README.md) | 2026-10-25 |

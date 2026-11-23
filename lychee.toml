@@ -51,6 +51,10 @@ exclude = [
   # Cloud), at the same path: the fallback if the docs.aws.amazon.com pages don't come back.
   '^https://docs\.aws\.amazon\.com/prescriptive-guidance/latest/cloud-design-patterns/introduction\.html$',
   '^https://docs\.aws\.amazon\.com/prescriptive-guidance/latest/terraform-aws-provider-best-practices/introduction\.html$',
+  # 2026-11-23: Docker removed its language-specific guides; /guides/ redirects to Docker Learn,
+  # which has none. The redirect still loads, so it's back only when /guides/ stops redirecting
+  # and a language guide such as https://docs.docker.com/guides/nodejs/ loads again.
+  '^https://docs\.docker\.com/guides/$',
   # Template placeholders.
   '^https://example\.com/',
 ]
